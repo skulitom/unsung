@@ -358,11 +358,12 @@ export function createClient({
   const send = async (url, init, limitMs) => {
     const ctl = new AbortController();
     let timedOut = false;
+    // Deliberately not unref'd: a pending timeout is live work and must fire even when nothing else
+    // holds the event loop open (Node 20 exits instead). `finally` clears it as soon as the request settles.
     const timer = setTimeout(() => {
       timedOut = true;
       ctl.abort(new Error('Timed out'));
     }, limitMs);
-    /** @type {any} */ (timer).unref?.();
     const t0 = clk.ms();
     try {
       const res = await fetchImpl(url, { ...init, signal: ctl.signal });
