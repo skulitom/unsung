@@ -1,0 +1,448 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyMzI3Nzk0MTA=",
+  "nameWithOwner": "giantswarm/etcd-backup-operator",
+  "description": "Creates etcd backups and uploads them to AWS S3",
+  "homepageUrl": "",
+  "createdAt": "2020-01-09T10:08:03Z",
+  "pushedAt": "2026-09-10T18:18:35Z",
+  "diskUsage": 8675,
+  "stargazerCount": 15,
+  "forkCount": 7,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 119870,
+    "edges": [
+      {
+        "size": 108265,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 8428,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 1758,
+        "node": {
+          "name": "Mustache"
+        }
+      },
+      {
+        "size": 848,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 571,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "etcd"
+        }
+      },
+      {
+        "topic": {
+          "name": "backup"
+        }
+      },
+      {
+        "topic": {
+          "name": "operator"
+        }
+      },
+      {
+        "topic": {
+          "name": "docker-image"
+        }
+      },
+      {
+        "topic": {
+          "name": "metrics"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 56
+  },
+  "tags": {
+    "totalCount": 59
+  },
+  "watchers": {
+    "totalCount": 8
+  },
+  "owner": {
+    "login": "giantswarm",
+    "__typename": "Organization",
+    "createdAt": "2014-05-12T10:05:54Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1088,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T05:06:13Z",
+            "messageHeadline": "fix(deps): update capi modules to v1.14.2 (#1107)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T05:06:01Z",
+            "messageHeadline": "fix(deps): update module golang.org/x/crypto to v0.57.0 (#1109)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:54:47Z",
+            "messageHeadline": "chore(deps): update dependency architect to v10.4.1 (#1108)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:18:36Z",
+            "messageHeadline": "fix(deps): update module github.com/dlclark/regexp2/v2 to v2.8.0 (#1106)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:35:14Z",
+            "messageHeadline": "fix(deps): update module github.com/dlclark/regexp2/v2 to v2.7.2 (#1105)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:42:18Z",
+            "messageHeadline": "fix(nancy): remediate nancy findings (#1101)",
+            "author": {
+              "user": {
+                "login": "heraldbot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:36:59Z",
+            "messageHeadline": "fix(deps): update module sigs.k8s.io/controller-runtime to v0.25.0 (#…",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:31:41Z",
+            "messageHeadline": "chore: align files according to platform standards (#1103)",
+            "author": {
+              "user": {
+                "login": "giantswarm-align-files[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:30:22Z",
+            "messageHeadline": "chore(deps): update dependency architect to v10.4.0 (#1104)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:20:44Z",
+            "messageHeadline": "chore(deps): update dependency architect to v10.3.0 (#1102)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T02:55:18Z",
+            "messageHeadline": "fix(deps): update module golang.org/x/crypto to v0.56.0 (#1099)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T09:13:10Z",
+            "messageHeadline": "chore: bump version to 5.1.3-dev (#1098)",
+            "author": {
+              "user": {
+                "login": "taylorbot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T08:58:54Z",
+            "messageHeadline": "chore(release): v5.1.2 (#1097)",
+            "author": {
+              "user": {
+                "login": "taylorbot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T08:49:31Z",
+            "messageHeadline": "chore(go): Update dependencies. (#1096)",
+            "author": {
+              "user": {
+                "login": "Gacko"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T08:14:08Z",
+            "messageHeadline": "chore: bump version to 5.1.2-dev (#1095)",
+            "author": {
+              "user": {
+                "login": "taylorbot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T08:09:19Z",
+            "messageHeadline": "chore(release): v5.1.1 (#1094)",
+            "author": {
+              "user": {
+                "login": "taylorbot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T08:04:58Z",
+            "messageHeadline": "fix(deps): update module sigs.k8s.io/cluster-api to v1.14.1 (#1092)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T05:55:51Z",
+            "messageHeadline": "chore(deps): update dependency architect to v10.1.2 (#1090)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T05:52:05Z",
+            "messageHeadline": "fix(deps): update module google.golang.org/grpc to v1.83.2 (#1087)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T05:45:59Z",
+            "messageHeadline": "fix(nancy): remediate nancy findings (#1089)",
+            "author": {
+              "user": {
+                "login": "heraldbot[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".abs",
+        "type": "tree"
+      },
+      {
+        "name": ".circleci",
+        "type": "tree"
+      },
+      {
+        "name": ".cursor",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".nancy-ignore",
+        "type": "blob"
+      },
+      {
+        "name": ".nancy-ignore.generated",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".yamllint.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODEOWNERS",
+        "type": "blob"
+      },
+      {
+        "name": "DCO",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile.gen.app.mk",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile.gen.go.mk",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "create-cr.sh",
+        "type": "blob"
+      },
+      {
+        "name": "flag",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "helm",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "pkg",
+        "type": "tree"
+      },
+      {
+        "name": "renovate.json5",
+        "type": "blob"
+      },
+      {
+        "name": "server",
+        "type": "tree"
+      },
+      {
+        "name": "service",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "zz_generated.add-team-labels.yaml"
+      },
+      {
+        "name": "zz_generated.add-to-project-board.yaml"
+      },
+      {
+        "name": "zz_generated.check_values_schema.yaml"
+      },
+      {
+        "name": "zz_generated.create_release.yaml"
+      },
+      {
+        "name": "zz_generated.create_release_pr.yaml"
+      },
+      {
+        "name": "zz_generated.fix_vulnerabilities.yaml"
+      },
+      {
+        "name": "zz_generated.gitleaks.yaml"
+      },
+      {
+        "name": "zz_generated.run_ossf_scorecard.yaml"
+      },
+      {
+        "name": "zz_generated.semantic_pull_request.yaml"
+      },
+      {
+        "name": "zz_generated.validate_changelog.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4574,
+    "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/etcd-backup-operator.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/etcd-backup-operator)\n\n# etcd-backup-operator\n\nThe `etcd-backup-operator` takes backups of ETCD instances on both the control plane and tenant clusters.\n\nThe operator is meant to be run on the management cluster and performs V3 ETCD backups.\n\n## Branches\n\n- `main`\n  - When released, it triggers a deployment on all installations.\n  \n## Getting Project\n\nClone the Git repository: https://github.com/giantswarm/etcd-backup-operator.git\n\n### How to build\n\nBuild it using the standard `go build` command.\n\n```\ncd etcd-backup-operator\ngo build\n```\n\n### How to deploy\n\nUse `opsctl` the usual way. This project uses the `app` method (`opsctl deploy ... -m app`).\n\n## Running\n\nExample command run:\n\n```\nexport AWS_ACCESS_KEY_ID=<S3 access key ID>\nexport AWS_SECRET_ACCESS_KEY=<S3 secret access key>\ngo run -mod=vendor main.go daemon \\\n  --service.kubernetes.incluster=\"true\" \\\n  --service.s3.bucket=<S3 bucket> \\\n  --service.s3.region=<S3 region> \\\n  --service.etcdv3.cacert=<Path of the ETCD CA file> \\\n  --service.etcdv3.cert=<Path of the ETCD Cert file> \\\n  --service.etcdv3.key=<Path of the ETCD Private Key file> \\\n  --service.etcdv3.endpoints=<URL to connect to ETCD with V3 protocol>\n```\n\n### Available flags:\n\n#### Kubernetes connection settings:\n\n- `--service.kubernetes.incluster`: (Optional, defaults to `false`) Whether to use the in-cluster config to authenticate with Kubernetes.\n- `--service.kubernetes.address`: (Optional, defaults to `http://127.0.0.1:6443`) Address used to connect to Kubernetes. When empty in-cluster config is created.\n- `--service.kubernetes.kubeconfig`: (Optional) KubeConfig (formatted as JSON string) used to connect to Kubernetes. When empty other settings are used.\n- `--service.kubernetes.tls.cafile`: (Optional) Certificate authority file path to use to authenticate with Kubernetes.\n- `--service.kubernetes.tls.crtfile`: (Optional) Certificate file path to use to authenticate with Kubernetes.\n- `--service.kubernetes.tls.keyfile`: (Optional) Key file path to use to authenticate with Kubernetes.\n\n#### S3 settings:\n\n- `--service.s3.bucket`: (Required) AWS S3 Bucket name.\n- `--service.s3.region`: (Required) AWS S3 Region name.\n- `--service.s3.endpoint`: (Optional) Custom S3 endpoint URL.\n- `--service.s3.force-path-style`: (Optional, defaults to `false`) Enable path-style S3 URLs.\n\n#### IAM Roles for Service Accounts (IRSA) settings:\n\n- `--service.enableIRSA`: (Optional, defaults to `false`) Enable IAM Roles for Service Accounts (IRSA) for S3 access instead of using static credentials.\n- `--service.roleArn`: (Optional) AWS IAM Role ARN to use when IRSA is enabled.\n\n#### AWS Authentication:\n\nThere are two ways to authenticate with AWS for S3 access:\n\n1. **Static Credentials** (default method):\n   - Set environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`\n\n2. **IAM Roles for Service Accounts (IRSA)**:\n   - Enable with `--service.enableIRSA=true`\n   - Specify the role ARN with `--service.roleArn=arn:aws:iam::ACCOUNT_ID:role/ROLE_NAME`\n   - Ensure the Kubernetes service account is properly annotated with `eks.amazonaws.com/role-arn`\n   - No static credentials needed when using IRSA\n\nWhen IRSA is enabled, the operator will use the AWS SDK's credential chain to authenticate, which will automatically use the IAM role associated with the service account.\n\n#### ETCD connection settings:\n\n- `--service.etcdv3.cert`: (Required) Client certificate for ETCD v3 connection\n- `--service.etcdv3.cacert`: (Required) Client CA certificate for ETCD v3 connection\n- `--service.etcdv3.key`: (Required) Client private key for ETCD v3 connection\n- `--service.etcdv3.endpoints`: (Required) Endpoints for ETCD v3 connection\n\nAll four ETCD v3 fields are required when management cluster backup is enabled.\n\n#### Environment variables:\n\n- `AWS_ACCESS_KEY_ID`: (Required) The AWS access key ID, used to upload the backup files to AWS S3. \n- `AWS_SECRET_ACCESS_KEY`: (Required) The AWS secret access key, used to upload the backup files to AWS S3.\n\n#### Different schedules\n\nYou can schedule different cron datetimes to different clusters like it is explain here:\n\n```yaml\nschedules:\n- cronjob: 0 */6 * * *\n  clusters: '^(?!<cluster-id>)' # all clusters but the id defined\n- cronjob: 0 3 * * * *\n  clusters: '<cluster-id>' # only one cluster\n```\n\n## License\n\netcd-backup-operator is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

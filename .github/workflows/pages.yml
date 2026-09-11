@@ -1,0 +1,51 @@
+# Deploys the project site to GitHub Pages (DESIGN §11.6): docs/, the landing page, at the root and,
+# once you have published picks with `unsung export`, the gallery in site/ under /picks/. Nothing is
+# built from your data here and the census never runs in CI: a workflow token's limits are too tight
+# for it, and the data belongs to the person who runs Unsung. Settings → Pages → Source must be set
+# to "GitHub Actions".
+name: Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy docs/ (and site/ as /picks/) to GitHub Pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Assemble the site
+        run: |
+          mkdir -p _site
+          cp -R docs/. _site/
+          if [ -d site ]; then
+            mkdir -p _site/picks
+            cp -R site/. _site/picks/
+            jq '{entries: (.entries | length)}' site/data/gallery.json > _site/picks.json
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

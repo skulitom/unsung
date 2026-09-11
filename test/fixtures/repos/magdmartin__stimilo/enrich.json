@@ -1,0 +1,329 @@
+{
+  "nameWithOwner": "magdmartin/stimilo",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-05-04T23:49:45Z",
+  "pushedAt": "2026-09-08T19:27:41Z",
+  "diskUsage": 7370,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "SCSS"
+  },
+  "languages": {
+    "totalSize": 242820,
+    "edges": [
+      {
+        "size": 168729,
+        "node": {
+          "name": "SCSS"
+        }
+      },
+      {
+        "size": 57025,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 8882,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 6850,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1334,
+        "node": {
+          "name": "Ruby"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "magdmartin",
+    "__typename": "User",
+    "createdAt": "2012-10-18T13:33:16Z",
+    "repositories": {
+      "totalCount": 8
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 20,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T19:25:39Z",
+            "messageHeadline": "Remove GitHub link from sidebar menu",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:24:50Z",
+            "messageHeadline": "Remove \"Powered by Hydejack\" line from footer",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:24:00Z",
+            "messageHeadline": "Make footer copyright year dynamic",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:23:08Z",
+            "messageHeadline": "Add contact page with email and scheduling CTA",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T04:32:12Z",
+            "messageHeadline": "Disable breadcrumbs to fix 404s on date/category path segments",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T04:26:42Z",
+            "messageHeadline": "Disable large headings to fix long post titles overflowing on wide sc…",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T04:21:52Z",
+            "messageHeadline": "Fix blog listing showing no posts on GitHub Pages",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T04:08:46Z",
+            "messageHeadline": "Enable blog section: add blog page, nav link, and hide description fr…",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T04:06:40Z",
+            "messageHeadline": "Add post: Ten questions to ask before you commit new data to an AI",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T18:25:20Z",
+            "messageHeadline": "Replace favicon and icons with stimilo S logo",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T17:28:26Z",
+            "messageHeadline": "Revert Sass color functions to fix GitHub Pages build",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T17:18:53Z",
+            "messageHeadline": "Move work.markdown to portfolio branch",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T17:11:58Z",
+            "messageHeadline": "Add empty _posts/ folder with .gitkeep",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T16:15:31Z",
+            "messageHeadline": "update gitignore",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T15:34:49Z",
+            "messageHeadline": "Fix footer spacing and Sass deprecation warnings",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-20T15:15:15Z",
+            "messageHeadline": "folder clean up",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-05-05T19:12:07Z",
+            "messageHeadline": "Create CNAME",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-05-05T19:07:23Z",
+            "messageHeadline": "Delete CNAME",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-05-05T19:02:00Z",
+            "messageHeadline": "Create CNAME",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-05-05T18:59:00Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "magdmartin"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "404.html",
+        "type": "blob"
+      },
+      {
+        "name": "CNAME",
+        "type": "blob"
+      },
+      {
+        "name": "Gemfile",
+        "type": "blob"
+      },
+      {
+        "name": "Gemfile.lock",
+        "type": "blob"
+      },
+      {
+        "name": "_config.yml",
+        "type": "blob"
+      },
+      {
+        "name": "_includes",
+        "type": "tree"
+      },
+      {
+        "name": "_layouts",
+        "type": "tree"
+      },
+      {
+        "name": "_posts",
+        "type": "tree"
+      },
+      {
+        "name": "_sass",
+        "type": "tree"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "blog.markdown",
+        "type": "blob"
+      },
+      {
+        "name": "contact.markdown",
+        "type": "blob"
+      },
+      {
+        "name": "index.markdown",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

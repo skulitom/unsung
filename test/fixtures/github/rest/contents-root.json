@@ -1,0 +1,110 @@
+{
+  "request": {
+    "path": "/repos/zaghaghi/toolog/contents/"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:14:07 GMT",
+    "etag": "\"c6c8b942bb177446ca2438c9a7d70116d3020c6d\"",
+    "last-modified": "Thu, 10 Sep 2026 16:12:37 GMT",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4914",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "86"
+  },
+  "body": [
+    {
+      "name": ".cargo",
+      "path": ".cargo",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": ".claude",
+      "path": ".claude",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "size": 561
+    },
+    {
+      "name": "Cargo.lock",
+      "path": "Cargo.lock",
+      "type": "file",
+      "size": 152183
+    },
+    {
+      "name": "Cargo.toml",
+      "path": "Cargo.toml",
+      "type": "file",
+      "size": 5299
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "type": "file",
+      "size": 1071
+    },
+    {
+      "name": "PRIVACY.md",
+      "path": "PRIVACY.md",
+      "type": "file",
+      "size": 12065
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "size": 10980
+    },
+    {
+      "name": "crates",
+      "path": "crates",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": "fixtures",
+      "path": "fixtures",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": "justfile",
+      "path": "justfile",
+      "type": "file",
+      "size": 11276
+    },
+    {
+      "name": "packaging",
+      "path": "packaging",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "name": "ui",
+      "path": "ui",
+      "type": "dir",
+      "size": 0
+    }
+  ]
+}

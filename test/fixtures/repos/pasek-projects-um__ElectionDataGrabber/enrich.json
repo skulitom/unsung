@@ -1,0 +1,306 @@
+{
+  "nameWithOwner": "pasek-projects-um/ElectionDataGrabber",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T22:29:34Z",
+  "pushedAt": "2026-09-05T14:59:57Z",
+  "diskUsage": 222,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 135084,
+    "edges": [
+      {
+        "size": 135084,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "pasek-projects-um",
+    "__typename": "Organization",
+    "createdAt": "2026-08-28T18:17:24Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 57,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T12:16:43Z",
+            "messageHeadline": "Census local election-reporting sources across diverse states (#10)",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T12:16:39Z",
+            "messageHeadline": "Track Michigan election-night reporting units across county and munic…",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T12:16:32Z",
+            "messageHeadline": "Start Maine municipality-first portability census (#6)",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:33:01Z",
+            "messageHeadline": "Merge pull request #5 from pasek-projects-um/oh-county-platform-census",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:21:12Z",
+            "messageHeadline": "Guard complete Ohio 88-county registry coverage",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:21:08Z",
+            "messageHeadline": "Update Ohio portability test to statewide 88-county coverage",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:20:52Z",
+            "messageHeadline": "Complete Ohio statewide capability census",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:20:49Z",
+            "messageHeadline": "Complete Ohio 88-county authority registry",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:20:01Z",
+            "messageHeadline": "Lock verified second-cohort Ohio BOE classifications",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:19:57Z",
+            "messageHeadline": "Verify standardized BOE artifacts across second Ohio cohort",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:19:05Z",
+            "messageHeadline": "Stage Ohio counties 21-40 in portability matrix",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:18:42Z",
+            "messageHeadline": "Expand Ohio portability cohort to 40 counties",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:18:02Z",
+            "messageHeadline": "Merge pull request #4 from pasek-projects-um/mi-county-platform-census",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:16:33Z",
+            "messageHeadline": "Test Ohio portability benchmark distribution",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:16:29Z",
+            "messageHeadline": "Add Ohio portability scoring harness",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:15:28Z",
+            "messageHeadline": "Document robust PDF extraction escalation strategy",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:15:18Z",
+            "messageHeadline": "Test conservative PDF extraction heuristics",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:15:11Z",
+            "messageHeadline": "Add conservative generic PDF text extraction layer",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:14:58Z",
+            "messageHeadline": "Add baseline PDF extraction dependency",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T04:13:10Z",
+            "messageHeadline": "Document standardized Ohio BOE extraction family",
+            "author": {
+              "user": {
+                "login": "jmping"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "registry",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "me-end-to-end-audit.yml"
+      },
+      {
+        "name": "me-locality-smoke.yml"
+      },
+      {
+        "name": "mi-county-census-smoke.yml"
+      },
+      {
+        "name": "mi-county-election-night.yml"
+      },
+      {
+        "name": "mi-top10-election-night.yml"
+      },
+      {
+        "name": "national-local-source-sweep.yml"
+      },
+      {
+        "name": "nightly-state-census.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2627,
+    "text": "# ElectionDataGrabber\n\nElectionDataGrabber is an experimental pipeline for discovering, snapshotting, normalizing, and diffing U.S. local election-result sources, with Michigan as the initial test bed.\n\n## Design principles\n\n1. Prefer official structured data over rendered pages whenever available.\n2. Save immutable raw snapshots before parsing or normalization.\n3. Keep source timestamps and fetch timestamps separately.\n4. Treat precinct/reporting-unit identity as election-specific until a crosswalk proves continuity.\n5. Preserve vote-mode detail instead of collapsing it into totals.\n6. Keep official sources, open-data mirrors, and media sources distinct in provenance.\n7. Build platform adapters (Clarity/ENR, county systems, archives) rather than one scraper per county.\n\n## Initial Michigan benchmark\n\nOpenElections currently publishes 2024 general-election precinct CSV files for all 83 Michigan counties. The script below inventories those files, counts distinct county-scoped precinct labels, records row counts, and detects vote-mode columns.\n\n```bash\npython scripts/bootstrap_mi_openelections.py\n```\n\nThe OpenElections files are used as a historical benchmark/fallback source, not as the canonical live authority.\n\n## Current structure\n\n```text\nregistry/                       source registry and inventories\nscripts/                        acquisition/bootstrap utilities\nsrc/election_data_grabber/\n  adapters/base.py              fetch + immutable raw snapshots + adapter contract\n  discovery.py                  result-link discovery and vendor fingerprints\n  models.py                     canonical source/snapshot/result models\n```\n\n## Reusable upstream work\n\nWe intend to reuse compatible open-source tooling rather than reimplement vendor protocols. In particular, OpenElections' `clarify` library (MIT licensed) can discover and parse structured XML/CSV/XLS reports from Clarity election-result systems. MEDSL's precinct datasets and OpenElections' normalized state repositories are useful as independent historical reference datasets and QA targets.\n\n## Near-term roadmap\n\n- Inventory all 83 Michigan county authority/result URLs and fingerprint their reporting platforms.\n- Implement Washtenaw live-result parsing using the county's current election-reporting pages.\n- Add Clarity/ENR support through `clarify`.\n- Add change detection that emits result deltas only when a source snapshot changes.\n- Add QA checks for candidate totals, vote-mode totals, turnout, duplicate rows, and precinct completeness.\n- Build election-specific reporting-unit registries, then crosswalk precincts across elections.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

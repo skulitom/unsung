@@ -1,0 +1,39 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "legandrop/LGA_NukeShortcuts",
+  "set": "hardPositives",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 3507,
+    "keptBytes": 3507,
+    "excerpt": false
+  },
+  "expect": {
+    "lane": null,
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 3507,
+    "keptBytes": 3507,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "treeEntries": 37,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 14,
+    "stars": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "softwareone-platform/swo-adobe-vipm-extension",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S7_general",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 1674,
+    "keptBytes": 1674,
+    "excerpt": false
+  }
+}

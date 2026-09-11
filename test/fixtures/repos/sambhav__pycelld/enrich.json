@@ -1,0 +1,291 @@
+{
+  "id": "R_kgDOUQ9cmg",
+  "nameWithOwner": "sambhav/pycelld",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-07T08:23:37Z",
+  "pushedAt": "2026-09-09T09:07:40Z",
+  "diskUsage": 1729,
+  "stargazerCount": 6,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 285442,
+    "edges": [
+      {
+        "size": 217707,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 63614,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 2666,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 1455,
+        "node": {
+          "name": "TypeScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 8
+  },
+  "tags": {
+    "totalCount": 8
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "sambhav",
+    "__typename": "User",
+    "createdAt": "2015-12-03T07:48:03Z",
+    "repositories": {
+      "totalCount": 213
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 13,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T17:33:13Z",
+            "messageHeadline": "Add durable filesystems for Python objects without forking Monty (#2)",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:31:06Z",
+            "messageHeadline": "Require host middleware for Monty network access (#1)",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:22:04Z",
+            "messageHeadline": "Merge pull request #3 from sambhav/linux-glibc-compat",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T21:06:27Z",
+            "messageHeadline": "Support namespaced Monty extensions and Python worker packages",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T18:08:31Z",
+            "messageHeadline": "Expose pycelld as a complete host crate with typed Monty extensions",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T13:43:05Z",
+            "messageHeadline": "test: keep the native host runtime alive across parallel tests",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T13:33:08Z",
+            "messageHeadline": "test: verify native packing and worker retirement on celld 0.4.1",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:45:06Z",
+            "messageHeadline": "ci: publish numbered upstream-aligned releases on every main push",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:23:23Z",
+            "messageHeadline": "Update pinned celld to 0.4.1 and preserve native durability semantics",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:03:36Z",
+            "messageHeadline": "test: tolerate the draining response during dev reload",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:38:59Z",
+            "messageHeadline": "ci: build and publish Monty-enabled celld binaries from main",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:25:17Z",
+            "messageHeadline": "Import complete celld main snapshot",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:25:02Z",
+            "messageHeadline": "Initialize pycelld from sambhav/celld main",
+            "author": {
+              "user": {
+                "login": "sambhav"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "patches",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      },
+      {
+        "name": "upstream",
+        "type": "tree"
+      },
+      {
+        "name": "vendor",
+        "type": "tree"
+      },
+      {
+        "name": "xtask",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "monty.yml"
+      },
+      {
+        "name": "packing.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4819,
+    "text": "# Monty workers for celld\n\nWrite Python handlers and durable objects on [celld](https://github.com/denoland/celld),\nwith [Monty](https://github.com/pydantic/monty) executing entirely in Rust.\n\nUse the supplied binary, or import the `pycelld` Rust crate to build a host with\nyour own Monty functions and classes at custom Python import paths. The crate includes the patched celld host;\napplications need no patch commands or separate celld fork. Four maintained\npatches reproduce the included host sources from celld 0.4.1.\n\n## Build and run\n\n[Download celld binaries](https://github.com/sambhav/pycelld/releases/latest) for Linux\nand macOS, on x86-64 and ARM64. Linux binaries require glibc 2.28 or later. Every push to `main` automatically publishes a\ntested release such as `0.4.1-pycelld.4`: upstream celld version plus an increasing\nbuild number. Checksums and Python editor types are included. See\n[installation and versioning](docs/fork.md#download-and-release-binaries).\n\nUse Git and Rust 1.98.1. TypeScript bundling also requires `esbuild` on `PATH`;\nPython deployment does not invoke it.\n\n```sh\ncargo build --locked --profile lab\n./target/lab/celld dev examples/monty\n```\n\nThe default build uses celld's optimized `lab` profile. For a release binary:\n\n```sh\ncargo build --locked --release\n./target/release/celld types > celld.pyi\n```\n\n## Python interface\n\nPublic functions become POST handlers. Context is optional:\n\n```python\nfrom dataclasses import dataclass\nfrom celld import Context\n\n@dataclass\nclass Greeting:\n    message: str\n\ndef hello(name: str = \"world\") -> Greeting:\n    return Greeting(f\"Hello, {name}!\")\n\nclass Counter:\n    def __init__(self, id: str, ctx: Context):\n        self.id = id\n        self._ctx = ctx\n\n    def increment(self) -> int:\n        value = self._ctx.storage.get(\"count\", 0)\n        assert isinstance(value, int)\n        self._ctx.storage.set(\"count\", value + 1)\n        return value + 1\n\ndef increment(ctx: Context, id: str) -> int:\n    return Counter(id, ctx).increment()\n```\n\nSend `POST /hello` with `{\"name\":\"Sam\"}` or `POST /increment` with\n`{\"id\":\"visits\"}`. Durable classes are discovered and registered automatically.\nReturns map to HTTP responses, and exceptions become structured errors. Durable\ncalls preserve supported Python values, including dataclasses. Iterators and\nstreaming are deferred.\n\nDurable objects can use [`pathlib.Path` and `open()`](docs/filesystem.md) for\npersistent files and folders. Each object has a private root backed by its\nSQLite database, sharing storage transactions and recovery.\n\nOutbound HTTP is denied by default. Embedding hosts can install\n[fetch middleware](docs/extensions.md#outbound-http-middleware) to approve,\nrewrite, answer or deny calls without a JavaScript bridge.\n\nWorkers can also export a package through its `__init__.py`; set `main` to the\npackage directory.\n\nSee the [Python API](docs/python.md) and [complete example](examples/monty/worker.py).\n\n## Rust integration\n\n- [`pycelld`](src/lib.rs) includes the patched host, Monty, and the runtime API.\n  Mount extensions with `Monty::new().with_module(PythonModule::new(\"acme.api\")...)`, then call\n  `pycelld::run(runtime)` from your binary. See [extending Monty](docs/extensions.md)\n  and the [custom host example](examples/extended-host/main.rs).\n- [`celld-runtime`](crates/runtime-api/src/lib.rs) defines compilation, suspended\n  execution, typed host calls, and native response buffers.\n- [`celld-monty`](crates/monty-runtime) implements that contract. It has no\n  dependency on celld, V8, Tokio, or SQLite internals.\n- [`patches`](patches) adds native host support and registers the Monty crate.\n  celld retains scheduling, cell ownership, storage gates, cancellation, alarms,\n  and HTTP transport. TypeScript workers keep the existing V8 path.\n\nThe integration is statically linked. There is no JavaScript bridge or separate\ninterpreter process. The pinned upstream revision is recorded in\n[`upstream/revision`](upstream/revision); upgrading it is an explicit change.\n\n## Development\n\n```sh\ncargo xtask prepare  # fetch and apply patches, without compiling celld\ncargo xtask vendor --check  # verify included host sources match the patches\ncargo xtask test     # runtime, host integration, and build-workflow tests\npython3 tools/monty-checks/e2e.py target/lab/celld\npython3 tools/monty-checks/consumer.py  # separate Git dependency, types, HTTP\n```\n\n- [Builds, patch maintenance, and the runtime boundary](docs/build.md)\n- [Validation and benchmarks](docs/testing.md)\n- [Host configuration and binary releases](docs/fork.md)\n- [Benchmark results](tools/monty-checks/bench/README.md)\n\nUpstream architecture and operational documentation are available in the\n[celld repository](https://github.com/denoland/celld/tree/10cb1303dac710dcb3b557e318e08c855261f68b/docs).\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

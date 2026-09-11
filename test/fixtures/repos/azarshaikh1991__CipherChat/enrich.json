@@ -1,0 +1,306 @@
+{
+  "nameWithOwner": "azarshaikh1991/CipherChat",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-07T04:58:56Z",
+  "pushedAt": "2026-09-07T10:47:23Z",
+  "diskUsage": 2015,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 18628,
+    "edges": [
+      {
+        "size": 10424,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 4473,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 3618,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 113,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "azarshaikh1991",
+    "__typename": "User",
+    "createdAt": "2026-06-24T02:02:03Z",
+    "repositories": {
+      "totalCount": 13
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 35,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T10:47:18Z",
+            "messageHeadline": "name change",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:35:34Z",
+            "messageHeadline": "add download button",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:20:50Z",
+            "messageHeadline": "UI change",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:18:40Z",
+            "messageHeadline": "UI changes",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:06:03Z",
+            "messageHeadline": "updates some4",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:01:22Z",
+            "messageHeadline": "updates some3",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:59:22Z",
+            "messageHeadline": "updates some2",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:54:27Z",
+            "messageHeadline": "updates some1",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:51:25Z",
+            "messageHeadline": "updates some",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:46:55Z",
+            "messageHeadline": "view 1",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:42:41Z",
+            "messageHeadline": "view",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:35:10Z",
+            "messageHeadline": "update server.js3",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:32:24Z",
+            "messageHeadline": "update server.js2",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:30:34Z",
+            "messageHeadline": "update server.js1",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:27:42Z",
+            "messageHeadline": "updates for image upload",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:07:48Z",
+            "messageHeadline": "render updates2",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:03:44Z",
+            "messageHeadline": "render updates",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:56:47Z",
+            "messageHeadline": "update server.js",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T06:19:54Z",
+            "messageHeadline": "private chat",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T05:44:03Z",
+            "messageHeadline": "update Jenkinsfile13",
+            "author": {
+              "user": {
+                "login": "azarr1991"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".DS_Store",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "Jenkinsfile",
+        "type": "blob"
+      },
+      {
+        "name": "docker-compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "node_modules",
+        "type": "tree"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "server.js",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": {
+    "byteSize": 339,
+    "text": "{\n  \"name\": \"arzo-messenger\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Arzo - Fast Real-Time Messenger App\",\n  \"main\": \"server.js\",\n  \"scripts\": {\n    \"start\": \"node server.js\"\n  },\n  \"dependencies\": {\n    \"bcryptjs\": \"^2.4.3\",\n    \"express\": \"^4.18.2\",\n    \"jsonwebtoken\": \"^9.0.0\",\n    \"multer\": \"^2.3.0\",\n    \"socket.io\": \"^4.6.1\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

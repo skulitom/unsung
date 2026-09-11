@@ -1,0 +1,45 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "DaraPalwina/darapalwinanet",
+  "set": "luresAndSpam",
+  "label": "X",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 1806,
+    "keptBytes": 1806,
+    "excerpt": false
+  },
+  "expect": {
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "outcome": "dropped",
+    "lane": null,
+    "gates": [
+      "g.spam.streak"
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 1806,
+    "keptBytes": 1806,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/autocommit.yml"
+    ],
+    "treeEntries": 10,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": false
+  }
+}

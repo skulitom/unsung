@@ -1,0 +1,314 @@
+{
+  "nameWithOwner": "JevinFC/Portfolio",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-06-16T22:18:21Z",
+  "pushedAt": "2026-09-02T16:51:04Z",
+  "diskUsage": 8027,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 55742,
+    "edges": [
+      {
+        "size": 32177,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 17333,
+        "node": {
+          "name": "SCSS"
+        }
+      },
+      {
+        "size": 3635,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 2597,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "JevinFC",
+    "__typename": "User",
+    "createdAt": "2024-07-24T13:05:41Z",
+    "repositories": {
+      "totalCount": 21
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 45,
+        "nodes": [
+          {
+            "committedDate": "2026-09-02T16:50:58Z",
+            "messageHeadline": "Add test comment in Projects component to verify GitHub push",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-27T18:16:35Z",
+            "messageHeadline": "added portfolioLola to projects",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-13T13:54:20Z",
+            "messageHeadline": "Update French and English translations for clarity and consistency in…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-12T13:29:11Z",
+            "messageHeadline": "Add margin-right to header title for consistent alignment",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-12T12:56:58Z",
+            "messageHeadline": "Remove unnecessary margin-right from header title for improved layout",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-12T12:54:56Z",
+            "messageHeadline": "Remove commented-out Tarifs component and clean up FAQ translations f…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-23T11:57:00Z",
+            "messageHeadline": "Update meta description in index.html for improved clarity and concis…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-23T11:53:20Z",
+            "messageHeadline": "Change headings in CardProjects and Projects components from h1 to h3…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-23T11:49:52Z",
+            "messageHeadline": "Add \"see more\" translation and update title in CardProjects component",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-20T18:51:11Z",
+            "messageHeadline": "Update pricing for Basic, Standard, and Premium plans in language con…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-20T12:45:52Z",
+            "messageHeadline": "Enhance FAQ question styles: add appearance properties for consistent…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-20T11:09:51Z",
+            "messageHeadline": "Fix tarifCard width and centering for better responsiveness; adjust m…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-20T11:03:59Z",
+            "messageHeadline": "Enhance layout in aPropos and header components: adjust paragraph wid…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-20T10:58:59Z",
+            "messageHeadline": "Add Tarifs and FAQ components with translations; enhance layout and s…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-19T10:28:07Z",
+            "messageHeadline": "Refactor header component: change title from h1 to h2 for semantic co…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-17T14:20:29Z",
+            "messageHeadline": "Update language context and improve accessibility in Hero component; …",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-14T08:42:45Z",
+            "messageHeadline": "Update Open Graph meta tags for improved social media sharing and rep…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-06T10:10:07Z",
+            "messageHeadline": "Refactor margin and positioning for improved layout consistency in AP…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-02T18:09:57Z",
+            "messageHeadline": "Add title attributes to images in APropos and CardProjects components…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-02T17:41:29Z",
+            "messageHeadline": "Enhance APropos component with animated text and HTML support; update…",
+            "author": {
+              "user": {
+                "login": "JevinFC"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "eslint.config.js",
+        "type": "blob"
+      },
+      {
+        "name": "favicon.png",
+        "type": "blob"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "vite.config.js",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 856,
+    "text": "# React + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.\n"
+  },
+  "pkg": {
+    "byteSize": 888,
+    "text": "{\n  \"name\": \"my-react-app\",\n  \"private\": true,\n  \"version\": \"0.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"lint\": \"eslint .\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"@emailjs/browser\": \"^4.4.1\",\n    \"@fortawesome/free-brands-svg-icons\": \"^7.1.0\",\n    \"@fortawesome/free-solid-svg-icons\": \"^7.1.0\",\n    \"@fortawesome/react-fontawesome\": \"^3.1.0\",\n    \"framer-motion\": \"^12.23.24\",\n    \"react\": \"^19.1.0\",\n    \"react-dom\": \"^19.1.0\",\n    \"react-icons\": \"^5.5.0\"\n  },\n  \"devDependencies\": {\n    \"@eslint/js\": \"^9.25.0\",\n    \"@types/react\": \"^19.1.2\",\n    \"@types/react-dom\": \"^19.1.2\",\n    \"@vitejs/plugin-react\": \"^4.4.1\",\n    \"eslint\": \"^9.25.0\",\n    \"eslint-plugin-react-hooks\": \"^5.2.0\",\n    \"eslint-plugin-react-refresh\": \"^0.4.19\",\n    \"globals\": \"^16.0.0\",\n    \"sass-embedded\": \"^1.87.0\",\n    \"vite\": \"^6.3.5\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

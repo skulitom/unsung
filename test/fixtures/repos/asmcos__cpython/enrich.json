@@ -1,0 +1,272 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnk3MjMzNDcy",
+  "nameWithOwner": "asmcos/cpython",
+  "description": "www.jeapedu.com,为大学生提供python教程的平台",
+  "homepageUrl": "https://www.jeapedu.com",
+  "createdAt": "2012-12-19T01:51:46Z",
+  "pushedAt": "2026-09-07T02:19:06Z",
+  "diskUsage": 5858,
+  "stargazerCount": 15,
+  "forkCount": 7,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 453,
+    "edges": [
+      {
+        "size": 453,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "asmcos",
+    "__typename": "User",
+    "createdAt": "2011-02-28T00:22:54Z",
+    "repositories": {
+      "totalCount": 41
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 128,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T02:18:48Z",
+            "messageHeadline": "更新字符串",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-07T01:04:49Z",
+            "messageHeadline": "丰富变量的例子",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-03T02:07:47Z",
+            "messageHeadline": "修改联系方式",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-03T01:59:36Z",
+            "messageHeadline": "修改了主题风格",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-03T01:57:09Z",
+            "messageHeadline": "使用AI辅助文档修复，更新版本",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2020-03-05T12:36:57Z",
+            "messageHeadline": "zhanluejia",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-04T10:25:14Z",
+            "messageHeadline": "reqeusts sessions",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-04T08:34:46Z",
+            "messageHeadline": "修改adapter",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-04T05:49:42Z",
+            "messageHeadline": "models",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-02T12:43:02Z",
+            "messageHeadline": "cookies",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T14:20:39Z",
+            "messageHeadline": "auth",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T14:18:11Z",
+            "messageHeadline": "auth",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T14:16:41Z",
+            "messageHeadline": "auth",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T14:14:50Z",
+            "messageHeadline": "auth",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T13:54:37Z",
+            "messageHeadline": "add code hilite",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T13:46:49Z",
+            "messageHeadline": "requests api.py",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-08-01T13:45:04Z",
+            "messageHeadline": "requests api.py",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-07-31T01:41:05Z",
+            "messageHeadline": "API",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-07-31T00:52:09Z",
+            "messageHeadline": "增加 init 注释",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          },
+          {
+            "committedDate": "2018-07-31T00:44:49Z",
+            "messageHeadline": "代码必须加 代码表示，否则很乱",
+            "author": {
+              "user": {
+                "login": "asmcos"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "mkdocs.yml",
+        "type": "blob"
+      },
+      {
+        "name": "requests_notes",
+        "type": "tree"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 954,
+    "text": "# jeapedu · Python 教材\n\n智普教育 [jeapedu.com](https://jeapedu.com) 的大学生 Python 教材。用 MkDocs 生成网站。\n\n教材分两部分：\n\n1. **大学生 Python 入门**：基于 Python 3.12 及以上\n2. **金融科技学生学习大纲**：在入门之后学习数据处理、金融计算和量化入门\n\n## 本地预览\n\n请用虚拟环境，避免系统里的 `babel` / `pytz` 混用，以及误装 MkDocs 2.0。\n\n```\npython3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install -r requirements.txt\nexport NO_MKDOCS_2_WARNING=1\nmkdocs serve\n```\n\nWindows PowerShell：\n\n```\npython -m venv .venv\n.\\.venv\\Scripts\\Activate.ps1\npython -m pip install -r requirements.txt\n$env:NO_MKDOCS_2_WARNING = \"1\"\nmkdocs serve\n```\n\n浏览器打开提示的本地地址即可。\n\n`requirements.txt` 把 MkDocs 限制在 1.x。Material 主题目前不能用 MkDocs 2.0。构建时那条 MkDocs 2.0 提示可用 `NO_MKDOCS_2_WARNING=1` 关掉。\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

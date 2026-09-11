@@ -1,0 +1,294 @@
+{
+  "nameWithOwner": "tuliofalcao/inventoryproject",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-12-12T13:45:16Z",
+  "pushedAt": "2026-08-17T21:25:43Z",
+  "diskUsage": 460,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 229503,
+    "edges": [
+      {
+        "size": 108006,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 91640,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 18128,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 11729,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "tuliofalcao",
+    "__typename": "User",
+    "createdAt": "2017-11-13T05:18:29Z",
+    "repositories": {
+      "totalCount": 30
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 19,
+        "nodes": [
+          {
+            "committedDate": "2026-02-19T21:12:04Z",
+            "messageHeadline": "Merge pull request #10 from tuliofalcao/dependabot/pip/sqlparse-0.5.4",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-13T18:39:11Z",
+            "messageHeadline": "Bump sqlparse from 0.5.3 to 0.5.4",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-03T23:42:39Z",
+            "messageHeadline": "Merge pull request #9 from tuliofalcao/dependabot/pip/django-5.1.15",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-03T14:18:22Z",
+            "messageHeadline": "Bump django from 5.1.14 to 5.1.15",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-25T20:43:03Z",
+            "messageHeadline": "Create SECURITY.md for security policy and reporting",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-25T20:42:10Z",
+            "messageHeadline": "Merge pull request #8 from tuliofalcao/dependabot/pip/django-5.1.14",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-05T20:44:17Z",
+            "messageHeadline": "Bump django from 5.1.12 to 5.1.14",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-10T21:32:57Z",
+            "messageHeadline": "Merge pull request #6 from tuliofalcao/dependabot/pip/django-5.1.12",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-09T23:01:36Z",
+            "messageHeadline": "Bump django from 5.1.8 to 5.1.12",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-04-02T20:54:26Z",
+            "messageHeadline": "Merge pull request #3 from tuliofalcao/dependabot/pip/django-5.1.8",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-04-02T20:35:41Z",
+            "messageHeadline": "Bump django from 5.1.5 to 5.1.8",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-02-03T02:49:08Z",
+            "messageHeadline": "Episode 10",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-01-29T04:00:42Z",
+            "messageHeadline": "crispy",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-01-28T01:32:29Z",
+            "messageHeadline": "before the user registration class",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-01-04T02:43:02Z",
+            "messageHeadline": "class Order",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-01-04T02:06:30Z",
+            "messageHeadline": "dashboard > admin.py > class ProductAdmin",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-12-17T15:03:00Z",
+            "messageHeadline": "admin user",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-12-12T13:52:45Z",
+            "messageHeadline": "README.MD",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-12-12T13:43:32Z",
+            "messageHeadline": "primeiro commit",
+            "author": {
+              "user": {
+                "login": "tuliofalcao"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "inventory",
+        "type": "tree"
+      },
+      {
+        "name": "inventoryproject",
+        "type": "tree"
+      },
+      {
+        "name": "poetry.lock",
+        "type": "blob"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "yt.txt",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 317,
+    "text": "# UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO\n## LICENCIATURA EM COMPUTAÇÃO - 2024.2\n\nProfessora: Rozelma França\nAluno: Túlio Falcão\n\nProjeto de Inventário para a disciplina ESTÁGIO SUPERVISIONADO OBRIGATÓRIO II, a partir do canal do Kenbro Tech (https://www.youtube.com/@KenBroTech) em seu tutorial de Django.\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

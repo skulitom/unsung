@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "OCA/l10n-colombia",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S2_py_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 3438,
+    "keptBytes": 3438,
+    "excerpt": false
+  }
+}

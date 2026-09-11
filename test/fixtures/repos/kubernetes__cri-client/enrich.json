@@ -1,0 +1,297 @@
+{
+  "id": "R_kgDOL0942A",
+  "nameWithOwner": "kubernetes/cri-client",
+  "description": "Container Runtime Interface client implementation",
+  "homepageUrl": null,
+  "createdAt": "2024-04-29T19:18:11Z",
+  "pushedAt": "2026-09-08T23:41:18Z",
+  "diskUsage": 967,
+  "stargazerCount": 12,
+  "forkCount": 8,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": false,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 163555,
+    "edges": [
+      {
+        "size": 163555,
+        "node": {
+          "name": "Go"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 454
+  },
+  "watchers": {
+    "totalCount": 3
+  },
+  "owner": {
+    "login": "kubernetes",
+    "__typename": "Organization",
+    "createdAt": "2015-08-03T17:55:43Z"
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 359,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T23:03:00Z",
+            "messageHeadline": "Merge pull request #141873 from liggitt/kube-openapi",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:38:05Z",
+            "messageHeadline": "Bump kube-openapi",
+            "author": {
+              "user": {
+                "login": "liggitt"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:02:22Z",
+            "messageHeadline": "Merge pull request #141886 from AboEl3iz/fix-cve-2026-78662",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T14:56:40Z",
+            "messageHeadline": "update golang.org/x/crypto to v0.56.0",
+            "author": {
+              "user": {
+                "login": "AboEl3iz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T23:02:18Z",
+            "messageHeadline": "Merge pull request #141664 from liggitt/smd-json-v2",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T16:44:41Z",
+            "messageHeadline": "Vendor smd/v7, latest kube-openapi",
+            "author": {
+              "user": {
+                "login": "liggitt"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T19:02:48Z",
+            "messageHeadline": "Merge pull request #141663 from liggitt/go127",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T22:30:06Z",
+            "messageHeadline": "Update to go1.27",
+            "author": {
+              "user": {
+                "login": "liggitt"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T01:51:37Z",
+            "messageHeadline": "Merge pull request #141658 from liggitt/bump-containerd-api",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T18:15:44Z",
+            "messageHeadline": "Bump containerd API 1.12.0-rc.0",
+            "author": {
+              "user": {
+                "login": "liggitt"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T22:04:28Z",
+            "messageHeadline": "Merge pull request #141301 from dims/bump-protobuf-1.36.12",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T19:40:26Z",
+            "messageHeadline": "Update google.golang.org/protobuf to v1.36.12",
+            "author": {
+              "user": {
+                "login": "dims"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T04:12:12Z",
+            "messageHeadline": "Merge pull request #140366 from checkpoint-restore/pod-checkpoint-res…",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-02T16:33:55Z",
+            "messageHeadline": "cri-api: Add pod checkpoint and restore RPCs",
+            "author": {
+              "user": {
+                "login": "rst0git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T20:56:36Z",
+            "messageHeadline": "Merge pull request #140782 from dims/update-kube-openapi",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T13:56:05Z",
+            "messageHeadline": "Update k8s.io/kube-openapi to v0.0.0-20260721132016-d427ff9ee9ad",
+            "author": {
+              "user": {
+                "login": "dims"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T16:36:45Z",
+            "messageHeadline": "Merge pull request #140774 from dims/prom-client-v1.24.0",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-17T13:46:00Z",
+            "messageHeadline": "Update prometheus/client_golang to 1.24.0",
+            "author": {
+              "user": {
+                "login": "bwplotka"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-20T20:44:53Z",
+            "messageHeadline": "Merge pull request #140740 from dims/update-grpc-1.82.1",
+            "author": {
+              "user": {
+                "login": "k8s-publishing-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-20T13:34:47Z",
+            "messageHeadline": "Update google.golang.org/grpc to v1.82.1",
+            "author": {
+              "user": {
+                "login": "dims"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".import-restrictions",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "OWNERS",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY_CONTACTS",
+        "type": "blob"
+      },
+      {
+        "name": "code-of-conduct.md",
+        "type": "blob"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "pkg",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2990,
+    "text": "> ⚠️ **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.   \n> Contributions, including issues and pull requests, should be made to the main Kubernetes repository: [https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes).  \n> This repository is read-only for importing, and not used for direct contributions.  \n> See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.\n\n# cri-client\n\nContainer Runtime Interface client implementation\n\n## Purpose\n\nThis repository contains the client source code for the Container Runtime Interface (CRI).\nCRI is a plugin interface which enables kubelet to use a wide variety of container runtimes,\nwithout the need to recompile. CRI consists of a protocol buffers and gRPC API.\nRead more about CRI at [kubernetes docs](https://kubernetes.io/docs/concepts/architecture/cri/).\n\nThe repository [kubernetes/cri-client](https://github.com/kubernetes/cri-client) is a mirror of https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/cri-client.\nPlease do **not** file issues or submit PRs against the [kubernetes/cri-client](https://github.com/kubernetes/cri-client)\nrepository as it is readonly, all development is done in [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes).\n\nThe [`cri-api` staging repository](https://github.com/kubernetes/cri-api) is\ndefined in [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)\nand is **only** intended to be used for kubelet to container runtime\ninteractions, or for node-level troubleshooting using a tool such as `crictl`.\nThe `cri-api` wraps the [Protobuf protocol definition](https://github.com/kubernetes/cri-api/blob/63929b3/pkg/apis/runtime/v1/api.proto)\nwith extra features which can be used directly from other clients as well.\nIt is **not** a common purpose container runtime API for general use, and is\nintended to be Kubernetes-centric. We try to avoid it, but there may be logic\nwithin a container runtime that optimizes for the order or specific parameters\nof call(s) that the kubelet makes.\n\n## Community, discussion, contribution, and support\n\nLearn how to engage with the Kubernetes community on the [community\npage](http://kubernetes.io/community/).\n\nYou can reach the maintainers of this repository at:\n\n- Slack: #sig-node (on https://kubernetes.slack.com -- get an\n  invite at [slack.kubernetes.io](https://slack.kubernetes.io))\n- Mailing List:\n  https://groups.google.com/a/kubernetes.io/g/sig-node\n\n### Code of Conduct\n\nParticipation in the Kubernetes community is governed by the [Kubernetes\nCode of Conduct](code-of-conduct.md).\n\n### Contribution Guidelines\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md) for more information. Please note that [kubernetes/cri-api](https://github.com/kubernetes/cri-api)\nis a readonly mirror repository, all development is done at [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes).\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

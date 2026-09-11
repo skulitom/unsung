@@ -1,0 +1,338 @@
+{
+  "nameWithOwner": "swethasureshkumar-s/swetha",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T09:19:43Z",
+  "pushedAt": "2026-09-07T11:20:08Z",
+  "diskUsage": 796,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 242806,
+    "edges": [
+      {
+        "size": 234409,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 7147,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1250,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "swethasureshkumar-s",
+    "__typename": "User",
+    "createdAt": "2025-11-08T03:46:55Z",
+    "repositories": {
+      "totalCount": 3
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 55,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T11:20:03Z",
+            "messageHeadline": "Added Doofy project page",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:19:24Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:19:11Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:19:00Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:18:52Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:18:09Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:17:15Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:14:19Z",
+            "messageHeadline": "Added Doofy project page",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T11:14:07Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T10:19:39Z",
+            "messageHeadline": "Added unmute toggle",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T10:19:30Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T10:19:12Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:54:37Z",
+            "messageHeadline": "Added new photo to About",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:54:27Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:53:05Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:52:55Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T09:34:11Z",
+            "messageHeadline": "Updated contact section and copy",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T09:33:59Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T09:33:46Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T09:33:38Z",
+            "messageHeadline": "Changes",
+            "author": {
+              "user": {
+                "login": "lovable-dev[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".env",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".lovable",
+        "type": "tree"
+      },
+      {
+        "name": ".prettierignore",
+        "type": "blob"
+      },
+      {
+        "name": ".prettierrc",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "bun.lock",
+        "type": "blob"
+      },
+      {
+        "name": "bunfig.toml",
+        "type": "blob"
+      },
+      {
+        "name": "components.json",
+        "type": "blob"
+      },
+      {
+        "name": "eslint.config.js",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "supabase",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vite.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 948,
+    "text": "# Doc Portfolio Creator\n\ncreate a portfolio from the  document and don't add any video or create any video just give a balnk place in the video\n\nThis project was built with [Lovable](https://lovable.dev).\n\n**Live app**: https://swetha-video-portfolio.lovable.app\n\n## Build with Lovable\n\nContinue developing this project in the [Lovable editor](https://lovable.dev/projects/3b65847a-0cd7-4f35-b198-4b7f1dd4af24).\n\n- **Ship faster**: describe what you want to build and Lovable handles the code.\n- **Stay in sync**: every change made in Lovable is committed straight to this repository.\n- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.\n\n## Development\n\nPrefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).\n\n```sh\ngit clone <this-repository-url>\ncd <repository-name>\nnpm i\nnpm run dev\n```\n"
+  },
+  "pkg": {
+    "byteSize": 3039,
+    "text": "{\n  \"name\": \"tanstack_start_ts\",\n  \"private\": true,\n  \"sideEffects\": false,\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite dev\",\n    \"build\": \"vite build\",\n    \"build:dev\": \"vite build --mode development\",\n    \"preview\": \"vite preview\",\n    \"lint\": \"eslint .\",\n    \"format\": \"prettier --write .\"\n  },\n  \"overrides\": {\n    \"rolldown\": \"1.2.1\"\n  },\n  \"dependencies\": {\n    \"@hookform/resolvers\": \"^5.2.2\",\n    \"@radix-ui/react-accordion\": \"^1.2.12\",\n    \"@radix-ui/react-alert-dialog\": \"^1.1.15\",\n    \"@radix-ui/react-aspect-ratio\": \"^1.1.8\",\n    \"@radix-ui/react-avatar\": \"^1.1.11\",\n    \"@radix-ui/react-checkbox\": \"^1.3.3\",\n    \"@radix-ui/react-collapsible\": \"^1.1.12\",\n    \"@radix-ui/react-context-menu\": \"^2.2.16\",\n    \"@radix-ui/react-dialog\": \"^1.1.15\",\n    \"@radix-ui/react-dropdown-menu\": \"^2.1.16\",\n    \"@radix-ui/react-hover-card\": \"^1.1.15\",\n    \"@radix-ui/react-label\": \"^2.1.8\",\n    \"@radix-ui/react-menubar\": \"^1.1.16\",\n    \"@radix-ui/react-navigation-menu\": \"^1.2.14\",\n    \"@radix-ui/react-popover\": \"^1.1.15\",\n    \"@radix-ui/react-progress\": \"^1.1.8\",\n    \"@radix-ui/react-radio-group\": \"^1.3.8\",\n    \"@radix-ui/react-scroll-area\": \"^1.2.10\",\n    \"@radix-ui/react-select\": \"^2.2.6\",\n    \"@radix-ui/react-separator\": \"^1.1.8\",\n    \"@radix-ui/react-slider\": \"^1.3.6\",\n    \"@radix-ui/react-slot\": \"^1.2.4\",\n    \"@radix-ui/react-switch\": \"^1.2.6\",\n    \"@radix-ui/react-tabs\": \"^1.1.13\",\n    \"@radix-ui/react-toggle\": \"^1.1.10\",\n    \"@radix-ui/react-toggle-group\": \"^1.1.11\",\n    \"@radix-ui/react-tooltip\": \"^1.2.8\",\n    \"@supabase/supabase-js\": \"^2.115.0\",\n    \"@tailwindcss/vite\": \"^4.2.1\",\n    \"@tanstack/react-query\": \"^5.101.1\",\n    \"@tanstack/react-router\": \"1.170.18\",\n    \"@tanstack/react-start\": \"1.168.32\",\n    \"@tanstack/router-plugin\": \"1.168.23\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"cmdk\": \"^1.1.1\",\n    \"date-fns\": \"^4.1.0\",\n    \"embla-carousel-react\": \"^8.6.0\",\n    \"input-otp\": \"^1.4.2\",\n    \"lucide-react\": \"^0.575.0\",\n    \"motion\": \"^13.2.0\",\n    \"react\": \"^19.2.0\",\n    \"react-day-picker\": \"^9.14.0\",\n    \"react-dom\": \"^19.2.0\",\n    \"react-hook-form\": \"^7.71.2\",\n    \"react-resizable-panels\": \"^4.6.5\",\n    \"recharts\": \"^2.15.4\",\n    \"simple-icons\": \"^16.29.0\",\n    \"sonner\": \"^2.0.7\",\n    \"tailwind-merge\": \"^3.5.0\",\n    \"tailwindcss\": \"^4.2.1\",\n    \"tw-animate-css\": \"^1.3.4\",\n    \"vaul\": \"^1.1.2\",\n    \"vite-tsconfig-paths\": \"^6.0.2\",\n    \"zod\": \"^3.24.2\"\n  },\n  \"devDependencies\": {\n    \"@eslint/js\": \"^9.32.0\",\n    \"@lovable.dev/vite-tanstack-config\": \"^2.20.0\",\n    \"@types/node\": \"^22.16.5\",\n    \"@types/react\": \"^19.2.0\",\n    \"@types/react-dom\": \"^19.2.0\",\n    \"@vitejs/plugin-react\": \"^5.2.0\",\n    \"eslint\": \"^9.32.0\",\n    \"eslint-config-prettier\": \"^10.1.1\",\n    \"eslint-plugin-prettier\": \"^5.2.6\",\n    \"eslint-plugin-react-hooks\": \"^5.2.0\",\n    \"eslint-plugin-react-refresh\": \"^0.4.20\",\n    \"globals\": \"^15.15.0\",\n    \"nitro\": \"3.0.260603-beta\",\n    \"prettier\": \"^3.7.3\",\n    \"typescript\": \"^5.8.3\",\n    \"typescript-eslint\": \"^8.56.1\",\n    \"vite\": \"8.1.5\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 480
+  },
+  "claude": null
+}

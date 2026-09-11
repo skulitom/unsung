@@ -1,0 +1,45 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "gtfo-ai/platform",
+  "set": "hardNegatives",
+  "label": "W",
+  "stratum": "search",
+  "sample": "S1_ts_new",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 3165,
+    "keptBytes": 3165,
+    "excerpt": false
+  },
+  "expect": {
+    "lane": null,
+    "notLane": [
+      "proven"
+    ],
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "setRule": "the median S of the hard negatives is below the median S of the seed gems"
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 3165,
+    "keptBytes": 3165,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml"
+    ],
+    "treeEntries": 949,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": false
+  }
+}

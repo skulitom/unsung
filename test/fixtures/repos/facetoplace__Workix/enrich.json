@@ -1,0 +1,390 @@
+{
+  "id": "R_kgDOMShjVg",
+  "nameWithOwner": "facetoplace/Workix",
+  "description": "Way to find a work in AI era — storefront, MCP, self-host UI, Hub for products & startups",
+  "homepageUrl": "workix.co",
+  "createdAt": "2024-07-05T19:57:00Z",
+  "pushedAt": "2026-09-09T19:44:23Z",
+  "diskUsage": 13577,
+  "stargazerCount": 13,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 1635521,
+    "edges": [
+      {
+        "size": 768342,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 437103,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 388403,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 41136,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 537,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "freelance"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "model-context-protocol"
+        }
+      },
+      {
+        "topic": {
+          "name": "workix"
+        }
+      },
+      {
+        "topic": {
+          "name": "job-search"
+        }
+      },
+      {
+        "topic": {
+          "name": "open-source"
+        }
+      },
+      {
+        "topic": {
+          "name": "startup"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "facetoplace",
+    "__typename": "Organization",
+    "createdAt": "2023-04-02T18:09:19Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 20,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T19:44:21Z",
+            "messageHeadline": "refactor(agent): keep Telegram setup in MCP docs",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T19:41:32Z",
+            "messageHeadline": "fix(telegram): make credentials page English-first",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T19:39:47Z",
+            "messageHeadline": "feat(telegram): add shared API credentials onboarding",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T10:04:23Z",
+            "messageHeadline": "release: Workix MCP 1.2.6 — Profi/Avito/X sources, agent-community ca…",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T16:52:12Z",
+            "messageHeadline": "release: Workix MCP 1.2.2",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T13:40:35Z",
+            "messageHeadline": "docs: add Workix cover to public README",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T13:34:06Z",
+            "messageHeadline": "release: Workix MCP 1.1.0",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T23:42:12Z",
+            "messageHeadline": "public: harden .gitignore, drop personal example domain",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T16:58:08Z",
+            "messageHeadline": "mcp update 1.0.0",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T15:15:39Z",
+            "messageHeadline": "readme: cover every supported platform in Platform readiness",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T23:04:57Z",
+            "messageHeadline": "mcp update 0.3.2 — MIT license, JobSpy bridge",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T17:02:19Z",
+            "messageHeadline": "app update 1.2.11",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T16:51:31Z",
+            "messageHeadline": "mcp update 0.3.0",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T16:44:26Z",
+            "messageHeadline": "Agent page: CTA to suggest job sites and TG channels on GitHub.",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T16:43:47Z",
+            "messageHeadline": "Call for job sites and Telegram channels in README.",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T16:36:58Z",
+            "messageHeadline": "Release MCP 0.1.4: recommend install from source.",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T09:57:22Z",
+            "messageHeadline": "mcp update 0.1.3",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-26T14:45:33Z",
+            "messageHeadline": "Add downloadable MCP board adapters from hub registry.",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-26T14:35:57Z",
+            "messageHeadline": "Release 1.2.10: relaunch Workix.",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-05T19:57:00Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "LuckyCoders"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.ru.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.es.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.fr.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.hi.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.ru.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.tr.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.uk.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.zh.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "mcp",
+        "type": "tree"
+      },
+      {
+        "name": "views",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 19627,
+    "text": "# Workix\n\n**Languages:** [English](README.md) · [Русский](README.ru.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [हिन्दी](README.hi.md) · [中文](README.zh.md)\n\n![Workix](./assets/img/workix-cover-v8-green-angular-w-agents-api-rss.png)\n\nWorkix is a place where people, projects, and work find each other.\n\nThe [Workix hub](https://workix.co) brings three things into one catalog:\n\n- **Projects** — startups, products, and communities looking for people.\n- **Roles and orders** — open work with a description, budget, tags, and a way to apply.\n- **Participants** — specialists, collaborators, and mentors who can connect through skills and interests.\n\nWorkix is not a traditional freelance marketplace. It does not try to replace the relationship between a project and a specialist. A listing leads to the project owner's preferred contact or application form, while Workix makes the opportunity easy to publish, discover, and share.\n\nPeople can browse the catalog on the web. AI agents can search it and manage listings through MCP or the REST API. The same local MCP can also collect opportunities from external platforms while keeping platform credentials on the user's machine.\n\n**Open Workix:** [workix.co](https://workix.co)  \n**Guide for agents:** [workix.co/agent](https://workix.co/agent)  \n**API reference:** [workix.co/api.txt](https://workix.co/api.txt)\n\n## Ask your agent to explore Workix\n\nPaste this prompt into Cursor, Claude, or another coding agent. It asks the agent to study Workix and then help with your specific goal.\n\n```text\nLearn how Workix works:\n\n1. Open https://workix.co/agent, https://workix.co/llms.txt,\n   and https://workix.co/api.txt.\n2. Open https://github.com/facetoplace/Workix and read README.md.\n3. Explain in plain language:\n   - what Workix is and who it is for;\n   - how I can browse projects, roles, orders, and participants;\n   - what an AI agent can do through the Workix MCP and API;\n   - which parts run locally and how credentials are kept safe.\n4. Look at my current project and help me choose and complete one useful next step:\n   - connect Workix MCP to my agent;\n   - search for relevant work, participants, or mentors by skills and interests;\n   - publish or update a project, role, or participant profile;\n   - deploy the Workix storefront on my own domain;\n   - contribute an improvement to Workix.\n\nUse WORKIX_API=https://workix.co for the central hub.\nDo not upload freelance-platform passwords or tokens to the hub.\nAdapt the instructions to my operating system, tools, and project.\n```\n\n## What is in this repository?\n\nThis repository contains the open clients and integrations for Workix. They use the central hub API at `https://workix.co`, so a local copy can display the shared catalog without maintaining a separate catalog.\n\n- [`views/`](views/) contains the storefront pages.\n- [`assets/`](assets/) contains the browser application, styles, translations, PWA files, and public API documents.\n- [`mcp/`](mcp/) contains the TypeScript MCP server, Workix tools, and adapters for supported job platforms.\n- [`docker/`](docker/) contains a small nginx image for serving the storefront.\n- [`docs/`](docs/) contains public guides for agents and self-hosting.\n\nThe two main parts are independent:\n\n1. **Storefront** — a web interface for browsing the Workix catalog. You can use it at [workix.co](https://workix.co) or host the UI on your own domain.\n2. **MCP server** — tools that let an AI agent search Workix, manage your listings and profile, prepare proposals, and work with supported external sources.\n\nCatalog data is served by the central Workix API. Production secrets are not required to run the storefront or connect the MCP client.\n\n## Use Workix with an AI agent\n\nWith `WORKIX_API=https://workix.co`, an agent can search projects, roles, orders, participants, and mentors. With a `WORKIX_AGENT_KEY`, it can also create or update listings and manage a participant profile.\n\n**Reco\n\nRequires **Node 22.5 or newer**: the local store is SQLite through Node's built-in\n`node:sqlite`, so nothing has to compile at install time.\n\n```bash\ngit clone https://github.com/facetoplace/Workix.git\ncd Workix/mcp\nnpm install\nnpm run build\n```\n\nExample Cursor MCP configuration (from source):\n\n```json\n{\n  \"mcpServers\": {\n    \"workix\": {\n      \"command\": \"node\",\n      \"args\": [\"FULL/PATH/TO/Workix/mcp/dist/index.js\"],\n      \"env\": {\n        \"WORKIX_API\": \"https://workix.co\",\n        \"WORKIX_AGENT_KEY\": \"wix_…\"\n      }\n    }\n  }\n}\n```\n\nOptional shortcut: `npx -y @workix/mcp` · npm [`@workix/mcp`](https://www.npmjs.com/package/@workix/mcp) · Official Registry [`co.workix/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers?search=co.workix/mcp) · install UI: [workix.co/agent](https://workix.co/agent)\n\nRegister at [workix.co](https://workix.co) to get an agent key. The key is optional for public search and required for actions tied to your account.\n\nExternal platform credentials belong only in the local MCP environment. Do not send Upwork, Kwork, or other platform passwords and tokens to the Workix hub.\n\nSee [`mcp/README.md`](mcp/README.md) for installation, available tools, and source-specific settings.\n\n### MCP 1.2.2 highlights\n\n- Participant profiles can record networking, collaboration, and mentor preferences (`networking`, `startups`, `opensource`, `equity`) as `yes`, `unknown`, or `no`, plus an optional note.\n- `workix_list_performers` can filter participants who explicitly opted into networking, collaboration, or mentor formats; `hidden: true` keeps a profile out of public feeds and search.\n- `workix_bump_profile` resurfaces a profile without editing it. The hub allows one bump every three days and returns a cooldown with the next allowed time.\n- The MCP also includes the 1.2.0 collect/search workflow, expanded sources, and logged-in browser adapters described in [`mcp/CHANGELOG.md`](mcp/CHANGELOG.md).\n\n## Host the storefront on your domain\n\nProjects and communities can serve the Workix UI from a domain such as `work.example.com`. The mirror still reads the shared catalog from `https://workix.co`.\n\n1. Deploy `views/` and `assets/`, or use the image in [`docker/`](docker/).\n2. Point the UI to the hub:\n\n   ```html\n   <meta name=\"workix-api\" content=\"https://workix.co\" />\n   ```\n\n   You can also set `API_BASE` or `WORKIX_API` to `https://workix.co`.\n3. Configure your DNS and hosting for the chosen domain.\n\nListings associated with that domain can be featured for visitors to the mirror. See [work.facetoplace.app](https://work.facetoplace.app/) for a live example and [`docs/self-host.md`](docs/self-host.md) for details.\n\n## Use other platforms through Workix MCP\n\nWorkix MCP is also a single interface for working with external freelance marketplaces and job boards. An agent can search several sources in one digest, open a specific listing, draft a proposal, and either submit it through an available API or prepare a browser checklist for you.\n\nThese integrations run locally. API tokens, platform logins, and browser sessions stay on your machine and are not sent to the Workix hub. Proposal submission always requires explicit human confirmation.\n\n### Platform readiness\n\nThe score describes how much of the **intended Workix workflow** is ready today, not how much of the platform itself is covered:\n\n- **5/5** — search and submission work through a supported API.\n- **4/5** — reliable search; submission or authentication still has a fallback or limitation.\n- **3/5** — useful integration, but credentials, proxies, or an unofficial interface affect reliability.\n- **2/5** — browser-assisted watch source rather than an automated feed.\n- **1/5** — link/checklist only; deep automation is intentionally out of scope.\n\n\n\n\n\n\nEven a short note helps: URL or `t.me/…`, what niche it covers, and that posts are recent. You do not need to ship a full adapter — a proposal is enough. PRs that add an adapter or a channel to [`mcp/telegram-channels.example.json`](mcp/telegram-channels.example.json) are especially welcome."
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

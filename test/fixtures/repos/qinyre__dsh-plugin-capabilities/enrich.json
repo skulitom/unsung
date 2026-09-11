@@ -1,0 +1,375 @@
+{
+  "id": "R_kgDOT6Tbmg",
+  "nameWithOwner": "qinyre/dsh-plugin-capabilities",
+  "description": "在 dsh 设置页管理技能与 MCP 服务器，支持从 Claude Code、Codex 导入。",
+  "homepageUrl": null,
+  "createdAt": "2026-08-16T17:45:00Z",
+  "pushedAt": "2026-08-29T14:12:05Z",
+  "diskUsage": 1275,
+  "stargazerCount": 14,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 439653,
+    "edges": [
+      {
+        "size": 293275,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 89650,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 52056,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 4672,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "deepseek"
+        }
+      },
+      {
+        "topic": {
+          "name": "deepseek-harness"
+        }
+      },
+      {
+        "topic": {
+          "name": "dsh"
+        }
+      },
+      {
+        "topic": {
+          "name": "dsh-plugin"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "plugin-manager"
+        }
+      },
+      {
+        "topic": {
+          "name": "skills"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 2
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "qinyre",
+    "__typename": "User",
+    "createdAt": "2025-03-15T03:34:06Z",
+    "repositories": {
+      "totalCount": 12
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 28,
+        "nodes": [
+          {
+            "committedDate": "2026-08-29T14:10:41Z",
+            "messageHeadline": "mcp: card actions align right and wrap as a block; compact labels (0.…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T13:50:02Z",
+            "messageHeadline": "docs: README intro covers both patch layers and four agent sources; r…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T11:03:27Z",
+            "messageHeadline": "mcp: connectivity checks, cross-layer copy, scoped imports, Cursor/Ge…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T10:44:38Z",
+            "messageHeadline": "market: mcp installs honor a scope picker; uninstall follows the row'…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T10:25:39Z",
+            "messageHeadline": "mcp: merge the global patch layer into the server list, scope-tagged …",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T05:00:36Z",
+            "messageHeadline": "mcp: name the file and location when the patch YAML is corrupt (0.3.7)",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T13:43:51Z",
+            "messageHeadline": "chore: ignore pnpm-lock.yaml — this repo ships package-lock.json for …",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:38:02Z",
+            "messageHeadline": "ci: regenerate package-lock.json after the ^0.1.1-rc.1 dependency bum…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T11:54:44Z",
+            "messageHeadline": "deps: require dsh-skill-filesystem ^0.1.1-rc.1 to match host runtime;…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T16:11:22Z",
+            "messageHeadline": "repos: remove watched material after provider remount, hardened tree …",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T06:26:20Z",
+            "messageHeadline": "skills: edit market/local-repo skills in place; own bundled markdown …",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T05:57:00Z",
+            "messageHeadline": "skills/mcp editor modals wider; skill content gains Markdown preview …",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T05:49:51Z",
+            "messageHeadline": "market: detail modal widened and scrollable (0.3.2)",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T05:22:00Z",
+            "messageHeadline": "market: bigger catalog, detailed bilingual intros (0.3.1)",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T05:49:23Z",
+            "messageHeadline": "market: detail view with skill and tool inventories (0.3.0)",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T04:18:54Z",
+            "messageHeadline": "fix: open-folder spawned hidden explorer windows; skills home now cre…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T03:56:17Z",
+            "messageHeadline": "feat: markets, custom skill repos, load toggles, open-folder, MCP for…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T14:01:56Z",
+            "messageHeadline": "vendor skill-creator and find-skills as read-only packaged skills",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T13:43:19Z",
+            "messageHeadline": "settings: promote Skills & MCP to a top-level section; widen editor d…",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T06:11:09Z",
+            "messageHeadline": "feat: import dialog grouped by source agent with per-group select-all",
+            "author": {
+              "user": {
+                "login": "qinyre"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cordis.patch.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "market",
+        "type": "tree"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10785,
+    "text": "# dsh-plugin-capabilities\n\n[![npm version](https://img.shields.io/npm/v/dsh-plugin-capabilities)](https://www.npmjs.com/package/dsh-plugin-capabilities)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)\n\n在 dsh 设置页管理技能与 MCP 服务器。本插件在设置里新增一级分区「技能与 MCP」（与「通用设置」「模型」并列），内含「技能」「MCP」「市场」三个标签页：技能目录、自定义技能仓库和 MCP 服务器行（profile 层与全局层）都能直接在页面上查看与维护，不必手工编辑文件；来自 Claude Code、Codex、Cursor、Gemini CLI 等其他 agent 的技能与 MCP 配置也能一并纳入，市场里还有一份精选列表可一键安装。`dsh web` 与 [DSH Desktop](https://github.com/qinyre/dsh-Desktop) 均可使用。\n\n## 技能\n\n![「技能」标签页](docs/images/screenshot-skills.png)\n\n「技能」页列出 dsh 当前发现的全部技能，包括名称、描述、来源（项目、用户、内置、运行时、自定义）和调用策略。用户级技能存放在 `$DSH_HOME/skills`，可以在这里新建、编辑、删除：frontmatter 与正文分开填写，保存后写入对应的 `SKILL.md`。0.3.4 起从市场或本地仓库安装的技能也能就地编辑：写回只替换名称、描述、whenToUse 与调用策略这些编辑器掌握的键，文件里其余 frontmatter（license、allowed-tools 等）原样保留。技能目录处于文件系统监听之下，保存后数秒内条目就会出现在列表里，无需重启。项目目录和内置包等来源的技能以只读方式展示，可以查看全文。\n\n只要技能落在磁盘上（无论哪个来源），卡片左侧的开关都能控制是否加载：关掉会在它的 `SKILL.md` frontmatter 里写入 `disable-model-invocation: true` 与 `user-invocable: false`，模型目录和 `/` 命令同时摘除；打开则恢复默认策略。文件其余内容一字不动，全部来源的技能用的是同一套策略键，所以开关在任何提供方上都生效。运行时注册、没有文件的技能没有开关。卡片上还有「打开目录」按钮，一键在系统文件管理器里定位技能所在文件夹；列表多了以后，顶部的搜索框和来源筛选片可以按名称、描述、来源快速过滤。\n\n如果机器上存在 Claude Code 或 Codex 的技能目录（`~/.claude/skills`、`~/.codex/skills`），它们会作为额外的扫描根自动进入目录。文件不会被复制，改动留在原地，两边实时同步。\n\n### 技能仓库\n\n列表下方是「技能仓库」管理区，可以手动添加两类来源：本地目录（直接扫描，零拷贝，删除仓库不会动到你的文件）和 GitHub 仓库（支持 `https://github.com/owner/repo`、`owner/repo`，可用 `#分支` 或 `/tree/分支` 锁定版本；通过 GitHub 的 tarball 接口下载解包到 `$DSH_HOME/dsh-plugin-capabilities/`，机器上不需要装 git）。仓库布局自动识别——单个技能放在仓库根、多个技能各占一个子目录、或者集中在 `skills/` 之类的二级目录里，都能找到。添加或移除仓库会即时重挂载扫描提供方，目录随之增减，全程无需重启。仓库记录持久化在 `$DSH_HOME/dsh-plugin-capabilities/state.json`，随时可以整目录备份或手工修正。\n\n本插件还自带两条只读技能：skill-creator（创建与迭代改进技能，来自 [anthropics/skills](https://github.com/anthropics/skills)，Apache-2.0）与 find-skills（发现并安装社区技能，来自 [vercel-labs/skills](https://github.com/vercel-labs/skills)，MIT）。它们随插件进入扫描目录，设置页里来源显示为「自定义」，会话中可直接调用；升级插件即更新、卸载插件即移除，不向 `DSH_HOME` 写入任何文件。\n\n## MCP\n\n![「MCP」标签页](docs/images/screenshot-mcp.png)\n\n「MCP」页管理 profile patch 中的 MCP 服务器行，每行对应一个 `@deepseek-ai/dsh-mcp-client` 实例。stdio 服务器填写命令与参数，stre\n\n服务器行不只存在于 profile 里。dsh 还有一层全局补丁（`DSH_HOME/cordis.patch.yml`），对这台机器上的所有 profile 生效，组合时排在 profile 层之后、同名 id 以全局为准。0.3.8 起，「MCP」页把两层合在一起展示：每行带「全局」或「当前 profile」标记，两层出现同名 id 时 profile 行会注明自己不生效。添加服务器时可以选择写入哪一层，编辑、停用、移除也都落在该行所在的层。每行还有「检查」和「复制到另一层」两个动作：检查不启动服务器——stdio 行在 PATH 里确认命令真实存在（带 Windows 可执行扩展名），http 行发一个短超时的 GET，任何 HTTP 状态都算可达（MCP 端点对普通 GET 回 405 是正常的）；复制把整行配置搬去另一层，不用删了重配。全局文件损坏不会连累整个页面：profile 行照常列出，顶部横幅单独报出全局文件的路径与出错行列。\n\n添加或编辑服务器时，表单下方有「完整格式与快速填充」区：一边是随表单实时更新的完整 YAML 行（和保存后落进 `cordis.patch.yml` 的一模一样），另一边是等价的 `mcpServers` JSON 写法，可以直接抄去别的工具。反过来也行——把 Claude Code 配置、官方文档或任意 JSON 粘进输入框，点「解析并填充」，服务器名、命令、参数、环境变量、URL、请求头都会自动填好，`{\"mcpServers\": {...}}` 包装、裸条目、dsh 行三种形状都认。\n\n也可以从其他 agent 导入：一键扫描 Claude Code（`~/.claude.json`、`~/.claude/settings.json`）、Codex（`~/.codex/config.toml`）、Cursor（`~/.cursor/mcp.json`）与 Gemini CLI（`~/.gemini/settings.json`）的 MCP 配置，弹窗里先选写入当前 profile 还是全局层，勾选所需条目后转成服务器行。弹窗按来源分组，各自带数量与「全选」；stdio 与 http 两种传输都会处理（Gemini 的 SSE 条目除外，dsh 的客户端不支持），已存在的同名服务器置灰跳过。需要注意的是，Claude 配置里的 `${VAR}` 环境变量引用按字面值导入，如有需要请在导入后手动改回。\n\nMCP 行的变更需要重启 dsh 才会进入组合。MCP 页头部有常驻的「重启」按钮，变更后无需离开界面：在 [DSH Desktop](https://github.com/qinyre/dsh-Desktop) 中由桌面壳层重启受监督的 sidecar，完成后窗口自动重载；直接运行 `dsh web` 时插件会拉起一个替代进程再退出自身，页面在恢复后自动刷新——若启动时端口是随机的，按横幅提示在终端查看新地址。重启会中断正在进行的回合，点击后会先弹出确认。\n\n## 市场\n\n![「技能市场」](docs/images/screenshot-market-skills.png)\n\n![「MCP 市场」](docs/images/screenshot-market-mcp.png)\n\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-plugin-capabilities\n```\n\n安装后打开设置，即可在一级导航里看到「技能与 MCP」分区（位于「模型」与「插件」之间）。开发时也可以直接安装本地源码检出：`dsh plugin --profile web add file:/path/to/dsh-plugin-capabilities`，包内的 `prepare` 脚本会自动构建出 `lib/`。\n\n## 工作原理\n\n\n## 开发\n\n```sh\nnpm install\nnpm run typecheck\nnpm test\nnpm run build\n```\n\n端到端 smoke 默认关闭，要求同级目录下存在 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 源码检出，且 Node ≥ 22.19：\n\n```sh\nDSH_DESKTOP_PLUGIN_SMOKE=1 npm test\n```\n\n它会创建临时 `DSH_HOME`，把本插件装进 `web` profile，启动 `dsh web`，验证技能写入→目录监听→列表更新的完整链路，以及 MCP 行的写入与读回。\n\n## 许可\n\n[MIT](./LICENSE)\n"
+  },
+  "pkg": {
+    "byteSize": 2094,
+    "text": "{\n  \"name\": \"dsh-plugin-capabilities\",\n  \"version\": \"0.3.10\",\n  \"description\": \"Manage skills and MCP servers from the Web UI Settings. 在设置页管理 dsh 的技能与 MCP 服务器。\",\n  \"type\": \"module\",\n  \"main\": \"lib/index.js\",\n  \"types\": \"lib/types/index.d.ts\",\n  \"license\": \"MIT\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/qinyre/dsh-plugin-capabilities.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/qinyre/dsh-plugin-capabilities/issues\"\n  },\n  \"homepage\": \"https://github.com/qinyre/dsh-plugin-capabilities#readme\",\n  \"keywords\": [\n    \"deepseek\",\n    \"harness\",\n    \"dsh\",\n    \"dsh-plugin\",\n    \"skills\",\n    \"mcp\"\n  ],\n  \"dsh\": {\n    \"bundle\": {\n      \"patch\": \"./cordis.patch.yml\"\n    },\n    \"client\": {\n      \"inject\": [\n        \"@deepseek-ai/dsh-client-locale\",\n        \"@deepseek-ai/dsh-client-ui-slots\"\n      ],\n      \"platform\": \"web\"\n    }\n  },\n  \"exports\": {\n    \".\": {\n      \"types\": \"./lib/types/index.d.ts\",\n      \"default\": \"./lib/index.js\"\n    },\n    \"./client\": \"./lib/client.js\",\n    \"./cordis.patch.yml\": \"./cordis.patch.yml\",\n    \"./package.json\": \"./package.json\"\n  },\n  \"files\": [\n    \"lib\",\n    \"src\",\n    \"skills\",\n    \"market\",\n    \"cordis.patch.yml\",\n    \"LICENSE\"\n  ],\n  \"scripts\": {\n    \"build\": \"node scripts/build-node.mjs && node scripts/build-client.mjs && node scripts/verify-bundle.mjs\",\n    \"prepare\": \"node scripts/build-node.mjs && node scripts/build-client.mjs && node scripts/verify-bundle.mjs\",\n    \"typecheck\": \"tsc -p tsconfig.json --noEmit\",\n    \"test\": \"vitest run\",\n    \"bundle-check\": \"node scripts/verify-bundle.mjs\"\n  },\n  \"peerDependencies\": {\n    \"@deepseek-ai/cordis\": \"^4.0.1\"\n  },\n  \"dependencies\": {\n    \"@deepseek-ai/dsh-skill-filesystem\": \"^0.1.1-rc.1\",\n    \"dompurify\": \"^3.4.13\",\n    \"marked\": \"^18.0.10\",\n    \"smol-toml\": \"^1.3.1\",\n    \"yaml\": \"^2.6.0\"\n  },\n  \"devDependencies\": {\n    \"@deepseek-ai/cordis\": \"^4.0.1\",\n    \"@types/node\": \"^22.0.0\",\n    \"@types/react\": \"~18.3.1\",\n    \"esbuild\": \"^0.24.0\",\n    \"react\": \"^18.3.1\",\n    \"typescript\": \"^5.6.0\",\n    \"vitest\": \"^2.1.1\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,275 @@
+{
+  "id": "R_kgDOT8REMw",
+  "nameWithOwner": "mgonzs13/robcraft",
+  "description": "Lightweight robotics simulator for ROS 2.",
+  "homepageUrl": "https://mgonzs13.github.io/robcraft/",
+  "createdAt": "2026-08-18T10:15:52Z",
+  "pushedAt": "2026-08-18T13:36:42Z",
+  "diskUsage": 94680,
+  "stargazerCount": 10,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 1208557,
+    "edges": [
+      {
+        "size": 1106990,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 80076,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 15453,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 6038,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "robotics"
+        }
+      },
+      {
+        "topic": {
+          "name": "ros2"
+        }
+      },
+      {
+        "topic": {
+          "name": "simulation"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "mgonzs13",
+    "__typename": "User",
+    "createdAt": "2017-02-23T10:41:26Z",
+    "repositories": {
+      "totalCount": 93
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 10,
+        "nodes": [
+          {
+            "committedDate": "2026-08-18T13:36:07Z",
+            "messageHeadline": "fixing version 1.0.0",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T13:34:35Z",
+            "messageHeadline": "new vesion 1.1.0",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T13:34:18Z",
+            "messageHeadline": "Remove benchmark script and related tests; disable performance statis…",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T13:21:30Z",
+            "messageHeadline": "Add GitHub Actions workflow for Doxygen documentation deployment on r…",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T13:17:32Z",
+            "messageHeadline": "new version 1.0.0",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T13:10:05Z",
+            "messageHeadline": "exclude spdlog symbols from dynamic symbol table to prevent conflicts…",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T12:04:38Z",
+            "messageHeadline": "add CMAKE_DL_LIBS to renderer_core and imgui link libraries",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T11:59:38Z",
+            "messageHeadline": "set OpenGL preference to GLVND for multi-arch systems",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T11:48:48Z",
+            "messageHeadline": "downgrade CMake minimum version requirement from 3.20 to 3.10",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T11:44:36Z",
+            "messageHeadline": "Initial files",
+            "author": {
+              "user": {
+                "login": "mgonzs13"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "robcraft",
+        "type": "tree"
+      },
+      {
+        "name": "robcraft_bringup",
+        "type": "tree"
+      },
+      {
+        "name": "robcraft_cli",
+        "type": "tree"
+      },
+      {
+        "name": "robcraft_maze_demo",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "close-inactive-issues.yml"
+      },
+      {
+        "name": "cpp-formatter.yml"
+      },
+      {
+        "name": "create-release.yml"
+      },
+      {
+        "name": "doxygen-deployment.yml"
+      },
+      {
+        "name": "foxy-build-test.yml"
+      },
+      {
+        "name": "galactic-build-test.yml"
+      },
+      {
+        "name": "humble-build-test.yml"
+      },
+      {
+        "name": "iron-build-test.yml"
+      },
+      {
+        "name": "jazzy-build-test.yml"
+      },
+      {
+        "name": "kilted-build-test.yml"
+      },
+      {
+        "name": "lyrical-build-test.yml"
+      },
+      {
+        "name": "python-formatter.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 7038,
+    "text": "# RobCraft\n\n---\n\n<p align=\"center\">\n  <img src=\"docs/logo.png\" alt=\"RobCraft logo\" width=\"300\" />\n</p>\n\nLightweight robotics simulator inspired by the engineering philosophy of Warcraft III. Fast, deterministic, portable, and ROS 2 native. Designed to run on modest hardware.\n\n---\n\n<div align=\"center\">\n\n[![License: Apache-2.0](https://img.shields.io/badge/GitHub-Apache--2.0-informational)](https://opensource.org/license/apache-2-0)\n[![GitHub release](https://img.shields.io/github/release/mgonzs13/robcraft.svg)](https://github.com/mgonzs13/robcraft/releases)\n[![Code Size](https://img.shields.io/github/languages/code-size/mgonzs13/robcraft.svg?branch=main)](https://github.com/mgonzs13/robcraft?branch=main)\n[![Last Commit](https://img.shields.io/github/last-commit/mgonzs13/robcraft.svg)](https://github.com/mgonzs13/robcraft/commits/main)\n\n[![GitHub issues](https://img.shields.io/github/issues/mgonzs13/robcraft)](https://github.com/mgonzs13/robcraft/issues)\n[![GitHub pull requests](https://img.shields.io/github/issues-pr/mgonzs13/robcraft)](https://github.com/mgonzs13/robcraft/pulls)\n[![Contributors](https://img.shields.io/github/contributors/mgonzs13/robcraft.svg)](https://github.com/mgonzs13/robcraft/graphs/contributors)\n\n[![Python Formatter Check](https://github.com/mgonzs13/robcraft/actions/workflows/python-formatter.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/python-formatter.yml?branch=main)\n[![C++ Formatter Check](https://github.com/mgonzs13/robcraft/actions/workflows/cpp-formatter.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/cpp-formatter.yml?branch=main)\n\n| ROS 2 Distro |                                                                                                      Build and Test                                                                                                      |\n| :----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |\n|   **Foxy**   |        [![Foxy Build](https://github.com/mgonzs13/robcraft/actions/workflows/foxy-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/foxy-build-test.yml?branch=main)         |\n| **Galactic** |  [![Galactic Build](https://github.com/mgonzs13/robcraft/actions/workflows/galactic-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/galactic-build-test.yml?branch=main)   |\n|  **Humble**  | [![Humble Build and Test](https://github.com/mgonzs13/robcraft/actions/workflows/humble-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/humble-build-test.yml?branch=main) |\n|   **Iron**   |        [![Iron Build](https://github.com/mgonzs13/robcraft/actions/workflows/iron-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/iron-build-test.yml?branch=main)         |\n|  **Jazzy**   |       [![Jazzy Build](https://github.com/mgonzs13/robcraft/actions/workflows/jazzy-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/jazzy-build-test.yml?branch=main)       |\n|  **Kilted**  |     [![Kilted Build](https://github.com/mgonzs13/robcraft/actions/workflows/kilted-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/kilted-build-test.yml?branch=main)      |\n| **Lyrical**  |    [![Lyrical Build](https://github.com/mgonzs13/robcraft/actions/workflows/lyrical-build-test.yml/badge.svg?branch=main)](https://github.com/mgonzs13/robcraft/actions/workflows/lyrical-build-test.yml?branch=main)    |\n\n</div align=\"center\">\n\n## Installation\n\n```bash\ncd ~/ros2_ws/src\ngit clone https://github.com/mgonzs13/robcraft.git\nrosdep install --from-paths src --ignore-src -r -y\ncd ~/ros2_ws\ncolcon build\n```\n\n## Quick Start\n\n```bash\n# Run the simulator with the demo world\ncd ~/ros2_ws\nsource install/setup.bash\nros2 robcraft run worlds/maze.world\n\n# Open the world editor\nros2 robcraft edit\n\n# Run tests\ncolcon test --packages-select robcraft robcraft_cli\ncolcon test-result --verbose\n```\n\n`ros2 robcraft run` starts the simulator empty when no world is given. Pass `--texture-size 256|512|1024` to change the texture resolution.\n\n## Controls\n\n| Key              | Action                        |\n| ---------------- | ----------------------------- |\n| I / K            | Move robot forward / backward |\n| J / L            | Turn robot left / right       |\n| TAB              | Switch controlled robot       |\n| U                | Stop robot                    |\n| WASD / QE        | Camera move                   |\n| Right-click drag | Orbit camera                  |\n| Scroll           | Zoom camera                   |\n| Ctrl+O           | Open another world            |\n\n## ROS 2 Topics\n\n| Topic                             | Type                        |\n| --------------------------------- | --------------------------- |\n| `/clock`                          | `rosgraph_msgs/Clock`       |\n| `/robot_N/cmd_vel`                | `geometry_msgs/Twist` (sub) |\n| `/robot_N/odom`                   | `nav_msgs/Odometry`         |\n| `/robot_N/scan`                   | `sensor_msgs/LaserScan`     |\n| `/robot_N/imu`                    | `sensor_msgs/Imu`           |\n| `/robot_N/gps`                    | `sensor_msgs/NavSatFix`     |\n| `/robot_N/camera/image_raw`       | `sensor_msgs/Image`         |\n| `/robot_N/camera/camera_info`     | `sensor_msgs/CameraInfo`    |\n| `/robot_N/depth_camera/image_raw` | `sensor_msgs/Image`         |\n| `/robot_N/lidar3d/points`         | `sensor_msgs/PointCloud2`   |\n| `/tf`, `/tf_static`               | `tf2_msgs/TFMessage`        |\n\n> Topics publish at their configured rates (camera 30 Hz, IMU 100 Hz, GPS 10 Hz, 2D lidar 15 Hz, 3D lidar 10 Hz, odometry 30 Hz) in both windowed and headless modes; rates are editable in the editor. Sensor data is generated at the 100 Hz sim tick rate.\n\nDrive a robot (the demo world's robot is `robot_george_1`):\n\n```bash\nros2 topic pub /robot_george_1/cmd_vel geometry_msgs/msg/Twist \"{linear: {x: 1.0}, angular: {z: 0.5}}\"\n```\n\nView the camera feed:\n\n```bash\nros2 run rqt_image_view rqt_image_view /robot_george_1/camera/image_raw\n```\n\n## Maze Demo\n\n### SLAM\n\n```bash\nros2 launch robcraft_bringup sim.launch.py\n```\n\n```bash\nros2 launch robcraft_maze_demo nav2_bringup.launch.py slam:=True\n```\n\n### Navigation\n\n```bash\nros2 launch robcraft_bringup sim.launch.py\n```\n\n```bash\nros2 launch robcraft_maze_demo nav2_bringup.launch.py\n```\n\n### EKF + VSLAM\n\n```bash\nros2 launch robcraft_bringup sim.launch.py publish_odom_tf:=false\n```\n\n```bash\nros2 launch robcraft_maze_demo rtabmap_bringup.launch.py\n```\n\n### GPS + 3D Lidar\n\n```bash\nros2 launch robcraft_bringup sim.launch.py publish_odom_tf:=false\n```\n\n```bash\nros2 launch robcraft_maze_demo gps_rtabmap_lidar3d_bringup.launch.py\n```\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

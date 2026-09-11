@@ -1,0 +1,13 @@
+{
+  "name": "cli-structured",
+  "kind": "cli",
+  "description": "Legacy, hand-built: with --json-schema (no longer passed) the verdict would arrive as structured_output and .result would be prose. parseCliOutput still reads the field when present.",
+  "stdout": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"duration_ms\":41250,\"num_turns\":1,\"result\":\"Review complete.\",\"stop_reason\":\"end_turn\",\"session_id\":\"00000000-0000-4000-8000-000000000000\",\"total_cost_usd\":0.1123,\"usage\":{\"input_tokens\":9800,\"cache_creation_input_tokens\":2400,\"cache_read_input_tokens\":0,\"output_tokens\":2100},\"modelUsage\":{\"claude-opus-5\":{\"inputTokens\":9800,\"outputTokens\":2100,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":2400,\"costUSD\":0.1123}},\"api_error_status\":null,\"permission_denials\":[],\"structured_output\":{\"category\":\"G\",\"categoryConfidence\":0.85,\"scores\":{\"purpose\":4,\"craft\":3,\"verification\":3,\"honesty\":3,\"originality\":3},\"claims\":[{\"text\":\"Predicts tides offline from harmonic constants\",\"path\":\"README.md\",\"quote\":\"Offline tide predictions for any port with published harmonic constants.\",\"supports\":\"purpose\"},{\"text\":\"A test checks a known high water at Brest\",\"path\":\"tests/predict.rs\",\"quote\":\"fn brest_high_water_is_near_six_metres()\",\"supports\":\"verification\"},{\"text\":\"CI runs the whole test suite\",\"path\":\".github/workflows/ci.yml\",\"quote\":\"run: cargo test --all\",\"supports\":\"verification\"},{\"text\":\"Unknown ports fail with a clear message\",\"path\":\"src/main.rs\",\"quote\":\"let port = ports::find(&args.port).expect(\\\"unknown port\\\");\",\"supports\":\"craft\"}],\"flags\":[],\"pitch\":\"Offline tide predictions from harmonic constants, checked against a known port.\",\"audience\":\"Sailors and coastal walkers\",\"summary\":\"A small, tested Rust CLI that does one job well.\",\"injectionSeen\":false}}",
+  "expect": {
+    "status": "ok",
+    "kept": 4,
+    "dropped": 0,
+    "points": 1,
+    "lane": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "inamdarmihir/ask-my-tabs",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 13250,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven",
+      "look"
+    ],
+    "band": [
+      "gem",
+      "look"
+    ],
+    "minS": 5,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 13250,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/build.yml"
+    ],
+    "treeEntries": 33,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 3,
+    "stars": false
+  }
+}

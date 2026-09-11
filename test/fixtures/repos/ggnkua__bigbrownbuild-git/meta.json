@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "ggnkua/bigbrownbuild-git",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S7_general",
+  "readme": {
+    "name": "readme.md",
+    "originalBytes": 6319,
+    "keptBytes": 6319,
+    "excerpt": false
+  }
+}

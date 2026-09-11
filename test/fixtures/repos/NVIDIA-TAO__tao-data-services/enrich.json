@@ -1,0 +1,399 @@
+{
+  "id": "R_kgDOJ1kuoA",
+  "nameWithOwner": "NVIDIA-TAO/tao-data-services",
+  "description": "Set of advanced data augmentation and analytics tools",
+  "homepageUrl": null,
+  "createdAt": "2023-06-29T11:14:48Z",
+  "pushedAt": "2026-09-11T00:54:31Z",
+  "diskUsage": 741,
+  "stargazerCount": 15,
+  "forkCount": 11,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 1522029,
+    "edges": [
+      {
+        "size": 1488623,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 17836,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 15269,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 301,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 4
+  },
+  "tags": {
+    "totalCount": 6
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "NVIDIA-TAO",
+    "__typename": "Organization",
+    "createdAt": "2026-04-09T13:21:55Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 47,
+        "nodes": [
+          {
+            "committedDate": "2026-08-20T21:18:00Z",
+            "messageHeadline": "[TAO-0000][Feature] Dump final experiment config with user overrides …",
+            "author": {
+              "user": {
+                "login": "sfarhat-nvidia"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T16:11:05Z",
+            "messageHeadline": "[TAO-2319][Bugfix] Add class_name column to kpi_calc.csv output (#31)",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-12T10:01:01Z",
+            "messageHeadline": "chore: install git hooks from the environment setup script",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T23:26:34Z",
+            "messageHeadline": "[TAO-2319][Bugfix] Correct kpi.py FN sentinel and voc_ap argument ord…",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T21:55:38Z",
+            "messageHeadline": "[TAO-2319][Feature] Tests for OD gap-analysis command (#25)",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T15:46:29Z",
+            "messageHeadline": "ci: validate pull request title format for TAO developers",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T15:20:47Z",
+            "messageHeadline": "[TAO-2319][Feature] Implement OD gap-analysis command and update READ…",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T03:30:15Z",
+            "messageHeadline": "[TAO-2319][Feature] Add OD gap-analysis config schema and experiment …",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T18:14:30Z",
+            "messageHeadline": "docs: document pre-commit setup and dependency change policy (#28)",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T16:59:41Z",
+            "messageHeadline": "ci: block dependency changes at commit time",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T12:37:42Z",
+            "messageHeadline": "[TAO-2319][Feature] Add load_scored_annotations and scored-annotation…",
+            "author": {
+              "user": {
+                "login": "arihantj-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T04:24:50Z",
+            "messageHeadline": "ci: exclude the Lob detector from secret scanning",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-06T21:18:46Z",
+            "messageHeadline": "build: add submodule(s) pinned to latest main (#26)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T18:01:19Z",
+            "messageHeadline": "docs: standardize CONTRIBUTING (workflow, /build, backports, license,…",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T05:53:03Z",
+            "messageHeadline": "Migrate GitLab main → GitHub main (#19)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T18:14:14Z",
+            "messageHeadline": "ci: add commit hooks, PR checks and code ownership",
+            "author": {
+              "user": {
+                "login": "hqtran-nv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T01:16:15Z",
+            "messageHeadline": "ci: deploy trunk-based-dev bots (PR reminder + cherry-pick) (#18)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T22:25:02Z",
+            "messageHeadline": "Remove stale third_party/ to match GitLab release/7.1.0 (#16)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T22:12:02Z",
+            "messageHeadline": "Migrate test suite + dev files from GitLab release/7.1.0 (#15)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T21:58:26Z",
+            "messageHeadline": "Release/7.1.0 (#14)",
+            "author": {
+              "user": {
+                "login": "christinayyw"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".pylintrc",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTORS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "coveragerc",
+        "type": "blob"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "nvidia_tao_ds",
+        "type": "tree"
+      },
+      {
+        "name": "release",
+        "type": "tree"
+      },
+      {
+        "name": "runner",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "setup.py",
+        "type": "blob"
+      },
+      {
+        "name": "tao-core",
+        "type": "commit"
+      },
+      {
+        "name": "tao-pytorch",
+        "type": "commit"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "blossom-ci.yml"
+      },
+      {
+        "name": "cherry-pick.yml"
+      },
+      {
+        "name": "dco.yml"
+      },
+      {
+        "name": "pr-reminder.yml"
+      },
+      {
+        "name": "pr-title.yml"
+      },
+      {
+        "name": "secret-scan.yml"
+      },
+      {
+        "name": "static-tests.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6641,
+    "text": "# TAO Toolkit - Data Services\n\nTAO Data Services contains the source for data annotation, augmentation,\nauto-labeling, analytics, mining, image validation, and the lightweight API\nservice used by NVIDIA TAO workflows.\n\nThis repository builds the `nvidia-tao-ds` Python package and the TAO Data\nServices containers. The developer launcher is `tao_ds`; the package console\nscripts run inside that container after the source tree is mounted at\n`/workspace`.\n\n## Contents\n\n* [Start Here](#start-here)\n* [Source Layout](#source-layout)\n* [Requirements](#requirements)\n* [Supported Commands](#supported-commands)\n* [Container Builds](#container-builds)\n* [Contributing](#contributing)\n* [License](#license)\n\n## Start Here\n\n```sh\nsource scripts/envsetup.sh\ntao_ds --gpus all --volume /data/tao:/data\ntao_ds -- make build\n```\n\nUse `docs/index.md` as the detailed source map. It links to architecture,\nworkflow, testing, container, and extension guides for maintainers, coding\nagents, and container power users.\n\n| Need | Document |\n| :--- | :--- |\n| Repository map and first-pass commands | [docs/agent_onboarding.md](docs/agent_onboarding.md) |\n| Command, config, API, and package flow | [docs/architecture.md](docs/architecture.md) |\n| Common source-change recipes | [docs/development_workflows.md](docs/development_workflows.md) |\n| Test selection and debugging notes | [docs/testing_and_debugging.md](docs/testing_and_debugging.md) |\n| Launcher, mounts, GPU, and image details | [docs/container_power_users.md](docs/container_power_users.md) |\n| Adding a new data-service command | [docs/new_data_service_command.md](docs/new_data_service_command.md) |\n\n## Source Layout\n\n| Path | Purpose |\n| :--- | :--- |\n| `nvidia_tao_ds/` | Main package for CLI subtasks, configs, shared utilities, API service, and data-service domains. |\n| `runner/tao_ds.py` | Host-side Docker launcher used by the `tao_ds` shell function from `scripts/envsetup.sh`. |\n| `docker/` | Base development image Dockerfile, requirements, build script, and digest manifest. |\n| `release/` | Python package metadata plus release-container build scripts. |\n| `ci/` and `.gitlab-ci.yml` | Static-test helpers and merge-request pipeline wiring. |\n| `tests/` | Unit and integration-style tests for conversion, analytics, auto-label, mining, and config behavior. |\n| `tao-core/`, `tao-pytorch/` | In-repo submodules used by local development and container builds. |\n\n## Requirements\n\n| Software | Version |\n| :--- | :--- |\n| Ubuntu LTS | `>=18.04` |\n| Python | `>=3.8.x` |\n| Docker CE | `>19.03.5` |\n| Docker API | `1.40` |\n| `nvidia-container-toolkit` | `>1.3.0-1` |\n| NVIDIA container runtime | `3.4.0-1` |\n| `nvidia-docker2` | `2.5.0-1` |\n| NVIDIA driver | `>525.85` |\n| `python-pip` | `>21.06` |\n\nMinimum hardware is 8 GB system RAM, 4 GB GPU RAM, 8 CPU cores, one NVIDIA GPU,\nand 100 GB SSD space. Recommended hardware is 32 GB system RAM and 32 GB GPU\nRAM.\n\n<!-- BEGIN GENERATED: supported-commands -->\n## Supported Commands\n\nGenerated by `python tools/update_readme_supported_commands.py` from\n`setup.py`, `runner/tao_ds.py`, and `docker/manifest.json`.\n\n### `tao_ds` Container Launcher\n\n`scripts/envsetup.sh` exports `tao_ds` as a shell function that runs\n`runner/tao_ds.py`. Commands after `--` execute inside the container.\n\n| Option | Default | Purpose |\n| :--- | :--- | :--- |\n| `--gpus` | `all` | Comma separated GPU indices to be exposed to the docker. |\n| `--volume` | `[]` | Volumes to bind. |\n| `--env` | `[]` | Environment variables to bind. |\n| `--mounts_file` | empty string | Path to the mounts file. |\n| `--shm_size` | `16G` | Shared memory size for docker |\n| `--run_as_user` | `False` | Flag to run as user |\n| `--tag` | `None` | The tag value for the local dev docker. |\n| `--ulimit` | `None` | Docker ulimits for the host machine. |\n| `--run_as_service` | `False` | Flag to run as a microservice |\n| `--ip` | `0.0.0.0` | Microservice ip address (e.g. 0.0.0.0). |\n| `--port` | `8000` | Microservice port (e.g. 8000). |\n| `--port_mapping` | `8000` | Port mapping for the micorservices port (e.g. 8000). |\n| `--no-tty` | `True` | Set TTY |\n\n### In-Container Console Scripts\n\nThese entrypoints are installed by the `nvidia-tao-ds` package. Script\nsubtasks are discovered from each command package's `scripts/` directory.\n\n| Command | Python entry point | Script subtasks |\n| :--- | :--- | :--- |\n| `analytics` | `nvidia_tao_ds.data_analytics.entrypoint.analytics:main` | `analyze`<br>`kpi_analyze`<br>`validate` |\n| `annotations` | `nvidia_tao_ds.annotations.entrypoint.annotations:main` | `convert`<br>`merge`<br>`qa_to_llava_annotation`<br>`slice` |\n| `augmentation` | `nvidia_tao_ds.augmentation.entrypoint.augment:main` | `generate` |\n| `auto_label` | `nvidia_tao_ds.auto_label.entrypoint.auto_label:main` | `generate` |\n| `embedding` | `nvidia_tao_ds.mining.embedding.entrypoint.embedding:main` | `image_embeddings`<br>`text_embeddings` |\n| `gap_analysis` | `nvidia_tao_ds.rcca.gap_analysis.entrypoint.gap_analysis:main` | `object_detection`<br>`vcn_aoi`<br>`vlm_bcq` |\n| `image` | `nvidia_tao_ds.image.entrypoint.image:main` | `validate` |\n| `tmm` | `nvidia_tao_ds.mining.tmm.entrypoint.tmm:main` | `nearest_neighbors`<br>`unique_neighbor_matching` |\n\n### Base Image Source\n\n`runner/tao_ds.py` and `ci/utils.py` resolve the immutable base image\n(`nvstaging/tao/data_services_base_image`) from `docker/manifest.json`, choosing the architecture-specific\ndigest for the host. The pinned digests are intentionally not duplicated here — they\nlive in `docker/manifest.json` (and the CI / Jenkins / release files), and a static CI\ncheck (`ci/run_static_tests.py`) verifies those digest references stay in sync.\n<!-- END GENERATED: supported-commands -->\n\n## Container Builds\n\nThe base development image is defined by `docker/Dockerfile`, Python\nrequirements live in `docker/requirements-pip.txt`, and immutable image digests\nlive in `docker/manifest.json`.\n\n```sh\nsource scripts/envsetup.sh\ncd \"$NV_TAO_DS_TOP/docker\"\n./build.sh --build --x86\n./build.sh --build --arm\n./build.sh --build --multiplatform --push\n```\n\nThe release image builds a wheel for `nvidia_tao_ds` and installs it through\n`release/docker/Dockerfile.release`.\n\n```sh\nsource scripts/envsetup.sh\ncd \"$NV_TAO_DS_TOP/release/docker\"\n./deploy.sh --build --wheel\n```\n\n## Contributing\n\nTAO Toolkit Data Services is not accepting external contributions for this\nrelease stream. Internal changes should keep generated README content in sync by\nrunning:\n\n```sh\npython tools/update_readme_supported_commands.py --check\n```\n\n## License\n\nThis project is licensed under the [Apache-2.0](./LICENSE) License.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

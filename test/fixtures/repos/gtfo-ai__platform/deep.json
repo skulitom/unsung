@@ -1,0 +1,24 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-11T07:47:39Z",
+        "author": {
+          "login": "JanMikes",
+          "createdAt": "2013-03-28T11:09:20Z"
+        }
+      }
+    ]
+  }
+}

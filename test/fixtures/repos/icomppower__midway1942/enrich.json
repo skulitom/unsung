@@ -1,0 +1,262 @@
+{
+  "nameWithOwner": "icomppower/midway1942",
+  "description": "Midway, 4–7 June 1942 — open-ocean plotting-sheet 3D documentary (cinematic-3d-battle-engine fork)",
+  "homepageUrl": "https://midway1942.vercel.app",
+  "createdAt": "2026-09-04T09:19:39Z",
+  "pushedAt": "2026-09-04T09:33:56Z",
+  "diskUsage": 9506,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 183424,
+    "edges": [
+      {
+        "size": 150953,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 19627,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 10892,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 674,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 669,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 609,
+        "node": {
+          "name": "PowerShell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "icomppower",
+    "__typename": "User",
+    "createdAt": "2016-12-11T09:44:05Z",
+    "repositories": {
+      "totalCount": 88
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T09:33:53Z",
+            "messageHeadline": "Bake lighting gain into the plotting sheet; og image from the scene only",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:26:50Z",
+            "messageHeadline": "Bake lighting gain into the plotting sheet; og image from the scene only",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:19:38Z",
+            "messageHeadline": "Midway 1942: open-ocean plotting-sheet fork of cinematic-3d-battle-en…",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "DECISIONS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PLAYBOOK.md",
+        "type": "blob"
+      },
+      {
+        "name": "PROMPT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "THIRD_PARTY_NOTICES.md",
+        "type": "blob"
+      },
+      {
+        "name": "app.js",
+        "type": "blob"
+      },
+      {
+        "name": "config.js",
+        "type": "blob"
+      },
+      {
+        "name": "core.js",
+        "type": "blob"
+      },
+      {
+        "name": "data.example.js",
+        "type": "blob"
+      },
+      {
+        "name": "data.js",
+        "type": "blob"
+      },
+      {
+        "name": "director.js",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "entities.js",
+        "type": "blob"
+      },
+      {
+        "name": "flags.example.js",
+        "type": "blob"
+      },
+      {
+        "name": "flags.js",
+        "type": "blob"
+      },
+      {
+        "name": "fx.js",
+        "type": "blob"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "projection.js",
+        "type": "blob"
+      },
+      {
+        "name": "schema",
+        "type": "tree"
+      },
+      {
+        "name": "start.bat",
+        "type": "blob"
+      },
+      {
+        "name": "start.sh",
+        "type": "blob"
+      },
+      {
+        "name": "state.js",
+        "type": "blob"
+      },
+      {
+        "name": "terrain.js",
+        "type": "blob"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      },
+      {
+        "name": "validate.js",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "pages.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1696,
+    "text": "# ⚓ Midway — 4–7 June 1942 · open-ocean map\n\n**Live:** https://midway1942.vercel.app · **Series:** [Narrated History Map](https://github.com/icomppower/Gundambattleseries) · **Engine:** [cinematic-3d-battle-engine](https://github.com/keithligh/cinematic-3d-battle-engine) by Keith Li (MIT), unmodified\n\nA self-playing 3D documentary of the carrier battle, told as **what each side knew, believed, and got wrong, hour by hour**.\nEvery caption carries a belief-state chip — KNOWN · BELIEVED (IJN) · BELIEVED (USN) · UNKNOWN · DISPUTED — and reported-but-wrong\ncontacts are drawn as ghost markers beside the actual ones. Bilingual 繁體中文 / English.\n\nThis fork breaks four engine assumptions (no terrain, a 1,300 nm box, the antimeridian, fog of war) — the reasoning for each\nis in **[DECISIONS.md](DECISIONS.md)**. Planning, research brief and A/B protocol live in Notion (source of truth).\n\n## Run locally\n```\npython3 tools/build_tiles.py    # fetches the 180 source bathymetry tiles (cached) and builds lib/tiles/ (already committed)\nnode tools/serve.js             # http://localhost:5050  (file:// will not work)\nnode tools/validate.mjs && node tools/check-agnostic.mjs\n```\nDo **not** run `tools/fetch_tiles.mjs` for this box — the box crosses 180° and this fork's tiles are generated, not fetched (DECISIONS.md §1, §3).\n\n## Deploy\n`vercel --prod --force` (Static HTML preset). `--force` is required: incremental deploys drop unchanged tiles.\n\n## Credits\nBuilt by [Johnny Lai](https://www.linkedin.com/in/icomppower/). Engine by Keith Li (MIT). Bathymetry: AWS Terrain Tiles (Mapzen Terrarium; ETOPO1/GEBCO). Sources are listed in the Notes panel and in `data.js`.\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 11364
+  },
+  "claude": null
+}

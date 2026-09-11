@@ -1,0 +1,252 @@
+{
+  "nameWithOwner": "AuLatin/Game_AuLatin",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-07-17T00:02:07Z",
+  "pushedAt": "2026-08-14T05:12:24Z",
+  "diskUsage": 248,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 2
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "AuLatin",
+    "__typename": "User",
+    "createdAt": "2025-07-17T00:00:42Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 161,
+        "nodes": [
+          {
+            "committedDate": "2025-09-08T03:20:59Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-07T22:57:58Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-07T03:24:52Z",
+            "messageHeadline": "Actualizar GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-06T21:20:30Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-06T04:35:41Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-05T02:57:16Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-05T02:42:55Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-05T02:34:37Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T15:39:50Z",
+            "messageHeadline": "Actualizar GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T04:19:41Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T03:59:29Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T03:31:39Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T03:27:48Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-04T03:26:18Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-03T23:28:44Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-03T14:16:23Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-03T14:02:44Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-03T00:43:11Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-02T19:03:02Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-02T16:22:01Z",
+            "messageHeadline": "Update GameHack-AuLatin.txt",
+            "author": {
+              "user": {
+                "login": "AuLatin"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "GameHack-AuLatin.txt",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3,
+    "text": "XD\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

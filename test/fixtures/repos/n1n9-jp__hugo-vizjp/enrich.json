@@ -1,0 +1,335 @@
+{
+  "nameWithOwner": "n1n9-jp/hugo-vizjp",
+  "description": null,
+  "homepageUrl": "https://visualizing.jp/",
+  "createdAt": "2024-05-15T01:11:02Z",
+  "pushedAt": "2026-08-29T11:05:06Z",
+  "diskUsage": 1636140,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 37127,
+    "edges": [
+      {
+        "size": 32873,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 4254,
+        "node": {
+          "name": "SCSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "n1n9-jp",
+    "__typename": "User",
+    "createdAt": "2011-08-11T16:19:13Z",
+    "repositories": {
+      "totalCount": 247
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 782,
+        "nodes": [
+          {
+            "committedDate": "2026-08-29T11:05:06Z",
+            "messageHeadline": "Merge pull request #5 from n1n9-jp/cursor/fill-empty-descriptions-14cb",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T10:58:30Z",
+            "messageHeadline": "空だった記事 description を本文冒頭から埋める",
+            "author": {
+              "user": {
+                "login": "cursoragent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T10:46:57Z",
+            "messageHeadline": "Merge pull request #4 from n1n9-jp/cursor/llmo-improvements-14cb",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T10:40:29Z",
+            "messageHeadline": "LLMO向けに robots.txt、llms.txt、構造化データ、hreflang を追加する",
+            "author": {
+              "user": {
+                "login": "cursoragent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T00:38:32Z",
+            "messageHeadline": "Tukey 1962 の論文を一次情報と第三者評価から整理した記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T09:29:16Z",
+            "messageHeadline": "Alberto Cairo の Visualization Wheel を一次情報と第三者評価から整理した記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T02:50:20Z",
+            "messageHeadline": "Wilkinson と Cleveland のドットプロットが別物であることを一次情報から整理した記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T02:01:40Z",
+            "messageHeadline": "ロリポップチャートの出自と用途を一次情報からまとめた記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T09:43:25Z",
+            "messageHeadline": "Superflux『The Ecological Intelligence Agency』を読む記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T09:37:41Z",
+            "messageHeadline": "Superflux『The Future Energy Lab』を読む記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T09:25:38Z",
+            "messageHeadline": "data-detailをテーマのギャラリー記法で横並びに直す",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T09:21:17Z",
+            "messageHeadline": "Giorgia Lupi / Accurat『The Room of Change』を読む記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T08:34:17Z",
+            "messageHeadline": "Giorgia Lupi『Plastic Air』を読む記事を追加する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T06:03:21Z",
+            "messageHeadline": "aboutページから運営者個人の情報を除き、プロフィールへ誘導する",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T04:33:47Z",
+            "messageHeadline": "ワシントン・ポストのコロナ記事を復活",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T03:03:54Z",
+            "messageHeadline": "Google Analyticsの測定IDを共通化",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T07:38:01Z",
+            "messageHeadline": "英語プロフィールページを追加",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T05:25:19Z",
+            "messageHeadline": "profileページの修正",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T05:10:09Z",
+            "messageHeadline": "profileページの修正",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T04:41:35Z",
+            "messageHeadline": "profileページの修正",
+            "author": {
+              "user": {
+                "login": "n1n9-jp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".hugo_build.lock",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "archetypes",
+        "type": "tree"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "content",
+        "type": "tree"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "hugo.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "i18n",
+        "type": "tree"
+      },
+      {
+        "name": "layouts",
+        "type": "tree"
+      },
+      {
+        "name": "netlify.toml",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "static",
+        "type": "tree"
+      },
+      {
+        "name": "themes",
+        "type": "tree"
+      },
+      {
+        "name": "vercel.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1062,
+    "text": "## このサイトの内容\nHugo を利用した Visualizing.jp の2024年〜版リポジトリ。\n\n## ローカルサーバでの確認方法\n\n```\nhugo server\n```\n\n## デプロイ方法\n- ファイルを修正する\n- `hugo` コマンドを実行する\n- public フォルダ以下にファイルが出力される\n- public フォルダ以下を Github へプッシュする\n- Vercel に自動で反映させる\n\n## 新規記事の書き方（LLMO）\n\n既存記事の本文は改稿しない。これから書く記事だけ、次を守る。\n\n1. `description` に結論を1〜2文で書く。空にしない。\n2. 冒頭40〜120語で答えを先に出す。段落は単体で引用できること。\n3. 定義・比較・出典は表かリストにする。\n4. 日本語記事の `author` は「矢崎裕一」。\n5. 画像には意味のある alt を書く（`![](...)` にしない）。\n6. 英語版（`index.en.md`）は実翻訳のみ出す。定型の要約スタブは出さない。日本語原文が詳しいなら、薄い英語は置かない。\n\n\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 51
+  },
+  "claude": null
+}

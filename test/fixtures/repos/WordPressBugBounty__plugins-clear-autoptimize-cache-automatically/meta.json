@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "WordPressBugBounty/plugins-clear-autoptimize-cache-automatically",
+  "label": "D",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 47,
+    "keptBytes": 47,
+    "excerpt": false
+  }
+}

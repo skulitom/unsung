@@ -1,0 +1,166 @@
+{
+  "id": "R_kgDOUOFO4A",
+  "nameWithOwner": "YQ-RZJ/three.cj",
+  "description": "three.cj is a cross-platform, Cangjie-based 3D engine runtime with a pluggable backend architecture and a full rendering stack: Scene Graph, Entities, Materials, Lights, Cameras, Geometry, Shaders, and Post-processing. It also integrates Audio, Physics, Scripting, Networking, and Window/Input subsystems for 3D apps and games.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T09:19:36Z",
+  "pushedAt": "2026-09-11T11:33:11Z",
+  "diskUsage": 116072,
+  "stargazerCount": 1,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Cangjie"
+  },
+  "languages": {
+    "totalSize": 8966600,
+    "edges": [
+      {
+        "size": 8916147,
+        "node": {
+          "name": "Cangjie"
+        }
+      },
+      {
+        "size": 30922,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 14996,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 4535,
+        "node": {
+          "name": "CMake"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1,
+    "nodes": [
+      {
+        "tagName": "v0.0.372",
+        "publishedAt": "2026-09-11T11:33:11Z",
+        "isPrerelease": true
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "YQ-RZJ",
+    "__typename": "User",
+    "createdAt": "2020-03-20T04:29:30Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "5f340b8adff607eb8e8e7978f746ae346e518a36",
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T11:25:13Z",
+            "messageHeadline": "merge \"The 372st commit to the dev branch of the development repository\"",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:56:28Z",
+            "messageHeadline": "update doc",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:25:09Z",
+            "messageHeadline": "Upload the basic version",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "README_zh.md",
+        "type": "blob"
+      },
+      {
+        "name": "cjpm.toml",
+        "type": "blob"
+      },
+      {
+        "name": "doc",
+        "type": "tree"
+      },
+      {
+        "name": "libs",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 22955,
+    "isTruncated": false,
+    "text": "<div align=\"center\">\n<img alt=\"\" src=\"./doc/asstes/three.cj-logo.svg\" style=\"display: inline-block;width:128px;height:128px\"/>\n<h1>three.cj</h1>\n</div>\n\n<p align=\"center\">\n<img alt=\"\" src=\"https://img.shields.io/badge/version-0.0.372-red\" style=\"display: inline-block;\" />\n<img alt=\"\" src=\"https://img.shields.io/badge/cjc-v1.1.0 STS-yellow\" style=\"display: inline-block;\" />\n<img alt=\"\" src=\"https://img.shields.io/badge/domain-Computer_Graphics-8A2BE2\" style=\"display: inline-block;\" />\n<img alt=\"\" src=\"https://img.shields.io/badge/platform-Cross--Platform-lightgrey\" style=\"display: inline-block;\" />\n<img alt=\"\" src=\"https://img.shields.io/badge/Apache_2.0_License-gold\" style=\"display: inline-block;\" />\n</p>\n\n## Introduction\n\n**three.cj** is a 3D engine runtime implemented in the [Cangjie programming language](https://cangjie-lang.cn/). It provides a full suite of 3D rendering capabilities including Scene Graph, Entities (Mesh/Points/Line/Sprite, etc.), Materials, Lights, Cameras, Geometry, Shaders, and Post-processing. It also integrates subsystems for Audio (OpenAL), Physics (Jolt), Scripting (LuaJIT), Networking (OpenSSL), Window/Input (SDL3), and User Interface (IMGUI), covering common needs for 3D application and game development.\n\n> **Note** three.cj is the first fully-featured game engine runtime for the Cangjie language. It offers strong extensibility and customization capabilities, but building complex games directly on top of it involves significant effort. The author recommends wrapping it into a higher-level framework or editor first — or leveraging AI engineering capabilities — before undertaking complex game projects.\n\n### Tutorials & Examples\n\nThis project is actively maintained. Follow [Bilibili UID:3546853029185667](https://space.bilibili.com/3546853029185667) for video tutorials and latest updates!\n\n> **Note** Test and example code can be found here: [Link](./doc/materials/en/test-windows-projects.md)\n\n## Features\n\n### 🎯 Core Features\n\n- **Cross-Platform Rendering Backend** — Hardware-accelerated rendering on Windows / HarmonyOS Next / macOS / Linux / Android / iOS and more\n- **Complete Scene System** — Scene Graph, Object3D, Cameras, Lights, Materials, Geometry, Render Targets, Helpers, and more\n- **Pure Cangjie Math Library** — Vectors (Vector2/3/4), Matrices (Matrix2/3/4), Quaternions, Euler Angles, Colors, Bounding Boxes/Spheres/Planes/Rays, etc.\n- **Rich Geometry & Curves** — Box/Capsule/Cone/Cylinder/Sphere/Torus/Extrude/Polyhedron and other parametric geometries, plus Bezier/Spline curves and paths\n- **Multiple Material Types** — MeshBasic/Lambert/Phong/Standard/Physical/Toon/Matcap/Normal/Depth materials with custom ShaderMaterial support\n- **Complete Post-Processing Pipeline** — FXAA/SMAA/SSAO/SSR/GTAO/Bloom/UnrealBloom/Outline/Glitch/Halftone and 30+ post-processing passes\n- **Asset Loading System** — glTF/OBJ/MTL/PLY/STL models, DDS/KTX/PVR/EXR/HDR/TGA textures, Font/Animation/Audio loaders with caching and serialization\n- **Animation System** — AnimationClip / AnimationMixer / AnimationAction / KeyframeTrack (Boolean/Color/Number/Quaternion/String/Vector)\n- **Physics Engine Integration** — Pluggable physics backend based on Jolt, running on an independent physics thread, supporting rigid bodies, characters, constraints, and Object3D binding, plus extended physics objects such as heightfield terrain, soft bodies/cloth, vehicles, and ragdolls, along with a physics debug renderer\n- **Audio Subsystem** — Based on OpenAL: audio context / listener / static · positional · streaming sources / recording / EFX effects & filters\n- **Scripting System** — Based on LuaJIT, with bidirectional Cangjie-Lua binding and script hot-reloading\n- **Window & Input Engine** — Cross-platform window engine v2 based on SDL3 (lifecycle callbacks + per-window independent event pump), with keyboard/mouse/touch/gamepad input providers\n- **GUI Subsystem** — Immediate-mode UI based on ImGui (imgui4cj) (`three.window.ui`): enabled with a single call to `WindowEngine.useGui()`, with SDL3 event b\n```\nthree/\n├── doc/                    # Project documentation\n│   ├── api/                # API documentation\n│   ├── asstes/             # Documentation assets\n│   ├── dev manual/         # Development manual\n│   └── materials/          # Project materials (test-case project notes, etc.)\n├── libs/                   # Native library directory (static libs for per-platform test linking, incl. exclude.rsp and symbols_elf.map)\n├── scripts/                # Helper scripts (see scripts/README.md)\n│   ├── gen_exclude_rsp.py  # Generate cross-platform link symbol controls: exclude.rsp (Windows) / symbols_elf.map (Linux/OHOS)\n│   ├── check_so_deps.py    # Recursively check .so dependency chains (OHOS/Linux troubleshooting)\n│   └── generate_structure.py # Generate directory listing/tree\n├── src/                    # Cangjie engine source (main body of this README)\n│   ├── animation/          # Animation system\n│   │   ├── blend/          # Animation blending & action scheduling (AnimationMixer/Action/KeyframeTrack/PropertyBinding)\n│   │   ├── clip/           # Animation clips (AnimationClip/AnimationUtils)\n│   │   ├── interfaces/     # Cross-package decoupling interfaces\n│   │   └── tracks/         # Keyframe tracks (Boolean/Color/Number/Quaternion/String/Vector)\n│   ├── audio/              # Audio subsystem (OpenAL)\n│   │   ├── capture/        # Recording (AudioRecorder)\n│   │   ├── device/         # Audio context (AudioContext)\n│   │   ├── interfaces/     # Audio interface contracts\n│   │   ├── listener/       # Audio listener (AudioListener)\n│   │   ├── mixer/          # EFX effects & filters (AudioEffect/AudioFilter/AudioEffectSlot)\n│   │   └── source/         # Audio sources (Audio/PositionalAudio/StreamingAudio/AudioBuffer)\n│   ├── core/               # Core infrastructure\n│   │   ├── dispatch/       # Frame dispatch (FrameDispatch/FrameTask)\n│   │   ├── dsa/            # Data structures (BinaryHeap/BinaryPatriciaTrie/BitArray/Queue/RingBuffer/Stack...)\n│   │   ├── event/          # Event system (EventDispatcher/EventFactory/EventManager)\n│   │   ├── interfaces/     # Infrastructure interface contracts\n│   │   ├── math/           # Math library (vector/matrix/quaternion/color/interpolation/bounding box/ray...)\n│   │   │   └── interpolants/ # Interpolants (linear/Bézier/discrete/cubic/quaternion)\n│   │   ├── system/         # System info (System/SystemInfo)\n│   │   ├── thread/         # Threading & synchronization (Thread/SThread/Sync/RecursiveMutex)\n│   │   └── time/           # Time (Clock/Timer)\n│   ├── network/            # Networking module\n│   │   ├── http/           # HTTP client (via httpclient4cj)\n│   │   └── socket/         # Socket client/server/UDP\n│   ├── physics/            # Physics system (Jolt)\n│   │   ├── backend/        # Physics backend adapter (JoltBackend)\n│   │   ├── binding/        # Object3D ↔ RigidBody binding (PhysicsBinding)\n│   │   ├── body/           # Rigid body (RigidBody)\n│   │   ├── character/      # Character controller (Character)\n│   │   ├── constraint/     # Constraints/joints (Constraint)\n│   │   ├── debug/          # Physics debug rendering (DebugRenderer: line/triangle cache bridging)\n│   │   ├── ragdoll/        # Ragdoll (Ragdoll)\n```\n```bash\n# Build the engine in the three/ directory (outputs dynamic library)\ncjpm build\n```\n```bash\n# Windows rendering test (e.g., boxshow)\ncd test/windows/boxshow\ncjpm build\ncjpm run\n```\n```toml\n[dependencies]\n  [dependencies.three]\n    path = \"path/to/three\"\n```\n```cangjie\nimport three.rendering.*            // Rendering (BgfxRenderer/BgfxRenderTarget)\nimport three.rendering.geometry.*   // Geometry\nimport three.rendering.materials.*  // Materials\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

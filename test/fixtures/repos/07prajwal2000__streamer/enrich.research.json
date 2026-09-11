@@ -1,0 +1,227 @@
+{
+  "id": "R_kgDOUUML6A",
+  "nameWithOwner": "07prajwal2000/streamer",
+  "description": "A unified, high-performance desktop GUI suite for Apache Kafka, Redpanda, and NATS (JetStream & KV).",
+  "homepageUrl": "",
+  "createdAt": "2026-09-10T00:26:50Z",
+  "pushedAt": "2026-09-11T00:47:24Z",
+  "diskUsage": 2237,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 637235,
+    "edges": [
+      {
+        "size": 478201,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 123354,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 15022,
+        "node": {
+          "name": "NSIS"
+        }
+      },
+      {
+        "size": 13835,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 6471,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 352,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "07prajwal2000",
+    "__typename": "User",
+    "createdAt": "2019-08-23T15:15:28Z",
+    "repositories": {
+      "totalCount": 82
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 7,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T00:46:20Z",
+            "messageHeadline": "changed screenshot",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:44:22Z",
+            "messageHeadline": "docs: update README with Kafka/Redpanda suite and refresh app logo to…",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:37:08Z",
+            "messageHeadline": "feat(kafka): add complete Apache Kafka & Redpanda streaming suite (pu…",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:40:46Z",
+            "messageHeadline": "fix(ci): use ubuntu-22.04 with libwebkit2gtk-4.0-dev for Linux build",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:36:21Z",
+            "messageHeadline": "fix(ci): use libwebkit2gtk-4.1-dev on ubuntu-latest",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:27:14Z",
+            "messageHeadline": "added MIT License",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:26:45Z",
+            "messageHeadline": "feat: initial release of Streamer desktop client for NATS",
+            "author": {
+              "user": {
+                "login": "07prajwal2000"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "app.go",
+        "type": "blob"
+      },
+      {
+        "name": "build",
+        "type": "tree"
+      },
+      {
+        "name": "frontend",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "screenshots",
+        "type": "tree"
+      },
+      {
+        "name": "wails.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10863,
+    "text": "<h1 align=\"center\">Streamer ⚡</h1>\n\n<p align=\"center\">\n  <img src=\"build/appicon.png\" alt=\"Streamer Icon\" width=\"140\" height=\"140\" />\n</p>\n\n<p align=\"center\">\n  <b>A unified, high-performance desktop GUI suite for Apache Kafka, Redpanda, and NATS (JetStream & KV).</b>\n  <br />\n  Built with <b>Pure Go</b> (Zero CGO), <b>Wails v2</b>, <b>React 18</b>, <b>TypeScript</b>, and <b>Tailwind CSS</b>.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/07prajwal2000/streamer\">\n    <img src=\"https://img.shields.io/github/stars/07prajwal2000/streamer?style=social\" alt=\"GitHub stars\" />\n  </a>\n  <img src=\"https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue\" alt=\"Platform support\" />\n  <img src=\"https://img.shields.io/badge/Pure%20Go-Zero%20CGO-00ADD8?logo=go\" alt=\"Pure Go Zero CGO\" />\n  <img src=\"https://img.shields.io/badge/Apache%20Kafka-v2.0+-231F20?logo=apachekafka\" alt=\"Kafka Support\" />\n  <img src=\"https://img.shields.io/badge/Redpanda-Supported-EC1C24?logo=redpanda\" alt=\"Redpanda Support\" />\n  <img src=\"https://img.shields.io/badge/NATS-v2.10+-00ADEF?logo=nats.io\" alt=\"NATS Support\" />\n  <img src=\"https://img.shields.io/badge/license-MIT-green\" alt=\"License\" />\n</p>\n\n---\n\n![Streamer Screenshot](./screenshots/connection.png)\n\n## 🌟 Overview\n\n**Streamer** is an intuitive, fast, developer-centric desktop management application for modern distributed streaming platforms. Designed from the ground up for high throughput and zero native C-library headaches, Streamer provides first-class support for both **Apache Kafka & Redpanda** and **NATS & JetStream** in a single desktop application.\n\nSwitch seamlessly between event streaming systems without leaving your workspace, inspect partition metrics, monitor consumer lag, tail live message streams, produce records with custom keys and headers, and manage cluster resources with ease.\n\n---\n\n## ✨ Key Features\n\n### 🔌 Unified Connection Management\n- **Multi-Protocol Support**: Connect to **Apache Kafka**, **Redpanda**, **WarpStream**, **AWS MSK**, or **NATS** clusters with automatic protocol detection and dedicated visual branding.\n- **Enterprise Authentication**:\n  - **Kafka / Redpanda**: PLAINTEXT, SASL/PLAIN, SASL SCRAM-256, SASL SCRAM-512, TLS/SSL, mTLS (Client Certificate & Key), and custom TLS SNI.\n  - **NATS**: Anonymous, Username & Password, Token, NKey, and User Credentials (`.creds` file).\n- **Persistent Profiles**: Connection configurations are stored locally in an embedded, pure-Go SQLite database (`modernc.org/sqlite`).\n- **Live Diagnostics**: Real-time heartbeat, round-trip time (RTT latency in ms), active broker node count, and connection health status.\n\n---\n\n### 📦 Apache Kafka & Redpanda Suite\n\n#### 1. Cluster & Broker Discovery\n- **Cluster Overview**: Cluster ID, Active Controller Node ID, total broker count, and overall cluster health.\n- **Brokers Table**: Inspect all brokers with Node ID, Host/IP, Port, Rack assignment, and live ping latency.\n- **Dynamic Configs Inspector**: View and filter broker configuration parameters (both dynamic alterations and default cluster configs).\n\n#### 2. Topic Operations & Partition Health\n- **Topic Lifecycle**: Create topics with custom partition counts, replication factors, cleanup policies (`delete` vs. `compact`), and retention settings (`retention.ms`, `retention.bytes`).\n- **Partition Alterations**: Increase topic partition counts on the fly without broker restarts.\n- **Configuration Alterations**: View, edit, add, or reset topic configuration entries dynamically (`kadm.AlterTopicConfigs`).\n- **Partition-by-Partition Health**: Detailed partition breakdown displaying Leader broker, Replicas, In-Sync Replicas (ISR), start offsets, and high watermarks. Visual indicators flag under-replicated partitions.\n- **Topic Purging**: Permanently delete records across all partitions up to the high watermark via Kafka log truncation (`kadm.DeleteRecords`).\n\n#### 3. Consumer Groups & Lag Monitoring\n- **Group Explorer**: List all consumer groups with state (`Stable`, `Empty`, `Dead`, `PreparingRebalance`, `Compl\n- **Partition Lag Breakdown**: Inspect consumer lag per topic-partition with current committed offset vs. end offset.\n- **Active Member Mapping**: View connected client IDs, hosts, and partition assignment distributions.\n- **Offset Reset Tooling**: Safely reset consumer group offsets across topics with 4 strategies:\n  - **Earliest**: Rewind to beginning.\n  - **Latest**: Fast-forward to end.\n  - **By Timestamp**: Point-in-time rewind using datetime picker.\n  - **Specific Offset**: Manual offset target.\n- **Group Deletion**: Delete inactive/empty consumer groups.\n\n#### 4. Messages Explorer, Live Tail & Producer\n- **Multi-Strategy Record Querying**: Direct, unmanaged partition consumption (`kgo.ConsumePartitions`) that never interferes with consumer groups or commits offsets:\n  - **Latest Messages**: Fetch latest $N$ records (25, 50, 100, 250, 500).\n  - **From Beginning**: Read from low watermark offsets.\n  - **By Timestamp**: Query records from a specific date and time.\n  - **By Offset**: Seek directly to a numerical partition offset.\n- **Real-Time Live Tail**: Stream incoming topic records live via WebSocket-backed Wails runtime events with start/stop toggle.\n- **Search & Filtering**: Instant client-side filtering across Message Key, Payload content, and custom Record Headers.\n- **Interactive Producer**: Publish messages with custom partition keys, explicit or automatic partition targeting, structured key-value headers, and JSON formatting.\n- **Message Deletion & Log Truncation**:\n  - **Delete Topic / Partition Messages**: Advance partition low-watermark offsets on the broker to permanently delete records.\n  - **Purge Partition Up to Offset**: Purge all messages in a partition up to a selected record's offset.\n  - **Tombstone Publisher**: Publish null-payload tombstone records to delete keys in log-compacted topics.\n- **Deep Payload Inspector**:\n  - **JSON Mode**: Syntax-highlighted and indented JSON tree.\n  - **Plain Text Mode**: Monospace text viewer with optional word-wrap toggle.\n  - **Hex Dump Mode**: Hexadecimal byte pairs with 16-byte row offsets and ASCII representation.\n\n---\n\n### 📡 NATS & JetStream Suite\n\n#### 1. Core Pub/Sub Live Streamer\n- **Multi-Subject Subscription**: Subscribe to multiple subjects with wildcard support (`foo.*`, `events.>`).\n- **Interactive Publisher**: Publish messages with custom subject, payload, and structured NATS headers.\n- **Message Inspection**: Auto-detects JSON with interactive collapsible tree views, syntax highlighting, and raw / hex-dump modes.\n- **Resizable Layout**: Drag panel borders to resize subscriptions, message feeds, and publisher windows.\n\n#### 2. Advanced JetStream Management\n- **Full Stream Lifecycle**: Create, edit, inspect, seal, and purge JetStream streams.\n- **Message Browsing by Default**:\n  - **Message List Mode (Default)**: Batch browsing with customizable limits (50, 100, 200, 500), auto-polling live reload, and keyword filter.\n  - **Single Sequence Stepper**: Jump directly to first, last, or any sequence number with prev/next controls.\n- **Headers & Metadata**: Inspect raw NATS message headers, sequence IDs, timestamps, and delivery counts.\n- **Consumer Management**: Inspect push and pull consumers, filter subjects, ack policies, replay policies, and pending message counts.\n\n#### 3. Key-Value (KV) Bucket Explorer\n\n---\n\n## 🛠️ Architecture & Tech Stack\n  ```bash\n  go install github.com/wailsapp/wails/v2/cmd/wails@latest\n  ```\n```bash\nwails dev\n```\n```bash\nwails build\n```\nThe compiled binary will be in `build/bin/streamer.exe` (Windows) or `build/bin/streamer` (Linux).\n   ```bash\n   xcode-select --install\n   brew install go node\n   go install github.com/wailsapp/wails/v2/cmd/wails@latest\n   ```\n   ```bash\n   git clone https://github.com/07prajwal2000/streamer.git\n   cd streamer/frontend && npm install && cd ..\n   ```\n     ```bash\n     wails build -platform darwin/arm64\n     ```\n     ```bash\n     wails build -platform darwin/amd64\n     ```\n     ```bash\n     wails build -platform darwin/universal\n     ```\n   ```bash\n   open build/bin/streamer.app\n   ```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

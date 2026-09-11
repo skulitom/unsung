@@ -1,0 +1,602 @@
+[
+  {
+    "id": 42792274896,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-870881723f",
+    "timestamp": "2026-09-07T06:35:44Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42792266790,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-07T06:35:36Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42792215116,
+    "ref": "refs/heads/dependabot/docker/golang-cf6fca6",
+    "timestamp": "2026-09-07T06:34:47Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42791971106,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-870881723f",
+    "timestamp": "2026-09-07T06:30:53Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42790765856,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-6374f4d0ad",
+    "timestamp": "2026-09-07T06:12:08Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42790758817,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-07T06:12:00Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42790529704,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-6374f4d0ad",
+    "timestamp": "2026-09-07T06:08:19Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42297957839,
+    "ref": "refs/heads/fix/299-poll-settle-test-flake",
+    "timestamp": "2026-09-02T15:25:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42297951545,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T15:25:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42296813895,
+    "ref": "refs/heads/fix/299-poll-settle-test-flake",
+    "timestamp": "2026-09-02T15:17:03Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42289364111,
+    "ref": "refs/heads/chore/release-v2.15.0",
+    "timestamp": "2026-09-02T14:22:40Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42289361286,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T14:22:38Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42288714130,
+    "ref": "refs/heads/chore/release-v2.15.0",
+    "timestamp": "2026-09-02T14:17:30Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42287562628,
+    "ref": "refs/heads/feat/ingress-reject-route-label",
+    "timestamp": "2026-09-02T14:08:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42287559393,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T14:08:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42286815152,
+    "ref": "refs/heads/feat/ingress-reject-route-label",
+    "timestamp": "2026-09-02T14:02:48Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42285295502,
+    "ref": "refs/heads/fix/295-runtime-secret-pool-observability",
+    "timestamp": "2026-09-02T13:51:13Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42285293988,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T13:51:11Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42284468348,
+    "ref": "refs/heads/fix/295-runtime-secret-pool-observability",
+    "timestamp": "2026-09-02T13:44:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42222957098,
+    "ref": "refs/heads/fix/poll-empty-read",
+    "timestamp": "2026-09-02T06:04:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42222953136,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T06:04:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42222234168,
+    "ref": "refs/heads/fix/poll-empty-read",
+    "timestamp": "2026-09-02T05:59:18Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42164505298,
+    "ref": "refs/heads/chore/release-2.14.0",
+    "timestamp": "2026-09-01T20:19:08Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42164501254,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-01T20:19:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42163876342,
+    "ref": "refs/heads/chore/release-2.14.0",
+    "timestamp": "2026-09-01T20:13:50Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42163860175,
+    "ref": "refs/heads/chore/untrack-stackdump",
+    "timestamp": "2026-09-01T20:13:42Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42163858231,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-01T20:13:40Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42163303605,
+    "ref": "refs/heads/chore/untrack-stackdump",
+    "timestamp": "2026-09-01T20:09:04Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 42163261993,
+    "ref": "refs/heads/test/pollconfig-settle-flake",
+    "timestamp": "2026-09-01T20:08:43Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42163257395,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-01T20:08:41Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42162647483,
+    "ref": "refs/heads/test/pollconfig-settle-flake",
+    "timestamp": "2026-09-01T20:03:35Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42161601918,
+    "ref": "refs/heads/chore/untrack-stackdump",
+    "timestamp": "2026-09-01T19:54:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42159948829,
+    "ref": "refs/heads/feat/queue-route-gauges",
+    "timestamp": "2026-09-01T19:41:00Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42159944960,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-01T19:40:56Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42159295487,
+    "ref": "refs/heads/feat/queue-route-gauges",
+    "timestamp": "2026-09-01T19:35:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41980237855,
+    "ref": "refs/heads/chore/release-v2.13.0",
+    "timestamp": "2026-08-31T17:28:10Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41980234920,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-31T17:28:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41979766914,
+    "ref": "refs/heads/chore/release-v2.13.0",
+    "timestamp": "2026-08-31T17:23:53Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41974360109,
+    "ref": "refs/heads/feat/284-pull-consumer-groups",
+    "timestamp": "2026-08-31T16:38:49Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41974356951,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-31T16:38:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41973725980,
+    "ref": "refs/heads/feat/284-pull-consumer-groups",
+    "timestamp": "2026-08-31T16:32:51Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41973552119,
+    "ref": "refs/heads/feat/284-pull-consumer-groups",
+    "timestamp": "2026-08-31T16:31:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41973234992,
+    "ref": "refs/heads/feat/284-pull-consumer-groups",
+    "timestamp": "2026-08-31T16:28:09Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41973142825,
+    "ref": "refs/heads/feat/285-pull-consumer-visibility",
+    "timestamp": "2026-08-31T16:27:16Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41973140794,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-31T16:27:13Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41972560985,
+    "ref": "refs/heads/feat/285-pull-consumer-visibility",
+    "timestamp": "2026-08-31T16:21:54Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41970414160,
+    "ref": "refs/heads/feat/285-pull-consumer-visibility",
+    "timestamp": "2026-08-31T16:03:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41906643783,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-ebf40551bc",
+    "timestamp": "2026-08-31T06:38:53Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41906630847,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-31T06:38:45Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41906092387,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-ebf40551bc",
+    "timestamp": "2026-08-31T06:33:55Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41904025804,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-8f3a53cd59",
+    "timestamp": "2026-08-31T06:13:03Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41904012805,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-31T06:12:54Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41903609444,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-8f3a53cd59",
+    "timestamp": "2026-08-31T06:08:32Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41345472926,
+    "ref": "refs/heads/chore/release-2.12.0",
+    "timestamp": "2026-08-26T18:07:19Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41345470068,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T18:07:16Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41344995680,
+    "ref": "refs/heads/chore/release-2.12.0",
+    "timestamp": "2026-08-26T18:02:17Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41344553967,
+    "ref": "refs/heads/feat/273-auth-query",
+    "timestamp": "2026-08-26T17:57:47Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41344551047,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T17:57:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41344134374,
+    "ref": "refs/heads/feat/273-auth-query",
+    "timestamp": "2026-08-26T17:53:12Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41344052014,
+    "ref": "refs/heads/feat/275-watch-interval",
+    "timestamp": "2026-08-26T17:52:17Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41344049522,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T17:52:14Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41343620833,
+    "ref": "refs/heads/feat/275-watch-interval",
+    "timestamp": "2026-08-26T17:47:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41342914434,
+    "ref": "refs/heads/feat/275-watch-interval",
+    "timestamp": "2026-08-26T17:39:58Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41342795424,
+    "ref": "refs/heads/feat/276-trusted-proxies",
+    "timestamp": "2026-08-26T17:38:42Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41342792257,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T17:38:39Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41342352040,
+    "ref": "refs/heads/feat/276-trusted-proxies",
+    "timestamp": "2026-08-26T17:33:58Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41342241496,
+    "ref": "refs/heads/fix/274-constant-time-matchers",
+    "timestamp": "2026-08-26T17:32:47Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41342240690,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T17:32:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41340668689,
+    "ref": "refs/heads/feat/273-auth-query",
+    "timestamp": "2026-08-26T17:16:11Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41340662924,
+    "ref": "refs/heads/feat/275-watch-interval",
+    "timestamp": "2026-08-26T17:16:08Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41340658612,
+    "ref": "refs/heads/feat/276-trusted-proxies",
+    "timestamp": "2026-08-26T17:16:05Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41340612822,
+    "ref": "refs/heads/fix/274-constant-time-matchers",
+    "timestamp": "2026-08-26T17:15:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41340506472,
+    "ref": "refs/heads/feat/273-auth-query",
+    "timestamp": "2026-08-26T17:14:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41339071914,
+    "ref": "refs/heads/feat/275-watch-interval",
+    "timestamp": "2026-08-26T16:59:45Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41339029806,
+    "ref": "refs/heads/dependabot/docker/docker-patch-minor-3f16df9430",
+    "timestamp": "2026-08-26T16:59:19Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41339018628,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T16:59:11Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41338547581,
+    "ref": "refs/heads/feat/276-trusted-proxies",
+    "timestamp": "2026-08-26T16:54:23Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41337650095,
+    "ref": "refs/heads/fix/274-constant-time-matchers",
+    "timestamp": "2026-08-26T16:44:56Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41337245719,
+    "ref": "refs/heads/dependabot/docker/docker-patch-minor-3f16df9430",
+    "timestamp": "2026-08-26T16:40:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41008904243,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-f30e0dad89",
+    "timestamp": "2026-08-24T06:36:38Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41008895429,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T06:36:30Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41008779497,
+    "ref": "refs/heads/dependabot/docker/docker-patch-minor-3f16df9430",
+    "timestamp": "2026-08-24T06:35:02Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41008500681,
+    "ref": "refs/heads/dependabot/github_actions/actions-patch-minor-f30e0dad89",
+    "timestamp": "2026-08-24T06:31:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41006945435,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-aafa54ae59",
+    "timestamp": "2026-08-24T06:12:08Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41006935780,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T06:12:00Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41006617902,
+    "ref": "refs/heads/dependabot/go_modules/go-patch-minor-aafa54ae59",
+    "timestamp": "2026-08-24T06:07:59Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40390511527,
+    "ref": "refs/heads/chore/release-2.11.0",
+    "timestamp": "2026-08-18T16:41:21Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40390509134,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T16:41:18Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40390132429,
+    "ref": "refs/heads/chore/release-2.11.0",
+    "timestamp": "2026-08-18T16:36:59Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40389670744,
+    "ref": "refs/heads/fix/mcp-config-apply-verification-and-readonly-store",
+    "timestamp": "2026-08-18T16:31:40Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40389668117,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T16:31:37Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40389271798,
+    "ref": "refs/heads/fix/mcp-config-apply-verification-and-readonly-store",
+    "timestamp": "2026-08-18T16:27:10Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40389124583,
+    "ref": "refs/heads/fix/pull-worker-lease-route-scope-and-grpc-ctx",
+    "timestamp": "2026-08-18T16:25:26Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40389123675,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T16:25:24Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40387920054,
+    "ref": "refs/heads/fix/pull-worker-lease-route-scope-and-grpc-ctx",
+    "timestamp": "2026-08-18T16:11:55Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40387631590,
+    "ref": "refs/heads/feat/attempts-retention",
+    "timestamp": "2026-08-18T16:08:52Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40387630944,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T16:08:50Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40386970342,
+    "ref": "refs/heads/feat/attempts-retention",
+    "timestamp": "2026-08-18T16:02:09Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40386550292,
+    "ref": "refs/heads/fix/postgres-prune-mutex-and-depth-margin",
+    "timestamp": "2026-08-18T15:58:01Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40386549113,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T15:57:59Z",
+    "activity_type": "pr_merge"
+  }
+]

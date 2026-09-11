@@ -1,0 +1,18 @@
+{
+  ".github/workflows/auto-assign.yml": {
+    "byteSize": 762,
+    "text": "name: 'Auto-assign PRs'\n\non:\n  pull_request_target:\n    types: [opened]\n\npermissions:\n  pull-requests: write\n\njobs:\n  assign:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/github-script@v7\n        with:\n          script: |\n            const owner = context.repo.owner;\n            const repo = context.repo.repo;\n            const pr_number = context.payload.pull_request.number;\n\n            // Get repo owner (first admin)\n            const { data: repoData } = await github.rest.repos.get({ owner, repo });\n            const repoOwner = repoData.owner.login;\n\n            await github.rest.issues.addAssignees({\n              owner,\n              repo,\n              issue_number: pr_number,\n              assignees: [repoOwner]\n            });\n"
+  },
+  ".github/workflows/label-sync.yml": {
+    "byteSize": 302,
+    "text": "name: 'Sync Labels'\n\non:\n  workflow_dispatch:\n\npermissions:\n  issues: write\n\njobs:\n  sync:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: EndBug/label-sync@v2\n        with:\n          config-file: .github/labels.yml\n          delete-other-labels: false\n          token: ${{ secrets.GITHUB_TOKEN }}\n"
+  },
+  ".github/workflows/stale.yml": {
+    "byteSize": 1497,
+    "text": "name: 'Stale Issues & PRs'\n\non:\n  schedule:\n    - cron: '30 1 * * *'  # Daily at 01:30 UTC\n  workflow_dispatch:\n\npermissions:\n  issues: write\n  pull-requests: write\n\njobs:\n  stale:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/stale@v9\n        with:\n          stale-issue-message: >\n            This issue has been automatically marked as stale because it has not had\n            recent activity. It will be closed in 7 days if no further activity occurs.\n            If this is still relevant, please comment or remove the stale label.\n          stale-pr-message: >\n            This pull request has been automatically marked as stale because it has not had\n            recent activity. It will be closed in 7 days if no further activity occurs.\n            If this is still relevant, please comment or remove the stale label.\n          close-issue-message: >\n            This issue was closed because it has been stale for 7 days with no activity.\n            Feel free to reopen if this is still relevant.\n          close-pr-message: >\n            This pull request was closed because it has been stale for 7 days with no activity.\n            Feel free to reopen if this is still relevant.\n          days-before-stale: 30\n          days-before-close: 7\n          stale-issue-label: 'stale'\n          stale-pr-label: 'stale'\n          exempt-issue-labels: 'priority: high,help wanted,good first issue'\n          exempt-pr-labels: 'priority: high'\n          operations-per-run: 30\n"
+  },
+  "pyproject.toml": {
+    "byteSize": 524,
+    "text": "[build-system]\nrequires = [\"setuptools>=69\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[project]\nname = \"ellmos-bach\"\nversion = \"3.14.0\"\ndescription = \"BACH root-level editable install shim\"\nreadme = \"README.md\"\nrequires-python = \">=3.10\"\nlicense = {text = \"MIT\"}\nauthors = [\n  {name = \"BACH Contributors\"},\n]\ndynamic = [\"dependencies\", \"optional-dependencies\"]\n\n[project.scripts]\nbach = \"bach:main\"\n\n[tool.setuptools]\npy-modules = [\"bach\", \"bach_api\"]\n\n[tool.setuptools.dynamic]\ndependencies = {file = [\"requirements.txt\"]}\n"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "id": "R_kgDOUKyddg",
+  "nameWithOwner": "xilla420/dlss5-wow-sidecar",
+  "description": "DLSS 5 Neural Rendering for World of Warcraft, from outside the game process. No injection, no hooks, checked at build time.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-01T11:26:35Z",
+  "pushedAt": "2026-09-01T13:37:53Z",
+  "diskUsage": 6499,
+  "stargazerCount": 9,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 574827,
+    "edges": [
+      {
+        "size": 552582,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 12495,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 5577,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 4173,
+        "node": {
+          "name": "HLSL"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "xilla420",
+    "__typename": "User",
+    "createdAt": "2020-05-20T01:03:18Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 46,
+        "nodes": [
+          {
+            "committedDate": "2026-09-01T13:37:50Z",
+            "messageHeadline": "docs: a face comparison with the game's anti-aliasing off",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T13:26:14Z",
+            "messageHeadline": "fix: stop the Status page reflowing, and report spilled memory",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T13:06:57Z",
+            "messageHeadline": "fix: only the add-on runs, and clearing a strength actually clears it",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T12:26:18Z",
+            "messageHeadline": "docs: record why the NVIDIA runtimes are bundled, and how to unbundle…",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T12:17:16Z",
+            "messageHeadline": "fix: exit when the game closes, and name GPU contention in the UI",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T12:05:32Z",
+            "messageHeadline": "docs: ship the dependencies in the release, not the tree",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T11:46:58Z",
+            "messageHeadline": "feat: report GPU memory, and a better on/off comparison",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T11:30:06Z",
+            "messageHeadline": "docs: DLSS on/off comparison from a live game",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T11:26:33Z",
+            "messageHeadline": "chore: sort the repository for publication",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T02:22:33Z",
+            "messageHeadline": "feat: manager app, click-through fix, and a measured frame budget",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T14:40:18Z",
+            "messageHeadline": "feat: select and verify the runtime per GPU architecture -- M4 complete",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T14:28:09Z",
+            "messageHeadline": "feat: DLSS 5 Neural Rendering on live WoW frames -- M3 complete",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T14:20:11Z",
+            "messageHeadline": "feat: ReshadeHostedPass, and DLSS evaluating in the pipeline",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T11:13:56Z",
+            "messageHeadline": "spike: DLSS 5 Neural Rendering runs on Ada, in our process",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T11:04:50Z",
+            "messageHeadline": "feat: SEH-guard the NGX calls and select a DLSS preset",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T10:55:27Z",
+            "messageHeadline": "feat: UI mask blend pass, wired into the pipeline",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T10:30:35Z",
+            "messageHeadline": "feat: runtime/GPU compatibility check, and the UI mask arithmetic",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T10:08:10Z",
+            "messageHeadline": "feat: hash-verified runtime identification, and an NGX session",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T09:35:17Z",
+            "messageHeadline": "spike: the ReShade detour does fire in our process",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T22:23:58Z",
+            "messageHeadline": "spike: DLSS 5 NR is not reachable through the public NGX SDK",
+            "author": {
+              "user": {
+                "login": "xilla420"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "THIRD-PARTY-NOTICES.md",
+        "type": "blob"
+      },
+      {
+        "name": "ci",
+        "type": "tree"
+      },
+      {
+        "name": "cmake",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 16080,
+    "text": "# DLSS 5 Sidecar for World of Warcraft\n\nRuns NVIDIA's DLSS 5 Neural Rendering over a live World of Warcraft frame —\n**without loading a single byte of code into `Wow.exe`**.\n\nThe game is captured out of the Windows compositor, processed in a separate\nprocess, and the result is presented back over the top through an opaque\nclick-through overlay. WoW never sees this program. There is no injector, no\ndetour, no hook, no memory read, and nothing placed in the game's folder.\n\nMeasured on an RTX 4080 at 2560×1440 against retail WoW: **p50 11.6 ms, p99\n12.6 ms** capture-to-present, with neural rendering armed.\n\n> **Status: working, and rough.** Neural rendering runs on real frames on Ada\n> hardware. What it costs in image quality, and whether it is worth the latency\n> on your setup, is a judgement you make with the game in front of you — the\n> manager ships a one-click A/B against the untouched frame so you can.\n\n## What it actually looks like\n\n![DLSS 5 Neural Rendering on a character face, off and on](docs/screenshots/dlss-face-comparison.png)\n\nRetail WoW, RTX 4080, 2560×1440, shown at 2.4×, **with World of Warcraft's own\nanti-aliasing turned off** — so what you are looking at is the neural pass\nworking on raw aliased edges rather than on top of the game's MSAA. The overlay\nwas toggled between two captures a third of a second apart with the character\nstanding still, so the halves line up.\n\nLook at the hair spikes, the chains behind, and the railing on the right: the\nstair-stepping on the left is gone on the right. Skin and shading pick up depth\ntoo. It also **darkens the image and deepens facial shadow**, which is a real\nside effect and a matter of taste rather than something a README can settle.\n\nA second comparison on a different scene, showing cloth and an NPC face:\n\n![A second comparison](docs/screenshots/dlss-comparison.png)\n\n**Both are zoomed for a reason.** At 1:1, in motion, the effect is subtler than\nthis. Judge it with the one-click A/B in the app rather than from a picture;\nfull frames are in [`docs/screenshots/`](docs/screenshots/) as `dlss-on.jpg`\nand `dlss-off.jpg`.\n\n![The manager's Status page](docs/screenshots/status.png)\n\n**Read the frame-rate section before you install this.** The honest headline is\nthat the overlay is capped by how fast Windows hands out captured frames, and on\nthe machine this was developed against that is 60 per second regardless of the\n239 Hz monitor behind it. The app measures and shows you this directly.\n\n---\n\n## Why this exists, and why it is shaped like this\n\nThe obvious way to get DLSS 5 into a game that does not support it is to inject\na DLL beside the executable. For World of Warcraft that is not a trade-off, it\nis a mistake: Blizzard bans accounts for ReShade next to `Wow.exe`, and no\namount of care on the tool's part changes that.\n\nSo this project does the harder thing. It never touches the game process at all.\nEverything happens out-of-process, on a frame that Windows has already finished\ncompositing.\n\nThat constraint is not a comment in a design document — it is enforced against\nthe built binaries on every build and in CI:\n\n| Invariant | What it forbids | How it is checked |\n|---|---|---|\n| I1 | Reading or writing another process's memory | Import table scan |\n| I4 | Window hooks of any kind (`SetWindowsHookEx`) | Import table scan |\n| I6 | Synthesising input (`SendInput`, `keybd_event`, …) | Import table scan |\n| I10 | Networking, of any kind, in either binary | Import table scan |\n| I12 | Requesting elevation | Manifest scan |\n| I7/I8/I9 | Installing next to `Wow.exe`, or running with an injector present | Unit-tested predicates |\n\n`ci/check_imports.py` reads the import directory — static *and* delayed — of\nevery executable produced and fails the build if any forbidden symbol appears.\nThe claim is checked, not asserted.\n\n**This is not a guarantee you will never be banned.** No third-party tool can\noffer that. What it is: this program does not do the things people get banned\nfor.\n\n---\n\n## What you need\n\n| | |\n|---|---|\n| **GPU** | NVIDIA RTX 40 (Ada) or RTX 50\n| **OS** | Windows 11 |\n| **WoW** | Running in **borderless windowed** mode. Exclusive fullscreen has no compositor surface to capture. |\n| **Resolution** | Up to 1440p on Ada, up to 2160p on Blackwell, is what the GPU matrix intends. Above that it still runs, and tells you it will cost more. |\n\n---\n\n## Using it\n\nEverything is in the release. Take the latest from\n[**Releases**](../../releases), unzip it anywhere — **not** into your WoW\nfolder — and run `wowsidecar-manager.exe`.\n\nThe zip contains both executables, the neural runtime, ReShade, the RenoDX\nadd-on, and a `sidecar.toml` already set to the Recommended preset. There is\nnothing else to download and nothing to configure before first run. The four\nthird-party binaries belong to their authors and are listed in\n[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).\n\n1. Unzip, run `wowsidecar-manager.exe`.\n2. **Checks** — everything should be green. A failing check always comes with a\n   remedy; a warning is a judgement call left to you.\n3. Start WoW in borderless windowed mode.\n4. **Start overlay.** The manager minimises itself and the overlay comes up.\n\n**Never unzip next to `Wow.exe`.** The manager refuses that arrangement and the\ncheck is unit-tested — putting ReShade beside the game is the thing Blizzard\nbans people for, and it is not what this does.\n\n![The Setup page](docs/screenshots/setup.png)\n\nThe **Setup** tab shows each component, whether it is present, and what it is\nfor. You should not need it after a release install; it exists so that a missing\nor replaced file is a named problem with a remedy rather than a silent failure.\n\n**You play normally.** The overlay covers the game completely but passes every\nclick straight through to it and never takes focus. If the keyboard stops\nreaching the game, alt-tab to WoW once.\n\n**Ctrl+Alt+Backspace** takes the overlay down from anywhere, without needing the\nmanager window — it is a panic switch, and it works even if the manager is gone.\n\n### Tuning\n\n![The Tuning page](docs/screenshots/tuning.png)\n\nPick a preset. There are four, they are the combinations that have actually been\nrun, and the good one is the default:\n\n| Preset | For |\n|---|---|\n| **Recommended** | The tuned default. Full intensity, CNN F, flow grid 4. Start here. |\n| **Softer** | Half intensity. If the picture looks over-processed, or faces and text look waxy. |\n| **Most stable** | CNN E and a finer motion grid. For smearing, or flicker on flames and lights. |\n| **Off (A/B baseline)** | No neural work, same capture and present path. What the overlay costs you before any neural rendering. |\n\nfalling back to native anyway. The presets set both correctly.\n```\nWoW window ──> Windows Graphics Capture ──> D3D11→D3D12 shared texture\n                                                      │\n                       ┌──────────────────────────────┤\n                       │                              │\n              BGRA8 → R8 luminance            BGRA8 → RGBA16F\n                       │                              │\n                  NVIDIA NVOFA                        │\n                (optical flow)                        │\n                       │                              │\n              flow grid → RG16F motion vectors        │\n                       │                              │\n                       └──────────> DLSS/DLAA evaluate <─── synthetic R32F depth\n                                            │\n                              (RenoDX add-on detours this call\n                               and substitutes neural output)\n                                            │\n                                    UI mask blend\n                                            │\n                         DirectComposition overlay ──> screen\n```\n```bash\ncmake -S . -B build -G \"Visual Studio 17 2022\" -A x64\ncmake --build build --config Release\n```\nTests: `build\\tests\\Release\\sidecar_tests.exe \"[unit]\"`. The `[device]` tests"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

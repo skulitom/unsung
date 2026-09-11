@@ -1,0 +1,250 @@
+{
+  "nameWithOwner": "WordPressBugBounty/plugins-clear-autoptimize-cache-automatically",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-09-24T21:00:10Z",
+  "pushedAt": "2026-08-17T11:38:49Z",
+  "diskUsage": 615,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": false,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "PHP"
+  },
+  "languages": {
+    "totalSize": 84659,
+    "edges": [
+      {
+        "size": 74559,
+        "node": {
+          "name": "PHP"
+        }
+      },
+      {
+        "size": 7592,
+        "node": {
+          "name": "SCSS"
+        }
+      },
+      {
+        "size": 2331,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 177,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "WordPressBugBounty",
+    "__typename": "Organization",
+    "createdAt": "2024-08-12T04:13:27Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 16,
+        "nodes": [
+          {
+            "committedDate": "2026-08-17T11:38:47Z",
+            "messageHeadline": "1.0.7",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-19T12:32:32Z",
+            "messageHeadline": "1.0.6",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-27T01:50:31Z",
+            "messageHeadline": "Update semgrep workflow",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-11T18:02:47Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-11T17:26:10Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-11T13:34:11Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-11T11:56:42Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-11T06:45:28Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-06T07:55:58Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-06T07:09:55Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-06T05:51:36Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-06T04:36:38Z",
+            "messageHeadline": "1.0.5",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-03-29T02:38:24Z",
+            "messageHeadline": "1.0.4",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-11T08:22:02Z",
+            "messageHeadline": "1.0.3",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-24T21:00:11Z",
+            "messageHeadline": "1.0.3",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-24T21:00:10Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "sgmurphy"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "clear-autoptimize-cache-automatically",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "semgrep.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 47,
+    "text": "# plugins-clear-autoptimize-cache-automatically"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

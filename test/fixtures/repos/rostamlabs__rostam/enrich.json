@@ -1,0 +1,1036 @@
+{
+  "id": "R_kgDOT0qeJA",
+  "nameWithOwner": "rostamlabs/rostam",
+  "description": "Open-source vector database and sub-microsecond key-value store in one Go engine — embed it as a library, run it standalone, or replicate it across a Raft cluster. HNSW/IVF/Vamana indexes, quantization, hybrid dense+sparse and BM25 search, WASM stored procedures. Apache-2.0.",
+  "homepageUrl": "https://docs.rostamlabs.com/",
+  "createdAt": "2026-08-10T22:22:24Z",
+  "pushedAt": "2026-09-11T14:52:30Z",
+  "diskUsage": 6627,
+  "stargazerCount": 36,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 14893533,
+    "edges": [
+      {
+        "size": 14247217,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 439659,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 135255,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 35448,
+        "node": {
+          "name": "Assembly"
+        }
+      },
+      {
+        "size": 9087,
+        "node": {
+          "name": "Cuda"
+        }
+      },
+      {
+        "size": 8391,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 4464,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 4064,
+        "node": {
+          "name": "C"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "bm25"
+        }
+      },
+      {
+        "topic": {
+          "name": "database"
+        }
+      },
+      {
+        "topic": {
+          "name": "distributed-systems"
+        }
+      },
+      {
+        "topic": {
+          "name": "embeddings"
+        }
+      },
+      {
+        "topic": {
+          "name": "hnsw"
+        }
+      },
+      {
+        "topic": {
+          "name": "hybrid-search"
+        }
+      },
+      {
+        "topic": {
+          "name": "key-value-store"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "quantization"
+        }
+      },
+      {
+        "topic": {
+          "name": "raft"
+        }
+      },
+      {
+        "topic": {
+          "name": "rag"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 11,
+    "nodes": [
+      {
+        "tagName": "v0.7.0-beta2",
+        "publishedAt": "2026-09-11T14:52:31Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "v0.7.0-beta",
+        "publishedAt": "2026-09-10T15:25:30Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "v0.6.0",
+        "publishedAt": "2026-09-02T09:22:37Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.5.0",
+        "publishedAt": "2026-08-30T13:32:26Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.4.1",
+        "publishedAt": "2026-08-23T23:55:43Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 21
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "rostamlabs",
+    "__typename": "Organization",
+    "createdAt": "2026-06-25T10:43:13Z",
+    "repositories": {
+      "totalCount": 7
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "db6dd29ba22716a4c57b074fa8ca6913cf107da6",
+      "history": {
+        "totalCount": 395,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T14:51:42Z",
+            "messageHeadline": "perf(operate): read the record into a pooled buffer (#109)",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T13:40:19Z",
+            "messageHeadline": "perf(operate): grow insertGap's buffer by the increment, not a fixed …",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T13:14:50Z",
+            "messageHeadline": "docs(operate): describe the pooled decode in generic terms (#108)",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T12:21:39Z",
+            "messageHeadline": "perf(operate): make the operate encode/decode path allocation-free fo…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:58:22Z",
+            "messageHeadline": "feat: vector_operate — atomic operate op-lists on a vector point's re…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T22:26:22Z",
+            "messageHeadline": "feat: record search in vector payloads (operate records as a payload …",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T08:55:48Z",
+            "messageHeadline": "docs(shard/pbisr): fix two stale comments flagged in #98 (#101)",
+            "author": {
+              "user": {
+                "login": "Adelagric"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T08:55:27Z",
+            "messageHeadline": "fix(raft/logstore): reject trailing bytes in decodeInto (#100)",
+            "author": {
+              "user": {
+                "login": "Adelagric"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:54:01Z",
+            "messageHeadline": "test: fuzz the untrusted network + WAL-recovery decoders (#98)",
+            "author": {
+              "user": {
+                "login": "Adelagric"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:17:57Z",
+            "messageHeadline": "test(ops): skip the operate allocation-budget tests under -race (#99)",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:15:30Z",
+            "messageHeadline": "fix(raft/logstore): fail-closed poison latch on fsync failure (#95)",
+            "author": {
+              "user": {
+                "login": "Adelagric"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:47:54Z",
+            "messageHeadline": "fix(vector): make checkpoint publishes crash-durable with a parent-di…",
+            "author": {
+              "user": {
+                "login": "Adelagric"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:47:49Z",
+            "messageHeadline": "fix(cache): bounds-check page head/tail during recovery instead of pa…",
+            "author": {
+              "user": {
+                "login": "kunaldevxxx"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T13:38:35Z",
+            "messageHeadline": "feat(kv): operate v2 — atomic multi-field update with schema and dyna…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:37:54Z",
+            "messageHeadline": "server: add -online-compaction flag (expose EnableOnlineCompaction) (…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T00:40:35Z",
+            "messageHeadline": "fix(vector): durable acked deletes + fail-closed WAL on fsync failure…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:10:27Z",
+            "messageHeadline": "fix(meta_fsm): improve concurrency handling for metaApplyCatalogGate …",
+            "author": {
+              "user": {
+                "login": "kunaldevxxx"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:03:10Z",
+            "messageHeadline": "test(pbisr): PB linearizable stale-primary-read e2e (closes last P6 l…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T12:44:54Z",
+            "messageHeadline": "docs: production-readiness checklist + promote PB/ISR replication out…",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T22:06:39Z",
+            "messageHeadline": "docs(quickstart): lead with a 5-minute try-it path (#83)",
+            "author": {
+              "user": {
+                "login": "vahid-sohrabloo"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "OPS_SPLIT_REPORT.md",
+        "type": "blob"
+      },
+      {
+        "name": "PB_SPLIT_REPORT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "TRADEMARK.md",
+        "type": "blob"
+      },
+      {
+        "name": "authz",
+        "type": "tree"
+      },
+      {
+        "name": "backup",
+        "type": "tree"
+      },
+      {
+        "name": "batch_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "cache",
+        "type": "tree"
+      },
+      {
+        "name": "cachebudget.go",
+        "type": "blob"
+      },
+      {
+        "name": "cachebudget_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client.go",
+        "type": "blob"
+      },
+      {
+        "name": "client",
+        "type": "tree"
+      },
+      {
+        "name": "client_integration_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_pipeline_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_vector_lifecycle_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_vector_operate_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_vector_read_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_vector_search_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "client_vector_write_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "clients",
+        "type": "tree"
+      },
+      {
+        "name": "cluster",
+        "type": "tree"
+      },
+      {
+        "name": "cluster_helpers_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "dashboard",
+        "type": "tree"
+      },
+      {
+        "name": "direct.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_http_query_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_nested_fusion_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_partitions_reject_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_pershard_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_persistent_flush_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "direct_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "discover_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "docs_delete_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_alias_resolve_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_alias_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_catalog_durability_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_clustercfg_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_discover_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_get_batch_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_get_payload_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_hybrid_degradation_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_multi_key_order_by_wire_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_mv_get_batch_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_mv_hybrid_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_mv_query_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_mv_scroll_cursor_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_mv_sparse_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_get_batch_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_hybrid_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_mv_order_by_scroll_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_query_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_recommend_discover_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_named_sparse_search_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_nested_named_mv_query_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_order_by_scroll_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_partitioned_create_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_query_clampedlane_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_query_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_query_group_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_recommend_fanout_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_scroll_cursor_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_string_order_by_wire_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "embedded_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "errors.go",
+        "type": "blob"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "examples_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "fanout_alias_drift_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "fanout_dispatcher.go",
+        "type": "blob"
+      },
+      {
+        "name": "get_batch_fanout_bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "go.work",
+        "type": "blob"
+      },
+      {
+        "name": "go.work.sum",
+        "type": "blob"
+      },
+      {
+        "name": "groups_scroll_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "grpc.go",
+        "type": "blob"
+      },
+      {
+        "name": "grpc_leader_following_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "grpc_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "grpc_text_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "grpcapi",
+        "type": "tree"
+      },
+      {
+        "name": "heapmode_isolation_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "http.go",
+        "type": "blob"
+      },
+      {
+        "name": "http_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "http_text_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "httpapi",
+        "type": "tree"
+      },
+      {
+        "name": "hybrid_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "install.sh",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "inttest",
+        "type": "tree"
+      },
+      {
+        "name": "inttest_support.go",
+        "type": "blob"
+      },
+      {
+        "name": "keys_dispatcher.go",
+        "type": "blob"
+      },
+      {
+        "name": "keys_dispatcher_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "kv_zeroalloc_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "llmproxy",
+        "type": "tree"
+      },
+      {
+        "name": "mcp",
+        "type": "tree"
+      },
+      {
+        "name": "mkdocs.yml",
+        "type": "blob"
+      },
+      {
+        "name": "mv_query_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "mv_resplit_bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "named_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "named_recommend_discover_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "norace_detect_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "objstore",
+        "type": "tree"
+      },
+      {
+        "name": "ops",
+        "type": "tree"
+      },
+      {
+        "name": "partitioned_create_rollback_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "postrec",
+        "type": "tree"
+      },
+      {
+        "name": "query_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "query_group_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "race_detect_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "raft",
+        "type": "tree"
+      },
+      {
+        "name": "rag",
+        "type": "tree"
+      },
+      {
+        "name": "recommend_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "reconfigure.go",
+        "type": "blob"
+      },
+      {
+        "name": "reshard_bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "rlog",
+        "type": "tree"
+      },
+      {
+        "name": "sdk",
+        "type": "tree"
+      },
+      {
+        "name": "semcache",
+        "type": "tree"
+      },
+      {
+        "name": "server.go",
+        "type": "blob"
+      },
+      {
+        "name": "server",
+        "type": "tree"
+      },
+      {
+        "name": "shard",
+        "type": "tree"
+      },
+      {
+        "name": "store.go",
+        "type": "blob"
+      },
+      {
+        "name": "store_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "sysmem_linux.go",
+        "type": "blob"
+      },
+      {
+        "name": "sysmem_other.go",
+        "type": "blob"
+      },
+      {
+        "name": "tcpaddr_epoll_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "text_fanout.go",
+        "type": "blob"
+      },
+      {
+        "name": "text_global_idf_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "text_payload_bm25_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "text_search_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "tlsutil",
+        "type": "tree"
+      },
+      {
+        "name": "ui",
+        "type": "tree"
+      },
+      {
+        "name": "vecnet_bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "vector",
+        "type": "tree"
+      },
+      {
+        "name": "vector_groups_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "vector_net_bench_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "vector_net_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "vector_operate_cluster_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "vector_search_zeroalloc_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "wasm.go",
+        "type": "blob"
+      },
+      {
+        "name": "wasm",
+        "type": "tree"
+      },
+      {
+        "name": "wasm_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "wc_envelope_inner_op_test.go",
+        "type": "blob"
+      },
+      {
+        "name": "write_consistency_opts_test.go",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "changelog.yml"
+      },
+      {
+        "name": "docs.yml"
+      },
+      {
+        "name": "lint.yml"
+      },
+      {
+        "name": "publish-partner-packages.yml"
+      },
+      {
+        "name": "publish-python.yml"
+      },
+      {
+        "name": "release.yml"
+      },
+      {
+        "name": "test.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 24031,
+    "isTruncated": false,
+    "text": "<img src=\"docs/assets/logo.svg\" alt=\"\" width=\"64\" height=\"64\">\n\n# Rostam\n\n[![CI](https://github.com/rostamlabs/rostam/actions/workflows/test.yml/badge.svg)](https://github.com/rostamlabs/rostam/actions/workflows/test.yml)\n[![Go 1.26+](https://img.shields.io/badge/go-1.26%2B-00ADD8)](go.mod)\n[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](./LICENSE)\n\n**A high-performance vector database and sub-microsecond key-value store in a\nsingle Go engine — run it as a standalone server, replicate it across a Raft\ncluster, or embed it directly in your binary with no server at all.**\n\nAt matched recall it serves **~2× the queries of Milvus and pgvector** and\n**~4× Qdrant**, with the **fastest load in the set** (1M × 768d in 282 s) and\nthe highest recall measured. → [How it compares](#how-it-compares)\n\n**Three ways to run it, one engine:**\n\n| | |\n|---|---|\n| **Standalone server** | REST, gRPC and a binary TCP protocol. Talk to it from Python or any language. |\n| **Replicated cluster** | Per-shard Raft, online resharding, backups to S3, RBAC/JWT/mTLS. |\n| **Embedded library** | Import it into a Go binary. No server, no cgo required. |\n\n## Agent memory over MCP\n\n`rostam-server mcp` runs Rostam as an [MCP](https://modelcontextprotocol.io/)\nstdio server, giving Claude Code, Claude Desktop, Cursor, or any MCP client\npersistent agent memory and vector-DB tools. No daemon, no cloud account, and\nno embedding API key required — memory works out of the box on built-in\nBM25, and pointing it at an OpenAI-compatible endpoint upgrades recall to\nhybrid dense+BM25.\n\n```sh\nclaude mcp add rostam -- rostam-server mcp\n```\n\n→ [MCP server](https://docs.rostamlabs.com/server/mcp/) for the full tool\nreference, client config snippets, and embedder configuration.\n\n## LLM response caching\n\n`rostam-server llm-proxy` is an OpenAI-compatible caching reverse proxy:\nchange one line (`base_url=\"http://localhost:8484/v1\"`) and an eligible\nrepeated chat-completions request — cacheable shape, matching scope, and a\nprompt that hits the cache — is answered from a local semantic cache instead\nof hitting the upstream API. Exact byte-identical matching works out of the\nbox with no embedding key; pointing it at an OpenAI-compatible embedder\nupgrades it to matching near-duplicate prompts too.\n\n```sh\nrostam-server llm-proxy\n```\n\n→ [LLM caching proxy](https://docs.rostamlabs.com/server/llm-proxy/) for\nflags, cache-scoping rules, and what's never cached.\n\n## RAG in a box\n\n`rostam-server rag` chunks and indexes your documents, then answers\nquestions from them with cited sources — no separate vector-store setup or\ningestion pipeline required:\n\n```sh\nrostam-server rag ingest ./docs\nrostam-server rag ask \"How does the LLM proxy decide what's cacheable?\"\n```\n\nRetrieval works out of the box on BM25 full-text search; pointing it at an\nOpenAI-compatible embedder upgrades it to dense+BM25 hybrid fusion by default\n(`-no-hybrid` selects pure dense search). `rag query` does retrieval alone,\nwith no LLM required.\n\n→ [RAG CLI](https://docs.rostamlabs.com/server/rag/) for flags,\nembedded-vs-remote mode, and supported file types.\n\nAnd two engines, usable together or entirely on their own:\n\n- a **vector search engine** ([`vector/`](./vector)) — HNSW, IVF and Vamana\n  indexes, SQ8/binary/PQ quantization, hybrid dense+sparse fusion, BM25 full\n  text, and metadata filtering with an exact filter-first query planner that\n  does not fall off a recall cliff. Depends on nothing else in the repo.\n- a **key-value store** — an in-process session cache, a replicated store, or a\n  TCP server, all behind one `Store` interface, with server-side custom ops and\n  sandboxed WASM stored procedures.\n\nBoth are built for the latency-sensitive end of the spectrum: reads are\nzero-copy and lock-light, the hot paths are allocation-free, and the distance\nkernels are hand-vectorized.\n\n> **Status:** Beta. Actively developed and tested (race-clean, benchmarked).\n> APIs may still change ahead of a 1.0 release.\n\n📚 **[docs.rostamlabs.com](https://docs.rostamlabs.com/)**\n\n```sh\n# Prebuilt binary — verifies the release checksum before installing\ncurl -fsSL https://raw.githubusercontent.com/rostamlabs/rostam/main/install.sh | sh\n\n# ...to a system path instead (prompts for sudo; ROSTAM_NO_SUDO refuses)\ncurl -fsSL https://raw.githubusercontent.com/rostamlabs/rostam/main/install.sh \\\n  | ROSTAM_INSTALL_DIR=/usr/local/bin sh\n\n# Container (amd64 + arm64)\ndocker run -p 8080:8080 -e ROSTAM_API_KEY=secret ghcr.io/rostamlabs/rostam:latest\n\n# Go toolchain\ngo install github.com/rostamlabs/rostam/cmd/rostam-server@latest   # the server\ngo get github.com/rostamlabs/rostam                                # the library\n\n# Python client\npip install rostam-client\n```\n```sh\nsha256sum -c checksums.txt --ignore-missing        # Linux\nshasum -a 256 -c checksums.txt --ignore-missing    # macOS\n```\n```sh\ndocker run -p 8080:8080 -e ROSTAM_API_KEY=secret \\\n  -e ROSTAM_EMBED_LOCAL=minilm-l6-v2 -e REMBED_CACHE=/models -v rostam-models:/models \\\n  ghcr.io/rostamlabs/rostam:latest\n```\n```sh\ngo run ./cmd/rostam-server -http 127.0.0.1:8080 -data ./data\n```\n```sh\ncurl -s localhost:8080/v1/collections \\\n  -d '{\"name\":\"docs\",\"config\":{\"dim\":4,\"metric\":\"cosine\"}}'\ncurl -s localhost:8080/v1/collections/docs/points \\\n  -d '{\"id\":1,\"vector\":[0.1,0.2,0.3,0.4],\"content\":\"hello rostam\",\"upsert\":true}'\ncurl -s localhost:8080/v1/collections/docs/points/search \\\n  -d '{\"query\":[0.1,0.2,0.3,0.4],\"k\":3}'\n```\n```sh\ndocker build -f cmd/rostam-server/Dockerfile -t rostam-server .\ndocker run -p 8080:8080 -e ROSTAM_API_KEY=secret rostam-server\n\ncurl -s localhost:8080/v1/collections -H 'Authorization: Bearer secret' \\\n  -d '{\"name\":\"docs\",\"config\":{\"dim\":4,\"metric\":\"cosine\"}}'\n```\n```sh\npip install rostam-client   # stdlib-only; optional [langchain] [llamaindex] [haystack]\n```\n```python\nfrom rostam import Rostam, filters as f\n\nc = Rostam(\"http://localhost:8080\")   # REST, port 8080\nc.create_collection(\"docs\", dim=768, full_text=True)\nvec = [0.0] * 768  # replace with a real embedding\nc.upsert(\"docs\", 1, vec, content=\"hello\", metadata={\"tenant\": \"acme\"})\n\n# Dense kNN, hybrid dense+sparse, or BM25 full text — one call each.\nhits = c.hybrid_text(\"docs\", dense=vec, text=\"hello\", k=5)\n\n# Metadata filtering goes through the exact filter-first planner, so a\n# selective filter does not degrade recall.\nhits = c.search(\"docs\", vec, k=10, filter=f.eq(\"tenant\", \"acme\"))\n```\n```python\nr = Rostam(\"tcp://localhost:7000\")    # or Rostam(\"localhost:7000\") — bare host:port defaults to TCP\n\nr.create_collection(\"docs\", dim=768, full_text=True)\nvec = [0.0] * 768  # replace with a real embedding\nr.upsert(\"docs\", 1, vec, content=\"hello\", metadata={\"tenant\": \"acme\"})\nhits = r.hybrid_text(\"docs\", dense=vec, text=\"hello\", k=5)\n\nr.kv.put(\"user:42\", b'{\"coins\":100}', ttl_ms=300_000)   # TCP-only\nr.kv.incr(\"views:42\", 1)                                  # atomic; missing key counts as 0\n```\n```python\ndocs = r.collection(\"docs\")\ndocs.upsert(1, vec, content=\"hello\")\nhits = docs.hybrid_text(dense=vec, text=\"hello\", k=5)\n```\n```go\nimport \"github.com/rostamlabs/rostam/vector\"\n\ncol, _ := vector.NewCollection(\"docs\", vector.Config{\n    Dim:    768,\n    Metric: vector.Cosine,\n    Quant:  vector.QuantSQ8, // 4× smaller, ~98% recall retained\n})\ndefer col.Close()\n\n// Insert is create-only (ErrDuplicateID on a live id); Upsert replaces.\n_ = col.Insert(1, embedding, 0, vector.Metadata{\n    \"tenant\": vector.NewString(\"acme\"),\n}, nil)\n\n// Exact, fast filtered search — the payload index narrows to tenant=acme.\nhits, _ := col.SearchFiltered(query, 10, vector.Filter{\n})\n\n// Diversified retrieval for RAG:\n```\n```go\nimport (\n    \"github.com/rostamlabs/rostam\"\n    \"github.com/rostamlabs/rostam/ops\"\n)\n\nif err != nil {\n}\n\n\n```\n```\n        vector/   ← standalone vector engine (usable on its own)\n        HNSW · IVF · Vamana · GPU · quantization (SQ8/BQ1/PQ/PRQ, mmap) ·\n        hybrid sparse+dense · BM25 · payload index + planner ·\n\n```\n```sh\nmake test    # tests           make race   # race detector\nmake bench   # benchmarks      make all    # lint + tests + race + bench\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

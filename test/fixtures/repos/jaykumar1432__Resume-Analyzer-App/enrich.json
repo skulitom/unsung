@@ -1,0 +1,154 @@
+{
+  "nameWithOwner": "jaykumar1432/Resume-Analyzer-App",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-05T01:41:05Z",
+  "pushedAt": "2026-09-05T01:43:57Z",
+  "diskUsage": 101820,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 69197858,
+    "edges": [
+      {
+        "size": 61480477,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 5011453,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 2060035,
+        "node": {
+          "name": "Cython"
+        }
+      },
+      {
+        "size": 554840,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 36224,
+        "node": {
+          "name": "Fortran"
+        }
+      },
+      {
+        "size": 21539,
+        "node": {
+          "name": "PowerShell"
+        }
+      },
+      {
+        "size": 12828,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 8715,
+        "node": {
+          "name": "Go Template"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "jaykumar1432",
+    "__typename": "User",
+    "createdAt": "2025-06-26T12:18:56Z",
+    "repositories": {
+      "totalCount": 31
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T01:42:09Z",
+            "messageHeadline": "'Resume'",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "__pycache__",
+        "type": "tree"
+      },
+      {
+        "name": "analyzer.py",
+        "type": "blob"
+      },
+      {
+        "name": "app.py",
+        "type": "blob"
+      },
+      {
+        "name": "pdf_reader.py",
+        "type": "blob"
+      },
+      {
+        "name": "promts.py",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "venv",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1464,
+    "text": "# 📄 Resume-Analyzer\n\n\nResume-Analyzer is a privacy-first, local AI-powered application built using **Streamlit** and **Ollama**. It allows users to upload PDF resumes to instantly extract key insights, match candidates against job descriptions, and get optimization suggestions—all completely offline.\n\n## ✨ Features\n\n- 🔒 **100% Private:** Powered by local LLMs via Ollama. Your data never leaves your machine.\n- 📄 **PDF Support:** Seamlessly upload and parse PDF resumes.\n- 💼 **Job Description Matching:** Compare resumes against specific job roles to calculate a match score.\n- 💡 **Smart Insights:** Tailored feedback on how to improve the resume for ATS (Applicant Tracking Systems).\n\n---\n\n## 🛠️ Tech Stack\n\n- **Frontend:** Streamlit\n- **LLM Engine:** Ollama\n- **Language:** Python\n\n---\n\n## 🚀 Getting Started\n\n### Prerequisites\n\n1. Install **Python 3.9+**\n2. Install **Ollama**\n3. Pull your preferred model:\n\n```bash\nollama pull llama3\n```\n\n---\n\n## 📥 Installation\n\n### 1. Clone the repository\n\n```bash\ngit clone https://github.com/portside001/Resume-Analyzer.git\ncd Resume-Analyzer\n```\n\n### 2. Create a virtual environment (Recommended)\n\n**Windows**\n\n```bash\npython -m venv venv\nvenv\\Scripts\\activate\n```\n\n**macOS/Linux**\n\n```bash\npython3 -m venv venv\nsource venv/bin/activate\n```\n\n### 3. Install dependencies\n\n```bash\npip install -r requirements.txt\n```\n\n---\n\n### Step 3: Launch the Streamlit app\n\n```bash\nstreamlit run app.py\n``\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

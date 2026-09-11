@@ -1,0 +1,321 @@
+{
+  "id": "R_kgDONA6leA",
+  "nameWithOwner": "legandrop/LGA_NukeShortcuts",
+  "description": "A set of keyboard shortcuts and small automations designed to simplify repetitive tasks and speed up everyday work in Nuke.",
+  "homepageUrl": "",
+  "createdAt": "2024-10-16T04:08:08Z",
+  "pushedAt": "2026-09-08T13:08:05Z",
+  "diskUsage": 3270,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "AutoHotkey"
+  },
+  "languages": {
+    "totalSize": 66408,
+    "edges": [
+      {
+        "size": 64211,
+        "node": {
+          "name": "AutoHotkey"
+        }
+      },
+      {
+        "size": 2197,
+        "node": {
+          "name": "Batchfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "legandrop",
+    "__typename": "User",
+    "createdAt": "2024-07-21T17:44:01Z",
+    "repositories": {
+      "totalCount": 18
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "ac3853ddbfffb7e8bb61867881d46afb7f401826",
+      "history": {
+        "totalCount": 24,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T01:46:52Z",
+            "messageHeadline": "Repo - Ignorar desktop.ini del icono de carpeta",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T23:26:18Z",
+            "messageHeadline": "Git - Agregar .git-blame-ignore-revs con el commit de renormalizacion",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T22:58:07Z",
+            "messageHeadline": "Git - Renormalizar line endings segun .gitattributes",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T22:58:06Z",
+            "messageHeadline": "Git - Politica de line endings",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-14T19:46:45Z",
+            "messageHeadline": "Reglas - Actualizar autoria y acceso",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-02-10T12:01:38Z",
+            "messageHeadline": "v1.7 - Los shortcuts solo se activan en ventana de Nuke, fuera no hac…",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-02-10T11:48:16Z",
+            "messageHeadline": "v1.7 - Traductor de shortcuts para mejor lectura (ctrl, alt, shift, win)",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-18T14:20:30Z",
+            "messageHeadline": "v1.6 - Inmovilizar mouse al crear keyframes + ReleaseGen",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T12:17:35Z",
+            "messageHeadline": "v1.5",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T12:05:24Z",
+            "messageHeadline": "v1.5",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T11:00:27Z",
+            "messageHeadline": "v1.5",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T10:56:35Z",
+            "messageHeadline": "v1.5",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T10:39:10Z",
+            "messageHeadline": "v1.4",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T10:36:50Z",
+            "messageHeadline": "v1.4",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T10:34:00Z",
+            "messageHeadline": "v1.4",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T08:31:51Z",
+            "messageHeadline": "v1.3",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T07:48:17Z",
+            "messageHeadline": "v1.2",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-17T05:42:09Z",
+            "messageHeadline": "v1.1",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-16T04:10:27Z",
+            "messageHeadline": "v1.0",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-16T04:09:42Z",
+            "messageHeadline": "v1.0",
+            "author": {
+              "user": {
+                "login": "legandrop"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "+OLD",
+        "type": "tree"
+      },
+      {
+        "name": "+resources",
+        "type": "tree"
+      },
+      {
+        "name": ".cursorrules",
+        "type": "blob"
+      },
+      {
+        "name": ".exclude.lst",
+        "type": "blob"
+      },
+      {
+        "name": ".git-blame-ignore-revs",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LGA_Nuke_Shortcuts.ahk",
+        "type": "blob"
+      },
+      {
+        "name": "LGA_Nuke_Shortcuts.exe",
+        "type": "blob"
+      },
+      {
+        "name": "LGA_Nuke_Shortcuts_Config.ahk",
+        "type": "blob"
+      },
+      {
+        "name": "LGA_Nuke_Shortcuts_Config.exe",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "_LGA_ReleaseGen.bat",
+        "type": "blob"
+      },
+      {
+        "name": "add-comments.md",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3507,
+    "isTruncated": false,
+    "text": "# LGA Nuke Shortcuts\n\nEsta herramienta, creada con AutoHotkey v2, proporciona dos atajos de teclado útiles para mejorar el flujo de trabajo en Nuke/NukeX, junto con una interfaz gráfica para configurar estos atajos y otras opciones.\n\n## Instalación\n\nLGA Nuke Shortcuts es una aplicación portable, lo que significa que no requiere una instalación tradicional:\n\n1. Descarga el archivo ZIP del proyecto.\n2. Extrae el contenido en cualquier ubicación de tu elección en tu computadora.\n3. Ejecuta el archivo `LGA_Nuke_Shortcuts.exe` para iniciar la aplicación.\n\n## Atajos de teclado predeterminados\n\n1. **Ctrl+Shift+D**: \n   - Función: Agrega un keyframe en la posición actual del cursor o del puntero del mouse.\n   - Uso: Coloca el cursor donde desees agregar el keyframe y presiona Ctrl+Shift+D. Si no hay un cursor visible, utilizará la posición actual del mouse.\n\n2. **Ctrl+Alt+Shift+D**: \n   - Función: Selecciona todos los keyframes en el Dope Sheet o Curve Editor y ajusta la vista para mostrarlos todos.\n   - Uso: Presiona Ctrl+Alt+Shift+D cuando estés en la ventana de Nuke. El script realizará las siguientes acciones:\n     1. Moverá el mouse a la posición configurada del Dope Sheet o Curve Editor.\n     2. Seleccionará todos los keyframes (equivalente a presionar Ctrl+A).\n     3. Ajustará la vista para mostrar todos los keyframes seleccionados (equivalente a presionar F).\n     4. Volverá a la posición original del mouse.\n   - Resultado: Verás todos los keyframes seleccionados y la vista se ajustará para mostrarlos de manera óptima, facilitando la visualización y edición de la animación completa.\n\n## Configuración\n\nLGA Nuke Shortcuts incluye una interfaz gráfica de usuario (GUI) para configurar fácilmente los atajos de teclado y otras opciones:\n\n1. Ejecuta `LGA_Nuke_Shortcuts_Config.exe` para abrir la ventana de configuración.\n2. En esta ventana puedes:\n   - Cambiar los atajos de teclado para ambas funciones.\n   - Ajustar la posición del clic para el Dope Sheet.\n   - Calibrar la posición del Dope Sheet automáticamente.\n   - Activar o desactivar el inicio automático con Windows.\n\n### Calibración del Dope Sheet\n\n1. Haz clic en el botón \"Calibrate\" en la ventana de configuración.\n2. Sigue las instrucciones en pantalla para hacer clic en el área del Dope Sheet en Nuke.\n3. La posición se guardará automáticamente.\n\n### Inicio automático\n\nPuedes activar o desactivar el inicio automático con Windows directamente desde la interfaz de configuración:\n\n- Marca o desmarca la casilla \"Run at Windows startup\" en la ventana de configuración.\n\n## Archivos necesarios\n\nPara que LGA Nuke Shortcuts funcione correctamente, asegúrate de tener los siguientes archivos en la carpeta `+resources`:\n\n- `LGA_Nuke_Shortcuts_Settings.ini`: Archivo de configuración que almacena los atajos de teclado y la posición del Dope Sheet.\n- `check_on.jpg` y `check_off.jpg`: Imágenes utilizadas para el checkbox personalizado en la interfaz de configuración.\n- `DopeSheetPos.bmp`: Imagen de ejemplo utilizada en la ventana de calibración.\n- `ColorButton.ahk`: Script auxiliar para personalizar los botones en la interfaz de configuración.\n\n\nv1.7 | Lega | 2024\n\n\n\n### Para el desarrollador:\n1. Está hecho con AutoHotkey v2.1 alpha 9, por lo que es compatible con Windows 10 y superior.\n2. Para compilar a .exe, se utiliza el compilador de AutoHotkey ahk2exe con estos settings:\n   - Elegir destination\n   - Elegir icon\n   - Elegir Autohotkey 2.1 alpha 14 U64\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

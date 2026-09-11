@@ -1,0 +1,602 @@
+[
+  {
+    "id": 43293016755,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T10:01:03Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43292498292,
+    "ref": "refs/heads/docs/v0.7.0-defaults",
+    "timestamp": "2026-09-11T09:55:09Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43290712317,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T09:34:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43289983234,
+    "ref": "refs/heads/release/v0.7.0",
+    "timestamp": "2026-09-11T09:26:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43289429428,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T09:19:48Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43289007419,
+    "ref": "refs/heads/feat/musl-runtime",
+    "timestamp": "2026-09-11T09:14:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43287647290,
+    "ref": "refs/heads/feat/musl-runtime",
+    "timestamp": "2026-09-11T08:59:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43279157793,
+    "ref": "refs/heads/feat/musl-runtime",
+    "timestamp": "2026-09-11T07:18:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43278791215,
+    "ref": "refs/heads/feat/musl-runtime",
+    "timestamp": "2026-09-11T07:14:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43277831388,
+    "ref": "refs/heads/feat/musl-runtime",
+    "timestamp": "2026-09-11T07:02:20Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43271925483,
+    "ref": "refs/heads/docs/setup-marketplace",
+    "timestamp": "2026-09-11T05:39:24Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43271924710,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T05:39:23Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43271583898,
+    "ref": "refs/heads/docs/setup-marketplace",
+    "timestamp": "2026-09-11T05:33:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43271168380,
+    "ref": "refs/heads/docs/setup-marketplace",
+    "timestamp": "2026-09-11T05:27:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43270985027,
+    "ref": "refs/heads/docs/setup-marketplace",
+    "timestamp": "2026-09-11T05:24:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43265495956,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T03:51:54Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43265194691,
+    "ref": "refs/heads/docs/v0.6.2-defaults",
+    "timestamp": "2026-09-11T03:46:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43265160864,
+    "ref": "refs/heads/docs/v0.6.2-defaults",
+    "timestamp": "2026-09-11T03:46:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43264107420,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T03:27:37Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43263782382,
+    "ref": "refs/heads/release/v0.6.2",
+    "timestamp": "2026-09-11T03:21:27Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43263733846,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T03:20:29Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43263440097,
+    "ref": "refs/heads/fix/native-libc-advisories",
+    "timestamp": "2026-09-11T03:14:44Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43263435056,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T03:14:37Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43263158820,
+    "ref": "refs/heads/fix/cross-device-image-assets",
+    "timestamp": "2026-09-11T03:09:13Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43263144067,
+    "ref": "refs/heads/fix/native-libc-advisories",
+    "timestamp": "2026-09-11T03:08:55Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43263058943,
+    "ref": "refs/heads/fix/native-libc-advisories",
+    "timestamp": "2026-09-11T03:07:15Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43262916486,
+    "ref": "refs/heads/fix/native-libc-advisories",
+    "timestamp": "2026-09-11T03:04:33Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43262825303,
+    "ref": "refs/heads/fix/cross-device-image-assets",
+    "timestamp": "2026-09-11T03:02:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43262683663,
+    "ref": "refs/heads/fix/cross-device-image-assets",
+    "timestamp": "2026-09-11T03:00:29Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43259651136,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T02:02:10Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43259277720,
+    "ref": "refs/heads/docs/v0.6.1-defaults",
+    "timestamp": "2026-09-11T01:55:38Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43259255189,
+    "ref": "refs/heads/docs/v0.6.1-defaults",
+    "timestamp": "2026-09-11T01:55:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43258120066,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T01:34:03Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43257838668,
+    "ref": "refs/heads/release/v0.6.1",
+    "timestamp": "2026-09-11T01:28:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43257614233,
+    "ref": "refs/heads/release/v0.6.1",
+    "timestamp": "2026-09-11T01:24:41Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43256319971,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T01:00:49Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43256068187,
+    "ref": "refs/heads/registry-cleartext-credential-warning",
+    "timestamp": "2026-09-11T00:56:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255103619,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:38:23Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43254823657,
+    "ref": "refs/heads/docs/v0.6.0-defaults",
+    "timestamp": "2026-09-11T00:33:13Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254571541,
+    "ref": "refs/heads/docs/v0.6.0-defaults",
+    "timestamp": "2026-09-11T00:28:43Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43254342795,
+    "ref": "refs/heads/registry-cleartext-credential-warning",
+    "timestamp": "2026-09-11T00:24:24Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43253464047,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:08:18Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43253165633,
+    "ref": "refs/heads/release/v0.6.0",
+    "timestamp": "2026-09-11T00:03:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43252814240,
+    "ref": "refs/heads/release/v0.6.0",
+    "timestamp": "2026-09-10T23:57:18Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43252724740,
+    "ref": "refs/heads/release/v0.6.0",
+    "timestamp": "2026-09-10T23:55:36Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43252628811,
+    "ref": "refs/heads/snyk-false-positive-policy",
+    "timestamp": "2026-09-10T23:53:50Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43252625873,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T23:53:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43252442042,
+    "ref": "refs/heads/snyk-false-positive-policy",
+    "timestamp": "2026-09-10T23:50:16Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43252140684,
+    "ref": "refs/heads/snyk-false-positive-policy",
+    "timestamp": "2026-09-10T23:44:38Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43252112104,
+    "ref": "refs/heads/harden-example-manifests",
+    "timestamp": "2026-09-10T23:44:06Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43252028544,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T23:42:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43251754220,
+    "ref": "refs/heads/merge/reviewed-validation-batch",
+    "timestamp": "2026-09-10T23:37:29Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43251615334,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T23:34:54Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43251018681,
+    "ref": "refs/heads/fix/kubernetes-list-selectors",
+    "timestamp": "2026-09-10T23:24:01Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250950619,
+    "ref": "refs/heads/fix/invocation-cancellation",
+    "timestamp": "2026-09-10T23:22:44Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43250936863,
+    "ref": "refs/heads/fix/kubernetes-list-selectors",
+    "timestamp": "2026-09-10T23:22:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250879903,
+    "ref": "refs/heads/perf/shared-source-analysis",
+    "timestamp": "2026-09-10T23:21:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250843926,
+    "ref": "refs/heads/fix/kubernetes-list-selectors",
+    "timestamp": "2026-09-10T23:20:48Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250813064,
+    "ref": "refs/heads/fix/shared-config-plan",
+    "timestamp": "2026-09-10T23:20:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250518351,
+    "ref": "refs/heads/docs/registry-auth-onboarding",
+    "timestamp": "2026-09-10T23:15:03Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43250415099,
+    "ref": "refs/heads/fix/kubernetes-list-selectors",
+    "timestamp": "2026-09-10T23:13:14Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43250414392,
+    "ref": "refs/heads/perf/shared-source-analysis",
+    "timestamp": "2026-09-10T23:13:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43250374787,
+    "ref": "refs/heads/fix/shared-config-plan",
+    "timestamp": "2026-09-10T23:12:33Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43249029389,
+    "ref": "refs/heads/perf/plan-key-reachable-lock",
+    "timestamp": "2026-09-10T22:49:41Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43219721589,
+    "ref": "refs/heads/fix/action-cache-key-targets",
+    "timestamp": "2026-09-10T16:30:35Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43217584262,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T16:05:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43217044980,
+    "ref": "refs/heads/docs/v0.5.0-published",
+    "timestamp": "2026-09-10T15:59:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43216529995,
+    "ref": "refs/heads/docs/v0.5.0-published",
+    "timestamp": "2026-09-10T15:53:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43215156497,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T15:37:42Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43213455259,
+    "ref": "refs/heads/release/v0.5.0",
+    "timestamp": "2026-09-10T15:19:06Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43212789394,
+    "ref": "refs/heads/release/v0.5.0",
+    "timestamp": "2026-09-10T15:11:50Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43212094114,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T15:04:17Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43211030541,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:53:25Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43211005554,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T14:53:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43210477304,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:47:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43210422544,
+    "ref": "refs/heads/feat/action-step-summary",
+    "timestamp": "2026-09-10T14:47:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43210389952,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T14:46:40Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43210153992,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:44:13Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43209787218,
+    "ref": "refs/heads/feat/action-step-summary",
+    "timestamp": "2026-09-10T14:40:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43209785533,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:40:20Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43209706809,
+    "ref": "refs/heads/feat/action-cache-github",
+    "timestamp": "2026-09-10T14:39:31Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43209686535,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T14:39:17Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43209004062,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:32:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208766534,
+    "ref": "refs/heads/feat/action-cache-github",
+    "timestamp": "2026-09-10T14:29:43Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208764803,
+    "ref": "refs/heads/perf/base-inspect-cache",
+    "timestamp": "2026-09-10T14:29:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208712753,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:29:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208685993,
+    "ref": "refs/heads/feat/action-step-summary",
+    "timestamp": "2026-09-10T14:28:51Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208659520,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T14:28:33Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43208590888,
+    "ref": "refs/heads/perf/base-inspect-cache",
+    "timestamp": "2026-09-10T14:27:50Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208542527,
+    "ref": "refs/heads/feat/action-cache-github",
+    "timestamp": "2026-09-10T14:27:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43208106643,
+    "ref": "refs/heads/fix/check-config-node-modules",
+    "timestamp": "2026-09-10T14:22:42Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 43207727342,
+    "ref": "refs/heads/feat/registry-plan-records",
+    "timestamp": "2026-09-10T14:18:48Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43207317382,
+    "ref": "refs/heads/perf/base-inspect-cache",
+    "timestamp": "2026-09-10T14:14:38Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43206714242,
+    "ref": "refs/heads/fix/check-config-node-modules",
+    "timestamp": "2026-09-10T14:08:22Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43206622403,
+    "ref": "refs/heads/feat/action-step-summary",
+    "timestamp": "2026-09-10T14:07:24Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43205126954,
+    "ref": "refs/heads/feat/action-cache-github",
+    "timestamp": "2026-09-10T13:51:59Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43199154854,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T12:47:34Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43198548845,
+    "ref": "refs/heads/docs/v0.4.0-verified-distribution",
+    "timestamp": "2026-09-10T12:40:44Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43198416673,
+    "ref": "refs/heads/docs/v0.4.0-verified-distribution",
+    "timestamp": "2026-09-10T12:39:15Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43197215494,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T12:25:27Z",
+    "activity_type": "pr_merge"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:17:23Z",
+  "nwo": "rostamlabs/rostam",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 24031,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "deep": {
+    "recordedAt": "2026-09-11T15:17:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/test.yml",
+      ".github/workflows/changelog.yml",
+      ".github/workflows/docs.yml",
+      "go.mod"
+    ],
+    "treeEntries": 1516,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": true
+  }
+}

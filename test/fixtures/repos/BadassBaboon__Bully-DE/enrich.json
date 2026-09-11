@@ -1,0 +1,299 @@
+{
+  "id": "R_kgDOUEyTSg",
+  "nameWithOwner": "BadassBaboon/Bully-DE",
+  "description": "A plugin that improves various features such as shadows, NPC density, draw distance and more in Bully: Scholarship Edition",
+  "homepageUrl": "",
+  "createdAt": "2026-08-26T10:24:49Z",
+  "pushedAt": "2026-08-29T20:07:32Z",
+  "diskUsage": 390,
+  "stargazerCount": 9,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 128141,
+    "edges": [
+      {
+        "size": 122238,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 3809,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 2094,
+        "node": {
+          "name": "CMake"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 4
+  },
+  "tags": {
+    "totalCount": 4
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "BadassBaboon",
+    "__typename": "User",
+    "createdAt": "2017-10-12T08:27:52Z",
+    "repositories": {
+      "totalCount": 13
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 19,
+        "nodes": [
+          {
+            "committedDate": "2026-08-29T20:05:45Z",
+            "messageHeadline": "Fixed 2DFX issues and bumped version",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T17:43:35Z",
+            "messageHeadline": "Fixed near clip issues",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T17:40:06Z",
+            "messageHeadline": "Default NearPlane back to the engine's 0.25",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-28T12:56:30Z",
+            "messageHeadline": "Ship 2x draw distance rather than 4x",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-28T12:53:36Z",
+            "messageHeadline": "Scale pedestrian density, ship 4x draw distance",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-28T12:50:20Z",
+            "messageHeadline": "Update RESEARCH.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T12:50:18Z",
+            "messageHeadline": "Added ped density controls and upped render distance from 2 to 4",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T10:46:10Z",
+            "messageHeadline": "Update RESEARCH.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T10:46:08Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T10:46:07Z",
+            "messageHeadline": "Improved PredProp signature check",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T10:02:51Z",
+            "messageHeadline": "Release 1.1.0",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-28T09:58:10Z",
+            "messageHeadline": "Update RESEARCH.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T09:58:09Z",
+            "messageHeadline": "Added nearclip",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T09:30:13Z",
+            "messageHeadline": "Update RESEARCH.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T09:30:11Z",
+            "messageHeadline": "Major feature implementation",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T19:59:05Z",
+            "messageHeadline": "Update RESEARCH.md",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T19:59:03Z",
+            "messageHeadline": "Bloom controls implemented",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T10:24:44Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T10:24:04Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "BadassBaboon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Bully-DE.ini",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "research",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10434,
+    "text": "<p align=\"center\">\n  <img src=\"assets/bully-de.png\" alt=\"Bully Definitive Edition\" width=\"640\">\n</p>\n\n# Bully: Definitive Edition\n\nAn ASI plugin for **Bully: Scholarship Edition** on PC. It pushes draw distance\nout, sharpens shadows, tightens bloom, and fixes the white halos MSAA leaves\naround foliage.\n\nEvery patch checks the bytes it is about to overwrite against the vanilla\nencoding first, so a wrong address produces a line in the log instead of a crash.\nNothing is applied blindly.\n\n---\n\n## What it does\n\n**Draw distance.** Fourteen LOD object pools, the camera far clip, sector\ntraversal, distance culling and the corona light table all move together.\nRaising one without the others either does nothing or overflows something, which\nis why this is a set of coordinated patches rather than a single number.\n\nShips at 2x, which puts the far clip at 600 m against the game's 300. Raising\n`LodMultiplier` further works and 4x is comfortable on modern hardware, but 2x is\nthe default because draw distance is the most expensive setting here and the\nsector traversal caps insertions at 1999 per frame. Past that, distant geometry\nstops drawing rather than warning you.\n\n**Pedestrian population.** `PedPopScale` scales two separate things in memory\nafter `PedPop.dat` is parsed: how far pedestrians spawn, and how many of them\neach area gets. Your own data file is still read normally and scaled on top, so a\ncustom `PedPop.dat` keeps working. The pool sizes are a third thing again and\nonly raise the ceiling.\n\n**Shadow resolution.** From the game's 1024 up to 8192. Three separate things in\nthe engine cap it: a per-light size assignment that overwrites the value every\nframe, a hard 2048 clamp in both allocators, and a 64 MB budget sized for eight\n1024x1024 maps. Change fewer than all three and you get nothing at all, or\nshadows that vanish at distance.\n\nOutdoors the sun is a wide-angle spot light stretched across a neighbourhood, so\nthose 1024 texels are spread thin and edges turn to mush. Indoors the same map\ncovers one room and looks sharp. One resolution fix sharpens both.\n\n**Bloom.** The blur smears because of its radius, not its sample count. Both\nbloom shaders already do 13 taps per axis, fully unrolled. `BloomRadiusPercent`\nnarrows the kernel, which concentrates the same glow into a smaller area rather\nthan dimming it.\n\n**Anti-aliasing.** Hardware alpha-to-coverage never activates for foliage and\nwire fences under MSAA, which is what produces the white outlines around leaves\nand chain-link. This fixes the check that gates it.\n\n**Fog and motion blur toggles.** Read the note below on what \"fog\" actually is in\nthis game, because it is not what most people expect.\n\n## Install\n\n1. Install an ASI loader if you do not have one. Ultimate ASI Loader works.\n2. Copy `Bully-DE.asi` and `Bully-DE.ini` into the game's `plugins` folder.\n3. Launch, then read `plugins/Bully-DE.log`.\n\nThis repository holds the source. The built `.asi` is not committed, so cloning\nwill not give you one; build it with the instructions below.\n\n## Settings\n\nEvery setting is documented in `Bully-DE.ini` itself, with the reasoning behind\nit. The tables below are the summary.\n\n### Draw distance\n\n| Setting | Default | Notes |\n|---|---|---|\n| `LodMultiplier` | `2.0` | Scales all fourteen LOD object pools, and the far clip when `FarClipOverride` is `0`. 4x works; see the note above on why 2x ships. |\n| `FarClipOverride` | `0.0` | `0` auto-computes `LodMultiplier x 300 m`, so 600 m at the shipped multiplier. |\n| `NearPlane` | `0.25` | The engine's own value. Raising it buys depth precision, since what causes Z-fighting is the far/near **ratio** and the timecycle's `NearFarRatio` column says 2500. At the shipped 600 m far clip you are already at 2400:1, so this only wants raising alongside a much larger `FarClipOverride`. It is not free: the near plane is where geometry starts being clipped, and cutscene cameras sit inside a metre of faces, so 1.0 clips through characters. Try 0.5 first. The log reports the ratio. |\n| `PedPopScale` | `2.0` | Scales pedestrian spawn ranges **and** per\n| `PedPoolSize` | `2048` | Vanilla 490. The loop bound follows at 2x automatically. |\n| `VehiclePoolSize` | `2048` | Vanilla 250. |\n| `ForceHighDetailModels` | `0` | Never drops to low-detail meshes. This bypasses the distance comparison entirely, so `LodMultiplier` stops affecting model switching while it is on. |\n| `BypassDistanceCulling`, `ExtendCoronaBuffer`, `EnableSectorOverflowGuard`, `ExtendTerrainDrawDistance` | `1` | Parts of the same coordinated set. |\n| `FilterRadarPedBlips` | `0` | Stops distant ambient NPCs cluttering the minimap. |\n\n### Shadows\n\n| Setting | Default | Notes |\n|---|---|---|\n| `ShadowMapResolution` | `8192` | VRAM per map is `resolution^2 x 4`: 16 MB at 2048, 64 MB at 4096, 256 MB at 8192. |\n| `ShadowBudgetMB` | `0` (auto) | This is the setting that decides whether shadows survive at distance, not the resolution. |\n| `ShadowTechnique` | `1` (PCF) | `0` is hard-edged with no filtering. |\n| `ShadowGeneratorCount` | `8` | Do not raise. Every shipped shader binds exactly four spot-shadow slots, so a fifth light has nowhere to go. |\n| `DisableBlobShadows` | `0` | Removes the flat oval decals under characters. They are separate from the mesh shadows the spot lights cast, so this takes away ground contact where those lights do not reach. |\n\n### Bloom, AA and post-processing\n\n| Setting | Default | Notes |\n|---|---|---|\n| `BloomRadiusPercent` | `50` | `100`, `50` or `25`. Only powers of two are reachable, because the radius comes from a bit shift. |\n| `BloomMode` | `0` | `1` forces bloom on everywhere, `2` off entirely. |\n| `BloomThreshold` / `BloomStrength` / `BloomScale` | `-1` | `-1` keeps the game's own per-area values (230 / 80 / 4). |\n| `EnableAAFixes` | `1` | Only does anything with MSAA actually enabled. |\n| `DisableDistanceFog` / `DisableMotionBlur` | `1` | |\n| `LogPostFXState` | `0` | Read-only diagnostic. Samples the screen-effect gate state once a second and logs it when it changes. Patches nothing. |\n\n## What \"fog\" means in this game\n\nTwo different things get called fog, and only one of them is fog.\n\nWhat most players see as fog is **buildings fading into existence**. Object\ndefinitions carry their own `FadeDistance` alongside `MaxRadius`, so geometry\nramps in from transparent as it streams. That reads as fog lifting, but it is an\nalpha ramp on the objects themselves.\n\nThe actual shader fog is a subtle haze that adds depth, most visible on distant\nmountains and cliffs. That is what `DisableDistanceFog` switches off, by blanking\nthe uniform names the engine looks the constants up by.\n\nSo the two settings do different jobs. If you want buildings to stop\nmaterialising in front of you, that is the **draw distance** settings, not the fog\ntoggle. Turning the fog off as well removes the haze, which flattens distant\nterrain. Vanilla sits between the two.\n\n## Build\n\nRequires CMake 3.20 or newer and a Visual Studio toolchain with the Windows SDK.\nThe game is 32-bit, so the build has to be too.\n\n```cmd\ncmake -B build -A Win32\ncmake --build build --config Release\n```\n\nOutput is `build/Release/Bully-DE.asi`, with `Bully-DE.ini` copied next to it.\nNothing is needed beyond the Win32 API. The CRT is linked statically, so the\nbuilt `.asi` imports only `kernel32.dll` and does not need the VC++\nredistributable on the machine that runs it.\n\n## If something looks wrong\n\nRead `plugins/Bully-DE.log`. It records every patch, its address, and the value\nit replaced.\n\n**No log at all** means the `.asi` was never loaded, which is a loader or install\nproblem rather than a mod one. Antivirus quarantining the file is the usual\ncause, and it does it silently.\n\n**A signature mismatch** means the game build is not the one this was developed\nagainst. That patch was skipped rather than applied blindly, and the log prints\nboth the expected and the actual bytes.\n\n**Shadows disappearing at distance** means the shadow map budget or your VRAM ran\nout. Set `ShadowBudgetMB` to something your card can hold, or drop\n`ShadowMapResolution` to 4096.\n\n**Shimmering on distant road markings or building faces** is Z-fighting from the\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

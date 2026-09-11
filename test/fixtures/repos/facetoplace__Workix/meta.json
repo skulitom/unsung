@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "facetoplace/Workix",
+  "label": "W",
+  "stratum": "search",
+  "sample": "S6_mcp",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 19627,
+    "keptBytes": 8192,
+    "excerpt": true
+  }
+}

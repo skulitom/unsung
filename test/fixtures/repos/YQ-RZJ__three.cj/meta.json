@@ -1,0 +1,42 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "YQ-RZJ/three.cj",
+  "set": "hardPositives",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 22955,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": null,
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 22955,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      "cjpm.toml"
+    ],
+    "treeEntries": 4078,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 3,
+    "stars": false
+  }
+}

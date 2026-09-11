@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "elastic/apm-data",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S4_go_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 513,
+    "keptBytes": 513,
+    "excerpt": false
+  }
+}

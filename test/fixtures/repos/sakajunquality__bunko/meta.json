@@ -1,0 +1,47 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "sakajunquality/bunko",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S1_ts_new",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 19880,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 19880,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/container.yml",
+      ".github/workflows/npm.yml"
+    ],
+    "treeEntries": 464,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": false
+  }
+}

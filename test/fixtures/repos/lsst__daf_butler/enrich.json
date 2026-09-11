@@ -1,0 +1,430 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkxMDY4NzMxNDk=",
+  "nameWithOwner": "lsst/daf_butler",
+  "description": "Data Access abstraction framework for the Rubin Observatory",
+  "homepageUrl": "",
+  "createdAt": "2017-10-13T21:03:25Z",
+  "pushedAt": "2026-09-10T08:55:59Z",
+  "diskUsage": 21186,
+  "stargazerCount": 15,
+  "forkCount": 20,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 6075204,
+    "edges": [
+      {
+        "size": 6065753,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 5092,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 4359,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "hacktoberfest"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "astronomy"
+        }
+      },
+      {
+        "topic": {
+          "name": "pipeline-middleware"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 617
+  },
+  "watchers": {
+    "totalCount": 11
+  },
+  "owner": {
+    "login": "lsst",
+    "__typename": "Organization",
+    "createdAt": "2011-10-17T23:31:54Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 7368,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T22:58:33Z",
+            "messageHeadline": "Merge pull request #1424 from lsst/u/dhirving/fix-local-dev-build",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T17:08:19Z",
+            "messageHeadline": "Remove unnecessary --all-extras calls",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T17:08:19Z",
+            "messageHeadline": "Include extras by default in dev environment",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T15:35:52Z",
+            "messageHeadline": "Merge pull request #1425 from lsst/tickets/DM-55921",
+            "author": {
+              "user": {
+                "login": "TallJimbo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T23:50:06Z",
+            "messageHeadline": "Revert \"Merge pull request #1411 from lsst/tickets/DM-55656\"",
+            "author": {
+              "user": {
+                "login": "TallJimbo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T17:19:10Z",
+            "messageHeadline": "Merge pull request #1423 from lsst/dependabot/github_actions/monthly-…",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T16:29:51Z",
+            "messageHeadline": "Bump github/codeql-action in the monthly-batch group",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T23:04:23Z",
+            "messageHeadline": "Merge pull request #1422 from lsst/tickets/DM-55989",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:24:42Z",
+            "messageHeadline": "Fix extra-args parameter in prek commit CI",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:24:42Z",
+            "messageHeadline": "Only measure coverage in the pinned Python 3.14 CI job",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T22:38:11Z",
+            "messageHeadline": "Merge pull request #1421 from lsst/tickets/DM-53347",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T22:16:51Z",
+            "messageHeadline": "Update tests/test_server.py",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T19:27:57Z",
+            "messageHeadline": "Rename some exceptions in docstrings that are now top level exceptions",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T19:27:57Z",
+            "messageHeadline": "Report malformed dataset type names as user errors",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T21:11:47Z",
+            "messageHeadline": "Merge pull request #1414 from lsst/tickets/DM-55631",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:13:08Z",
+            "messageHeadline": "Update doc/changes/DM-55631.bugfix.md",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:13:08Z",
+            "messageHeadline": "Simplify query streaming logic using anyio",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:13:08Z",
+            "messageHeadline": "Fix possible cancel scope confusion",
+            "author": {
+              "user": {
+                "login": "dhirving"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T18:17:24Z",
+            "messageHeadline": "Merge pull request #1419 from lsst/dependabot/github_actions/monthly-…",
+            "author": {
+              "user": {
+                "login": "timj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T17:54:32Z",
+            "messageHeadline": "Bump the monthly-batch group across 1 directory with 4 updates",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".yamllint.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "CITATION.cff",
+        "type": "blob"
+      },
+      {
+        "name": "COPYRIGHT",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "MANIFEST.in",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SConstruct",
+        "type": "blob"
+      },
+      {
+        "name": "bsd_license.txt",
+        "type": "blob"
+      },
+      {
+        "name": "compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "doc",
+        "type": "tree"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "gpl-v3.0.txt",
+        "type": "blob"
+      },
+      {
+        "name": "mypy.ini",
+        "type": "blob"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "python",
+        "type": "tree"
+      },
+      {
+        "name": "server",
+        "type": "tree"
+      },
+      {
+        "name": "setup.cfg",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tests_integration",
+        "type": "tree"
+      },
+      {
+        "name": "ups",
+        "type": "tree"
+      },
+      {
+        "name": "uv.lock",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build.yaml"
+      },
+      {
+        "name": "build_docs.yaml"
+      },
+      {
+        "name": "codeql-analysis.yml"
+      },
+      {
+        "name": "do_not_merge.yaml"
+      },
+      {
+        "name": "docker.yaml"
+      },
+      {
+        "name": "docstyle.yaml"
+      },
+      {
+        "name": "formatting.yaml"
+      },
+      {
+        "name": "mypy.yaml"
+      },
+      {
+        "name": "pre-commit.yaml"
+      },
+      {
+        "name": "rebase_checker.yaml"
+      },
+      {
+        "name": "yamllint.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3273,
+    "text": "# lsst-daf-butler\n\n[![pypi](https://img.shields.io/pypi/v/lsst-daf-butler.svg)](https://pypi.org/project/lsst-daf-butler/)\n[![codecov](https://codecov.io/gh/lsst/daf_butler/branch/main/graph/badge.svg?token=2BUBL8R9RH)](https://codecov.io/gh/lsst/daf_butler)\n\nLSST Data Access framework described in [arXiv:2206.14941](https://arxiv.org/abs/2206.14941).\nPlease cite [the SPIE paper](https://doi.org/10.1117/12.2629569) when using this software.\n\nThis is a **Python 3 only** package (we assume Python 3.11 or higher).\n\n* SPIE paper from 2024: [Converting Rubin Observatory's data butler to a client/server architecture](https://doi.org/10.1117/12.3019130) ([Tech note](https://dmtn-288.lsst.io))\n* SPIE Paper from 2022: [The Vera C. Rubin Observatory Data Butler and Pipeline Execution System](https://doi.org/10.1117/12.2629569) ([arXiv](https://arxiv.org/abs/2206.14941)) \\[Primary reference]\n* ADASS paper from 2019: [Abstracting the Storage and Retrieval of Image Data at the LSST](https://ui.adsabs.harvard.edu/abs/2019ASPC..523..653J/abstract).\n* Early design note: [DMTN-056](https://dmtn-056.lsst.io)\n\nPyPI: [lsst-daf-butler](https://pypi.org/project/lsst-daf-butler/)\n\nThis software is dual licensed under the GNU General Public License (version 3 of the License, or (at your option) any later version, and also under a 3-clause BSD license).\nRecipients may choose which of these licenses to use; please see the files gpl-3.0.txt and/or bsd_license.txt, respectively.\n\n## Arrow Memory Leaks\n\nFrom version 18 of arrow we have seen significant memory leaks when accessing parquet files using the default memory allocator.\nIf you see such leaks the workaround is to set the `ARROW_DEFAULT_MEMORY_POOL` environment variable to `jemalloc` following the advice from [apache/arrow#45882](https://github.com/apache/arrow/issues/45882).\nFor EUPS users this variable is automatically set.\n\n## Managing dependencies\n\nThis package uses [uv](https://docs.astral.sh/uv/) to manage the versions of libraries used for CI, Docker builds, and local development.\n\n### Upgrading the versions of libraries\n\nRun the following command to refresh `uv.lock` with the latest available\nversions of all libraries:\n```\nuv lock --upgrade\n```\n\n### Temporarily pinning another LSST package to a development branch\nIf you are working on a PR that requires unreleased changes from another LSST\nrepository, you can temporarily pin the new version by opening `pyproject.toml`\nand finding the library in the `override-dependencies` declaration under\n`tool.uv`.  Replace `main` with the ticket branch, e.g.:\n```\noverride-dependencies = [\n    \"lsst-utils @ git+https://github.com/lsst/utils@tickets/DM-xxxxx\",\n    ...\n]\n```\n\nThen run:\n```\nuv lock --upgrade-package <package name>\n```\nto pull in the updated version for testing, where `<package name>` is\n`lsst-utils` or whatever package you are overriding.\n (You can also just do `uv lock --upgrade` if you don't mind upgrading all the\n other libraries at the same time.)\n\nYou will need to re-do this lock update any time you change the code, so that\nit resolves to the new version.\n\nAfter the other library's development branch has been merged, reset the\nbranch to main in `pyproject.toml` and run the lock update again to pull in\nthe released version.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

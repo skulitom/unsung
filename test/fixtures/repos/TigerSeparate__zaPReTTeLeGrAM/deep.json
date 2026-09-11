@@ -1,0 +1,27 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 1,
+    "nodes": [
+      {
+        "tagName": "1.9.9c",
+        "publishedAt": "2026-09-05T21:58:58Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": []
+  }
+}

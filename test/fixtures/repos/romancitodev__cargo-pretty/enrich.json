@@ -1,0 +1,307 @@
+{
+  "id": "R_kgDOURdv-g",
+  "nameWithOwner": "romancitodev/cargo-pretty",
+  "description": "A cargo build wrapper with a live, animated status view",
+  "homepageUrl": null,
+  "createdAt": "2026-09-07T17:20:40Z",
+  "pushedAt": "2026-09-11T09:58:50Z",
+  "diskUsage": 1595,
+  "stargazerCount": 13,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 54178,
+    "edges": [
+      {
+        "size": 52039,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 2139,
+        "node": {
+          "name": "Just"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 4
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "romancitodev",
+    "__typename": "User",
+    "createdAt": "2021-05-19T02:32:05Z",
+    "repositories": {
+      "totalCount": 70
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 24,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T09:58:44Z",
+            "messageHeadline": "chore: 🏗️ add `justfile` for automation scripts",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:54:33Z",
+            "messageHeadline": "🔖 chore: bump version to v0.2.1",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:36:45Z",
+            "messageHeadline": "fix: 🐛 encapsulate stderr inside a scrollable item instead of just ov…",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:38:56Z",
+            "messageHeadline": "📝 docs: document cargo install and cargo binstall",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:38:37Z",
+            "messageHeadline": "🐛 fix: drop a useless format! flagged by clippy -D warnings",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:37:06Z",
+            "messageHeadline": "🔧 chore: point repo URLs at the renamed GitHub repo",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:36:29Z",
+            "messageHeadline": "🎨 style: run cargo fmt",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:34:16Z",
+            "messageHeadline": "📝 docs: use the local demo video in the README",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:33:44Z",
+            "messageHeadline": "🐛 fix: keep crates.io package name, only rename the binary",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:29:03Z",
+            "messageHeadline": "🔖 chore: bump version to 0.2.0",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:28:44Z",
+            "messageHeadline": "📝 docs: rewrite README for the cargo-pretty rename",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:26:52Z",
+            "messageHeadline": "🎉 feat: toxic girlfriend replies for unsupported verbs",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:25:54Z",
+            "messageHeadline": "✨ feat!: single cargo-pretty binary dispatching build, run and test",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:00:20Z",
+            "messageHeadline": "fix: ⚡️ cold starts no more lol",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T00:26:07Z",
+            "messageHeadline": "Merge pull request #1 from romancitodev/dependabot/cargo/cargo-depend…",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T00:25:07Z",
+            "messageHeadline": "Merge branch 'main' into dependabot/cargo/cargo-dependencies-61a86310d8",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T19:49:03Z",
+            "messageHeadline": "🎨 style: run cargo fmt",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T19:48:42Z",
+            "messageHeadline": "build(deps): bump cargo_metadata",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T19:46:37Z",
+            "messageHeadline": "🔖 chore(release): bump version to 0.1.1",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T19:44:55Z",
+            "messageHeadline": "🐛 fix(ci): create GitHub release before uploading binaries, use nobub…",
+            "author": {
+              "user": {
+                "login": "romancitodev"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "justfile",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "checks.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2461,
+    "text": "# cargo-pretty\n\n![Check Format and Code Quality](https://github.com/romancitodev/cargo-pretty/actions/workflows/checks.yml/badge.svg)\n![license](https://img.shields.io/badge/license-MIT-blue.svg)\n\nCargo's own build output does the job. This does it prettier: a live status view for\n`build`, `run` and `test`, showing which crates (or tests) are running right now, how\nlong each one took, and a progress bar driven by cargo's real unit graph instead of a\nguess.\n\n> 💔 **Renamed from `cargo-pretty-build`.** One binary now, not one per verb. Had the\n> old one installed? `cargo uninstall cargo-pretty-build`, install this, and swap\n> `cargo pretty-build` for `cargo pretty build`. Bare `cargo pretty` still means build,\n> so most of your muscle memory survives.\n\n<video src=\"assets/cargo-pretty-itself.mp4\" controls></video>\n\n## Install\n\n```bash\ncargo install cargo-pretty-build      # from crates.io\ncargo binstall cargo-pretty-build     # prebuilt, from GitHub releases\ncargo install --git https://github.com/romancitodev/cargo-pretty  # straight from source\n```\n\nThe crate is still called `cargo-pretty-build` (it was already published under that\nname), only the binary it installs is `cargo-pretty`.\n\n## Usage\n\n```bash\ncargo pretty                              # cargo build\ncargo pretty build --release\ncargo pretty run --bin server -- --port 8080\ncargo pretty test\n```\n\nEverything after the verb goes straight to the matching cargo command. For `run`, args\nafter `--` land in your binary, not cargo. For `test`, args after `--` land in the test\nharness (`--no-fail-fast`, a name filter, whatever you need).\n\n## What you get\n\n- 🛠️ Up to six crates (or tests) in flight at once, each with its own timer, older\n  entries fading out as newer ones start\n- 📊 A progress bar reading cargo's real unit count (via its own `--unit-graph`), not an\n  estimate\n- ⚠️ Warnings collected into a browsable panel (`↑↓` move, `Enter` expand, `Esc`\n  dismiss) instead of scrolling past them\n- ❌ Failed tests get the same treatment, always visible instead of vanishing once the\n  run ends: `↑↓` to pick one, `Enter` to see the panic\n- ✅ A short summary on exit: time elapsed, libs compiled or tests passed, disk used\n- 💌 Feed it a verb it doesn't know and it takes it personally\n\n## Built on\n\nThe rendering runs on [nobubbles](https://github.com/romancitodev/nobubbles), a TUI\nlibrary from the same author.\n\n## License\n\nMIT, see [LICENSE](LICENSE).\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,335 @@
+{
+  "nameWithOwner": "armetcal/Bioinformatic-Tool-Wikipedia",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-08-20T20:40:49Z",
+  "pushedAt": "2026-08-21T22:16:13Z",
+  "diskUsage": 12059,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 11167848,
+    "edges": [
+      {
+        "size": 11036522,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 74451,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 23354,
+        "node": {
+          "name": "R"
+        }
+      },
+      {
+        "size": 19851,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 11491,
+        "node": {
+          "name": "Mermaid"
+        }
+      },
+      {
+        "size": 2179,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "armetcal",
+    "__typename": "User",
+    "createdAt": "2018-02-20T04:05:50Z",
+    "repositories": {
+      "totalCount": 42
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 76,
+        "nodes": [
+          {
+            "committedDate": "2026-08-21T22:16:13Z",
+            "messageHeadline": "Update link for viromics",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T22:15:24Z",
+            "messageHeadline": "Add Viromics section",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T22:12:46Z",
+            "messageHeadline": "Updated the viromics pipeline tutorial",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T15:53:14Z",
+            "messageHeadline": "Add first part of virome tutorial scripts",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T23:25:19Z",
+            "messageHeadline": "Change colour of slide download",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T23:20:18Z",
+            "messageHeadline": "Add download section for workshop slides",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T23:04:19Z",
+            "messageHeadline": "Add the workshop slides",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T22:58:11Z",
+            "messageHeadline": "Revise index.html",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T22:36:10Z",
+            "messageHeadline": "Update css",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T22:35:49Z",
+            "messageHeadline": "Refactor home cards section",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T22:23:39Z",
+            "messageHeadline": "increase font size yet again",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:55:09Z",
+            "messageHeadline": "Move about section",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:51:20Z",
+            "messageHeadline": "Merge pull request #2 from armetcal/copilot/fix-homepage-typography-l…",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:50:50Z",
+            "messageHeadline": "Update for font size",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:50:19Z",
+            "messageHeadline": "Update file to change font size",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:42:14Z",
+            "messageHeadline": "Update contact email and last updated date",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:40:46Z",
+            "messageHeadline": "increase font size",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:38:25Z",
+            "messageHeadline": "Move About section into main content above home cards",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T20:33:43Z",
+            "messageHeadline": "Merge pull request #1 from armetcal/copilot/update-index-html-formatting",
+            "author": {
+              "user": {
+                "login": "armetcal"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-20T19:57:28Z",
+            "messageHeadline": "Address review feedback: aria-hidden on icon, consistent footer class",
+            "author": {
+              "user": {
+                "login": "Copilot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Annotation",
+        "type": "tree"
+      },
+      {
+        "name": "Bioinformatic-Tool-Wikipedia.Rproj",
+        "type": "blob"
+      },
+      {
+        "name": "Networks",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "Virome",
+        "type": "tree"
+      },
+      {
+        "name": "complete_pipelines",
+        "type": "tree"
+      },
+      {
+        "name": "css",
+        "type": "tree"
+      },
+      {
+        "name": "download_reads",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "make_small_otu_table.R",
+        "type": "blob"
+      },
+      {
+        "name": "read_filtering",
+        "type": "tree"
+      },
+      {
+        "name": "workshop_2024",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 107,
+    "text": "This is the GitHub repo used to build the website https://armetcal.github.io/Bioinformatic-Tool-Wikipedia.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

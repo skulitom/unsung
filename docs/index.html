@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d1016">
+<title>Unsung — good GitHub repositories nobody has noticed yet</title>
+<meta name="description" content="Unsung reads GitHub's stream of new repositories and ranks them by evidence — tests that run, versions that ship, READMEs that describe real files — never by stars. Open source, zero dependencies.">
+<link rel="canonical" href="https://skulitom.github.io/unsung/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Unsung">
+<meta property="og:title" content="Unsung — good GitHub repositories nobody has noticed yet">
+<meta property="og:description" content="Ranks new GitHub repositories by evidence, never by stars. In a blind check, 22 of its top 25 were genuine projects.">
+<meta property="og:url" content="https://skulitom.github.io/unsung/">
+<meta property="og:image" content="https://skulitom.github.io/unsung/images/social-preview.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://skulitom.github.io/unsung/images/social-preview.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "Unsung",
+  "description": "Finds genuinely good GitHub repositories that almost nobody has noticed, ranked by evidence rather than stars, and explains why.",
+  "codeRepository": "https://github.com/skulitom/unsung",
+  "programmingLanguage": "JavaScript",
+  "runtimePlatform": "Node.js 20 or later",
+  "license": "https://opensource.org/licenses/MIT",
+  "author": { "@type": "Person", "name": "Artem Skulimovskiy" }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Unsung home"><span class="logo" aria-hidden="true">U</span>Unsung</a>
+  <nav aria-label="Sections">
+    <a href="#how">How it decides</a>
+    <a href="#evidence">Does it work?</a>
+    <a href="#start">Get started</a>
+    <a id="picks-link" href="picks/" hidden>Picks</a>
+    <a class="gh" href="https://github.com/skulitom/unsung">GitHub</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <p class="eyebrow">Open source · no dependencies · MIT</p>
+    <h1>Good software that <span class="accent">nobody has noticed</span> yet.</h1>
+    <p class="lede">Thousands of repositories appear on GitHub every day. A few of them are careful, working
+      software written by someone who has not told anyone. Unsung finds those, and ranks them by what
+      they <em>show</em> — tests that run, versions that ship, a README that describes files which are
+      really there. Never by how many people starred them.</p>
+    <div class="cta">
+      <a class="button primary" href="#start">Get started</a>
+      <a class="button" href="https://github.com/skulitom/unsung">View the code on GitHub</a>
+    </div>
+    <figure class="shot">
+      <img src="images/explorer-proven.png" width="1440" height="900"
+        alt="The Unsung explorer: the Proven shelf on the left, and on the right the reasons one repository scored 12 points, each linked to its evidence at the scored commit.">
+      <figcaption>The explorer on a live run: every point on the right links to its evidence.</figcaption>
+    </figure>
+  </section>
+
+  <section class="band problem">
+    <div class="col">
+      <h2>Stars measure attention, not quality</h2>
+      <p>A repository collects stars when people happen to see it: a launch post, a well-known author,
+        a day on a trending page. Most good work never gets that moment. On a uniform sample of
+        new, low-star repositories, the star count barely told genuine projects from the rest
+        (AUC 0.62); a plain checklist of evidence did it well (AUC 0.95).</p>
+    </div>
+    <div class="col">
+      <h2>Agents make polish cheap</h2>
+      <p>A coding agent writes a tidy README, a licence, badges and a CI file in minutes, so the surface
+        of a repository says less than it used to. What is still expensive to fake is what Unsung looks
+        at hardest: tests that CI really runs, releases shipped weeks apart, time between the first
+        commit and the last push, and other people turning up with issues.</p>
+    </div>
+  </section>
+
+  <section id="how" class="section">
+    <h2>How Unsung decides</h2>
+    <p class="sub">Three meters, computed separately and never blended. Every number explains itself.</p>
+    <div class="meters">
+      <article class="meter quality">
+        <h3>Quality</h3>
+        <p>Points from evidence a reader can check: code, tests, CI, releases, a lockfile, usage
+          examples. Proof signals add more: CI runs the tests and passes, releases on different days,
+          the README's files exist. Stars never enter it.</p>
+      </article>
+      <article class="meter confidence">
+        <h3>Confidence</h3>
+        <p>Corroboration that is costly to fake: push days stamped by GitHub's servers, releases
+          spread over weeks, established accounts opening issues, an owner with years of history.</p>
+      </article>
+      <article class="meter attention">
+        <h3>Attention</h3>
+        <p>Stars and forks, kept apart. They decide only whether a repository is still unsung —
+          25 stars at most — and nudge the rank a little.</p>
+      </article>
+    </div>
+    <p class="formula"><code>rank = points + 1.5 × confidence − 1.5 × attention</code></p>
+    <ul class="lanes">
+      <li><strong>Promising</strong> seven points or more, not yet corroborated: fresh solo work</li>
+      <li><strong>Proven</strong> seven points or more, with confidence of at least 0.5</li>
+      <li><strong>Worth a look</strong> five or six points</li>
+      <li><strong>Quarantine</strong> lures and droppers: a name and a reason, never a link</li>
+    </ul>
+  </section>
+
+  <section id="evidence" class="band evidence">
+    <h2>Does it work?</h2>
+    <p class="sub">Repositories from two live runs were labelled blind: the labeller read the code and
+      never saw stars or scores.</p>
+    <div class="stats">
+      <div class="stat"><span class="big">22<small>/25</small></span><span>top-ranked repositories were genuine projects</span></div>
+      <div class="stat"><span class="big">8<small>/8</small></span><span>in the Proven lane were genuine, by both labellers</span></div>
+      <div class="stat"><span class="big">12<small>/12</small></span><span>new Promising repositories were genuine</span></div>
+      <div class="stat"><span class="big">1</span><span>real malware dropper caught and quarantined</span></div>
+    </div>
+    <div class="bars" role="table" aria-label="Share of genuine repositories by lane, first live run">
+      <div class="bar" role="row"><span role="cell">Top 25</span><span class="track" role="cell"><span style="width:88%"></span></span><span role="cell">88%</span></div>
+      <div class="bar" role="row"><span role="cell">Rest of the gem band</span><span class="track" role="cell"><span style="width:90%"></span></span><span role="cell">90%</span></div>
+      <div class="bar" role="row"><span role="cell">Worth a look</span><span class="track" role="cell"><span style="width:73%"></span></span><span role="cell">73%</span></div>
+      <div class="bar low" role="row"><span role="cell">Low</span><span class="track" role="cell"><span style="width:27%"></span></span><span role="cell">27%</span></div>
+    </div>
+    <p class="note">The labellers were AI agents rather than people, so read this as a strong indication,
+      not the final word. <a href="https://github.com/skulitom/unsung/blob/main/research/blind-check-2026-09-11.md">The
+      full write-up</a> covers what went wrong too: re-uploads that reached the top, and good work
+      the checklist missed.</p>
+  </section>
+
+  <section class="section split">
+    <div>
+      <h2>Every number explains itself</h2>
+      <p>Each point is a chip with a reason and a link to the evidence at the exact commit that was
+        scored. The explorer also says what would earn the next points and what would raise confidence,
+        so a low score is a to-do list rather than a verdict. Two squashed commits are never
+        penalised; neither are badges, emoji or an agent's help.</p>
+      <p>Triage runs from the keyboard: <kbd>g</kbd> saves a gem, <kbd>n</kbd> is not my thing,
+        <kbd>x</kbd> is not good, <kbd>p</kbd> publishes a pick with your note.</p>
+    </div>
+    <figure class="shot small">
+      <img src="images/explorer-promising.png" width="1440" height="900" loading="lazy"
+        alt="The Promising shelf, with a repository created three days earlier: 12 points, each with its evidence.">
+    </figure>
+  </section>
+
+  <section id="start" class="band start">
+    <h2>Get started</h2>
+    <p class="sub">You need Node 20 or later and a GitHub token. There is nothing to install.</p>
+    <pre><code>git clone https://github.com/skulitom/unsung
+cd unsung
+npm run unsung -- run     # a ten-minute, read-only scan
+npm start                 # the explorer at http://127.0.0.1:8750</code></pre>
+    <p>A quick run uses under a hundred of the 5,000 GraphQL points GitHub allows each hour, resumes
+      after Ctrl-C, and never writes anything to GitHub. Give it a fine-grained token that can read
+      public repositories and nothing else; the <a href="https://github.com/skulitom/unsung#readme">README</a>
+      explains how, and covers the optional model review.</p>
+  </section>
+
+  <section class="section principles">
+    <h2>Principles</h2>
+    <ul>
+      <li><strong>Read-only by construction.</strong> Unsung reads; you act. It never stars, comments or
+        opens issues.</li>
+      <li><strong>Nothing from a repository runs.</strong> Metadata and text through the API only; no
+        cloning, no downloads, no URLs followed.</li>
+      <li><strong>A person decides.</strong> Nothing is published without your note. No public score,
+        no badge to chase.</li>
+      <li><strong>Maintainers can opt out,</strong> and every published page says how.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><a href="https://github.com/skulitom/unsung">github.com/skulitom/unsung</a> ·
+    <a href="https://github.com/skulitom/unsung/blob/main/DESIGN.md">Design</a> ·
+    <a href="https://github.com/skulitom/unsung/blob/main/LICENSE">MIT licence</a></p>
+  <p class="muted">Built with Node and no dependencies.</p>
+</footer>
+
+<script>
+  // Show the Picks link once a gallery has been published under picks/ (the Pages build counts it).
+  fetch('picks.json', { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((p) => {
+      const n = p && Number(p.entries);
+      if (n > 0) {
+        const a = document.getElementById('picks-link');
+        a.hidden = false;
+        a.textContent = 'Picks (' + n + ')';
+      }
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+{
+  "nameWithOwner": "shunjid/last",
+  "description": "Local Agent Session Threads. Every Claude Code session on your machine in a browser tab, with the full transcript and a composer to keep the conversation going.",
+  "homepageUrl": "",
+  "createdAt": "2026-09-10T10:37:50Z",
+  "pushedAt": "2026-09-10T13:06:47Z",
+  "diskUsage": 500,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 284695,
+    "edges": [
+      {
+        "size": 240017,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 44269,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 409,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "shunjid",
+    "__typename": "User",
+    "createdAt": "2017-06-28T07:53:11Z",
+    "repositories": {
+      "totalCount": 42
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 113,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T13:06:10Z",
+            "messageHeadline": "Slim the README down to the product",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:15:06Z",
+            "messageHeadline": "Make the app work on phones and tablets",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:00:36Z",
+            "messageHeadline": "Merge pull request #1 from shunjid/dev-0",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:37:51Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:52:04Z",
+            "messageHeadline": "Style the workspace shell",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:40:40Z",
+            "messageHeadline": "Hold the sidebar, chat pane and keyboard shortcuts",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:28:16Z",
+            "messageHeadline": "Style the landing page",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:16:52Z",
+            "messageHeadline": "Add the landing page content",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:04:28Z",
+            "messageHeadline": "Style the command palette",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:52:04Z",
+            "messageHeadline": "Add the command palette with a focus trap",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:40:40Z",
+            "messageHeadline": "Style the folder picker dialog",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:28:16Z",
+            "messageHeadline": "Ask which trusted folder a new chat runs in",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:16:52Z",
+            "messageHeadline": "Style the sidebar and its nav pill",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:04:28Z",
+            "messageHeadline": "Add the grouped session sidebar with search",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:52:04Z",
+            "messageHeadline": "Style the empty state",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:40:40Z",
+            "messageHeadline": "Add the empty state for a fresh chat",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:28:16Z",
+            "messageHeadline": "Style the chat pane",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:16:52Z",
+            "messageHeadline": "Join the header, thread and composer",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:04:28Z",
+            "messageHeadline": "Style the chat header",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:52:04Z",
+            "messageHeadline": "Add the chat header with the session chips",
+            "author": {
+              "user": {
+                "login": "shunjid"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".nvmrc",
+        "type": "blob"
+      },
+      {
+        "name": ".prettierignore",
+        "type": "blob"
+      },
+      {
+        "name": ".prettierrc.json",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "next.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3532,
+    "text": "<h1><img src=\"src/app/icon.svg\" width=\"30\" height=\"30\" alt=\"\"> LAST</h1>\n\nYour Claude Code sessions, in a browser tab.\n\nLAST lists every Claude Code session on your machine and lets you keep chatting in any of them. It\nreads the transcripts your terminal already writes and continues the session through the Claude Agent\nSDK, so a reply you send here is waiting for you the next time you run `claude --resume`.\n\n## What you get\n\n- **Every session in one list.** Grouped by project, newest first, with git branch and relative time.\n- **The whole conversation.** Markdown, syntax-highlighted code, tool calls and thinking blocks,\n  replayed the way the terminal showed them.\n- **Reply from the browser.** Same folder, same session, same Claude. The turn is appended to the\n  same transcript file your terminal uses.\n- **Live.** Leave a session open in the browser, keep working in the terminal, and the page follows\n  along on its own. No refresh.\n- **Streaming replies** with token count, cost and duration for every turn.\n- **Permission prompts in the browser.** Allow once, allow for the session, or deny.\n- **Permission modes** in the composer: Ask before changes, Auto-accept edits, Plan only.\n- **Model and effort pickers**, and a light / dark / system theme.\n- **Works on a phone.** The sidebar becomes a drawer and the whole app resizes down to a small\n  screen.\n- **Keyboard first.** `⌘K` session palette, `⌘B` sidebar, `Esc` stops a running turn.\n- **Nothing leaves your machine.** No telemetry, no analytics, no account, no server-side database.\n\n## Requirements\n\n- Node.js 20.9 or newer\n- macOS or Linux (Windows is untested)\n- [Claude Code](https://docs.claude.com/en/docs/claude-code) installed and signed in. LAST reuses\n  your existing CLI credentials, so there is no API key to set up\n\n## Run it\n\n```bash\nnpm ci\nnpm run dev\n```\n\nOpen http://127.0.0.1:4123.\n\nYou need one Claude Code session on disk before there is anything to show, so run `claude` in a\nproject once, then reload.\n\nFor a production-style run:\n\n```bash\nnpm run build\nnpm start\n```\n\nPress Ctrl-C to stop it. `npm run check-bind` tells you what is still listening on 4123.\n\n## Read this before you run it\n\nThere is no login and no token. Anything that can open a TCP connection to `127.0.0.1:4123` has your\nwhole Claude Code history and can run Bash on your machine as you.\n\nSo: do not run LAST on a shared or multi-user machine, and do not port-forward or tunnel port 4123.\nCheck whether your editor forwards ports for you.\n\nEvery tool call asks you first. LAST loads no Claude Code settings files by default, so nothing on\nyour CLI allow list runs unprompted. The trade-off is that `CLAUDE.md` and `AGENTS.md` are not\nloaded either. Set `LAST_SETTING_SOURCES=project` to opt back in, or `user,project,local` for full\nCLI parity.\n\n## Contributing\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md).\n\n## Notes\n\nThis is an unofficial, community-built project. It is not affiliated with, endorsed by or supported\nby Anthropic. \"Claude\" and \"Claude Code\" are trademarks of Anthropic. LAST is provided as is, with no\nwarranty. You are responsible for what the agent does on your machine.\n\nLAST depends on `@anthropic-ai/claude-agent-sdk`, which is proprietary to Anthropic PBC and is **not**\ncovered by LAST's licence. It is fetched from npm under Anthropic's own terms, and it spends your\nClaude credits.\n\nUI ideas were inspired by [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui). No code\nwas copied from it.\n\n## License\n\n[Apache-2.0](LICENSE).\n"
+  },
+  "pkg": {
+    "byteSize": 1889,
+    "text": "{\n  \"name\": \"last\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"description\": \"Browse and continue your local Claude Code sessions from the browser.\",\n  \"license\": \"Apache-2.0\",\n  \"author\": \"shunjid (https://github.com/shunjid)\",\n  \"homepage\": \"https://github.com/shunjid/last#readme\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/shunjid/last.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/shunjid/last/issues\"\n  },\n  \"keywords\": [\n    \"claude\",\n    \"claude-code\",\n    \"sessions\",\n    \"transcripts\",\n    \"local\",\n    \"nextjs\",\n    \"cli\"\n  ],\n  \"engines\": {\n    \"node\": \">=20.9.0\"\n  },\n  \"scripts\": {\n    \"dev\": \"next dev -H 127.0.0.1 -p 4123\",\n    \"build\": \"next build\",\n    \"start\": \"next start -H 127.0.0.1 -p 4123\",\n    \"lint\": \"eslint\",\n    \"format\": \"prettier --write .\",\n    \"format:check\": \"prettier --check .\",\n    \"typecheck\": \"next typegen && tsc --noEmit\",\n    \"check-bind\": \"lsof -nP -iTCP:4123 -sTCP:LISTEN || echo 'nothing listening on 4123'\",\n    \"typegen\": \"next typegen\"\n  },\n  \"dependencies\": {\n    \"@anthropic-ai/claude-agent-sdk\": \"0.3.263\",\n    \"@anthropic-ai/sdk\": \"0.124.0\",\n    \"@emotion/cache\": \"11.14.0\",\n    \"@emotion/react\": \"11.14.0\",\n    \"@emotion/styled\": \"11.14.1\",\n    \"@modelcontextprotocol/sdk\": \"1.30.0\",\n    \"@mui/icons-material\": \"9.4.0\",\n    \"@mui/material\": \"9.4.0\",\n    \"@mui/material-nextjs\": \"9.4.0\",\n    \"@shikijs/langs\": \"4.4.3\",\n    \"next\": \"16.3.4\",\n    \"react\": \"19.2.8\",\n    \"react-dom\": \"19.2.8\",\n    \"react-markdown\": \"10.1.0\",\n    \"remark-gfm\": \"4.0.1\",\n    \"server-only\": \"0.0.1\",\n    \"shiki\": \"4.4.3\",\n    \"zod\": \"4.5.4\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"22.20.1\",\n    \"@types/react\": \"19.2.18\",\n    \"@types/react-dom\": \"19.2.7\",\n    \"eslint\": \"9.39.5\",\n    \"eslint-config-next\": \"16.3.4\",\n    \"eslint-config-prettier\": \"10.1.8\",\n    \"prettier\": \"3.9.6\",\n    \"typescript\": \"5.9.3\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 1301
+  },
+  "claude": {
+    "byteSize": 11
+  }
+}

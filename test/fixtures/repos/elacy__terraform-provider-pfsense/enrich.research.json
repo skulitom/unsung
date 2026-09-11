@@ -1,0 +1,334 @@
+{
+  "nameWithOwner": "elacy/terraform-provider-pfsense",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2023-09-05T21:56:41Z",
+  "pushedAt": "2026-08-24T06:57:33Z",
+  "diskUsage": 28759,
+  "stargazerCount": 15,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 1149464,
+    "edges": [
+      {
+        "size": 1145363,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 3455,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 646,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 4
+  },
+  "tags": {
+    "totalCount": 7
+  },
+  "watchers": {
+    "totalCount": 5
+  },
+  "owner": {
+    "login": "elacy",
+    "__typename": "User",
+    "createdAt": "2012-01-26T09:30:23Z",
+    "repositories": {
+      "totalCount": 34
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 21,
+        "nodes": [
+          {
+            "committedDate": "2026-08-24T06:57:15Z",
+            "messageHeadline": "fix(release): import GPG key before signing",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T19:09:33Z",
+            "messageHeadline": "feat: StateUpgraders for v1→v2 in-place state migration (#15)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T17:06:36Z",
+            "messageHeadline": "fix(plan): UseStateForUnknown on system-assigned computed IDs (#19)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T15:55:17Z",
+            "messageHeadline": "test(fuzz): add 6 fuzz targets for formatID/objectKey/getString/getBo…",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T10:48:23Z",
+            "messageHeadline": "feat(validation): field validators + computed-attr plan modifiers (#16)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T09:43:35Z",
+            "messageHeadline": "feat(release): registry manifest + binary naming for Terraform Regist…",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T09:23:59Z",
+            "messageHeadline": "test: Go native fuzz targets; fix atoi64 int64 overflow (#17)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T08:01:39Z",
+            "messageHeadline": "fix(import): make services_ntp_settings and services_cron_job importa…",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T15:55:45Z",
+            "messageHeadline": "test: live acceptance tests for 18 services resources (#13)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T21:03:36Z",
+            "messageHeadline": "test: live acceptance tests for 13 system resources (#12)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T19:24:44Z",
+            "messageHeadline": "test: live acceptance tests for 3 routing resources (#11)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T19:06:47Z",
+            "messageHeadline": "test: live acceptance tests for 6 interface resources (#10)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T17:53:27Z",
+            "messageHeadline": "test: live acceptance tests for 10 firewall resources (#9)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T17:01:18Z",
+            "messageHeadline": "Add CI: hermetic + live acceptance tests on self-hosted runner",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T04:02:40Z",
+            "messageHeadline": "Add live acceptance tests (TF_ACC) for firewall alias + data sources …",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T19:32:34Z",
+            "messageHeadline": "docs: update README and COVERAGE to reflect 62 resources + live-testi…",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T18:16:13Z",
+            "messageHeadline": "Apply review cleanups: helper reuse + tolerant child deletes",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T23:52:51Z",
+            "messageHeadline": "VPN + system-extra resources (#7)",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T22:45:38Z",
+            "messageHeadline": "Add REVIEW.md review rubric for the coding review loop",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T22:23:05Z",
+            "messageHeadline": "Expand provider to 46 resources: NAT, traffic shaper/limiter/queue, v…",
+            "author": {
+              "user": {
+                "login": "elacy"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yml",
+        "type": "blob"
+      },
+      {
+        "name": "GNUmakefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "RESOURCE_EXPANSION_SPEC.md",
+        "type": "blob"
+      },
+      {
+        "name": "REVIEW.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "terraform-registry-manifest.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5869,
+    "text": "# Terraform Provider for pfSense (REST API v2)\n\nA [Terraform](https://www.terraform.io) provider for pfSense, built against the\n**pfSense REST API v2** ([`pfrest/pfSense-pkg-RESTAPI`](https://github.com/pfrest/pfSense-pkg-RESTAPI)).\n\nThis provider supersedes the earlier `elacy/terraform-provider-pfsense` (v1 API,\n`jaredhendrickson13/pfsense-api`). It targets the `pfrest` v2 package (latest\nrelease **v2.10.0**) which exposes 200+ endpoints under `/api/v2`.\n\n## Status\n\nCode-complete: **62 resources + 4 data sources** covering firewall, NAT,\ninterfaces, routing, services (DHCP/DNS/NTP/cron/BIND/FreeRADIUS), system, and\nVPN (IPsec/OpenVPN/WireGuard). Every resource has an acceptance test that runs\nagainst an in-process mock server (no pfSense required).\n\nLive acceptance testing against a pfSense CE 2.8.1 VM is the final milestone —\nsee [`docs/COVERAGE.md`](docs/COVERAGE.md) for the roadmap and current status.\n\n## Requirements\n\n- [Go](https://go.dev/) 1.26+\n- [Terraform](https://www.terraform.io/) 1.15+\n- pfSense CE 2.8.1 / Plus 25.11.1+ with the `pfSense-pkg-RESTAPI` package\n  installed and enabled.\n\n## Authentication\n\nThe API supports three authentication methods. Configure exactly one:\n\n| Method | Provider attributes |\n| --- | --- |\n| Basic (local user) | `username`, `password` |\n| API key | `api_key` |\n| JWT (Basic exchange) | `username`, `password`, `use_jwt = true` |\n\n```hcl\nprovider \"pfsense\" {\n  url      = \"https://192.168.1.1\"\n  username = \"admin\"\n  password = var.pfsense_password\n\n  # Self-signed certificate:\n  skip_tls_verify = true\n}\n```\n\n## Example\n\n```hcl\nresource \"pfsense_firewall_alias\" \"webservers\" {\n  name    = \"webservers\"\n  type    = \"host\"\n  address = [\"10.0.0.10\", \"10.0.0.11\", \"10.0.0.12\"]\n}\n\nresource \"pfsense_firewall_rule\" \"allow_https\" {\n  descr            = \"allow-https\"\n  type             = \"pass\"\n  interface        = [\"lan\"]\n  ipprotocol       = \"inet\"\n  protocol         = \"tcp\"\n  source           = \"any\"\n  destination      = \"webservers\"\n  destination_port = \"443\"\n}\n\nresource \"pfsense_system_user\" \"deploy\" {\n  name     = \"deploy\"\n  password = var.deploy_password\n  priv     = [\"page-all\"]\n}\n```\n\nSee [`examples/`](examples/) for more.\n\n## Resources (62)\n\nFirewall:\n\n- `pfsense_firewall_alias`\n- `pfsense_firewall_rule`\n- `pfsense_firewall_schedule`\n- `pfsense_firewall_nat_port_forward`\n- `pfsense_firewall_nat_one_to_one`\n- `pfsense_firewall_nat_outbound`\n- `pfsense_firewall_virtual_ip`\n- `pfsense_firewall_traffic_shaper`\n- `pfsense_firewall_traffic_shaper_limiter`\n- `pfsense_firewall_traffic_shaper_queue`\n- `pfsense_firewall_traffic_shaper_limiter_queue`\n\nInterfaces:\n\n- `pfsense_network_interface`\n- `pfsense_interface_vlan`\n- `pfsense_interface_bridge`\n- `pfsense_interface_gre`\n- `pfsense_interface_lagg`\n- `pfsense_interface_group`\n\nRouting:\n\n- `pfsense_routing_gateway`\n- `pfsense_routing_gateway_group`\n- `pfsense_routing_static_route`\n\nServices (DHCP / DNS / NTP / misc):\n\n- `pfsense_services_dhcp_server`\n- `pfsense_services_dhcp_static_mapping`\n- `pfsense_services_dhcp_address_pool`\n- `pfsense_services_dhcp_custom_option`\n- `pfsense_services_dns_resolver_host_override`\n- `pfsense_services_dns_resolver_host_override_alias`\n- `pfsense_services_dns_resolver_domain_override`\n- `pfsense_services_dns_forwarder_host_override`\n- `pfsense_services_dns_forwarder_host_override_alias`\n- `pfsense_services_ntp_settings`\n- `pfsense_services_ntp_time_server`\n- `pfsense_services_cron_job`\n- `pfsense_services_service_watchdog`\n- `pfsense_services_bind_access_list`\n- `pfsense_services_bind_view`\n- `pfsense_services_bind_zone`\n- `pfsense_services_freeradius_mac`\n- `pfsense_services_freeradius_user`\n\nSystem:\n\n- `pfsense_system_user`\n- `pfsense_system_group`\n- `pfsense_system_ca`\n- `pfsense_system_certificate`\n- `pfsense_system_crl`\n- `pfsense_system_crl_revoked_certificate`\n- `pfsense_system_tunable`\n- `pfsense_system_hostname`\n- `pfsense_system_dns`\n- `pfsense_system_timezone`\n- `pfsense_system_package`\n- `pfsense_user_auth_server`\n- `pfsense_system_restapi_access_list_entry`\n\nVPN:\n\n- `pfsense_ipsec_phase1`\n- `pfsense_ipsec_phase1_encryption`\n- `pfsense_ipsec_phase2`\n- `pfsense_ipsec_phase2_encryption`\n- `pfsense_openvpn_client`\n- `pfsense_openvpn_server`\n- `pfsense_openvpn_cso`\n- `pfsense_wireguard_tunnel`\n- `pfsense_wireguard_tunnel_address`\n- `pfsense_wireguard_peer`\n- `pfsense_wireguard_peer_allowed_ip`\n\n## Data sources\n\n- `pfsense_firewall_aliases`\n- `pfsense_interfaces`\n- `pfsense_routing_gateways`\n- `pfsense_system_certificates`\n\n## Object identity (important)\n\npfSense does **not** use persistent object IDs: the REST API identifies objects\nby array index, which shifts when objects are reordered or deleted. This\nprovider therefore identifies most resources by a **natural key** (a unique\nfield such as `name`, or a composite of fields), which is stored as the\nTerraform state ID and re-resolved to the current index on every operation.\n\n- Firewall rules require a **unique `descr`** (used as the natural key).\n- Static routes are identified by `network` + `gateway`.\n- Host overrides by `host` + `domain`; VLANs by parent `if` + `tag`.\n- CAs and certificates are identified by their persistent `refid`.\n\n## Development\n\n```sh\nmake build       # build the provider binary\nmake test        # run unit tests\nmake testacc     # run acceptance tests (mock server; requires TF_ACC=1)\nmake fmt         # gofmt\nmake vet         # go vet\n```\n\n### Running acceptance tests\n\nAcceptance tests run against an in-process mock server (no pfSense required):\n\n```sh\nTF_ACC=1 go test ./... -run TestAcc -v\n```\n\nLive acceptance testing against a real pfSense VM is planned; see\n[`docs/COVERAGE.md`](docs/COVERAGE.md) for the roadmap and how to run it.\n\n## License\n\nThe upstream `pfSense-pkg-RESTAPI` is Apache-2.0. This provider's license is to\nbe finalized before the first public release.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

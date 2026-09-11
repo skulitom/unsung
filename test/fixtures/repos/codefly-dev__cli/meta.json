@@ -1,0 +1,48 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "codefly-dev/cli",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 6789,
+    "keptBytes": 6789,
+    "excerpt": false
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 6789,
+    "keptBytes": 6789,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/companions.yaml",
+      ".github/workflows/go.yml",
+      ".github/workflows/release.yaml",
+      "go.mod"
+    ],
+    "treeEntries": 1049,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": false
+  }
+}

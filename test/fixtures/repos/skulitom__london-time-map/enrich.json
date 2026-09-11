@@ -1,0 +1,202 @@
+{
+  "id": "R_kgDOUVI4Dw",
+  "nameWithOwner": "skulitom/london-time-map",
+  "description": "London coloured by travel time on foot, by tube, train, bus or car. Static site on GitHub Pages.",
+  "homepageUrl": "https://skulitom.github.io/london-time-map/",
+  "createdAt": "2026-09-10T14:31:39Z",
+  "pushedAt": "2026-09-10T14:31:45Z",
+  "diskUsage": 769,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 115823,
+    "edges": [
+      {
+        "size": 103757,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 7606,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 4460,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "d3"
+        }
+      },
+      {
+        "topic": {
+          "name": "github-pages"
+        }
+      },
+      {
+        "topic": {
+          "name": "isochrone"
+        }
+      },
+      {
+        "topic": {
+          "name": "london"
+        }
+      },
+      {
+        "topic": {
+          "name": "map"
+        }
+      },
+      {
+        "topic": {
+          "name": "tfl"
+        }
+      },
+      {
+        "topic": {
+          "name": "travel-time"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "skulitom",
+    "__typename": "User",
+    "createdAt": "2014-07-31T09:41:49Z",
+    "repositories": {
+      "totalCount": 94
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "20ae2ffee317f5550c6aad57293b5806ed4afe38",
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T14:31:38Z",
+            "messageHeadline": "Add MIT licence and live site link",
+            "author": {
+              "user": {
+                "login": "skulitom"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:16:10Z",
+            "messageHeadline": "London in minutes: travel-time map of London for GitHub Pages",
+            "author": {
+              "user": {
+                "login": "skulitom"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".nojekyll",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "styles.css",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "deploy.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4898,
+    "isTruncated": false,
+    "text": "# London in minutes\n\n**Live map: <https://skulitom.github.io/london-time-map/>**\n\nA dark-mode map of London coloured by **travel time**. Pick a starting point (a station, a landmark,\na postcode, or any click on the map) and every part of the city is shaded from green (close) to red\n(far). Tick boxes choose how you are willing to travel, and the colours update:\n\n- 🚶 **By foot**: unlimited walking at 5 km/h. With this off, walking is limited to 20 minutes to or from a stop.\n- 🚇 **Underground**: Tube and DLR.\n- 🚆 **Trains**: Elizabeth line, Overground, National Rail and tram.\n- 🚌 **Buses**: every TfL bus route, stop by stop.\n- 🚗 **Car**: door-to-door driving at daytime speeds, plus time to fetch and park the car.\n\nWalking is not a straight line: it runs on a 150 m grid where water blocks the way and only\npedestrian bridges and foot tunnels cross it, so the south bank really is further away than it looks.\nHover any station or landmark for its time and route. The URL hash records the start point and modes,\nso views can be shared. An experimental \"stretch the map by time\" option turns the same numbers into a\ntime-space map (places move to sit as many minutes from the start as it takes to reach them).\n\nIt is a static site: no server, no API keys, no build step for the page itself. Postcode lookups use\nthe free [postcodes.io](https://postcodes.io) API.\n\n## Run it locally\n\nAny static file server works (ES modules need `http://`, not `file://`):\n\n```bash\npython -m http.server 8000\n```\n\nthen open <http://localhost:8000>.\n\n## Deploy to GitHub Pages\n\n1. Push this repository to GitHub.\n2. In the repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.\n3. Push to `main` (or run the *Deploy to GitHub Pages* workflow manually). The workflow in\n   `.github/workflows/deploy.yml` publishes the repository root.\n\nThe site then lives at `https://<user>.github.io/<repo>/`. Everything is loaded with relative\npaths, so it works from a sub-path.\n\nIf you prefer \"Deploy from a branch\", that works too: choose the `main` branch and `/ (root)`.\nThe `.nojekyll` file keeps GitHub from running Jekyll on the files.\n\n## How it works\n\nThe page draws everything itself on a canvas with [D3](https://d3js.org) (projection, contours,\nzoom). Each time the start point or the tick boxes change:\n\n1. **One shortest-path search** (`src/engine.js`) runs over a graph that joins the walking grid\n   (`src/walkgrid.js`, about 143,000 cells) with one platform node per stop and line. Walking moves\n   between neighbouring cells; boarding costs the line's typical wait; rides follow the real stop\n   sequences with a dwell plus distance at the mode's speed; alighting returns to the grid. Car trips\n   are computed directly from distance with speeds that slow towards the centre. The whole search\n   takes a fraction of a second.\n2. **Colour bands** are the filled contours of the resulting travel-time surface\n   (`d3.contours`), clipped to Greater London and tinted onto the land.\n3. **Stations and landmarks** take the time of their grid cell; hovering one walks the search tree\n   back to the start to show the legs.\n\nThe travel-time model is deliberately simple and documented in `src/model.js`: typical waits per\nmode, dwell time plus cruising speed per hop for rail and bus, and walking and driving speeds. It is\nmeant to show the *shape* of London in time, not to replace a journey planner.\n\n## Data\n\n`scripts/build-data.mjs` regenerates the files in `data/`:\n\n```bash\nnode scripts/build-data.mjs\n```\n\nIt caches every remote response in `scripts/cache/` (ignored by git), so re-runs are offline; delete a\ncache file to refresh that source. A first run fetches about 700 bus routes from TfL and takes a few\nminutes.\n\n| File | Contents | Source |\n| --- | --- | --- |\n| `data/transit.json` | Lines, stops, stations, platforms and stop-to-stop hops for rail and every bus route; rail route geometry | [TfL Unified API](https://api.tfl.gov.uk) |\n| `data/walkgrid.json` | Walkable-cell mask (water minus bridges and foot tunnels) and a Greater London mask, bit-packed | OpenStreetMap water areas and bridges, ONS boundaries |\n| `data/base.json` | Borough boundaries, River Thames, other water bodies, major parks, motorways and trunk roads | [ONS Open Geography Portal](https://geoportal.statistics.gov.uk), [OpenStreetMap](https://www.openstreetmap.org/copyright) via Overpass |\n| `data/places.json` | About 120 landmarks and town centres with label priority | `scripts/places.json`, hand-curated |\n\nContains OS data © Crown copyright and database right; ONS boundaries are licensed under the\nOpen Government Licence v3. Map data © OpenStreetMap contributors, ODbL. Transport data powered by\nTfL Open Data.\n\n## License\n\nThe code is released under the [MIT License](LICENSE). The generated files in `data/` remain\nsubject to the terms of their sources listed above.\n"
+  },
+  "pkg": {
+    "byteSize": 352,
+    "text": "{\n  \"name\": \"london-time-map\",\n  \"version\": \"1.0.0\",\n  \"private\": true,\n  \"description\": \"A dark-mode map of London that stretches and shrinks by travel time.\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"build:data\": \"node scripts/build-data.mjs\",\n    \"serve\": \"python -m http.server 8000\"\n  },\n  \"engines\": {\n    \"node\": \">=18\"\n  },\n  \"license\": \"MIT\"\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

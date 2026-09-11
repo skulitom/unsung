@@ -1,0 +1,144 @@
+{
+  "request": {
+    "path": "/repos/skulitom/london-time-map/git/trees/20ae2ffee317f5550c6aad57293b5806ed4afe38?recursive=1"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:22:44 GMT",
+    "etag": "W/\"9a8f1e462707437ac11ed31fe3b4ece82b2ccf49f8e430c225b766255c669cc8\"",
+    "last-modified": "Thu, 10 Sep 2026 14:37:09 GMT",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4876",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "124"
+  },
+  "body": {
+    "sha": "20ae2ffee317f5550c6aad57293b5806ed4afe38",
+    "truncated": false,
+    "tree": [
+      {
+        "path": ".github",
+        "type": "tree"
+      },
+      {
+        "path": ".github/workflows",
+        "type": "tree"
+      },
+      {
+        "path": ".github/workflows/deploy.yml",
+        "type": "blob",
+        "size": 568
+      },
+      {
+        "path": ".gitignore",
+        "type": "blob",
+        "size": 38
+      },
+      {
+        "path": ".nojekyll",
+        "type": "blob",
+        "size": 0
+      },
+      {
+        "path": "LICENSE",
+        "type": "blob",
+        "size": 1075
+      },
+      {
+        "path": "README.md",
+        "type": "blob",
+        "size": 4898
+      },
+      {
+        "path": "data",
+        "type": "tree"
+      },
+      {
+        "path": "data/base.json",
+        "type": "blob",
+        "size": 420624
+      },
+      {
+        "path": "data/places.json",
+        "type": "blob",
+        "size": 6957
+      },
+      {
+        "path": "data/transit.json",
+        "type": "blob",
+        "size": 2224057
+      },
+      {
+        "path": "data/walkgrid.json",
+        "type": "blob",
+        "size": 47642
+      },
+      {
+        "path": "index.html",
+        "type": "blob",
+        "size": 4460
+      },
+      {
+        "path": "package.json",
+        "type": "blob",
+        "size": 352
+      },
+      {
+        "path": "scripts",
+        "type": "tree"
+      },
+      {
+        "path": "scripts/build-data.mjs",
+        "type": "blob",
+        "size": 30310
+      },
+      {
+        "path": "scripts/places.json",
+        "type": "blob",
+        "size": 7448
+      },
+      {
+        "path": "src",
+        "type": "tree"
+      },
+      {
+        "path": "src/engine.js",
+        "type": "blob",
+        "size": 8503
+      },
+      {
+        "path": "src/main.js",
+        "type": "blob",
+        "size": 31797
+      },
+      {
+        "path": "src/model.js",
+        "type": "blob",
+        "size": 4564
+      },
+      {
+        "path": "src/render.js",
+        "type": "blob",
+        "size": 14375
+      },
+      {
+        "path": "src/walkgrid.js",
+        "type": "blob",
+        "size": 9423
+      },
+      {
+        "path": "src/warp.js",
+        "type": "blob",
+        "size": 4785
+      },
+      {
+        "path": "styles.css",
+        "type": "blob",
+        "size": 7606
+      }
+    ]
+  }
+}

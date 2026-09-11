@@ -1,0 +1,45 @@
+{
+  "request": {
+    "path": "/repos/zaghaghi/toolog/stargazers/history?per_page=8"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:22:39 GMT",
+    "etag": "W/\"45f3dc5e1891d48b6f3cab4653aab25e1830241a265bcc2e5ae8e91a768e7eb8\"",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4966",
+    "x-ratelimit-reset": "1789142126",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "34"
+  },
+  "body": [
+    {
+      "week": 1788652800,
+      "total": 5,
+      "days": [
+        3,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "week": 1788048000,
+      "total": 0,
+      "days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

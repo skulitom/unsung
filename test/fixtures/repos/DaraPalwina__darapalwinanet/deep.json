@@ -1,0 +1,33 @@
+{
+  "fundingLinks": [
+    {
+      "platform": "KO_FI",
+      "url": "https://ko-fi.com/mazipan"
+    },
+    {
+      "platform": "CUSTOM",
+      "url": "https://mazipan.space/support"
+    }
+  ],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026,
+        2025,
+        2024,
+        2023
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": []
+  }
+}

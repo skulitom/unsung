@@ -1,0 +1,494 @@
+{
+  "id": "R_kgDOUAV0kg",
+  "nameWithOwner": "sambai-dev/rookhold",
+  "description": "Run short-lived Python, Node, and Bash with hard limits, live output, and verifiable receipts.",
+  "homepageUrl": "https://rookhold.pages.dev/",
+  "createdAt": "2026-08-22T07:02:35Z",
+  "pushedAt": "2026-09-09T14:26:02Z",
+  "diskUsage": 8090,
+  "stargazerCount": 13,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 2543297,
+    "edges": [
+      {
+        "size": 1737203,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 488987,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 155034,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 73633,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 54670,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 29092,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 4678,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "isolation"
+        }
+      },
+      {
+        "topic": {
+          "name": "rust"
+        }
+      },
+      {
+        "topic": {
+          "name": "sandbox"
+        }
+      },
+      {
+        "topic": {
+          "name": "security"
+        }
+      },
+      {
+        "topic": {
+          "name": "code-execution"
+        }
+      },
+      {
+        "topic": {
+          "name": "audit-log"
+        }
+      },
+      {
+        "topic": {
+          "name": "developer-tools"
+        }
+      },
+      {
+        "topic": {
+          "name": "self-hosted"
+        }
+      },
+      {
+        "topic": {
+          "name": "cli"
+        }
+      },
+      {
+        "topic": {
+          "name": "code-interpreter"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 9
+  },
+  "tags": {
+    "totalCount": 9
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "sambai-dev",
+    "__typename": "User",
+    "createdAt": "2020-09-21T07:23:01Z",
+    "repositories": {
+      "totalCount": 18
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 157,
+        "nodes": [
+          {
+            "committedDate": "2026-09-03T04:00:54Z",
+            "messageHeadline": "Merge pull request #58 from sambai-dev/codex/adoption-feedback-loop",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T03:55:45Z",
+            "messageHeadline": "fix: make adoption pulse fail closed",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T03:40:29Z",
+            "messageHeadline": "growth: add opt-in adoption feedback loop",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:34:24Z",
+            "messageHeadline": "Merge pull request #47 from sambai-dev/codex/cloudflare-hosting",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:29:06Z",
+            "messageHeadline": "hosting: move documentation to Cloudflare Pages",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:21:03Z",
+            "messageHeadline": "Merge pull request #46 from sambai-dev/codex/revert-projects-divider",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:15:36Z",
+            "messageHeadline": "Revert \"Merge pull request #45 from sambai-dev/codex/remove-projects-…",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:14:18Z",
+            "messageHeadline": "Merge pull request #45 from sambai-dev/codex/remove-projects-divider",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T04:09:08Z",
+            "messageHeadline": "style: remove projects heading divider",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T02:01:59Z",
+            "messageHeadline": "Merge pull request #44 from sambai-dev/codex/v0-8-current",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:56:46Z",
+            "messageHeadline": "docs: mark v0.8.0 current",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:24:19Z",
+            "messageHeadline": "Merge pull request #43 from sambai-dev/codex/release-v0-8-convergence",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:19:32Z",
+            "messageHeadline": "fix: make deferred package path executable",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:14:02Z",
+            "messageHeadline": "security: harden deferred registry reconciliation",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:07:51Z",
+            "messageHeadline": "fix: isolate deferred PyPI distributions",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:01:01Z",
+            "messageHeadline": "release: defer registry publication without blocking v0.8",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T11:44:15Z",
+            "messageHeadline": "release: reconcile partial registry publishes",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T10:25:50Z",
+            "messageHeadline": "release: publish GitHub only after registry smoke",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:41:42Z",
+            "messageHeadline": "release: keep candidate state fail closed",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:27:30Z",
+            "messageHeadline": "fix: restore declared compatibility gates",
+            "author": {
+              "user": {
+                "login": "sambai-dev"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".coderabbit.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AUDIT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PRODUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "deploy",
+        "type": "tree"
+      },
+      {
+        "name": "docker-compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "hostile-jobs",
+        "type": "tree"
+      },
+      {
+        "name": "integrations",
+        "type": "tree"
+      },
+      {
+        "name": "release.json",
+        "type": "blob"
+      },
+      {
+        "name": "rust-toolchain.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "sdks",
+        "type": "tree"
+      },
+      {
+        "name": "templates",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "adoption-pulse.yml"
+      },
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "compatibility.yml"
+      },
+      {
+        "name": "docs.yml"
+      },
+      {
+        "name": "publish-packages.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 9426,
+    "text": "# Rookhold\n\nRun short-lived Python, Node, and Bash code with hard limits—and keep a\nverifiable receipt of what happened.\n\n[![CI](https://github.com/sambai-dev/rookhold/actions/workflows/ci.yml/badge.svg)](https://github.com/sambai-dev/rookhold/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/sambai-dev/rookhold)](https://github.com/sambai-dev/rookhold/releases)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n**Current release:** [v0.8.0](https://github.com/sambai-dev/rookhold/releases/tag/v0.8.0).\nDownloads and direct SDK packages are available now. Named PyPI and npm installs\nremain deferred while maintainer registry accounts are activated.\n\nRookhold is for applications, agents, evaluators, graders, and automations that\nreceive a short piece of code but should not hand it the host machine. It is a\nbounded job runner—not a persistent workspace, browser environment, remote IDE,\nor general-purpose cloud sandbox.\n\n## Try Rookhold locally\n\nChoose the complete **Rookhold app** bundle. It contains\nthe unified `rookhold` command, remote client, MCP adapter, offline verifier,\nand setup templates.\n\n| Your computer | App bundle |\n|---|---|\n| Windows, 64-bit | [Download for Windows](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-x86_64-pc-windows-msvc.zip) |\n| Mac with Apple Silicon | [Download for Mac](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-aarch64-apple-darwin.tar.gz) |\n| Linux x86_64 | [Download for Linux](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-x86_64-unknown-linux-musl.tar.gz) |\n\nExtract the archive, then run one trusted local job:\n\n```console\n$ rookhold run python 'print(6 * 7)'\n42\n\nstatus       succeeded\nnetwork      host\nisolation    none\nreceipt      saved to .rookhold/runs/019…/receipt.json\n\nWARNING: isolation is none; this run did not contain untrusted code.\n```\n\nOn macOS or Linux, run `chmod +x rookhold rookhold-cli rookhold-mcp\nrookhold-verify` once after extracting. On Windows, use `rookhold.exe`.\n\n> [!WARNING]\n> With no configured endpoint, `rookhold run` starts a temporary loopback-only\n> service for code you trust. It has host networking and no sandbox boundary.\n> Do not use this mode for hostile or mutually untrusted code.\n\nConnected to a guarded Linux service, the same command can require and report\nthe gVisor boundary:\n\n```console\n$ ROOKHOLD_BASE_URL=https://executor.example \\\n  ROOKHOLD_API_KEY=replace-with-a-scoped-key \\\n  rookhold run python 'print(6 * 7)' \\\n    --minimum-isolation gvisor-application-kernel\n42\n\nstatus       succeeded\nnetwork      disabled\nisolation    gvisor-application-kernel\nreceipt      saved to .rookhold/runs/019…/receipt.json\n```\n\nThe CLI explicitly requests `allow_network: false`; the guarded service must\nalso report disabled networking and the required isolation class.\n\n[Read the quickstart](https://rookhold.pages.dev/getting-started/quickstart) ·\n[Deploy the secure boundary](https://rookhold.pages.dev/getting-started/first-secure-deployment) ·\n[Share 60-second feedback](https://github.com/sambai-dev/rookhold/issues/new?template=first-run-feedback.yml)\n\n## Add Rookhold to an application\n\nThe **Rookhold SDK** is the client library for your code. It does not create a\nsecure Linux execution boundary by itself; point it at a Rookhold service for\nuntrusted workloads.\n\n### Python\n\nInstall the v0.8.0 release wheel:\n\n```bash\npip install https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-0.8.0-py3-none-any.whl\n```\n\n```python\nfrom rookhold import Rookhold\n\nresult = Rookhold.from_env().run(\"python\", \"print(6 * 7)\")\nprint(result.stdout)\n```\n\n### TypeScript\n\nInstall the v0.8.0 release tarball:\n\n```bash\nnpm install https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-0.8.0.tgz\n```\n\nNamed PyPI and npm installs are temporarily deferred while maintainer registry\naccounts are activated. The release-hosted packages above contain the same SDKs.\n\n```typescript\nimport { Rookhold } from \"rookhold\";\n\nconst result\n  language: \"python\",\n  code: \"print(6 * 7)\",\n});\nconsole.log(result.stdout);\n```\n\n[Python guide](https://rookhold.pages.dev/use/python) ·\n[TypeScript guide](https://rookhold.pages.dev/use/typescript) ·\n[API reference](https://rookhold.pages.dev/api)\n\n## Connect to an existing Rookhold server\n\nThe **Rookhold client** is the smallest download for a\nperson or MCP host that already has a Rookhold endpoint. It does not include\nthe local service.\n\n| Your computer | Standalone client |\n|---|---|\n| Windows, 64-bit | [Download the Windows client](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-cli-x86_64-pc-windows-msvc.exe) |\n| Mac with Apple Silicon | [Download the Mac client](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-cli-aarch64-apple-darwin) |\n| Linux x86_64 | [Download the Linux client](https://github.com/sambai-dev/rookhold/releases/download/v0.8.0/rookhold-cli-x86_64-unknown-linux-gnu) |\n\nRun it normally for the operator terminal, or register the same file with the\n`mcp-server` argument in Claude Code, OpenCode, Hermes, or another MCP host.\nThe model never chooses the service URL, API key, language allowlist, or\nrequired isolation class.\n\n```bash\nrookhold setup claude-code\nrookhold setup opencode\nrookhold setup hermes\n```\n\nAdding Rookhold does not disable a host's built-in shell or other execution\ntools. Remove or deny those routes when a model must cross only the Rookhold\nboundary.\n\n[CLI guide](https://rookhold.pages.dev/use/cli) ·\n[MCP guide](https://rookhold.pages.dev/use/mcp) ·\n[Integration templates](integrations/README.md)\n\n## What Rookhold does\n\nFor every submitted job, Rookhold:\n\n1. authenticates the caller and checks admission policy;\n2. applies server-controlled time, memory, process, file, and output limits;\n3. runs the job using the configured execution provider;\n4. preserves bounded output, events, cancellation state, and artifacts; and\n5. records the effective runtime posture and receipt.\n\nThe API and persisted store remain the source of truth. The CLI, SDKs, MCP\nadapter, and dashboard are views over the same contracts.\n\n## Three useful recipes\n\n- [Run an LLM-generated function](examples/llm-tool-call/)—submit generated\n  source without evaluating it inside the agent process.\n- [Apply a user-defined JSON transform](examples/json-transform/)—send\n  structured input and read structured output.\n- [Grade code against hidden tests](examples/evaluator/)—bound evaluation time\n  and retain the result record.\n\n[See every recipe](examples/README.md) or start from the\n[Next.js](templates/nextjs-code-runner/) and\n[FastAPI](templates/fastapi-code-runner/) examples.\n\n## Is Rookhold right for the task?\n\n| Use Rookhold for | Keep using the normal workspace for |\n|---|---|\n| short generated or user-supplied scripts | editing a repository |\n| stateless transforms, checks, and evaluators | persistent files and package installation |\n| jobs needing limits, cancellation, or evidence | browsers, ports, and long-running services |\n| execution behind a separately controlled API | trusted development already isolated well enough |\n\nUsing both is normal. Rookhold owns short execution policy and evidence; it\ndoes not replace the rest of an agent or application runtime.\n\n## Before running untrusted code\n\nThe guarded production profile is **Linux x86_64-only**. macOS, Windows, and\nother Linux architectures support only the unisolated same-trust development\nprovider. Production uses a dedicated Linux x86_64 VM, pinned gVisor `runsc`, a\nprivate root filesystem, cgroup v2, scoped credentials, and non-skipping\ncontainment checks.\n\nThe service container has host-equivalent outer authority even though each job\nruns inside a separate gVisor workload. Do not place it on a shared\nmulti-tenant Docker host.\n\n[Read the security boundary](docs/security-boundary.md) before accepting\nuntrusted jobs.\n\n## Documentation\n\n- [Compatibility](https://rookhold.pages.dev/compatibility)\n\n```bash\ngit clone https://github.com/sambai-dev/rookhold.git\ncd rookhold\ncargo build --locked --workspace\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

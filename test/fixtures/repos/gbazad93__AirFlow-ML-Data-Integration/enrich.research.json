@@ -1,0 +1,395 @@
+{
+  "id": "R_kgDONdpmgw",
+  "nameWithOwner": "gbazad93/AirFlow-ML-Data-Integration",
+  "description": "An Airflow-based pipeline that fetches data from a free API, cleans and transforms it, and saves it to a database—ready for downstream machine learning.",
+  "homepageUrl": "",
+  "createdAt": "2024-12-14T19:15:15Z",
+  "pushedAt": "2026-08-25T01:06:29Z",
+  "diskUsage": 940,
+  "stargazerCount": 15,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 8212,
+    "edges": [
+      {
+        "size": 8212,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "airflow"
+        }
+      },
+      {
+        "topic": {
+          "name": "api-integration"
+        }
+      },
+      {
+        "topic": {
+          "name": "data-engineering"
+        }
+      },
+      {
+        "topic": {
+          "name": "data-integration"
+        }
+      },
+      {
+        "topic": {
+          "name": "data-pipeline"
+        }
+      },
+      {
+        "topic": {
+          "name": "etl"
+        }
+      },
+      {
+        "topic": {
+          "name": "machine-learning"
+        }
+      },
+      {
+        "topic": {
+          "name": "postgresql"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "python3"
+        }
+      },
+      {
+        "topic": {
+          "name": "open-source"
+        }
+      },
+      {
+        "topic": {
+          "name": "step-by-step"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 3
+  },
+  "owner": {
+    "login": "gbazad93",
+    "__typename": "User",
+    "createdAt": "2019-03-09T21:46:16Z",
+    "repositories": {
+      "totalCount": 24
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 118,
+        "nodes": [
+          {
+            "committedDate": "2026-08-25T01:06:29Z",
+            "messageHeadline": "Merge pull request #51 from gbazad93/gbazad93-patch-9",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:05:52Z",
+            "messageHeadline": "Merge pull request #50 from gbazad93/gbazad93-patch-8",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:05:16Z",
+            "messageHeadline": "Merge pull request #49 from gbazad93/gbazad93-patch-7",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:04:38Z",
+            "messageHeadline": "Merge pull request #48 from gbazad93/gbazad93-patch-6",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:04:03Z",
+            "messageHeadline": "Merge pull request #47 from gbazad93/gbazad93-patch-5",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:02:49Z",
+            "messageHeadline": "Merge pull request #46 from gbazad93/gbazad93-patch-4",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:01:30Z",
+            "messageHeadline": "Merge pull request #45 from gbazad93/gbazad93-patch-3",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T01:00:19Z",
+            "messageHeadline": "Merge pull request #44 from gbazad93/gbazad93-patch-2",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:59:26Z",
+            "messageHeadline": "Add architecture overview of the ETL pipeline",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:58:36Z",
+            "messageHeadline": "Document the testing strategy and its deliberate gaps",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:57:45Z",
+            "messageHeadline": "Document the two Airflow connections the DAG expects",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:56:52Z",
+            "messageHeadline": "Add troubleshooting guide for common failures",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:55:45Z",
+            "messageHeadline": "Add CHANGELOG.md summarising recent work",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:54:56Z",
+            "messageHeadline": "Add Dependabot config for pip and Actions",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:53:26Z",
+            "messageHeadline": "Add .gitattributes to normalise line endings",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:52:33Z",
+            "messageHeadline": "Add .editorconfig for consistent whitespace across editors",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:51:39Z",
+            "messageHeadline": "Merge pull request #43 from gbazad93/gbazad93-patch-1",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T00:49:17Z",
+            "messageHeadline": "Add SECURITY.md with private reporting policy",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T01:27:05Z",
+            "messageHeadline": "Merge pull request #38 from gbazad93/feat/docker-compose",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T01:24:56Z",
+            "messageHeadline": "Document the Docker quickstart in the README",
+            "author": {
+              "user": {
+                "login": "gbazad93"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "Setup",
+        "type": "tree"
+      },
+      {
+        "name": "dags",
+        "type": "tree"
+      },
+      {
+        "name": "docker-compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 11024,
+    "text": "# AirFlow-ML-Data-Integration\n\n[![CI](https://github.com/gbazad93/AirFlow-ML-Data-Integration/actions/workflows/ci.yml/badge.svg)](https://github.com/gbazad93/AirFlow-ML-Data-Integration/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)\n[![Apache Airflow](https://img.shields.io/badge/apache%20airflow-2.10-017CEE.svg?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)\n\nThis project demonstrates how to use [Apache Airflow](https://airflow.apache.org/) for orchestrating a daily ETL pipeline that fetches weather data from the free OpenWeather API, cleans and transforms the data, and stores it in a PostgreSQL database. It provides a scalable and reproducible example that can be extended for machine learning tasks such as training predictive models on weather-related datasets.\n\n## Quickstart\n\n```bash\ngit clone https://github.com/gbazad93/AirFlow-ML-Data-Integration.git\ncd AirFlow-ML-Data-Integration\n\npython -m venv .venv\nsource .venv/bin/activate\n\npip install -r requirements.txt\n\n# Verify the DAG parses - no API key or database required\npytest tests -q\n```\n\nThen work through the [Setup Instructions](#setup-instructions) to configure Airflow, PostgreSQL and a free OpenWeather API key, and trigger `weather_data_pipeline` from the Airflow UI.\n\n### Run the whole stack with Docker\n\n```bash\ncp .env.example .env    # add your free OpenWeather API key\ndocker compose up\n```\n\nAirflow is then available at http://localhost:8080 (default login `airflow` / `airflow`) with `weather_data_pipeline` already registered and both connections pre-configured. Prefer to install everything yourself? Follow the [Setup Instructions](#setup-instructions) below.\n\n## Table of Contents\n- [Quickstart](#quickstart)\n- [Overview](#overview)\n- [Screenshots](#screenshots)\n- [Features](#features)\n- [Architecture](#architecture)\n- [Setup Instructions](#setup-instructions)\n  - [Airflow Setup](./Setup/Airflow-Setup.md)\n  - [Database Setup](./Setup/Database-Setup.md)\n  - [Folder Setup](./Setup/Folders-Setup.md)\n  - [IDE Setup](./Setup/IDE-Setup.md)\n  - [Airflow Database Connection Setup](./Setup/Airflow-Database-ConnectionSetup.md)\n  - [API Connection Setup](./Setup/API-Connection-Setup.md)\n- [Project Structure](#project-structure)\n- [Contributing](#contributing)\n- [License](#license)\n\n\n## Overview\n\nThis repository offers a sample Airflow project integrating a daily weather data fetch from OpenWeather’s free API into a PostgreSQL database. The data is cleaned, validated, and ready for further downstream tasks, such as ML model training or dashboard visualization.\n\nTo run this project:\n\n1. Follow the steps in the Setup Instructions section in the specified order, as the sequence is crucial to properly configuring your environment, database, and connections.\n2. Download or clone the DAG and related codes in the exact same structure as described in the **Project Structure** section.\n3. Use the Airflow UI to trigger and monitor the pipeline execution.\n\n## Screenshots\n\nBelow are some screenshots showcasing the Airflow UI and the `weather_data_pipeline` DAG in action. These visuals provide an overview of how the pipeline is orchestrated within Apache Airflow.\n\n| **Airflow Dashboard**                                            | **Pipeline Execution Detail**                                   |\n|------------------------------------------------------------------|-----------------------------------------------------------------|\n| ![AirFlow_Dashboard](./Setup/Screenshots/AirFlow_Dashboard.png)  | ![AirFlow_Execution](./Setup/Screenshots/AirFlow_Execution.png) |\n| **Pipeline Graph View**                                          | **Pipeline XCom**                                               |\n| ![AirFlow_Graph](./Setup/Screenshots/AirFlow_Graph.png)          | ![AirFlow_XCom](./Setup/Screenshots/AirFlow_XCom.png)    \n\n### Screenshot Descriptions:\n1. **Airflow Dashboard (AirFlow01)**: Displays the main Airflow UI with an active `weather_data_pipeline` DAG.\n2. **Pipeline Execution Logs (AirFlow02)**: Showcases task logs and data retrieved from the OpenWeather API.\n3. **Pipeline Graph View (AirFlow03)**: Visualizes the flow of tasks in the pipeline, including `load_locations`, `fetch_weather_data`, and `insert_weather_data`.\n4. **Pipeline DAG Details (AirFlow04)**: Summarizes DAG execution details such as run duration, task statuses, and DAG configuration.\n\n---\n\n## Features\n- **Automated Orchestration:** Daily scheduled runs controlled by Airflow.\n- **Data Cleaning & Validation:** Ensures consistent, reliable data for analysis.\n- **Modular Design:** Separate files for DAGs, database connection, and data processing.\n- **Easily Extensible:** Add more cities, transformations, or ML tasks as needed.\n\n## Architecture\n```plaintext\n┌─────────────────┐\n│ OpenWeather API │\n└──────┬──────────┘\n       │ (Fetch JSON)\n       v\n┌───────────────────┐\n│   Airflow DAG     │\n│ (weather_pipeline)│\n└──────┬────────────┘\n       │ (Tasks Execution)\n       v\n┌─────────────────┐\n│ Load Locations  │\n│  (CSV to JSON)  │\n└──────┬──────────┘\n       │\n       v\n┌─────────────────────┐\n│ Fetch Weather Data  │\n│   (API Requests)    │\n└──────┬──────────────┘\n       │\n       v\n┌───────────────────┐\n│ Insert to DB      │\n│ (PostgreSQL Table)│\n└──────┬────────────┘\n       │ (SQLAlchemy engine)\n       v\n┌─────────────────┐\n│ PostgreSQL DB   │\n└─────────────────┘\n\n```\n## Setup Instructions\n\n**⚠️ Important:**  \nApache Airflow is **not fully supported on Windows**. It is recommended to run Airflow on a Linux-based system.  \n- If you're using Windows, you can install and run Airflow using the **Windows Subsystem for Linux (WSL)** feature.  \n- Alternatively, you can use a **Linux virtual machine (VM)** or **Docker** for running Airflow on Windows.\n\nTo set up the project, please follow the instructions in the **Setup** folder in the following order listed below.\n\n- **[Airflow Setup](./Setup/Airflow-Setup.md):**  \n\n\n- **[Folder Setup](./Setup/Folders-Setup.md):**  \n\n  Instructions for obtaining an OpenWeather API key and securely adding it as an Airflow connection.\n```plaintext\nAIRFLOW/\n├── dags/                        # Airflow DAGs for ETL orchestration\n│   ├── data/                     # Directory for data-related files\n│   │   └── locations.csv          # CSV file containing city location data\n│   └── ML_Data_ETL_dag.py         # Main Airflow DAG script\n│\n├── logs/                         # Airflow logs for debugging and tracking\n│   ├── dag_id=weather_data_pipeline  # Logs for specific DAG execution\n│   ├── dag_processor_manager        # Logs for Airflow's DAG processor\n│   └── scheduler                    # Logs for the Airflow scheduler\n│\n├── airflow.cfg                    # Airflow configuration file\n├── airflow.db                      # SQLite database for Airflow metadata (development only)\n├── airflow-webserver.pid            # Process ID file for the Airflow webserver\n├── webserver_config.py              # Airflow webserver configuration\n│\n├── README.md                       # Project documentation\n└── requirements.txt                 # Python dependencies\n```\n   ```bash\n   pytest tests/\n   ```\n   ```bash\n   git add .\n   git commit -m \"Add your commit message here\"\n   ```\n   ```bash\n   git push origin feature/your-feature-name\n   ```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

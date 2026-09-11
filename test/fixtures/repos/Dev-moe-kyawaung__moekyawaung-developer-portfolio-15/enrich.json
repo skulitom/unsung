@@ -1,0 +1,166 @@
+{
+  "id": "R_kgDOURjSOw",
+  "nameWithOwner": "Dev-moe-kyawaung/moekyawaung-developer-portfolio-15",
+  "description": null,
+  "homepageUrl": "https://u0uqau-qlvzyhkg4-arcedawebapps1.vercel.app",
+  "createdAt": "2026-09-07T19:08:39Z",
+  "pushedAt": "2026-09-07T22:53:38Z",
+  "diskUsage": 690,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 145604,
+    "edges": [
+      {
+        "size": 145604,
+        "node": {
+          "name": "TypeScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Dev-moe-kyawaung",
+    "__typename": "User",
+    "createdAt": "2026-04-18T09:04:03Z",
+    "repositories": {
+      "totalCount": 840
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T22:52:50Z",
+            "messageHeadline": "Merge pull request #1 from Dev-moe-kyawaung/imgbot",
+            "author": {
+              "user": {
+                "login": "Dev-moe-kyawaung"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T20:20:06Z",
+            "messageHeadline": "[ImgBot] Optimize images",
+            "author": {
+              "user": {
+                "login": "ImgBotApp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T19:09:10Z",
+            "messageHeadline": "m",
+            "author": {
+              "user": {
+                "login": "Dev-moe-kyawaung"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "App.tsx",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "app.json",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "eas.json",
+        "type": "blob"
+      },
+      {
+        "name": "index.ts",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vercel.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": {
+    "byteSize": 1203,
+    "text": "{\n  \"name\": \"expo-router-ts\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.ts\",\n  \"dependencies\": {\n    \"@expo/metro-runtime\": \"~57.0.14\",\n    \"@expo/vector-icons\": \"^15.0.2\",\n    \"@react-native-async-storage/async-storage\": \"^3.1.1\",\n    \"@react-navigation/bottom-tabs\": \"^7.18.18\",\n    \"@react-navigation/native\": \"^7.3.18\",\n    \"@react-navigation/native-stack\": \"^7.18.10\",\n    \"expo\": \"~57.0.17\",\n    \"expo-asset\": \"^57.0.15\",\n    \"expo-constants\": \"^57.0.15\",\n    \"expo-font\": \"~57.0.3\",\n    \"expo-image\": \"^57.0.3\",\n    \"expo-linear-gradient\": \"^57.0.1\",\n    \"expo-secure-store\": \"^57.0.2\",\n    \"expo-status-bar\": \"~57.0.1\",\n    \"expo-updates\": \"~57.0.21\",\n    \"react\": \"19.2.3\",\n    \"react-dom\": \"19.2.3\",\n    \"react-native\": \"0.86.3\",\n    \"react-native-gesture-handler\": \"^3.2.1\",\n    \"react-native-reanimated\": \"^4.6.0\",\n    \"react-native-safe-area-context\": \"^5.9.1\",\n    \"react-native-screens\": \"^4.27.0\",\n    \"react-native-web\": \"^0.21.2\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"~19.2.2\",\n    \"typescript\": \"~6.0.3\"\n  },\n  \"scripts\": {\n    \"start\": \"expo start\",\n    \"android\": \"expo start --android\",\n    \"ios\": \"expo start --ios\",\n    \"web\": \"expo start --web\"\n  },\n  \"private\": true\n}\n"
+  },
+  "agents": {
+    "byteSize": 118
+  },
+  "claude": {
+    "byteSize": 11
+  }
+}

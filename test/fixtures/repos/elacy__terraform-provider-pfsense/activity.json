@@ -1,0 +1,602 @@
+[
+  {
+    "id": 41010486186,
+    "ref": "refs/tags/v2.0.0",
+    "timestamp": "2026-08-24T06:57:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41010467435,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T06:57:17Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40522999274,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T19:09:47Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40522981179,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T19:09:33Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40522968060,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T19:09:24Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40522394948,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T19:02:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40521673176,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T18:53:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40520879843,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T18:44:31Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40520198832,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T18:36:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40519745146,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T18:31:11Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40518263410,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T18:14:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40516315259,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T17:51:20Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40515101590,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T17:37:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40512317249,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T17:06:36Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40512302191,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T17:06:27Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 40512107077,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T17:04:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40508897924,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T16:29:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40507429291,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T16:12:27Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40506924298,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T16:06:32Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40506155862,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T15:58:32Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40505863177,
+    "ref": "refs/heads/feat/fuzz-extend",
+    "timestamp": "2026-08-19T15:55:21Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40476100973,
+    "ref": "refs/heads/feat/fuzz-extend",
+    "timestamp": "2026-08-19T10:57:20Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40475985944,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T10:55:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40475576031,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T10:51:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40475330035,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T10:48:23Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40475308097,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T10:48:09Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40474348728,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T10:37:11Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40473821612,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T10:31:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40473146524,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T10:23:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40472698479,
+    "ref": "refs/heads/feat/computed-state-keep",
+    "timestamp": "2026-08-19T10:18:53Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40471847162,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T10:09:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40469577897,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T09:46:50Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40469337868,
+    "ref": "refs/heads/feat/registry-manifest",
+    "timestamp": "2026-08-19T09:44:23Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40469262404,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T09:43:35Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40469124828,
+    "ref": "refs/heads/feat/registry-manifest",
+    "timestamp": "2026-08-19T09:42:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40468698561,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T09:37:51Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40468045266,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T09:31:11Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40467367042,
+    "ref": "refs/heads/feat/fuzz-testing",
+    "timestamp": "2026-08-19T09:24:01Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40467365071,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T09:23:59Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40467206734,
+    "ref": "refs/heads/feat/fuzz-testing",
+    "timestamp": "2026-08-19T09:22:17Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40466957221,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T09:19:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40465524279,
+    "ref": "refs/heads/feat/fuzz-testing",
+    "timestamp": "2026-08-19T09:04:11Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40465236967,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T09:01:16Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40463710767,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T08:45:28Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40462685123,
+    "ref": "refs/heads/feat/registry-manifest",
+    "timestamp": "2026-08-19T08:34:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40462295154,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T08:30:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40462142586,
+    "ref": "refs/heads/feat/fuzz-testing",
+    "timestamp": "2026-08-19T08:28:41Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 40462074515,
+    "ref": "refs/heads/feat/validation-hardening",
+    "timestamp": "2026-08-19T08:27:58Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40460293723,
+    "ref": "refs/heads/feat/fuzz-testing",
+    "timestamp": "2026-08-19T08:08:49Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40460164207,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-19T08:07:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40459601928,
+    "ref": "refs/heads/feat/import-verification",
+    "timestamp": "2026-08-19T08:01:41Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40459600813,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-19T08:01:40Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40458035309,
+    "ref": "refs/heads/feat/import-verification",
+    "timestamp": "2026-08-19T07:45:40Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40408197419,
+    "ref": "refs/heads/feat/state-upgraders",
+    "timestamp": "2026-08-18T20:20:20Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40403205702,
+    "ref": "refs/heads/feat/import-verification",
+    "timestamp": "2026-08-18T19:15:38Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40386330447,
+    "ref": "refs/heads/feat/live-tests-services",
+    "timestamp": "2026-08-18T15:55:48Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40386329233,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T15:55:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40385890047,
+    "ref": "refs/heads/feat/live-tests-services",
+    "timestamp": "2026-08-18T15:51:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40299090060,
+    "ref": "refs/heads/feat/live-tests-services",
+    "timestamp": "2026-08-17T22:25:11Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40293487666,
+    "ref": "refs/heads/feat/live-tests-system",
+    "timestamp": "2026-08-17T21:03:38Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40293486613,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T21:03:36Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40293008848,
+    "ref": "refs/heads/feat/live-tests-system",
+    "timestamp": "2026-08-17T20:57:29Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40285477731,
+    "ref": "refs/heads/feat/live-tests-routing",
+    "timestamp": "2026-08-17T19:24:46Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40285477017,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T19:24:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40284595306,
+    "ref": "refs/heads/feat/live-tests-routing",
+    "timestamp": "2026-08-17T19:14:54Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40283853142,
+    "ref": "refs/heads/feat/live-tests-interfaces",
+    "timestamp": "2026-08-17T19:06:49Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40283851307,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T19:06:48Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40283514922,
+    "ref": "refs/heads/feat/live-tests-interfaces",
+    "timestamp": "2026-08-17T19:03:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40278578744,
+    "ref": "refs/heads/feat/live-tests-interfaces",
+    "timestamp": "2026-08-17T18:08:25Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40277253753,
+    "ref": "refs/heads/feat/live-tests-firewall",
+    "timestamp": "2026-08-17T17:53:29Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40277251977,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T17:53:27Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40276160413,
+    "ref": "refs/heads/feat/live-tests-firewall",
+    "timestamp": "2026-08-17T17:41:38Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40273531239,
+    "ref": "refs/heads/feat/live-tests-firewall",
+    "timestamp": "2026-08-17T17:14:04Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40272343016,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T17:01:28Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40211046361,
+    "ref": "refs/heads/live-acceptance-tests",
+    "timestamp": "2026-08-17T04:02:42Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40211045162,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-17T04:02:40Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40210482951,
+    "ref": "refs/heads/live-acceptance-tests",
+    "timestamp": "2026-08-17T03:55:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40209702621,
+    "ref": "refs/heads/live-acceptance-tests",
+    "timestamp": "2026-08-17T03:44:15Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40209603681,
+    "ref": "refs/heads/live-acceptance-tests",
+    "timestamp": "2026-08-17T03:42:50Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40184576952,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-16T19:32:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40179856003,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-16T18:16:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40104816250,
+    "ref": "refs/heads/feat/vpn-system-resources",
+    "timestamp": "2026-08-15T23:52:53Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40104815550,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-15T23:52:51Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40104615288,
+    "ref": "refs/heads/feat/vpn-system-resources",
+    "timestamp": "2026-08-15T23:47:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40103322836,
+    "ref": "refs/heads/feat/vpn-system-resources",
+    "timestamp": "2026-08-15T23:17:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40102838682,
+    "ref": "refs/heads/feat/vpn-system-resources",
+    "timestamp": "2026-08-15T23:06:35Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40101892937,
+    "ref": "refs/heads/master",
+    "timestamp": "2026-08-15T22:46:04Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40101891926,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-15T22:46:03Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40101872871,
+    "ref": "refs/heads/master",
+    "timestamp": "2026-08-15T22:45:39Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40100788217,
+    "ref": "refs/heads/master",
+    "timestamp": "2026-08-15T22:23:29Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40100786792,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-15T22:23:27Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40100769638,
+    "ref": "refs/heads/master",
+    "timestamp": "2026-08-15T22:23:06Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40090650015,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-15T19:23:52Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 40090648703,
+    "ref": "refs/heads/v1",
+    "timestamp": "2026-08-15T19:23:51Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 27894106120,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-10-31T05:19:16Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 20561716950,
+    "ref": "refs/heads/main",
+    "timestamp": "2024-10-04T20:54:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 20548349017,
+    "ref": "refs/heads/main",
+    "timestamp": "2024-10-04T04:49:03Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 20547969127,
+    "ref": "refs/heads/main",
+    "timestamp": "2024-10-04T04:02:24Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 20547797593,
+    "ref": "refs/heads/main",
+    "timestamp": "2024-10-04T03:40:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 20547663281,
+    "ref": "refs/heads/main",
+    "timestamp": "2024-10-04T03:23:42Z",
+    "activity_type": "push"
+  }
+]

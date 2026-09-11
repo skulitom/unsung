@@ -1,0 +1,152 @@
+{
+  "nameWithOwner": "enfold-lab/SNPrior",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T08:29:59Z",
+  "pushedAt": "2026-09-10T08:35:47Z",
+  "diskUsage": 589,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Jupyter Notebook"
+  },
+  "languages": {
+    "totalSize": 1026595,
+    "edges": [
+      {
+        "size": 970036,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      },
+      {
+        "size": 56559,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "enfold-lab",
+    "__typename": "Organization",
+    "createdAt": "2024-08-15T01:18:38Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T08:35:42Z",
+            "messageHeadline": "moved from geography_prediction repo",
+            "author": {
+              "user": {
+                "login": "Jinhyun-Kim"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:30:00Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "Jinhyun-Kim"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "analysis.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "draw_figure.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "draw_figure_class_accuracy.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "environment.yml",
+        "type": "blob"
+      },
+      {
+        "name": "environment_R.yml",
+        "type": "blob"
+      },
+      {
+        "name": "geography_plot.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "helpers.py",
+        "type": "blob"
+      },
+      {
+        "name": "main.py",
+        "type": "blob"
+      },
+      {
+        "name": "main_test.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "preprocess.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "preprocess_merge.ipynb",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 103,
+    "text": "# SNPrior\n\n## installing python environment\n```bash\nconda env create -f environment.yml -n SNPrior\n```\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

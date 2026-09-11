@@ -1,0 +1,33 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "d557wgl3zj/tohuys",
+  "set": "luresAndSpam",
+  "label": "X",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": null,
+  "expect": {
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "outcome": "dropped",
+    "lane": null,
+    "gates": [
+      "g.spam.streak",
+      "g.spam.farm"
+    ]
+  },
+  "readme": null,
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "treeEntries": 700,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 14,
+    "stars": false
+  }
+}

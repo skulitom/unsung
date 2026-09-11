@@ -1,0 +1,222 @@
+{
+  "nameWithOwner": "BuburEncer/genre-cnn",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T04:35:44Z",
+  "pushedAt": "2026-09-09T09:46:27Z",
+  "diskUsage": 678,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Jupyter Notebook"
+  },
+  "languages": {
+    "totalSize": 57531,
+    "edges": [
+      {
+        "size": 39729,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      },
+      {
+        "size": 17802,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "BuburEncer",
+    "__typename": "User",
+    "createdAt": "2024-11-19T11:16:57Z",
+    "repositories": {
+      "totalCount": 19
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 11,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T09:46:18Z",
+            "messageHeadline": "update dataset",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:40:22Z",
+            "messageHeadline": "tahap 5: poster via Google Drive mount + fail-fast cek file, abaikan …",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:32:53Z",
+            "messageHeadline": "fix cell tahap 5: path download src dobel, + cleanup & log ukuran file",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:28:58Z",
+            "messageHeadline": "bersihkan output error basi cell tahap 5",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:28:22Z",
+            "messageHeadline": "tahap 5: fallback src/ & metadata auto-download dari GitHub",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:26:58Z",
+            "messageHeadline": "tambah clean_posters_metadata.csv agar bisa diambil Colab",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:25:54Z",
+            "messageHeadline": "tahap 5: split data, dataloader, model (MobileNetV2 + baseline)",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T10:12:05Z",
+            "messageHeadline": "update .gitignore",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T09:36:20Z",
+            "messageHeadline": "edit .gitignore",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T09:30:46Z",
+            "messageHeadline": "test graphify hook",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:33:00Z",
+            "messageHeadline": "tahap 1 - 4",
+            "author": {
+              "user": {
+                "login": "BuburEncer"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claudeignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".graphifyignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "models",
+        "type": "tree"
+      },
+      {
+        "name": "notebooks",
+        "type": "tree"
+      },
+      {
+        "name": "outputs",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1487,
+    "text": "# Skripsi: Klasifikasi Multi-Label Genre Film dari Poster (CNN)\n\n## Setup awal\n\n```bash\ngit init\ngit add .\ngit commit -m \"init: struktur project\"\n```\n\nBuka folder ini di VSCode, lalu jalankan `claude` di terminal untuk mulai pakai\nClaude Code CLI. Claude Code akan otomatis membaca `CLAUDE.md` untuk konteks project.\n\n## Workflow harian\n\n1. **Edit lokal** — buka/edit `.ipynb` di VSCode (extension Jupyter, Microsoft),\n   dibantu Claude Code CLI untuk debugging/penulisan kode.\n2. **Training di Colab** — upload notebook yang sudah difinalisasi ke\n   [colab.research.google.com](https://colab.research.google.com), aktifkan GPU\n   (Runtime → Change runtime type → GPU), lalu jalankan training.\n3. **Sinkron balik** — setelah run selesai, download `.ipynb` dari Colab dan\n   timpa file lokal di folder `notebooks/` supaya output tersimpan.\n4. **Commit** — commit perubahan notebook dan `src/` ke git (data mentah & model\n   besar sudah otomatis diabaikan lewat `.gitignore`).\n\n## Struktur\n\n```\ndata/          -> raw, processed, posters (tidak masuk git)\nnotebooks/     -> semua .ipynb\nsrc/           -> kode Python reusable\nmodels/        -> model terlatih\noutputs/       -> figures & logs\ndocs/          -> draf bab skripsi\n```\n\n## Catatan\n- Dataset poster tidak disertakan di repo (terlalu besar). Simpan di Google Drive\n  dan mount saat training di Colab jika perlu, atau taruh lokal di `data/posters/`.\n- Lihat `CLAUDE.md` untuk detail arsitektur model dan konvensi kode.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

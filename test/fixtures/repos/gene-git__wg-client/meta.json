@@ -1,0 +1,42 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "gene-git/wg-client",
+  "set": "hardPositives",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S2_py_old",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.rst",
+    "originalBytes": 8888,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": null,
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.rst",
+    "originalBytes": 8888,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      "meson.build"
+    ],
+    "treeEntries": 152,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 50,
+    "stars": true
+  }
+}

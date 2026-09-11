@@ -1,0 +1,406 @@
+{
+  "id": "R_kgDOUPvy4w",
+  "nameWithOwner": "Shantodotdev/blacksparrow",
+  "description": "Blazingly fast, local-first website crawler and 120-rule technical SEO audit engine with native MCP support.",
+  "homepageUrl": "",
+  "createdAt": "2026-09-06T01:23:56Z",
+  "pushedAt": "2026-09-09T05:11:09Z",
+  "diskUsage": 2323,
+  "stargazerCount": 6,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 1011003,
+    "edges": [
+      {
+        "size": 998926,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 12077,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "audit-engine"
+        }
+      },
+      {
+        "topic": {
+          "name": "cli"
+        }
+      },
+      {
+        "topic": {
+          "name": "crawler"
+        }
+      },
+      {
+        "topic": {
+          "name": "developer-tools"
+        }
+      },
+      {
+        "topic": {
+          "name": "html-parser"
+        }
+      },
+      {
+        "topic": {
+          "name": "local-first"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "page-rank"
+        }
+      },
+      {
+        "topic": {
+          "name": "performance"
+        }
+      },
+      {
+        "topic": {
+          "name": "rust"
+        }
+      },
+      {
+        "topic": {
+          "name": "screaming-frog-alternative"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 2
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Shantodotdev",
+    "__typename": "User",
+    "createdAt": "2021-05-21T17:06:31Z",
+    "repositories": {
+      "totalCount": 96
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 112,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T05:10:51Z",
+            "messageHeadline": "fix(dist): align wix template with cargo-dist package expectations",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T05:01:41Z",
+            "messageHeadline": "chore(release): bump version to v0.1.0-rc.2",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:57:55Z",
+            "messageHeadline": "docs: update readme and contributing guide for blacksparrow",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:57:49Z",
+            "messageHeadline": "feat(dist): update installer, packaging, and agent configs for blacks…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T04:57:39Z",
+            "messageHeadline": "feat(core): rebrand crate and centralize branding in core engine",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:42:51Z",
+            "messageHeadline": "chore: update readme",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:34:44Z",
+            "messageHeadline": "chore: remove outdated RELEASE_NOTES_v0.1.0-rc.1.md file",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:34:34Z",
+            "messageHeadline": "chore: add LONG_TERM_VISION.md to .gitignore",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:07:51Z",
+            "messageHeadline": "docs: add standalone installer quickstart and v0.1.0-rc.1 release notes",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:03:17Z",
+            "messageHeadline": "feat(dist): add standalone cyberpunk installer and update release notes",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:44:36Z",
+            "messageHeadline": "chore(release): bump version to 0.1.0-rc.1",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:34:07Z",
+            "messageHeadline": "fix(crawler): abort feed discovery on unreachable host and use .inval…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:28:48Z",
+            "messageHeadline": "test(mcp): resolve windows administrator path creation and connection…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:17:11Z",
+            "messageHeadline": "fix(dist): remove homebrew tap to allow token-free releases",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:56:39Z",
+            "messageHeadline": "Merge pull request #4 from Shantodotdev/feat/cargo-dist-packaging",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:56:01Z",
+            "messageHeadline": "feat(dist): configure cargo-dist for cross-platform releases and inst…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:54:57Z",
+            "messageHeadline": "Merge pull request #1 from Shantodotdev/feat/core-audit-engine",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:54:37Z",
+            "messageHeadline": "Merge pull request #2 from Shantodotdev/feat/ci-workflow",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:46:55Z",
+            "messageHeadline": "fix(mcp): fail fast on db init, persist background crawl failures, an…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:46:50Z",
+            "messageHeadline": "fix(rules): target ld+json script tags and validate google rich resul…",
+            "author": {
+              "user": {
+                "login": "Shantodotdev"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".codex",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-APACHE",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-MIT",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "dist-workspace.toml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "install.sh",
+        "type": "blob"
+      },
+      {
+        "name": "src-tauri",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "wix",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 8619,
+    "text": "# Black Sparrow\n\n**High-performance, local-first website crawler, 120-rule technical SEO audit engine, and AI-native auditor written in Rust.**\n\n[![Release](https://img.shields.io/github/v/release/Shantodotdev/blacksparrow?include_prereleases&color=e11d48&logo=github)](https://github.com/Shantodotdev/blacksparrow/releases) [![Downloads](https://img.shields.io/github/downloads/Shantodotdev/blacksparrow/total?color=ec4899&logo=github&label=downloads)](https://github.com/Shantodotdev/blacksparrow/releases) [![CI](https://img.shields.io/github/actions/workflow/status/Shantodotdev/blacksparrow/ci.yml?branch=main&label=CI&logo=github-actions)](https://github.com/Shantodotdev/blacksparrow/actions) [![Rust 2021](https://img.shields.io/badge/rust-2021_edition-f97316.svg)](https://www.rust-lang.org/) [![Model Context Protocol](https://img.shields.io/badge/mcp-compliant-be185d.svg)](./docs/mcp.md) [![License: MIT / Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-831843.svg)](./LICENSE-MIT)\n\n---\n\n## Overview\n\n**Black Sparrow** is a lightweight, blazing-fast website crawler and technical SEO auditor designed as a modern, local-first alternative to heavy legacy tools like Screaming Frog and expensive cloud crawlers.\n\nBuilt from the ground up in Rust, Black Sparrow streams HTML responses through Cloudflare's zero-copy `lol_html` parser, dynamically adjusts crawl speed using network congestion algorithms (AIMD), persists audit history in an embedded SQLite database, and exposes a native **Model Context Protocol (MCP)** server for autonomous AI coding agents.\n\n![Black Sparrow CLI Audit in Terminal](./docs/assets/cli_terminal_audit.png)\n\n![Black Sparrow Interactive HTML Report](./docs/assets/html_report_dashboard.png)\n\n---\n\n## Key Features\n\n- ⚡ **Blazingly Fast**: Crawls ~500–800 pages/second on raw HTTP using under 50 MB of RAM.\n- 🔒 **Local-First & Private**: All data stays on your machine in an embedded SQLite WAL database. No accounts, no cloud dependencies, zero telemetry.\n- 🧠 **AI-Native (MCP)**: Native stdio Model Context Protocol server. AI agents in Claude Desktop, Cursor, and Windsurf can launch audits and inspect findings autonomously.\n- 🛡️ **AIMD Congestion Politeness**: Additive-Increase / Multiplicative-Decrease rate controller actively protects target servers from overload.\n- 🔍 **120 Comprehensive Rules**: Validates HTTP transport, metadata, headings, directives, canonicalization, links, security headers, CLS image dimensions, hreflang reciprocity, and Google Rich Results.\n- 🤖 **GEO & AI Search Readiness**: Audits `/llms.txt`, probes AI crawler permissions (`GPTBot`, `ClaudeBot`), and flags bot-challenge firewall screens.\n- 🕸️ **Topology & Internal PageRank**: Ingests link graphs into `petgraph` to detect orphan pages, canonical loops, and distribute internal link equity.\n- 📊 **Multi-Format Reporting**: Generates interactive standalone TUI-style HTML reports, Screaming Frog-compatible CSV suites, Markdown for LLMs, and structured JSON.\n\n---\n\n## Quickstart\n\n### Quick Install (Standalone Binary)\n\nInstall `blacksparrow` (with `sparrow` alias) directly without needing Rust or build tools:\n\n**macOS & Linux**:\n\n```bash\ncurl -fsSL https://raw.githubusercontent.com/Shantodotdev/blacksparrow/main/install.sh | bash\n```\n\n**Windows (PowerShell)**:\n\n```powershell\npowershell -ExecutionPolicy Bypass -c \"irm https://github.com/Shantodotdev/blacksparrow/releases/latest/download/blacksparrow-installer.ps1 | iex\"\n```\n\n_Windows users can also download the standalone `.msi` installer from [GitHub Releases](https://github.com/Shantodotdev/blacksparrow/releases)._\n\n---\n\n### Build from Source\n\n> **Prerequisites**: Requires **Rust 1.80+** ([rustup.rs](https://rustup.rs/)). On Linux, ensure `build-essential`, `pkg-config`, and `libssl-dev` are installed (see [CONTRIBUTING.md](./CONTRIBUTING.md) for OS-specific details).\n\n#### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/Shantodotdev/blacksparrow.git\ncd blacksparrow\n```\n\n### 2. Choose How to Run\n\nYou have three flexible options depending\n\n#### Option A: Run Directly with Cargo (Best for quick testing)\n\nRun audits immediately without installing anything to your system PATH:\n\n```bash\n# Cargo compiles and runs blacksparrow on the fly\ncargo run -- audit https://example.com --max-pages 100\n```\n\n#### Option B: Build the Standalone Binary (Best for production & scripts)\n\nBuild a self-contained, optimized release binary into `./target/release/blacksparrow`:\n\n```bash\n# Compile optimized release binary\ncargo build --release\n\n# Run the binary directly\n./target/release/blacksparrow audit https://example.com --max-pages 500\n```\n\n#### Option C: Install Globally as a System Command (Best for daily use)\n\n`cargo install --path .` compiles the release binary and copies it to your global Cargo binary directory (`~/.cargo/bin`). This makes `blacksparrow` available from **any folder** in your terminal like any standard Unix tool:\n\n```bash\n# Install to ~/.cargo/bin/blacksparrow\ncargo install --path .\n\n# Now available globally from any terminal folder (or use 'sparrow' alias via install.sh)\nblacksparrow audit https://example.com --max-pages 500\n```\n\n---\n\n### Basic Usage\n\nYou can use either `blacksparrow` or its alias `sparrow`:\n\n#### 1. Audit a Website\n\n```bash\n# Run a 500-page crawl with concurrency limit of 10\nsparrow audit https://example.com --max-pages 500 -c 10\n```\n\n#### 2. Quick Single-Page Inspection\n\n```bash\n# Inspect a single URL instantly without crawling the whole site\nsparrow inspect https://example.com/blog/post-1\n```\n\n#### 3. Inspect Issues by Severity\n\n```bash\n# List all critical and alert issues from the latest session\nsparrow issues <SESSION_ID> --severity critical,alert\n```\n\n#### 4. Export Reports\n\n```bash\n# Export an interactive HTML dashboard and Screaming Frog-compatible CSVs\nsparrow report <SESSION_ID> -f html,csv -o ./reports\n```\n\n#### 5. Check AI Search Readiness\n\n```bash\n# Check /llms.txt and AI bot permissions in robots.txt\nsparrow check-ai https://example.com\n```\n\n---\n\n## Use with AI Agents (MCP)\n\nBlack Sparrow includes a built-in Model Context Protocol (MCP) server running pure-Rust JSON-RPC 2.0 over `stdio`.\n\n### Quick Setup\n\nTell your AI coding agent (Claude, Cursor, Windsurf) to register Black Sparrow:\n\n> _\"Add an MCP server named `blacksparrow` with the command `blacksparrow` and args `['mcp']`.\"_\n\n### What Agents Can Do\n\n- **`seo_start_audit`**: Spawns non-blocking background crawls (returns a session token in $<1$s).\n- **`seo_audit_status`**: Polls live crawl progress, page counts, and real-time health score.\n- **`seo_get_markdown_report`**: Generates executive Markdown summaries tailored for LLM context windows.\n- **`seo_query_issues`**: Filters issues by category, severity, and rule code.\n- **`seo_quick_page_check`**: Instantly audits single URLs during local development.\n\n_(See [Model Context Protocol Guide](./docs/mcp.md) for full tool schemas and configurations)._\n\n---\n\n## Documentation\n\nExplore the complete technical documentation in [`docs/`](./docs/README.md):\n\n| Guide                                                | Description                                                                     |\n| ---------------------------------------------------- | ------------------------------------------------------------------------------- |\n| [**Architecture & Roadmap**](./docs/architecture.md) | Pipeline design, 2-member workspace, streaming parsing, and project milestones. |\n| [**CLI Commands & Flags**](./docs/cli.md)            | Exhaustive reference for all 10 subcommands, CLI options, and exporters.        |\n| [**Crawler Engine & AIMD**](./docs/crawler.md)       | Asynchronous crawler mechanics, AIMD rate tuning, and RFC 9309 compliance.      |\n| [**Model Context Protocol (MCP)**](./docs/mcp.md)    | Agent configuration, stdio JSON-RPC architecture, and 8 structured tools.       |\n| [**120 SEO Rules Catalog**](./docs/rules.md)         | Complete reference of all 120 technical checks, heuristics, and fix advice.     |\n\n---\n\n## Contributing\n\n\n---\n\n## License\n\nBlack Sparrow is dual-licensed under either:\n\n\nat your option.\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 6199
+  },
+  "claude": null
+}

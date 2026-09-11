@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "OutlierAashi-labs/Genz-Social-Media-Analysis",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 2508,
+    "keptBytes": 2508,
+    "excerpt": false
+  }
+}

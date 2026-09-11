@@ -1,0 +1,289 @@
+{
+  "nameWithOwner": "juanwinograd/CalculadoraSalarial",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-12-03T14:20:38Z",
+  "pushedAt": "2026-09-10T11:40:18Z",
+  "diskUsage": 1237,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "GPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 116811,
+    "edges": [
+      {
+        "size": 88259,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 28552,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "juanwinograd",
+    "__typename": "User",
+    "createdAt": "2021-04-19T16:52:44Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 194,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T11:40:08Z",
+            "messageHeadline": "sept",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T17:43:37Z",
+            "messageHeadline": "agosto",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-15T13:09:47Z",
+            "messageHeadline": "aguinaldo",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-15T13:03:54Z",
+            "messageHeadline": "julio v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-15T12:57:30Z",
+            "messageHeadline": "julio",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-15T12:55:33Z",
+            "messageHeadline": "junio",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-18T11:45:31Z",
+            "messageHeadline": "junio",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T20:41:06Z",
+            "messageHeadline": "ipc",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T21:09:53Z",
+            "messageHeadline": "abril",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T12:14:39Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T12:12:34Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:41:30Z",
+            "messageHeadline": "ncargos",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:31:36Z",
+            "messageHeadline": "muerte",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:28:19Z",
+            "messageHeadline": "red",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:25:46Z",
+            "messageHeadline": "red",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:17:55Z",
+            "messageHeadline": "red",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T03:09:07Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T02:56:53Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T02:41:56Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T02:37:31Z",
+            "messageHeadline": "v3",
+            "author": {
+              "user": {
+                "login": "juanwinograd"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "favicon.ico",
+        "type": "blob"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "ipc.json",
+        "type": "blob"
+      },
+      {
+        "name": "scriptv2.js",
+        "type": "blob"
+      },
+      {
+        "name": "scriptv3.js",
+        "type": "blob"
+      },
+      {
+        "name": "v3.html",
+        "type": "blob"
+      },
+      {
+        "name": "valoritems_minuscula.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

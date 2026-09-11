@@ -1,0 +1,380 @@
+{
+  "nameWithOwner": "yuvidew/todo-app-claude-code-",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T05:17:10Z",
+  "pushedAt": "2026-09-08T09:04:09Z",
+  "diskUsage": 395,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 407682,
+    "edges": [
+      {
+        "size": 401081,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 6042,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 559,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "yuvidew",
+    "__typename": "User",
+    "createdAt": "2023-03-10T17:18:31Z",
+    "repositories": {
+      "totalCount": 104
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 22,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T09:04:05Z",
+            "messageHeadline": "Merge pull request #10 from yuvidew/feature/profile-page",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T09:03:05Z",
+            "messageHeadline": "feat: add profile page with editable user information",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T07:10:33Z",
+            "messageHeadline": "Merge pull request #9 from yuvidew/feature/add-member-ui",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T07:09:46Z",
+            "messageHeadline": "feat: add members page with active/inactive toggle and add member fun…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T05:58:21Z",
+            "messageHeadline": "Merge pull request #8 from yuvidew/feature/team-members",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T05:57:06Z",
+            "messageHeadline": "feat(members): implement real member directory with API integration a…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T15:28:25Z",
+            "messageHeadline": "chore: fix set-state-in-effect lint errors, add project docs and slas…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:13:54Z",
+            "messageHeadline": "Merge pull request #7 from yuvidew/featuer/todos-api",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:11:28Z",
+            "messageHeadline": "feat(todos): implement CRUD operations for todos with API integration…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T08:51:16Z",
+            "messageHeadline": "Merge pull request #6 from yuvidew/featuer/protected-routes",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T08:50:50Z",
+            "messageHeadline": "feat(auth): implement session management with login, logout, and sess…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T07:59:42Z",
+            "messageHeadline": "Merge pull request #5 from yuvidew/featuer/auth-apis",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T07:58:59Z",
+            "messageHeadline": "feat(auth): implement signup and login APIs with validation and error…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T07:22:22Z",
+            "messageHeadline": "Merge pull request #4 from yuvidew/featuer/setup-database",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T07:21:20Z",
+            "messageHeadline": "feat: set up MySQL database with Prisma ORM",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T11:09:35Z",
+            "messageHeadline": "Merge pull request #3 from yuvidew/featuer/authentication-ui",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T11:08:57Z",
+            "messageHeadline": "feat: implement authentication UI with login and signup forms, includ…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T08:08:17Z",
+            "messageHeadline": "Merge pull request #2 from yuvidew/feature/task-document-editor",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T08:06:11Z",
+            "messageHeadline": "feat: integrate BlockNote editor into Todo application for enhanced t…",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:46:42Z",
+            "messageHeadline": "Merge pull request #1 from yuvidew/features/pagination",
+            "author": {
+              "user": {
+                "login": "yuvidew"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dlearn-claudeplansprancy-finding-noodle-agent-af3427af9679e1b71.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "app",
+        "type": "tree"
+      },
+      {
+        "name": "components.json",
+        "type": "blob"
+      },
+      {
+        "name": "components",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "hooks",
+        "type": "tree"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "next.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "postcss.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "prisma",
+        "type": "tree"
+      },
+      {
+        "name": "prisma7.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "proxy.ts",
+        "type": "blob"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "repositories",
+        "type": "tree"
+      },
+      {
+        "name": "services",
+        "type": "tree"
+      },
+      {
+        "name": "skills-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "types",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1450,
+    "text": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n"
+  },
+  "pkg": {
+    "byteSize": 1604,
+    "text": "{\n  \"name\": \"todo-app\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\",\n    \"prisma:migrate\": \"prisma migrate dev\",\n    \"prisma:generate\": \"prisma generate\"\n  },\n  \"dependencies\": {\n    \"@base-ui/react\": \"^1.7.0\",\n    \"@blocknote/core\": \"^0.54.0\",\n    \"@blocknote/mantine\": \"^0.54.0\",\n    \"@blocknote/react\": \"^0.54.0\",\n    \"@mantine/core\": \"^9.6.0\",\n    \"@mantine/hooks\": \"^9.6.0\",\n    \"@mantine/utils\": \"^6.0.22\",\n    \"@prisma/adapter-mariadb\": \"^7.10.0\",\n    \"@prisma/client\": \"^7.10.0\",\n    \"@shadcn/react\": \"^0.3.0\",\n    \"bcryptjs\": \"^3.0.3\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"cmdk\": \"^1.1.1\",\n    \"date-fns\": \"^4.4.0\",\n    \"dotenv\": \"^17.4.2\",\n    \"embla-carousel-react\": \"^8.6.0\",\n    \"input-otp\": \"^1.5.0\",\n    \"jose\": \"^6.2.12\",\n    \"lucide-react\": \"^1.37.0\",\n    \"next\": \"16.3.3\",\n    \"react\": \"19.2.8\",\n    \"react-day-picker\": \"^10.0.1\",\n    \"react-dom\": \"19.2.8\",\n    \"react-resizable-panels\": \"^4.12.3\",\n    \"recharts\": \"^3.8.0\",\n    \"server-only\": \"^0.0.1\",\n    \"shadcn\": \"^4.19.0\",\n    \"tailwind-merge\": \"^3.6.0\",\n    \"tw-animate-css\": \"^1.4.0\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/postcss\": \"^4\",\n    \"@types/node\": \"^20\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"eslint\": \"^9\",\n    \"eslint-config-next\": \"16.3.3\",\n    \"prisma\": \"^7.10.0\",\n    \"tailwindcss\": \"^4\",\n    \"typescript\": \"^5\"\n  },\n  \"allowScripts\": {\n    \"prisma@7.10.0\": true,\n    \"@prisma/engines@7.10.0\": true,\n    \"unrs-resolver@1.12.2\": true\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 678
+  },
+  "claude": {
+    "byteSize": 3431
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "nameWithOwner": "kunalworldwide/kunalworldwide.github.io",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-04-18T08:30:57Z",
+  "pushedAt": "2026-08-21T10:00:30Z",
+  "diskUsage": 13548,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 224101,
+    "edges": [
+      {
+        "size": 128708,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 82252,
+        "node": {
+          "name": "Astro"
+        }
+      },
+      {
+        "size": 7536,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 5605,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "kunalworldwide",
+    "__typename": "User",
+    "createdAt": "2017-09-18T18:46:38Z",
+    "repositories": {
+      "totalCount": 62
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 60,
+        "nodes": [
+          {
+            "committedDate": "2026-08-21T10:00:25Z",
+            "messageHeadline": "feat: add talk entry for data sovereignty talk at Cloud-Native & AI U…",
+            "author": {
+              "user": {
+                "login": "kunalcast"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T09:10:28Z",
+            "messageHeadline": "Add NexusCon 2026 talk: Building with Kimchi",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T10:44:16Z",
+            "messageHeadline": "Add Yokohama map coordinates for Japan 2026 talks",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T10:38:36Z",
+            "messageHeadline": "Add KubeAuto Day Japan 2026 and KubeCon Japan 2026 talks",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T04:56:21Z",
+            "messageHeadline": "feat(media): add Azure Container Apps livestream with Microsoft Reactor",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-26T16:36:30Z",
+            "messageHeadline": "Add Momentum Tech Edition GDG talk",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-26T09:51:13Z",
+            "messageHeadline": "Add 4 new talks to portfolio",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-27T06:35:12Z",
+            "messageHeadline": "feat: add custom 404 page",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-26T12:20:29Z",
+            "messageHeadline": "Revert: remove Early Adopters invite page",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-25T12:56:55Z",
+            "messageHeadline": "feat: add Early Adopters invite page at /invite",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-30T17:00:34Z",
+            "messageHeadline": "Add FOSSASIA 2026 talk, Bangkok map pin, and SEO improvements",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-26T17:53:57Z",
+            "messageHeadline": "Remove old Quarto site and update documentation",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-26T17:51:20Z",
+            "messageHeadline": "Add sitemap, robots.txt, media page, and easter eggs",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-25T09:05:27Z",
+            "messageHeadline": "Add new Astro site with modern portfolio design",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-24T07:58:02Z",
+            "messageHeadline": "update domain",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-31T08:53:56Z",
+            "messageHeadline": "Update About Me with current role as Developer Advocate at Cast AI",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-31T06:24:37Z",
+            "messageHeadline": "Add DevFest Kolkata 2025 talk",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-31T06:12:53Z",
+            "messageHeadline": "Add Chaos & Coffee meetup talk",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-31T05:53:25Z",
+            "messageHeadline": "Add Namma AGENTS meetup talk",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-31T05:44:23Z",
+            "messageHeadline": "Add GenAI meetup talk and update Cluster & Chai with event links",
+            "author": {
+              "user": {
+                "login": "kunalworldwide"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CNAME",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "astro-site",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "_bak_devto.yml_bak"
+      },
+      {
+        "name": "deploy-astro.yml"
+      },
+      {
+        "name": "deploy-quarto-website.yml.disabled"
+      },
+      {
+        "name": "deploy-quarto-website.yml_bak"
+      },
+      {
+        "name": "jekyll.bak"
+      },
+      {
+        "name": "move-to-dev.torepo.yml_bak"
+      },
+      {
+        "name": "update-cncf-events.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1594,
+    "text": "# [kunaldas.net](https://kunaldas.net) [![Deploy Astro Site](https://github.com/kunalworldwide/kunalworldwide.github.io/actions/workflows/deploy-astro.yml/badge.svg)](https://github.com/kunalworldwide/kunalworldwide.github.io/actions/workflows/deploy-astro.yml)\n\nPersonal portfolio and technical blog built with Astro.\n\n## Overview\n\nThis website serves as my personal portfolio and blog, featuring:\n\n- Technical articles and tutorials\n- Conference talks and presentations\n- Media appearances (podcasts, livestreams)\n- Project showcases\n- Community involvement\n\n## Tech Stack\n\n- **Framework**: [Astro](https://astro.build/) with React components\n- **Styling**: [Tailwind CSS](https://tailwindcss.com/)\n- **Deployment**: GitHub Actions → GitHub Pages\n- **Domain**: kunaldas.net\n\n## Local Development\n\n```bash\n# Navigate to the Astro site\ncd astro-site\n\n# Install dependencies\nnpm install\n\n# Start dev server\nnpm run dev\n\n# Build for production\nnpm run build\n\n# Preview production build\nnpm run preview\n```\n\n## Project Structure\n\n```\nastro-site/\n├── src/\n│   ├── components/    # React & Astro components\n│   ├── content/       # MDX content (talks, projects)\n│   ├── layouts/       # Page layouts\n│   ├── pages/         # Route pages\n│   └── styles/        # Global styles\n├── public/            # Static assets\n└── astro.config.mjs   # Astro configuration\n```\n\n## Deployment\n\nPushes to `main` branch trigger automatic deployment via GitHub Actions.\n\n## License\n\nThis project is licensed under the terms in the [LICENSE](LICENSE) file.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": {
+    "byteSize": 2632
+  }
+}

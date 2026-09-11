@@ -1,0 +1,20 @@
+[
+  {
+    "id": 43300239058,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T11:28:06Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42571607897,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-04T09:58:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42568281536,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-04T09:34:18Z",
+    "activity_type": "branch_creation"
+  }
+]

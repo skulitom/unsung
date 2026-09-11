@@ -1,0 +1,332 @@
+{
+  "nameWithOwner": "triptu/rabbithole",
+  "description": "A new UX for reading. Go into Rabbit holes with your personal agent.",
+  "homepageUrl": "https://rabbithole.tushar.ai",
+  "createdAt": "2026-09-04T05:17:06Z",
+  "pushedAt": "2026-09-04T08:39:56Z",
+  "diskUsage": 3799,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 268335,
+    "edges": [
+      {
+        "size": 246630,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 14359,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 5527,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1819,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "triptu",
+    "__typename": "User",
+    "createdAt": "2015-12-15T03:44:10Z",
+    "repositories": {
+      "totalCount": 71
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 29,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T07:19:00Z",
+            "messageHeadline": "agent working state",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T07:14:00Z",
+            "messageHeadline": "readme updates",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T07:13:00Z",
+            "messageHeadline": "readme updates",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T07:12:00Z",
+            "messageHeadline": "short tldr for highlighted terms",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T07:11:05Z",
+            "messageHeadline": "Drop references to the removed prototype folders",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:30:17Z",
+            "messageHeadline": "Update .gitignore",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:29:58Z",
+            "messageHeadline": "support for more complicated links",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:26:21Z",
+            "messageHeadline": "readme improve",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:23:16Z",
+            "messageHeadline": "markdown support",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:21:32Z",
+            "messageHeadline": "app screenshots in readme",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:18:00Z",
+            "messageHeadline": "add app screenshots",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:12:38Z",
+            "messageHeadline": "Update profile.tsx",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:11:14Z",
+            "messageHeadline": "Update profile.tsx",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:10:20Z",
+            "messageHeadline": "reset dummy data for fresh user",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:00:37Z",
+            "messageHeadline": "better about",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:56:31Z",
+            "messageHeadline": "bunch of things",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:30:42Z",
+            "messageHeadline": "status dot change",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:30:24Z",
+            "messageHeadline": "add about",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:30:18Z",
+            "messageHeadline": "fixes",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:29:00Z",
+            "messageHeadline": "app",
+            "author": {
+              "user": {
+                "login": "triptu"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "build.ts",
+        "type": "blob"
+      },
+      {
+        "name": "bun-env.d.ts",
+        "type": "blob"
+      },
+      {
+        "name": "bun.lock",
+        "type": "blob"
+      },
+      {
+        "name": "bunfig.toml",
+        "type": "blob"
+      },
+      {
+        "name": "components.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "styles",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vercel.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6640,
+    "text": "# RabbitHole\n\n![Home](assets/app/home.png)\n\nDense documents are hard to read, even in your own field. Research papers, articles, lab results, tax forms, unfamiliar code. Rabbithole lets you zoom in on the parts you don't understand and the explaining is done by your personal assistant aware about your context.\n\nTry at - https://rabbithole.tushar.ai/\n\n## Where RabbitHole fits\n\n![Where It fits](assets/where-it-fits.png)\n\nIf we divide reading into two axes -\n- x axis - the granularity you read the text in - from \"hand it over for a summary\" to \"every word\"\n- y axis - the amount of personalized help you have while reading(could be human but let's focus on AI here)\n\nRabbitHole sits on top right. It's immensely useful for cases where you want to actually read, understand or skim over a piece, than only working with a derivative of the original text(summaries or questions asked on top).\n\n## Inspiration\n\nI read a lot - articles, papers, code, engineering spec, wiki pages and so much more. And I love going down rabbit holes, which there are many of when I'm reading dense documents or text in domains I'm not proficient in. So very often, I start at something, have a dozen open tabs a few hours later plus a long thread with an AI, and have lost track of whatever I was reading in the first place. I wanted to fix this workflow.You know how fun it is to read and figure something out with a smarter friend who also knows your gaps? Everything gets so much easier. Well, that's the experience I wanted to create.\n\nI'm also trying to imagine a future where web feels more collaborative, where you and your agent do things together, like partners. As agents become more personal, I don't just want them to be doing things *for* me on some remote cloud machine. I want them to be ambiently present *with* me, across every surface.\n\n## App screenshots\n\nAsking codex to explain a blog with RabbitHole -\n\n![App in Codex · Asking in Codex to help explain sth](assets/app/codex-app.png)\n\n\nA view with explanation panes open -\n![Reading a paper, with a concept pane open](assets/app/example1.png)\n\nIf there are more panes than what can fit on the screen they collapse as vertical columns(left in this pic) -\n![Going deeper: several panes in the trail](assets/app/example2.png)\n\nYou can also highlight any part and ask a question -\n\n![Explain Inline](assets/app/inline-explain.png)\n\nAnd get back a focused response, ready to be drilled down in more.\n\n![Explain Inline Response](assets/app/inline-explain-response.png)\n\n\nHistory of all pages you have visited is preserved -\n\n![History · pages](assets/app/pages-history.png)\n\nAs well as the history of all concepts you drilled into -\n![History · concepts](assets/app/concept-history.png)\n\nAnd your profile, mutable by both you and your agent -\n![Profile · the agent's picture of you](assets/app/profile.png)\n\n## What it does\n\n- True to its name, it lets you go as deep as you want into anything, starting from something you want to read and understand.\n- There is a nice sliding pane UI(Andy Matuschak's style).\n- You start with pasting the text or link for what you want to read and asking your agent to help you with reading alongside. \n- Your personal agent(codex, claude, openclaw, hermes, littlebird, anything that supports WebMCP) highlights the terms and parts that are non trivial \"for you\".  A biologist probably doesn't know \"apophenia\"; a psychologist probably doesn't know \"Cas9\". So whatever terms are likely unfamiliar to you gets highlighted.\n- But you're not limited to them, you can also pick anything else or even multiple sentences, and drill into that.\n- Everything you drill into opens a pane on the right. From there you can keep elaborating on that thing, or go deeper into something else and open more panes.\n- Every explanation, elaboration, and answer takes into account both the context it sits in and *you* — your goals, your familiarity with the concepts, other things you've been doing that might connect.\n- You can set an explicit goal for why you're reading. Maybe you're reading papers on homeschooling to decide the best course for your child, or researching vocal technique to sing better. Knowing the goal, on top of everything else about your life, lets the agent explain things even better.\n- It stores the concepts you drilled into so they're easy to revisit.\n- Once you have it in your agent's memory, you can also just ask it - \"open this thing in RabbitHole\".\n- While elaborating on a chosen concept, there is an optional \"focus on…\" field to steer a single explanation or even have a chat.\n- Personalization - (role, notes, preferences) shapes every explanation\nReader model the agent writes to — notes on how you like things explained\n- Everything persistent lives in the browser (IndexedDB via Dexie), so a sync engine can be added later without touching the UI\n- You can also your agent to just start with whatever text, so your starting point could be an Agent generated article for e.g. if you are trying to understand a new concept, ask it to, \"explain <concept> and open the explanation in rabbithole\"\n\n\n## What's next\n\n- Support for more types of inputs - PDFs for e.g.\n- More software eng specific coverage - PRs for example.\n- Support to show images if present in source doc\n- URL based state of the whole path which others can open and see the explanation in terms they would understand best.\n- Login and server side storage to carry what you're reading and concepts you're interested in across sessions and AI agents.\n- More proactivity - capture your attention and pass it to the agent. If you're lingering on a paragraph, the agent can proactively offer you help.\n- Suggested actions — \"add this to our repo\" while reading an engineering blog, or \"add this to your slides\" if it relates to a presentation you're working on.\n\n\n## Set up and run\n\n```bash\nbun install        # dependencies\nbun dev            # dev server with hot reload (serves index.html for every route)\nbun test           # sdk tests (markers, seed data, duplex round trip against a fake modelContext)\nbun run build      # production bundle → dist/ (what Vercel deploys; vercel.json rewrites all routes to index.html)\n```\n\nWithout a WebMCP browser, open the agent drawer (the \"agent\" pill) and run the mock agent: it answers events through the same duplex tools a real agent would use, so every flow can be exercised locally. \"Watch the agent read with me\" on the home page is a scripted walkthrough of what a linked agent does.\n\n## References\n\n- Design inspiration - https://notes.andymatuschak.org.\n- WebMCP - https://developer.chrome.com/docs/ai/webmcp\n"
+  },
+  "pkg": {
+    "byteSize": 839,
+    "text": "{\n  \"name\": \"bun-react-template\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"bun --hot src/index.html\",\n    \"start\": \"NODE_ENV=production bun src/index.html\",\n    \"build\": \"bun run build.ts\"\n  },\n  \"dependencies\": {\n    \"@radix-ui/react-slot\": \"^1.2.3\",\n    \"bun-plugin-tailwind\": \"^0.1.2\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"dexie\": \"^4.4.5\",\n    \"lucide-react\": \"^1\",\n    \"marked\": \"^18.0.11\",\n    \"react\": \"^19\",\n    \"react-dom\": \"^19\",\n    \"react-router\": \"^8.3.1\",\n    \"tailwind-merge\": \"^3.3.1\",\n    \"zustand\": \"^5.0.15\"\n  },\n  \"devDependencies\": {\n    \"@types/bun\": \"latest\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"fake-indexeddb\": \"^6.2.5\",\n    \"tailwindcss\": \"^4.1.11\"\n  },\n  \"peerDependencies\": {\n    \"typescript\": \"^7\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

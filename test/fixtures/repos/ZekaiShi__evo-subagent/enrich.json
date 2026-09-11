@@ -1,0 +1,377 @@
+{
+  "id": "R_kgDOUAnzhA",
+  "nameWithOwner": "ZekaiShi/evo-subagent",
+  "description": "Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution (prefercmd/memory as knowledge allow/deny lists), so repeated tasks start from proven commands and save tokens. Unified subagent routing and evolution: prefercmd/memory serve as knowledge allow/deny lists, saving tokens.",
+  "homepageUrl": "",
+  "createdAt": "2026-08-22T13:16:59Z",
+  "pushedAt": "2026-09-11T07:18:36Z",
+  "diskUsage": 4078,
+  "stargazerCount": 7,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 191680,
+    "edges": [
+      {
+        "size": 191680,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "dsh-plugin"
+        }
+      },
+      {
+        "topic": {
+          "name": "agent-plugin"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "deepseek-harness"
+        }
+      },
+      {
+        "topic": {
+          "name": "dsh"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "model-routing"
+        }
+      },
+      {
+        "topic": {
+          "name": "plugin"
+        }
+      },
+      {
+        "topic": {
+          "name": "subagent"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "ZekaiShi",
+    "__typename": "User",
+    "createdAt": "2023-04-20T07:20:02Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 41,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T07:18:35Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:19:10Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T07:23:52Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T07:15:35Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T07:20:32Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T07:08:31Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T06:56:46Z",
+            "messageHeadline": "chore: update npm download chart",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:21:09Z",
+            "messageHeadline": "feat: add automated npm download chart",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T09:00:30Z",
+            "messageHeadline": "docs: add quick start tutorial",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T14:53:10Z",
+            "messageHeadline": "docs: simplify plugin readmes",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T08:46:39Z",
+            "messageHeadline": "docs: add DSH Market and Corepack guidance",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T12:31:08Z",
+            "messageHeadline": "docs: replace evo-subagent preview artwork",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T12:19:28Z",
+            "messageHeadline": "feat: rename plugin to evo-subagent",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T17:11:17Z",
+            "messageHeadline": "feat: auto-provision workspace - bind main agent and inject [[EVOLUTI…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-23T15:42:36Z",
+            "messageHeadline": "chore: release v0.4.0",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-23T15:38:18Z",
+            "messageHeadline": "chore: remove unused whale asset and local intro deck",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-23T15:36:21Z",
+            "messageHeadline": "feat(evolution): priority tiers + similar-command summarization",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-23T13:55:47Z",
+            "messageHeadline": "docs: reframe README + about around unified routing, evolution and to…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-23T11:06:28Z",
+            "messageHeadline": "0.3.1",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T10:11:27Z",
+            "messageHeadline": "feat: add workspace main-agent evolution",
+            "author": {
+              "user": {
+                "login": "ZekaiShi"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.zh-CN.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "binding.js",
+        "type": "blob"
+      },
+      {
+        "name": "cordis.patch.yml",
+        "type": "blob"
+      },
+      {
+        "name": "dsh",
+        "type": "tree"
+      },
+      {
+        "name": "evolution.js",
+        "type": "blob"
+      },
+      {
+        "name": "index.js",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "plugin.js",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "scope.js",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "templates",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "update-download-chart.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5261,
+    "text": "# evo-subagent\n\n![evo-subagent — Route. Remember. Evolve.](assets/Evo-subagent-preview.png)\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![npm version](https://img.shields.io/npm/v/evo-subagent.svg)](https://www.npmjs.com/package/evo-subagent)\n[![license](https://img.shields.io/npm/l/evo-subagent.svg)](LICENSE)\n[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22-339933?logo=node.js&logoColor=white)](package.json)\n\n## Downloads\n\n![Cumulative npm downloads](assets/npm-downloads.svg)\n\nCumulative npm download data since the first release, refreshed automatically every day. DSH Market ranks plugins using npm downloads, so this is the closest public adoption signal; it cannot distinguish marketplace installs from direct npm installs.\n\n`evo-subagent` is a DeepSeek Harness plugin for predictable subagent routing and project-scoped evolution.\n\nIt maps stable agent roles to registered provider/model pairs, remembers verified commands and lessons for each role, and keeps every project's agent knowledge isolated.\n\n## Features\n\n- Route each `agent_key` through a same-named Markdown binding.\n- Validate the exact provider/model pair before creating a child agent.\n- Maintain per-agent `prefercmd.md` and `memory.md` knowledge files.\n- Isolate bindings and evolution data by project workspace.\n- Support fresh `spawn` children and context-aware `fork` children.\n- Fall back to DSH's native model inheritance when no binding exists.\n- Store no API keys, endpoints, credentials, or provider definitions.\n\n## Installation\n\n```sh\ndsh plugin add evo-subagent\n```\n\n## Quick start\n\n![Open and manage evo-subagent in DSH](assets/evo-subagent-tutorial.gif)\n\n1. Open **Settings → Plugins** and expand **evo-subagent**.\n2. Select a workspace and add a built-in role, or place a custom binding in its `agents/` directory.\n3. Choose a registered provider/model pair for each custom binding.\n4. Expand an agent to review its `prefercmd.md` and `memory.md` evolution files.\n\n[Download the MP4 tutorial](assets/evo-subagent-tutorial.mp4)\n\n## Agent bindings\n\nCreate an `agents/` directory in the project and add one Markdown file per role. The filename stem becomes the `agent_key`.\n\n```text\nproject/\n├─ agents/\n│  ├─ code-reviewer.md\n│  └─ researcher.md\n└─ .evo_subagent/\n   └─ evolution/\n```\n\nEach binding begins with a strict front matter block:\n\n```md\n---\nprovider: deepseek-official\nmodel: deepseek-v4-flash\n---\n\n# Code reviewer\nOptional role notes may follow.\n```\n\nThe provider and model must already be registered. Matching is exact and case-sensitive.\n\nCall the plugin tool with the corresponding key:\n\n```json\n{\n  \"agent_key\": \"code-reviewer\",\n  \"description\": \"Review the implementation\",\n  \"prompt\": \"Report correctness, security, and test coverage issues.\",\n  \"run_in_background\": false\n}\n```\n\n## Built-in roles\n\nThree templates are included:\n\n| `agent_key` | Role |\n| --- | --- |\n| `code-reviewer` | Severity-ranked code review |\n| `researcher` | Evidence-backed investigation |\n| `wps-worker` | Office document production |\n\nA project binding with the same `agent_key` overrides its built-in template.\n\n## Evolution\n\nEach project stores role-specific knowledge under:\n\n```text\n.evo_subagent/evolution/<agent_key>/prefercmd.md\n.evo_subagent/evolution/<agent_key>/memory.md\n```\n\n- `prefercmd.md` records commands that have been verified to work.\n- `memory.md` records reusable lessons and failures to avoid.\n\nForeground subagents receive a bounded knowledge block. They can return new entries with:\n\n```md\n[[EVOLUTION]]\nprefercmd:\n- pnpm test\nmemory:\n- Do not use --force in CI.\n[[/EVOLUTION]]\n```\n\nEntries are deduplicated and bounded. Prefix an entry with `!` to keep it at highest priority, or `?` to make it compressible when the context budget is tight.\n\nLegacy `.smart_subagent/evolution` data remains a read-only fallback and is copied to the new location on the next save.\n\n## Workspace management\n\nThe plugin settings card groups agents by project and lets users:\n\n- view or collapse workspace agent lists;\n- edit a custom binding's registered provider/model route;\n- add a built-in role to a workspace by copying its template;\n- bind one workspace-root `AGENTS.md` as the Main agent;\n- inspect and edit each agent's evolution files.\n\nMain-agent evolution is stored under `.evo_subagent/evolution/main/`. Binding and unbinding only changes the plugin-managed instruction block in `AGENTS.md`.\n\n## Tool fields\n\n| Field | Required | Description |\n| --- | --- | --- |\n| `agent_key` | Yes | Binding filename without `.md`. |\n| `description` | Yes | Short task label. |\n| `prompt` | Yes | Complete task for the child agent. |\n| `run_in_background` | No | Defaults to `true`; use `false` to collect evolution output. |\n\n## Routing behavior\n\n1. Resolve `<agent_key>.md` safely.\n2. Parse its fenced `provider` and `model` fields.\n3. Verify both values against the live model registry.\n4. Start the child through the selected `spawn` or `fork` provider.\n\nInvalid bindings fail before a child is created. Missing bindings preserve native DSH inheritance unless a built-in template matches.\n\n## Development\n\nRequires Node.js 22 or newer.\n\n```sh\nnpm test\nnpm run check\nnpm pack --dry-run\n```\n\n## License\n\n[MIT](LICENSE)\n"
+  },
+  "pkg": {
+    "byteSize": 1862,
+    "text": "{\n  \"name\": \"evo-subagent\",\n  \"version\": \"0.5.0\",\n  \"description\": \"Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution — prefercmd/memory as knowledge allow/deny lists, so repeated tasks start from proven commands and save tokens\",\n  \"type\": \"module\",\n  \"main\": \"index.js\",\n  \"exports\": {\n    \".\": \"./index.js\",\n    \"./binding\": \"./binding.js\",\n    \"./client\": \"./dsh/client.js\",\n    \"./package.json\": \"./package.json\"\n  },\n  \"files\": [\n    \"index.js\",\n    \"plugin.js\",\n    \"binding.js\",\n    \"evolution.js\",\n    \"scope.js\",\n    \"cordis.patch.yml\",\n    \"templates\",\n    \"dsh\",\n    \"README.md\",\n    \"README.zh-CN.md\",\n    \"LICENSE\"\n  ],\n  \"scripts\": {\n    \"test\": \"node --test --test-isolation=none\",\n    \"check\": \"node --check index.js && node --check plugin.js && node --check binding.js && node --check evolution.js && node --check scope.js\",\n    \"prepack\": \"npm run check && npm test\"\n  },\n  \"keywords\": [\n    \"deepseek-harness\",\n    \"dsh\",\n    \"dsh-plugin\",\n    \"subagent\",\n    \"model-routing\"\n  ],\n  \"license\": \"MIT\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/ZekaiShi/evo-subagent.git\"\n  },\n  \"homepage\": \"https://github.com/ZekaiShi/evo-subagent#readme\",\n  \"bugs\": {\n    \"url\": \"https://github.com/ZekaiShi/evo-subagent/issues\"\n  },\n  \"publishConfig\": {\n    \"access\": \"public\"\n  },\n  \"peerDependencies\": {\n    \"@deepseek-ai/cordis\": \"^4.0.1\",\n    \"@deepseek-ai/dsh-llm\": \"^0.1.1-rc.2\",\n    \"@deepseek-ai/dsh-subagent\": \"^0.1.1-rc.2\",\n    \"@deepseek-ai/dsh-tools\": \"^0.1.1-rc.2\"\n  },\n  \"dsh\": {\n    \"bundle\": {\n      \"patch\": \"./cordis.patch.yml\"\n    },\n    \"client\": {\n      \"inject\": [],\n      \"platform\": \"web\",\n      \"immediately\": true\n    }\n  },\n  \"engines\": {\n    \"node\": \">=22\"\n  },\n  \"packageManager\": \"pnpm@11.19.0\",\n  \"devDependencies\": {\n    \"@deepseek-ai/dsh\": \"0.1.1-rc.2\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

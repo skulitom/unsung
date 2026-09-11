@@ -1,0 +1,502 @@
+{
+  "id": "R_kgDOUUk4jA",
+  "nameWithOwner": "Riteshp2001/CineWindows",
+  "description": "A modern Qt 6 desktop media player built with QML, C++20, and libmpv, with hardware-accelerated playback and cross-platform packaging.",
+  "homepageUrl": "https://cinewindows.vercel.app",
+  "createdAt": "2026-09-10T08:36:38Z",
+  "pushedAt": "2026-09-11T10:51:03Z",
+  "diskUsage": 2531,
+  "stargazerCount": 11,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 1608656,
+    "edges": [
+      {
+        "size": 630528,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 581593,
+        "node": {
+          "name": "QML"
+        }
+      },
+      {
+        "size": 152009,
+        "node": {
+          "name": "MDX"
+        }
+      },
+      {
+        "size": 117197,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 39551,
+        "node": {
+          "name": "PowerShell"
+        }
+      },
+      {
+        "size": 24112,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 19937,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 17391,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "cinema"
+        }
+      },
+      {
+        "topic": {
+          "name": "hdr"
+        }
+      },
+      {
+        "topic": {
+          "name": "mpv"
+        }
+      },
+      {
+        "topic": {
+          "name": "mpv-player"
+        }
+      },
+      {
+        "topic": {
+          "name": "mpv-script"
+        }
+      },
+      {
+        "topic": {
+          "name": "qml"
+        }
+      },
+      {
+        "topic": {
+          "name": "qt6"
+        }
+      },
+      {
+        "topic": {
+          "name": "streaming"
+        }
+      },
+      {
+        "topic": {
+          "name": "video-player"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Riteshp2001",
+    "__typename": "User",
+    "createdAt": "2021-07-24T11:33:07Z",
+    "repositories": {
+      "totalCount": 65
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 23,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T10:50:53Z",
+            "messageHeadline": "fix: expose workspace headers to QML registration",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:45:23Z",
+            "messageHeadline": "Merge pull request #8 from Chinna95P/readme-screenshots-update",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:44:59Z",
+            "messageHeadline": "Merge branch 'main' into readme-screenshots-update",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:42:56Z",
+            "messageHeadline": "feat: add dockable video workspace and improve media opening",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:35:05Z",
+            "messageHeadline": "docs: fix app logo path in README",
+            "author": {
+              "user": {
+                "login": "Chinna95P"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:28:15Z",
+            "messageHeadline": "docs: add screenshots and redesign README aesthetically",
+            "author": {
+              "user": {
+                "login": "Chinna95P"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:47:41Z",
+            "messageHeadline": "fix: unblock multi-monitor startup and add diagnostic exports",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:07:56Z",
+            "messageHeadline": "Add logging categories and enhance logging throughout the application",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:36:40Z",
+            "messageHeadline": "feat: centralize app logging with QtLogger",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:06:12Z",
+            "messageHeadline": "feat: adopt native chrome and aspect-aware sizing",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:42:31Z",
+            "messageHeadline": "fix: restore OpenGL state after video frames (refs #7)",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:40:09Z",
+            "messageHeadline": "feat: enrich local library with TMDB metadata (refs #3)",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:09:47Z",
+            "messageHeadline": "fix: refine playback control styling (refs #4)",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:08:38Z",
+            "messageHeadline": "fix: improve light-theme playback contrast (refs #5)",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:07:42Z",
+            "messageHeadline": "fix: show ISO 639 subtitle languages (refs #6)",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:06:29Z",
+            "messageHeadline": "ci: publish Beta artifacts for every platform",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:04:23Z",
+            "messageHeadline": "fix(website): reveal async release content",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T03:59:25Z",
+            "messageHeadline": "ci: expose Windows executables",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T03:53:01Z",
+            "messageHeadline": "feat: replace anchor tags with SiteLink component and enhance scrolli…",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:39:17Z",
+            "messageHeadline": "feat(website): sync release pages",
+            "author": {
+              "user": {
+                "login": "Riteshp2001"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".clang-format",
+        "type": "blob"
+      },
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".ignore",
+        "type": "blob"
+      },
+      {
+        "name": ".mcp.json",
+        "type": "blob"
+      },
+      {
+        "name": ".vercelignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "AUTHORS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CITATION.cff",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "CMakePresets.json",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTORS.md",
+        "type": "blob"
+      },
+      {
+        "name": "GOVERNANCE.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE.md",
+        "type": "blob"
+      },
+      {
+        "name": "MAINTAINERS.md",
+        "type": "blob"
+      },
+      {
+        "name": "PRIVACY.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "SUPPORT.md",
+        "type": "blob"
+      },
+      {
+        "name": "THIRD_PARTY_NOTICES.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmake",
+        "type": "tree"
+      },
+      {
+        "name": "i18n",
+        "type": "tree"
+      },
+      {
+        "name": "packaging",
+        "type": "tree"
+      },
+      {
+        "name": "qml",
+        "type": "tree"
+      },
+      {
+        "name": "resources",
+        "type": "tree"
+      },
+      {
+        "name": "screenshots",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "third_party",
+        "type": "tree"
+      },
+      {
+        "name": "website",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "README.md"
+      },
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13713,
+    "text": "<div align=\"center\">\n\n<img src=\"resources/icons/apps/CineWindows.svg\" alt=\"CineWindows Logo\" width=\"96\"/>\n\n# CineWindows\n\n**A modern, high-performance desktop media player built with Qt 6, QML, C++20, and libmpv.**\n\n[![Website](https://img.shields.io/badge/Website-cinewindows.vercel.app-blue?style=flat-square&logo=vercel)](https://cinewindows.vercel.app)\n[![GitHub Releases](https://img.shields.io/github/v/release/Riteshp2001/CineWindows?style=flat-square&logo=github&label=Release)](https://github.com/Riteshp2001/CineWindows/releases)\n[![License](https://img.shields.io/badge/License-Community%20(Non--commercial)-orange?style=flat-square)](LICENSE.md)\n[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/Riteshp2001/CineWindows/releases)\n\nCineWindows delivers a polished, native viewing experience with hardware-accelerated video playback, extensive format support via FFmpeg, and deep integration with the mpv ecosystem — all wrapped in a sleek, frameless dark-theme UI.\n\n> **License:** [CineWindows Community License](LICENSE.md) — Source-available. Personal, non-commercial use only.\n>\n> **Copyright © 2026 Ritesh Pandit. All rights reserved.**\n\n</div>\n\n---\n\n## ✨ Screenshots\n\n<div align=\"center\">\n\n| Home / Media Hub | Fullscreen Playback |\n|:---:|:---:|\n| <img src=\"screenshots/cw1.png\" alt=\"CineWindows Home Screen\" width=\"480\"/> | <img src=\"screenshots/cw2.png\" alt=\"CineWindows Fullscreen Playback\" width=\"480\"/> |\n\n| Playback with Controls | Adjustment Settings Panel |\n|:---:|:---:|\n| <img src=\"screenshots/cw3.png\" alt=\"CineWindows Playback Controls\" width=\"480\"/> | <img src=\"screenshots/cw4.png\" alt=\"CineWindows Adjustment Panel\" width=\"480\"/> |\n\n<img src=\"screenshots/cw5.png\" alt=\"CineWindows Playing Video\" width=\"720\"/>\n\n*CineWindows — distraction-free, high-fidelity playback on every platform.*\n\n</div>\n\n---\n\n## 🚀 Features\n\n### 🎬 Core Playback\n\n| Feature | Status |\n|---------|--------|\n| Video playback (all FFmpeg formats) | ✅ |\n| Audio playback | ✅ |\n| Hardware decoding (DXVA2, D3D11VA, etc.) | ✅ Configurable |\n| yt-dlp streaming (YouTube, etc.) | ✅ Built-in |\n| Playlist management (M3U/M3U8) | ✅ |\n| Chapter navigation | ✅ |\n| A-B loop, file/playlist loop | ✅ |\n| Speed control (0.25x–4.0x) | ✅ |\n| Frame stepping | ✅ |\n| Subtitle support (SRT, ASS, SSA, VTT, etc.) | ✅ Auto-load + manual |\n\n### 🎛️ Control & Integration\n\n| Feature | Description |\n|---------|-------------|\n| 🖥️ **JSON-RPC IPC Server** | Opt-in TCP server on `127.0.0.1` speaking the mpv JSON IPC protocol. Start it with `--ipc-server=<port>`. |\n| 💻 **CLI Mode** | Launch with `--cli` to get an interactive command-line interface (stdin/stdout JSON-RPC). |\n| ⌨️ **Remappable Shortcuts** | Every key binding is user-configurable via the Preferences dialog or `input.conf`. |\n| 🖱️ **Mouse Controls** | Click/pause, double-click fullscreen, scroll volume, horizontal scroll seek. |\n| 🎨 **Video Filters** | Contrast, brightness, gamma, saturation, hue, zoom, pan, aspect ratio, deinterlace, deband. |\n| 📸 **Screenshots** | With subs, without subs, window capture, or every frame. |\n| 📋 **Drag & Drop** | Drop media files, folders, or subtitle tracks directly onto the window. |\n\n### 🖌️ User Interface\n\n- **Frameless dark-themed window** with custom title bar and resize handles\n- **On-screen display (OSD)** for volume, seek position, notifications\n- **Media Hub home** with quick access to files, folders, URLs, and recent playback\n- **Playlist drawer** with drag-to-reorder, shuffle, save/load\n- **Preferences dialog** for all playback, subtitle, and UI settings\n- **Multi-language support** (50+ translations via Qt Linguist)\n- **Media Hub** with filesystem browsing, library indexing, favorites, recents, thumbnails, history, and local watch statistics\n- **Light/dark palettes**, custom accent color, and reduced-motion support\n- **Advanced playback** with equalizer presets, audio visualization, 3D conversion, HDR tone mapping, PiP, and \n\n---\n\n\n| Packaging | Windows: NSIS installer + portable ZIP — macOS: .dmg — Linux: AppImage + Flatpak |\n\n\n\n```text\nCineWindows/\n├── src/\n│   ├── app/              QSettings-backed application preferences\n│   ├── models/           Playlist, track, and chapter list models\n│   ├── player/           MpvQt wrapper, playback controller, IPC server,\n│   │                     video options, input router, mpv config loader\n│   ├── services/         File helpers, session restore, update checker\n│   └── utils/            Media/path utility functions\n├── qml/\n│   ├── App.qml           Main application shell\n│   ├── controls/         Transport controls, menus, buttons, popups\n│   ├── dialogs/          URL, about, shortcut reference dialogs\n│   ├── overlays/         OSD, toast, drop zone, chrome overlays\n│   ├── library/          Media Hub, browsing, search, history, and idle home\n│   ├── playlist/         Playlist side drawer\n│   ├── preferences/      Settings panels\n│   ├── style/            Design system (Theme.qml)\n│   ├── utils/            Time formatting utility\n│   └── window/           Frameless window resize handles\n├── scripts/\n│   ├── setup/            Platform dependency bootstrap scripts\n│   ├── generate/         Translation and icon generation tools\n│   └── package/          Deployment and package verification scripts\n├── packaging/            Platform packaging metadata and artifact locations\n├── resources/            Runtime, icon, remote, and platform resources\n├── screenshots/          App screenshots for README and documentation\n└── docs/                 Engineering plans and documentation index\n```\n```bash\ngit submodule update --init --recursive\n```\n```powershell\n# 1. Bootstrap standalone libmpv and MpvQt\n& scripts\\setup\\bootstrap_libmpv_windows.ps1\n& scripts\\setup\\bootstrap_mpvqt_windows.ps1\n\n# 2. Configure & build\ncmake --preset release\ncmake --build --preset release\n\n# 3. Run\n.\\build\\release\\bin\\CineWindows.exe\n```\n```bash\n# 1. Install system dependencies\nbash scripts/setup/bootstrap_linux.sh\n\n# 2. Configure & build (MpvQt is fetched automatically)\ncmake --preset release\ncmake --build --preset release\n\n# 3. Run\n./build/release/CineWindows\n```\n```bash\n# 1. Install system dependencies\nbash scripts/setup/bootstrap_macos.sh\n\n# 2. Generate macOS icon bundle\nbash scripts/generate/generate_icns.sh\n\n# 3. Configure & build (MpvQt is fetched automatically)\ncmake --preset release\ncmake --build --preset release\n\n# 4. Run\nopen ./build/release/CineWindows.app\n```\n```powershell\n# Use the debug configuration for development\ncmake --preset debug\ncmake --build --preset debug\n\n# Launch with CLI mode (stdin JSON-RPC)\n.\\build\\release\\bin\\CineWindows.exe --cli\n\n# Custom IPC port\n.\\build\\release\\bin\\CineWindows.exe --ipc-server=32322\n\n# Custom MpvQt install path\n```\nAll Qt, QML, player, library, and service diagnostics are routed through the pinned QtLogger backend. CineWindows writes `cinewindows.log` under the platform application-data directory. Concurrent instances use separate reusable slots (`cinewindows-2.log`, `cinewindows-3.log`, etc.) without waiting for another player's log file. Each slot keeps up to five 5 MiB files and compresses rotated files.\n```powershell\n& scripts\\setup\\bootstrap_libmpv_windows.ps1\n& scripts\\setup\\bootstrap_media_tools_windows.ps1\n& scripts\\package\\deploy_windows.ps1 -Configuration Release\n```\n```bash\nbash scripts/package/deploy_linux.sh \"build/release\" \"packaging/linux/artifacts\"\n```\n```bash\nbash scripts/package/deploy_flatpak.sh\n```\n```bash\nbash scripts/generate/generate_icns.sh\nbash scripts/package/deploy_macos.sh \"build/release\" \"packaging/macos/artifacts\" \"$(uname -m)\"\n```\n- `CineWindows-arm64.dmg` or `CineWindows-x86_64.dmg` → `packaging/macos/artifacts/`\n```bash\n# Get current playback position\necho '{\"command\":[\"get_property\",\"time-pos\"],\"request_id\":1}' | nc -q0 127.0.0.1 32321\n\n# Toggle pause\n\n\n```"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 2333
+  },
+  "claude": null
+}

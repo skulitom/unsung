@@ -1,0 +1,602 @@
+[
+  {
+    "id": 43308631212,
+    "ref": "refs/heads/automated/data-1789131857",
+    "timestamp": "2026-09-11T13:05:43Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43308630329,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T13:05:42Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43308500946,
+    "ref": "refs/heads/automated/data-1789131857",
+    "timestamp": "2026-09-11T13:04:18Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43250240643,
+    "ref": "refs/heads/automated/data-1789081773",
+    "timestamp": "2026-09-10T23:10:16Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43250240105,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T23:10:14Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43250199392,
+    "ref": "refs/heads/automated/data-1789081773",
+    "timestamp": "2026-09-10T23:09:35Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43233259096,
+    "ref": "refs/heads/automated/data-1789067181",
+    "timestamp": "2026-09-10T19:07:28Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43233258325,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T19:07:26Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43233167383,
+    "ref": "refs/heads/automated/data-1789067181",
+    "timestamp": "2026-09-10T19:06:22Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43145872236,
+    "ref": "refs/heads/automated/data-1788995242",
+    "timestamp": "2026-09-09T23:08:07Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43145872159,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T23:08:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43145871812,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T23:08:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43145828971,
+    "ref": "refs/heads/automated/data-1788995242",
+    "timestamp": "2026-09-09T23:07:24Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43142052004,
+    "ref": "refs/heads/automated/data-1788991626",
+    "timestamp": "2026-09-09T22:08:13Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43142051595,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T22:08:12Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43141972730,
+    "ref": "refs/heads/automated/data-1788991626",
+    "timestamp": "2026-09-09T22:07:07Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43073171904,
+    "ref": "refs/heads/automated/data-1788955382",
+    "timestamp": "2026-09-09T12:03:49Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43073170693,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T12:03:48Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43073074708,
+    "ref": "refs/heads/automated/data-1788955382",
+    "timestamp": "2026-09-09T12:03:03Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43000053968,
+    "ref": "refs/heads/automated/data-1788909641",
+    "timestamp": "2026-09-08T23:21:21Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43000053160,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-08T23:21:20Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43000004457,
+    "ref": "refs/heads/automated/data-1788909641",
+    "timestamp": "2026-09-08T23:20:42Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42994161955,
+    "ref": "refs/heads/automated/data-1788905189",
+    "timestamp": "2026-09-08T22:07:51Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42994161030,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-08T22:07:50Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42994042564,
+    "ref": "refs/heads/automated/data-1788905189",
+    "timestamp": "2026-09-08T22:06:30Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42955284895,
+    "ref": "refs/heads/automated/data-1788883530",
+    "timestamp": "2026-09-08T16:06:40Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42955284199,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-08T16:06:38Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42955151972,
+    "ref": "refs/heads/automated/data-1788883530",
+    "timestamp": "2026-09-08T16:05:32Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42933934677,
+    "ref": "refs/heads/automated/data-1788872664",
+    "timestamp": "2026-09-08T13:05:25Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42933933138,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-08T13:05:24Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42933818618,
+    "ref": "refs/heads/automated/data-1788872664",
+    "timestamp": "2026-09-08T13:04:26Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42926789392,
+    "ref": "refs/heads/automated/data-1788868807",
+    "timestamp": "2026-09-08T12:01:12Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42926788095,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-08T12:01:10Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42926670854,
+    "ref": "refs/heads/automated/data-1788868807",
+    "timestamp": "2026-09-08T12:00:11Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42861089591,
+    "ref": "refs/heads/automated/data-1788818685",
+    "timestamp": "2026-09-07T22:06:07Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42861088953,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-07T22:06:06Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42860992735,
+    "ref": "refs/heads/automated/data-1788818685",
+    "timestamp": "2026-09-07T22:04:47Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42773409249,
+    "ref": "refs/heads/automated/data-1788739567",
+    "timestamp": "2026-09-07T00:07:22Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42773408855,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-07T00:07:21Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42773357570,
+    "ref": "refs/heads/automated/data-1788739567",
+    "timestamp": "2026-09-07T00:06:08Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42470704196,
+    "ref": "refs/heads/automated/data-1788455672",
+    "timestamp": "2026-09-03T17:15:29Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42470703030,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-03T17:15:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42470575809,
+    "ref": "refs/heads/automated/data-1788455672",
+    "timestamp": "2026-09-03T17:14:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42377105762,
+    "ref": "refs/heads/automated/data-1788411479",
+    "timestamp": "2026-09-03T04:59:14Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42377104970,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-03T04:59:13Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42376988328,
+    "ref": "refs/heads/automated/data-1788411479",
+    "timestamp": "2026-09-03T04:58:00Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42362281613,
+    "ref": "refs/heads/automated/data-1788401015",
+    "timestamp": "2026-09-03T02:05:46Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42362281035,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-03T02:05:45Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42362118865,
+    "ref": "refs/heads/automated/data-1788401015",
+    "timestamp": "2026-09-03T02:03:36Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42325102489,
+    "ref": "refs/heads/automated/data-1788376132",
+    "timestamp": "2026-09-02T19:10:09Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42325100831,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T19:10:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42324951252,
+    "ref": "refs/heads/automated/data-1788376132",
+    "timestamp": "2026-09-02T19:08:53Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42311384627,
+    "ref": "refs/heads/automated/data-1788369211",
+    "timestamp": "2026-09-02T17:15:23Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42311383002,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T17:15:21Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42311152565,
+    "ref": "refs/heads/automated/data-1788369211",
+    "timestamp": "2026-09-02T17:13:33Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42203579789,
+    "ref": "refs/heads/automated/data-1788318504",
+    "timestamp": "2026-09-02T03:09:23Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42203579138,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T03:09:22Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42203476714,
+    "ref": "refs/heads/automated/data-1788318504",
+    "timestamp": "2026-09-02T03:08:26Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42183355260,
+    "ref": "refs/heads/automated/data-1788304656",
+    "timestamp": "2026-09-01T23:20:06Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 42183354641,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-01T23:20:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42183119040,
+    "ref": "refs/heads/automated/data-1788304656",
+    "timestamp": "2026-09-01T23:17:37Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41865927812,
+    "ref": "refs/heads/automated/data-1788124076",
+    "timestamp": "2026-08-30T21:08:39Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41865927348,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-30T21:08:38Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41865876767,
+    "ref": "refs/heads/automated/data-1788124076",
+    "timestamp": "2026-08-30T21:07:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41857265013,
+    "ref": "refs/heads/automated/data-1788117251",
+    "timestamp": "2026-08-30T19:14:57Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41857264233,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-30T19:14:56Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41857206402,
+    "ref": "refs/heads/automated/data-1788117251",
+    "timestamp": "2026-08-30T19:14:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41684439155,
+    "ref": "refs/heads/automated/data-1787986770",
+    "timestamp": "2026-08-29T07:00:09Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41684438328,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-29T07:00:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41684389310,
+    "ref": "refs/heads/automated/data-1787986770",
+    "timestamp": "2026-08-29T06:59:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41629016729,
+    "ref": "refs/heads/automated/data-1787944122",
+    "timestamp": "2026-08-28T19:10:51Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41629015625,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-28T19:10:49Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41628796610,
+    "ref": "refs/heads/automated/data-1787944122",
+    "timestamp": "2026-08-28T19:08:43Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41522885366,
+    "ref": "refs/heads/automated/data-1787882737",
+    "timestamp": "2026-08-28T02:06:34Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41522884626,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-28T02:06:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41522826688,
+    "ref": "refs/heads/automated/data-1787882737",
+    "timestamp": "2026-08-28T02:05:39Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41495511377,
+    "ref": "refs/heads/automated/data-1787860965",
+    "timestamp": "2026-08-27T20:03:30Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41495510500,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-27T20:03:29Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41495445504,
+    "ref": "refs/heads/automated/data-1787860965",
+    "timestamp": "2026-08-27T20:02:47Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41271655199,
+    "ref": "refs/heads/automated/data-1787724519",
+    "timestamp": "2026-08-26T06:09:18Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41271654250,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-26T06:09:17Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41271590718,
+    "ref": "refs/heads/automated/data-1787724519",
+    "timestamp": "2026-08-26T06:08:40Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41065962065,
+    "ref": "refs/heads/automated/data-1787587316",
+    "timestamp": "2026-08-24T16:03:02Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41065961058,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T16:03:00Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41065848115,
+    "ref": "refs/heads/automated/data-1787587316",
+    "timestamp": "2026-08-24T16:01:58Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40992028808,
+    "ref": "refs/heads/automated/data-1787540390",
+    "timestamp": "2026-08-24T03:00:43Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40992028081,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T03:00:42Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40991957575,
+    "ref": "refs/heads/automated/data-1787540390",
+    "timestamp": "2026-08-24T02:59:51Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40906831700,
+    "ref": "refs/heads/automated/data-1787464661",
+    "timestamp": "2026-08-23T05:58:24Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40906831029,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T05:58:23Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40906774536,
+    "ref": "refs/heads/automated/data-1787464661",
+    "timestamp": "2026-08-23T05:57:42Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40864594521,
+    "ref": "refs/heads/automated/data-1787425747",
+    "timestamp": "2026-08-22T19:09:52Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40864594024,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T19:09:51Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40864545320,
+    "ref": "refs/heads/automated/data-1787425747",
+    "timestamp": "2026-08-22T19:09:08Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40792437167,
+    "ref": "refs/heads/automated/data-1787367923",
+    "timestamp": "2026-08-22T03:06:17Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40792436595,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T03:06:16Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40792386604,
+    "ref": "refs/heads/automated/data-1787367923",
+    "timestamp": "2026-08-22T03:05:24Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40782869248,
+    "ref": "refs/heads/automated/data-1787357069",
+    "timestamp": "2026-08-22T00:05:05Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40782868699,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T00:05:04Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40782837909,
+    "ref": "refs/heads/automated/data-1787357069",
+    "timestamp": "2026-08-22T00:04:30Z",
+    "activity_type": "branch_creation"
+  }
+]

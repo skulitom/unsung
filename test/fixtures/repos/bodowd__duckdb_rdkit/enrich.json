@@ -1,0 +1,421 @@
+{
+  "id": "R_kgDOLHal-g",
+  "nameWithOwner": "bodowd/duckdb_rdkit",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-01-20T17:52:26Z",
+  "pushedAt": "2026-08-22T17:45:05Z",
+  "diskUsage": 535,
+  "stargazerCount": 15,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 84510,
+    "edges": [
+      {
+        "size": 65476,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 7196,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 3940,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 3748,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 2539,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 1237,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 374,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 4,
+    "nodes": [
+      {
+        "tagName": "v.0.4.0",
+        "publishedAt": "2026-08-22T17:45:05Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "0.3.0",
+        "publishedAt": "2025-01-24T07:09:14Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.2.0",
+        "publishedAt": "2024-10-14T13:49:08Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.0",
+        "publishedAt": "2024-08-29T20:14:19Z",
+        "isPrerelease": true
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 4
+  },
+  "watchers": {
+    "totalCount": 3
+  },
+  "owner": {
+    "login": "bodowd",
+    "__typename": "User",
+    "createdAt": "2014-09-24T00:00:26Z",
+    "repositories": {
+      "totalCount": 61
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "a3f6bf9d73aa0a47e4eec0d2d40d45a59947b45a",
+      "history": {
+        "totalCount": 587,
+        "nodes": [
+          {
+            "committedDate": "2026-08-22T17:44:52Z",
+            "messageHeadline": "prepare release v0.4.0",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T19:31:03Z",
+            "messageHeadline": "Merge pull request #34 from bodowd/update-readme-community-extension",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T19:28:45Z",
+            "messageHeadline": "Rearrange README to highlight searches first",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T19:28:45Z",
+            "messageHeadline": "Update readme now that duckdb_rdkit is available as community extension",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T20:35:30Z",
+            "messageHeadline": "prepare release v0.4.0",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T20:25:18Z",
+            "messageHeadline": "Merge pull request #33 from bodowd/improve-static-build-cmake",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T17:46:39Z",
+            "messageHeadline": "Always build static rdkit and link to it",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T16:13:18Z",
+            "messageHeadline": "Merge pull request #32 from bodowd/static-build-rdkit",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-11T14:14:48Z",
+            "messageHeadline": "Build RDKit statically via CMakeLists",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T09:37:06Z",
+            "messageHeadline": "Merge pull request #30 from bodowd/fix-gha",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T08:53:51Z",
+            "messageHeadline": "Update README on how to use the extension",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T08:53:51Z",
+            "messageHeadline": "Remove build pipeline workflows from extension template",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T08:53:51Z",
+            "messageHeadline": "Add extern C to fix the MacOS build",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T08:53:51Z",
+            "messageHeadline": "Add separate macos build github actions workflow",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T20:10:55Z",
+            "messageHeadline": "Add linux_build github actions workflow",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-26T23:02:08Z",
+            "messageHeadline": "Merge pull request #29 from bodowd/upgrade-to-duckdb-1.4.4",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-26T22:33:28Z",
+            "messageHeadline": "Adapt sdf scanner to use OpenFileInfo",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-25T10:31:35Z",
+            "messageHeadline": "Switch to ExtensionLoader to load extensions and switch to duckdb",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-21T19:56:01Z",
+            "messageHeadline": "Upgrade extension-ci-tools to v1.4.4",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-21T19:34:03Z",
+            "messageHeadline": "Upgrade duckdb submodule to duckdb v1.4.4",
+            "author": {
+              "user": {
+                "login": "bodowd"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "duckdb",
+        "type": "commit"
+      },
+      {
+        "name": "experiments",
+        "type": "tree"
+      },
+      {
+        "name": "extension-ci-tools",
+        "type": "commit"
+      },
+      {
+        "name": "extension_config.cmake",
+        "type": "blob"
+      },
+      {
+        "name": "linux_conda_env.yml",
+        "type": "blob"
+      },
+      {
+        "name": "osx_conda_env.yml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "test.sdf",
+        "type": "blob"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "todos.json",
+        "type": "blob"
+      },
+      {
+        "name": "vcpkg.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "linux_build.yml"
+      },
+      {
+        "name": "macos_build.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6309,
+    "isTruncated": false,
+    "text": "# An RDKit extension for DuckDB\n\n[![Powered by RDKit](https://img.shields.io/badge/Powered%20by-RDKit-3838ff.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXc3NwUFP8UPP9kZP+MjP+0tP////9ZXZotAAAAAXRSTlMAQObYZgAAAAFiS0dEBmFmuH0AAAAHdElNRQfmAwsPGi+MyC9RAAAAQElEQVQI12NgQABGQUEBMENISUkRLKBsbGwEEhIyBgJFsICLC0iIUdnExcUZwnANQWfApKCK4doRBsKtQFgKAQC5Ww1JEHSEkAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xMVQxNToyNjo0NyswMDowMDzr2J4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMTFUMTU6MjY6NDcrMDA6MDBNtmAiAAAAAElFTkSuQmCC)](https://www.rdkit.org/)\n\n## Getting started\n\n- Download [duckdb](https://duckdb.org/install/?platform=linux&environment=cli)\n- Start the duckdb CLI in your terminal and run: \n```shell\n> install duckdb_rdkit from community;\n> load duckdb_rdkit;\n> select is_substruct('CC', 'C');\n┌─────────────────────────┐\n│ is_substruct('CC', 'C') │\n│         boolean         │\n├─────────────────────────┤\n│ true                    │\n└─────────────────────────┘\n```\n\n> [!NOTE]\n> Currently supported platforms are osx_arm64, linux_arm64, and linux_amd64\n\n---\n\nThis extension integrates RDKit into DuckDB to enable you to do\ncheminformatics work with DuckDB.\n\n## Currently supported functionality:\n\n### Searches\n\n- `is_exact_match(mol1, mol2)`: exact structure search. Returns true if the two molecules are the same. (Chirality sensitive search is not on)\n  - Note: if you are looking for very specific capabilities with exact match with regards\n    to stereochemistry or tautomers, the `RegistrationHash` (https://rdkit.org/docs/source/rdkit.Chem.RegistrationHash.html)\n    might be an option to consider. You would need to write this to your DB and\n    then you can do a simple VARCHAR based search on those columns.\n- `is_substruct(mol1, mol2)`: returns true if mol2 is a substructure of mol1.\n\n### File formats\n\n#### SDF\n\n- There are two ways to query `.sdf` files with SQL.\n  These can be used to extract, transform, and load data\n  into a duckdb file for faster subsequent queries, or to directly query the\n  sdf to explore the data.\n  - `read_sdf(path/to/sdf/file, COLUMNS={column_name: LogicalType});`\n    Using the `read_sdf` function, the properties of interest in the sdf file\n    can be explicitly defined. If a record does not have the specified property,\n    a null value will be returned. The `'Mol'` type will indicate to the\n    extension that the molecules in the records should be extracted and returned.\n    - Example: `SELECT * FROM read_sdf(path/to/file, COLUMNS={desired_col: 'VARCHAR', mol: 'Mol'});`\n\n  - Automatic detection of `sdf` files. This will execute the query against\n    the sdf file when the extension `.sdf` is detected.\n\n    In this case, the extension\n    will guess what the schema is. If the schema is not homogeneous, it is possible\n    that the automatic detection will miss certain properties in the SDF.\n\n    In this case, it is better to use the `read_sdf` function in order to make\n    sure the property of interest is extracted. This is not a problem if the\n    schema is uniform throughout the sdf file.\n\n    The molecule column is named `mol`.\n\n  - Example: `SELECT mol, id FROM 'test.sdf';`\n\n\n### Types\n\n- `Mol`: the internal duckdb_rdkit representation of a RDKit molecule.\n  - Currently only SMILES can be converted to `Mol`. This can be done with\n    `mol_from_smiles`, or by casts (i.e. inserting a SMILES string into a\n    column that expects `Mol` or `'CC::mol'`).\n\n> [!IMPORTANT]  \n> The duckdb_rdkit molecule representation has additional metadata and cannot\n> be read directly by RDKit. You will get an error. You can use `mol_to_rdkit_mol`\n> to convert the duckdb_rdkit molecule representation into one that is RDKit compatible.\n\n### Molecule conversion functions\n\n- `mol_from_smiles(SMILES)`: returns a molecule for a SMILES string. Returns NULL if mol cannot be made from SMILES\n- `mol_to_smiles(mol)`: returns the SMILES string for a RDKit molecule\n- `mol_to_rdkit_mol(mol)`: returns the binary RDKit molecule in hexadecimal representation\n  - duckdb_rdkit has its own binary representation of molecules, which differs from RDKit’s format.\n    Use this function to extract a molecule from duckdb_rdkit and convert it\n    into a format compatible with RDKit. The returned value can be passed\n    to RDKit's `Chem.Mol` function for further processing in Python.\n\n### Molecule descriptors\n\n- `mol_logp(mol)`: returns the Wildman-Crippen LogP estimate for a molecule\n- `mol_exactmw(mol)`: returns the exact molecular weight\n- `mol_amw(mol)`: returns the approximate molecular weight\n- `mol_tpsa(mol)`: returns the topological polar surface area\n- `mol_hba(mol)`: returns the number of H-bonds acceptors\n- `mol_hbd(mol)`: returns the number of H-bonds donors\n- `mol_num_rotatable_bonds(mol)`: returns the number of rotatable bonds\n- `mol_qed(mol)`: returns the quantitative estimate of drug-likeness (QED) of the molecule\n  - currently only implements the \"mean weight\" of the ADS parameters from the paper Quantifying the chemical beauty of drugs by Bickerton, et al.\n\n\n### Building duckdb_rdkit\n\nFirst, clone this repository with recurse submodules to pull duckdb and the\nextension-ci-tools repositories\n\n```shell\n> git clone --recurse-submodules https://github.com/bodowd/duckdb_rdkit.git\n```\n\nThen run:\n\n```shell\n> GEN=ninja make release\n```\nThis will build RDKit and statically link it to duckdb.\n\nFor further information on building duckdb from source,\nyou can visit https://duckdb.org/docs/dev/building/overview.html\n\n### In the python client\n\nThen test it out:\n\n```python\nimport duckdb\n\ncon = duckdb.connect()\ncon.execute(\"INSTALL duckdb_rdkit FROM community;\")\ncon.execute(\"LOAD duckdb_rdkit;\")\n# should return true\nprint(con.sql(\"SELECT is_exact_match('C', 'C');\"))\n# should return false\nprint(con.sql(\"SELECT is_exact_match('C', 'CO');\"))\n\n```\n\n## Running the tests\n\nDifferent tests can be created for DuckDB extensions. The primary way of testing DuckDB extensions should be the SQL tests in `./test/sql`. These SQL tests can be run using:\n\n```sh\nmake test\n```\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

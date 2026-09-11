@@ -1,0 +1,327 @@
+{
+  "id": "R_kgDOLB5-JA",
+  "nameWithOwner": "gene-git/wg-client",
+  "description": "Wireguard linux client (command line and gui)",
+  "homepageUrl": "",
+  "createdAt": "2024-01-07T19:50:25Z",
+  "pushedAt": "2026-09-10T09:44:45Z",
+  "diskUsage": 4955,
+  "stargazerCount": 15,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 150131,
+    "edges": [
+      {
+        "size": 68365,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 67553,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 7879,
+        "node": {
+          "name": "Meson"
+        }
+      },
+      {
+        "size": 5927,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 407,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 48
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "gene-git",
+    "__typename": "User",
+    "createdAt": "2016-03-20T12:13:18Z",
+    "repositories": {
+      "totalCount": 23
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "oid": "09568a055e991bed25e49f7a53ab7b080d211c22",
+      "history": {
+        "totalCount": 97,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T09:44:42Z",
+            "messageHeadline": "**8.0.4**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T12:15:05Z",
+            "messageHeadline": "add .gitattributes to mark docs as docs so github treats as docs not …",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T09:47:46Z",
+            "messageHeadline": "**8.0.3**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:20:38Z",
+            "messageHeadline": "**8.02**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:08:54Z",
+            "messageHeadline": "meson tweak",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:07:08Z",
+            "messageHeadline": "remove unused from meson.build",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:06:24Z",
+            "messageHeadline": "add meson.options",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:03:17Z",
+            "messageHeadline": "    **8.0.0**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-10T16:41:32Z",
+            "messageHeadline": "update Docs/Changelog",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-10T16:40:01Z",
+            "messageHeadline": "Correct license in pyproject.toml",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-07T01:24:19Z",
+            "messageHeadline": "update Docs/Changelog",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-07T01:23:49Z",
+            "messageHeadline": "**Version 7.2.0**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-06T20:28:09Z",
+            "messageHeadline": "update Docs/Changelog",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-06T18:24:00Z",
+            "messageHeadline": "update Docs/Changelog",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-06T18:23:36Z",
+            "messageHeadline": "Add c-code back into repo (oops)",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-06T18:19:17Z",
+            "messageHeadline": "update Docs/Changelog",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-06T18:13:50Z",
+            "messageHeadline": "**7.0.0**",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-03-20T20:38:03Z",
+            "messageHeadline": "update Changelog and Docs/wg-client.pdf",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-03-20T20:31:20Z",
+            "messageHeadline": "GUI Quit button - make saure stop resolv monitor before stopping wire…",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-03-17T17:39:13Z",
+            "messageHeadline": "update Changelog and Docs/wg-client.pdf",
+            "author": {
+              "user": {
+                "login": "gene-git"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Changes-recent.rst",
+        "type": "blob"
+      },
+      {
+        "name": "README.rst",
+        "type": "blob"
+      },
+      {
+        "name": "conf.d",
+        "type": "tree"
+      },
+      {
+        "name": "desktop",
+        "type": "tree"
+      },
+      {
+        "name": "meson.build",
+        "type": "blob"
+      },
+      {
+        "name": "meson.options",
+        "type": "blob"
+      },
+      {
+        "name": "packaging",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.rst",
+    "byteSize": 8888,
+    "isTruncated": false,
+    "text": ".. SPDX-License-Identifier: GPL-2.0-or-later\n\n=========\nwg-client \n=========\n\n**Migration required from pre 8.x versions**\n\nHere's what is needed:\n\n* Create /etc/wg-client/wireguard-resolv.conf\n  This should be the DNS settings to be used while wireguard is running.\n  Standard resolv.conf format (nameserver x.x.x.x)\n\n* confirm that /etc/wg-client/config exists and sets thw wireguard i\n  interface. For example::\n\n    iface = wg0\n\n* edit the wireguard client config and update the PostUp and PostDn.\n  For example::\n\n    [Interface]\n    PrivateKey = ...\n    Address = ...\n    Postup = /etc/wg-client/post-up.sh\n    PostDown = /etc/wg-client/post-down.sh\n\nThats should be all that's required.\n\n* There is a new *resolv-manager* \n\nOverview\n========\n\nwg-client makes it simple for any user to start and stop a wireguard client on Linux.\nThe command line program, *wg-client*, provides all the functionality.\nA GUI tool makes it super convenient. The GUI tool runs the command line client\nand thus offeres exactly the same functionality in a user friendly application.\n\nA companion package, `wg-tool`_ is for adminstering the server side of things.\n\nwg-client also has an option to invoke ssh to create a remote listening port \nconnected back to local (client end) ssh daemon.\n\nThis can be useful to facilitate remote ssh back to client computer \nif it's needed.  For example; it can be used to provide access to a git repo\non the client, or for remote backups of laptop, or even for admin to login to client\nshould the need arise.\n\nAll git tags are signed with arch@sapience.com key which is available via WKD\nor download from https://www.sapience.com/tech. Add the key to your package builder gpg keyring.\nThe key is included in the Arch package and the source= line with *?signed* at the end can be used\nto verify the git tag.  You can also manually verify the signature\n\nWhy I made wg-client\n====================\n\nAfter building `wg-tool`_ which simplified administraion of wireguard servers, I needed\na simple way for non-tech (unprivileged) users to connect their laptops to the server. \n\nThus wg-client was born.  The gui client makes it really simple for non-tech users, \nthough I find it pretty convenient as well. \n\n.. _`wg-tool`: https://github.com/gene-git/wg_tool\n\nKey features\n============\n\n* Graphical app makes it simple for any user to get VPN running.\n* Standalone tool makes it easy to test and also keeps sudo outside of gui to minimize any \n  security implications. The gui relies completely on the command line tool to do the real work.\n* resolv-manager is written on C. It uses capabilities and is designed to be run\n  by non-root users. When run as root, it drops privileges to (user, group) =  (*nobody*, *nobody*)..\n  Code has been checked and is clean using:\n  - clang-tidy\n  - valgrind\n  - compiler based sanitizers\n\n* python code is checked with mypy\n\n===============\nGetting Started\n===============\n\nDNS Notes\n=========\n\nWhen using a any VPN client, it is standard practive to make sure that all \nDNS traffic is routed through the tunnel in order to trusted DNS servers.\nWhile this is not a hard requirement, and may not always be applicable with split \nrouting, it is always desirable from the security standpoint.\n\nThere is a little gotcha to be aware of.\nThe system may, at times, modify */etc/resolv.conf* removing the safety of the \nVPN provided DNS servers by replacing this file. \n\nConsequently it is important to be aware if this occurrs. \nThe way it is handled is by saving this just updated file and restore the \none that should be used with wireguard. The one that just got saved is the \nthe right one to use when the VPN is turned off and by saving a copy\nof it, it can be restored to /etc/resolv.conf when wireguard shuts down.\n\nWhat causes this to happen?\nIt can happen for different reasons. For example if WiFi network changes, or after a \nsleep resume cycle or when a dhcp lease is renewed. \n\nWhile wireguard itself uses UDP and is largely indifferent to such network, \nit is important to keep DNS properly managed.\n\nTaking care of all of this is eact\n\nTo ensure that DNS resolver files are all managed correctly requires\na copy of the standard resolv.conf file saved to */etc/resolv.conf.saved*\nand the wireguard version to */etc/resolv.conf.wg*.  \n\nWith those in place *resolv-manager* will keep track of any changes.\nIt will saev any new standard */etc/rsolv.conf* and put back the appropriate\none for wireguard.\n\nAfter creating /etc/wg-client/wireguard-resolv.conf which has the nameservers\nusing the DNS servers provided by the wireguard server end, then\nset wireguard's configuration file (*/etc/wireguard/wgc.conf* for example) \nto use PostUp and PosDown.  Check that the wg-client config file,\n/etc/wg-client/config, sets the wireguard interface. For example with a line::\n\n    iface = wg0\n\n.. code-block:: text\n\n    [Interface]\n    PrivateKey = ...\n    Address    = ...\n    Postup     = /etc/wg-client/post-up.sh\n    PostDown   = /etc/wg-client/post-down.sh\n    ...\n\nThere helper scripts *post-up.sh* and *post-down.sh* are part of wg-client.\nwg-client handles everything else including running resolv-manager to monitor\n/etc/resolv.conf while thw vpn is active to ensure the resolv.conf file\nremains correct.\n\nMore information about resolv-manager can be found in the man page::\n\n    man wg-client-resolv-manageer\n\nwg-client application\n=====================\n\nUsage\n-----\n\nwg-client is a command line program and can be run in any terminal.\nIt has two primary options, one to start wireguard and one to stop it.\n\n.. code-block:: bash\n\n   wg-client --wg-up\n   wg-client --dg-dn\n\nIt also has a config file (/etc/wg-client/config) where the wireguard interface\nis specified and ssh information if that is being used.\n\nTo get a list of all options use *-h*. \n\nThe command line options for *wg-client* are described in the manual section :ref:`options-sect`.\nThe configuration file contents in section :ref:`config-sect`.\n\n\nwg-client-gui application\n=========================\n\nGUI Usage\n---------\n\nThe gui app can be run using the wg-client.desktop file and can be added\nto launchers in the usual way. For example in gnome simply search applications for wg-cliient\nand right click to pin the launcher. The gui is built on PyQt6 which in relies on Qt6.\n\nThe gui has buttons to start and stop wireguard and a button to run ssh to set up the listener \non the host configured in the config file.\n\nThe gui should be left running while the vpn is in use. Pressing quit in the gui will shutdown wireguard\nand shutdown the ssh listener as well.\n\n\nSudoers\n=======\n  \nTo start and stop wireguard wg-client uses *wg-quick* (in wireguard-tools).\nDoing so requires root privieles and so any user approved to run wireguard must \nbe granted permission.  Any non-root user will need a NOPASSWD sudoers entry. \n\nYou can keep all local sudoers in a single file or in separate files.\nIf in single file, make this one come after any group wheel ones.\nThis is to ensure this one is chosen becuase sudo uses the last\nmatching entry.\n\nSimply add this sample line adjusting WGUSERS to list whatever user(s) are \npermitted to run wireguard. If more than one use comma separated list as shown below.\n\n.. code-block:: bash\n\n    User_Alias WGUSERS = alice, bob, sally\n    WGUSERS   ALL = (root) NOPASSWD: /usr/bin/wg-quick\n    WGUSERS   ALL = (root) NOPASSWD: /usr/lib/wg-client/wg-fix-dns\n   \nIf using separete files, then care is need to ensure this entry comes after any\nwheel group entries. Where WGUSERS is 1 or more usernames or a group such as\n*%wgusers*.\n\nThen, \n\n.. code-block:: bash\n\n    visudu /etc/sudoers.d/100-wireguard\n    \nEdit *WGUSERS* as above.\n\nvisudo enforces the correct permissions which should be '0440'. If permissions\nare too loose, sudo will ignore the file.\n\nWhy the prefix number?  Because sudo uses the **last** matching entry and\nwe need to be sure the NOPASSWD wg-quick entry comes after any group wheel lines.\n\nFor example if there are 2 files in */etc/sudoers.d* - say wg-quick and wheel,\nwhere the wheel entry requires a password for members of group wheel.\n\nexample it would be:\n\n.. code-block:: bash\n\n   /etc/sudoers.d/010-wheel\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

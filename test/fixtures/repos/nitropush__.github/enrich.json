@@ -1,0 +1,86 @@
+{
+  "nameWithOwner": "nitropush/.github",
+  "description": "NitroPush public organization profile, brand assets, documentation, and SDK links.",
+  "homepageUrl": "https://nitropush.org",
+  "createdAt": "2026-09-10T08:29:58Z",
+  "pushedAt": "2026-09-10T08:30:03Z",
+  "diskUsage": 1460,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "nitropush",
+    "__typename": "Organization",
+    "createdAt": "2026-05-12T21:58:01Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T08:29:57Z",
+            "messageHeadline": "feat: launch NitroPush public organization profile",
+            "author": {
+              "user": {
+                "login": "AshwithJoylan"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "profile",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1007,
+    "text": "# NitroPush organization profile\n\nPublic branding and links for [github.com/nitropush](https://github.com/nitropush).\n\nGitHub renders [`profile/README.md`](profile/README.md) on the organization's Overview page. Assets live in `profile/assets/`; links use absolute public URLs so they work from both the organization page and this repository.\n\n## Editing\n\n1. Change the profile copy or assets in a pull request.\n2. Keep NativeScript marked **alpha** until its support status changes.\n3. Check the linked website, documentation routes, and public repositories.\n4. Verify every image has descriptive alternative text and works on light and dark GitHub themes.\n5. Merge to `main` to update the public profile.\n\nOnly public profile assets belong here. Do not add credentials, private service details, deployment files, or generated app builds. No organization-wide community defaults or automation are configured by this repository.\n\nSee [DESIGN.md](DESIGN.md) for branding sources and the hero artwork prompt.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,46 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "gbazad93/AirFlow-ML-Data-Integration",
+  "set": "hardNegatives",
+  "label": "C",
+  "stratum": "search",
+  "sample": "S2_py_old",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 11024,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": null,
+    "notLane": [
+      "proven"
+    ],
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "setRule": "the median S of the hard negatives is below the median S of the seed gems"
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 11024,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      "requirements.txt"
+    ],
+    "treeEntries": 49,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": true
+  }
+}

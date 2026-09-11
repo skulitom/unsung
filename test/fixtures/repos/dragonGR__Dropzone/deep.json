@@ -1,0 +1,41 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016,
+        2015,
+        2014
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-06T13:14:47Z",
+        "author": {
+          "login": "albanobattistella",
+          "createdAt": "2017-12-24T12:40:47Z"
+        }
+      }
+    ]
+  }
+}

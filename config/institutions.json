@@ -1,0 +1,16 @@
+{
+  "version": "i1",
+  "allow": [
+    "nasa", "nasa-impact", "nasa-jpl", "nasa-gibs", "nasa-pds", "nasa-develop", "nasaworldwind",
+    "ibm", "nvidia", "nvidia-tao", "nvidia-omniverse", "nvidia-ai-iot", "elastic",
+    "alphagov", "govuk-one-login", "cabinetoffice", "ministryofjustice", "hmrc", "dwp", "ukhomeoffice",
+    "18f", "cfpb", "gsa", "usgs", "cisagov", "department-of-veterans-affairs",
+    "google", "googleapis", "googlecloudplatform", "google-research", "google-deepmind",
+    "microsoft", "azure", "azure-samples", "aws", "awslabs", "aws-samples", "amzn",
+    "facebook", "facebookresearch", "meta-llama", "apple", "mozilla", "apache",
+    "kubernetes", "kubernetes-sigs", "openshift", "redhat-developer", "cloudfoundry", "cncf", "linuxfoundation",
+    "lsst", "cern", "openai", "anthropics", "intel", "amd", "oracle", "salesforce", "sap", "adobe", "cisco",
+    "netflix", "uber", "shopify", "stripe", "cloudflare", "hashicorp", "grafana", "github", "vercel"
+  ],
+  "deny": []
+}

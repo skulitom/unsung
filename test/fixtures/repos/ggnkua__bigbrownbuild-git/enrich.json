@@ -1,0 +1,332 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyMDM0MTY4NTU=",
+  "nameWithOwner": "ggnkua/bigbrownbuild-git",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2019-08-20T16:48:18Z",
+  "pushedAt": "2026-09-08T08:53:11Z",
+  "diskUsage": 1384,
+  "stargazerCount": 15,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Shell"
+  },
+  "languages": {
+    "totalSize": 249826,
+    "edges": [
+      {
+        "size": 113659,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 55329,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 51261,
+        "node": {
+          "name": "Assembly"
+        }
+      },
+      {
+        "size": 16278,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 8808,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 3970,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 521,
+        "node": {
+          "name": "Fortran"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 4
+  },
+  "owner": {
+    "login": "ggnkua",
+    "__typename": "User",
+    "createdAt": "2013-07-30T13:42:51Z",
+    "repositories": {
+      "totalCount": 11
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 200,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T08:52:56Z",
+            "messageHeadline": "Canadian build bodges",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:44:52Z",
+            "messageHeadline": "Verified to build under Linux",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T14:52:13Z",
+            "messageHeadline": "Adding support for gcc 16.2.0 and some light cleanups. Nothing tested…",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-16T15:57:12Z",
+            "messageHeadline": "Added unique compiler identifier define",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-16T10:41:18Z",
+            "messageHeadline": "Changing the builtin define to __atari_os__, again for #6",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-11T06:58:07Z",
+            "messageHeadline": "Added/updated build scripts for gemlib and fdlibm",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-11T06:22:03Z",
+            "messageHeadline": "Fixed canadian build for 16.1.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-10T14:47:05Z",
+            "messageHeadline": "Reverting to default behaviour",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-10T12:26:31Z",
+            "messageHeadline": "Fixed a few bugs for 15.2.0, updated barebones examples, trying -fno-…",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-10T08:46:24Z",
+            "messageHeadline": "Added support for gcc 16.1.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-01T16:29:35Z",
+            "messageHeadline": "Adding some built in defines for the preprocessor, hopefully satisfyi…",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-18T12:46:06Z",
+            "messageHeadline": "mingw/cygwin fixes, updated barebones examples",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-18T07:39:10Z",
+            "messageHeadline": "Adding support for 15.2.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-04-26T10:33:32Z",
+            "messageHeadline": "Added support for gcc 15.1.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-08-25T18:03:07Z",
+            "messageHeadline": "Fixes to canadian build",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2024-08-25T09:05:39Z",
+            "messageHeadline": "Added support for gcc 14.2.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-11T09:40:07Z",
+            "messageHeadline": "Fixed Canadian build, updated examples",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-09T17:04:39Z",
+            "messageHeadline": "Added support for gcc 14.1.0",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2023-10-14T06:14:45Z",
+            "messageHeadline": "Small typo (fixes #5)",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          },
+          {
+            "committedDate": "2023-09-10T08:47:19Z",
+            "messageHeadline": "Enabled some previously disabled code for Canadian builds",
+            "author": {
+              "user": {
+                "login": "ggnkua"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "barebones-interop",
+        "type": "tree"
+      },
+      {
+        "name": "barebones",
+        "type": "tree"
+      },
+      {
+        "name": "bigbrownbuild.sh",
+        "type": "blob"
+      },
+      {
+        "name": "bigbrownfdlibm.sh",
+        "type": "blob"
+      },
+      {
+        "name": "bigbrowngemlib.sh",
+        "type": "blob"
+      },
+      {
+        "name": "bigbrownlibcmini.sh",
+        "type": "blob"
+      },
+      {
+        "name": "brownart.png",
+        "type": "blob"
+      },
+      {
+        "name": "readme.md",
+        "type": "blob"
+      },
+      {
+        "name": "test-browntran",
+        "type": "tree"
+      },
+      {
+        "name": "ub.png",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "readme.md",
+    "byteSize": 6319,
+    "text": "# bigbrownbuild.sh\r\n\r\n## What is this\r\n\r\nA collection of brown scripts that build brown compilers and libaries for the Atari ST series of computers.\r\n\r\n## Notable features\r\n\r\n* link-time whole-program optimisation (inter-module calls & inlining)\r\n\r\n* improved optimiser\r\n\r\n* C++14, C++17 support\r\n\r\n* named section support via C and asm\r\n\r\n* proper C++ initialise/finalise sequence\r\n\r\n* GST extended symbols\r\n\r\n* can preview code generation in Godbolt/68k (try it live at http://brownbot.mooo.com)\r\n\r\n* path open for future gcc releases\r\n\r\n# Requirements\r\n\r\nThe script will attempt to auto-fetch the required gcc/binutils/mintlib packages. If something goes wrong you'll have to modify the fetch URLs.\r\n\r\nMake sure you have installed the following libraries and tools.\r\n\r\n### Linux/Windows\r\n\r\n* GMP (dev) (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* MPFR (dev) (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* MPC (dev) (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* bison-bin\r\n\r\n* flex-bin\r\n\r\n* flex-dev\r\n\r\n* texinfo\r\n\r\nGMP/MPFR/MPC are required for building gcc (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES)), flex and bison for building MiNTlib.\r\n\r\n### macOS\r\n\r\nUse Macports and install:\r\n\r\n* gmp (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* mpfr (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* libmpc (if you don't download prerequisites, see [GLOBAL_DOWNLOAD_PREREQUISITES](#GLOBAL_DOWNLOAD_PREREQUISITES))\r\n\r\n* bison\r\n\r\n* flex\r\n\r\n* gsed\r\n\r\n* gnutar\r\n\r\n* wget\r\n\r\n# Installation\r\n\r\nBefore running the script it is advised to open it and go through the \"User definable stuff\" settings. In brief they are:\r\n\r\n### GLOBAL_OVERRIDE\r\n\r\nSet this to A if you want a completely automated run.\r\n    \r\n### GLOBAL_BUILD_FORTRAN\r\n\r\nSet this to 1 to build Fortran, anything else to skip building Fortran.\r\n\r\n### GLOBAL_DOWNLOAD_PREREQUISITES\r\n\r\nSet this to 1 to download prerequisite libs such as MPC and MPFR automatically (without having to install them on the host machine) via the contrib/download_prerequisites script inside each gcc. Not tested extensively but it seems to work with gcc 4.6.4.\r\n\r\n### BUILD_X_Y_Z\r\n\r\nWhich gccs to build. 1=Build, anything else=Don't build. Can be toggled individually.\r\n\r\n### BUILD_MINTLIB\r\n\r\nOnly set this to nonzero when you do want to build mintlib. Note that if you don't build mintlib then libstdc++v3 will also fail to build, so you are advised to keep this on.\r\n    \r\n### CC?/CXX?\r\n\r\nThe actual names of the compilers used to build our set of gccs. The names aretuned for ubuntu 17.10 so your mileage may vary!\r\n\r\nAlso you might be able to build all gcc versions using one compiler. In Ubuntu 17.10 so many problems were encountered in Ubuntu (including Internal Compiler Errors) that this is now in full pendantic mode. Again, your mileage may vary!\r\n\r\n### CROSS_COMPILING\r\n\r\nAt first this sounds redundant given that the script produces a cross compiler to begin with. This setting should be enabled if the cross compiler is not going to be executed in a different platform than it is built.\r\n\r\nFor example: We want to build a 68k cross compiler on a x86 PC that will execute on an ARM processor.\r\n\r\n### INSTALL_PREFIX\r\n\r\nWhere the compiler(s) will be installed. Defaults to ${HOME}/brown. Take care that you don't choose a path that requires root privileges. (In this case you will need to run the script as root)\r\n\r\n### Other notes\r\nThe script will install things to ```INSTALL_PREFIX``` and might need root privileges. Also it'll use ```$JMULT``` cores while building. If this is not to your liking then edit this script and change ```INSTALL_PREFIX``` to the path you would like to install to (including home folder) and ```SUDO``` to nothing if you don't need root rights. Also ```JMULT``` for number of build cores. Examples are inside the script's comments. Log files are written inside each build folder for each version of gcc built. So for example there's ```build-binutils-2.38/binutils_configure.log``, ```build-gcc-12.1.0/gcc_build.log``` and so on.\r\n\r\n# Testing\r\n\r\nInside the folder ```barebones``` there exist test projects to verify that your gcc installation is sane. Just type ```make``` on installations that have make installed or run ```build.bat``` under Windows (especially if you built the toolchain(s) using MinGW).\r\n\r\nThere is also a different example in the folder ```barebones-interop```. This illustrates how to set up a project to work with C and assembly. Consult the ```readme.md``` inside that folder for more information.\r\n\r\n# bigbrowngemlib.sh\r\n\r\nThis is a work-in-progress script. Currently it cannot build GEMlib properly. Patches welcome!\r\n\r\n# bigbrownlibcmini.sh\r\n\r\nThis is a work-in-progress script. Currently it cannot build GEMlib properly. Patches welcome!\r\n\r\n# Note for MinGW users\r\n\r\nBe warned that the compilation can take a very very VERY long time! If you can spare the RAM, we really recommend using a RAM drive! Our tests have shown that imdisk (http://www.ltr-data.se/opencode.html/#ImDisk) works fine. Of course take notice that you're doing this on your own, we won't accept any liability if something goes wrong with that!!!!\r\n\r\n# Building the \"barebones\" examples\r\n\r\nDownload and build Brownout (https://github.com/ggnkua/brownout-git / https://bitbucket.org/ggnkua/brownout-git/) and place it in the ```barebones``` directory.\r\n\r\nIf you have a command prompt that is able to run ```make``` (e.g. Linux, Cygwin, MinGW etc) then just type ```make``` (make sure your build cross gcc is in the PATH). Otherwise on Windows you can just run ```build.bat``` (edit ```GCCPATH``` to point to your toolchain path first).\r\n\r\nNote that this will build only for the latest supported cross gcc version. For older versions, some simple find and replaces should be enough.\r\n\r\n# Credits\r\n\r\nThe bulk of the script was written by George 'GGN' Nakos, with enhancements from:\r\n\r\n* Douglas 'DML' Little\r\n* Patrice 'PMANDIN' Mandin\r\n* Troed 'TROED' Sångberg\r\n\r\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

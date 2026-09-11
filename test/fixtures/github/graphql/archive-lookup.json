@@ -1,0 +1,2526 @@
+{
+  "request": {
+    "query": "query($o0: String!, $n0: String!, $o1: String!, $n1: String!, $o2: String!, $n2: String!, $o3: String!, $n3: String!, $o4: String!, $n4: String!, $o5: String!, $n5: String!, $o6: String!, $n6: String!, $o7: String!, $n7: String!, $o8: String!, $n8: String!, $o9: String!, $n9: String!, $o10: String!, $n10: String!, $o11: String!, $n11: String!, $o12: String!, $n12: String!, $o13: String!, $n13: String!, $o14: String!, $n14: String!, $o15: String!, $n15: String!, $o16: String!, $n16: String!, $o17: String!, $n17: String!, $o18: String!, $n18: String!, $o19: String!, $n19: String!, $o20: String!, $n20: String!, $o21: String!, $n21: String!, $o22: String!, $n22: String!, $o23: String!, $n23: String!, $o24: String!, $n24: String!, $o25: String!, $n25: String!, $o26: String!, $n26: String!, $o27: String!, $n27: String!, $o28: String!, $n28: String!, $o29: String!, $n29: String!, $o30: String!, $n30: String!, $o31: String!, $n31: String!, $o32: String!, $n32: String!, $o33: String!, $n33: String!, $o34: String!, $n34: String!, $o35: String!, $n35: String!, $o36: String!, $n36: String!, $o37: String!, $n37: String!, $o38: String!, $n38: String!, $o39: String!, $n39: String!, $o40: String!, $n40: String!, $o41: String!, $n41: String!, $o42: String!, $n42: String!, $o43: String!, $n43: String!, $o44: String!, $n44: String!, $o45: String!, $n45: String!, $o46: String!, $n46: String!, $o47: String!, $n47: String!, $o48: String!, $n48: String!, $o49: String!, $n49: String!, $o50: String!, $n50: String!, $o51: String!, $n51: String!, $o52: String!, $n52: String!, $o53: String!, $n53: String!, $o54: String!, $n54: String!, $o55: String!, $n55: String!, $o56: String!, $n56: String!, $o57: String!, $n57: String!, $o58: String!, $n58: String!, $o59: String!, $n59: String!, $o60: String!, $n60: String!, $o61: String!, $n61: String!, $o62: String!, $n62: String!, $o63: String!, $n63: String!, $o64: String!, $n64: String!, $o65: String!, $n65: String!, $o66: String!, $n66: String!, $o67: String!, $n67: String!, $o68: String!, $n68: String!, $o69: String!, $n69: String!, $o70: String!, $n70: String!, $o71: String!, $n71: String!, $o72: String!, $n72: String!, $o73: String!, $n73: String!, $o74: String!, $n74: String!, $o75: String!, $n75: String!, $o76: String!, $n76: String!, $o77: String!, $n77: String!, $o78: String!, $n78: String!, $o79: String!, $n79: String!, $o80: String!, $n80: String!, $o81: String!, $n81: String!, $o82: String!, $n82: String!, $o83: String!, $n83: String!, $o84: String!, $n84: String!, $o85: String!, $n85: String!, $o86: String!, $n86: String!, $o87: String!, $n87: String!, $o88: String!, $n88: String!, $o89: String!, $n89: String!, $o90: String!, $n90: String!, $o91: String!, $n91: String!, $o92: String!, $n92: String!, $o93: String!, $n93: String!, $o94: String!, $n94: String!, $o95: String!, $n95: String!, $o96: String!, $n96: String!, $o97: String!, $n97: String!, $o98: String!, $n98: String!, $o99: String!, $n99: String!) {\n  rateLimit { cost remaining resetAt }\n  r0: repository(owner: $o0, name: $n0) { ...Lean }\n  r1: repository(owner: $o1, name: $n1) { ...Lean }\n  r2: repository(owner: $o2, name: $n2) { ...Lean }\n  r3: repository(owner: $o3, name: $n3) { ...Lean }\n  r4: repository(owner: $o4, name: $n4) { ...Lean }\n  r5: repository(owner: $o5, name: $n5) { ...Lean }\n  r6: repository(owner: $o6, name: $n6) { ...Lean }\n  r7: repository(owner: $o7, name: $n7) { ...Lean }\n  r8: repository(owner: $o8, name: $n8) { ...Lean }\n  r9: repository(owner: $o9, name: $n9) { ...Lean }\n  r10: repository(owner: $o10, name: $n10) { ...Lean }\n  r11: repository(owner: $o11, name: $n11) { ...Lean }\n  r12: repository(owner: $o12, name: $n12) { ...Lean }\n  r13: repository(owner: $o13, name: $n13) { ...Lean }\n  r14: repository(owner: $o14, name: $n14) { ...Lean }\n  r15: repository(owner: $o15, name: $n15) { ...Lean }\n  r16: repository(owner: $o16, name: $n16) { ...Lean }\n  r17: repository(owner: $o17, name: $n17) { ...Lean }\n  r18: repository(owner: $o18, name: $n18) { ...Lean }\n  r19: repository(owner: $o19, name: $n19) { ...Lean }\n  r20: repository(owner: $o20, name: $n20) { ...Lean }\n  r21: repository(owner: $o21, name: $n21) { ...Lean }\n  r22: repository(owner: $o22, name: $n22) { ...Lean }\n  r23: repository(owner: $o23, name: $n23) { ...Lean }\n  r24: repository(owner: $o24, name: $n24) { ...Lean }\n  r25: repository(owner: $o25, name: $n25) { ...Lean }\n  r26: repository(owner: $o26, name: $n26) { ...Lean }\n  r27: repository(owner: $o27, name: $n27) { ...Lean }\n  r28: repository(owner: $o28, name: $n28) { ...Lean }\n  r29: repository(owner: $o29, name: $n29) { ...Lean }\n  r30: repository(owner: $o30, name: $n30) { ...Lean }\n  r31: repository(owner: $o31, name: $n31) { ...Lean }\n  r32: repository(owner: $o32, name: $n32) { ...Lean }\n  r33: repository(owner: $o33, name: $n33) { ...Lean }\n  r34: repository(owner: $o34, name: $n34) { ...Lean }\n  r35: repository(owner: $o35, name: $n35) { ...Lean }\n  r36: repository(owner: $o36, name: $n36) { ...Lean }\n  r37: repository(owner: $o37, name: $n37) { ...Lean }\n  r38: repository(owner: $o38, name: $n38) { ...Lean }\n  r39: repository(owner: $o39, name: $n39) { ...Lean }\n  r40: repository(owner: $o40, name: $n40) { ...Lean }\n  r41: repository(owner: $o41, name: $n41) { ...Lean }\n  r42: repository(owner: $o42, name: $n42) { ...Lean }\n  r43: repository(owner: $o43, name: $n43) { ...Lean }\n  r44: repository(owner: $o44, name: $n44) { ...Lean }\n  r45: repository(owner: $o45, name: $n45) { ...Lean }\n  r46: repository(owner: $o46, name: $n46) { ...Lean }\n  r47: repository(owner: $o47, name: $n47) { ...Lean }\n  r48: repository(owner: $o48, name: $n48) { ...Lean }\n  r49: repository(owner: $o49, name: $n49) { ...Lean }\n  r50: repository(owner: $o50, name: $n50) { ...Lean }\n  r51: repository(owner: $o51, name: $n51) { ...Lean }\n  r52: repository(owner: $o52, name: $n52) { ...Lean }\n  r53: repository(owner: $o53, name: $n53) { ...Lean }\n  r54: repository(owner: $o54, name: $n54) { ...Lean }\n  r55: repository(owner: $o55, name: $n55) { ...Lean }\n  r56: repository(owner: $o56, name: $n56) { ...Lean }\n  r57: repository(owner: $o57, name: $n57) { ...Lean }\n  r58: repository(owner: $o58, name: $n58) { ...Lean }\n  r59: repository(owner: $o59, name: $n59) { ...Lean }\n  r60: repository(owner: $o60, name: $n60) { ...Lean }\n  r61: repository(owner: $o61, name: $n61) { ...Lean }\n  r62: repository(owner: $o62, name: $n62) { ...Lean }\n  r63: repository(owner: $o63, name: $n63) { ...Lean }\n  r64: repository(owner: $o64, name: $n64) { ...Lean }\n  r65: repository(owner: $o65, name: $n65) { ...Lean }\n  r66: repository(owner: $o66, name: $n66) { ...Lean }\n  r67: repository(owner: $o67, name: $n67) { ...Lean }\n  r68: repository(owner: $o68, name: $n68) { ...Lean }\n  r69: repository(owner: $o69, name: $n69) { ...Lean }\n  r70: repository(owner: $o70, name: $n70) { ...Lean }\n  r71: repository(owner: $o71, name: $n71) { ...Lean }\n  r72: repository(owner: $o72, name: $n72) { ...Lean }\n  r73: repository(owner: $o73, name: $n73) { ...Lean }\n  r74: repository(owner: $o74, name: $n74) { ...Lean }\n  r75: repository(owner: $o75, name: $n75) { ...Lean }\n  r76: repository(owner: $o76, name: $n76) { ...Lean }\n  r77: repository(owner: $o77, name: $n77) { ...Lean }\n  r78: repository(owner: $o78, name: $n78) { ...Lean }\n  r79: repository(owner: $o79, name: $n79) { ...Lean }\n  r80: repository(owner: $o80, name: $n80) { ...Lean }\n  r81: repository(owner: $o81, name: $n81) { ...Lean }\n  r82: repository(owner: $o82, name: $n82) { ...Lean }\n  r83: repository(owner: $o83, name: $n83) { ...Lean }\n  r84: repository(owner: $o84, name: $n84) { ...Lean }\n  r85: repository(owner: $o85, name: $n85) { ...Lean }\n  r86: repository(owner: $o86, name: $n86) { ...Lean }\n  r87: repository(owner: $o87, name: $n87) { ...Lean }\n  r88: repository(owner: $o88, name: $n88) { ...Lean }\n  r89: repository(owner: $o89, name: $n89) { ...Lean }\n  r90: repository(owner: $o90, name: $n90) { ...Lean }\n  r91: repository(owner: $o91, name: $n91) { ...Lean }\n  r92: repository(owner: $o92, name: $n92) { ...Lean }\n  r93: repository(owner: $o93, name: $n93) { ...Lean }\n  r94: repository(owner: $o94, name: $n94) { ...Lean }\n  r95: repository(owner: $o95, name: $n95) { ...Lean }\n  r96: repository(owner: $o96, name: $n96) { ...Lean }\n  r97: repository(owner: $o97, name: $n97) { ...Lean }\n  r98: repository(owner: $o98, name: $n98) { ...Lean }\n  r99: repository(owner: $o99, name: $n99) { ...Lean }\n}\nfragment Lean on Repository {\n  id nameWithOwner createdAt pushedAt stargazerCount forkCount diskUsage\n  isFork isArchived isTemplate isMirror description\n  licenseInfo { spdxId } primaryLanguage { name } owner { login __typename }\n}\n",
+    "variables": {
+      "o0": "Cray-HPE",
+      "n0": "csm-config",
+      "o1": "contentful",
+      "n1": "forma-36",
+      "o2": "stm32-cube-ai",
+      "n2": "dsf-auto-update-dev",
+      "o3": "Zyzto",
+      "n3": "Edadat",
+      "o4": "bffx-updates",
+      "n4": "BFMiDi_APK_V13",
+      "o5": "littlewinter320",
+      "n5": "inkflow",
+      "o6": "valeros",
+      "n6": "expert-journey",
+      "o7": "googleapis",
+      "n7": "google-api-nodejs-client",
+      "o8": "rmrfus",
+      "n8": "wayhud",
+      "o9": "yangch504855530-afk",
+      "n9": "media-browser",
+      "o10": "MissSuperUser",
+      "n10": "Google-Images-Restored-2",
+      "o11": "H3cker01",
+      "n11": "html2apk-windows",
+      "o12": "RSSeeker",
+      "n12": "Vape-v4",
+      "o13": "PatrickShih774",
+      "n13": "BBcall_APRS",
+      "o14": "leanprover",
+      "n14": "lean4-pr-releases",
+      "o15": "akonyaev-ru",
+      "n15": "sadovyy-pomoshnik",
+      "o16": "ASThome00",
+      "n16": "cfb27-no-offline-warning",
+      "o17": "ivan-tarasov",
+      "n17": "fh-trip-builder",
+      "o18": "jimman0I",
+      "n18": "prune",
+      "o19": "RizenHNT",
+      "n19": "dsh-skin-digital-arcade",
+      "o20": "momokli",
+      "n20": "riftbreaker-battle-mod",
+      "o21": "juanlara-aidev",
+      "n21": "praxis-it",
+      "o22": "llamastash",
+      "n22": "llamastash",
+      "o23": "hoshiizumiya",
+      "n23": "microsoft-ui-xaml",
+      "o24": "jopsis",
+      "n24": "InputStreamPlayer",
+      "o25": "lywusichen",
+      "n25": "dsh-skill-panel",
+      "o26": "searchlightdev",
+      "n26": "credit-card-manager-releases",
+      "o27": "cloud-sdk-builds",
+      "n27": "client-kinesis-video-webrtc-storage",
+      "o28": "prfctcondition",
+      "n28": "otofy",
+      "o29": "samaidev",
+      "n29": "zagent_r",
+      "o30": "cczzyy-cn",
+      "n30": "c-vision",
+      "o31": "renkudev",
+      "n31": "renku-hermes",
+      "o32": "z1HwanG",
+      "n32": "RSS-Reader",
+      "o33": "luckyalanzhou",
+      "n33": "Barcode-generator-for-Android",
+      "o34": "siddheshnaik7344",
+      "n34": "Cloudbackup",
+      "o35": "dborgards",
+      "n35": "CanKit.Pro",
+      "o36": "pjaraf",
+      "n36": "nexo-plus",
+      "o37": "iostpa",
+      "n37": "reviewbot",
+      "o38": "Cloudgeni-ai",
+      "n38": "opengeni",
+      "o39": "rockxi",
+      "n39": "fff-android",
+      "o40": "ffflorian",
+      "n40": "node-packages",
+      "o41": "moaaidebid37",
+      "n41": "solo-pos-downloads",
+      "o42": "Kaplin18",
+      "n42": "Filmlerim",
+      "o43": "alfred-labs",
+      "n43": "little-switch",
+      "o44": "HardikShreays",
+      "n44": "Bridg",
+      "o45": "ivuorinen",
+      "n45": "base-configs-commitlint",
+      "o46": "Ayzrith",
+      "n46": "animecix-linux-app",
+      "o47": "404-GCross",
+      "n47": "Sena-Repo",
+      "o48": "cyber-godzilla",
+      "n48": "praetor",
+      "o49": "OneGemmj",
+      "n49": "AppSlim",
+      "o50": "plaiiin-hq",
+      "n50": "market-archive",
+      "o51": "YoucefSennoun",
+      "n51": "kdp-copilot",
+      "o52": "cimo-labs",
+      "n52": "kvault",
+      "o53": "Sans1228",
+      "n53": "storage-ipa-for-ipasign",
+      "o54": "kioriy",
+      "n54": "sistema_credencializacion",
+      "o55": "jcsvwinston",
+      "n55": "nucleus",
+      "o56": "jmestrallet",
+      "n56": "boletera-android",
+      "o57": "khmilevoi",
+      "n57": "aipicker",
+      "o58": "decocms",
+      "n58": "studio",
+      "o59": "raseledutools",
+      "n59": "RasFocus-Exe-Release",
+      "o60": "brandonmcconnell",
+      "n60": "geld",
+      "o61": "debridge-finance",
+      "n61": "solana-tx-parser-public",
+      "o62": "VisualText",
+      "n62": "nlp-engine",
+      "o63": "erdrinkerleshi-ops",
+      "n63": "royalessence.ks",
+      "o64": "silver2127",
+      "n64": "tpf2-bigmap",
+      "o65": "falcons-eyes",
+      "n65": "agent-fabric-docs",
+      "o66": "RolandSaint",
+      "n66": "pywel",
+      "o67": "freelance5455",
+      "n67": "htkdslfkjksml",
+      "o68": "lonee6",
+      "n68": "myopenwrt",
+      "o69": "bourumir-wyngs",
+      "n69": "spherical-wrist",
+      "o70": "maksimcvetkov888-crypto",
+      "n70": "zapret-auto",
+      "o71": "bankerise",
+      "n71": "secure-embedded-authentication",
+      "o72": "dschopf",
+      "n72": "plasma-applet-qalculate",
+      "o73": "MTVaught",
+      "n73": "gerrit-gui",
+      "o74": "1-Reality",
+      "n74": "BiliVideo-Lab",
+      "o75": "ils15",
+      "n75": "open3dcalc",
+      "o76": "input-output-hk",
+      "n76": "lace",
+      "o77": "oscar-pell",
+      "n77": "postit-reminders",
+      "o78": "yurarium",
+      "n78": "yurison",
+      "o79": "Own716",
+      "n79": "OwnBoxForAndroid",
+      "o80": "coffeefreehans",
+      "n80": "HarnessX",
+      "o81": "jeojabon",
+      "n81": "JaMeter",
+      "o82": "pierreburnn",
+      "n82": "golden-notch-releases",
+      "o83": "sverdlovsky",
+      "n83": "simple-video-hosting",
+      "o84": "thefraggle",
+      "n84": "familienwecker",
+      "o85": "kanunal99-jpg",
+      "n85": "Haritalar",
+      "o86": "sanchesfer",
+      "n86": "newsletter-to-podcast",
+      "o87": "thcuba",
+      "n87": "Ride-the-api",
+      "o88": "Vishwas3000",
+      "n88": "ai_compression",
+      "o89": "mattermost",
+      "n89": "mattermost-plugin-demo",
+      "o90": "nervouna",
+      "n90": "InkFlow",
+      "o91": "California3",
+      "n91": "task-manager-app",
+      "o92": "huanyuejue",
+      "n92": "Fluent-Steam-Lua",
+      "o93": "rostamlabs",
+      "n93": "rostam",
+      "o94": "adr14n1109",
+      "n94": "Taller-1-Ordenamiento-y-Busqueda",
+      "o95": "azman0101",
+      "n95": "homelab",
+      "o96": "surveyjs",
+      "n96": "survey-library",
+      "o97": "danifunker",
+      "n97": "rusty-backup",
+      "o98": "ricard33",
+      "n98": "tiloc",
+      "o99": "LiveFolio-Cloud",
+      "n99": "LiveFolio-oss"
+    }
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:14:06 GMT",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4960",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "graphql",
+    "x-ratelimit-used": "40"
+  },
+  "body": {
+    "data": {
+      "rateLimit": {
+        "cost": 1,
+        "remaining": 4960,
+        "resetAt": "2026-09-11T15:48:01Z"
+      },
+      "r0": {
+        "id": "MDEwOlJlcG9zaXRvcnkzMzE0NjEyNzY=",
+        "nameWithOwner": "Cray-HPE/csm-config",
+        "createdAt": "2021-01-20T23:36:17Z",
+        "pushedAt": "2026-09-10T15:00:05Z",
+        "stargazerCount": 3,
+        "forkCount": 2,
+        "diskUsage": 1061,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "Cray-HPE",
+          "__typename": "Organization"
+        }
+      },
+      "r1": {
+        "id": "MDEwOlJlcG9zaXRvcnkxNTM3ODMzNjg=",
+        "nameWithOwner": "contentful/forma-36",
+        "createdAt": "2018-10-19T13:00:05Z",
+        "pushedAt": "2026-09-11T11:51:04Z",
+        "stargazerCount": 361,
+        "forkCount": 82,
+        "diskUsage": 117352,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "A design system by Contentful ",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "contentful",
+          "__typename": "Organization"
+        }
+      },
+      "r2": {
+        "id": "R_kgDOUKpW0Q",
+        "nameWithOwner": "stm32-cube-ai/dsf-auto-update-dev",
+        "createdAt": "2026-09-01T08:49:17Z",
+        "pushedAt": "2026-09-11T07:44:12Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Dataset Factory Auto Updater for DEV",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "stm32-cube-ai",
+          "__typename": "Organization"
+        }
+      },
+      "r3": {
+        "id": "R_kgDOQ2YmOQ",
+        "nameWithOwner": "Shenepoy/Edadat",
+        "createdAt": "2026-01-09T01:36:57Z",
+        "pushedAt": "2026-09-11T00:07:36Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1576,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Declarative settings for Flutter — bilingual search, Riverpod wiring, and ready-made tiles / registry pages.",
+        "licenseInfo": {
+          "spdxId": "MPL-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "owner": {
+          "login": "Shenepoy",
+          "__typename": "User"
+        }
+      },
+      "r4": {
+        "id": "R_kgDOT0t3nw",
+        "nameWithOwner": "bffx-updates/BFMiDi_APK_V13",
+        "createdAt": "2026-08-11T00:14:47Z",
+        "pushedAt": "2026-09-10T16:12:04Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 13424,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "bffx-updates",
+          "__typename": "User"
+        }
+      },
+      "r5": {
+        "id": "R_kgDOUK0kbQ",
+        "nameWithOwner": "littlewinter320/inkflow",
+        "createdAt": "2026-09-01T12:04:08Z",
+        "pushedAt": "2026-09-11T06:03:14Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 24255,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "墨流（InkFlow）：面向中文长篇网文的本地三 Agent 创作引擎",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "littlewinter320",
+          "__typename": "User"
+        }
+      },
+      "r6": {
+        "id": "R_kgDOKtwuLA",
+        "nameWithOwner": "valeros/expert-journey",
+        "createdAt": "2023-11-15T11:50:21Z",
+        "pushedAt": "2026-09-10T15:01:25Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 4164,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "valeros",
+          "__typename": "User"
+        }
+      },
+      "r7": {
+        "id": "MDEwOlJlcG9zaXRvcnk4NjA4NDgw",
+        "nameWithOwner": "googleapis/google-api-nodejs-client",
+        "createdAt": "2013-03-06T17:02:23Z",
+        "pushedAt": "2026-09-10T23:16:34Z",
+        "stargazerCount": 12242,
+        "forkCount": 2042,
+        "diskUsage": 666010,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Google's officially supported Node.js client library for accessing Google APIs. Support for authorization and authentication with OAuth 2.0, API Keys and JWT (Service Tokens) is included. ",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "googleapis",
+          "__typename": "Organization"
+        }
+      },
+      "r8": {
+        "id": "R_kgDOULHNSw",
+        "nameWithOwner": "rmrfus/wayhud",
+        "createdAt": "2026-09-01T17:11:22Z",
+        "pushedAt": "2026-09-10T15:50:03Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 4855,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Layer-shell text overlay for sway — sci-fi HUD messages",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "rmrfus",
+          "__typename": "User"
+        }
+      },
+      "r9": {
+        "id": "R_kgDOST0hdg",
+        "nameWithOwner": "yangch504855530-afk/media-browser",
+        "createdAt": "2026-05-04T10:29:14Z",
+        "pushedAt": "2026-09-10T23:59:11Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 6058,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "yangch504855530-afk",
+          "__typename": "User"
+        }
+      },
+      "r10": {
+        "id": "R_kgDOUVJ3Mw",
+        "nameWithOwner": "MissSuperUser/Google-Images-Restored-2",
+        "createdAt": "2026-09-10T14:39:35Z",
+        "pushedAt": "2026-09-10T15:01:49Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 191,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "This extension attempts to make Google Images look and feel like it did before they changed everything on August 6th, 2019 (NOTE: THIS IS VIBE-CODED, USE IT AT YOUR RISK)",
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "MissSuperUser",
+          "__typename": "User"
+        }
+      },
+      "r11": {
+        "id": "R_kgDOUROiHQ",
+        "nameWithOwner": "H3cker01/html2apk-windows",
+        "createdAt": "2026-09-07T13:05:29Z",
+        "pushedAt": "2026-09-11T14:51:10Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 38,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "HTML2Apk — Offline Windows APK builder (WPF .NET 8)",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "owner": {
+          "login": "H3cker01",
+          "__typename": "User"
+        }
+      },
+      "r12": {
+        "id": "R_kgDOT3aFQw",
+        "nameWithOwner": "RSSeeker/Vape-v4",
+        "createdAt": "2026-08-13T13:47:40Z",
+        "pushedAt": "2026-09-11T05:19:17Z",
+        "stargazerCount": 43,
+        "forkCount": 5,
+        "diskUsage": 31449,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Vape 4.21 的 Java 层与 Windows x64 原生桥梁层研究性恢复工程，附带完整中文本地化；基于 OpenVape 公开源码恢复整理。",
+        "licenseInfo": {
+          "spdxId": "CC0-1.0"
+        },
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "owner": {
+          "login": "RSSeeker",
+          "__typename": "User"
+        }
+      },
+      "r13": {
+        "id": "R_kgDOUVKaWA",
+        "nameWithOwner": "PatrickShih774/BBcall_APRS",
+        "createdAt": "2026-09-10T14:44:03Z",
+        "pushedAt": "2026-09-11T14:59:12Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1928,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "owner": {
+          "login": "PatrickShih774",
+          "__typename": "User"
+        }
+      },
+      "r14": {
+        "id": "R_kgDOKJ-m5Q",
+        "nameWithOwner": "leanprover/lean4-pr-releases",
+        "createdAt": "2023-08-22T08:59:51Z",
+        "pushedAt": "2026-09-11T14:41:16Z",
+        "stargazerCount": 3,
+        "forkCount": 3,
+        "diskUsage": 8044945,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Automated releases from leanprover/lean4 PRs",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "leanprover",
+          "__typename": "Organization"
+        }
+      },
+      "r15": {
+        "id": "R_kgDOUU8y9w",
+        "nameWithOwner": "akonyaev-ru/sadovyy-pomoshnik",
+        "createdAt": "2026-09-10T12:51:25Z",
+        "pushedAt": "2026-09-11T09:31:38Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1158,
+        "isFork": true,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Садовый помощник — программа для браузерной игры «Садовая империя»",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "akonyaev-ru",
+          "__typename": "User"
+        }
+      },
+      "r16": {
+        "id": "R_kgDOUD79nw",
+        "nameWithOwner": "ASThome00/cfb27-no-offline-warning",
+        "createdAt": "2026-08-25T15:26:55Z",
+        "pushedAt": "2026-09-10T15:04:37Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 8298,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "CFB 27 mod: removes the Offline Warning popup before every Dynasty / Road to Glory game when playing offline",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "ASThome00",
+          "__typename": "User"
+        }
+      },
+      "r17": {
+        "id": "R_kgDOKBP5LA",
+        "nameWithOwner": "ivan-tarasov/fh-trip-builder",
+        "createdAt": "2023-07-30T00:10:19Z",
+        "pushedAt": "2026-09-11T15:01:00Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 10723,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Trip Builder",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "owner": {
+          "login": "ivan-tarasov",
+          "__typename": "User"
+        }
+      },
+      "r18": {
+        "id": "R_kgDOUNZCEA",
+        "nameWithOwner": "jimman0I/prune",
+        "createdAt": "2026-09-03T16:58:10Z",
+        "pushedAt": "2026-09-11T13:23:39Z",
+        "stargazerCount": 8,
+        "forkCount": 1,
+        "diskUsage": 5397,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "A Windows uninstaller that finishes the job: runs the program's own uninstaller, then finds and quarantines what it left behind. Plus a disk map, cleaner, startup manager and SSD health. No telemetry.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "jimman0I",
+          "__typename": "User"
+        }
+      },
+      "r19": {
+        "id": "R_kgDOT5H6HA",
+        "nameWithOwner": "RizenHNT/dsh-skin-digital-arcade",
+        "createdAt": "2026-08-15T09:43:24Z",
+        "pushedAt": "2026-09-10T17:13:11Z",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "diskUsage": 6261,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Rizen Signal Console — digital arcade HUD skin for DeepSeek Harness Web GUI: neon cyan/violet/magenta palette, pixel fonts, animated HUD sprites, custom crosshair cursor, and freely placeable detail windows",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "owner": {
+          "login": "RizenHNT",
+          "__typename": "User"
+        }
+      },
+      "r20": {
+        "id": "R_kgDOUQ9fBg",
+        "nameWithOwner": "momokli/riftbreaker-battle-mod",
+        "createdAt": "2026-09-07T08:24:13Z",
+        "pushedAt": "2026-09-11T13:53:36Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 152793,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Spike: Mod-Skeleton + 3 Experimente fuer einen 'Biter Battles'-artigen Duell-Modus in The Rift Breaker (EXOR Studios)",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "momokli",
+          "__typename": "User"
+        }
+      },
+      "r21": {
+        "id": "R_kgDOSq5XqA",
+        "nameWithOwner": "juanlara-aidev/praxis-it",
+        "createdAt": "2026-05-29T02:44:14Z",
+        "pushedAt": "2026-09-10T15:05:42Z",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "diskUsage": 4,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Praxis — edizione italiana. Metodologia agentica di vibe-coding per la community VibeCoders.",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "juanlara-aidev",
+          "__typename": "User"
+        }
+      },
+      "r22": {
+        "id": "R_kgDOSi2SAw",
+        "nameWithOwner": "llamastash/llamastash",
+        "createdAt": "2026-05-20T10:21:02Z",
+        "pushedAt": "2026-09-11T07:48:53Z",
+        "stargazerCount": 161,
+        "forkCount": 14,
+        "diskUsage": 31633,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Zero-overhead, terminal-native local-LLM runtime manager. Launches, supervises, and routes local models behind one OpenAI-compatible endpoint.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "llamastash",
+          "__typename": "Organization"
+        }
+      },
+      "r23": {
+        "id": "R_kgDORrxIHQ",
+        "nameWithOwner": "hoshiizumiya/microsoft-ui-xaml",
+        "createdAt": "2026-03-20T00:15:35Z",
+        "pushedAt": "2026-09-10T16:48:52Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 319190,
+        "isFork": true,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "owner": {
+          "login": "hoshiizumiya",
+          "__typename": "User"
+        }
+      },
+      "r24": {
+        "id": "R_kgDOUSEBaQ",
+        "nameWithOwner": "jopsis/InputStreamPlayer",
+        "createdAt": "2026-09-08T08:28:17Z",
+        "pushedAt": "2026-09-10T15:06:53Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 6534,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "owner": {
+          "login": "jopsis",
+          "__typename": "User"
+        }
+      },
+      "r25": {
+        "id": "R_kgDOT4dw0w",
+        "nameWithOwner": "lywusichen/dsh-skill-panel",
+        "createdAt": "2026-08-14T14:39:25Z",
+        "pushedAt": "2026-09-10T15:02:57Z",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "diskUsage": 1152,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "DeepSeek Harness 技能悬浮窗插件：侧边栏技能按钮，一键查看当前会话已加载的技能并打开本地目录。",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "lywusichen",
+          "__typename": "User"
+        }
+      },
+      "r26": {
+        "id": "R_kgDOUGPoIQ",
+        "nameWithOwner": "searchlightdev/credit-card-manager-releases",
+        "createdAt": "2026-08-27T16:48:48Z",
+        "pushedAt": "2026-09-11T13:28:54Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 550,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Public releases and offer-feed data for Credit Card Manager",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "searchlightdev",
+          "__typename": "Organization"
+        }
+      },
+      "r27": {
+        "id": "R_kgDORTy3pg",
+        "nameWithOwner": "cloud-sdk-builds/client-kinesis-video-webrtc-storage",
+        "createdAt": "2026-02-19T10:01:23Z",
+        "pushedAt": "2026-09-11T15:11:37Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1038,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Prebuilt AWS SDK for JavaScript v3 browser modules, ready for direct use via import maps and jsDelivr CDN — no bundler, no build step, just plug and play.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "cloud-sdk-builds",
+          "__typename": "Organization"
+        }
+      },
+      "r28": {
+        "id": "R_kgDOUTrllg",
+        "nameWithOwner": "prfctcondition/otofy",
+        "createdAt": "2026-09-09T14:45:16Z",
+        "pushedAt": "2026-09-11T14:46:23Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 17108,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "prfctcondition",
+          "__typename": "User"
+        }
+      },
+      "r29": {
+        "id": "R_kgDOS8zaGw",
+        "nameWithOwner": "samaidev/zagent_r",
+        "createdAt": "2026-06-17T00:21:13Z",
+        "pushedAt": "2026-09-11T06:12:14Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 63471,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "ZAgent public release repo — binary distribution (sources in private samaidev/zagent)",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "samaidev",
+          "__typename": "User"
+        }
+      },
+      "r30": {
+        "id": "R_kgDOUA2voQ",
+        "nameWithOwner": "cczzyy-cn/c-vision",
+        "createdAt": "2026-08-22T18:36:42Z",
+        "pushedAt": "2026-09-10T16:59:49Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 304,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "DeepSeek Harness (DSH) 自主视觉插件 —— 给智能体屏幕/窗口视觉 + 电脑使用能力（see/ocr/list_windows + 鼠标键盘操作），跨语言调用捆绑的 Python cvision，Windows / macOS 可用。",
+        "licenseInfo": {
+          "spdxId": "BSD-3-Clause"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "cczzyy-cn",
+          "__typename": "User"
+        }
+      },
+      "r31": {
+        "id": "R_kgDOUVL8Cw",
+        "nameWithOwner": "renkudev/renku-hermes",
+        "createdAt": "2026-09-10T14:56:44Z",
+        "pushedAt": "2026-09-11T05:39:23Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 18,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Prebuilt Hermes compiler and Apple runtime for renku. Includes macOS arm64 hermesc, an XCFramework distributed through Swift Package Manager, and reproducible build and release tooling.",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "renkudev",
+          "__typename": "Organization"
+        }
+      },
+      "r32": {
+        "id": "R_kgDOUT8nQQ",
+        "nameWithOwner": "z1HwanG/RSS-Reader",
+        "createdAt": "2026-09-09T18:45:43Z",
+        "pushedAt": "2026-09-10T23:30:13Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 3178,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "A lightweight, cross-platform desktop RSS reader.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "z1HwanG",
+          "__typename": "User"
+        }
+      },
+      "r33": {
+        "id": "R_kgDOUPyNqg",
+        "nameWithOwner": "luckyalanzhou/Barcode-generator-for-Android",
+        "createdAt": "2026-09-06T02:43:35Z",
+        "pushedAt": "2026-09-11T13:18:31Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 155,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "luckyalanzhou",
+          "__typename": "User"
+        }
+      },
+      "r34": {
+        "id": "R_kgDOUVMdtg",
+        "nameWithOwner": "siddheshnaik7344/Cloudbackup",
+        "createdAt": "2026-09-10T15:01:05Z",
+        "pushedAt": "2026-09-10T15:09:48Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 0,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "siddheshnaik7344",
+          "__typename": "User"
+        }
+      },
+      "r35": {
+        "id": "R_kgDOUSyInA",
+        "nameWithOwner": "dborgards/CanKit.Pro",
+        "createdAt": "2026-09-08T20:26:51Z",
+        "pushedAt": "2026-09-10T23:14:27Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 932,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "High-performance, vendor-neutral .NET CAN protocol framework. Provides CAN bus multiplexing, protocol actors, addressing, reliability, ISO-TP, J1939, CANopen, UDS and more, built on top of CanKit.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "owner": {
+          "login": "dborgards",
+          "__typename": "User"
+        }
+      },
+      "r36": {
+        "id": "R_kgDOUSZTtA",
+        "nameWithOwner": "pjaraf/nexo-plus",
+        "createdAt": "2026-09-08T14:04:38Z",
+        "pushedAt": "2026-09-11T15:08:54Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 3329,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Nexo TV app (VLC live, Xtream, Android TV)",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "pjaraf",
+          "__typename": "User"
+        }
+      },
+      "r37": {
+        "id": "R_kgDORQ7J3w",
+        "nameWithOwner": "iostpa/reviewbot",
+        "createdAt": "2026-02-15T16:27:00Z",
+        "pushedAt": "2026-09-10T15:10:40Z",
+        "stargazerCount": 9,
+        "forkCount": 7,
+        "diskUsage": 615,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Source code for the is-a.dev reviewbot.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "iostpa",
+          "__typename": "User"
+        }
+      },
+      "r38": {
+        "id": "R_kgDOSEYWIg",
+        "nameWithOwner": "Cloudgeni-ai/opengeni",
+        "createdAt": "2026-04-16T13:47:22Z",
+        "pushedAt": "2026-09-11T14:38:37Z",
+        "stargazerCount": 128,
+        "forkCount": 11,
+        "diskUsage": 117615,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Open, self-hostable agentic runtime for organizations — durable, replayable agent sessions, human approvals, governed credentials and memory, running in managed sandboxes or on your own hardware. Apache-2.0.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "Cloudgeni-ai",
+          "__typename": "Organization"
+        }
+      },
+      "r39": {
+        "id": "R_kgDOUQ_O5Q",
+        "nameWithOwner": "rockxi/fff-android",
+        "createdAt": "2026-09-07T08:53:06Z",
+        "pushedAt": "2026-09-11T09:06:58Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 381,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Phone-first Android client for FFF with local SQLite finance tracking",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "rockxi",
+          "__typename": "User"
+        }
+      },
+      "r40": {
+        "id": "R_kgDOI4LE6g",
+        "nameWithOwner": "ffflorian/node-packages",
+        "createdAt": "2023-01-31T19:27:30Z",
+        "pushedAt": "2026-09-10T15:12:17Z",
+        "stargazerCount": 17,
+        "forkCount": 7,
+        "diskUsage": 20097,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "@ffflorian's Node.js packages",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "ffflorian",
+          "__typename": "User"
+        }
+      },
+      "r41": {
+        "id": "R_kgDOSO_pfg",
+        "nameWithOwner": "moaaidebid37/solo-pos-downloads",
+        "createdAt": "2026-04-28T14:53:55Z",
+        "pushedAt": "2026-09-11T01:18:16Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 0,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "moaaidebid37",
+          "__typename": "User"
+        }
+      },
+      "r42": {
+        "id": "R_kgDOUVJwiQ",
+        "nameWithOwner": "Kaplin18/Filmlerim",
+        "createdAt": "2026-09-10T14:38:45Z",
+        "pushedAt": "2026-09-10T17:19:35Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 0,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "Kaplin18",
+          "__typename": "User"
+        }
+      },
+      "r43": {
+        "id": "R_kgDOUVKiIw",
+        "nameWithOwner": "alfred-labs/little-switch",
+        "createdAt": "2026-09-10T14:45:03Z",
+        "pushedAt": "2026-09-10T21:00:03Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 1461,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        },
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "owner": {
+          "login": "alfred-labs",
+          "__typename": "Organization"
+        }
+      },
+      "r44": {
+        "id": "R_kgDOUM_64g",
+        "nameWithOwner": "HardikShreays/Bridg",
+        "createdAt": "2026-09-03T10:04:46Z",
+        "pushedAt": "2026-09-10T20:00:02Z",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "diskUsage": 7579,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "open-source Android ↔ Mac bridge for screen mirroring, file transfer, clipboard sync & notifications.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "owner": {
+          "login": "HardikShreays",
+          "__typename": "User"
+        }
+      },
+      "r45": {
+        "id": "R_kgDOPAGerQ",
+        "nameWithOwner": "ivuorinen/base-configs-commitlint",
+        "createdAt": "2025-06-22T22:44:15Z",
+        "pushedAt": "2026-09-10T15:43:04Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 507,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "ivuorinen's shareable configuration for commitlint.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "ivuorinen",
+          "__typename": "User"
+        }
+      },
+      "r46": {
+        "id": "R_kgDOUVHahQ",
+        "nameWithOwner": "Ayzrith/animecix-linux-app",
+        "createdAt": "2026-09-10T14:19:58Z",
+        "pushedAt": "2026-09-10T15:17:54Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 9848,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "Ayzrith",
+          "__typename": "User"
+        }
+      },
+      "r47": {
+        "id": "R_kgDOSyJD7Q",
+        "nameWithOwner": "404-GCross/Sena-Repo",
+        "createdAt": "2026-06-05T15:43:20Z",
+        "pushedAt": "2026-09-11T10:52:32Z",
+        "stargazerCount": 10,
+        "forkCount": 2,
+        "diskUsage": 40030,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "一款专为NAS打造的视觉小说资源管理工具，能一键从您的服务器中下载解压安装好您的资源，同时也有给steam上的视觉小说游戏打补丁的功能",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "owner": {
+          "login": "404-GCross",
+          "__typename": "User"
+        }
+      },
+      "r48": {
+        "id": "R_kgDOR5B-Vg",
+        "nameWithOwner": "cyber-godzilla/praetor",
+        "createdAt": "2026-04-03T17:05:48Z",
+        "pushedAt": "2026-09-10T23:44:53Z",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "diskUsage": 1804,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "TUI Client for The Eternal City",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "owner": {
+          "login": "cyber-godzilla",
+          "__typename": "User"
+        }
+      },
+      "r49": {
+        "id": "R_kgDOUVNJBg",
+        "nameWithOwner": "OneGemmj/AppSlim",
+        "createdAt": "2026-09-10T15:07:10Z",
+        "pushedAt": "2026-09-10T15:14:06Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 114,
+        "isFork": true,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "通用 App 精简 LSPosed 模块 - 拦截后台保活/推送/埋点/Provider 自启与贴片广告，fork for https://github.com/Horizen5/CMCCSlim",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "OneGemmj",
+          "__typename": "User"
+        }
+      },
+      "r50": {
+        "id": "R_kgDOUAgBHA",
+        "nameWithOwner": "plaiiin-hq/market-archive",
+        "createdAt": "2026-08-22T10:27:55Z",
+        "pushedAt": "2026-09-11T03:10:12Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 6,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Historical exchange market data — weekly aggregate-trade archives in the .plagg format",
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        },
+        "primaryLanguage": null,
+        "owner": {
+          "login": "plaiiin-hq",
+          "__typename": "Organization"
+        }
+      },
+      "r51": {
+        "id": "R_kgDOUIQg4Q",
+        "nameWithOwner": "YoucefSennoun/kdp-copilot",
+        "createdAt": "2026-08-29T18:52:38Z",
+        "pushedAt": "2026-09-11T14:42:32Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 563,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "owner": {
+          "login": "YoucefSennoun",
+          "__typename": "User"
+        }
+      },
+      "r52": {
+        "id": "R_kgDORKbSqQ",
+        "nameWithOwner": "cimo-labs/kvault",
+        "createdAt": "2026-02-06T22:28:01Z",
+        "pushedAt": "2026-09-10T17:24:47Z",
+        "stargazerCount": 5,
+        "forkCount": 1,
+        "diskUsage": 1008,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Agent-first knowledge vault framework for extracting structured knowledge from unstructured data",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "cimo-labs",
+          "__typename": "Organization"
+        }
+      },
+      "r53": null,
+      "r54": {
+        "id": "R_kgDOS7-L5Q",
+        "nameWithOwner": "kioriy/sistema_credencializacion",
+        "createdAt": "2026-06-16T05:22:46Z",
+        "pushedAt": "2026-09-10T15:11:08Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 23466,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Sistema para gestionar diseño de plantilla de credenciales para estudiantes",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "kioriy",
+          "__typename": "User"
+        }
+      },
+      "r55": {
+        "id": "R_kgDORuv04Q",
+        "nameWithOwner": "jcsvwinston/nucleus",
+        "createdAt": "2026-03-23T18:43:31Z",
+        "pushedAt": "2026-09-11T14:24:24Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 438775,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Stdlib-first MVC + REST framework for Go. Embedded admin, SQL-first data layer, compatibility by contract.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "owner": {
+          "login": "jcsvwinston",
+          "__typename": "User"
+        }
+      },
+      "r56": {
+        "id": "R_kgDOUUC7Kg",
+        "nameWithOwner": "jmestrallet/boletera-android",
+        "createdAt": "2026-09-09T20:39:06Z",
+        "pushedAt": "2026-09-10T20:25:12Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1674,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "App Android experimental de código abierto para consultar y preparar recargas STM con interfaz propia. No oficial; pagos todavía no habilitados.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "jmestrallet",
+          "__typename": "User"
+        }
+      },
+      "r57": {
+        "id": "R_kgDOUVNoBQ",
+        "nameWithOwner": "khmilevoi/aipicker",
+        "createdAt": "2026-09-10T15:11:34Z",
+        "pushedAt": "2026-09-11T09:56:30Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 108,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Native Rust Windows tray widget for AI model benchmark and cost comparison",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "khmilevoi",
+          "__typename": "User"
+        }
+      },
+      "r58": {
+        "id": "R_kgDOOIjTxg",
+        "nameWithOwner": "decocms/studio",
+        "createdAt": "2025-03-14T12:37:02Z",
+        "pushedAt": "2026-09-11T14:53:59Z",
+        "stargazerCount": 406,
+        "forkCount": 53,
+        "diskUsage": 175144,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Open-source control plane for your AI agents. Connect tools, hire agents, track every token and dollar",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "decocms",
+          "__typename": "Organization"
+        }
+      },
+      "r59": {
+        "id": "R_kgDOSS2jcw",
+        "nameWithOwner": "raseledutools/RasFocus-Exe-Release",
+        "createdAt": "2026-05-03T04:44:31Z",
+        "pushedAt": "2026-09-11T14:14:55Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 18360,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": true,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "owner": {
+          "login": "raseledutools",
+          "__typename": "User"
+        }
+      },
+      "r60": {
+        "id": "R_kgDOUOpwng",
+        "nameWithOwner": "brandonmcconnell/geld",
+        "createdAt": "2026-09-04T19:52:33Z",
+        "pushedAt": "2026-09-11T06:46:08Z",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "diskUsage": 21515,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Browser extension to hide tests when reviewing PRs on Github",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "brandonmcconnell",
+          "__typename": "User"
+        }
+      },
+      "r61": {
+        "id": "R_kgDOHo9GqA",
+        "nameWithOwner": "debridge-finance/solana-tx-parser-public",
+        "createdAt": "2022-07-11T10:09:38Z",
+        "pushedAt": "2026-09-10T15:18:29Z",
+        "stargazerCount": 297,
+        "forkCount": 84,
+        "diskUsage": 1544,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Solution for parsing of arbitrary solana transactions",
+        "licenseInfo": {
+          "spdxId": "LGPL-2.1"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "debridge-finance",
+          "__typename": "Organization"
+        }
+      },
+      "r62": {
+        "id": "MDEwOlJlcG9zaXRvcnkxOTIwODU5MTA=",
+        "nameWithOwner": "VisualText/nlp-engine",
+        "createdAt": "2019-06-15T14:09:14Z",
+        "pushedAt": "2026-09-11T13:58:30Z",
+        "stargazerCount": 24,
+        "forkCount": 18,
+        "diskUsage": 46818,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "NLP engine code",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "owner": {
+          "login": "VisualText",
+          "__typename": "Organization"
+        }
+      },
+      "r63": {
+        "id": "R_kgDOUVkWvQ",
+        "nameWithOwner": "erdrinkerleshi-ops/royalessence.ks",
+        "createdAt": "2026-09-10T19:14:14Z",
+        "pushedAt": "2026-09-10T19:14:57Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 65466,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "owner": {
+          "login": "erdrinkerleshi-ops",
+          "__typename": "User"
+        }
+      },
+      "r64": {
+        "id": "R_kgDOURghcA",
+        "nameWithOwner": "silver2127/tpf2-bigmap",
+        "createdAt": "2026-09-07T18:12:46Z",
+        "pushedAt": "2026-09-10T15:16:54Z",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "diskUsage": 258,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Maps larger than Transport Fever 2's New Game menu offers -- up to 512 tiles (131 km) -- as a native plugin, with an MSI that coexists with tpf2-multiplayer",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "owner": {
+          "login": "silver2127",
+          "__typename": "User"
+        }
+      },
+      "r65": {
+        "id": "R_kgDOTAtNPA",
+        "nameWithOwner": "falcons-eyes/agent-fabric-docs",
+        "createdAt": "2026-06-21T06:48:53Z",
+        "pushedAt": "2026-09-10T15:17:41Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 19851,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Astro"
+        },
+        "owner": {
+          "login": "falcons-eyes",
+          "__typename": "Organization"
+        }
+      },
+      "r66": {
+        "id": "R_kgDOUVN54A",
+        "nameWithOwner": "RolandSaint/pywel",
+        "createdAt": "2026-09-10T15:14:06Z",
+        "pushedAt": "2026-09-11T03:51:25Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 886,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Unofficial portable Crimson Desert knowledge standard for AI agents. Offline JSON/JSONL, local read-only REST and stdio MCP. Historical coverage through 1.14.00.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "RolandSaint",
+          "__typename": "User"
+        }
+      },
+      "r67": {
+        "id": "R_kgDOUATHNw",
+        "nameWithOwner": "freelance5455/htkdslfkjksml",
+        "createdAt": "2026-08-22T05:53:44Z",
+        "pushedAt": "2026-09-11T15:11:43Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1892718,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "freelance5455",
+          "__typename": "User"
+        }
+      },
+      "r68": {
+        "id": "MDEwOlJlcG9zaXRvcnk0MDQzNTEwNTA=",
+        "nameWithOwner": "lonee6/myopenwrt",
+        "createdAt": "2021-09-08T13:07:15Z",
+        "pushedAt": "2026-09-11T06:50:37Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 440,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "owner": {
+          "login": "lonee6",
+          "__typename": "User"
+        }
+      },
+      "r69": {
+        "id": "R_kgDOSrZfpg",
+        "nameWithOwner": "bourumir-wyngs/spherical-wrist",
+        "createdAt": "2026-05-29T13:45:07Z",
+        "pushedAt": "2026-09-11T10:36:20Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1095,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Python bindings for rs-opw-kinematics project, aiming to expose complete functionality of this Rust crate.",
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "bourumir-wyngs",
+          "__typename": "User"
+        }
+      },
+      "r70": {
+        "id": "R_kgDOUU6Qjw",
+        "nameWithOwner": "maksimcvetkov888-crypto/zapret-auto",
+        "createdAt": "2026-09-10T12:28:25Z",
+        "pushedAt": "2026-09-10T16:03:07Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 1534,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Zero-dependency Windows service dispatcher and automated DPI strategy optimizer for Zapret.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "maksimcvetkov888-crypto",
+          "__typename": "User"
+        }
+      },
+      "r71": {
+        "id": "R_kgDOTiPWaQ",
+        "nameWithOwner": "bankerise/secure-embedded-authentication",
+        "createdAt": "2026-07-24T11:38:12Z",
+        "pushedAt": "2026-09-11T11:26:06Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1769,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Native authentication using hardened embedded WebViews (the Binance / Revolut pattern), against a  Keycloak (or own Idp), orchestrated by a confidential OAuth2 client (BFF).",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "owner": {
+          "login": "bankerise",
+          "__typename": "Organization"
+        }
+      },
+      "r72": {
+        "id": "MDEwOlJlcG9zaXRvcnk2NzUyNTA1Nw==",
+        "nameWithOwner": "dschopf/plasma-applet-qalculate",
+        "createdAt": "2016-09-06T16:16:22Z",
+        "pushedAt": "2026-09-10T15:17:39Z",
+        "stargazerCount": 16,
+        "forkCount": 5,
+        "diskUsage": 361,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Qalculate applet for plasma desktop",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "owner": {
+          "login": "dschopf",
+          "__typename": "User"
+        }
+      },
+      "r73": {
+        "id": "R_kgDOUSsJ3g",
+        "nameWithOwner": "MTVaught/gerrit-gui",
+        "createdAt": "2026-09-08T18:40:22Z",
+        "pushedAt": "2026-09-11T14:39:52Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 8487,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Team-workflow review board for Gerrit, as a resident desktop app",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "MTVaught",
+          "__typename": "User"
+        }
+      },
+      "r74": {
+        "id": "R_kgDOTIi_Zg",
+        "nameWithOwner": "1-Reality/BiliVideo-Lab",
+        "createdAt": "2026-06-29T13:07:38Z",
+        "pushedAt": "2026-09-10T15:19:45Z",
+        "stargazerCount": 9,
+        "forkCount": 1,
+        "diskUsage": 95259,
+        "isFork": true,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "长兄天工 维护的 PiliPlus 分支，顾名思义—“自由速率”~专为偏爱高倍速、高信息熵的朋友们打造：热爱博物、渴求信息、资源饥渴、节约时间…凡是想在有限的生命中了解更多信息，高效看视频的，都可以选择本软件！测试宽带真实业务速率：网络CDN诊断、高峰调控、弱网优化，助你流畅，护你冲浪！Bro-Tech's PiliPlus FreeRate: high-speed, info-dense viewing for curious, info-hungry minds—learn more in less time. Real-world throughput tests, CDN diagnostics, peak-hour tuning & weak-net optimization.",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "owner": {
+          "login": "1-Reality",
+          "__typename": "User"
+        }
+      },
+      "r75": {
+        "id": "R_kgDOSh72Jw",
+        "nameWithOwner": "ils15/open3dcalc",
+        "createdAt": "2026-05-19T12:44:36Z",
+        "pushedAt": "2026-09-11T14:07:18Z",
+        "stargazerCount": 10,
+        "forkCount": 6,
+        "diskUsage": 5149,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "ils15",
+          "__typename": "User"
+        }
+      },
+      "r76": {
+        "id": "R_kgDOJn5b_g",
+        "nameWithOwner": "input-output-hk/lace",
+        "createdAt": "2023-05-26T13:53:13Z",
+        "pushedAt": "2026-09-10T15:19:47Z",
+        "stargazerCount": 54,
+        "forkCount": 27,
+        "diskUsage": 126707,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "The Lace Wallet.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "input-output-hk",
+          "__typename": "Organization"
+        }
+      },
+      "r77": {
+        "id": "R_kgDOUUiy9Q",
+        "nameWithOwner": "oscar-pell/postit-reminders",
+        "createdAt": "2026-09-10T08:06:09Z",
+        "pushedAt": "2026-09-10T16:03:27Z",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "diskUsage": 123,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Desktop sticky notes and interactive always-on-top reminders for Linux (Ubuntu, Fedora, Arch)",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "oscar-pell",
+          "__typename": "User"
+        }
+      },
+      "r78": {
+        "id": "R_kgDOTqIyow",
+        "nameWithOwner": "yurarium/yurison",
+        "createdAt": "2026-08-01T11:52:44Z",
+        "pushedAt": "2026-09-10T15:29:06Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 73389,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Bibliographic database of Japanese yuri (百合) manga — print and web, historical and current. Japanese-sourced.",
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "yurarium",
+          "__typename": "User"
+        }
+      },
+      "r79": {
+        "id": "R_kgDOUDVfyQ",
+        "nameWithOwner": "Own716/OwnBoxForAndroid",
+        "createdAt": "2026-08-25T04:27:47Z",
+        "pushedAt": "2026-09-11T14:17:31Z",
+        "stargazerCount": 43,
+        "forkCount": 1,
+        "diskUsage": 12832,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "OwnBox for Android / sing-box v1.14.0 / universal proxy toolchain for Android / All made with AI, if there are any bugs or good suggestions, you can tell me...",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "Own716",
+          "__typename": "User"
+        }
+      },
+      "r80": {
+        "id": "R_kgDOT8DADA",
+        "nameWithOwner": "coffeefreehans/HarnessX",
+        "createdAt": "2026-08-18T05:59:15Z",
+        "pushedAt": "2026-09-11T06:18:05Z",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "diskUsage": 43898,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "DeepSeek HarnessX desktop application",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "coffeefreehans",
+          "__typename": "User"
+        }
+      },
+      "r81": {
+        "id": "R_kgDOT7MVKg",
+        "nameWithOwner": "jeojabon/JaMeter",
+        "createdAt": "2026-08-17T12:26:21Z",
+        "pushedAt": "2026-09-11T13:57:01Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 6,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "자터기(JaMeter): 아이온2(AION2) 딜미터기 · DPS meter & combat stats overlay HUD for AION2. 실시간 DPS/기여도, 전투력 대비 효율 랭킹, 허수아비 측정 · AION2 damage meter, DPS counter, combat tracker, Korean MMORPG overlay.",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "jeojabon",
+          "__typename": "User"
+        }
+      },
+      "r82": {
+        "id": "R_kgDOUSNs9w",
+        "nameWithOwner": "pierreburnn/golden-notch-releases",
+        "createdAt": "2026-09-08T11:10:40Z",
+        "pushedAt": "2026-09-10T16:01:55Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 9806,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Golden Notch — votre encoche macOS : médias, météo, calendrier, mixeur audio et outils du quotidien. Téléchargements pour Apple Silicon.",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "pierreburnn",
+          "__typename": "User"
+        }
+      },
+      "r83": {
+        "id": "R_kgDORhtQPg",
+        "nameWithOwner": "sverdlovsky/simple-video-hosting",
+        "createdAt": "2026-03-08T18:40:40Z",
+        "pushedAt": "2026-09-11T07:45:37Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 2125,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Simple Video Hosting",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "sverdlovsky",
+          "__typename": "User"
+        }
+      },
+      "r84": {
+        "id": "R_kgDORXwNzg",
+        "nameWithOwner": "thefraggle/familienwecker",
+        "createdAt": "2026-02-24T14:11:23Z",
+        "pushedAt": "2026-09-10T16:23:46Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 4780445,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "App FamWake Familienwecker",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "thefraggle",
+          "__typename": "User"
+        }
+      },
+      "r85": {
+        "id": "R_kgDOURgYUg",
+        "nameWithOwner": "kanunal99-jpg/Haritalar",
+        "createdAt": "2026-09-07T18:10:08Z",
+        "pushedAt": "2026-09-10T19:18:25Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 651,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Ai özellikli çevrimdışı çalışabilen harita",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "owner": {
+          "login": "kanunal99-jpg",
+          "__typename": "User"
+        }
+      },
+      "r86": {
+        "id": "R_kgDOPv7huw",
+        "nameWithOwner": "sanchesfer/newsletter-to-podcast",
+        "createdAt": "2025-09-15T01:50:26Z",
+        "pushedAt": "2026-09-10T15:23:37Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 118,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Convert several newsletters into one podcast",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "sanchesfer",
+          "__typename": "User"
+        }
+      },
+      "r87": {
+        "id": "R_kgDOTlB2AQ",
+        "nameWithOwner": "thcuba/Ride-the-api",
+        "createdAt": "2026-07-27T13:47:46Z",
+        "pushedAt": "2026-09-11T15:05:20Z",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "diskUsage": 2059,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": true,
+        "isMirror": false,
+        "description": "Project to use replace cloud vendors server with local server",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "owner": {
+          "login": "thcuba",
+          "__typename": "User"
+        }
+      },
+      "r88": {
+        "id": "R_kgDOUTgEEg",
+        "nameWithOwner": "Vishwas3000/ai_compression",
+        "createdAt": "2026-09-09T12:03:59Z",
+        "pushedAt": "2026-09-10T17:25:40Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 1160,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "owner": {
+          "login": "Vishwas3000",
+          "__typename": "User"
+        }
+      },
+      "r89": {
+        "id": "MDEwOlJlcG9zaXRvcnkxNDIxOTk1NDY=",
+        "nameWithOwner": "mattermost/mattermost-plugin-demo",
+        "createdAt": "2018-07-24T18:45:24Z",
+        "pushedAt": "2026-09-10T15:20:34Z",
+        "stargazerCount": 94,
+        "forkCount": 109,
+        "diskUsage": 126249,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "A demo of what Mattermost plugins can do.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "owner": {
+          "login": "mattermost",
+          "__typename": "Organization"
+        }
+      },
+      "r90": {
+        "id": "R_kgDOUQcDFQ",
+        "nameWithOwner": "nervouna/InkFlow",
+        "createdAt": "2026-09-06T18:28:46Z",
+        "pushedAt": "2026-09-11T06:39:59Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 7592,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "本地优先的 macOS 拼音输入法，支持中英混输、Emoji、简繁切换与可选的 BYOK AI 输入建议。",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "owner": {
+          "login": "nervouna",
+          "__typename": "User"
+        }
+      },
+      "r91": {
+        "id": "R_kgDOTZjwFw",
+        "nameWithOwner": "California3/task-manager-app",
+        "createdAt": "2026-07-15T17:15:23Z",
+        "pushedAt": "2026-09-10T17:57:55Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 15,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Task Manager release artifacts (binary/runtime/plugins). Artifacts-only, no source code.",
+        "licenseInfo": null,
+        "primaryLanguage": null,
+        "owner": {
+          "login": "California3",
+          "__typename": "User"
+        }
+      },
+      "r92": {
+        "id": "R_kgDOTfpcBA",
+        "nameWithOwner": "huanyuejue/Fluent-Steam-Lua",
+        "createdAt": "2026-07-22T01:08:10Z",
+        "pushedAt": "2026-09-11T07:11:30Z",
+        "stargazerCount": 116,
+        "forkCount": 9,
+        "diskUsage": 51873,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "基于 WPF + Fluent Design 开发的现代化轻量级 Steam Lua 入库管理工具，目前仅适配OpenSteamTool",
+        "licenseInfo": {
+          "spdxId": "Zlib"
+        },
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "owner": {
+          "login": "huanyuejue",
+          "__typename": "User"
+        }
+      },
+      "r93": {
+        "id": "R_kgDOT0qeJA",
+        "nameWithOwner": "rostamlabs/rostam",
+        "createdAt": "2026-08-10T22:22:24Z",
+        "pushedAt": "2026-09-11T14:52:30Z",
+        "stargazerCount": 36,
+        "forkCount": 3,
+        "diskUsage": 6627,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Open-source vector database and sub-microsecond key-value store in one Go engine — embed it as a library, run it standalone, or replicate it across a Raft cluster. HNSW/IVF/Vamana indexes, quantization, hybrid dense+sparse and BM25 search, WASM stored procedures. Apache-2.0.",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "owner": {
+          "login": "rostamlabs",
+          "__typename": "Organization"
+        }
+      },
+      "r94": {
+        "id": "R_kgDOUVOvzA",
+        "nameWithOwner": "adr14n1109/Taller-1-Ordenamiento-y-Busqueda",
+        "createdAt": "2026-09-10T15:22:02Z",
+        "pushedAt": "2026-09-10T15:22:06Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 3,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Taller completo",
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "owner": {
+          "login": "adr14n1109",
+          "__typename": "User"
+        }
+      },
+      "r95": {
+        "id": "R_kgDOSdUfmw",
+        "nameWithOwner": "azman0101/homelab",
+        "createdAt": "2026-05-14T11:21:48Z",
+        "pushedAt": "2026-09-11T08:46:37Z",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "diskUsage": 338,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": null,
+        "licenseInfo": null,
+        "primaryLanguage": {
+          "name": "Dockerfile"
+        },
+        "owner": {
+          "login": "azman0101",
+          "__typename": "User"
+        }
+      },
+      "r96": {
+        "id": "MDEwOlJlcG9zaXRvcnk0MDcwNTM0MQ==",
+        "nameWithOwner": "surveyjs/survey-library",
+        "createdAt": "2015-08-14T08:53:22Z",
+        "pushedAt": "2026-09-11T15:08:53Z",
+        "stargazerCount": 4867,
+        "forkCount": 927,
+        "diskUsage": 306375,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Open-source JavaScript form library for React, Angular, Vue, and plain JavaScript. Render dynamic JSON-driven forms, multi-step form wizards, surveys, quizzes, and other data-entry tools.",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "surveyjs",
+          "__typename": "Organization"
+        }
+      },
+      "r97": {
+        "id": "R_kgDOREDcMQ",
+        "nameWithOwner": "danifunker/rusty-backup",
+        "createdAt": "2026-01-29T12:30:46Z",
+        "pushedAt": "2026-09-10T15:26:10Z",
+        "stargazerCount": 16,
+        "forkCount": 1,
+        "diskUsage": 42718,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Backup your vintage computer hard disks using your modern one",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "owner": {
+          "login": "danifunker",
+          "__typename": "User"
+        }
+      },
+      "r98": {
+        "id": "R_kgDOGSQfNQ",
+        "nameWithOwner": "ricard33/tiloc",
+        "createdAt": "2021-10-27T11:53:37Z",
+        "pushedAt": "2026-09-11T04:21:52Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 25478,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "Tourist rental management software",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "ricard33",
+          "__typename": "User"
+        }
+      },
+      "r99": {
+        "id": "R_kgDOUVPHcg",
+        "nameWithOwner": "LiveFolio-Cloud/LiveFolio-oss",
+        "createdAt": "2026-09-10T15:25:44Z",
+        "pushedAt": "2026-09-11T03:59:23Z",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "diskUsage": 3845,
+        "isFork": false,
+        "isArchived": false,
+        "isTemplate": false,
+        "isMirror": false,
+        "description": "The sharing layer for AI-generated HTML. Local-first: version, review, and publish interactive HTML folios — with an MCP server for your agents.",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        },
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "owner": {
+          "login": "LiveFolio-Cloud",
+          "__typename": "Organization"
+        }
+      }
+    },
+    "errors": [
+      {
+        "type": "NOT_FOUND",
+        "path": [
+          "r53"
+        ],
+        "locations": [
+          {
+            "line": 56,
+            "column": 3
+          }
+        ],
+        "message": "Could not resolve to a Repository with the name 'Sans1228/storage-ipa-for-ipasign'."
+      }
+    ]
+  }
+}

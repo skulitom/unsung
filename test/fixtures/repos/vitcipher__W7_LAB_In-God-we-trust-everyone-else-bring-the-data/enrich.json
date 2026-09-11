@@ -1,0 +1,100 @@
+{
+  "nameWithOwner": "vitcipher/W7_LAB_In-God-we-trust-everyone-else-bring-the-data",
+  "description": "W7_LAB_In God we trust, everyone else bring the data",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T10:37:50Z",
+  "pushedAt": "2026-09-10T13:04:20Z",
+  "diskUsage": 2824,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 33314,
+    "edges": [
+      {
+        "size": 33314,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "vitcipher",
+    "__typename": "User",
+    "createdAt": "2026-06-15T15:26:46Z",
+    "repositories": {
+      "totalCount": 52
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T13:04:18Z",
+            "messageHeadline": "Address AI review: fix CPA simulation cap and adequacy column typing",
+            "author": {
+              "user": {
+                "login": "vitcipher"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:40:46Z",
+            "messageHeadline": "Fix precision loss and unreadable outlier scaling in exploration charts",
+            "author": {
+              "user": {
+                "login": "vitcipher"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:34:42Z",
+            "messageHeadline": "Add statistical analysis lab: marketing channel budget allocation",
+            "author": {
+              "user": {
+                "login": "vitcipher"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "lab_statistical_analysis_vittal_navale",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,269 @@
+{
+  "nameWithOwner": "jusfaming30-cmd/SMK---negeri--5-bone",
+  "description": "Website jurusan tjkt",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T08:29:57Z",
+  "pushedAt": "2026-09-11T05:22:42Z",
+  "diskUsage": 4111,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 35022,
+    "edges": [
+      {
+        "size": 35022,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "jusfaming30-cmd",
+    "__typename": "User",
+    "createdAt": "2026-09-10T08:14:42Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 37,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T05:22:41Z",
+            "messageHeadline": "Update jusfa.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:51:14Z",
+            "messageHeadline": "Update jusfa.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:48:07Z",
+            "messageHeadline": "Update jusfa.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:26:13Z",
+            "messageHeadline": "Update index.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:25:14Z",
+            "messageHeadline": "Rename untitled.html to uppa.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:23:06Z",
+            "messageHeadline": "Update index.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:22:21Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:07:13Z",
+            "messageHeadline": "Update index.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:00:48Z",
+            "messageHeadline": "Delete img/jusfa.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:55:27Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:53:22Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:50:20Z",
+            "messageHeadline": "Create .gitkeep",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:50:07Z",
+            "messageHeadline": "Delete img directory",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:49:52Z",
+            "messageHeadline": "Create .gitkeep",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:49:11Z",
+            "messageHeadline": "Create img.gitkeep",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:48:38Z",
+            "messageHeadline": "Delete img directory",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:48:06Z",
+            "messageHeadline": "Create .gitkeep",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:30:07Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:59:40Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:58:54Z",
+            "messageHeadline": "Delete index-1.html",
+            "author": {
+              "user": {
+                "login": "jusfaming30-cmd"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Jusfaming.html",
+        "type": "blob"
+      },
+      {
+        "name": "img",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "jusfa.html",
+        "type": "blob"
+      },
+      {
+        "name": "uppa.html",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,415 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkzMjY3OTg5NzU=",
+  "nameWithOwner": "cloudfoundry/csb-brokerpak-azure",
+  "description": null,
+  "homepageUrl": "",
+  "createdAt": "2021-01-04T20:23:02Z",
+  "pushedAt": "2026-09-05T13:14:48Z",
+  "diskUsage": 62102,
+  "stargazerCount": 12,
+  "forkCount": 10,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 235204,
+    "edges": [
+      {
+        "size": 188838,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 34039,
+        "node": {
+          "name": "HCL"
+        }
+      },
+      {
+        "size": 8971,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 3356,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "cff-wg-service-management"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 37
+  },
+  "tags": {
+    "totalCount": 38
+  },
+  "watchers": {
+    "totalCount": 9
+  },
+  "owner": {
+    "login": "cloudfoundry",
+    "__typename": "Organization",
+    "createdAt": "2011-02-16T18:31:25Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2034,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T13:14:39Z",
+            "messageHeadline": "build(deps): bump go.mongodb.org/mongo-driver/v2 (#1192)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T19:44:36Z",
+            "messageHeadline": "build(deps): bump github.com/onsi/gomega from 1.42.1 to 1.43.0 (#1191)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T19:38:27Z",
+            "messageHeadline": "build(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T00:09:08Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.8 to 4.37.9 (#1188)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T13:22:59Z",
+            "messageHeadline": "build(deps): bump github.com/cloudfoundry-community/go-cfenv (#1184)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T13:16:43Z",
+            "messageHeadline": "build(deps): bump go.mongodb.org/mongo-driver/v2 (#1187)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T00:07:19Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.7 to 4.37.8 (#1186)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T13:14:48Z",
+            "messageHeadline": "build(deps): bump github.com/cloudfoundry-community/go-cfenv (#1185)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T00:10:57Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.6 to 4.37.7 (#1182)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T13:24:59Z",
+            "messageHeadline": "build(deps): bump github.com/onsi/ginkgo/v2 (#1181)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T13:17:32Z",
+            "messageHeadline": "build(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore (#1180)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T19:45:43Z",
+            "messageHeadline": "build(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.32.1 (#1…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T19:38:24Z",
+            "messageHeadline": "build(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore (#1178)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T13:16:52Z",
+            "messageHeadline": "build(deps): bump github.com/cloudfoundry-community/go-cfenv (#1174)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T00:09:11Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.5 to 4.37.6 (#1173)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-06T00:10:26Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.4 to 4.37.5 (#1172)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T00:07:26Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4.37.3 to 4.37.4 (#1171)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-01T13:14:55Z",
+            "messageHeadline": "build(deps): bump github.com/cloudfoundry-community/go-cfenv (#1168)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-31T00:07:52Z",
+            "messageHeadline": "build(deps): bump github/codeql-action from 4 to 4.37.3 (#1167)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-22T00:08:55Z",
+            "messageHeadline": "build(deps): bump actions/labeler from 6 to 7 (#1166)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cfignore",
+        "type": "blob"
+      },
+      {
+        "name": ".envrc",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CODE-OF-CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODEOWNERS",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "acceptance-tests",
+        "type": "tree"
+      },
+      {
+        "name": "azure-mongodb.yml",
+        "type": "blob"
+      },
+      {
+        "name": "azure-mssql-db-failover-group.yml",
+        "type": "blob"
+      },
+      {
+        "name": "azure-mssql-db.yml",
+        "type": "blob"
+      },
+      {
+        "name": "azure-mssql-fog-run-failover.yml",
+        "type": "blob"
+      },
+      {
+        "name": "azure-redis.yml",
+        "type": "blob"
+      },
+      {
+        "name": "cf-manifest.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "integration-tests",
+        "type": "tree"
+      },
+      {
+        "name": "manifest.yml",
+        "type": "blob"
+      },
+      {
+        "name": "providers",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "service-images",
+        "type": "tree"
+      },
+      {
+        "name": "staticcheck.conf",
+        "type": "blob"
+      },
+      {
+        "name": "terraform-tests",
+        "type": "tree"
+      },
+      {
+        "name": "terraform",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "codeql.yml"
+      },
+      {
+        "name": "conventional-commit.yml"
+      },
+      {
+        "name": "focused-test.yml"
+      },
+      {
+        "name": "labeler.yml"
+      },
+      {
+        "name": "run-test.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2480,
+    "text": "# Azure Brokerpak\n\nA brokerpak for the [Cloud Service Broker](https://github.com/pivotal/cloud-service-broker) that provides support for Azure services.\n\n## Development Requirements\n\n* Either an up-to-date version of Go or [Docker](https://docs.docker.com/get-docker/)\n* make - covers development lifecycle steps\n\n## Azure account information\n\nTo provision services, the brokerpak currently requires Azure account values. The brokerpak expects them in environment variables:\n\n* ARM_SUBSCRIPTION_ID\n* ARM_TENANT_ID\n* ARM_CLIENT_ID\n* ARM_CLIENT_SECRET\n\n## Development Tools\n\nA Makefile supports the full local development lifecycle for the brokerpak.\n\nThe make targets can be run either with Docker or installing the required libraries in the local OS.\n\nAvailable make targets can be listed by running `make`.\n\n### Running with docker\n\n1. Install [Docker](https://docs.docker.com/get-docker/)\n2. Launch an interactive shell into some supported image containing all necessary tools. For example:\n   ```\n   # From the root of this repo run:\n   docker run -it --rm -v \"${PWD}:/repo\" --workdir \"/repo\" --entrypoint \"/bin/bash\" golang:latest\n   make\n   ```\n\n### Running with Go\n\n1. Make sure you have the right Go version installed (see `go.mod` file).\n\nThe make targets will build the source using the local go installation.\n\n### Other targets\n\nThere is a make target to push the broker and brokerpak into a CloudFoundry foundation. It will be necessary to manually configure a few items for the broker to work.\n\n- `make push-broker` will `cf push` the broker into CloudFoundry. Requires the `cf` cli to be installed.\n\nThe broker gets pushed into CloudFoundry as *cloud-service-broker-azure*  It will be necessary to bind a MySQL database to the broker to provide broker state storage. See [Azure Installation](./docs/azure-installation.md) docs for more info.\n\n## Broker\nThe version of Cloud Service Broker to use with this brokerpak is encoded in the `go.mod` file.\nThe make targets will use this version by default.\n\n## Tests\n\n### Example tests\n\nServices definitions declare examples for each plan they provide. Those examples are then run through the whole cycle of `provision`, `bind`, `unbind`, and `delete` when running\n\n```\nterminal 1\n>> make run\n\nterminal 2\n>> make run-examples\n```\n\n## Acceptance tests\n\nSee [acceptance tests](acceptance-tests/README.md)\n\n## Integration tests\n\nIntegration tests can be run with the following command:\n\n```bash\nmake run-integration-tests\n```\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

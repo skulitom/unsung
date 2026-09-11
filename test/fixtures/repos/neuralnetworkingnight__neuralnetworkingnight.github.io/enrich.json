@@ -1,0 +1,354 @@
+{
+  "nameWithOwner": "neuralnetworkingnight/neuralnetworkingnight.github.io",
+  "description": "Website of the Parisian Neuroscience meetup Neural Networking Night",
+  "homepageUrl": null,
+  "createdAt": "2024-07-17T11:51:55Z",
+  "pushedAt": "2026-09-07T16:09:40Z",
+  "diskUsage": 44861,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "CC0-1.0"
+  },
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 419202,
+    "edges": [
+      {
+        "size": 366378,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 49237,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1768,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 974,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 845,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 2
+  },
+  "owner": {
+    "login": "neuralnetworkingnight",
+    "__typename": "Organization",
+    "createdAt": "2024-07-17T11:44:53Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 137,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T16:09:37Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T09:49:11Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T19:03:26Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T19:02:32Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T12:21:15Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T12:16:35Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T12:07:16Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-12T14:16:52Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-13T07:09:58Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-11T13:33:34Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-10T19:02:46Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-09T07:17:07Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-09T07:16:15Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-23T09:11:18Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-23T09:10:21Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-09T08:52:28Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-14T13:10:10Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-20T16:54:59Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-12-15T15:24:20Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-10T08:17:13Z",
+            "messageHeadline": "Website update",
+            "author": {
+              "user": {
+                "login": "mgraupe"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".DS_Store",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".hugo_build.lock",
+        "type": "blob"
+      },
+      {
+        "name": ".idea",
+        "type": "tree"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "archetypes",
+        "type": "tree"
+      },
+      {
+        "name": "config.toml",
+        "type": "blob"
+      },
+      {
+        "name": "content",
+        "type": "tree"
+      },
+      {
+        "name": "layouts",
+        "type": "tree"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "publish.sh",
+        "type": "blob"
+      },
+      {
+        "name": "setup.sh",
+        "type": "blob"
+      },
+      {
+        "name": "static",
+        "type": "tree"
+      },
+      {
+        "name": "themes",
+        "type": "tree"
+      },
+      {
+        "name": "update-local.sh",
+        "type": "blob"
+      },
+      {
+        "name": "upload-repo.sh",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "static.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6408,
+    "text": "# Neural Networking Night website content\n\n\nThis repository contains all the content necessary for proper rendering of [Neural Networking Night](https://neuralnetworkingnight.github.io) website. \n\nThe website has been inspired by the web presence of the [BIASlab](https://biaslab.github.io/) and is based on the [Hugo](https://gohugo.io/) framework to build websites. \n\nIf you want to make **_minor, not accident-prone changes_**, you should login with your personal GitHub account and  directly edit the respective markdown in https://github.com/neuralnetworkingnight/neuralnetworkingnight.github.io . \n\nIf you want to make **_major changes_**, locally install the repo (see **Local repo installation**) and use  `make <command>` (see **# Modify content & Obtain previews** below).\n\n# Local repo installation\n\nExecute the following commands, REPLACING \" < path-to-folder > \" with the one you prefer:\n\n```\ngit clone git@github.com:neuralnetworkingnight/neuralnetworkingnight.github.io.git <path-to-folder>\ncd <path-to-folder>\nmake setup\n```\n<br>\nNote: `make setup` works only on Mac and Linux. In other cases, or if you encounter issues, manually install dependencies following setup.sh.\n\n\n# Update local repo (IMPORTANT)\n\nBEFORE ANY MODIFICATION, on the terminal, run the following:\n\n`cd <website-folder>` (substitute <website-folder> with the correct path)<br>\n`make update-local`\n   \nNOTE: this will run `git pull`. If you applied changes before running this command, these WILL BE LOST. \n\n# Modify content & Obtain previews\n\nAll repo management can be easily handled using `make` commands, that can be called from the main folder.\n\n- `make help`: show the present list;\n- `make setup`: install all repo necessary stuff (hugo software, the used theme, etc.) \n- `make install-theme`: install hugo dependencies.\n- `make preview`: provides a preview of the website following local changes;\n- `make update-local`: update the repo (MANDATORY BEFORE APPLYING ANY CHANGE);\n- `make upload-repo`: upload on GitHub local changes (without modifying the public website);\n- `make publish`: applies local changes to the website;\n- `make build-website`: locally build the website;\n\n## If you only want to make minor (text etc.) changes without the terminal\n\nYou can directly edit markdown files (.md) on the GitHub repository in your browser, without needing to pull and push the code. If you want to make more complex modifications, follow the instructions below.\n\n## Modifying content and update repo\n\nBEFORE APPLYING CHANGES, make sure none else is updating the repo, otherwise you will probably be forced to deal with git :)\nEverytime you want to apply changes to the repo, please follow the following instructions:\n\n- (First time ONLY): create a local version of the repository (follow ___Local repo installation___);\n- within the main folder, run `make update-local`;\n- apply changes to any file in the repo, apart from the ___theme___ folder;\n- for a preview of the changes, run `make preview` (it should automatically open it on the browser; if not, in the \tterminal it will show the link to use, usually http://localhost:1313/ )\n- run `make upload-repo`, for saving changes on GitHub;\n- enter the commit message, describing what you modified. PLEASE BE CLEAR AND EXHAUSTIVE: if some changes will break the website, it will help (you and the others) understanding the origin of the problem  \n\n## Publishing local changes\n\nFor updating local changes, run from terminal (main website folder):\n\n`make publish`\n\nNote: this command doesn't update the repo, but only the website. If you didn't yet, run `make upload-repo`.\n\n# Git-PRO users\n\nIf you are confident in using git, you can of course use the standard git ways for managing this repo. This will allow you to use all the powerful git tools. Just make an example, to keep your changes on your local version (aka `branch`) and update the online version subsequently. \n\n[//]: # ()\n[//]: # (## Add new content &#40;don't use it for the moment&#41;)\n\n[//]: # (To add new content use `hugo new` command:)\n\n[//]: # ()\n[//]: # (        `hugo new post/post-title.md`)\n\n[//]: # ()\n[//]: # (This way `hugo` will generate a template markdown file based on corresponding archetype with some of attributes filled with default values &#40;creation timestamp, etc.&#41;, which you can later edit.)\n\n[//]: # ()\n[//]: # (More information on adding content can be found in the Hugo documentation in [Content]&#40;https://gohugo.io/content/organization/&#41; and [Getting Started]&#40;https://gohugo.io/overview/quickstart/&#41; sections.)\n\n[//]: # ()\n[//]: # (## How can I publish my Jupyter notebook on this website?  &#40;don't use it for the moment&#41;)\n\n[//]: # ()\n[//]: # (1. Convert the notebook using `juputer-nbconvert` command, specifying Markdown as an output format:)\n\n[//]: # ()\n[//]: # (        jupyter-nbconvert --to markdown ./notebook.ipynb)\n\n[//]: # ()\n[//]: # (    This command should convert your notebook to markdown file named `notebook.md` and create a separate directory for the files required for proper rendering of Markdown file named `notebook_files`.)\n\n[//]: # ()\n[//]: # (2. Move the `notebook_files` directory somewhere to the `static` folder of the website \"notebook_files\". Open the `notebook.md` file and edit all the links to the folder, omitting `/static` part of the path. For example:)\n\n[//]: # ()\n[//]: # (        ![png]&#40;notebook_files/image.png&#41; --> ![png]&#40;/images/notebook_files/image.png&#41;)\n\n[//]: # ()\n[//]: # (3. Create a new post:)\n\n[//]: # ()\n[//]: # (        hugo new post/notebook.md)\n\n[//]: # ()\n[//]: # (    and copy content from your original `notebook.md` file to the newly created post. This way Hugo will automatically populate some fields in the header of the file.)\n\n\n[//]: # (All the basic build operations might be carried with the use of `make` command. If you do not have a working installation of GNU Make, study the contents of the `Makefile` and use the corresponding commands to operate the website. Currently following commands are defined in the file:)\n\n[//]: # (    * `build-website`: Generates all the static content for the website. )\n[//]: # (    * `preview-website`: Builds the website content and starts Hugo debugging server with live reload enabled. )\n[//]: # (* `publish`: Publishes the contents of the `./public` directory to the `master` branch of https://biaslab.github.io repository.)\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

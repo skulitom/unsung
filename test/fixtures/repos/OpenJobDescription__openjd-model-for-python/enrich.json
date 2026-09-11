@@ -1,0 +1,436 @@
+{
+  "id": "R_kgDOKNhT9Q",
+  "nameWithOwner": "OpenJobDescription/openjd-model-for-python",
+  "description": "Provides a Python implementation of the data model for Open Job Description's template schemas.",
+  "homepageUrl": "https://github.com/OpenJobDescription/openjd-specifications/wiki",
+  "createdAt": "2023-08-30T21:28:48Z",
+  "pushedAt": "2026-09-10T23:32:38Z",
+  "diskUsage": 1277,
+  "stargazerCount": 15,
+  "forkCount": 23,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 2843387,
+    "edges": [
+      {
+        "size": 2347104,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 480677,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 15442,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 164,
+        "node": {
+          "name": "Handlebars"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 34
+  },
+  "tags": {
+    "totalCount": 39
+  },
+  "watchers": {
+    "totalCount": 4
+  },
+  "owner": {
+    "login": "OpenJobDescription",
+    "__typename": "Organization",
+    "createdAt": "2023-08-16T21:08:52Z"
+  },
+  "defaultBranchRef": {
+    "name": "mainline",
+    "target": {
+      "history": {
+        "totalCount": 269,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T23:19:44Z",
+            "messageHeadline": "chore(release): 0.11.11 (#360)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T20:20:48Z",
+            "messageHeadline": "chore(deps): Bump openjd-* Rust crates to 0.7.0 (#359)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:03:18Z",
+            "messageHeadline": "chore(release): 0.11.10 (#358)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T22:38:02Z",
+            "messageHeadline": "chore: bump openjd crate versions (#357)",
+            "author": {
+              "user": {
+                "login": "seant-aws"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T02:03:55Z",
+            "messageHeadline": "fix: Make task parameter type names case-insensitive under EXPR (#350)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:45:42Z",
+            "messageHeadline": "chore(release): 0.11.9 (#354)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T23:20:07Z",
+            "messageHeadline": "fix: coerce LIST[BOOL] items per RFC 0007 §2.15 (#352)",
+            "author": {
+              "user": {
+                "login": "wyongzhi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:08:47Z",
+            "messageHeadline": "fix: Evaluate step-level let bindings in template scope (#341)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T18:01:52Z",
+            "messageHeadline": "chore(release): 0.11.8 (#351)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:14:06Z",
+            "messageHeadline": "chore(deps): Bump openjd-* Rust crates to the 0.6.0 release (#349)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T00:39:25Z",
+            "messageHeadline": "fix: Keep the trailing zeros of a floatstring range element (#345)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T22:08:05Z",
+            "messageHeadline": "fix: Enforce the 512-character cap on a let binding identifier (#348)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T19:09:30Z",
+            "messageHeadline": "feat(model): Expose chunks_task_count_override on the v1 iterator (#344)",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T23:57:08Z",
+            "messageHeadline": "chore(release): 0.11.7 (#347)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T20:41:26Z",
+            "messageHeadline": "chore(deps): Bump openjd-* Rust crates to latest crates.io releases",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T23:43:08Z",
+            "messageHeadline": "fix: Bound floatstring range element expansion by the field's char cap",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T23:43:08Z",
+            "messageHeadline": "fix: Render floatstring range elements exactly and in plain notation",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T23:43:08Z",
+            "messageHeadline": "chore: Update THIRD-PARTY-LICENSES for pydantic 2.13.5",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T23:43:08Z",
+            "messageHeadline": "fix: Normalize intstring/floatstring task parameter range elements",
+            "author": {
+              "user": {
+                "login": "leongdl"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T22:05:21Z",
+            "messageHeadline": "chore(release): 0.11.6 (#340)",
+            "author": {
+              "user": {
+                "login": "client-software-ci"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".semantic_release",
+        "type": "tree"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "DEVELOPMENT.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "THIRD-PARTY-LICENSES.txt",
+        "type": "blob"
+      },
+      {
+        "name": "_build_backend.py",
+        "type": "blob"
+      },
+      {
+        "name": "about.hbs",
+        "type": "blob"
+      },
+      {
+        "name": "about.toml",
+        "type": "blob"
+      },
+      {
+        "name": "deny.toml",
+        "type": "blob"
+      },
+      {
+        "name": "hatch.toml",
+        "type": "blob"
+      },
+      {
+        "name": "pipeline",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "reports",
+        "type": "tree"
+      },
+      {
+        "name": "requirements-development.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-release.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-testing.txt",
+        "type": "blob"
+      },
+      {
+        "name": "rust-bindings",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "specs",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "auto_approve.yml"
+      },
+      {
+        "name": "claude_pr_review.yml"
+      },
+      {
+        "name": "claude_pr_review_collect.yml"
+      },
+      {
+        "name": "code_quality.yml"
+      },
+      {
+        "name": "codeql.yml"
+      },
+      {
+        "name": "on_opened_pr.yml"
+      },
+      {
+        "name": "record_pr.yml"
+      },
+      {
+        "name": "release_bump.yml"
+      },
+      {
+        "name": "release_publish.yml"
+      },
+      {
+        "name": "responded.yml"
+      },
+      {
+        "name": "rust_quality.yml"
+      },
+      {
+        "name": "stale_prs_and_issues.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13264,
+    "text": "# Open Job Description - Models For Python\n\n[![pypi](https://img.shields.io/pypi/v/openjd-model.svg)](https://pypi.python.org/pypi/openjd-model)\n[![python](https://img.shields.io/pypi/pyversions/openjd-model.svg?style=flat)](https://pypi.python.org/pypi/openjd-model)\n[![license](https://img.shields.io/pypi/l/openjd-model.svg?style=flat)](https://github.com/OpenJobDescription/openjd-model/blob/mainline/LICENSE)\n\nOpen Job Description is a flexible open specification for defining render jobs which are portable\nbetween studios and render management solutions. This package provides a Python implementation of the\ndata model for Open Job Description's template schemas. It can parse, validate, create JSON/Yaml\ndocuments for the Open Job Description specification, and more. A main use-case that this library\ntargets is interoperability by creating applications to translate a Job from Open Job Description\nto the render management software of your choice.\n\nFor more information about Open Job Description and our goals with it, please see the\nOpen Job Description [Wiki on GitHub](https://github.com/OpenJobDescription/openjd-specifications/wiki).\n\n## Compatibility\n\nThis library requires:\n\n1. Python 3.9 or higher; and\n2. Linux, MacOS, or Windows operating system.\n\n## Versioning\n\nThis package's version follows [Semantic Versioning 2.0](https://semver.org/), but is still considered to be in its\ninitial development, thus backwards incompatible versions are denoted by minor version bumps. To help illustrate how\nversions will increment during this initial development stage, they are described below:\n\n1. The MAJOR version is currently 0, indicating initial development.\n2. The MINOR version is currently incremented when backwards incompatible changes are introduced to the public API.\n3. The PATCH version is currently incremented when bug fixes or backwards compatible changes are introduced to the public API.\n\n## Contributing\n\nWe encourage all contributions to this package.  Whether it's a bug report, new feature, correction, or additional\ndocumentation, we greatly value feedback and contributions from our community.\n\nPlease see [CONTRIBUTING.md](./CONTRIBUTING.md) for our contributing guidelines.\n\n## Example Usage\n\n### Reading and Validating a Job Template\n\nTo validate a job template, you can read the JSON or YAML input\ninto Python data structures and then pass the result to `decode_job_template`.\nBy default, this will accept templates of any supported version number with\nno extensions enabled. Use `decode_environment_template` for environment templates.\n\nTo accept extensions in templates, provide the list of the names you support. See the\n[Open Job Description 2023-09 specification](https://github.com/OpenJobDescription/openjd-specifications/wiki/2023-09-Template-Schemas#1-root-elements)\nfor the list of extensions available.\n\n```python\nfrom openjd.model import DocumentType, decode_job_template, document_string_to_object\n\n# String containing the json of the job template\ntemplate_string = \"\"\"specificationVersion: jobtemplate-2023-09\nname: DemoJob\nsteps:\n  - name: DemoStep\n    script:\n      actions:\n        onRun:\n          command: python\n          args: [\"-c\", \"print('Hello')\"]\n\"\"\"\n\n# You can use 'json.loads' or 'yaml.safe_load' directly as well\ntemplate_object = document_string_to_object(\n    document=template_string,\n    document_type=DocumentType.YAML\n)\n\n# Raises a DecodeValidationError if it fails.\njob_template = decode_job_template(template=template_object, supported_extensions=[\"TASK_CHUNKING\"])\n```\n\nOnce you have the Open Job Description model object, you can use the `model_to_object` function\nto convert it into an object suitable for converting to JSON or YAML.\n\n```python\nimport json\nfrom openjd.model import model_to_object\n\nobj = model_to_object(model=job_template)\nprint(json.dumps(obj, indent=2))\n```\n\n### Creating Template Model Objects\n\nAs an alternative to assembling full job templates as raw data following the specification data model,\nyou can use the library to construct model objects of components, such as for StepTemplates,\nand\n```python\nimport json\nfrom openjd.model import parse_model, model_to_object\nfrom openjd.model.v2023_09 import StepTemplate\n\nextensions_list = [\"TASK_CHUNKING\"]\n\nstep_template = parse_model(\n    model=StepTemplate,\n    obj={\n        \"name\": \"DemoStep\",\n        \"script\": {\n            \"actions\": {\"onRun\": {\"command\": \"python\", \"args\": [\"-c\", \"print('Hello world!')\"]}}\n        },\n    },\n    supported_extensions=extensions_list,\n)\n\nobj = model_to_object(model=step_template)\nprint(json.dumps(obj, indent=2))\n```\n```python\nimport json\nfrom openjd.model import model_to_object\nfrom openjd.model.v2023_09 import (\n    StepTemplate,\n    StepScript,\n    StepActions,\n    Action,\n    ArgString,\n    CommandString,\n    ModelParsingContext,\n)\n\ncontext = ModelParsingContext(supported_extensions=[\"TASK_CHUNKING\"])\n\nstep_template = StepTemplate(\n    name=\"DemoStep\",\n    script=StepScript(\n        actions=StepActions(\n            onRun=Action(\n                command=CommandString(\"python\", context=context),\n                args=[\n                    ArgString(\"-c\", context=context),\n                    ArgString(\"print('Hello world!')\", context=context),\n                ],\n            )\n        )\n    ),\n)\n\nobj = model_to_object(model=step_template)\nprint(json.dumps(obj, indent=2))\n```\n```python\nimport os\nfrom pathlib import Path\nfrom openjd.model import (\n    DecodeValidationError,\n    create_job,\n    decode_job_template,\n    preprocess_job_parameters\n)\n\njob_template_path = Path(\"/absolute/path/to/job/template.json\")\njob_template = decode_job_template(\n    template={\n        \"name\": \"DemoJob\",\n        \"specificationVersion\": \"jobtemplate-2023-09\",\n        \"parameterDefinitions\": [\n            { \"name\": \"Foo\", \"type\": \"INT\" }\n        ],\n        \"steps\": [\n            {\n                \"name\": \"DemoStep\",\n                \"script\": {\n                    \"actions\": {\n                        \"onRun\": { \"command\": \"python\", \"args\": [ \"-c\", \"print(r'Foo={{Param.Foo}}')\" ] }\n                    }\n                }\n            }\n        ]\n    }\n)\ntry:\n    parameters = preprocess_job_parameters(\n        job_template=job_template,\n        job_parameter_values={\n            \"Foo\": \"12\"\n        },\n        job_template_dir=job_template_path.parent,\n        current_working_dir=Path(os.getcwd())\n    )\n    job = create_job(\n        job_template=job_template,\n        job_parameter_values=parameters\n    )\nexcept (DecodeValidationError, RuntimeError) as e:\n    print(str(e))\n```\n```python\nfrom openjd.model import (\n    StepDependencyGraph,\n    create_job,\n    decode_job_template\n)\n\njob_template = decode_job_template(\n    template={\n        \"name\": \"DemoJob\",\n        \"specificationVersion\": \"jobtemplate-2023-09\",\n        \"steps\": [\n            {\n                \"name\": \"Step1\",\n                \"script\": {\n                    \"actions\": {\n                        \"onRun\": { \"command\": \"python\", \"args\": [ \"-c\", \"print('Step1')\" ] }\n                    }\n                }\n            },\n            {\n                \"name\": \"Step2\",\n                \"dependencies\": [ { \"dependsOn\": \"Step1\" }, { \"dependsOn\": \"Step3\" }],\n                \"script\": {\n                    \"actions\": {\n                        \"onRun\": { \"command\": \"python\", \"args\": [ \"-c\", \"print('Step2')\" ] }\n                    }\n                }\n            },\n            {\n                \"name\": \"Step3\",\n                \"script\": {\n                    \"actions\": {\n                        \"onRun\": { \"command\": \"echo\", \"args\": [ \"Step3\" ] }\n                    }\n                }\n            },\n        ]\n    }\n)\njob = create_job(job_template=job_template, job_parameter_values={})\ndependency_graph = StepDependencyGraph(job=job)\n\nfor step in job.steps:\n    step_node = dependency_graph.step_node(stepname=step.name)\n    if step_node.in_edges:\n        name_list = ', '.join(edge.origin.step.name for edge in step_node.in_edges)\n        print(f\"Step '{step.name}' depends upon: {name_list}\")\n    if step_node.out_edges:\n\n\n```\n```python\nfrom openjd.model import (\n    StepParameterSpaceIterator,\n    create_job,\n```"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 24099
+  },
+  "claude": null
+}

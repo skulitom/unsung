@@ -1,0 +1,511 @@
+{
+  "id": "R_kgDOShtsCw",
+  "nameWithOwner": "danieltvela/seneschal-voicebot",
+  "description": "Voice chatbot to use your personal AI agents.",
+  "homepageUrl": "http://seneschal.veladan.org/",
+  "createdAt": "2026-05-19T08:20:42Z",
+  "pushedAt": "2026-09-10T21:19:17Z",
+  "diskUsage": 14055,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 2700236,
+    "edges": [
+      {
+        "size": 1931003,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 327648,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 201276,
+        "node": {
+          "name": "Swift"
+        }
+      },
+      {
+        "size": 158745,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 53516,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 24473,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 2525,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 1050,
+        "node": {
+          "name": "C"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "assistant"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 8
+  },
+  "tags": {
+    "totalCount": 9
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "danieltvela",
+    "__typename": "User",
+    "createdAt": "2011-08-24T12:43:54Z",
+    "repositories": {
+      "totalCount": 98
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 592,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T20:23:39Z",
+            "messageHeadline": "thinking style flags in configuration",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-10T19:07:14Z",
+            "messageHeadline": "reassning content",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:11:37Z",
+            "messageHeadline": "kokoro",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:20:39Z",
+            "messageHeadline": "voice casting for kokoro",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T11:56:19Z",
+            "messageHeadline": "adapt code to run in linux",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-07T20:47:53Z",
+            "messageHeadline": "feat: add native deep worker (issue #236)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-05T15:08:55Z",
+            "messageHeadline": "remove openclode skills",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:57:38Z",
+            "messageHeadline": "fix Release CI",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:44:47Z",
+            "messageHeadline": "remove intel build because Parakeet doesn't support it",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:00:39Z",
+            "messageHeadline": "docs: changelog for v0.1.0-alpha.9",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T13:26:12Z",
+            "messageHeadline": "fix git workflow",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T12:36:46Z",
+            "messageHeadline": "feat: WAKE_WORD accepts comma-separated wake word list (issue #228)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T12:36:46Z",
+            "messageHeadline": "chore: apply rustfmt to stt test helpers (pre-existing fmt debt block…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T12:27:53Z",
+            "messageHeadline": "Allow click in bottom bar to change ambient mode",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T12:05:12Z",
+            "messageHeadline": "Configure Parakket as default STT provider",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T11:12:39Z",
+            "messageHeadline": "qa",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T18:10:29Z",
+            "messageHeadline": "fix subagent responses",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T17:11:00Z",
+            "messageHeadline": "llm parameters configurable",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-19T18:44:06Z",
+            "messageHeadline": "Remove secondary LLM",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-18T07:46:23Z",
+            "messageHeadline": "Fix #220: TUI stuck in TRANSCRIBING — state reset on rejected turns",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".ignore",
+        "type": "blob"
+      },
+      {
+        "name": ".mcp.json",
+        "type": "blob"
+      },
+      {
+        "name": ".opencode",
+        "type": "tree"
+      },
+      {
+        "name": ".runner",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "ARCH.md",
+        "type": "blob"
+      },
+      {
+        "name": "BRAND.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONSTITUTION.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "COREML_SETUP.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml.patch",
+        "type": "blob"
+      },
+      {
+        "name": "Cross.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-SENESCHAL.md",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "QA_TEST.md",
+        "type": "blob"
+      },
+      {
+        "name": "ROADMAP.md",
+        "type": "blob"
+      },
+      {
+        "name": "TASKS.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "build.rs",
+        "type": "blob"
+      },
+      {
+        "name": "clients",
+        "type": "tree"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "cross",
+        "type": "tree"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "db-inspect",
+        "type": "tree"
+      },
+      {
+        "name": "doc",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "install.sh",
+        "type": "blob"
+      },
+      {
+        "name": "kokoro-voices-casting",
+        "type": "tree"
+      },
+      {
+        "name": "linux-seneschal.sh",
+        "type": "blob"
+      },
+      {
+        "name": "mac-seneschal.sh",
+        "type": "blob"
+      },
+      {
+        "name": "models",
+        "type": "tree"
+      },
+      {
+        "name": "opencode.json",
+        "type": "blob"
+      },
+      {
+        "name": "patches",
+        "type": "tree"
+      },
+      {
+        "name": "provider",
+        "type": "tree"
+      },
+      {
+        "name": "readme.md",
+        "type": "blob"
+      },
+      {
+        "name": "rust-toolchain.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "secondary-agent.md",
+        "type": "blob"
+      },
+      {
+        "name": "seneschal-architecture.md",
+        "type": "blob"
+      },
+      {
+        "name": "seneschal-dream.sh",
+        "type": "blob"
+      },
+      {
+        "name": "seneschal.dev.toml",
+        "type": "blob"
+      },
+      {
+        "name": "seneschal.pro.toml",
+        "type": "blob"
+      },
+      {
+        "name": "site",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tasks",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "token-usage-output.txt",
+        "type": "blob"
+      },
+      {
+        "name": "uninstall.sh",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "install-test.yml.disable"
+      },
+      {
+        "name": "release.yml"
+      },
+      {
+        "name": "static.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "readme.md",
+    "byteSize": 30329,
+    "text": "# Seneschal\n\n<div align=\"center\">\n\n**An open-source voice-first AI butler built in Rust for macOS.**\n\nReal-time voice interaction with natural conversation flow, proactive assistance, and computer automation.\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](https://www.rust-lang.org)\n[![Platform](https://img.shields.io/badge/platform-macOS-red.svg)](https://www.apple.com/macos)\n\n> *Formerly \"Jarvis Voicebot\". Now Seneschal. Jarvis is a trademark of Marvel Studios/Disney. This is an independent fan project with no commercial intent. See [LICENSE-SENESCHAL.md](LICENSE-SENESCHAL.md) for full details.*\n\n</div>\n\n---\n\n## Quick Start\n\n### Quick Install (recommended for end users)\n\n```bash\ncurl -fsSL https://raw.githubusercontent.com/danieltvela/seneschal-voicebot/refs/heads/master/install.sh | sh\n```\n\nThe installer downloads all required models and sets up a working configuration.\n\n### For Developers\n\n#### 1. Clone the repository\n\n```bash\ngit clone https://github.com/danieltvela/seneschal-voicebot.git\ncd seneschal\n```\n\n### 2. Configure environment variables\n\nCopy the example config and adjust:\n\n```bash\ncp .env.example .env\nnano .env\n```\n\n**Minimum required configuration:**\n\n| Variable | Default | Description |\n|----------|---------|-------------|\n| `WHISPER_MODEL` | - | Path to Whisper `.bin` model (e.g., `./models/ggml-small.bin`) |\n| `LLM_URL` | `http://127.0.0.1:8000` | LLM server URL |\n| `LLM_MODEL` | `local-model` | Model name/path for the LLM provider |\n\n**Example `.env`:**\n\n```env\nWHISPER_MODEL=./models/ggml-small.bin\nWHISPER_COREML=0\nLLM_URL=http://127.0.0.1:8000\nLLM_MODEL=mlx-community/Qwen3-8B-4bit\nTTS_PROVIDER=avspeech\nAVSPEECH_VOICE=\"Jorge (Enhanced)\"\nAVSPEECH_RATE=0.55\nSENECHAL_LANGUAGE=es\n```\n\n### 3. Start the LLM server\n\nSeneschal uses Apple MLX-based servers for low-latency inference on Apple Silicon.\n\n**Using mlx-lm (recommended):**\n\n```bash\n./scripts/start-mlx-lm.sh mlx-community/Qwen3-8B-4bit\n# Set in .env: LLM_URL=http://127.0.0.1:8000\n```\n\nOr manually:\n\n```bash\nmlx_lm.server \\\n  --model mlx-community/Qwen3-8B-4bit \\\n  --host 127.0.0.1 --port 8000 \\\n  --prompt-cache-size 1 \\\n  --chat-template-args '{\"enable_thinking\": false}'\n```\n\n**Using oMLX (alternative - persistent tiered KV cache):**\n\n```bash\n./scripts/start-omlx.sh ~/models\n# Set in .env: LLM_URL=http://127.0.0.1:8001\n```\n\n### 4. Build and run Seneschal\n\n**Standard build (AVSpeech TTS - default on macOS):**\n\n```bash\ncargo build --release\ncargo run --release\n```\n\n**With AVSpeech feature flag (explicit):**\n\n```bash\ncargo build --features avspeech --release\ncargo run --features avspeech --release\n```\n\n**With Kokoro TTS (high-quality, ONNX-based):**\n\n```bash\ncargo build --features kokoro --release\nTTS_PROVIDER=kokoro cargo run --features kokoro --release\n```\n\n**With terminal UI:**\n\n```bash\ncargo build --features tui --release\ncargo run --features tui --release\n```\n\n**With HTTP Control API + SSE:**\n\n```bash\ncargo build --features control --release\nCONTROL_PORT=9001 cargo run --features control --release\n```\n\n**List available voices for the active TTS provider:**\n\n```bash\ncargo run -- --list-voices\n# or\nLIST_VOICES=1 cargo run\n```\n\nThe output depends on the `TTS_PROVIDER` setting:\n- `avspeech` - lists all AVSpeechSynthesizer voices (name, language, quality, gender, identifier)\n- `kokoro` - lists all Kokoro ONNX voice styles (voice ID, language, gender)\n\n---\n\n## Overview\n\nSeneschal is a **voice-first AI assistant** designed for natural, real-time conversation with your computer. Unlike traditional chatbots that you type to, it listens and speaks. It runs as an always-on background daemon that responds instantly when you talk.\n\n### What makes it different?\n\nA chatbot answers questions. A butler anticipates needs.\n\nSeneschal is built from the ground up for voice interaction:\n- **Always-listening** with automatic speech detection (no push-to-talk)\n- **Real-time responses** under 3 second latency\n- **Natural conversation flow** with context awareness and personality\n- **B\n\n\n```bash\n# Stream all pipeline events\ncurl -N http://127.0.0.1:9001/control/events\n\n# Current state snapshot\ncurl http://127.0.0.1:9001/control/state\n\n# Mute TTS\ncurl -X POST http://127.0.0.1:9001/control/mute \\\n  -H 'Content-Type: application/json' -d '{\"muted\":true}'\n\n# Barge in\ncurl -X POST http://127.0.0.1:9001/control/barge_in\n\n# Send text input\ncurl -X POST http://127.0.0.1:9001/control/input \\\n  -H 'Content-Type: application/json' -d '{\"text\":\"hola\"}'\n```\n```toml\nname = \"my_plugin\"\nassistant_name = \"My Assistant\"\ndescription = \"My custom plugin\"\nversion = \"0.1.0\"\n\n[prompt]\nmode = \"append\"\ncontent = \"You are a specialized assistant. Be concise.\"\n\n[[mcp_servers]]\nname = \"my_tool\"\ncommand = \"bunx my-mcp-server\"\ntool_timeout_secs = 30\n\n[config_overrides]\nllm_temperature = 0.1\nllm_max_tokens = 2048\n```\n```toml\nplugins = [\"path/to/my-plugin\"]\nactive_plugin = \"my_plugin\"\n```\n```bash\n# Rust toolchain\nrustup install stable\n\n# Optional: Kokoro TTS requires espeak-ng\nbrew install espeak-ng\n\n# Optional: Node.js for MCP servers\nbrew install node\n```\n```bash\n# Download whisper.cpp model (choose size: tiny, small, base, medium, large-v3-turbo)\nwget https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin -O ./models/ggml-small.bin\n\n# Optional: CoreML encoder for faster STT (requires conversion)\n# See CONTRIBUTING.md for CoreML conversion instructions\n```\n```bash\n# Download a GGUF model (Qwen2.5-7B recommended)\nwget https://hgpu.space/file/hjz3n4QwZbU/Qwen2.5-7B-Instruct-Q4_K_M.gguf -O ./models/Qwen2.5-7B\n\n# Alternative: mlx-lm format (auto-downloads from HuggingFace)\n# No manual download needed for mlx-lm\n```\n```bash\n# Download Silero VAD model\nwget https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx -O ./models/ggml-silero-vad.bin\n```\n```bash\n# Download Parakeet TDT model (25 languages, offline)\n# From HuggingFace: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2\n# Place tokenizer.json, config.json, and ONNX files in the directory below\n```\n```bash\n# Download Kokoro ONNX model and voices\nwget https://github.com/leloykun/kokoro/releases/download/v1.0/kokoro-v1.0.onnx -O ./models/kokoro-v1.0.onnx\nwget https://github.com/leloykun/kokoro/releases/download/v1.0/voices-v1.0.bin -O ./models/voices-v1.0.bin\n```\n```\n+--------------------------------------------------+\n│         SENESCHAL (fast layer)                   │\n│                                                  │\n│  STT -> LLM (7B) -> TTS                         │\n│  Barge-in, conversation awareness                │\n│  Proactive suggestions (inference daemon)        │\n│  Voice-local tools + MCP tool proxy              │\n│  EYES: periodic screen capture + vision analysis │\n│                                                  │\n│  Complex tasks -> delegate to AGENT              │\n+--------------------------------------------------+\n\n+--------------------------------------------------+\n│           EXTERNAL AGENT (power layer)           │\n│                                                  │\n│  Full tool suite                                 │\n│  File system, calendar, web, email               │\n│  Long-running tasks                              │\n+--------------------------------------------------+\n```\n```bash\nSTT_PROVIDER=whisper cargo run\n```\n```bash\n# Build with parakeet support\ncargo build --release --features parakeet\n\n```\n```bash\n# Build with speech support\ncargo build --release --features speech\n\n```\n```bash\n# Standard build\ncargo build --release\n\n\n\n\n\n\n\n\n\n\n\n\n```\n```bash\n# Conversation flow only\nRUST_LOG=pipeline=info cargo run\n\n\n```\n```bash\n# mlx-lm benchmark\n./scripts/bench-mlx.sh mlx-community/Qwen3-8B-4bit\n\n```\n```bash\n# More responsive (may cut mid-pause)\nVAD_SILENCE_MS=150 cargo run\n\n```\n```bash\nAUDIO_INPUT_DEVICE=\"Microphone\"\nAUDIO_OUTPUT_DEVICE=\"Speaker\"\n```\n```bash\nAUDIO_INPUT_DEVICE=\"Poly Sync 20-M#0\"   # first match (USB)\nAUDIO_INPUT_DEVICE=\"Poly Sync 20-M#1\"   # second match (Bluetooth)\n```\n```bash\n# Clean previous build\ncargo clean -p whisper-cpp-plus-sys\n\n```"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 3425
+  },
+  "claude": null
+}

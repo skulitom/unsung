@@ -1,0 +1,382 @@
+{
+  "id": "R_kgDOT85-cw",
+  "nameWithOwner": "wonderingStars/foxsdr",
+  "description": "FoxSDR — a from-scratch SDR receiver for Windows: spectrum/waterfall, browser remote control with full feature parity, and a decoder plugin ecosystem (ADS-B, AIS, APRS, POCSAG, SSTV). Linux build in development, not usable yet. Free for noncommercial use (PolyForm Noncommercial).",
+  "homepageUrl": "https://foxsdr.com",
+  "createdAt": "2026-08-18T23:57:24Z",
+  "pushedAt": "2026-09-10T07:37:41Z",
+  "diskUsage": 14169,
+  "stargazerCount": 8,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 9410895,
+    "edges": [
+      {
+        "size": 9283805,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 41866,
+        "node": {
+          "name": "PowerShell"
+        }
+      },
+      {
+        "size": 31256,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 27005,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 20054,
+        "node": {
+          "name": "Inno Setup"
+        }
+      },
+      {
+        "size": 5783,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 1126,
+        "node": {
+          "name": "Batchfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 20
+  },
+  "tags": {
+    "totalCount": 20
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "wonderingStars",
+    "__typename": "User",
+    "createdAt": "2021-02-03T11:54:30Z",
+    "repositories": {
+      "totalCount": 26
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 154,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T07:36:06Z",
+            "messageHeadline": "0.90.1: no device scan while a radio is open, and a radio the driver …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T19:32:14Z",
+            "messageHeadline": "0.90.0: the tuning knob comes off the deck, and the two meters are vi…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T19:00:08Z",
+            "messageHeadline": "0.89.0: a sample-rate change is made on a quiet stream, and the log c…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T17:57:29Z",
+            "messageHeadline": "0.88.2: setup can clear a profile and the uninstaller offers to, and …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T15:16:05Z",
+            "messageHeadline": "0.88.0: the frequency counter becomes a military tuner plate, with a …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T00:38:20Z",
+            "messageHeadline": "0.87.0: the sound path keeps a lead, a decoder tunes the radio when i…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:19:29Z",
+            "messageHeadline": "0.86.0: the receiver position can be read from a GPS on a serial port…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:59:08Z",
+            "messageHeadline": "0.85.0: the scanner can be told to move on, the main window is shown …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T12:08:02Z",
+            "messageHeadline": "0.84.1: the counter and the volume dial move 64 units right, off the …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T11:59:55Z",
+            "messageHeadline": "0.84.1: band-plan names keep off the spectrum header, off each other,…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T10:41:23Z",
+            "messageHeadline": "0.84.0: the bench is lettered in Georgia, and everything that was fit…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T09:22:55Z",
+            "messageHeadline": "0.83.0: a plugin can be an instrument, and eight of them are",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:59:30Z",
+            "messageHeadline": "0.82.0: the remote interface stops being a web page wearing the bench…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T15:16:58Z",
+            "messageHeadline": "0.81.0: band plans for the whole world, and the discovery that none h…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T23:44:25Z",
+            "messageHeadline": "0.80.0: an audit of every function in the application, and the thirty…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T20:00:06Z",
+            "messageHeadline": "0.79.1: the application starts on the main screen alone, whatever was…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T18:01:15Z",
+            "messageHeadline": "0.79.0: every face three pixels larger, and the rail drags the window…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T16:38:52Z",
+            "messageHeadline": "0.78.1: the caption comes off the window's style, so nothing can size…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T02:57:01Z",
+            "messageHeadline": "0.78.0: the scope zooms out to a continent on a true ground, no windo…",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T01:29:44Z",
+            "messageHeadline": "0.77.1: the radar scope offers a position instead of an empty panel, …",
+            "author": {
+              "user": {
+                "login": "wonderingStars"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "COMMERCIAL-AGREEMENT.md",
+        "type": "blob"
+      },
+      {
+        "name": "COMMERCIAL-LICENSE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PLAN.md",
+        "type": "blob"
+      },
+      {
+        "name": "PRIVACY.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmake",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "installer",
+        "type": "tree"
+      },
+      {
+        "name": "resources",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "telemetry-worker",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "third_party",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 52265,
+    "text": "# FoxSDR\n\nA from-scratch software-defined radio receiver for Windows: spectrum and\nwaterfall, multi-mode demodulation (NFM/WFM/AM/DSB/USB/LSB/CW), stereo FM with\nRDS, recording, bookmarks, a scanner, band plans, and hardware support for any\nradio SoapySDR can reach.\n\n> ### ⚠️ Linux is in development and not usable yet\n>\n> **Windows is the only supported platform.** A Linux build exists and its test\n> suite passes, but it is unfinished work rather than a release, and it is not\n> expected to work properly for real use yet:\n>\n> - **Never tested with a radio on Linux.** The port was verified against the\n>   test suite, the built-in signal generator and IQ-file playback. No SDR has\n>   been driven through it on a Linux machine, so the hardware path is unproven,\n>   and that is the single biggest reason not to rely on it yet.\n> - **The plugins are built and installable, but unproven on air here.** Ten of\n>   the eleven catalogued plugins now ship for Linux and install from the in-app\n>   catalogue, including the aircraft registry lookup and the map basemap; only\n>   the example plugin is Windows-only.\n> - **Never run on a real Linux desktop.** It has been exercised under WSL and\n>   under a virtual display in CI — neither is a real graphical session with a\n>   real sound card.\n>\n> Treat it as something to build and experiment with, not something to rely on.\n> Reports of what breaks are welcome; it will be announced as supported when it\n> has been proven against real hardware and the plugins exist.\n\nIt also has a **map** for decoded targets — aircraft, ships, stations — and can\nserve its whole interface to a **browser** on your own network, so the receiver\ncan sit where the antenna is and be driven from anywhere in the house.\nDecoders arrive as optional [plugins](#plugins) from an in-app catalogue.\n\nBuilt clean-room — no GPL code and no GPL-linked dependencies anywhere in the\ntree. That discipline is what leaves the licensing free to choose (see\n[License](#license)); it is not itself a licence claim.\n\nInternal project/binary name: `cascade`.\n\n## Status\n\nWorking and in use, and still pre-1.0 — the interface and the plugin catalogue\nare still moving. What is in the current build:\n\n- **Receiver.** Spectrum and waterfall, NFM/WFM/AM/DSB/USB/LSB/CW, squelch,\n  AGC, noise reduction, manual and automatic notch, de-emphasis, stereo FM with\n  pilot lock, and RDS (programme service name, radio text, PI, PTY).\n- **Hardware.** Anything SoapySDR reaches, with antenna, sample-rate and\n  per-stage gain selection. Developed against an Ettus B200; the built-in\n  signal generator and IQ-file playback mean it runs with no radio at all.\n  The device scan waits for the radio to close: while one is open the Source\n  section's Refresh key is disabled and says why, because the vendor probe\n  opens and resets every dongle it finds, the streaming one included.\n- **Working with signals.** Bookmarks, a band scanner with a Skip key and a\n  listen limit so a station that never goes quiet cannot stop it, and\n  recording of both audio and raw I/Q. The receiver's own position - what\n  every range and bearing on the map and the radar scope is measured from -\n  can be typed, taken from a map click, or read from a GPS receiver on a\n  serial port: name the port (on a map page's bar, under the rail's Radar\n  section, or under the rail's SYSTEM > Serial ports, which also lists every\n  port the machine currently has), press \"Read position from GPS\", and the\n  first fix (`$GPGGA`, `$GPRMC` or `$GPGLL`, any talker, up to 128 characters\n  for high-precision receivers; dead-reckoned and simulated positions are\n  waited out) sets it exactly as a typed one would; the port is held only\n  until that fix arrives, at most 60 s, and neither the position nor a typed\n  device path is ever written to the diagnostic log. `FOXSDR_GPS_PORT=<port>`\n  (with `FOXSDR_GPS_BAUD`, default 9600) does the same read at start-up, in\n  every run mode, for a bench with a receiver on it.\n- **A tuner plate for a counter**, bolted onto the front of the deck after a\n  1950s military rec\n  \"TUNED - HERTZ\" name plate, a receiver lamp and a MHz readout across its\n  head, and a black bezel holding ten Nixie tubes - one per digit, 1 GHz down\n  to 1 Hz - each with a chrome toggle switch beneath it. Scroll a tube to step\n  that digit, click one to type a frequency, or flick the switch: the upper\n  half steps the digit up, the lower half down, holding either repeats, and\n  the lever stays pointing the way it was last flicked. The SAMPLE RATE and\n  FRAME TIME meters at the deck's right are on the bar at the window size the\n  application first opens with, not only once it is widened.\n- **Band plans for the whole world.** Labelled service allocations drawn behind\n  the spectrum, colour-coded by service on a colour-blind-safe palette, with a\n  \"what am I tuned to\" readout that names the *narrowest* match — 145.800 MHz\n  reads \"ISS Downlink\", not \"2 m Amateur\". Pick your region from Display →\n  Region: a baseline for each ITU region plus country refinements that layer on\n  top of it. The default is a worldwide plan holding only the allocations that\n  are identical everywhere, because the ITU regions genuinely disagree — 40 m,\n  mediumwave and the FM broadcast edges all differ — so there is no single plan\n  that is correct globally. Informational only; not a licensing reference.\n- **Map and decoders.** Aircraft, vessels and stations plotted together,\n  coloured by altitude band, with optional map imagery from a basemap plugin.\n  A target's **trail is coloured along its length** by the same bands, so a\n  climb-out and a cruise read differently at a glance — from the altitudes the\n  host watched the aircraft report as it flew the line, not from anything\n  inferred, so a stretch it never saw stays in the target's plain colour rather\n  than being given a number. **Trails** and **Altitude colours** are separate\n  checkboxes on every map page: some people do not want the colouring and some\n  do not want the lines, and both are one tick away.\n  Beside the map is a list of everything being heard: callsign, id, and a\n  details button per row. The button opens the full block for that target —\n  registration, type, operator and country where a track-info plugin can supply\n  them, then position, altitude, speed, course, age, and distance and bearing\n  from your receiver. A **Sort** control above the list orders it by any of\n  those eight — callsign, id, altitude (ft), speed (kt), course (deg), distance\n  (km), bearing (deg) or age (s) — ascending or descending, so \"what is nearest\n  me\" is one menu pick away. Clicking a row takes the map to that target;\n  double-clicking follows it.\n  Give it your antenna's position once and it also builds a **coverage map**:\n  the furthest anything has been heard in each direction, drawn over the map,\n\nwhere it stands.\n\n\n\n\n```\ncmake -S . -B build -G \"Visual Studio 17 2022\" -A x64 -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake\ncmake --build build --config Release\nctest --test-dir build -C Release --output-on-failure\n```\n\n\n```\nsudo apt install build-essential cmake libgl1-mesa-dev libsoapysdr-dev libssl-dev libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libwayland-dev libwayland-bin wayland-protocols libxkbcommon-dev libasound2-dev\n```\n```\ncmake -S . -B build -DCMAKE_BUILD_TYPE=Release\ncmake --build build -j\"$(nproc)\"\nctest --test-dir build --output-on-failure\n```\nslot instead, so nothing sent is ever hidden. Each instrument has a row under\nDownload `foxsdr-setup-<version>.exe` from the releases page and run it. It\ninstalls `cascade.exe`, the SoapySDR runtime, the app-local Microsoft C runtime,\n`cascade.exe --soapy-check` prints the search paths, the loaded modules and\n`cascade.exe`, `SoapySDR.dll`, the app-local MSVC runtime, the license, and\n`installer\\Output\\foxsdr-setup-<version>.exe`. Build instructions:\nproduct built from `master`, produced by `tools/build-nightly.ps1`, and stamped\nThat happens in a CMake `POST_BUILD` step, `tools/archive-symbols.ps1`, so it is\nfortnight. **It is not local-only either**: `tools/build-nightly.ps1` mirrors"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

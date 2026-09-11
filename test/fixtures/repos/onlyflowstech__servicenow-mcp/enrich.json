@@ -1,0 +1,410 @@
+{
+  "id": "R_kgDORSm8Ew",
+  "nameWithOwner": "onlyflowstech/servicenow-mcp",
+  "description": "The most comprehensive ServiceNow MCP server. 19 tools for full CRUD, CMDB graph traversal, background scripts, ATF testing, and more.",
+  "homepageUrl": "https://onlyflows.tech",
+  "createdAt": "2026-02-17T21:13:52Z",
+  "pushedAt": "2026-09-08T21:59:55Z",
+  "diskUsage": 1050,
+  "stargazerCount": 13,
+  "forkCount": 5,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 2183649,
+    "edges": [
+      {
+        "size": 2119417,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 61274,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 2958,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude"
+        }
+      },
+      {
+        "topic": {
+          "name": "cmdb"
+        }
+      },
+      {
+        "topic": {
+          "name": "cursor"
+        }
+      },
+      {
+        "topic": {
+          "name": "itom"
+        }
+      },
+      {
+        "topic": {
+          "name": "itsm"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "model-context-protocol"
+        }
+      },
+      {
+        "topic": {
+          "name": "servicenow"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "onlyflowstech",
+    "__typename": "User",
+    "createdAt": "2025-12-20T01:21:05Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 69,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T21:30:48Z",
+            "messageHeadline": "Merge PR #6: release 2.1.0 — uniform configurable write policy",
+            "author": {
+              "user": {
+                "login": "onlyflowstech"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:26:46Z",
+            "messageHeadline": "Merge PR #5: uniform configurable write policy (2.1.0)",
+            "author": {
+              "user": {
+                "login": "onlyflowstech"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:23:42Z",
+            "messageHeadline": "chore(release): 2.1.0",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:23:36Z",
+            "messageHeadline": "feat: let the configured policy decide which tables writes reach",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:23:25Z",
+            "messageHeadline": "test: make the envelope-validation gate robust to CI runner load",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T22:56:17Z",
+            "messageHeadline": "ci: pin npm to the 11 line for trusted publishing",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T22:47:22Z",
+            "messageHeadline": "ci: publish through npm trusted publishing instead of a stored token",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:45:39Z",
+            "messageHeadline": "ci: stop the dormant container gating the npm publish",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:19:26Z",
+            "messageHeadline": "Merge PR #2: 2.0.0 stdio ServiceNow MCP server",
+            "author": {
+              "user": {
+                "login": "onlyflowstech"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:14:56Z",
+            "messageHeadline": "ci: stop the dormant container gating a stdio release",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:05:19Z",
+            "messageHeadline": "fix(container): stop the port lookup exiting silently with code 13",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T19:00:21Z",
+            "messageHeadline": "fix(container): validate the entrypoint the image actually runs",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T18:56:54Z",
+            "messageHeadline": "fix(deps): clear the production dependency advisories",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T18:51:50Z",
+            "messageHeadline": "ci: fix the container build, the inspector audit, and a phantom timeout",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T18:10:39Z",
+            "messageHeadline": "docs: secrets reach the server's environment, not an HTTP process",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T18:06:28Z",
+            "messageHeadline": "docs: add a changelog and ship it in the package",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:33:13Z",
+            "messageHeadline": "docs: the 1.0 migration no longer changes transport",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:21:28Z",
+            "messageHeadline": "docs: describe the stdio product, and file HTTP under the enterprise …",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:21:13Z",
+            "messageHeadline": "feat!: setup registers stdio clients and drops the service lifecycle",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:21:13Z",
+            "messageHeadline": "fix(container): run the HTTP entrypoint, and refuse to open unauthent…",
+            "author": {
+              "user": {
+                "login": "emetrix-solutions"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".npmrc",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "UPGRADE-PLAN.md",
+        "type": "blob"
+      },
+      {
+        "name": "deploy",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "publish.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 51955,
+    "text": "# @onlyflows/servicenow-mcp\n\n<!-- Logo placeholder -->\n<!-- ![ServiceNow MCP Server](banner.png) -->\n\n**The most comprehensive ServiceNow MCP server.** 19 tools for full CRUD, append-only incident journals, CMDB graph traversal, ATF testing, multi-instance profiles, and more.\n\nBuilt by [OnlyFlows](https://onlyflows.tech) · Published by [@onlyflowstech](https://github.com/onlyflowstech)\n\n[![npm version](https://img.shields.io/npm/v/@onlyflows/servicenow-mcp)](https://www.npmjs.com/package/@onlyflows/servicenow-mcp)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)\n\n---\n\n\n## Installation\n\n```bash\nnpm install -g @onlyflows/servicenow-mcp\nservicenow-mcp-setup\n```\n\nRun bare on a terminal, `servicenow-mcp-setup` walks you through the whole\nthing in one command: it generates the local auth material, asks for your\ninstance and credential, **verifies that credential against the instance**,\nasks which tables to grant, writes the profile, and registers any supported\nclient whose CLI is installed. The credential is entered at a hidden prompt —\nnever an argument, never shell history — and nothing is written to the profile\nuntil the instance has accepted it, so a typo or a wrong password leaves\nnothing behind.\n\n```\nServiceNow MCP setup\n\nThis walks through one ServiceNow connection end to end. Nothing is\nwritten to the profile until your credential is verified against the\ninstance. Press Ctrl+C at any point to stop; nothing will be saved.\n\nProfile name [dev]: dev\nServiceNow instance (for example dev12345.service-now.com): dev12345.service-now.com\nAuthentication:\n  1) basic (default)\n  2) oauth\n  3) apikey\nChoice [1]: 1\nHow should the credential be stored?:\n  1) encrypted (default)\n  2) reference\nChoice [1]: 1\nServiceNow username: integration.user\n\nEnter each secret now. Input is hidden — nothing you type from here\nis displayed.\ncredential:\n\nVerifying against the instance...\n  ok  https://dev12345.service-now.com accepted the credential.\n\nTable access is deny-by-default: a profile with no rules denies every\ntool call. Grant the narrowest set that does the job; you can add more\nlater with servicenow-mcp-setup grant.\n\nTables to allow for READS:\n  1) Just incident (default)\n  2) Common ITSM set (incident,change_request,problem,task,sys_user)\n  3) All tables (*)\n  4) Enter a custom list\n  5) None\nChoice [1]: 1\n\nTables to allow for WRITES:\n  1) Just incident\n  2) Common ITSM set (incident,change_request,problem,task,sys_user)\n  3) All tables (*)\n  4) Enter a custom list\n  5) None (default)\nChoice [5]: 1\n\nWrote profile dev.\n\nRegister this server with codex and claude-code? [Y/n]: y\n\nServiceNow MCP doctor\n\nok    node: v22.11.0\nok    server command: servicenow-mcp resolves on PATH; clients spawn it over stdio\nok    config directory: ~/.servicenow-mcp (0700)\nok    profile dev: instance: https://dev12345.service-now.com\nok    profile dev: credential: basic credential resolves from its encrypted source\nok    profile dev: table access: 1 read, 1 write, 1 target(s)\n\nAll checks passed.\n\nSetup complete.\n\nProfile   dev\nReads     incident\nWrites    incident\nTransport stdio (each client spawns its own servicenow-mcp)\nClients   codex, claude-code\n\nStart codex or claude-code and it will launch the server itself.\nThere is nothing to keep running between sessions.\n```\n\nThere is nothing to start. The server speaks **stdio**: each registered client\nspawns its own copy of `servicenow-mcp` on demand and talks to it over that\nprocess's stdin and stdout. Setup finishes by running the same checks `doctor`\nruns, so you can re-run them any time:\n\n```bash\nservicenow-mcp-setup doctor --profile dev\n```\n\n`npx @onlyflows/servicenow-mcp@latest setup` runs the same wizard without a\nglobal install, and `servicenow-mcp setup` is an alias for\n`servicenow-mcp-setup`.\n\n### Scripted setup\n\nPass any flag, or run without a terminal, and the wizard steps aside for the\noriginal non-interactive behavior — so CI and provisioning scripts are\nunaffected. `--non-interactive` forces it explicitly:\n\n```bash\nservicenow-mcp-setu\nservicenow-mcp-profile create --name dev --instance https://yourinstance.service-now.com \\\n  --auth-type oauth --client-id <client-id> --source reference --provider env\nservicenow-mcp-setup grant --profile dev --read incident,problem --write incident\n```\n```bash\nservicenow-mcp-setup client --client claude-desktop\nservicenow-mcp-setup client --client all\n```\n```bash\nclaude mcp add servicenow-mcp -- servicenow-mcp\ncodex mcp add servicenow-mcp -- servicenow-mcp\n```\n```json\n{\n  \"mcpServers\": {\n    \"servicenow-mcp\": { \"command\": \"servicenow-mcp\", \"args\": [] }\n  }\n}\n```\n```text\nAdd a ServiceNow MCP profile for https://yourinstance.service-now.com\n```\n```bash\nMCP_OWNER_ID=local-owner \\\nMCP_CLIENT_ID=local-client \\\nSN_PROFILE_NAME=dev \\\nSN_INSTANCE=https://yourinstance.service-now.com \\\nSN_USER=your_user \\\nSN_ALLOWED_READ_TABLES=incident,problem,change_request \\\nSN_ALLOWED_WRITE_TABLES=incident,change_request \\\nSN_TABLE_ACCESS_TARGETS='[{\"table\":\"incident\",\"kind\":\"canonical\",\"tools\":[\"sn_query\",\"sn_get\",\"sn_create\",\"sn_update\",\"sn_incident_add_comment\",\"sn_incident_add_work_note\",\"sn_delete\",\"sn_batch\"],\"closureComplete\":true,\"relatedTables\":[\"incident\"]},{\"table\":\"problem\",\"kind\":\"canonical\",\"tools\":[\"sn_query\",\"sn_get\"],\"closureComplete\":true,\"relatedTables\":[\"problem\"]},{\"table\":\"change_request\",\"kind\nservicenow-mcp\n```\n```bash\ngit clone https://github.com/onlyflowstech/servicenow-mcp.git\ncd servicenow-mcp\nnpm install\nnpm run build\nnpm start\n```\n```bash\nnpm run dev\n```\n```bash\nservicenow-mcp-profile create --name dev  --instance https://mydev.service-now.com  --auth-type basic --username admin    --source reference --provider env\nservicenow-mcp-profile create --name prod --instance https://myprod.service-now.com --auth-type basic --username api.user --source reference --provider env\n\nservicenow-mcp-setup grant --profile dev  --read incident,problem --write incident\nservicenow-mcp-setup grant --profile prod --read incident\n```\n```json\n{\n  \"version\": 2,\n  \"profiles\": {\n    \"dev\": {\n      \"instance\": \"https://mydev.service-now.com\",\n      \"username\": \"admin\",\n      \"credential\": { \"type\": \"secret_ref\", \"provider\": \"env\", \"reference\": \"SN_PASSWORD_DEV\" },\n      \"description\": \"Development instance\",\n      \"tableAccess\": {\n        \"readTables\": [\"incident\", \"problem\"],\n        \"writeTables\": [\"incident\"],\n        \"targets\": [\n          {\n            \"table\": \"incident\",\n            \"kind\": \"canonical\",\n            \"tools\": [\"sn_query\", \"sn_get\", \"sn_aggregate\", \"sn_schema\", \"sn_create\", \"sn_update\"],\n            \"closureComplete\": true,\n            \"relatedTables\": [\"incident\"]\n          },\n          {\n            \"table\": \"problem\",\n            \"kind\": \"canonical\",\n            \"closureComplete\": true,\n          }\n        ]\n}\n```\n```json\n{\n  \"version\": 2,\n  \"profiles\": {\n```\n```json\n{\n  \"instance\": \"https://mydev.service-now.com\",\n  \"authType\": \"oauth\",\n```\n```json\n{\n  \"instance\": \"https://mydev.service-now.com\",\n  \"authType\": \"apikey\",\n```\n```json\n{\n  \"instance\": \"https://mydev.service-now.com\",\n  \"username\": \"admin\",\n```\n```bash\nservicenow-mcp-setup\n```\n```bash\nexport MCP_OWNER_ID=\"your-owner-id\"\nexport MCP_CLIENT_ID=\"your-client-id\"\nexport SN_ALLOWED_READ_TABLES=\"incident,problem,change_request\"\n```\n```json\n{\n  \"mcpServers\": {\n    \"servicenow-mcp\": { \"command\": \"servicenow-mcp\", \"args\": [] }\n```\n```json\n{\"schemaVersion\":1,\"type\":\"mcp_tool\",\"observedAtMs\":1737000000000,\"latencyMs\":42,\n \"correlationId\":\"stdio-<session>-<invocation>\",\"ownerIdHash\":\"sha256:...\",\n \"clientIdHash\":\"sha256:...\",\"tool\":\"sn_query\",\"profile\":\"dev\",\n```\n```bash\nservicenow-mcp-setup grant --profile dev --read incident,problem --write incident\nservicenow-mcp-setup grant --profile dev --read cmdb_ci --tools sn_query,sn_relationships\nservicenow-mcp-setup grant --profile dev --read change_request --related change_request=task\n```\n```json\n{\n  \"version\": 2,\n  \"profiles\": {\n```\n```bash\n# Clone\ngit clone https://github.com/onlyflowstech/servicenow-mcp.git\ncd servicenow-mcp\n\n```\n```bash\nMCP_PROFILE=dev npm run inspector\n```\n```bash\nMCP_PROFILE=dev npm run smoke\n```"
+  },
+  "pkg": {
+    "byteSize": 3984,
+    "text": "{\n  \"name\": \"@onlyflows/servicenow-mcp\",\n  \"version\": \"2.1.0\",\n  \"description\": \"stdio ServiceNow MCP server with 19 tools for CRUD, CMDB traversal, ATF testing, and explicit multi-instance profiles.\",\n  \"main\": \"dist/index.js\",\n  \"types\": \"dist/index.d.ts\",\n  \"bin\": {\n    \"servicenow-mcp\": \"dist/index.js\",\n    \"servicenow-mcp-profile\": \"dist/profile-admin.js\",\n    \"servicenow-mcp-setup\": \"dist/setup.js\"\n  },\n  \"scripts\": {\n    \"prebuild\": \"node scripts/clean-dist.mjs\",\n    \"build\": \"tsc\",\n    \"postbuild\": \"node scripts/set-bin-mode.mjs\",\n    \"typecheck\": \"tsc --noEmit --pretty false\",\n    \"lint\": \"eslint --max-warnings 0 src test scripts vitest.config.ts eslint.config.mjs\",\n    \"start\": \"node dist/index.js\",\n    \"dev\": \"npm run build && node --enable-source-maps dist/index.js\",\n    \"test\": \"vitest run\",\n    \"test:unit\": \"vitest run\",\n    \"test:protocol\": \"vitest run test/snsdk-53-contract.test.ts test/snsdk-55-release-matrix.test.ts test/stdio-runtime.test.ts test/stdio-entrypoint.test.ts test/stdio-package-contract.test.ts test/http-cross-client.test.ts test/http-compatibility.test.ts test/http-request-policy.test.ts test/http-runtime.test.ts test/http-entrypoint.test.ts test/http-health.test.ts test/http-auth.test.ts test/container-artifact.test.ts\",\n    \"test:profile\": \"vitest run test/profile-credentials.test.ts test/profile-manager.test.ts test/profile-admin.test.ts\",\n    \"test:release\": \"vitest run test/snsdk-57-release-workflow.test.ts\",\n    \"smoke\": \"node scripts/smoke-test.mjs\",\n    \"inspector\": \"node scripts/inspector.mjs\",\n    \"release:contract\": \"node scripts/release-validate.mjs\",\n    \"release:check\": \"npm run release:contract && npm run typecheck && npm run lint && npm run build && npm run test:unit && npm run test:protocol && npm run test:profile && npm run test:release && npm pack --dry-run --json --ignore-scripts && npm audit --omit=dev --audit-level=moderate\",\n    \"release:container\": \"npm run container:build && npm run container:validate && npm run container:scan\",\n    \"container:build\": \"node scripts/container-build.mjs --local\",\n    \"container:provenance\": \"node scripts/container-build.mjs --provenance\",\n    \"container:validate\": \"node scripts/container-validate.mjs\",\n    \"container:scan\": \"node scripts/container-scan.mjs\",\n    \"prepack\": \"npm run build\"\n  },\n  \"keywords\": [\n    \"servicenow\",\n    \"mcp\",\n    \"model-context-protocol\",\n    \"stdio\",\n    \"itsm\",\n    \"itom\",\n    \"cmdb\",\n    \"ai-tools\"\n  ],\n  \"author\": \"OnlyFlows <support@onlyflows.tech> (https://onlyflows.tech)\",\n  \"license\": \"MIT\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/onlyflowstech/servicenow-mcp.git\"\n  },\n  \"homepage\": \"https://github.com/onlyflowstech/servicenow-mcp#readme\",\n  \"bugs\": {\n    \"url\": \"https://github.com/onlyflowstech/servicenow-mcp/issues\"\n  },\n  \"engines\": {\n    \"node\": \">=20\"\n  },\n  \"dependencies\": {\n    \"@hono/node-server\": \"2.0.12\",\n    \"@modelcontextprotocol/sdk\": \"1.30.0\",\n    \"zod\": \"^3.25.76\"\n  },\n  \"overrides\": {\n    \"@hono/node-server\": \"2.0.12\"\n  },\n  \"devDependencies\": {\n    \"@eslint/js\": \"9.39.5\",\n    \"@types/node\": \"^20.11.0\",\n    \"eslint\": \"9.39.5\",\n    \"globals\": \"17.8.0\",\n    \"typescript\": \"^5.3.0\",\n    \"typescript-eslint\": \"8.65.0\",\n    \"vite\": \"^6.3.5\",\n    \"vitest\": \"^3.2.6\"\n  },\n  \"files\": [\n    \".env.example\",\n    \"dist\",\n    \"docs/ADDING-TOOLS.md\",\n    \"docs/CLIENT-SETUP.md\",\n    \"docs/CONTAINER-DEPLOYMENT.md\",\n    \"docs/CROSS-CLIENT-RELEASE-MATRIX.md\",\n    \"docs/ENTERPRISE-RELEASE-BOUNDARY.md\",\n    \"docs/OPERATIONS-RUNBOOK.md\",\n    \"docs/PRIVATE-CHATGPT-CONNECTIVITY.md\",\n    \"docs/PRODUCTION-SECURITY.md\",\n    \"docs/PROFILE-CREDENTIALS.md\",\n    \"docs/RELEASE-VALIDATION.md\",\n    \"docs/TESTING-OAUTH.md\",\n    \"docs/V2-MIGRATION.md\",\n    \"scripts/inspector.mjs\",\n    \"scripts/release-validate.mjs\",\n    \"scripts/smoke-test.mjs\",\n    \"tools/inspector/package.json\",\n    \"tools/inspector/package-lock.json\",\n    \"CHANGELOG.md\",\n    \"README.md\",\n    \"LICENSE\"\n  ]\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

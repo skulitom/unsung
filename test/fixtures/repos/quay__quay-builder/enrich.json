@@ -1,0 +1,347 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyMjEyNjYxNzY=",
+  "nameWithOwner": "quay/quay-builder",
+  "description": "A worker process used by Quay to build containers",
+  "homepageUrl": null,
+  "createdAt": "2019-11-12T16:46:53Z",
+  "pushedAt": "2026-09-11T06:08:08Z",
+  "diskUsage": 2910,
+  "stargazerCount": 12,
+  "forkCount": 33,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 83388,
+    "edges": [
+      {
+        "size": 77147,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 3798,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 1505,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 938,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 12
+  },
+  "owner": {
+    "login": "quay",
+    "__typename": "Organization",
+    "createdAt": "2018-04-13T13:14:06Z"
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 566,
+        "nodes": [
+          {
+            "committedDate": "2026-08-26T13:13:54Z",
+            "messageHeadline": "Merge pull request #675 from rhdmalone/master-CVE-2026-15792",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T11:01:06Z",
+            "messageHeadline": "chore(deps): update module github.com/moby/buildkit to v0.31.2",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T14:42:46Z",
+            "messageHeadline": "NO-ISSUE: fix(ci): pin s390x buildkit to v0.30.0 to avoid runc maskin…",
+            "author": {
+              "user": {
+                "login": "bcaton85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T16:32:47Z",
+            "messageHeadline": "Merge pull request #655 from aroyoredhat/bump-podman-v5.8.4",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T16:30:14Z",
+            "messageHeadline": "NO-ISSUE: chore(deps): bump podman to v5.8.4",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-19T14:03:13Z",
+            "messageHeadline": "Merge pull request #636 from rhdmalone/master",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-19T13:56:07Z",
+            "messageHeadline": "Bump golang.org/x/crypto to v0.52.0",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T17:17:28Z",
+            "messageHeadline": "Merge pull request #624 from sivaramsingana/sg-rule-cleanup",
+            "author": {
+              "user": {
+                "login": "harishsurf"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T16:59:02Z",
+            "messageHeadline": "fix: pass SG rule IDs and secrets via env to prevent shell injection",
+            "author": {
+              "user": {
+                "login": "sivaramsingana"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T17:14:54Z",
+            "messageHeadline": "Enhance workflow with security group rule management and clean up of …",
+            "author": {
+              "user": {
+                "login": "sivaramsingana"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-20T16:33:15Z",
+            "messageHeadline": "Merge pull request #608 from aroyoredhat/bump-go-jose",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-20T15:52:13Z",
+            "messageHeadline": "Bump go-jose to v4.1.4",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-04-14T17:08:23Z",
+            "messageHeadline": "Merge pull request #600 from rhdmalone/master-20260414-cve-2026-33186",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-14T16:59:53Z",
+            "messageHeadline": "chore(deps): update module google.golang.org/grpc to v1.79.3",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-30T16:06:18Z",
+            "messageHeadline": "Merge pull request #595 from rhdmalone/master-260330",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-30T11:11:22Z",
+            "messageHeadline": "chore(deps): update module github.com/moby/buildkit to v0.28.1",
+            "author": {
+              "user": {
+                "login": "rhdmalone"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-05T14:26:02Z",
+            "messageHeadline": "updating quay-builder to rhel9 with correct socket path (PROJQUAY-997…",
+            "author": {
+              "user": {
+                "login": "Marcusk19"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-13T20:16:26Z",
+            "messageHeadline": "Merge pull request #501 from nindsimonv/fix-PROJQUAY-10086_3",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-13T20:12:52Z",
+            "messageHeadline": "upgrade of podman from 5.5.2 to 5.7.1",
+            "author": {
+              "user": {
+                "login": "nindsimonv"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-13T18:31:50Z",
+            "messageHeadline": "Merge pull request #499 from nindsimonv/fix-PROJQUAY-10086_2",
+            "author": {
+              "user": {
+                "login": "aroyoredhat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "buildctx",
+        "type": "tree"
+      },
+      {
+        "name": "buildman_pb",
+        "type": "tree"
+      },
+      {
+        "name": "buildpack",
+        "type": "tree"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "containerclient",
+        "type": "tree"
+      },
+      {
+        "name": "entrypoint.sh",
+        "type": "blob"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "rpc",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "version",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "branch-sync.yaml"
+      },
+      {
+        "name": "build-and-publish.yaml"
+      },
+      {
+        "name": "ci.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2299,
+    "text": "# Quay Builder\n\nThis repository is for an automated build worker for a Quay.\n\n## Architecture\n\nThere is a client/server relationship between builder and the management server.\nBuilders are created and connect to the build manager using the GRPC protocol.\nBuilders are designed to be dynamically created and connect to the management server for a single build and then disappear,\ngenerally on some control plane such as K8s or AWS.\n\n## Building the builder\n\n```\nmake test\nmake build\n```\n\n## Running the builder\n\n### Environment variables\n\nThe builders are bootstrapped and configured using environment variables. These are set when created by the build manager.\nThe parameters necessary for the actual build are obtained in a subsequent call to the build manager's API\n\n`CONTAINER_RUNTIME`: \"podman\" or \"docker\"\n`DOCKER_HOST`: The container runtime socket. Defaults to \"unix:///var/run/docker.sock\"\n`TOKEN`: The registration token needed to get the build args from the build manager\n`SERVER`: The build manager's GRPC endpoint. Format: <host>:<port>\n`TLS_CERT_PATH`: TLS cert file path (optional)\n`INSECURE`: \"true\" or \"false\". Of \"true\" attempt to connect to the build manager without tls.\n\n### Container runtimes\n\nThe builder supports Docker and Podman/Buildah to run the builds. The runtime is specified using the `CONTAINER_RUNTIME` and `DOCKER_HOST`.\nIf these ENV variables are not set, `CONTAINER_RUNTIME` and `DOCKER_HOST` will be set to \"docker\" and \"unix:///var/run/docker.sock\", respectively.\nIf `CONTAINER_RUNTIME` is set to \"podman\", it is expected that `DOCKER_HOST` is set to podman's equivalent to the docker's docker. e.g unix:///var/run/podman.sock\n\n## Building the builder image\n\nFor both images, you can also specify make parameters\n\n`IMAGE_TAG` ( tag name, default to `latest`) \n\n`IMAGE` ( repo name, default to `quay.io/quay/quay-builder`) \n\nand the built image will be tagged with \n```\n<IMAGE>:<IMAGE_TAG>-<base image name>\n```\nwhere the `<base image name>` can be either `alpine` or `centos`.\n\n### Building Alpine based image:\n```sh\nmake build-alpine\n```\nThis generates image with tag `quay.io/projectquay/quay-builder:latest-alpine`.\n\n### Building CentOS based image:\n```sh\nmake build-centos\n```\nThis generates image with tag `quay.io/projectquay/quay-builder:latest-centos`.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

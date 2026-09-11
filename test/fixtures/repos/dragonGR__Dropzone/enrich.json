@@ -1,0 +1,391 @@
+{
+  "id": "R_kgDOUOFEMg",
+  "nameWithOwner": "dragonGR/Dropzone",
+  "description": "A GNOME application for quick, temporary file sharing over your local network.",
+  "homepageUrl": "https://flathub.org/en/apps/io.github.dragonGR.Dropzone",
+  "createdAt": "2026-09-04T09:16:52Z",
+  "pushedAt": "2026-09-05T13:57:09Z",
+  "diskUsage": 275,
+  "stargazerCount": 5,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "GPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 121023,
+    "edges": [
+      {
+        "size": 111025,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 4929,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 2800,
+        "node": {
+          "name": "Meson"
+        }
+      },
+      {
+        "size": 1340,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 929,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "file-sharing"
+        }
+      },
+      {
+        "topic": {
+          "name": "flatpak"
+        }
+      },
+      {
+        "topic": {
+          "name": "gnome"
+        }
+      },
+      {
+        "topic": {
+          "name": "gtk4"
+        }
+      },
+      {
+        "topic": {
+          "name": "lan"
+        }
+      },
+      {
+        "topic": {
+          "name": "libadwaita"
+        }
+      },
+      {
+        "topic": {
+          "name": "linux"
+        }
+      },
+      {
+        "topic": {
+          "name": "qr-code"
+        }
+      },
+      {
+        "topic": {
+          "name": "rust"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "dragonGR",
+    "__typename": "User",
+    "createdAt": "2014-12-24T16:18:56Z",
+    "repositories": {
+      "totalCount": 113
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "54c4c3e6eaaff5e9a1b5a133cf956e37b75e7f3f",
+      "history": {
+        "totalCount": 24,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T13:56:41Z",
+            "messageHeadline": "release: Prepare v1.1.0",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T13:45:10Z",
+            "messageHeadline": "po: Add Greek translations for transfer progress status",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T07:50:33Z",
+            "messageHeadline": "window: Stabilize sharing layout and add tabular numeric figures",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T01:45:12Z",
+            "messageHeadline": "transfer: Implement stream progress tracking and server lifecycle events",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T18:58:03Z",
+            "messageHeadline": "ci: Use Fedora container for GTK 4.16+ and Libadwaita 1.6+ dependencies",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T18:56:36Z",
+            "messageHeadline": "ci: Trigger workflow",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T18:52:29Z",
+            "messageHeadline": "ci: Add GitHub Actions workflow for tests, lints, and Meson validation",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T11:21:02Z",
+            "messageHeadline": "flatpak: Ensure .cargo/config.toml is configured for offline vendored…",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T11:02:34Z",
+            "messageHeadline": "flatpak: Support offline builds with cargo vendored sources and GNOME…",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T11:02:34Z",
+            "messageHeadline": "data: Add AppStream branding colors and application screenshots",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T10:28:00Z",
+            "messageHeadline": "web: Streamline receiver with manual download and SVG favicon",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:30:00Z",
+            "messageHeadline": "ui: Implement native drag-and-drop file sharing with visual hover fee…",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T08:15:00Z",
+            "messageHeadline": "ui: Apply brand styling and modern appearance popover with visual the…",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T06:30:00Z",
+            "messageHeadline": "i18n: Implement GNU gettext localization with Greek translation",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T14:15:00Z",
+            "messageHeadline": "docs: Polish documentation, firewall setup, and AppStream metadata",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T11:45:00Z",
+            "messageHeadline": "data: Add official GNOME application icons across all hicolor resolut…",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T08:30:00Z",
+            "messageHeadline": "packaging: Add Meson build system and GNOME 50 Flatpak manifests",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T11:45:00Z",
+            "messageHeadline": "tests: Add integration tests for end-to-end file streaming and lifecycle",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T13:30:00Z",
+            "messageHeadline": "ui: Implement Libadwaita main window and application lifecycle",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-06T09:10:18Z",
+            "messageHeadline": "qr: Implement Cairo vector QR code widget for GTK4",
+            "author": {
+              "user": {
+                "login": "dragonGR"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "build-aux",
+        "type": "tree"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "meson.build",
+        "type": "blob"
+      },
+      {
+        "name": "po",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "web",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2883,
+    "isTruncated": false,
+    "text": "<div align=\"center\">\n\n<img src=\"data/icons/hicolor/scalable/apps/io.github.dragonGR.Dropzone.svg\" width=\"128\" height=\"128\" alt=\"Dropzone Logo\" />\n\n# Dropzone\n\nA GNOME application for quick, temporary file sharing over your local network.\n\n</div>\n\nSelect a file, and Dropzone starts an ephemeral HTTP server on your machine, generates a single-use capability URL, and presents a local vector QR code. Any device on the same local network (phone, tablet, or another computer) can scan the code and download the file directly in a web browser. The receiving device needs no client app, account, or internet connection.\n\nOnce sharing is stopped, the server shuts down and the link is immediately invalidated.\n\n## Features\n\n- **No client installation**: Receivers only need a web browser.\n- **Local-only streaming**: Transfers stay on the local network without touching external servers.\n- **Constant memory usage**: Files are streamed through bounded buffers rather than loaded into RAM.\n- **Ephemeral access**: Cryptographically random capability tokens ensure URLs cannot be guessed and expire when sharing stops.\n- **GNOME native**: Built with GTK 4, Libadwaita, and vector Cairo QR rendering.\n\n## Building and Running\n\n### With GNOME Builder (Recommended)\n\n1. Open **GNOME Builder**.\n2. Select **Open Project...** and choose this repository.\n3. Builder detects the Flatpak manifest (`build-aux/io.github.dragonGR.Dropzone.Devel.json`) and configures the GNOME 50 SDK environment automatically.\n4. Click **Run** (or press `Ctrl+Shift+Space`).\n\n### With Meson\n\n```sh\nmeson setup build\nninja -C build\nninja -C build test\nsudo ninja -C build install\n```\n\n### With Cargo\n\n```sh\n# Run tests\ncargo test\n\n# Check formatting and lints\ncargo fmt --check\ncargo clippy --all-targets --all-features -- -D warnings\n\n# Run Dropzone\ncargo run\n```\n\n## Translations\n\nDropzone is localized using GNU gettext. Translations are stored in the `po/` directory.\n\nTo run Dropzone with a specific language (for example, Greek):\n\n```sh\nLANGUAGE=el cargo run\n```\n\nTo update the translation template (`po/dropzone.pot`) after modifying user-facing strings:\n\n```sh\nninja -C build dropzone-pot\n```\n\n## Firewall Configuration\n\nDropzone binds to an OS-assigned ephemeral port on your LAN IP (for example, `http://192.168.1.42:43521/s/...`).\n\nIf a phone or receiving device on the same local network cannot open the link or the connection times out, your host firewall is likely dropping incoming traffic on high unprivileged ports.\n\n### UFW (Uncomplicated Firewall)\n\nAllow connections from your local subnet:\n\n```sh\nsudo ufw allow from 192.168.1.0/24\n```\n\nOr allow traffic on your active wireless interface:\n\n```sh\nsudo ufw allow in on wlan0\n```\n\n### firewalld\n\nAdd your local subnet to the trusted zone:\n\n```sh\nsudo firewall-cmd --add-source=192.168.1.0/24 --zone=trusted --permanent\nsudo firewall-cmd --reload\n```\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

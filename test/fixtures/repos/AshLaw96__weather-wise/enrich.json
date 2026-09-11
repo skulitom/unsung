@@ -1,0 +1,342 @@
+{
+  "nameWithOwner": "AshLaw96/weather-wise",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-09-20T09:40:57Z",
+  "pushedAt": "2026-09-04T14:18:53Z",
+  "diskUsage": 9769,
+  "stargazerCount": 1,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 57270,
+    "edges": [
+      {
+        "size": 45954,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 5239,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 3567,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 2492,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 18,
+        "node": {
+          "name": "Procfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "AshLaw96",
+    "__typename": "User",
+    "createdAt": "2023-08-02T14:03:33Z",
+    "repositories": {
+      "totalCount": 42
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 62,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T14:18:50Z",
+            "messageHeadline": "fix: resolve invalid-input crash and improve exit/leaderboard handling",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T14:00:00Z",
+            "messageHeadline": "feat(input): implement case-insensitive input handling across quiz an…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:42:38Z",
+            "messageHeadline": "fix(questions): remove tkinter dependency for headless heroku CLI com…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:35:36Z",
+            "messageHeadline": "feat(questions): expand question banks and standardise dataset structure",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:29:00Z",
+            "messageHeadline": "chore(deps): update python requirements for gspread and rich integration",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:27:39Z",
+            "messageHeadline": "refactor(utils): enhance input validation and console display helpers",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:27:03Z",
+            "messageHeadline": "refactor(ui): streamline gameplay execution loop and navigation flow",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2024-10-15T08:08:10Z",
+            "messageHeadline": "Fix spacing error on run file to pass PEP8 validator",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-14T12:28:25Z",
+            "messageHeadline": "Fix punctuation and grammer in TESTING & README",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-11T16:08:47Z",
+            "messageHeadline": "Add exit countdown in exit func & add more future features",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-11T13:47:02Z",
+            "messageHeadline": "Add usability feedback to TESTING & add all compressed screenshots",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-11T09:40:46Z",
+            "messageHeadline": "Rework leaderboard to top 10 scores & add more bugs fixed",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-10T18:13:21Z",
+            "messageHeadline": "Add func so user can see leaderboard & add func used to README",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-10T16:59:03Z",
+            "messageHeadline": "Rework code so that it passes PEP8 validator",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-10T13:54:12Z",
+            "messageHeadline": "Rework all code to add classes",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-09T16:24:27Z",
+            "messageHeadline": "Add comments to checks, game & run files for adding classes",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-09T13:27:41Z",
+            "messageHeadline": "Add browser, responsiveness & lighthouse imgs & info",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-08T17:48:19Z",
+            "messageHeadline": "Add screenshots of user story tests done to TESTING",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-08T16:53:01Z",
+            "messageHeadline": "Add imgs & info about the defensive tests done to TESTING",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-10-08T10:32:01Z",
+            "messageHeadline": "Add the info about the bugs & how they were fixed in TESTING",
+            "author": {
+              "user": {
+                "login": "AshLaw96"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitpod.dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": ".gitpod.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "Procfile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "TESTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "checks.py",
+        "type": "blob"
+      },
+      {
+        "name": "controllers",
+        "type": "tree"
+      },
+      {
+        "name": "documentation",
+        "type": "tree"
+      },
+      {
+        "name": "game.py",
+        "type": "blob"
+      },
+      {
+        "name": "helpers.py",
+        "type": "blob"
+      },
+      {
+        "name": "index.js",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "questions.py",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "run.py",
+        "type": "blob"
+      },
+      {
+        "name": "runtime.txt",
+        "type": "blob"
+      },
+      {
+        "name": "views",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 29507,
+    "text": "# [WEATHER WISE](https://weather-wise-project-e6ccd7a6b753.herokuapp.com)\n\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AshLaw96/weather-wise)](https://github.com/AshLaw96/weather-wise/commits/main)\n[![GitHub last commit](https://img.shields.io/github/last-commit/AshLaw96/weather-wise)](https://github.com/AshLaw96/weather-wise/commits/main)\n[![GitHub repo size](https://img.shields.io/github/repo-size/AshLaw96/weather-wise)](https://github.com/AshLaw96/weather-wise)\n\n---\n\nWeather Wise is a multiple choice weather quiz that users can play to help improve their knowledge about weather. It is a fun game for all ages, so everyone can play.\n\nWhen a user first opens the quiz it will show a menu with a title and a brief overview of what the program actually is. Below this will be a list of options with what the user can do next. Depending on their choice it will either start the game, show the instructions on how to play or quit the game. If the user inputs an incorrect value they will then be informed that whatever they have just inputted was incorrect and they need to write either 1, 2 or 3 depending on what they would like to do. If the user inputs 2 into the program, it will then take them to the difficulty choosing section, where it will ask the user what level of difficulty the user would like for example easy, medium or hard. Again, if the user inputs an incorrect value it will tell them that they have done so and need to write either 1, 2 or 3. Following their choice it will then ask how many questions they would like to answer for example 10, 20 or 30. Once more if the user didn't type a correct value it will tell them so and that they need to type either 1, 2 or 3. After this the program will then access data from the questions library and start asking randomly chosen multiple choice questions up until the user has answered their desired amount. For example what is rain? a. God peeing b. condensation from clouds c. water squirting from plains d. water that falls from clouds in the sky. Once again, if the user doesn't input a, b, c or d for any question they will be told to write a correct value from the options given. When the quiz has been finished their score will be added up and then shown to the user. The user will then be asked to enter their name and that their score will then be added to the leaderboard and the top 10 scorers will then be shown in the leaderboard. The user will then be asked if they would like to play again or quit the game. If the user doesn't input a correct value again, they will be informed of this and asked to input a correct value. Providing they have chosen a correct value it will either take them to the difficulty choice section or show a message saying 'thank you for playing, goodbye'. However, at the menu screen if the user inputted the second option the app will then show the user how to play the quiz and once they have read this it will return them back to the menu. Finally, if the user chooses the last option it will then double check they want to quit and if they do it will show the thank you for playing, goodbye message. \n\nDeployed site:\nhttps://ui.dev/amiresponsive?url=https://weather-wise-project-e6ccd7a6b753.herokuapp.com\n\n![screenshot](documentation/mockup.png)\n\nsource: [amiresponsive](https://ui.dev/amiresponsive?url=https://weather-wise-project-e6ccd7a6b753.herokuapp.com)\n\n---\n\n## User Stories\n\n### New Site Users\n\n- As a new site user, I would like to be able to know what the program does, so that I can quickly decide if I want to continue.\n- As a new site user, I would like to know how to play the quiz, so that I can easily understand what I need to do and start playing.\n- As a new site user, I would like to choose how hard the quiz is, so that I can challenge myself with harder questions.\n- As a new site user, I would like to choose the amount of questions I get asked, so that I don't get bored.\n- As a new site user, I would like to keep playing the game as many times as I want, so that I can keep testing my knowledge about the weather.\n\n### R\n\n- As a returning site user, I would like to be able to try answering any question again if I didn't input one of the given options, so that my score isn't effected because of this.\n- As a returning site user, I would like to be able to see my high score, so that I can try and beat it and improve my knowledge.\n- As a returning site user, I would like to have different questions asked, so that I'm not repeating the same questions every time I play.\n- As a returning site user, I would like to see different icons or images, so that I can be visually pleased whilst testing my knowledge of t he weather through the game.\n- As a returning site user, I would like to see other people's high score, so that I can try and get on the top of the leaderboard.\n\n## Features\n\n### Existing Features\n\n- **Header section**\n\n  - This will show the user what the app is called and a brief explanation of what it actually does.  \n\n![screenshot](documentation/features/head.png)\n\n- **Menu section**\n\n  - The app will then show three options 1. Play quiz 2. How to play 3. Quit. The user will then be asked to either input 1, 2 or 3 depending on what they would like to do.\n\n![screenshot](documentation/features/menu.png)\n\n- **Incorrect input for menu**\n\n  - If the user inputted an incorrect value the app will show that their value was not correct and they need to input either 1, 2 or 3.\n\n\n- **Level option**\n\n\n\n\n\n\n\n\n\n\n\n``` mermaid\nflowchart TD\n    Start([Start]) --> A1[Show menu of what the user needs to do and what the app does e.g. info of what program actually is 1. press 1 to show instructions 2. press 2 to play game 3. press 3 to quit.]\n    A1 --> B1[Asks user what difficulty level they want for example 1. easy 2. medium 3. hard]\n    B1 --> C1{1, 2 or 3}\n    C1 --> D1[Check what difficulty the user has inputted and then ask how many questions they want to answer e.g. 1. press 1 for 10 questions 2. press 2 for 20 questions 3. press 3 for 30 questions.]\n    D1 --> E1{1, 2 or 3}\n    E1 --> F1[Checks what amount the user would like then access data from the questions library and pulls random questions from this.]\n    F1 --> G1[Starts the quiz asking the user multiple choice questions e.g. what is a cloud? a. pillow b. the sky c. a group of tiny water droplets or ice crystals that float in the sky d. rain]\n    G1 --> H1{a, b, c or d}\n    H1 --> I1[When the user has answered their chosen amount of questions, they will then show their score and be asked to input their name.]\n    I1 --> J1[Their score will then be added to a leaderboard and they will then be asked if they'd like to play again or quit e.g. 1. press 1 to play again 2. press 2 to quit]\n    J1 --> K1{1 or 2}\n    K1 --> |1| A1\n    K1 --> |2| End([End])\n\n    A1 --> L1[Shows the user instructions on how to play the game.]\n    A1 --> M1[Shows a message making sure the user wants to quit the game e.g. 1. press 1 to keep playing 2. press 2 to quit.]\n    A1 --> N1[Incorrect input by user shows they inputted incorrect value and what they need to type.]\n    N1 --> A1\n```\n```python\nclass SelectionChecker:\n    \"\"\"  Check user input and display errors if input is invalid. \"\"\"\n    def __init__(self, selections):\n        self.selections = selections\n```\n```python\nclass CheckerFactory:\n    \"\"\"   Provides different types of selection checkers based on input. \"\"\"\n    @staticmethod\n```\n```python\nclass UIManager:\n    \"\"\"  Handles the starting functions so the program can run. \"\"\"\n    def __init__(self):\n        pass\n```\n```python\nclass QuizGame:\n    \"\"\"  Handles all the game functions. \"\"\"\n    def __init__(self):\n        self.difficulty = None\n        self.num_questions = None\n        self.total_score = 0\n```\n```python\nclass LeaderboardManager:\n    \"\"\"  Authenticates to the Google Sheets API and returns the sheet object. \"\"\"\n    def __init__(self):\n        self.sheet = None\n```\n```python\nclass StyleHelper:\n    \"\"\"  Handles all the styling operations and definitions. \"\"\"\n```\n```python\nclass ProgramHelper:\n    \"\"\"  Handles all the helper functions. \"\"\"\n```\n\t- `git clone https://github.com/AshLaw96/weather-wise.git`"
+  },
+  "pkg": {
+    "byteSize": 527,
+    "text": "{\n  \"name\": \"terminal\",\n  \"version\": \"1.0.0\",\n  \"main\": \"server.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/lechien73/terminal.git\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/lechien73/terminal/issues\"\n  },\n  \"homepage\": \"https://github.com/lechien73/terminal#readme\",\n  \"dependencies\": {\n    \"node-static\": \"^0.7.11\",\n    \"node-pty\": \"^0.10.1\",\n    \"total4\": \"^0.0.45\"\n  }\n}"
+  },
+  "agents": null,
+  "claude": null
+}

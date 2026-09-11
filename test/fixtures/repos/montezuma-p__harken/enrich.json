@@ -1,0 +1,470 @@
+{
+  "id": "R_kgDOT83OVA",
+  "nameWithOwner": "montezuma-p/harken",
+  "description": "Your agent cannot listen to audio. harken fixes that — locally. MCP server + CLI, one 13 MB binary, fully offline: no Python, no ffmpeg, no API key.",
+  "homepageUrl": "https://crates.io/crates/harken",
+  "createdAt": "2026-08-18T22:30:09Z",
+  "pushedAt": "2026-09-01T16:42:34Z",
+  "diskUsage": 785,
+  "stargazerCount": 13,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 278556,
+    "edges": [
+      {
+        "size": 258767,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 15720,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 2396,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 1673,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "agent-skills"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude-code"
+        }
+      },
+      {
+        "topic": {
+          "name": "offline"
+        }
+      },
+      {
+        "topic": {
+          "name": "transcription"
+        }
+      },
+      {
+        "topic": {
+          "name": "whatsapp"
+        }
+      },
+      {
+        "topic": {
+          "name": "whisper"
+        }
+      },
+      {
+        "topic": {
+          "name": "cli"
+        }
+      },
+      {
+        "topic": {
+          "name": "rust"
+        }
+      },
+      {
+        "topic": {
+          "name": "speech-to-text"
+        }
+      },
+      {
+        "topic": {
+          "name": "whisper-cpp"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp-server"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 8,
+    "nodes": [
+      {
+        "tagName": "v0.8.0",
+        "publishedAt": "2026-08-25T22:41:14Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.7.0",
+        "publishedAt": "2026-08-25T21:13:16Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.6.0",
+        "publishedAt": "2026-08-24T10:12:12Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.5.0",
+        "publishedAt": "2026-08-22T23:51:40Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.4.2",
+        "publishedAt": "2026-08-22T16:43:17Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 9
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "montezuma-p",
+    "__typename": "User",
+    "createdAt": "2025-06-08T22:31:44Z",
+    "repositories": {
+      "totalCount": 9
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "f10152e0543e2192d292ef22179602358333ea92",
+      "history": {
+        "totalCount": 59,
+        "nodes": [
+          {
+            "committedDate": "2026-08-25T22:32:30Z",
+            "messageHeadline": "chore(release): v0.8.0",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T22:28:13Z",
+            "messageHeadline": "Merge pull request #45 from montezuma-p/feat/mcp-warm-residue-and-sch…",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T22:20:02Z",
+            "messageHeadline": "docs: write down which version number a release bumps",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T22:06:26Z",
+            "messageHeadline": "feat(mcp): declare outputSchema and read-only annotations on every tool",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T22:03:24Z",
+            "messageHeadline": "feat(mcp): report the warm-up state from transcribe_status",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T21:59:27Z",
+            "messageHeadline": "fix(mcp): detach the warm-up thread at EOF instead of joining it",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T21:59:07Z",
+            "messageHeadline": "fix(mcp): settle the warm state from a drop guard",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T21:05:56Z",
+            "messageHeadline": "chore(release): v0.7.0",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:56:48Z",
+            "messageHeadline": "docs: sync the test count after the issue-sweep merges",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:55:47Z",
+            "messageHeadline": "docs(engine): record the best_of=1 trade and the reachable VAD (#37)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:43:35Z",
+            "messageHeadline": "feat(mcp): eliminate the first-call model download stall (#41)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:33:55Z",
+            "messageHeadline": "feat(model): verify downloads against the HuggingFace SHA-256 (#40)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:27:46Z",
+            "messageHeadline": "fix(model): never commit a bad download to the model cache (#39)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:06:02Z",
+            "messageHeadline": "build(model): migrate the model download to ureq 3 (#38)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:04:53Z",
+            "messageHeadline": "fix(engine): warn when --device asks for a GPU no build compiles (#35)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:04:50Z",
+            "messageHeadline": "fix(batch): exit 2 when a glob pattern cannot compile (#34)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T20:03:46Z",
+            "messageHeadline": "fix(audio): reject a decode that produces zero samples (#36)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T15:41:23Z",
+            "messageHeadline": "build: bump cc from 1.4.3 to 1.4.4 in the cargo group across 1 direct…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T10:26:02Z",
+            "messageHeadline": "ci(commits): waive the subject length limit for bots (#33)",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T10:03:32Z",
+            "messageHeadline": "chore(release): v0.6.0",
+            "author": {
+              "user": {
+                "login": "montezuma-p"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".claude-plugin",
+        "type": "tree"
+      },
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-APACHE",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-MIT",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "build.rs",
+        "type": "blob"
+      },
+      {
+        "name": "dist-workspace.toml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "rust-toolchain.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "vendor",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "commits.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10900,
+    "isTruncated": false,
+    "text": "# harken\n\n**Your agent cannot listen to audio. harken fixes that — locally.**\n\n[![CI](https://github.com/montezuma-p/harken/actions/workflows/ci.yml/badge.svg)](https://github.com/montezuma-p/harken/actions/workflows/ci.yml)\n[![crates.io](https://img.shields.io/crates/v/harken.svg)](https://crates.io/crates/harken)\n[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)\n\nAn [MCP](https://modelcontextprotocol.io) server that transcribes WhatsApp\nvoice notes, meeting recordings — any audio — so your agent can read them.\nOne 13 MB binary powered by\n[whisper.cpp](https://github.com/ggml-org/whisper.cpp), fully offline: no\nPython, no ffmpeg, no API key, nothing leaves the machine. The same binary is\nalso a [batch CLI](#the-cli) and a [Claude Code Agent Skill](#the-agent-skill--claude-code).\n\n![Claude Code reading a coworker's WhatsApp voice notes through harken and answering with the task, fully offline](https://raw.githubusercontent.com/montezuma-p/harken/main/docs/assets/demo-claude.gif)\n\n*Five Portuguese voice notes explaining one task — transcribed on CPU, read by\nthe agent, and answered in five bullets. Nothing left the machine.*\n\n## Quickstart — give your agent ears\n\nInstall the binary (Linux/macOS; [more options](#install)):\n\n```bash\ncurl --proto '=https' --tlsv1.2 -LsSf https://github.com/montezuma-p/harken/releases/latest/download/harken-installer.sh | sh\n```\n\nWire it into your MCP client:\n\n```bash\nclaude mcp add harken -- harken mcp\n```\n\nor, in a project `.mcp.json` (Claude Code) / `claude_desktop_config.json`\n(Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"harken\": { \"command\": \"harken\", \"args\": [\"mcp\"] }\n  }\n}\n```\n\nThat is the whole setup. Three tools appear — `transcribe_file`,\n`transcribe_whatsapp_export` and `transcribe_status` — and any MCP client can\nuse them: Claude Code, Claude Desktop, Cursor, Windsurf. Hand the agent an\n`.opus`, an `.mp3`, a whole WhatsApp chat-export zip; it transcribes locally\nand reads the text. `transcribe_status` lets the agent check the model cache,\nlanguage and device without transcribing anything (it never touches the\nnetwork) — including whether the startup download is still in flight, so a\ncall that would simply wait is not mistaken for one that would stall.\n\nThe server speaks the current MCP revision, **2026-07-28** (stateless, with\n`server/discover`), and still answers the `initialize` handshake of 2025-06-18\nand older — so it works with clients on either side of that change.\n\nModel, language and device are fixed per server instance (`harken mcp --model\nmedium --lang auto`) with the same defaults as the CLI (`small`, `pt`, `cpu`) —\nrun two entries for two languages. On startup the server downloads an uncached\nmodel in the background (~466 MB for `small`) while it already answers\n`initialize`/`tools/list`; a tool call arriving mid-download waits for it. To\nskip even that first-call wait, pre-warm the cache once:\n\n```bash\nharken warm            # or: harken warm --model medium\n```\n\n## Why\n\nA coworker explains one task in five voice notes of 1–2 minutes each. That is\nten minutes you have to sit through in order — and at the end you still cannot\nsearch it, quote it, or paste the one sentence that mattered into a ticket.\n\nOne 30-second note? Just listen to it. `harken` is for the rest:\n\n- **Agents cannot listen.** You cannot hand an `.opus` to Claude. Through the\n  MCP server (or the Agent Skill), the agent transcribes the notes locally,\n  reads them, and picks up the task context on its own — including the\n  correction buried halfway through the notes.\n- **Volume.** Five notes in a row, a folder of meeting recordings, a whole\n  WhatsApp chat export — one command, one model load, one folder of text.\n- **Text is random-access.** Grep it, skim it, quote it, diff it. Audio at 2x\n  is still serial — you cannot ctrl-F a voice note.\n\nVoice notes, meeting recordings, and WhatsApp PTT audio are also often\nsensitive, so none of the above costs you privacy. Everything runs on your own\nmachine: no audio \nupload step, no cloud dependency, CPU by default — no GPU required.\n\n## The Agent Skill — Claude Code\n\nBeyond the MCP tools, `harken` ships an\n[Agent Skill](.claude/skills/transcribe-audio/SKILL.md) that teaches Claude\nCode when and how to transcribe audio locally instead of reaching for a cloud\nAPI. Install it as a plugin:\n\n```\n/plugin marketplace add montezuma-p/harken\n/plugin install harken@harken\n```\n\nThe skill invokes the `harken` binary and knows how to install it with the\none-liner above if it is missing. (Alternatively: clone the repo and the\nproject-scoped skill in `.claude/skills/` is picked up automatically, or\ncopy/symlink `.claude/skills/transcribe-audio/` into `~/.claude/skills/`.)\n\n## The CLI\n\nThe same engine, batch-first — point it at files, folders, globs, or a\nWhatsApp chat-export zip:\n\n![harken transcribing the voice notes of a WhatsApp chat export from the command line](https://raw.githubusercontent.com/montezuma-p/harken/main/docs/assets/demo-cli.gif)\n\n```bash\n# One file → ./transcripts/voice-note.txt\nharken voice-note.opus\n\n# A whole folder, recursively; globs work too\nharken ~/Downloads/meeting-recordings/\nharken \"recordings/*.m4a\" --out ./out --format srt\n\n# Every voice note in a WhatsApp export (\"Export chat\" → with media)\nharken whatsapp \"WhatsApp Chat with Maria.zip\"\n\n# Only a date range, plus a merged chat log with each transcript inlined\nharken whatsapp export.zip --from 2026-07-01 --to 2026-07-15 --merge\n```\n\nFlags (both modes): `--out DIR` (default `./transcripts`, or\n`./<zip-stem>-transcripts` for exports), `--model` (default `small`), `--lang`\n(default `pt`; `auto` to detect), `--format` (`txt`/`json`/`srt`/`md`),\n`--device` (default `cpu`), `--force` (re-transcribe existing outputs).\nWhatsApp mode adds `--from`/`--to` (`YYYY-MM-DD`, inclusive) and `--merge`,\nwhich writes `_chat.transcribed.txt`: the full original chat with each voice\nnote's transcript inlined right under its message. Both iOS and Android export\nformats are auto-detected, including day-first vs month-first Android dates.\n\nEvery file gets `<out>/<stem>.<format>`, and a running `manifest.jsonl`\nrecords one line per transcription. Progress goes to stderr; the exit code is\n`1` if any file failed (skips don't count), `2` for input errors.\n\n> **Privacy note:** output files — transcripts and `manifest.jsonl` — contain\n> the full transcribed text. Keep your output dirs out of version control.\n\n## Install\n\nOne-liner (Linux/macOS):\n\n```bash\ncurl --proto '=https' --tlsv1.2 -LsSf https://github.com/montezuma-p/harken/releases/latest/download/harken-installer.sh | sh\n```\n\nWindows (PowerShell):\n\n```powershell\npowershell -ExecutionPolicy Bypass -c \"irm https://github.com/montezuma-p/harken/releases/latest/download/harken-installer.ps1 | iex\"\n```\n\nOther options:\n\n```bash\ncargo binstall harken        # prebuilt binary via cargo-binstall\ncargo install harken --locked  # build from source (needs Rust 1.88+, cmake + a C++ toolchain)\n```\n\n> Building from source with CMake >= 4 and no system libopus? The vendored\n> opus tree declares an old CMake minimum; prepend\n> `CMAKE_POLICY_VERSION_MINIMUM=3.5` to the `cargo install` line.\n\nPrebuilt binaries and default source builds target AVX2/FMA/F16C (Intel Haswell,\nAMD Excavator, or newer). Building for the machine you are on, and want its full\ninstruction set? Prepend `HARKEN_NATIVE=1` to the `cargo install` line.\n\nIf you are building from a git checkout, initialize the vendored whisper.cpp\nsubmodule first:\n\n```bash\ngit clone --recurse-submodules https://github.com/montezuma-p/harken\n# or, if you already cloned it:\ngit submodule update --init --recursive\n```\n\n## Models & hardware\n\n`--model` accepts a [whisper.cpp ggml model](https://huggingface.co/ggerganov/whisper.cpp)\nname or a path to a local `.bin` file:\n\n- `small` (default, ~466 MB) — good accuracy/speed tradeoff on CPU; fine\n  for most voice notes and casual recordings.\n- `medium` (~1.5 GB) — noticeably better accuracy (accents, background\n  loss.\n\n```bash\nmake check   # fmt + clippy + tests + cargo-audit + cargo-machete\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": {
+    "byteSize": 9869
+  }
+}

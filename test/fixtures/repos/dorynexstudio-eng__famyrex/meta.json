@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "dorynexstudio-eng/famyrex",
+  "label": "W",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 5133,
+    "keptBytes": 5133,
+    "excerpt": false
+  }
+}

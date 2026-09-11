@@ -1,0 +1,367 @@
+{
+  "id": "R_kgDOThnKYg",
+  "nameWithOwner": "lanerchenbuna/QueryForge",
+  "description": "Governed AI analytics from natural language to auditable SQL, powered by a mandatory semantic layer, policy enforcement, and a visual Studio. 从自然语言到可审计 SQL 的受治理 AI 数据分析平台，内置强制语义层、SQL 策略治理与可视化工作台。",
+  "homepageUrl": "",
+  "createdAt": "2026-07-23T19:49:12Z",
+  "pushedAt": "2026-08-14T15:36:44Z",
+  "diskUsage": 26624,
+  "stargazerCount": 13,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 1366555,
+    "edges": [
+      {
+        "size": 1094768,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 167171,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 97217,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 4861,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 1661,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 877,
+        "node": {
+          "name": "Jinja"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "analytics-engineering"
+        }
+      },
+      {
+        "topic": {
+          "name": "data-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "data-governance"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "nextjs"
+        }
+      },
+      {
+        "topic": {
+          "name": "nl2sql"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "semantic-layer"
+        }
+      },
+      {
+        "topic": {
+          "name": "sqlglot"
+        }
+      },
+      {
+        "topic": {
+          "name": "sqlite"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "lanerchenbuna",
+    "__typename": "User",
+    "createdAt": "2024-08-15T08:47:42Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 9,
+        "nodes": [
+          {
+            "committedDate": "2026-08-14T15:36:44Z",
+            "messageHeadline": "Merge pull request #18 from lanerchenbuna/chore/repository-cleanup",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T15:33:58Z",
+            "messageHeadline": "Merge branch 'main' into chore/repository-cleanup",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T15:29:56Z",
+            "messageHeadline": "fix: harden transports, streaming, reports, and data-asset publish; i…",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T09:43:45Z",
+            "messageHeadline": "Merge pull request #17 from lanerchenbuna/chore/repository-cleanup",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T09:35:21Z",
+            "messageHeadline": "feat: add domain-first studio workflow",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T06:19:31Z",
+            "messageHeadline": "Merge pull request #10 from lanerchenbuna/chore/repository-cleanup",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T06:17:22Z",
+            "messageHeadline": "fix: include frontend build plugin in CI",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T06:09:36Z",
+            "messageHeadline": "chore: remove obsolete files",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T19:47:15Z",
+            "messageHeadline": "feat: launch QueryForge",
+            "author": {
+              "user": {
+                "login": "lanerchenbuna"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.zh-CN.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "evaluation",
+        "type": "tree"
+      },
+      {
+        "name": "main.py",
+        "type": "blob"
+      },
+      {
+        "name": "models.yml",
+        "type": "blob"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "queryforge",
+        "type": "tree"
+      },
+      {
+        "name": "requirements-assets.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-mcp.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-server.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-vector.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "sample",
+        "type": "tree"
+      },
+      {
+        "name": "sample_data",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "web",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "quality.yml"
+      },
+      {
+        "name": "semantic-weekly.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 17994,
+    "text": "<div align=\"center\">\n\n<img src=\"docs/assets/queryforge-hero.svg\" width=\"100%\" alt=\"QueryForge — governed AI analytics from natural language to trusted SQL\">\n\n# QueryForge\n\n### Governed AI analytics, from natural language to auditable SQL\n\nTurn business questions into safe, traceable SQLite queries—with a semantic layer,\npolicy enforcement, bounded recovery, and production-friendly delivery interfaces.\n\n[简体中文](README.zh-CN.md) · [Quick start](#quick-start) · [Architecture](#how-it-works) · [Documentation](#documentation)\n\n![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white)\n![SQLite](https://img.shields.io/badge/SQLite-read--only-003B57?logo=sqlite&logoColor=white)\n![SQLGlot](https://img.shields.io/badge/SQL%20policy-SQLGlot-6B4FBB)\n![Tests](https://img.shields.io/badge/tests-270%20passing-2EA44F)\n![Semantic contracts](https://img.shields.io/badge/semantic%20checks-82%20passing-7C3AED)\n\n</div>\n\n---\n\nQueryForge is a local-first, domain-first AI data analytics platform built around\none principle:\n**generated SQL should be governed like application code, not trusted like prose**.\n\nUsers create or select a data domain first—such as retail, finance, product, or\nthe bundled Anime Streaming sample—then onboard that domain's data, review its\nsemantic contract, and ask questions inside the same governance boundary.\nQueryForge combines that workflow with natural-language-to-SQL, AST-level\nsecurity, read-only execution, multi-candidate selection, repair budgets, and\ncomplete run artifacts.\n\n> QueryForge currently targets SQLite and controlled environments. It is a\n> portfolio-grade reference architecture, not a multi-tenant analytics service.\n\n## Product Tour\n\n<div align=\"center\">\n  <img src=\"docs/assets/queryforge-studio-domains.png\" width=\"100%\" alt=\"QueryForge Data Domain Center for creating and selecting isolated business contexts\">\n  <sub>Data Domain Center — create or select a governed context before adding data or semantics.</sub>\n</div>\n\n<br>\n\n<div align=\"center\">\n  <img src=\"docs/assets/queryforge-studio-overview.png\" width=\"100%\" alt=\"QueryForge Studio overview with semantic health, business metrics, and engagement trends\">\n  <sub>Domain overview — the Anime Streaming dataset is shown as one selected sample, not the platform identity.</sub>\n</div>\n\n<br>\n\n<div align=\"center\">\n  <img src=\"docs/assets/queryforge-studio-semantic.png\" width=\"49%\" alt=\"QueryForge Semantic Studio entity relationship graph and contract editor\">\n  <img src=\"docs/assets/queryforge-studio-analysis.png\" width=\"49%\" alt=\"QueryForge governed analysis result with generated SQL and Trust Trace\">\n  <br>\n  <sub>Semantic Studio &nbsp;·&nbsp; Governed analysis with auditable SQL and Trust Trace</sub>\n</div>\n\n## Why QueryForge?\n\nMost NL2SQL demos stop after a model emits a query. QueryForge covers the full\ndelivery loop:\n\n| Need | QueryForge approach |\n| --- | --- |\n| Trust the generated SQL | Parse with SQLGlot and enforce a named policy before execution |\n| Keep business meaning consistent | Define metrics, dimensions, grain, and join paths in YAML |\n| Prevent context from leaking | Scope sources, semantic contracts, policies, and run history to a selected data domain |\n| Recover from imperfect output | Reflect, repair, and retry within explicit budgets |\n| Handle harder questions | Use bounded schema discovery and parallel SQL candidates |\n| Trace what happened | Persist run state, policy decisions, quality evidence, and artifacts |\n| Integrate with other tools | Expose CLI, REST/SSE, MCP, gateway, JSON, charts, and HTML reports |\n| Start from raw data | Build governed SQLite assets from CSV, Parquet, and paginated JSON APIs |\n\n## Highlights\n\n- **Defense in depth** — candidates are checked before execution and revalidated\n  at the database boundary.\n- **Semantic contracts** — YAML models describe business metrics, entities,\n  relationships, cardinality, ownership, SLA, sensitivity, and quality rules.\n- **Adaptive workflow** — simple questions stay fast; complex questions can\n  acti\n\n\n\n\n```bash\npython3.11 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip\npython -m pip install -e .\ncp .env.example .env\n```\n\n\n\n```dotenv\nLLM_PROVIDER=openai\nOPENAI_API_KEY=your-api-key\nOPENAI_MODEL=gpt-4.1-mini\n```\n\n\n\n```bash\nqueryforge --prepare-sample-data\n\nqueryforge \\\n  --database sample_data/anime_streaming/anime_streaming.sqlite \\\n  --question \"Which anime generated the most watch hours?\"\n```\n\n```bash\nqueryforge \\\n  --database sample_data/anime_streaming/anime_streaming.sqlite \\\n  --semantic-model sample_data/anime_streaming/semantic_model.yml \\\n  --sql-policy sample_data/anime_streaming/sql_policy.yml \\\n  --question \"Compare watch completion and merchandise GMV by anime genre\"\n```\n```bash\n# Terminal 1: QueryForge API\npython -m pip install -e \".[api]\"\nqueryforge --serve-api\n\n# Terminal 2: QueryForge Studio\nmake web-install\nmake web-dev\n```\n```text\nanalysis → candidate → execution → completion → delivery\n```\n```text\nSQL candidate\n  → SQLite AST parse\n  → single read-only statement\n  → table and column scope\n  → dangerous-function checks\n  → recursive CTE and cross-join checks\n  → table, join, and LIMIT budgets\n  → governed preview\n  → execution-boundary revalidation\n```\n```yaml\nversion: 1\nname: anime_streaming\nallowed_tables:\n  - fact_watch_session\n  - dim_anime\nrequire_limit: true\nmax_limit: 500\nmax_tables: 2\nmax_joins: 1\nallow_cross_join: false\n```\n```yaml\nmetrics:\n  - name: watch_hours\n    description: Total valid viewing time in hours.\n    entity: watch_session\n    aggregation: sum\n    expression: SUM(fact_watch_session.watch_seconds) / 3600.0\n    default_filters:\n      - fact_watch_session.is_valid = 1\n    owner: audience-analytics\n    sensitivity: internal\n```\n```text\nCreate/select domain\n  → upload domain-owned sources\n  → profile physical schema\n  → confirm entity identity and grain\n  → define dimensions, measures, metrics, and time\n  → review relationships, cardinality, and Join Paths\n  → classify sensitivity, ownership, policy, and quality\n  → validate 100% of blocking checks\n  → publish data + semantics atomically\n```\n```bash\npython scripts/build_semantic_model.py \\\n  --database warehouse.sqlite \\\n  --output warehouse.semantic.yml \\\n  --owner data-platform\n```\n```mermaid\nflowchart LR\n  Studio[Studio] --> Anime[Anime]\n  Genre[Genre] --- Bridge[Anime–Genre Bridge] --- Anime\n  Anime --> Episode[Episode] --> Watch[Watch Session]\n  User[User] --> Watch\n  User --> Rating[Rating] --> Anime\n  User --> Subscription[Subscription]\n  Watch --> Ad[Ad Impression]\n  User --> Order[Merch Order] --> Item[Order Item]\n  Product[Merch Product] --> Item\n  Anime --> Product\n  User --> Follow[User Follow] --> User\n\n  classDef dimension fill:#111827,stroke:#7c3aed,color:#f9fafb;\n  classDef fact fill:#172554,stroke:#22d3ee,color:#f9fafb;\n  class Anime,Studio,Genre,Episode,User,Product,Bridge dimension;\n```\n```bash\nqueryforge \\\n  --plan-mode \\\n  --question \"Compare monthly watch hours by subscription tier\"\n```\n```bash\nqueryforge \\\n  --complexity-mode complex \\\n  --parallel-candidates 3 \\\n```\n```bash\nqueryforge --stream --question \"List the top ten anime by watch hours\"\nqueryforge --report --question \"Build a report for monthly engagement by genre\"\n```\n```bash\npython -m pip install -e \".[assets]\"\n\npython scripts/scaffold_data_asset.py \\\n  --source events.csv \\\n\n```\n```bash\npython -m pip install -e \".[api]\"\nqueryforge --serve-api --api-host 127.0.0.1 --api-port 8000\n```\n```bash\ncurl -X POST http://127.0.0.1:8000/ask \\\n  -H 'content-type: application/json' \\\n  -d '{\n  }'\n```\n```bash\npython -m pip install -e \".[mcp]\"\npython -m queryforge.interfaces.mcp.server --transport stdio\n```\n```text\nqueryforge/\n├── cli.py             # Installed CLI implementation\n├── application/       # Transport-neutral service facade and resources\n\n```\n```bash\npython scripts/run_acceptance.py --full\n```\n```bash\npython -m unittest discover -s tests -q\n```\n```bash\npython scripts/evaluate_sql.py \\\n  --cases evaluation/gold/nl2sql_multidomain.jsonl \\\n  --model-provider openai \\\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

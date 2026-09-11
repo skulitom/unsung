@@ -1,0 +1,602 @@
+[
+  {
+    "id": 43273838423,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T06:08:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43273613120,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T06:05:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43266741399,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T04:12:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43266600496,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T04:10:18Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43266384065,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T04:06:43Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43266206909,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T04:03:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43263329530,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T03:12:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43263133131,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T03:08:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43262949509,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T03:05:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43262833159,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T03:03:01Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43261355681,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:34:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43261148581,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:30:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43261004364,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:27:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43260892625,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:25:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43260162581,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:11:28Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43260022494,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:08:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43259899587,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:06:34Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43259745379,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T02:03:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43258386199,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:39:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43258219810,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:35:55Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43258129515,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:34:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256991915,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:13:05Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256818789,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:09:50Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256644024,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:06:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256486842,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T01:03:44Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256243104,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:59:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256154122,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:57:51Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43256117588,
+    "ref": "refs/heads/experiment/gp-rs1-sample-g3",
+    "timestamp": "2026-09-11T00:57:09Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43256021926,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:55:20Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255965304,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:54:16Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43255914713,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:53:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255814759,
+    "ref": "refs/heads/experiment/gp-rs1-sample-g3",
+    "timestamp": "2026-09-11T00:51:24Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255782012,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:50:48Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255728284,
+    "ref": "refs/heads/experiment/gp-rs1-sample-g3",
+    "timestamp": "2026-09-11T00:49:48Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255715602,
+    "ref": "refs/heads/experiment/gp-rs1-sample-g3",
+    "timestamp": "2026-09-11T00:49:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43255647973,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:48:18Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43255549320,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:46:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254951239,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:35:34Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254846950,
+    "ref": "refs/heads/experiment/rs1-payability-gate",
+    "timestamp": "2026-09-11T00:33:38Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43254820532,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:33:09Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254804014,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:32:50Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43254641233,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:30:01Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254583705,
+    "ref": "refs/heads/experiment/rs1-payability-gate",
+    "timestamp": "2026-09-11T00:28:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43254490031,
+    "ref": "refs/heads/experiment/rs1-agent-harness-cta",
+    "timestamp": "2026-09-11T00:27:12Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43254459777,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:26:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43254399493,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:25:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253759118,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:13:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253529399,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:09:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253339911,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:06:07Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253306275,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:05:31Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43253209255,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:03:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253148661,
+    "ref": "refs/heads/experiment/rs1-agent-harness-cta",
+    "timestamp": "2026-09-11T00:02:53Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43253118186,
+    "ref": "refs/heads/experiment/rs1-agent-harness-cta",
+    "timestamp": "2026-09-11T00:02:23Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43252982464,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-11T00:00:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43250097744,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T23:07:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43249858251,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T23:03:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43249774007,
+    "ref": "refs/heads/experiment/godprompt-commercial-freeze",
+    "timestamp": "2026-09-10T23:02:26Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43249773471,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T23:02:25Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43249707670,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T23:01:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43249606392,
+    "ref": "refs/heads/experiment/godprompt-commercial-freeze",
+    "timestamp": "2026-09-10T22:59:50Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43249254204,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T22:53:38Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43249174949,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T22:52:13Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43249100175,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T22:50:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43248378886,
+    "ref": "refs/heads/docs/revenue-shot-control-doc-v4",
+    "timestamp": "2026-09-10T22:38:33Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43248378517,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T22:38:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43248292603,
+    "ref": "refs/heads/docs/revenue-shot-control-doc-v4",
+    "timestamp": "2026-09-10T22:37:07Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43246099579,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T22:02:03Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43245820333,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T21:58:01Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43245692161,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T21:55:59Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43245609600,
+    "ref": "refs/heads/docs/revenue-shot-preflight-final",
+    "timestamp": "2026-09-10T21:54:44Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43244461563,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T21:37:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43239589383,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T20:28:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43232355093,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T18:56:43Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43230647555,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T18:36:04Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 43230436559,
+    "ref": "refs/heads/chore/revenue-preflight-finalize",
+    "timestamp": "2026-09-10T18:33:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43230435686,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T18:33:30Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43230327399,
+    "ref": "refs/heads/chore/revenue-preflight-finalize",
+    "timestamp": "2026-09-10T18:32:11Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43224666683,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T17:26:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43224154831,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T17:21:14Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43224124073,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T17:20:53Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43223982928,
+    "ref": "refs/heads/experiment/godprompt-revenue-control",
+    "timestamp": "2026-09-10T17:19:19Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43223193429,
+    "ref": "refs/heads/chore/revenue-shot-preflight",
+    "timestamp": "2026-09-10T17:10:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43223192486,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T17:10:29Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43223011778,
+    "ref": "refs/heads/chore/revenue-shot-preflight",
+    "timestamp": "2026-09-10T17:08:28Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41653619732,
+    "ref": "refs/heads/cleanup/merged-branches-20260829",
+    "timestamp": "2026-08-29T00:09:23Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41653618554,
+    "ref": "refs/heads/feat/godprompt-bench",
+    "timestamp": "2026-08-29T00:09:22Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41653617354,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-29T00:09:21Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41653608155,
+    "ref": "refs/heads/cleanup/merged-branches-20260829",
+    "timestamp": "2026-08-29T00:09:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41653599798,
+    "ref": "refs/heads/cleanup/merged-branches-20260829",
+    "timestamp": "2026-08-29T00:09:05Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41653416153,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-29T00:06:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41653055634,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-29T00:01:14Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41650755385,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:26:45Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41650745491,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:26:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41650671000,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:25:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41650103750,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:17:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41650032149,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:16:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41650019749,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:15:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41649914713,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:14:28Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41649904408,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:14:20Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41649092132,
+    "ref": "refs/heads/experiment/godprompt-half-2026-08-29",
+    "timestamp": "2026-08-28T23:03:05Z",
+    "activity_type": "push"
+  }
+]

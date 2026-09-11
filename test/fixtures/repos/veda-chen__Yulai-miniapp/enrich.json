@@ -1,0 +1,359 @@
+{
+  "id": "R_kgDOUUahfQ",
+  "nameWithOwner": "veda-chen/Yulai-miniapp",
+  "description": "羽来——面向广州大学城羽毛球爱好者的微信小程序，支持创建与发现球局、报名候补、现场组队、多人计分和场馆信息管理。",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T05:53:30Z",
+  "pushedAt": "2026-09-11T07:53:17Z",
+  "diskUsage": 5746,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 404730,
+    "edges": [
+      {
+        "size": 188560,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 181438,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 24143,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 9144,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1445,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "veda-chen",
+    "__typename": "User",
+    "createdAt": "2024-10-28T13:20:41Z",
+    "repositories": {
+      "totalCount": 12
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 18,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T07:53:09Z",
+            "messageHeadline": "feat: enrich miniapp UI with venue imagery and redesigned icons",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:28:46Z",
+            "messageHeadline": "feat: enrich miniapp visuals",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:47:58Z",
+            "messageHeadline": "fix: replace homepage symbol icons",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:59:25Z",
+            "messageHeadline": "fix: render homepage assets reliably",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:49:15Z",
+            "messageHeadline": "chore: prepare M5 pilot candidate",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:32:46Z",
+            "messageHeadline": "docs: prepare WeChat privacy declaration",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:29:00Z",
+            "messageHeadline": "chore: add M5 cloud performance benchmark",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:21:38Z",
+            "messageHeadline": "feat: enforce deleted account retention",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:40:19Z",
+            "messageHeadline": "feat: add in-app privacy notice",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:46:12Z",
+            "messageHeadline": "feat: add account deletion and anonymization",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:16:04Z",
+            "messageHeadline": "docs: add M5 privacy review checklist",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:13:14Z",
+            "messageHeadline": "docs: verify pilot venue public information",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:06:53Z",
+            "messageHeadline": "docs: record M5 environment verification",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:02:16Z",
+            "messageHeadline": "fix: harden M5 backup and recovery checks",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:41:39Z",
+            "messageHeadline": "chore: establish M5 release readiness baseline",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:22:48Z",
+            "messageHeadline": "docs: improve GitHub README",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:15:28Z",
+            "messageHeadline": "feat: initialize Yulai badminton meetup mini program",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T05:53:31Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "veda-chen"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "apps",
+        "type": "tree"
+      },
+      {
+        "name": "biome.json",
+        "type": "blob"
+      },
+      {
+        "name": "cloudbase",
+        "type": "tree"
+      },
+      {
+        "name": "cloudbaserc.json",
+        "type": "blob"
+      },
+      {
+        "name": "cloudfunctions",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "project.config.json",
+        "type": "blob"
+      },
+      {
+        "name": "project.private.config.json",
+        "type": "blob"
+      },
+      {
+        "name": "release",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.base.json",
+        "type": "blob"
+      },
+      {
+        "name": "yulai-ui-redesign.design",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4480,
+    "text": "# 羽来 Yulai\n\n面向广州大学城羽毛球爱好者的微信组局小程序，帮助球友发现球局、创建活动、报名候补，并按需使用现场组队与计分功能。\n\n> 当前版本已完成 M1–M4，首个试点场馆为广东工业大学大学城校区体育馆。\n\n## 核心功能\n\n- **发现与组局**：浏览公开球局、搜索筛选、创建和编辑活动\n- **报名管理**：报名、候补、退出、截止后人工递补和到场确认\n- **个人资料**：维护昵称、羽毛球水平和可选学校信息\n- **活动治理**：关键变更确认、取消或结束活动、举报与管理员处置\n- **现场模式（可选）**：整轮双打分组、手工建对局、参与者录分、比分确认与锁定战绩\n- **场馆信息**：展示试点场馆及场地信息\n\n组队和计分不会成为创建球局的必选流程；小程序当前不提供线上支付、订单、退款或平台收款能力。\n\n## 技术栈\n\n| 层级 | 技术 |\n| --- | --- |\n| 小程序端 | 微信原生小程序、TypeScript、WXML、WXSS |\n| 服务端 | 微信云开发 CloudBase、Node.js、TypeScript |\n| 数据与鉴权 | CloudBase 数据库、`wx.cloud.callFunction`、`getWXContext` |\n| 工程化 | pnpm workspace、Biome、Vitest |\n\n客户端统一调用 `api` 云函数，云函数通过微信上下文获取可信用户身份，客户端不传递 `openid`。\n\n## 项目结构\n\n```text\n.\n├─ apps/\n│  ├─ miniprogram/       # 微信小程序\n│  └─ admin/             # 运营管理端占位\n├─ cloudfunctions/api/   # 模块化云函数 API\n├─ cloudbase/            # 集合、索引、安全规则和种子数据\n├─ packages/shared/      # 跨端共享类型与契约\n├─ scripts/              # 构建、部署和里程碑校验脚本\n└─ docs/                 # 产品、架构与阶段实现文档\n```\n\n## 快速开始\n\n### 环境要求\n\n- [Node.js](https://nodejs.org/) 22 或更高版本\n- [pnpm](https://pnpm.io/) 11\n- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)\n- 已开通微信云开发的微信小程序账号\n\n### 安装与构建\n\n```bash\npnpm install\npnpm build\n```\n\n随后使用微信开发者工具打开仓库根目录，并在项目配置中确认使用自己的云开发环境。\n\n### 配置云开发\n\n复制环境变量模板：\n\n```powershell\nCopy-Item .env.example .env\n```\n\n在 `.env` 中配置：\n\n```dotenv\nCLOUDBASE_ENV_ID=your-cloudbase-environment-id\nOPENID_HASH_SECRET=your-random-secret-at-least-32-characters\n```\n\n`.env` 仅用于本地部署，不应提交到 Git。部署统一云函数：\n\n```bash\npnpm cloud:deploy\n```\n\n## 常用命令\n\n| 命令 | 用途 |\n| --- | --- |\n| `pnpm build` | 构建全部工作区包 |\n| `pnpm test` | 运行自动化测试 |\n| `pnpm typecheck` | 执行 TypeScript 类型检查 |\n| `pnpm lint` | 执行 Biome 静态检查 |\n| `pnpm format` | 格式化项目文件 |\n| `pnpm check` | 运行格式、静态检查、类型检查、测试和 M1–M4 校验 |\n| `pnpm cloud:check` | 检查本地云开发配置 |\n| `pnpm cloud:deploy` | 构建并部署 `api` 云函数 |\n| `pnpm backup:cloud` | 将 CloudBase 业务集合备份到本地忽略目录 |\n| `pnpm restore:plan` | 生成写入隔离集合的恢复演练计划 |\n| `pnpm release:check` | 执行候选版检查并验证人工发布门槛 |\n\n## 项目文档\n\n- [产品需求文档](docs/羽来PRD_V0.1.md)\n- [项目章程与 V1 范围](docs/项目章程与V1需求范围_V0.1.md)\n- [技术架构与开发排期](docs/羽来技术架构设计和开发排期_V0.1.md)\n- [采用微信云开发的架构决策](docs/ADR-001-采用微信云开发.md)\n- [M1 工程基线](docs/M1工程基线.md)\n- [M2 基础资料模块](docs/M2基础资料模块.md)\n- [M3 运营与通知模块](docs/M3运营与通知模块.md)\n- [M4 可选现场功能](docs/M4可选现场功能.md)\n- [M5 试点候选版](docs/M5试点候选版.md)\n- [CloudBase 备份与恢复手册](docs/CloudBase备份与恢复手册.md)\n\n## 当前进度\n\n- [x] M1：工程基线与云开发接入\n- [x] M2：用户、学校、场馆与球局基础流程\n- [x] M3：活动运营、通知、举报与管理能力\n- [x] M4：可选分组、计分、确认和战绩能力\n- [ ] M5：自动候选版基线已完成，等待人工发布门槛\n- [ ] 微信订阅消息模板接入\n- [ ] 运营管理端实现\n- [ ] 试点场馆真实用户验证\n\n## 许可证\n\n本项目采用 [MIT License](LICENSE)。\n"
+  },
+  "pkg": {
+    "byteSize": 1355,
+    "text": "{\n  \"name\": \"yulai\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"packageManager\": \"pnpm@11.19.0\",\n  \"engines\": {\n    \"node\": \">=22\"\n  },\n  \"scripts\": {\n    \"build\": \"pnpm -r --if-present build\",\n    \"check\": \"pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm m1:verify && pnpm m2:verify && pnpm m3:verify && pnpm m4:verify && pnpm m5:verify\",\n    \"cloud:check\": \"node scripts/check-cloud-env.mjs\",\n    \"cloud:deploy\": \"pnpm build && tcb fn deploy api --force\",\n    \"format\": \"biome format --write .\",\n    \"format:check\": \"biome format .\",\n    \"lint\": \"biome lint .\",\n    \"m1:verify\": \"node scripts/verify-m1.mjs\",\n    \"m2:verify\": \"node scripts/verify-m2.mjs\",\n    \"m3:verify\": \"node scripts/verify-m3.mjs\",\n    \"m4:verify\": \"node scripts/verify-m4.mjs\",\n    \"test\": \"pnpm -r --if-present test\",\n    \"typecheck\": \"pnpm -r --if-present typecheck\",\n    \"backup:cloud\": \"node scripts/backup-cloudbase.mjs\",\n    \"restore:plan\": \"node scripts/prepare-restore-plan.mjs\",\n    \"m5:verify\": \"node scripts/verify-m5.mjs\",\n    \"release:gate\": \"node scripts/check-release-gates.mjs\",\n    \"release:check\": \"pnpm check && pnpm build && pnpm release:gate\",\n    \"performance:cloud\": \"node scripts/check-cloud-performance.mjs\"\n  },\n  \"devDependencies\": {\n    \"@biomejs/biome\": \"^2.2.4\",\n    \"@cloudbase/cli\": \"^3.8.1\",\n    \"typescript\": \"^5.9.2\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,170 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 4,
+    "nodes": [
+      {
+        "tagName": "v2.0.0",
+        "publishedAt": "2026-08-24T07:00:59Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.0.6",
+        "publishedAt": "2024-10-04T20:59:58Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.0.5",
+        "publishedAt": "2024-10-04T04:07:07Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.0.4",
+        "publishedAt": "2024-10-04T03:45:41Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "issues": {
+    "nodes": [
+      {
+        "createdAt": "2025-09-08T15:24:24Z",
+        "author": {
+          "login": "AmpliFire004",
+          "createdAt": "2018-03-23T15:03:50Z"
+        }
+      },
+      {
+        "createdAt": "2025-05-14T00:19:46Z",
+        "author": {
+          "login": "roflhouse",
+          "createdAt": "2012-02-03T18:24:58Z"
+        }
+      },
+      {
+        "createdAt": "2025-02-06T18:28:36Z",
+        "author": {
+          "login": "tigattack",
+          "createdAt": "2015-01-21T10:57:38Z"
+        }
+      },
+      {
+        "createdAt": "2025-01-16T14:41:14Z",
+        "author": {
+          "login": "Draed",
+          "createdAt": "2015-11-23T15:46:45Z"
+        }
+      },
+      {
+        "createdAt": "2024-12-02T00:14:12Z",
+        "author": {
+          "login": "vandreev-mujin",
+          "createdAt": "2024-11-25T05:59:51Z"
+        }
+      },
+      {
+        "createdAt": "2024-10-20T19:31:01Z",
+        "author": {
+          "login": "MohamedAnouar",
+          "createdAt": "2018-09-23T15:26:14Z"
+        }
+      }
+    ]
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-08-19T10:57:35Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-19T10:19:06Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-19T08:34:32Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-19T08:29:00Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-19T08:27:59Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-18T20:20:36Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-18T19:15:59Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-17T22:25:27Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-17T20:58:04Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-17T19:15:18Z",
+        "author": {
+          "login": "elacy",
+          "createdAt": "2012-01-26T09:30:23Z"
+        }
+      }
+    ]
+  }
+}

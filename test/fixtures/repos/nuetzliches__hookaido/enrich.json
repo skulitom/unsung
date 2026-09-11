@@ -1,0 +1,531 @@
+{
+  "id": "R_kgDORIlHTg",
+  "nameWithOwner": "nuetzliches/hookaido",
+  "description": "🪝 Durable webhook gateway with Caddyfile-style config. Receive → queue → deliver (pull, push, SSE, or exec). HMAC auth, retries, DLQ, hot reload.",
+  "homepageUrl": "https://nuetzliches.github.io/hookaido/",
+  "createdAt": "2026-02-04T15:37:45Z",
+  "pushedAt": "2026-09-07T06:35:44Z",
+  "diskUsage": 2327,
+  "stargazerCount": 14,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 3648762,
+    "edges": [
+      {
+        "size": 3585598,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 45654,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 16406,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 1104,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "webhooks"
+        }
+      },
+      {
+        "topic": {
+          "name": "dead-letter-queue"
+        }
+      },
+      {
+        "topic": {
+          "name": "event-driven"
+        }
+      },
+      {
+        "topic": {
+          "name": "golang"
+        }
+      },
+      {
+        "topic": {
+          "name": "grpc"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "message-queue"
+        }
+      },
+      {
+        "topic": {
+          "name": "webhook"
+        }
+      },
+      {
+        "topic": {
+          "name": "webhook-proxy"
+        }
+      },
+      {
+        "topic": {
+          "name": "webhook-relay"
+        }
+      },
+      {
+        "topic": {
+          "name": "server-sent-events"
+        }
+      },
+      {
+        "topic": {
+          "name": "sse"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 32,
+    "nodes": [
+      {
+        "tagName": "v2.15.0",
+        "publishedAt": "2026-09-02T14:27:34Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v2.14.0",
+        "publishedAt": "2026-09-01T20:30:29Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v2.13.0",
+        "publishedAt": "2026-08-31T17:33:20Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v2.12.0",
+        "publishedAt": "2026-08-26T18:16:42Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v2.11.0",
+        "publishedAt": "2026-08-18T16:49:58Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 32
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "nuetzliches",
+    "__typename": "Organization",
+    "createdAt": "2018-08-09T07:42:54Z",
+    "repositories": {
+      "totalCount": 9
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "f6349dc328d78ba27b40adde8d772b7039bd9883",
+      "history": {
+        "totalCount": 274,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T06:35:36Z",
+            "messageHeadline": "deps: bump the actions-patch-minor group with 3 updates (#302)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T06:12:00Z",
+            "messageHeadline": "deps: bump modernc.org/sqlite in the go-patch-minor group (#301)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T15:25:27Z",
+            "messageHeadline": "test(app): judge a partial poll report against the writer's timeline …",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T14:22:37Z",
+            "messageHeadline": "chore(release): prepare v2.15.0 (#298)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T14:08:28Z",
+            "messageHeadline": "feat(metrics): attribute every ingress reject to its route (#297)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T13:51:11Z",
+            "messageHeadline": "feat(observability): report runtime-secret pools with no valid versio…",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T06:04:28Z",
+            "messageHeadline": "fix(app): never report a truncated config file as a config change (#294)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T20:19:05Z",
+            "messageHeadline": "chore(release): prepare v2.14.0 (#293)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T20:13:40Z",
+            "messageHeadline": "chore: stop tracking bash.exe.stackdump (#291)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T20:08:40Z",
+            "messageHeadline": "test(app): stop racing pollConfig's settle window (#292)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T19:40:56Z",
+            "messageHeadline": "feat(metrics): label queue backlog gauges by route and consumer group…",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T17:28:07Z",
+            "messageHeadline": "chore(release): prepare v2.13.0 (#288)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T16:38:46Z",
+            "messageHeadline": "feat(pull): fan one route out to independent consumer groups (#287)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T16:27:13Z",
+            "messageHeadline": "feat(pullapi): name the pull consumers attached to a route (#286)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T06:38:45Z",
+            "messageHeadline": "deps: bump the actions-patch-minor group with 4 updates (#283)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T06:12:53Z",
+            "messageHeadline": "deps: bump the go-patch-minor group with 5 updates (#282)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T18:07:15Z",
+            "messageHeadline": "chore(release): prepare v2.12.0 (#281)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T17:57:44Z",
+            "messageHeadline": "feat(ingress): add auth query for sources that can only be given a UR…",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T17:52:14Z",
+            "messageHeadline": "feat(config): add --watch-interval, warn when --watch cannot fire (#279)",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-26T17:38:39Z",
+            "messageHeadline": "feat(ingress): add trusted_proxies so match remote_ip works behind a …",
+            "author": {
+              "user": {
+                "login": "7schmiede"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACKLOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "GOVERNANCE.md",
+        "type": "blob"
+      },
+      {
+        "name": "Hookaidofile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "RELEASE.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "STATUS.md",
+        "type": "blob"
+      },
+      {
+        "name": "SUPPORT.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "doc.go",
+        "type": "blob"
+      },
+      {
+        "name": "docker-compose.test.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docker-entrypoint.sh",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "editors",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "mkdocs.yml",
+        "type": "blob"
+      },
+      {
+        "name": "modules",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "codeql.yml"
+      },
+      {
+        "name": "container.yml"
+      },
+      {
+        "name": "dependabot-auto-merge.yml"
+      },
+      {
+        "name": "dependency-health.yml"
+      },
+      {
+        "name": "docs.yml"
+      },
+      {
+        "name": "release.yml"
+      },
+      {
+        "name": "scorecard.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 9425,
+    "isTruncated": false,
+    "text": "# Hookaido\n\n[![CI](https://github.com/nuetzliches/hookaido/actions/workflows/ci.yml/badge.svg)](https://github.com/nuetzliches/hookaido/actions/workflows/ci.yml)\n[![Release](https://github.com/nuetzliches/hookaido/actions/workflows/release.yml/badge.svg)](https://github.com/nuetzliches/hookaido/actions/workflows/release.yml)\n[![Container](https://img.shields.io/badge/container-ghcr.io-2496ED?logo=docker&logoColor=white)](https://github.com/nuetzliches/hookaido/pkgs/container/hookaido)\n[![License](https://img.shields.io/github/license/nuetzliches/hookaido)](LICENSE)\n[![Latest Release](https://img.shields.io/github/v/release/nuetzliches/hookaido?include_prereleases&sort=semver)](https://github.com/nuetzliches/hookaido/releases)\n\n**Webhook infrastructure that just works.** Single binary. Zero runtime dependencies. Production-ready defaults.\n\nHookaido receives webhooks at the edge, queues them durably, and delivers them to your services — with retries, dead-letter queues, and cryptographic verification built in. Think of it as Caddy for webhooks: a compact config file, sensible defaults, and instant reloads.\n\nDocs: https://nuetzliches.github.io/hookaido/\n\n---\n\n## Why Hookaido?\n\n| Problem                                                     | Hookaido                                                                     |\n| ----------------------------------------------------------- | ---------------------------------------------------------------------------- |\n| Webhooks hit your app directly — downtime means lost events | Durable SQLite/WAL or PostgreSQL queue absorbs traffic; your services consume when ready   |\n| Retry logic scattered across services                       | Exponential backoff, jitter, DLQ, and lease-based delivery — configured once |\n| DMZ security headaches                                      | Pull mode by default: internal services fetch from the DMZ, no inbound holes |\n| Complex multi-service deployment                            | Single binary, one config file, `go build` and run                           |\n| Webhook signature verification is error-prone               | Built-in HMAC-SHA256 verification with replay protection and secret rotation |\n\n## Who Is It For?\n\n- **SaaS integrators** receiving webhooks from GitHub, Stripe, Shopify, or any HTTP callback provider\n- **Platform engineers** building DMZ-safe webhook ingestion without opening inbound firewall rules\n- **DevOps teams** triggering local deploy scripts, CI jobs, or automation from webhook events\n- **Event-driven architectures** that need a durable queue as lightweight middleware between producers and consumers\n\n## Key Features\n\n### Core\n\n- **Durable queue** — SQLite/WAL or PostgreSQL persistence with at-least-once delivery. In-memory mode for development.\n- **Pull, push & exec** — Pull API for DMZ-safe consumption, push dispatcher with concurrency control, subprocess execution for local scripts.\n- **Hot reload** — Change config, send `SIGHUP` or use `--watch`. No restarts for most changes.\n- **Channel types** — `inbound` (edge webhooks), `outbound` (API-published queues), `internal` (job queues).\n\n### Security\n\n- **Ingress auth** — HMAC signature verification with replay protection, Basic auth, forward auth callouts, rate limiting. Provider-compatible mode for GitHub and Gitea/Forgejo webhooks.\n- **Outbound signing** — HMAC-SHA256 on push delivery with multi-secret rotation windows and custom outbound headers.\n- **Secret management** — Env vars, files, Vault refs, and raw literals. Placeholder interpolation keeps secrets out of config.\n\n### Operations\n\n- **Dead-letter queue** — Failed messages land in the DLQ with full attempt history. Requeue or inspect via API.\n- **Admin API** — Health checks, queue inspection, backlog trends, publish/cancel/requeue operations.\n- **Observability** — Structured JSON logs, Prometheus metrics, OpenTelemetry tracing (OTLP).\n- **MCP server** — AI tooling integration with role-gated config inspection, queue diagnostics, and mutations.\n- **VS Code extension** — Syntax highlighti\n\n## Quick Start\n\n**Download a binary** from the [latest release](https://github.com/nuetzliches/hookaido/releases) — no Go required.\n\n**Or build from source** (requires Go 1.26+):\n\n```bash\ngo build ./cmd/hookaido\n```\n\n**Or use Docker (official GHCR image):**\n\n```bash\ndocker pull ghcr.io/nuetzliches/hookaido:latest\ndocker run -p 8080:8080 -p 9443:9443 \\\n  -e HOOKAIDO_PULL_TOKEN=mytoken \\\n  -v $(pwd)/Hookaidofile:/app/Hookaidofile:ro \\\n  -v hookaido-data:/app/.data \\\n  ghcr.io/nuetzliches/hookaido:latest\n```\n\nFor immutable deployments, pin to a release tag (for example `:v2.0.0`) or digest.\n\n**Run locally:**\n\n```bash\nexport HOOKAIDO_PULL_TOKEN=\"mytoken\"\n./hookaido run --config Hookaidofile --db ./.data/hookaido.db\n```\n\nIngress on `:8080`, Pull API on `:9443`, Admin on `127.0.0.1:2019` — ready to receive webhooks.\n\n## Configuration\n\nA Hookaidofile is all you need. Caddy-inspired syntax, designed for readability:\n\n**Receive & pull (DMZ-safe):**\n\n```hcl\ningress {\n  listen :8080\n}\n\npull_api {\n  auth token env:HOOKAIDO_PULL_TOKEN\n}\n\n/webhooks/github {\n  auth hmac env:HOOKAIDO_INGRESS_SECRET\n  pull { path /pull/github }\n}\n```\n\n**Receive & push (direct delivery):**\n\n```hcl\n/webhooks/stripe {\n  auth hmac env:STRIPE_SIGNING_SECRET\n  deliver \"https://billing.internal/stripe\" {\n    retry exponential max 8 base 2s cap 2m jitter 0.2\n    timeout 10s\n  }\n}\n```\n\n**Deliver via subprocess (no HTTP server needed):**\n\n```hcl\n/webhooks/github {\n  auth hmac { provider github; secret env:GITHUB_SECRET }\n  deliver exec \"/opt/hooks/deploy.sh\" {\n    timeout 30s\n    env DEPLOY_ENV production\n  }\n}\n```\n\nPlaceholders keep secrets out of config: `{$VAR}`, `{env.VAR}`, `{file./run/secrets/key}`, `{vars.NAME}`.\nSecret refs for auth/signing support `env:`, `file:`, `vault:`, and `raw:` schemes.\n\nFull DSL reference and more examples: [DESIGN.md](DESIGN.md) | [Recipes](docs/recipes.md)\n\n## Architecture\n\n```mermaid\ngraph LR\n    subgraph Providers\n        GH[GitHub]\n        ST[Stripe]\n        WH[Any Webhook]\n    end\n    subgraph DMZ\n        ING[Ingress :8080]\n        Q[(SQLite / Postgres Queue)]\n        ING --> Q\n    end\n    subgraph Internal Network\n        SVC[Your Service]\n    end\n    GH & ST & WH -->|POST| ING\n    SVC -->|pull /pull/…| Q\n    Q -->|push deliver| SVC\n```\n\n**Default: `dmz-queue pull`** — Hookaido sits in the DMZ. Internal workers pull over HTTPS. No inbound firewall rules needed.\n\n## Admin API\n\n`GET /healthz?details=1` — queue diagnostics, backlog trends, operator action playbooks.\n\n`POST /messages/publish` — inject messages programmatically.\n\n`GET /dlq` / `POST /dlq/requeue` — inspect and recover dead-lettered messages.\n\n`GET /backlog/trends` — time-series backlog analysis with derived signals.\n\nFull endpoint list → [DESIGN.md](DESIGN.md)\n\n## Observability\n\n```hcl\nobservability {\n  access_log  { output stderr; format json }\n  runtime_log { level info; output stderr; format json }\n  metrics     { listen \":9900\"; prefix \"/metrics\" }\n  tracing     { collector \"https://otel.example.com/v1/traces\" }\n}\n```\n\nPrometheus counters for ingress, adaptive backpressure (`reason`-labeled), pull (`dequeue`/`ack`/`nack`/conflicts/leases), and push delivery, plus queue depth gauges and SQLite store contention metrics (write/dequeue/checkpoint durations, busy/retry, tx commit/rollback). OpenTelemetry traces with full OTLP/HTTP configuration.\n\n## MCP Server (AI Integration)\n\n```bash\n./hookaido mcp serve --config Hookaidofile --db ./.data/hookaido.db --role read\n```\n\nExposes queue state, config inspection, health diagnostics, and backlog analysis as structured tools for AI assistants. Role-gated access: `read`, `operate`, `admin`.\n\n## Release Verification\n\nReleases ship with signed checksums (Ed25519), SPDX SBOM, and GitHub provenance attestations:\n\n```bash\n./hookaido verify-release --checksums hookaido_v2.0.0_checksums.txt \\\n  --public-key release-signing-key.pub \\\n  --require-provenance\n```\n\n## Requirements\n\n- Pre-built binaries: no dependencies (download from [Releases](https://github.com/nuetzliches/hookaido/releases))\n\n## Documentation\n\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 4587
+  },
+  "claude": null
+}

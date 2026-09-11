@@ -1,0 +1,602 @@
+[
+  {
+    "id": 43317160448,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T14:38:01Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43313726382,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T14:01:06Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43276238720,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T06:42:00Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43276091804,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T06:40:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43275213982,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T06:28:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43271332358,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T05:29:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43270117593,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T05:09:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43269763556,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T05:03:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43240727428,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T20:43:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43205615746,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T13:57:07Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43183935434,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T09:39:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43182577954,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T09:22:51Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43179682536,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T08:46:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43179352085,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T08:42:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43150601076,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:30:18Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43150534266,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:29:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43150470871,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:28:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43149537409,
+    "ref": "refs/heads/rescue-nacharbeit/fs-protection-and-translations",
+    "timestamp": "2026-09-10T00:11:27Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43149536279,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:11:25Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 43148801859,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T23:59:22Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43147277774,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-09T23:32:06Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43085296309,
+    "ref": "refs/heads/ticket/T-20260902-646684582-test-debt",
+    "timestamp": "2026-09-09T13:38:18Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43082783856,
+    "ref": "refs/heads/fix/T-20260906-782251453-daemon-test-leak",
+    "timestamp": "2026-09-09T13:19:37Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43031150657,
+    "ref": "refs/heads/feature/T-20260906-935567772-notify",
+    "timestamp": "2026-09-09T05:56:02Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 43029905670,
+    "ref": "refs/heads/integration/T-20260907-606897745-prepared",
+    "timestamp": "2026-09-09T05:42:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43020221862,
+    "ref": "refs/heads/integration/T-20260907-606897745-prepared",
+    "timestamp": "2026-09-09T03:50:25Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42929897648,
+    "ref": "refs/heads/rescue-nacharbeit/fs-protection-and-translations",
+    "timestamp": "2026-09-08T12:30:04Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42786417238,
+    "ref": "refs/heads/rescue-nacharbeit/fs-protection-and-translations",
+    "timestamp": "2026-09-07T04:51:55Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42785850668,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-07T04:41:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42783545356,
+    "ref": "refs/heads/feature/T-20260907-440775748-compute-lock-gate",
+    "timestamp": "2026-09-07T03:54:31Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42767156881,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T21:39:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42765480733,
+    "ref": "refs/heads/integration/services-bach-20260906",
+    "timestamp": "2026-09-06T21:04:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42765317636,
+    "ref": "refs/heads/integration/services-bach-20260906",
+    "timestamp": "2026-09-06T21:00:55Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42764367767,
+    "ref": "refs/heads/rescue/services-bach-worktree-20260906",
+    "timestamp": "2026-09-06T20:40:40Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42763102743,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T20:16:00Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42763086343,
+    "ref": "refs/heads/rescue/services-bach-worktree-20260906",
+    "timestamp": "2026-09-06T20:15:42Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42762373890,
+    "ref": "refs/heads/rescue/onedrive-bach-worktree-20260729",
+    "timestamp": "2026-09-06T20:01:17Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42762094580,
+    "ref": "refs/heads/fix/T-20260906-833218904-task-chat-history",
+    "timestamp": "2026-09-06T19:55:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42761720918,
+    "ref": "refs/heads/fix/T-20260906-833218904-task-chat-history",
+    "timestamp": "2026-09-06T19:47:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42761432543,
+    "ref": "refs/heads/fix/T-20260906-833218904-task-chat-history",
+    "timestamp": "2026-09-06T19:41:32Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42761344055,
+    "ref": "refs/heads/fix/T-20260906-833218904-task-chat-history",
+    "timestamp": "2026-09-06T19:39:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42759878143,
+    "ref": "refs/heads/fix/T-20260906-833218904-task-chat-history",
+    "timestamp": "2026-09-06T19:11:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42759590542,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T19:05:12Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42758259192,
+    "ref": "refs/heads/fix/T-20260906-240256515-headless-task-history",
+    "timestamp": "2026-09-06T18:39:23Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42757867251,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T18:31:54Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42757544511,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T18:25:52Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42757431542,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-06T18:23:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42757271569,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-09-06T18:20:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42756759631,
+    "ref": "refs/heads/fix/T-20260906-985973908-task-history",
+    "timestamp": "2026-09-06T18:12:35Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42756665827,
+    "ref": "refs/heads/feature/T-20260903-836395493-accounts-core",
+    "timestamp": "2026-09-06T18:10:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42750355916,
+    "ref": "refs/heads/feature/T-20260906-743610852-idle-result-guard",
+    "timestamp": "2026-09-06T16:17:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42749322285,
+    "ref": "refs/heads/feature/T-20260906-743610852-idle-result-guard",
+    "timestamp": "2026-09-06T16:01:58Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42747213537,
+    "ref": "refs/heads/feature/T-20260906-743610852-idle-result-guard",
+    "timestamp": "2026-09-06T15:21:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42746612597,
+    "ref": "refs/heads/feature/T-20260906-743610852-idle-result-guard",
+    "timestamp": "2026-09-06T15:10:58Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42741317849,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-09-06T13:44:46Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42740748598,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-09-06T13:34:25Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42671990792,
+    "ref": "refs/heads/codex/release-hygiene-gitignore-20260905",
+    "timestamp": "2026-09-05T12:19:05Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42643129170,
+    "ref": "refs/heads/feature/T-20260903-836395493-accounts-core",
+    "timestamp": "2026-09-05T00:19:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42640976435,
+    "ref": "refs/heads/fix/canonical-migrations-path",
+    "timestamp": "2026-09-04T23:25:22Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42637485431,
+    "ref": "refs/heads/fix/canonical-migrations-path",
+    "timestamp": "2026-09-04T22:06:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42575220275,
+    "ref": "refs/heads/codex/bach-tasks-dev-20260904",
+    "timestamp": "2026-09-04T10:24:39Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42405761118,
+    "ref": "refs/heads/feat/ellmos-chat-wave2",
+    "timestamp": "2026-09-03T08:55:16Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42374411003,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-03T04:30:37Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42345338141,
+    "ref": "refs/heads/feat/assistant-core-wave1",
+    "timestamp": "2026-09-02T22:26:05Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42339167160,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T21:19:47Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42339136161,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T21:19:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42339105351,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T21:19:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42339073624,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T21:18:49Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42339040696,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T21:18:29Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42327906674,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T19:34:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42327754997,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T19:32:58Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42284726841,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-02T13:46:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42275602341,
+    "ref": "refs/heads/codex/t-20260901-906833009-tray-lock",
+    "timestamp": "2026-09-02T12:40:55Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42274685356,
+    "ref": "refs/heads/codex/t-20260901-151282732-test-isolation",
+    "timestamp": "2026-09-02T12:33:50Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42258576437,
+    "ref": "refs/heads/codex/t-20260901-245776782-idle-timeout",
+    "timestamp": "2026-09-02T10:32:27Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42069942591,
+    "ref": "refs/heads/fix/canonical-migrations-path",
+    "timestamp": "2026-09-01T07:53:43Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42065959620,
+    "ref": "refs/heads/fix/db-path-guard-headless",
+    "timestamp": "2026-09-01T07:25:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42063805531,
+    "ref": "refs/heads/fix/canonical-migrations-path",
+    "timestamp": "2026-09-01T07:08:19Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41876702909,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-30T23:52:18Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41875285612,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T23:28:16Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41874400663,
+    "ref": "refs/heads/codex/t-20260831-887854192-chat-persistence",
+    "timestamp": "2026-08-30T23:13:51Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41848996633,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:33:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41848992907,
+    "ref": "refs/heads/feat/message-worker-20260830",
+    "timestamp": "2026-08-30T17:33:09Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41848644539,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:29:04Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41848641078,
+    "ref": "refs/heads/fix/idle-worker-usable-20260830",
+    "timestamp": "2026-08-30T17:29:02Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41848330499,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:25:16Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41848326936,
+    "ref": "refs/heads/fix/daemon-signal-thread-20260830",
+    "timestamp": "2026-08-30T17:25:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41847810978,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:18:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41847806813,
+    "ref": "refs/heads/fix/start-port8000-guard-20260830",
+    "timestamp": "2026-08-30T17:18:56Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41847243772,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:12:11Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41847240026,
+    "ref": "refs/heads/fix/gui-chat-history-20260830",
+    "timestamp": "2026-08-30T17:12:08Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41846671541,
+    "ref": "refs/heads/post-hold/integration-20260826",
+    "timestamp": "2026-08-30T17:05:23Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41846666800,
+    "ref": "refs/heads/fix/tray-single-instance-20260830",
+    "timestamp": "2026-08-30T17:05:20Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41651371122,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-28T23:35:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41634099658,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-08-28T20:03:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41572336856,
+    "ref": "refs/heads/codex/certify-task-1207-20260828",
+    "timestamp": "2026-08-28T10:41:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41564380256,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-08-28T09:27:50Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41541687078,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-08-28T05:48:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41536007078,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-08-28T04:46:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41533594251,
+    "ref": "refs/heads/migration/startspine-20260828",
+    "timestamp": "2026-08-28T04:18:50Z",
+    "activity_type": "push"
+  }
+]

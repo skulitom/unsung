@@ -1,0 +1,44 @@
+[
+  {
+    "id": 43255543582,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-11T00:46:24Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43151187267,
+    "ref": "refs/tags/v1.0.0",
+    "timestamp": "2026-09-10T00:40:51Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43151183422,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:40:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43150946754,
+    "ref": "refs/tags/v1.0",
+    "timestamp": "2026-09-10T00:36:28Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 43150942801,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:36:24Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43150428172,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:27:17Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43150406578,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T00:26:55Z",
+    "activity_type": "branch_creation"
+  }
+]

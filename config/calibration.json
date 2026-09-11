@@ -1,0 +1,23 @@
+{
+  "version": "c1",
+  "method": "platt-pooled-slope-uniform-intercept",
+  "a": -6.403,
+  "b": 1.113,
+  "fittedOn": {
+    "labels": 149,
+    "uniform": 69,
+    "positives": 74,
+    "uniformPositives": 9,
+    "base": 0.141,
+    "weights": "w1"
+  },
+  "fittedAt": "2026-09-11",
+  "changelog": [
+    {
+      "version": "c1",
+      "date": "2026-09-11",
+      "change": "Initial calibration: the slope from a logistic fit of genuine on points over all 149 research labels, the intercept set so that the mean predicted rate on the uniform stratum equals its smoothed base rate (10 / 71).",
+      "evidence": "research/raw/haystack/final_eval.py on the 149 research labels (74 genuine; uniform stratum 69, of which 9 genuine); uniform Brier score 0.041."
+    }
+  ]
+}

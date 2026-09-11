@@ -1,0 +1,372 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnk0OTIwMjkzOQ==",
+  "nameWithOwner": "alphagov/notifications-utils",
+  "description": "Shared code between GOV.UK Notify applications",
+  "homepageUrl": "",
+  "createdAt": "2016-01-07T12:17:46Z",
+  "pushedAt": "2026-09-10T12:16:19Z",
+  "diskUsage": 5973,
+  "stargazerCount": 14,
+  "forkCount": 12,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 1082691,
+    "edges": [
+      {
+        "size": 1063981,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 16354,
+        "node": {
+          "name": "Jinja"
+        }
+      },
+      {
+        "size": 1884,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 472,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "govuk-notify"
+        }
+      },
+      {
+        "topic": {
+          "name": "government-as-a-platform"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 754
+  },
+  "watchers": {
+    "totalCount": 14
+  },
+  "owner": {
+    "login": "alphagov",
+    "__typename": "Organization",
+    "createdAt": "2011-02-02T15:45:37Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3882,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T12:06:01Z",
+            "messageHeadline": "Merge pull request #1467 from alphagov/rp-make-_is_tv_number-public",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:19:25Z",
+            "messageHeadline": "bump version",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:00:50Z",
+            "messageHeadline": "make `PhoneNumber._is_tv_number` a public method",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T07:49:08Z",
+            "messageHeadline": "Merge pull request #1457 from alphagov/remove-recipient-csv-rows",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:22:04Z",
+            "messageHeadline": "Major version bump",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Make `RecipientCSV` an instance of `InterruptibleIterableList`",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Make `attr` argument to `_filter_rows` optional",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Move definition of `_rows_as_list` into `__init__`",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Change test to not monkey patch",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Remove RecipientCSV.rows",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Implement `__iter__`",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:21:18Z",
+            "messageHeadline": "Add correct type hint for `RecipientCSV.rows` and `RecipientCSV.__get…",
+            "author": {
+              "user": {
+                "login": "quis"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T15:10:55Z",
+            "messageHeadline": "Merge pull request #1463 from alphagov/ris-ofcom-s7-protected-prefixes",
+            "author": {
+              "user": {
+                "login": "risicle"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T14:23:37Z",
+            "messageHeadline": "Bump version to 130.2.0",
+            "author": {
+              "user": {
+                "login": "risicle"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T14:23:37Z",
+            "messageHeadline": "PhoneNumber: add is_number_in_S7_protected_range() method",
+            "author": {
+              "user": {
+                "login": "risicle"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T11:30:56Z",
+            "messageHeadline": "add S7_protected_prefixes.txt",
+            "author": {
+              "user": {
+                "login": "risicle"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T09:54:57Z",
+            "messageHeadline": "Merge pull request #1461 from alphagov/ris-reduce-ofcom-prefix-list",
+            "author": {
+              "user": {
+                "login": "risicle"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T15:56:27Z",
+            "messageHeadline": "Merge pull request #1462 from alphagov/rp-remove-old-carrier-logging-…",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T15:33:09Z",
+            "messageHeadline": "minor version bump",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T15:31:27Z",
+            "messageHeadline": "Revert \"Add two new methods to `recipient_validation.phone_number.Pho…",
+            "author": {
+              "user": {
+                "login": "rparke"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".git-blame-ignore-revs",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".pyup.yml",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENCE",
+        "type": "blob"
+      },
+      {
+        "name": "MANIFEST.in",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "notifications_utils",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "requirements_for_test.in",
+        "type": "blob"
+      },
+      {
+        "name": "requirements_for_test.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements_for_test_common.in",
+        "type": "blob"
+      },
+      {
+        "name": "ruff.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "uv.toml",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "dependency-review.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2679,
+    "text": "# notifications-utils\n\nShared Python code for GOV.UK Notify applications. Standardises how to do logging, rendering message templates, parsing spreadsheets, talking to external services and more.\n\n## Setting up\n\n### Python version\n\nThis repo is written in Python 3.\n\n### uv\n\nWe use [uv](https://github.com/astral-sh/uv) for Python dependency management. Follow the [install instructions](https://github.com/astral-sh/uv?tab=readme-ov-file#installation) or run:\n\n```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```\n\n### Pre-commit\n\nWe use [pre-commit](https://pre-commit.com/) to ensure that committed code meets basic standards for formatting, and will make basic fixes for you to save time and aggravation.\n\nInstall pre-commit system-wide with, eg `brew install pre-commit`. Then, install the hooks in this repository with `pre-commit install --install-hooks`.\n\n### Redis\n\nWe use a real [Redis](https://redis.io/) instance to test `notifications_utils.redis_client.RedisClient`. You can either [install locally with brew](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-mac-os/) or [run inside a docker container](https://hub.docker.com/_/redis).\n\nThe unit test fixture uses `FLUSHALL` every single time it is called. To prevent this from having unexpected side effects with a locally running redis instance (*e.g.* notifications-local) the tests expect redis to run on port 6999. In docker simply change the port mapping flag to `-p 6999:6379`. If running outside a container add the flag `--port 6999`.\n\n## To test the library\n\n```\n# install dependencies, etc.\nmake bootstrap\n\n# run the tests\nmake test\n```\n\n## Publishing a new version\n\nVersioning should be done by running the `make version-[type of change]` command, following [semantic versioning](https://semver.org/). For example\n\n```\nmake version-patch\n```\n\nInclude a short summary (sentence or two) about the changes you've made in `CHANGELOG.md`. Please do this even if you're only making a minor or patch version change.\n\n\n## Updating utils version in apps\nApp repos should be updated with the latest version of `notifications-utils` where possible. The repos to update are API, Admin, Document Download, Document Download Frontend, Template Preview, Email Stub.\n\nTo do this in the app repo: \n- Ensure npm, py uv is installed and you're using Python 3.11\n- Run `make bootstrap`\n- Run `make bump-utils`\n- Run `make freeze-requirements`\n- Commit with the recommended message and raise a PR. \n\n## Licence\n\nUnless stated otherwise, the codebase is released under [the MIT License](LICENCE). This covers both the codebase and any sample code in the documentation.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "NASA-IMPACT/veda-data-airflow",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S2_py_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 7254,
+    "keptBytes": 7254,
+    "excerpt": false
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "id": "R_kgDOUJOZDg",
+  "nameWithOwner": "PanomaAI/panoma",
+  "description": "The local catalog of your projects — intelligent, always learning, for you and your agents",
+  "homepageUrl": "https://panoma.ai",
+  "createdAt": "2026-08-31T00:44:29Z",
+  "pushedAt": "2026-09-11T04:37:55Z",
+  "diskUsage": 12340,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "AGPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 8052619,
+    "edges": [
+      {
+        "size": 7541836,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 396143,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 114640,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-tools"
+        }
+      },
+      {
+        "topic": {
+          "name": "artificial-intelligence"
+        }
+      },
+      {
+        "topic": {
+          "name": "chatgpt"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude-code"
+        }
+      },
+      {
+        "topic": {
+          "name": "cli"
+        }
+      },
+      {
+        "topic": {
+          "name": "codex"
+        }
+      },
+      {
+        "topic": {
+          "name": "developer-tools"
+        }
+      },
+      {
+        "topic": {
+          "name": "local-first"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 12
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "PanomaAI",
+    "__typename": "Organization",
+    "createdAt": "2026-08-27T23:33:36Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 12,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T04:07:10Z",
+            "messageHeadline": "0.9.1: the production screen says what happened, and the app's page s…",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:04:25Z",
+            "messageHeadline": "0.9.0: optional official apps, a screen of their own, and panoma vide…",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T22:48:01Z",
+            "messageHeadline": "0.1.9: the model errors speak the language of whoever is reading them",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T21:43:11Z",
+            "messageHeadline": "0.1.8: the setup screen stops asking for things that are finished or …",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T20:46:38Z",
+            "messageHeadline": "And on Windows the separators arrive doubled, which is the same lesso…",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T20:33:16Z",
+            "messageHeadline": "The new check read the opening quote as part of the path",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T20:27:09Z",
+            "messageHeadline": "0.1.7: the channel this product is built on starts, which it never did",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T19:48:26Z",
+            "messageHeadline": "0.1.6: the screen that refuses now says the whole way out of the refusal",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T19:14:25Z",
+            "messageHeadline": "0.1.5: what the app says about itself has to be checkable on the scre…",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T18:19:08Z",
+            "messageHeadline": "The tags exist, and they live where this page never said to look",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T18:14:29Z",
+            "messageHeadline": "0.1.4: the copies mark reaches the view that almost everybody is look…",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T17:22:58Z",
+            "messageHeadline": "panoma",
+            "author": {
+              "user": {
+                "login": "JESUSRCASTILLO"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".nvmrc",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CCLA.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLA.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "TRADEMARK.md",
+        "type": "blob"
+      },
+      {
+        "name": "apps",
+        "type": "tree"
+      },
+      {
+        "name": "brand",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "ops",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "translations",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.base.json",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "apps-probe.yml"
+      },
+      {
+        "name": "apps.yml"
+      },
+      {
+        "name": "cla.yml"
+      },
+      {
+        "name": "package.yml"
+      },
+      {
+        "name": "tests.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 22465,
+    "text": "<div align=\"center\">\n\n[Leer en español](translations/README.es.md)\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/readme/logo-dark.png\">\n  <img src=\"docs/readme/logo-light.png\" alt=\"\" width=\"84\">\n</picture>\n\n# panoma\n\n[![Tests](https://github.com/PanomaAI/panoma/actions/workflows/tests.yml/badge.svg)](https://github.com/PanomaAI/panoma/actions/workflows/tests.yml)\n[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)\n[![npm](https://img.shields.io/npm/v/panoma.svg)](https://www.npmjs.com/package/panoma)\n\n**The local catalog of your projects.** Everything you built—even what you never pushed—\nready to pick up again, by you or your agents.\n\n<img src=\"docs/readme/scan.gif\" width=\"860\" alt=\"A terminal runs npx panoma scan ~/Dev and answers in four lines: reading the folder, 23 projects and 5 agents, 9 that never left this disk, catalog ready on localhost. The catalog then appears with project cards showing an icon, name, and health.\" />\n\n<em>One command, no install and no upload—and every project on disk comes back with a face,\na name, and a pulse.</em>\n\n</div>\n\n---\n\n## The same disk, twice\n\n<div align=\"center\">\n  <img src=\"docs/readme/before-folders.jpg\" width=\"820\" alt=\"A laptop desktop covered in rows of identical yellow folders named New_Folder_2, New_Folder_3, Project_New, and Client_Files_Final.\" />\n  <br>\n  <em>What the disk gives you. Every folder was a decision at some point.</em>\n  <br><br>\n  <img src=\"docs/readme/after-catalog.png\" width=\"820\" alt=\"The panoma catalog: the same projects displayed as cards with their icon, name, health, and last activity, ordered by recency with one detail panel open.\" />\n  <br>\n  <em>What panoma makes from it. The same folders, the same disk, and no upload.</em>\n</div>\n\n---\n\n`panoma` is a **local project catalog**—think of it as the App Store for your own projects.\nGive it a folder and it returns a page for everything living on your disk: stack,\ndependencies, health, distribution targets, unbacked work, and which AI agent touched what.\nPlatforms built control towers that see only their own aircraft; panoma sees the whole sky:\nyour disk.\n\nThe architecture, design decisions, and known limits of each part are summarized below and\nindexed under [`docs/`](docs/README.md). The business plan is intentionally absent: this\nrepository contains the product, not the spreadsheet.\n\n## Status\n\n**Local and working end to end**—engine, catalog, web app, CLI, MCP server, and proposal\ndispatch.\n\n- [x] Detection engine for npm, pub/Flutter, PyPI, Go, Cargo, RubyGems, and Composer\n- [x] 83 technology-identification rules with evidence trails\n- [x] Language statistics, icon detection, and distribution targets\n- [x] Health score\n- [x] AI-agent attribution through git trailers\n- [x] Detection of duplicate families for the same project\n- [x] `panoma scan` CLI\n- [x] PostgreSQL schema through Drizzle and ingestion API\n- [x] App Store-style web interface\n- [x] Latest versions from seven public registries\n- [x] Vulnerabilities through OSV.dev\n- [x] MCP server with context, journal, and project task queue for agents\n- [x] Dispatch of verified update proposals in isolation\n- [x] Unbacked work: uncommitted, unpushed, no remote, or no repository\n- [x] Disk usage and how much can be regenerated with a command\n- [x] Code search across every project at once\n- [x] Committed credentials in tracked files; full-history search remains pending\n- [x] Resources and assets that no source file references\n- [x] How each project starts, which runtime it needs, and which variables are missing\n- [x] Command palette through ⌘K\n- [x] Real project descriptions with template text removed\n- [x] Origin classification: owned, forked, cloned, or generated from a template\n- [x] Descriptions written by the model you connect, labeled as such\n- [x] A watcher that discovers new projects and reanalyzes changed ones\n- [x] A daily brief covering changes since your last visit and the agent behind each commit\n- [x] Spanish and English interface with ES·EN selector, cookie, and\n- [ ] Execution in CI\n\n\n\n\n```bash\nnpx panoma scan ~/Desktop\n```\n\n\n\n```bash\npnpm install\npnpm --filter \"./packages/*\" build\n```\n```bash\npnpm --filter @panoma/web run dev\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan ~/Desktop --save\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts enrich\n```\ncontain them. A `git clone` or `flutter create` beside existing projects joins the catalog\n```bash\npnpm exec tsx apps/cli/src/index.ts disk               # disk used and how much returns automatically\npnpm exec tsx apps/cli/src/index.ts search \"stripe\"    # where did I write that?\npnpm exec tsx apps/cli/src/index.ts secrets            # which repositories contain committed keys?\npnpm exec tsx apps/cli/src/index.ts describe kestrel   # ask the model what this project is about\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts run <project> <package>\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts agent-key \"Claude Code\"\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan .\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan ~/Desktop\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan ~/my-project -v\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan ~/Desktop -d\n```\n```bash\npnpm exec tsx apps/cli/src/index.ts scan ~/Desktop --json --out portfolio.json\n```\n```\npackages/core/     detection engine (pure TypeScript, no network)\n  discover.ts      walks the tree, honors .gitignore, finds project roots\n  ecosystems/      manifest and lockfile parsers by ecosystem\n  rules.ts         declarative technology-identification rules\n  fingerprint.ts   rule evaluator with confidence accumulation\n  languages.ts     language share by bytes\n  icon.ts          application icon discovery\n  health.ts        health score from 0 to 100\n  git.ts           git metadata, agent attribution, and unbacked work\n  duplicates.ts    groups copies of the same project\n  links.ts         dashboard links for every service the project uses\n  runbook.ts       installation, start command, and runtime requirements\n  assets.ts        resources no source file references\n  disk.ts          disk usage and what a command can regenerate\n  secrets.ts       committed credentials in git-tracked files\n  analyze.ts       pipeline orchestrator\n\npackages/db/       PostgreSQL schema through Drizzle, ingestion, and queries\n  schema.ts        tables, append-only snapshots, deterministic identifiers\n  ingest.ts        idempotent scan ingestion\n  queries.ts       catalog reads\n  client.ts        PGlite locally, postgres-js with DATABASE_URL\n\npackages/enrich/   data that requires the network\n  registries.ts    npm, pub, PyPI, crates.io, Go, RubyGems, Packagist\n  osv.ts           vulnerabilities from OSV.dev\n  versions.ts      version comparison tolerant across ecosystems\n  refresh.ts       orchestration and health recalculation\n\npackages/runner/   bounded task dispatcher\n  worktree.ts      isolation through git worktree\n  detect.ts        how this project installs and tests\n  recipes/bump.ts  targeted manifest edits that preserve formatting\n  execute.ts       edit → install → verify → propose\n\npackages/ai/       model connections\n  providers.ts     providers through direct keys or installed terminal agents\n  credentials.ts   atomic writes to ~/.panoma/ai.json with mode 0600\n  cli-agent.ts     communicate with an installed terminal agent\n  complete.ts      model call with budget and timeout\n\npackages/mcp/      MCP server—the bridge to agents\n  client.ts        catalog HTTP client and project detection\n  format.ts        responses written for model consumption\n  index.ts         definitions for the nine tools\n\npackages/apps/     manager for the optional official apps\n  manifest.ts      the app manifest as data, validated before activation\n  official.ts      the apps this release is allowed to install\n  registry.ts      the version published on npm, cached for a day\n  manager.ts       install, activate, roll back, uninstall, probe requirements\n\n```\n```bash\nbrew install colima docker\ncolima start --cpu 2 --memory 4 --disk 12\npanoma run <project> <package> --isolation container\n```"
+  },
+  "pkg": {
+    "byteSize": 1088,
+    "text": "{\n  \"name\": \"panoma-monorepo\",\n  \"version\": \"0.1.0\",\n  \"license\": \"AGPL-3.0-only\",\n  \"private\": true,\n  \"type\": \"module\",\n  \"description\": \"The local catalog of your projects\",\n  \"homepage\": \"https://panoma.ai\",\n  \"author\": \"Jesus Castillo\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/PanomaAI/panoma.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/PanomaAI/panoma/issues\"\n  },\n  \"packageManager\": \"pnpm@11.22.0\",\n  \"engines\": {\n    \"node\": \">=22\"\n  },\n  \"scripts\": {\n    \"dev\": \"pnpm --filter @panoma/web run dev\",\n    \"build\": \"pnpm -r build\",\n    \"typecheck\": \"pnpm -r typecheck\",\n    \"lint\": \"eslint .\",\n    \"lint:fix\": \"eslint . --fix\",\n    \"scan\": \"pnpm --filter panoma run dev\",\n    \"test\": \"vitest run\",\n    \"test:watch\": \"vitest\"\n  },\n  \"devDependencies\": {\n    \"@eslint/js\": \"^10.0.1\",\n    \"@types/node\": \"^22.10.2\",\n    \"eslint\": \"^10.9.0\",\n    \"eslint-config-next\": \"^16.3.2\",\n    \"globals\": \"^17.11.0\",\n    \"tsup\": \"^8.3.5\",\n    \"tsx\": \"^4.19.2\",\n    \"typescript\": \"^5.7.2\",\n    \"typescript-eslint\": \"^8.67.0\",\n    \"vitest\": \"^4.1.10\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 9015
+  },
+  "claude": {
+    "byteSize": 513
+  }
+}

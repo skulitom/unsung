@@ -1,0 +1,14 @@
+[
+  {
+    "id": 43195325580,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T12:02:33Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 43195134106,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-10T12:00:21Z",
+    "activity_type": "branch_creation"
+  }
+]

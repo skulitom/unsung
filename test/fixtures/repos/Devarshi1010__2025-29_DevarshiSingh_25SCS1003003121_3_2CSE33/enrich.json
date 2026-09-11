@@ -1,0 +1,98 @@
+{
+  "nameWithOwner": "Devarshi1010/2025-29_DevarshiSingh_25SCS1003003121_3_2CSE33",
+  "description": "Hotel Management Website - Web Development Internship | CODTECH IT SOLUTIONS PRIVATE LIMITED",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T08:29:57Z",
+  "pushedAt": "2026-09-10T10:40:46Z",
+  "diskUsage": 3218,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Devarshi1010",
+    "__typename": "User",
+    "createdAt": "2026-09-09T08:13:40Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T10:40:45Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "Devarshi1010"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:35:54Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "Devarshi1010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Devarshi certificate.pdf",
+        "type": "blob"
+      },
+      {
+        "name": "Devarshi_Singh_Hotel_Management_Internship_Presentation.pdf",
+        "type": "blob"
+      },
+      {
+        "name": "Devarshi_Singh_Hotel_Management_Internship_Presentation_Advanced-2.pptx",
+        "type": "blob"
+      },
+      {
+        "name": "Devarshi_Singh_Internship_Report_Hotel_Management_Final.pdf",
+        "type": "blob"
+      },
+      {
+        "name": "Devarshi_Singh_Internship_Report_Hotel_Management_Final2.docx",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

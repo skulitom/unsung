@@ -1,0 +1,135 @@
+{
+  "id": "R_kgDOT5Gheg",
+  "nameWithOwner": "Swetha-2202/Smart-waste-segregation-system",
+  "description": "Smart Waste Segregation and Recycling System using sensors, microcontroller and servo-based automated waste sorting.",
+  "homepageUrl": null,
+  "createdAt": "2026-08-15T09:06:52Z",
+  "pushedAt": "2026-08-15T09:25:28Z",
+  "diskUsage": 589,
+  "stargazerCount": 8,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 3676,
+    "edges": [
+      {
+        "size": 3676,
+        "node": {
+          "name": "C++"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Swetha-2202",
+    "__typename": "User",
+    "createdAt": "2026-02-05T07:41:48Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 5,
+        "nodes": [
+          {
+            "committedDate": "2026-08-15T09:25:27Z",
+            "messageHeadline": "add smart waste segregation.jpeg to main",
+            "author": {
+              "user": {
+                "login": "Swetha-2202"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T09:21:21Z",
+            "messageHeadline": "Upload mini project.pdf",
+            "author": {
+              "user": {
+                "login": "Swetha-2202"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T09:17:00Z",
+            "messageHeadline": "Create Smart_waste_segregation.ino",
+            "author": {
+              "user": {
+                "login": "Swetha-2202"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T09:09:27Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "Swetha-2202"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T09:06:53Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "Swetha-2202"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "Smart_waste_segregation.ino",
+        "type": "blob"
+      },
+      {
+        "name": "Swetha mini project.pdf",
+        "type": "blob"
+      },
+      {
+        "name": "smart waste segregation.jpeg",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3630,
+    "text": "# ♻️ Smart Waste Segregation and Recycling System\n\n📌 Project Overview\n\nThe **Smart Waste Segregation and Recycling System** is an automated waste-management system designed to segregate waste at the source into different categories such as **wet, dry, and metallic waste**.\n\nThe system uses sensors, a microcontroller, and actuators to identify waste and direct it to the appropriate collection bin.\n\n 🎯 Objectives\n\n* Automate waste segregation at the source\n* Classify wet and dry waste using a moisture sensor\n* Detect waste using an IR sensor\n* Monitor bin fill levels using an ultrasonic sensor\n* Use a servo motor to direct waste into the appropriate bin\n* Improve recycling and waste-management efficiency\n\n 🛠️ Components Used\n\n* YL-83 Moisture Sensor\n* IR Sensor\n* HC-SR04 Ultrasonic Sensor\n* Arduino Uno / ESP32\n* SG90 Servo Motor\n* LED / Buzzer\n* 5V / 12V Power Supply\n\n ⚙️ Working Principle\n\n1. Waste is placed into the input chute.\n2. The IR sensor detects the presence of waste.\n3. The moisture sensor determines whether the waste is wet or dry.\n4. The microcontroller processes the sensor readings.\n5. A servo motor operates the sorting mechanism and directs the waste to the appropriate bin.\n6. The ultrasonic sensor monitors the fill level of the bins.\n7. An LED or buzzer can provide an alert when a bin is full or nearly full.\n\n## 🗂️ Waste Categories\n\n 🟢 Wet Waste\n\nExamples:\n\n* Food scraps\n* Organic matter\n\n🔵 Dry Waste\n\nExamples:\n\n* Paper\n* Plastics\n* Recyclable materials\n\n ⚙️ Metallic Waste\n\nMetallic waste can be identified using a metal-detection sensor in an advanced version of the system.\n\n 📊 Sensors and Functions\n\n| Component             | Function                  |\n| --------------------- | ------------------------- |\n| YL-83 Moisture Sensor | Wet/Dry classification    |\n| IR Sensor             | Waste presence detection  |\n| HC-SR04               | Bin fill-level monitoring |\n| SG90 Servo            | Waste direction control   |\n| Arduino Uno / ESP32   | System control            |\n| LED / Buzzer          | Bin status alert          |\n\n 🌐 IoT and Advanced Features\n\nAn ESP32 can be used to provide Wi-Fi/Bluetooth connectivity for:\n\n* Real-time status monitoring\n* Remote monitoring\n* IoT dashboards\n* Municipal waste-management monitoring\n\nImage processing and AI can also be integrated in future versions for more advanced waste classification.\n🚀 Applications\n\n* Smart cities\n* Residential complexes\n* Industrial facilities\n* Recycling plants\n* Construction sites\n* Offices\n* Shopping malls\n* Hotels and restaurants\n\n✅ Benefits\n\n* Reduces manual waste sorting\n* Improves recycling efficiency\n* Reduces landfill waste\n* Promotes cleaner communities\n* Supports automated waste management\n\n 🔮 Future Enhancements\n\n* Color detection for finer waste classification\n* Solar-powered operation\n* IoT dashboard\n* AI-based waste classification\n* Advanced sensors for improved accuracy\n\n⚠️ Challenges\n\n* Sensor reliability can affect classification accuracy\n* System cost needs to be controlled\n* Regular sensor and actuator maintenance is required\n* Scaling the system for large deployments can be challenging\n\n📁 Project Structure\n\nsmart-waste-segregation-system/\n│\n├── README.md\n├── .gitignore\n│\n├── src/\n│   └── smart_waste_segregation.ino\n│\n├── images/\n│   ├── project.jpg\n│   └── circuit.jpg\n│\n└── documentation/\n    └── Smart_Waste_Segregation_Report.pdf\n```\n\n👩‍💻 Author\n\n**Swetha S**\nElectronics and Communication Engineering\nSt. Joseph's College of Engineering\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

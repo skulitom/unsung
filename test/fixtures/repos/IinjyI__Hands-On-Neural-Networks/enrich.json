@@ -1,0 +1,445 @@
+{
+  "id": "R_kgDOLskX4Q",
+  "nameWithOwner": "IinjyI/Hands-On-Neural-Networks",
+  "description": "Hands-on PyTorch neural-network labs: CNNs, RNNs, LSTMs, autoencoders, transfer learning, generative AI, and RAG.",
+  "homepageUrl": "https://iinjyi.github.io/Hands-On-Neural-Networks/",
+  "createdAt": "2024-04-10T21:08:03Z",
+  "pushedAt": "2026-08-21T22:33:14Z",
+  "diskUsage": 60147,
+  "stargazerCount": 15,
+  "forkCount": 6,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Jupyter Notebook"
+  },
+  "languages": {
+    "totalSize": 10262721,
+    "edges": [
+      {
+        "size": 10258260,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      },
+      {
+        "size": 4461,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "computer-science"
+        }
+      },
+      {
+        "topic": {
+          "name": "neural-networks"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "pytorch"
+        }
+      },
+      {
+        "topic": {
+          "name": "cnn"
+        }
+      },
+      {
+        "topic": {
+          "name": "deep-learning"
+        }
+      },
+      {
+        "topic": {
+          "name": "deep-neural-networks"
+        }
+      },
+      {
+        "topic": {
+          "name": "lstm"
+        }
+      },
+      {
+        "topic": {
+          "name": "maths"
+        }
+      },
+      {
+        "topic": {
+          "name": "rnn"
+        }
+      },
+      {
+        "topic": {
+          "name": "transfer-learning"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "IinjyI",
+    "__typename": "User",
+    "createdAt": "2021-09-10T14:43:25Z",
+    "repositories": {
+      "totalCount": 33
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 26,
+        "nodes": [
+          {
+            "committedDate": "2026-08-21T22:32:37Z",
+            "messageHeadline": "Fix docs deploy pip cache path, drop .claude from repo",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T22:29:37Z",
+            "messageHeadline": "Merge pull request #1 from IinjyI/docs-site",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T22:17:14Z",
+            "messageHeadline": "Add a searchable documentation site (MkDocs Material + mkdocs-jupyter)",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T12:34:00Z",
+            "messageHeadline": "Make Lab 01 executable and fix its evaluation metrics",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T11:45:52Z",
+            "messageHeadline": "Add Labs 10-19: RNN through RAG, and execute every notebook",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-01T09:38:27Z",
+            "messageHeadline": "Working on Lab-09",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-17T07:50:42Z",
+            "messageHeadline": "Lab-06: Fixed a typo in LaTex.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-17T07:28:45Z",
+            "messageHeadline": "Lab-06: Added LaTex representation for activation functions.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-16T18:10:50Z",
+            "messageHeadline": "Lab-06&07: Done.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-05-16T11:48:43Z",
+            "messageHeadline": "Lab-06: Almost done.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-17T15:26:27Z",
+            "messageHeadline": "Lab-05:Fixing attachments.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-17T15:25:02Z",
+            "messageHeadline": "Lab-04:Fixing attachments.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-17T15:21:18Z",
+            "messageHeadline": "Lab-01-05:Fixing attachments.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-16T00:41:53Z",
+            "messageHeadline": "Lab-04&05: Slight env modifications.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-15T22:52:11Z",
+            "messageHeadline": "Lab-05: Done.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-15T00:47:31Z",
+            "messageHeadline": "Lab-04: Done.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-13T02:19:41Z",
+            "messageHeadline": "Lab-03: Fixing video issue.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-13T02:17:46Z",
+            "messageHeadline": "Lab-03: Fixing video issue.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-13T02:04:44Z",
+            "messageHeadline": "Lab-03: Fixing video issue.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-04-13T02:01:57Z",
+            "messageHeadline": "Lab-03: Done.",
+            "author": {
+              "user": {
+                "login": "IinjyI"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-01.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-02.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-03.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-04.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-05.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-06.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-07.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-08.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-09.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-10.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-11.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-12.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-13.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-14.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-15.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-16.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-17.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-18.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Lab-19.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "Misc",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "mkdocs.yml",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-docs.txt",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "transfer_resnet18.pt",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "docs.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 11861,
+    "text": "# Hands-On Labs for Neural Networks with PyTorch\n\nThis repository contains a series of hands-on labs for beginners in neural networks using PyTorch. The labs are designed to briefly cover various topics, including Maths basics, Python refresher, and neural network concepts.\n\n## Getting Started\n\nLab 04 walks through installing Miniconda from scratch. If you already have it, this is the whole setup:\n\n```bash\nconda create -n envNeural python=3.12 -y\n```\n\n```bash\nconda activate envNeural && pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu && pip install numpy matplotlib scikit-learn scipy pillow jupyter ipykernel\n```\n\nLabs 17-19 need a few extras — `onnx`, `onnxruntime` and `onnxscript` for the export section, and `transformers` for the retrieval labs:\n\n```bash\nconda activate envNeural && pip install onnx onnxruntime onnxscript transformers\n```\n\nEvery lab runs on CPU. Labs 12 and 16 are noticeably faster on a GPU; if you have one, install the CUDA build of PyTorch instead of the `whl/cpu` index above. Datasets and pretrained weights download automatically on first run, into `./data` and the Hugging Face cache respectively.\n\n## Topics Covered\n\n### 1. Maths Basics\n- Linear Algebra: Introduction to linear algebra concepts used in neural networks.\n- Calculus: Exploring calculus concepts relevant to neural networks.\n\n### 2. Python Refresher & Environment Setup\n- Miniconda Installation and Environment Setup: Step-by-step guide for installing Miniconda and setting up the environment.\n- Python Refresher: Implementation of Maths functions.\n- PyTorch: Getting started with PyTorch library for neural networks development.\n\n### 3. Neural Network Concepts\n- Neurons and Activation Functions: Understanding the building blocks of neural networks.\n- Forward and Back Propagation: Implementing forward and back propagation algorithms in neural networks.\n- Dense Neural Networks: Building and training dense neural networks.\n- Convolutional Neural Networks (CNN): Introduction to CNNs and their applications in computer vision tasks.\n- Recurrent Neural Networks (RNN): Exploring RNNs and their ability to process sequential data.\n- Long Short-Term Memory (LSTM): Understanding LSTM networks and their role in handling long-term dependencies.\n- Transfer Learning: Leveraging pre-trained models for transfer learning in neural networks.\n\n### 4. Advanced Topics\n- Regularization and Optimization: Making networks generalise — dropout, weight decay, batch norm, augmentation, early stopping, optimizers and learning rate schedules.\n- Attention and Transformers: The mechanism that replaced recurrence, built from scratch.\n- Autoencoders and VAEs: Learning representations without labels, and generating from a latent space.\n- Generative Adversarial Networks: Training two networks against each other to generate data.\n- Deployment and Model Optimization: Taking a trained model out of the notebook — TorchScript, ONNX, quantization and serving.\n\n### 5. Extra: Retrieval\n- Embeddings and Semantic Search: Turning a pretrained Transformer into a search engine over your own text.\n- Retrieval-Augmented Generation (RAG): Grounding a language model in your documents, with citations and refusals.\n\n## Labs\n\n### 1. Introduction to Neural Networks\n- Overview of neural networks, their applications, and workflow.\n\n### 2. Linear Algebra for Neural Networks\n- Understanding linear algebra concepts used in neural networks.\n\n### 3. Calculus for Neural Networks\n- Exploring calculus concepts relevant to neural networks.\n\n### 4. Miniconda Installation and Environment Setup\n- Step-by-step guide for installing Miniconda and setting up the environment with needed libraries.\n\n### 5. Python Refresher & PyTorch\n- Implementing maths concepts as a Python refresher and getting started with Pytorch for neural network development.\n\n### 6. Neurons and Activation Functions\n- Understanding the building blocks of neural networks: neurons and activation functions.\n\n### 7. Forward and Back Propagation\n- Implementing forward and back propagation algorithms in neural networks.\n\n### 8. Dense Neural Networks\n- Building and training dense neural networks.\n\n### 9. Convolutional Neural Networks (CNN)\n- Introduction to CNNs and their applications in computer vision tasks.\n\n### 10. Recurrent Neural Networks (RNN)\n- Exploring RNNs and their ability to process sequential data.\n\n### 11. Long Short-Term Memory (LSTM)\n- Understanding LSTM networks and their role in handling long-term dependencies.\n\n### 12. Transfer Learning\n- Leveraging pre-trained models for transfer learning in neural networks.\n\n### 13. Regularization and Optimization\n- Diagnosing overfitting, and the toolkit that fixes it: weight decay, dropout, batch normalization, data augmentation and early stopping. How optimizers move through the loss landscape, and why the learning rate schedule matters.\n\n### 14. Attention and Transformers\n- Queries, keys and values; scaled dot-product and multi-head attention built from scratch; positional encoding; the encoder block; and reading a trained model's attention maps.\n\n### 15. Autoencoders and Variational Autoencoders\n- Learning with no labels at all. Bottlenecks, latent spaces, denoising, the reparameterization trick, and generating new samples from a learned distribution.\n\n### 16. Generative Adversarial Networks (GANs)\n- Two networks playing a minimax game. Training loop, the diagnostics that actually mean something, mode collapse, and the stability tricks that make it work.\n\n### 17. Deployment and Model Optimization\n- Saving and loading without the traps, TorchScript and ONNX export, quantization, honest benchmarking, and wrapping a model in a serving interface.\n\n### 18. Embeddings and Semantic Search\n- Why keyword search breaks, mean pooling a Transformer into a sentence vector, cosine similarity, building and scaling a vector index, chunking, and measuring retrieval with recall@k and MRR.\n\n### 19. Retrieval-Augmented Generation (RAG)\n- The full pipeline — chunk, embed, index, retrieve, prompt, generate — with a local model. Closed-book versus grounded answers, refusing to answer, citations, and tuning chunk size and top-k.\n\n## Conclusion\n\nThe labs build in five stages:\n\n1. **Foundations (Labs 1-5).** The linear algebra and calculus that neural networks are made of, a working Python environment, and the PyTorch basics — tensors, autograd, and the training loop.\n2. **Core architectures (Labs 6-12).** A single neuron and its activation function, forward and back propagation done by hand, then dense networks, convolutional networks for images, recurrent networks and LSTMs for sequences, and transfer learning to reuse what others have trained.\n3. **Advanced topics (Labs 13-16).** The techniques that decide whether a network generalises, the attention mechanism that replaced recurrence, and two families of generative model.\n4. **Production (Lab 17).** Everything that happens after the accuracy prints.\n5. **Retrieval (Labs 18-19).** Reusing the Transformer as a search engine, and grounding a language model in your own documents.\n\nA few ideas recur throughout, and they are worth naming:\n\n- **Additive paths preserve gradients.** It is the same trick in the LSTM's cell state, in ResNet's skip connections, and in the Transformer's residual connections.\n- **Gating is just a sigmoid used as a valve** — a learned decision about how much information passes.\n- **Regularization is deliberate difficulty.** Every technique in Lab 13 makes training harder on purpose, in exchange for generalisation.\n- **`model.train()` and `model.eval()` are not cosmetic.** Dropout and batch norm behave differently in each, and forgetting the switch fails silently.\n- **Build it by hand once, then use the library.** Every lab implements the mechanism from scratch, verifies it against PyTorch's version, and then uses PyTorch's.\n\nEach lab ends with an experiment section. Those are the point — the code is meant to be broken and rebuilt.\n\n## References\n\n- [1] [PyTorch Documentation](https://pytorch.org/docs/stable/index.html): Official documentation for PyTorch.\n\n## Additional Resources\n\n\n## Projects to implement (Optional)\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

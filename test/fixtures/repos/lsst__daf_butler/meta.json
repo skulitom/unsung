@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "lsst/daf_butler",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S2_py_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 3273,
+    "keptBytes": 3273,
+    "excerpt": false
+  }
+}

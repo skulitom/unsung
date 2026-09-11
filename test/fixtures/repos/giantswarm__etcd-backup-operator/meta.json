@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "giantswarm/etcd-backup-operator",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S7_general",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 4574,
+    "keptBytes": 4574,
+    "excerpt": false
+  }
+}

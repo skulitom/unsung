@@ -1,0 +1,205 @@
+{
+  "nameWithOwner": "iamdharamveer/borderguard-ai",
+  "description": "AI-powered border security platform for document verification, OCR extraction, tampering detection, face verification, cross-document identity checks, and explainable risk assessment.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-06T19:32:37Z",
+  "pushedAt": "2026-09-06T20:29:55Z",
+  "diskUsage": 604,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 156006,
+    "edges": [
+      {
+        "size": 77658,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 29536,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 24920,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 22700,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 1192,
+        "node": {
+          "name": "Batchfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "iamdharamveer",
+    "__typename": "User",
+    "createdAt": "2026-05-22T07:29:02Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 4,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T20:29:54Z",
+            "messageHeadline": "Fix demo images",
+            "author": {
+              "user": {
+                "login": "iamdharamveer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T20:06:51Z",
+            "messageHeadline": "Photo upload for Demo",
+            "author": {
+              "user": {
+                "login": "iamdharamveer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T19:33:56Z",
+            "messageHeadline": "Initial BorderGuard AI website",
+            "author": {
+              "user": {
+                "login": "iamdharamveer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T19:32:38Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "iamdharamveer"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "01_PASS_Passport_Aditya_Sharma_Clean.png",
+        "type": "blob"
+      },
+      {
+        "name": "02_FAIL_Passport_Viktor_Tampered_Photo.png",
+        "type": "blob"
+      },
+      {
+        "name": "03_FAIL_Passport_Elena_Altered_DOB.png",
+        "type": "blob"
+      },
+      {
+        "name": "04_FAIL_Visa_Rajesh_Forged_Stamp.png",
+        "type": "blob"
+      },
+      {
+        "name": "05_FAIL_Passport_Carlos_Interpol_Hit.png",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "Traveler_Passport_Scan_Official.png",
+        "type": "blob"
+      },
+      {
+        "name": "app.js",
+        "type": "blob"
+      },
+      {
+        "name": "assets.js",
+        "type": "blob"
+      },
+      {
+        "name": "create_test_passport.py",
+        "type": "blob"
+      },
+      {
+        "name": "generate_demo_documents.py",
+        "type": "blob"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "open_offline.bat",
+        "type": "blob"
+      },
+      {
+        "name": "portrait_sarah_conner.png",
+        "type": "blob"
+      },
+      {
+        "name": "run_app.bat",
+        "type": "blob"
+      },
+      {
+        "name": "styles.css",
+        "type": "blob"
+      },
+      {
+        "name": "test_app_integrity.py",
+        "type": "blob"
+      },
+      {
+        "name": "verify_files.py",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 201,
+    "text": "# borderguard-ai\nAI-powered border security platform for document verification, OCR extraction, tampering detection, face verification, cross-document identity checks, and explainable risk assessment.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

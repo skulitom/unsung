@@ -1,0 +1,620 @@
+{
+  "request": {
+    "path": "/repos/codefly-dev/cli/activity?per_page=100"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:22:36 GMT",
+    "etag": "W/\"a4048ad318608f7581908023a4a01fc8d55ac1997c66897a3086b00d0a2fdf5b\"",
+    "link": "<https://api.github.com/repositories/707627281/activity?per_page=100&after=Y3Vyc29yOnYyOpK7MjAyNi0wOS0wOFQyMjo1NzowNy4wMDAwMDBazwAAAAoC5L9h>; rel=\"next\"",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4895",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "105"
+  },
+  "body": [
+    {
+      "id": 43319464351,
+      "ref": "refs/heads/feat/registry-cache-622",
+      "timestamp": "2026-09-11T15:06:04Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43319452649,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-11T15:05:54Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43318761158,
+      "ref": "refs/heads/fix/registry-cache-622",
+      "timestamp": "2026-09-11T14:57:09Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43315493198,
+      "ref": "refs/heads/fix/registry-cache-622",
+      "timestamp": "2026-09-11T14:19:58Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43314516715,
+      "ref": "refs/heads/fix/registry-cache-622",
+      "timestamp": "2026-09-11T14:09:27Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43314512188,
+      "ref": "refs/heads/feat/registry-cache-622",
+      "timestamp": "2026-09-11T14:09:24Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43314108478,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-11T14:05:05Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43313152494,
+      "ref": "refs/heads/fix/610-integrity-selection",
+      "timestamp": "2026-09-11T13:55:03Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43312274308,
+      "ref": "refs/heads/fix/611-ci-task-prerequisites",
+      "timestamp": "2026-09-11T13:45:29Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43312000382,
+      "ref": "refs/heads/issue-608-federation-split-module-registration-from-module-identity",
+      "timestamp": "2026-09-11T13:42:33Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43307848736,
+      "ref": "refs/heads/issue-608-federation-split-module-registration-from-module-identity",
+      "timestamp": "2026-09-11T12:57:12Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43305866853,
+      "ref": "refs/heads/fix/610-integrity-selection",
+      "timestamp": "2026-09-11T12:34:47Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305761423,
+      "ref": "refs/heads/fix/611-ci-task-prerequisites",
+      "timestamp": "2026-09-11T12:33:35Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305736300,
+      "ref": "refs/heads/dependabot/github_actions/github-actions-major-9fc435f231",
+      "timestamp": "2026-09-11T12:33:18Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305653222,
+      "ref": "refs/heads/dependabot/github_actions/github-actions-65ce2e7c2d",
+      "timestamp": "2026-09-11T12:32:22Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305628924,
+      "ref": "refs/heads/dependabot/npm_and_yarn/web/dashboard/npm-major-ee069eb945",
+      "timestamp": "2026-09-11T12:32:05Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305597041,
+      "ref": "refs/heads/dependabot/go_modules/gomod-5be94951a5",
+      "timestamp": "2026-09-11T12:31:43Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305585750,
+      "ref": "refs/heads/dependabot/npm_and_yarn/web/dashboard/npm-431ecee333",
+      "timestamp": "2026-09-11T12:31:36Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43305463716,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-11T12:30:14Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43304530370,
+      "ref": "refs/heads/fix/612-result-reuse-eligibility",
+      "timestamp": "2026-09-11T12:19:38Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43304458700,
+      "ref": "refs/heads/chore/dependency-policy",
+      "timestamp": "2026-09-11T12:18:48Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43304398906,
+      "ref": "refs/heads/issue-608-federation-split-module-registration-from-module-identity",
+      "timestamp": "2026-09-11T12:18:06Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43300755795,
+      "ref": "refs/heads/fix-604-module-secret-into-module",
+      "timestamp": "2026-09-11T11:34:25Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43300486186,
+      "ref": "refs/heads/chore/dependency-policy",
+      "timestamp": "2026-09-11T11:31:06Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43300160287,
+      "ref": "refs/heads/chore/dependency-policy",
+      "timestamp": "2026-09-11T11:27:08Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43299696590,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-11T11:21:25Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43299357888,
+      "ref": "refs/heads/issue-604-run-solution-provision-a-consumed-module-s-own",
+      "timestamp": "2026-09-11T11:17:20Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43278911480,
+      "ref": "refs/heads/fix-604-module-secret-into-module",
+      "timestamp": "2026-09-11T07:15:29Z",
+      "activity_type": "force_push"
+    },
+    {
+      "id": 43276888095,
+      "ref": "refs/heads/fix-604-module-secret-into-module",
+      "timestamp": "2026-09-11T06:50:29Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43264493834,
+      "ref": "refs/heads/issue-604-run-solution-provision-a-consumed-module-s-own",
+      "timestamp": "2026-09-11T03:34:20Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43151498716,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-10T00:46:30Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43151174558,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-10T00:40:37Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43151098138,
+      "ref": "refs/heads/issue-590-audit-f08-high-require-lifecycle-completion-and-declared",
+      "timestamp": "2026-09-10T00:39:16Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43150014510,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-10T00:19:53Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43149910288,
+      "ref": "refs/heads/issue-593-audit-architecture-a04-distinguish-rendered-applied",
+      "timestamp": "2026-09-10T00:18:00Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43149662527,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-10T00:13:39Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43149644595,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-10T00:13:20Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43149443482,
+      "ref": "refs/heads/issue-591-audit-f09-medium-stop-consumers-before-dependencies-using",
+      "timestamp": "2026-09-10T00:09:49Z",
+      "activity_type": "force_push"
+    },
+    {
+      "id": 43149139160,
+      "ref": "refs/heads/issue-593-audit-architecture-a04-distinguish-rendered-applied",
+      "timestamp": "2026-09-10T00:04:42Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43148542163,
+      "ref": "refs/heads/issue-590-audit-f08-high-require-lifecycle-completion-and-declared",
+      "timestamp": "2026-09-09T23:54:42Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43148435996,
+      "ref": "refs/heads/issue-602-sync-module-generated-module-codefly-yaml-is-preserved",
+      "timestamp": "2026-09-09T23:52:46Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43146870469,
+      "ref": "refs/heads/issue-588-audit-f04-high-reject-stale-materialized-modules-after",
+      "timestamp": "2026-09-09T23:25:12Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43146718106,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T23:22:33Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43146715580,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T23:22:31Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43146712990,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T23:22:28Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43141245759,
+      "ref": "refs/heads/issue-593-audit-architecture-a04-distinguish-rendered-applied",
+      "timestamp": "2026-09-09T21:57:23Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43141140760,
+      "ref": "refs/heads/issue-590-audit-f08-high-require-lifecycle-completion-and-declared",
+      "timestamp": "2026-09-09T21:55:55Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43140695735,
+      "ref": "refs/heads/issue-589-audit-f05-companion-high-wire-invocation-identity-and",
+      "timestamp": "2026-09-09T21:49:44Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43140609504,
+      "ref": "refs/heads/issue-592-audit-f11-medium-publish-validated-agent-accepted-network",
+      "timestamp": "2026-09-09T21:48:31Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43140592256,
+      "ref": "refs/heads/issue-594-audit-architecture-a05-gate-supported-cli-core-agent",
+      "timestamp": "2026-09-09T21:48:16Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43140551267,
+      "ref": "refs/heads/issue-588-audit-f04-high-reject-stale-materialized-modules-after",
+      "timestamp": "2026-09-09T21:47:42Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43140471236,
+      "ref": "refs/heads/issue-591-audit-f09-medium-stop-consumers-before-dependencies-using",
+      "timestamp": "2026-09-09T21:46:35Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43130546649,
+      "ref": "refs/heads/issue-591-audit-f09-medium-stop-consumers-before-dependencies-using",
+      "timestamp": "2026-09-09T19:49:07Z",
+      "activity_type": "force_push"
+    },
+    {
+      "id": 43127446667,
+      "ref": "refs/heads/issue-594-audit-architecture-a05-gate-supported-cli-core-agent",
+      "timestamp": "2026-09-09T19:16:04Z",
+      "activity_type": "force_push"
+    },
+    {
+      "id": 43126979739,
+      "ref": "refs/heads/issue-593-audit-architecture-a04-distinguish-rendered-applied",
+      "timestamp": "2026-09-09T19:11:09Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126831853,
+      "ref": "refs/heads/issue-594-audit-architecture-a05-gate-supported-cli-core-agent",
+      "timestamp": "2026-09-09T19:09:38Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126801531,
+      "ref": "refs/heads/issue-590-audit-f08-high-require-lifecycle-completion-and-declared",
+      "timestamp": "2026-09-09T19:09:19Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126719817,
+      "ref": "refs/heads/issue-591-audit-f09-medium-stop-consumers-before-dependencies-using",
+      "timestamp": "2026-09-09T19:08:29Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126566264,
+      "ref": "refs/heads/issue-592-audit-f11-medium-publish-validated-agent-accepted-network",
+      "timestamp": "2026-09-09T19:06:56Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126443745,
+      "ref": "refs/heads/issue-589-audit-f05-companion-high-wire-invocation-identity-and",
+      "timestamp": "2026-09-09T19:05:38Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43126102637,
+      "ref": "refs/heads/issue-588-audit-f04-high-reject-stale-materialized-modules-after",
+      "timestamp": "2026-09-09T19:02:03Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43125739473,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T18:58:22Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43125735348,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T18:58:19Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43124840776,
+      "ref": "refs/heads/issue-585-aborted-codefly-run-solution-strands-started-native-service",
+      "timestamp": "2026-09-09T18:47:02Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43124658093,
+      "ref": "refs/heads/issue-583-cli-build-companions-from-companions-buildspecs-instead-of",
+      "timestamp": "2026-09-09T18:44:23Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43120946468,
+      "ref": "refs/heads/issue-585-aborted-codefly-run-solution-strands-started-native-service",
+      "timestamp": "2026-09-09T18:11:08Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43118932067,
+      "ref": "refs/heads/issue-583-cli-build-companions-from-companions-buildspecs-instead-of",
+      "timestamp": "2026-09-09T17:54:29Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43116358339,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T17:33:43Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43101204505,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T15:36:46Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43098079181,
+      "ref": "refs/heads/issue-580-cli-publish-companions-from-buildspecs-pin-the-base",
+      "timestamp": "2026-09-09T15:13:33Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43097676287,
+      "ref": "refs/heads/issue-581-fix-generate-client-also-stop-vendoring-protovalidate",
+      "timestamp": "2026-09-09T15:10:32Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43093378226,
+      "ref": "refs/heads/issue-580-cli-publish-companions-from-buildspecs-pin-the-base",
+      "timestamp": "2026-09-09T14:38:08Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43093295578,
+      "ref": "refs/heads/issue-581-fix-generate-client-also-stop-vendoring-protovalidate",
+      "timestamp": "2026-09-09T14:37:29Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43089303001,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T14:07:41Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43086478037,
+      "ref": "refs/heads/issue-408-cli-publishes-to-ghcr",
+      "timestamp": "2026-09-09T13:47:02Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43086271432,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T13:45:29Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43085504818,
+      "ref": "refs/heads/issue-576-git-clone-overlay-resolution-rewrites-codefly-local-yaml",
+      "timestamp": "2026-09-09T13:39:52Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43084554886,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T13:32:50Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43083655574,
+      "ref": "refs/heads/issue-101-provision-module-registration-secrets",
+      "timestamp": "2026-09-09T13:26:14Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43083230708,
+      "ref": "refs/heads/issue-408-cli-publishes-to-ghcr",
+      "timestamp": "2026-09-09T13:23:01Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43072966613,
+      "ref": "refs/heads/issue-576-git-clone-overlay-resolution-rewrites-codefly-local-yaml",
+      "timestamp": "2026-09-09T12:02:12Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43072304573,
+      "ref": "refs/heads/issue-408-cli-publishes-to-ghcr",
+      "timestamp": "2026-09-09T11:56:57Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43011179664,
+      "ref": "refs/heads/issue-101-provision-module-registration-secrets",
+      "timestamp": "2026-09-09T01:46:48Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43009684527,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T01:26:02Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43009619661,
+      "ref": "refs/heads/issue-574-fix-generate-client-go-output-vendors-google-protobuf",
+      "timestamp": "2026-09-09T01:25:09Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43009279634,
+      "ref": "refs/heads/issue-574-fix-generate-client-go-output-vendors-google-protobuf",
+      "timestamp": "2026-09-09T01:20:27Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43008931637,
+      "ref": "refs/heads/issue-574-fix-generate-client-go-output-vendors-google-protobuf",
+      "timestamp": "2026-09-09T01:15:46Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43007167825,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-09T00:52:32Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43006628143,
+      "ref": "refs/heads/issue-566-feat-companion-build-push-publish-verify-use-resources",
+      "timestamp": "2026-09-09T00:45:24Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43006515117,
+      "ref": "refs/heads/issue-566-feat-companion-build-push-publish-verify-use-resources",
+      "timestamp": "2026-09-09T00:43:56Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43005513375,
+      "ref": "refs/heads/issue-572-feat-publish-agent-repos-hand-the-cli-a",
+      "timestamp": "2026-09-09T00:30:42Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 43003517275,
+      "ref": "refs/heads/issue-566-feat-companion-build-push-publish-verify-use-resources",
+      "timestamp": "2026-09-09T00:05:28Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43001576071,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-08T23:40:44Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 43000563063,
+      "ref": "refs/heads/issue-566-feat-companion-build-push-publish-verify-use-resources",
+      "timestamp": "2026-09-08T23:27:55Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 43000266962,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-08T23:24:08Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 42999987738,
+      "ref": "refs/heads/issue-568-codefly-run-solution-must-inject-codefly-api-consumes",
+      "timestamp": "2026-09-08T23:20:29Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 42999839942,
+      "ref": "refs/heads/main",
+      "timestamp": "2026-09-08T23:18:30Z",
+      "activity_type": "pr_merge"
+    },
+    {
+      "id": 42999165339,
+      "ref": "refs/heads/docs/registry-abstraction-roadmap",
+      "timestamp": "2026-09-08T23:09:26Z",
+      "activity_type": "push"
+    },
+    {
+      "id": 42998570098,
+      "ref": "refs/heads/issue-568-codefly-run-solution-must-inject-codefly-api-consumes",
+      "timestamp": "2026-09-08T23:01:35Z",
+      "activity_type": "branch_creation"
+    },
+    {
+      "id": 42998218593,
+      "ref": "refs/heads/issue-566-feat-companion-build-push-publish-verify-use-resources",
+      "timestamp": "2026-09-08T22:57:07Z",
+      "activity_type": "branch_creation"
+    }
+  ]
+}

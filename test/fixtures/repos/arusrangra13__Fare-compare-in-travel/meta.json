@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "arusrangra13/Fare-compare-in-travel",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 740,
+    "keptBytes": 740,
+    "excerpt": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "kunalworldwide/kunalworldwide.github.io",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 1594,
+    "keptBytes": 1594,
+    "excerpt": false
+  }
+}

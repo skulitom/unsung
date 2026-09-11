@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "attack": "echo-only CI",
+    "description": "A workflow whose only step is `echo ok`, with a green rollup.",
+    "now": "2026-09-11T16:00:00Z",
+    "expect": {
+      "signals": {
+        "p.testsRun": {
+          "status": "ok",
+          "hit": false
+        },
+        "q.ci": {
+          "hit": true
+        }
+      }
+    }
+  },
+  "facts": {
+    "v": 1,
+    "id": "R_redteam_tool",
+    "nwo": "acme/tool",
+    "owner": "acme",
+    "name": "tool",
+    "fetchedAt": "2026-09-11T16:00:00Z",
+    "source": "fixture",
+    "stages": [
+      "enrich",
+      "deep"
+    ],
+    "headOid": "4f1c2e9d0b7a",
+    "defaultBranch": "main",
+    "createdAt": "2026-01-10T09:00:00Z",
+    "pushedAt": "2026-09-05T12:00:00Z",
+    "description": "Turns noisy log files into tidy summaries for on-call engineers",
+    "homepageUrl": null,
+    "isFork": false,
+    "isArchived": false,
+    "isTemplate": false,
+    "isMirror": false,
+    "hasIssues": true,
+    "hasDiscussions": false,
+    "stars": 1,
+    "forks": 0,
+    "watchers": 1,
+    "diskKB": 420,
+    "licence": "MIT",
+    "primaryLanguage": "Rust",
+    "languages": [
+      {
+        "name": "Rust",
+        "bytes": 69000
+      },
+      {
+        "name": "Shell",
+        "bytes": 1000
+      }
+    ],
+    "codeBytes": 70000,
+    "topics": [
+      "cli",
+      "logs"
+    ],
+    "releases": {
+      "count": 3,
+      "recent": [
+        {
+          "tag": "v0.3.0",
+          "publishedAt": "2026-09-02T10:00:00Z",
+          "prerelease": false
+        },
+        {
+          "tag": "v0.2.0",
+          "publishedAt": "2026-08-10T10:00:00Z",
+          "prerelease": false
+        },
+        {
+          "tag": "v0.1.0",
+          "publishedAt": "2026-07-01T10:00:00Z",
+          "prerelease": false
+        }
+      ]
+    },
+    "tags": 3,
+    "ownerInfo": {
+      "login": "acme",
+      "type": "User",
+      "createdAt": "2012-03-01T00:00:00Z",
+      "publicRepos": 30,
+      "contributionYears": [
+        2012,
+        2015,
+        2019,
+        2026
+      ],
+      "sponsorsListing": false
+    },
+    "commits": {
+      "total": 42,
+      "recent": [
+        {
+          "at": "2026-09-05T12:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-08-27T12:00:00Z",
+          "headline": "Fix timestamp parsing for ISO weeks",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-08-18T12:00:00Z",
+          "headline": "Handle gzip input",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-08-09T12:00:00Z",
+          "headline": "Refactor the parser state",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-07-31T12:00:00Z",
+          "headline": "Document the config file",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-07-22T12:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-07-13T12:00:00Z",
+          "headline": "Fix timestamp parsing for ISO weeks",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-07-04T12:00:00Z",
+          "headline": "Handle gzip input",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-06-25T12:00:00Z",
+          "headline": "Refactor the parser state",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-06-16T12:00:00Z",
+          "headline": "Document the config file",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-06-07T12:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-05-29T12:00:00Z",
+          "headline": "Fix timestamp parsing for ISO weeks",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-05-20T12:00:00Z",
+          "headline": "Handle gzip input",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-05-11T12:00:00Z",
+          "headline": "Refactor the parser state",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-05-02T12:00:00Z",
+          "headline": "Document the config file",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-04-23T12:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-04-14T12:00:00Z",
+          "headline": "Fix timestamp parsing for ISO weeks",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-04-05T12:00:00Z",
+          "headline": "Handle gzip input",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-03-27T12:00:00Z",
+          "headline": "Refactor the parser state",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-03-18T12:00:00Z",
+          "headline": "Document the config file",
+          "authorLogin": "acme"
+        }
+      ]
+    },
+    "rollup": "SUCCESS",
+    "root": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tool.toml",
+        "type": "blob"
+      }
+    ],
+    "workflows": [
+      {
+        "name": "ci.yml",
+        "text": "name: CI\non: [push]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: echo ok\n"
+      }
+    ],
+    "readme": {
+      "name": "README.md",
+      "bytes": 1075,
+      "truncated": false,
+      "text": "# tool\n\nTool turns noisy log files into tidy summaries for on-call engineers. It groups repeated lines,\nkeeps the first and last timestamp of each group and prints a short report that you can paste into\nan incident channel without editing. It reads plain, JSON and gzip-compressed logs, and it never sends\nyour logs anywhere: everything happens on your own machine.\n\n## Install\n\n```sh\ncargo install tool\ntool --config tool.toml app.log\n```\n\n## How it works\n\nThe command-line entry point is `src/main.rs`; parsing lives in `src/parse.rs` and the library API in\n`src/lib.rs`. Integration tests are in `tests/cli.rs`, and `examples/basic.rs` shows the library used\nfrom another program. Settings are read from `tool.toml` when it exists.\n\n## Testing\n\n```sh\ncargo test\n```\n\n## Configuration\n\nEvery option has a sensible default, so the configuration file is optional. Group windows, the report\nwidth and the colours used in terminal output can all be changed; run the tool with `--help` to see the\nfull list of options and their defaults.\n\n## Licence\n\nMIT; see the LICENSE file.\n"
+    },
+    "packageJson": null,
+    "manifest": {
+      "path": "Cargo.toml",
+      "text": "[package]\nname = \"tool\"\nversion = \"0.3.0\"\nedition = \"2021\"\n"
+    },
+    "agentsMdBytes": 0,
+    "claudeMdBytes": 0,
+    "tree": {
+      "truncated": false,
+      "count": 17,
+      "entries": [
+        [
+          ".github",
+          "tree"
+        ],
+        [
+          ".github/workflows",
+          "tree"
+        ],
+        [
+          ".github/workflows/ci.yml",
+          "blob",
+          380
+        ],
+        [
+          ".gitignore",
+          "blob",
+          20
+        ],
+        [
+          "Cargo.lock",
+          "blob",
+          9100
+        ],
+        [
+          "Cargo.toml",
+          "blob",
+          420
+        ],
+        [
+          "LICENSE",
+          "blob",
+          1070
+        ],
+        [
+          "README.md",
+          "blob",
+          1075
+        ],
+        [
+          "examples",
+          "tree"
+        ],
+        [
+          "examples/basic.rs",
+          "blob",
+          800
+        ],
+        [
+          "src",
+          "tree"
+        ],
+        [
+          "src/lib.rs",
+          "blob",
+          21000
+        ],
+        [
+          "src/main.rs",
+          "blob",
+          30000
+        ],
+        [
+          "src/parse.rs",
+          "blob",
+          18000
+        ],
+        [
+          "tests",
+          "tree"
+        ],
+        [
+          "tests/cli.rs",
+          "blob",
+          4200
+        ],
+        [
+          "tool.toml",
+          "blob",
+          160
+        ]
+      ]
+    },
+    "activity": {
+      "pushDays": 25,
+      "firstAt": "2026-01-10T09:00:00Z",
+      "lastAt": "2026-09-05T12:00:00Z",
+      "forcePushes": 0
+    },
+    "starHistory": null,
+    "outsiders": [
+      {
+        "login": "friend",
+        "kind": "issue",
+        "at": "2026-08-01T10:00:00Z",
+        "accountCreatedAt": "2018-04-01T00:00:00Z"
+      }
+    ],
+    "funding": [],
+    "heavy": false
+  }
+}

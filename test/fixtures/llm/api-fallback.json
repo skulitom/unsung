@@ -1,0 +1,50 @@
+{
+  "name": "api-fallback",
+  "kind": "api",
+  "description": "A declined request re-run server-side on the fallback model: a fallback block marks the switch.",
+  "message": {
+    "id": "msg_synthetic",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-opus-4-8",
+    "content": [
+      {
+        "type": "fallback",
+        "from": {
+          "model": "claude-opus-5"
+        },
+        "to": {
+          "model": "claude-opus-4-8"
+        }
+      },
+      {
+        "type": "text",
+        "text": "{\"category\":\"G\",\"categoryConfidence\":0.85,\"scores\":{\"purpose\":4,\"craft\":3,\"verification\":3,\"honesty\":3,\"originality\":3},\"claims\":[{\"text\":\"Predicts tides offline from harmonic constants\",\"path\":\"README.md\",\"quote\":\"Offline tide predictions for any port with published harmonic constants.\",\"supports\":\"purpose\"},{\"text\":\"CI runs the whole test suite\",\"path\":\".github/workflows/ci.yml\",\"quote\":\"run: cargo test --all\",\"supports\":\"verification\"}],\"flags\":[],\"pitch\":\"Offline tide predictions from harmonic constants, checked against a known port.\",\"audience\":\"Sailors and coastal walkers\",\"summary\":\"A small, tested Rust CLI that does one job well.\",\"injectionSeen\":false}"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_details": null,
+    "usage": {
+      "input_tokens": 3100,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1700,
+      "iterations": [
+        {
+          "type": "message"
+        },
+        {
+          "type": "fallback_message"
+        }
+      ]
+    }
+  },
+  "expect": {
+    "status": "ok",
+    "kept": 2,
+    "dropped": 0,
+    "points": 1,
+    "lane": null,
+    "servedBy": "claude-opus-4-8"
+  }
+}

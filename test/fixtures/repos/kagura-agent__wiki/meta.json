@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "kagura-agent/wiki",
+  "label": "P",
+  "stratum": "search",
+  "sample": "S8_aiagent",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 2106,
+    "keptBytes": 2106,
+    "excerpt": false
+  }
+}

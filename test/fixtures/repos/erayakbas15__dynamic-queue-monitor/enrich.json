@@ -1,0 +1,228 @@
+{
+  "nameWithOwner": "erayakbas15/dynamic-queue-monitor",
+  "description": "Multi-channel dynamic queue monitoring system using Spring Boot and React.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T13:14:49Z",
+  "pushedAt": "2026-09-10T18:11:51Z",
+  "diskUsage": 473,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Java"
+  },
+  "languages": {
+    "totalSize": 33101,
+    "edges": [
+      {
+        "size": 19869,
+        "node": {
+          "name": "Java"
+        }
+      },
+      {
+        "size": 9068,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 3804,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 360,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "erayakbas15",
+    "__typename": "User",
+    "createdAt": "2021-10-11T07:58:01Z",
+    "repositories": {
+      "totalCount": 8
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 13,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T18:11:42Z",
+            "messageHeadline": "docs: add final case study report",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:45:03Z",
+            "messageHeadline": "style: adjust dashboard header spacing",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T16:48:39Z",
+            "messageHeadline": "docs: add setup and API documentation",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T16:31:44Z",
+            "messageHeadline": "feat: add thread priority management",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T16:03:16Z",
+            "messageHeadline": "feat: add scheduled metrics collection",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:41:14Z",
+            "messageHeadline": "test: add frontend component tests",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:15:59Z",
+            "messageHeadline": "feat: add queue monitoring dashboard",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:56:50Z",
+            "messageHeadline": "test: add backend queue and API tests",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:50:48Z",
+            "messageHeadline": "feat: add thread management and REST API",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:26:05Z",
+            "messageHeadline": "feat: implement sender and receiver workers",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:59:50Z",
+            "messageHeadline": "feat: add bounded queue implementation",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:35:29Z",
+            "messageHeadline": "chore: initialize Spring Boot backend",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:17:54Z",
+            "messageHeadline": "chore: initialize project structure",
+            "author": {
+              "user": {
+                "login": "erayakbas15"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "backend",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "frontend",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5940,
+    "text": "# Dynamic Queue Monitor\n\nA multi-channel dynamic queue monitoring system developed with Spring Boot and React.\n\nThe application simulates Sender and Receiver threads communicating through a shared bounded queue. Thread states and queue metrics can be monitored from the frontend while the number of workers can be changed dynamically.\n\n## Features\n\n- Dynamic Sender and Receiver thread creation\n- Thread-safe bounded queue\n- Queue occupancy monitoring\n- Sender and Receiver state monitoring\n- Dynamic thread addition\n- Stop all workers or a selected worker group\n- Thread priority management\n- Backend metrics updated every second\n- React dashboard updated every second\n- Backend and frontend tests\n- OpenAPI API documentation\n\n## Technologies\n\n### Backend\n\n- Java 21\n- Spring Boot\n- Maven\n- Java Concurrency (`ReentrantLock`, `Condition`)\n- JUnit\n- MockMvc\n\n### Frontend\n\n- React\n- Vite\n- JavaScript\n- Vitest\n- React Testing Library\n\n## Project Structure\n\n```text\ndynamic-queue-monitor/\n├── backend/\n│   ├── src/main/\n│   └── src/test/\n├── frontend/\n│   └── src/\n├── docs/\n│   └── openapi.yaml\n└── README.md\n```\n\n## Architecture\n\n```text\nReact Frontend\n      |\n      | REST API\n      v\nSystemController\n      |\n      v\nThreadManagerService\n      |\n      +-----------------------+\n      |                       |\n SenderWorker             ReceiverWorker\n      |                       |\n      +-----> BoundedQueue <---+\n               |\n          ReentrantLock\n          notEmpty\n          notFull\n```\n\nThe shared bounded queue is implemented using `ArrayDeque`, `ReentrantLock` and two `Condition` objects.\n\nA Sender waits when the queue is full, while a Receiver waits when the queue is empty.\n\nThe application uses the following worker states:\n\n- `RUNNABLE`: The worker is active.\n- `WAITING`: The worker is waiting because the queue is full or empty.\n- `BLOCKED`: The worker is waiting to acquire the queue lock.\n- `TERMINATED`: The worker has been stopped.\n\nThese are application-level monitoring states and are not intended to directly represent `java.lang.Thread.State`.\n\n## Running the Project\n\n### Requirements\n\n- Java 21\n- Node.js\n- npm\n\n### Backend\n\n#### Windows PowerShell\n\nFrom the project root:\n\n```powershell\ncd backend\n.\\mvnw.cmd spring-boot:run\n```\n\n#### Linux / macOS\n\n```bash\ncd backend\n./mvnw spring-boot:run\n```\n\nThe backend runs at:\n\n```text\nhttp://localhost:8080\n```\n\n### Frontend\n\nOpen a second terminal from the project root:\n\n```powershell\ncd frontend\nnpm install\nnpm run dev\n```\n\nThe frontend runs at:\n\n```text\nhttp://localhost:5173\n```\n\n## API Endpoints\n\n### Start System\n\n```http\nPOST /api/system/start\n```\n\nExample request:\n\n```json\n{\n  \"senderCount\": 3,\n  \"receiverCount\": 2,\n  \"queueCapacity\": 10\n}\n```\n\n### Stop System\n\n```http\nPOST /api/system/stop\n```\n\nStops all Sender and Receiver workers.\n\n### Add Threads\n\n```http\nPOST /api/threads/add\n```\n\nExample request:\n\n```json\n{\n  \"type\": \"SENDER\",\n  \"count\": 2\n}\n```\n\nSupported worker types:\n\n```text\nSENDER\nRECEIVER\n```\n\n### Stop Thread Group\n\n```http\nPOST /api/threads/{type}/stop\n```\n\nExample:\n\n```http\nPOST /api/threads/RECEIVER/stop\n```\n\n### Change Thread Priority\n\n```http\nPATCH /api/threads/{type}/{id}/priority\n```\n\nExample:\n\n```http\nPATCH /api/threads/SENDER/sender-1/priority\n```\n\nRequest body:\n\n```json\n{\n  \"priority\": 8\n}\n```\n\nJava thread priority values are between 1 and 10.\n\nThread priority is treated as a scheduling hint and is not used for application correctness.\n\n### Get System Status\n\n```http\nGET /api/status\n```\n\nExample response:\n\n```json\n{\n  \"queue\": {\n    \"size\": 5,\n    \"capacity\": 5,\n    \"occupancyPercentage\": 100.0\n  },\n  \"senders\": {\n    \"RUNNABLE\": 0,\n    \"WAITING\": 3,\n    \"BLOCKED\": 0,\n    \"TERMINATED\": 0\n  },\n  \"receivers\": {\n    \"RUNNABLE\": 0,\n    \"WAITING\": 0,\n    \"BLOCKED\": 0,\n    \"TERMINATED\": 0\n  }\n}\n```\n\nBackend metrics are collected every second. The React frontend polls the status endpoint once per second to display the latest snapshot.\n\n## Concurrency Design\n\nThe bounded queue uses two condition variables:\n\n- `notEmpty` is used by Receivers waiting for new data.\n- `notFull` is used by Senders waiting for available queue capacity.\n\nQueue conditions are checked using `while` loops so that a worker checks the shared condition again after being awakened.\n\nWorker state and running flags use `volatile` fields because they may be written by worker threads and read from HTTP request threads.\n\n`ConcurrentHashMap` is used to keep Sender and Receiver workers, while `AtomicInteger` is used to generate worker identifiers.\n\n## Design Decisions\n\n### Custom Bounded Queue\n\nJava provides ready-to-use blocking queue implementations. For this case study, the bounded queue was implemented using `ReentrantLock` and `Condition` so that the synchronization behavior can be observed and controlled directly.\n\n### REST Polling\n\nThe required monitoring interval is one second. For this scope, REST polling was preferred instead of WebSocket to keep the communication model simple.\n\nIf the number of clients or the update frequency increased significantly, Server-Sent Events or WebSocket could be considered.\n\n### In-Memory State\n\nNo database is used because the application represents a live concurrency simulation and does not require persistent state.\n\n## Testing\n\n### Backend\n\nRun:\n\n```powershell\ncd backend\n.\\mvnw.cmd test\n```\n\nThe backend includes tests for:\n\n- Spring application startup\n- Queue insertion and removal\n- Queue occupancy calculation\n- Invalid queue capacity\n- System startup\n- Status endpoint\n- Dynamic Sender creation\n- Priority API\n- Worker priority changes\n\n### Frontend\n\nRun:\n\n```powershell\ncd frontend\nnpm test\n```\n\nThe frontend includes component tests for queue metrics and thread-state visualization.\n\nProduction build:\n\n```powershell\nnpm run build\n```\n\n## OpenAPI\n\nThe REST API definition is available at:\n\n```text\ndocs/openapi.yaml\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

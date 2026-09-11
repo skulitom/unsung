@@ -1,0 +1,107 @@
+{
+  "nameWithOwner": "jukedz/Quarto-Application-Assignment",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T22:29:32Z",
+  "pushedAt": "2026-09-04T22:36:15Z",
+  "diskUsage": 373,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 1276922,
+    "edges": [
+      {
+        "size": 1276922,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "jukedz",
+    "__typename": "User",
+    "createdAt": "2026-06-22T01:08:39Z",
+    "repositories": {
+      "totalCount": 18
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T22:36:03Z",
+            "messageHeadline": "Add GitHub repo link to report",
+            "author": {
+              "user": {
+                "login": "jukedz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T22:32:29Z",
+            "messageHeadline": "Initial commit: M01-2 Intro to Literate Programming assignment",
+            "author": {
+              "user": {
+                "login": "jukedz"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".Rhistory",
+        "type": "blob"
+      },
+      {
+        "name": ".Rproj.user",
+        "type": "tree"
+      },
+      {
+        "name": "Diaz, Julie-M01-2-Intro_Literate_programming-Application.html",
+        "type": "blob"
+      },
+      {
+        "name": "Diaz, Julie-M01-2-Intro_Literate_programming-Application.qmd",
+        "type": "blob"
+      },
+      {
+        "name": "Quarto Application Assignment.Rproj",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

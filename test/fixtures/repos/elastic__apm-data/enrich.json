@@ -1,0 +1,339 @@
+{
+  "id": "R_kgDOIkoR6A",
+  "nameWithOwner": "elastic/apm-data",
+  "description": "apm-data holds definitions and code for manipulating Elastic APM data",
+  "homepageUrl": "",
+  "createdAt": "2022-12-07T06:36:21Z",
+  "pushedAt": "2026-09-07T18:12:47Z",
+  "diskUsage": 2602,
+  "stargazerCount": 12,
+  "forkCount": 31,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 1099579,
+    "edges": [
+      {
+        "size": 1096986,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 1520,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 1073,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 40
+  },
+  "tags": {
+    "totalCount": 42
+  },
+  "watchers": {
+    "totalCount": 122
+  },
+  "owner": {
+    "login": "elastic",
+    "__typename": "Organization",
+    "createdAt": "2014-02-23T17:48:57Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 438,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T18:14:52Z",
+            "messageHeadline": "build(deps): bump the golang-org-x group across 1 directory with 2 up…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T15:35:29Z",
+            "messageHeadline": "(chore) bump github.com/apache/thrift to `v0.24.0` (#637)",
+            "author": {
+              "user": {
+                "login": "isaacaflores2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T20:29:28Z",
+            "messageHeadline": "build(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.0 (…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T20:23:59Z",
+            "messageHeadline": "build(deps): bump the otel group across 1 directory with 9 updates (#…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T14:17:59Z",
+            "messageHeadline": "Downgrade to go 1.25 in go.mod for compatibility (#629)",
+            "author": {
+              "user": {
+                "login": "carsonip"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-12T08:05:07Z",
+            "messageHeadline": "build(deps): bump actions/setup-go (#623)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T18:15:16Z",
+            "messageHeadline": "build(deps): bump google.golang.org/grpc from 1.81.1 to 1.83.0 (#624)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-22T11:20:48Z",
+            "messageHeadline": "build(deps): bump actions/checkout in the github-actions group (#619)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-27T06:44:08Z",
+            "messageHeadline": "build(deps): bump the otel group across 1 directory with 4 updates (#…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-15T11:40:52Z",
+            "messageHeadline": "Update opentelemetry-lib version to v0.39.0 (#608)",
+            "author": {
+              "user": {
+                "login": "lahsivjar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-15T11:06:29Z",
+            "messageHeadline": "build(deps): bump github.com/elastic/opentelemetry-lib (#603)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-15T10:59:03Z",
+            "messageHeadline": "build(deps): bump golang.org/x/tools (#595)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-15T10:54:40Z",
+            "messageHeadline": "build(deps): bump the otel group across 1 directory with 4 updates (#…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-15T10:47:29Z",
+            "messageHeadline": "build(deps): bump google.golang.org/grpc from 1.80.0 to 1.81.1 (#606)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-13T08:30:23Z",
+            "messageHeadline": "build(deps): bump actions/add-to-project in the github-actions group …",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-30T07:38:56Z",
+            "messageHeadline": "build(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0 (#601)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-17T10:54:48Z",
+            "messageHeadline": "qualify proto file paths to avoid namespace collisions (#600)",
+            "author": {
+              "user": {
+                "login": "lahsivjar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-13T08:10:25Z",
+            "messageHeadline": "build(deps): bump actions/github-script in the github-actions group (…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T10:42:34Z",
+            "messageHeadline": "build(deps): bump the golang-org-x group across 1 directory with 2 up…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T10:40:15Z",
+            "messageHeadline": "build(deps): bump github.com/elastic/opentelemetry-lib (#591)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CODEOWNERS",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "codec",
+        "type": "tree"
+      },
+      {
+        "name": "dev_docs",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "input",
+        "type": "tree"
+      },
+      {
+        "name": "model",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "add-to-apm-project.yaml"
+      },
+      {
+        "name": "add-to-project.yaml"
+      },
+      {
+        "name": "bench-diff.yml"
+      },
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "label-elastic-pull-requests.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 513,
+    "text": "[![ci](https://github.com/elastic/apm-data/actions/workflows/ci.yml/badge.svg)](https://github.com/elastic/apm-data/actions/workflows/ci.yml)\n\n# apm-data\n\napm-data holds definitions and code for manipulating Elastic APM data.\n\n### Code Generation\n\nWhenever updating protobuf files, you need to manually run the generation of\nthe related code, as well as licenses update.\n\n```\nmake all\n```\n\n## License\n\nThis software is licensed under the [Apache 2 license](https://github.com/elastic/apm-data/blob/main/LICENSE).\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

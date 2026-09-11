@@ -1,0 +1,457 @@
+{
+  "id": "R_kgDOUOVVhw",
+  "nameWithOwner": "Revolt-Group/revolt-pass",
+  "description": "Zero-Knowledge 2FA authenticator & password vault. Military-grade AES-256-GCM & PBKDF2 (600k rounds) client-side encryption, FIDO2/Passkeys biometric unlock, and serverless Cloudflare D1 sync.",
+  "homepageUrl": "https://revoltgroup.com.ar",
+  "createdAt": "2026-09-04T14:00:51Z",
+  "pushedAt": "2026-09-08T07:06:52Z",
+  "diskUsage": 816,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "AGPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 1016131,
+    "edges": [
+      {
+        "size": 1000385,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 11703,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 2144,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 1899,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "agplv3"
+        }
+      },
+      {
+        "topic": {
+          "name": "cloudflare-d1"
+        }
+      },
+      {
+        "topic": {
+          "name": "cloudflare-workers"
+        }
+      },
+      {
+        "topic": {
+          "name": "fido2"
+        }
+      },
+      {
+        "topic": {
+          "name": "passkeys"
+        }
+      },
+      {
+        "topic": {
+          "name": "password-manager"
+        }
+      },
+      {
+        "topic": {
+          "name": "pwa"
+        }
+      },
+      {
+        "topic": {
+          "name": "react19"
+        }
+      },
+      {
+        "topic": {
+          "name": "totp-authenticator"
+        }
+      },
+      {
+        "topic": {
+          "name": "typescript"
+        }
+      },
+      {
+        "topic": {
+          "name": "webauthn"
+        }
+      },
+      {
+        "topic": {
+          "name": "zero-knowledge"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 4
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Revolt-Group",
+    "__typename": "Organization",
+    "createdAt": "2026-01-23T01:31:58Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 46,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T06:59:38Z",
+            "messageHeadline": "fix(dependabot): remove nonexistent dependencies label requirement",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T06:52:39Z",
+            "messageHeadline": "fix(ci): let pnpm/action-setup resolve version from packageManager",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T06:50:47Z",
+            "messageHeadline": "fix(ci): specify pnpm version 10 in action-setup and packageManager",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T06:39:37Z",
+            "messageHeadline": "chore(v2.0.1): oss polish patch - github community health, oxlint rul…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T05:22:54Z",
+            "messageHeadline": "chore(ignore): add internal master_roadmap.md to gitignore",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T03:39:24Z",
+            "messageHeadline": "feat(v2.0): suite integral de secretos, envelope wrapping, snapshots …",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T02:26:42Z",
+            "messageHeadline": "docs: sync bilingual documentation (ES/EN) across README, SECURITY, P…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T02:13:16Z",
+            "messageHeadline": "docs: add v1.5.0 release notes to CHANGELOG.es.md",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T02:04:32Z",
+            "messageHeadline": "feat(security): release v1.5.0 - Argon2id KDF & proactive notificatio…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T01:31:40Z",
+            "messageHeadline": "docs: integrate ADR-014 and Milestone v2.5 ECDH secure sharing specif…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T20:57:11Z",
+            "messageHeadline": "fix(sync): v1.4.4 patch - eliminate session revocation loop and auto-…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T20:39:37Z",
+            "messageHeadline": "fix(sync): v1.4.3 patch - resolve D1 push URL bug, restore recovery c…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T20:16:54Z",
+            "messageHeadline": "feat(mobile): v1.4.2 mobile experience overhaul, responsive navbar dr…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:18:09Z",
+            "messageHeadline": "fix(qr): render vector QR synchronously via pure matrix encoder to pr…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:06:04Z",
+            "messageHeadline": "feat(v1.4.1): protobuf qr carousel exporter & individual account qr v…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:36:16Z",
+            "messageHeadline": "feat(v1.4.0): universal importers, open vault exporters, yubikey roam…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:03:05Z",
+            "messageHeadline": "feat(security): release v1.3.1 edge security hardening and session to…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T07:44:49Z",
+            "messageHeadline": "feat: release v1.3.0 - security health check, vault hygiene diagnosti…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T07:02:44Z",
+            "messageHeadline": "docs: restructure 05-ROADMAP with quality-driven milestones and refin…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T02:54:43Z",
+            "messageHeadline": "docs: add SECURITY policies, ADR-010, update readmes and enhance owne…",
+            "author": {
+              "user": {
+                "login": "MotoNacho"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".oxlintrc.json",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.es.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.en.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.es.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.en.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.es.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "functions",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "schema.sql",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.app.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.node.json",
+        "type": "blob"
+      },
+      {
+        "name": "vite.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "wrangler.toml.example",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13544,
+    "text": "<p align=\"right\">\n  <strong>Español</strong> | <a href=\"./README.en.md\">English</a>\n</p>\n\n# Revolt Pass — Zero-Knowledge Password, 2FA & Secrets Vault\n\n[![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](./LICENSE)\n[![Version](https://img.shields.io/github/package-json/v/Revolt-Group/revolt-pass)](./CHANGELOG.md)\n[![CI](https://github.com/Revolt-Group/revolt-pass/actions/workflows/ci.yml/badge.svg)](https://github.com/Revolt-Group/revolt-pass/actions/workflows/ci.yml)\n[![TypeScript: Strict](https://img.shields.io/badge/TypeScript-Strict_6.0-3178C6.svg)](./tsconfig.app.json)\n[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers_%2B_D1-F38020.svg)](./docs/es/02-ARCHITECTURE.md)\n[![Tests passing](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](./CHANGELOG.md)\n\n> Progressive Web App (PWA) de grado de ciberseguridad con arquitectura criptográfica **Zero-Knowledge (Conocimiento Cero)** para la gestión soberana de contraseñas, factores de autenticación (TOTP - RFC 6238), tarjetas de pago, notas seguras, claves SSH/servidor e identidades personales. Cuenta con cifrado de sobre por elemento (`item_key`), snapshots automáticos en Cloudflare D1 con rollback optimista, papelera con purga automática a los 30 días, Emergency Kit físico imprimible, derivación de clave con **Argon2id WASM (64 MB)**, alertas proactivas **Web Push RFC 8291/8292** y correo **BYOK (Resend / Cloudflare)**, importadores/exportadores universales, soporte YubiKey/FIDO2 y desbloqueo biométrico nativo (Windows Hello / Passkeys).\n\n---\n\n## 🌟 Características Principales\n\n* **Suite Integral de Secretos Polimórficos (v2.0.0):**\n  - **6 Tipos Canónicos de Secretos:** Gestión completa de Contraseñas/Logins (con generador CSPRNG, URLs web, token 2FA integrado e historial de contraseñas), Factores 2FA/TOTP, Tarjetas de Crédito/Débito (con detección automática de marca y revelación de CVV/PIN), Notas Seguras en Markdown cifradas, Claves de Servidor/SSH (host, puerto, usuario, clave pública, privada y passphrase) y Fichas de Identidad Personal.\n  - **Cifrado de Sobre por Elemento (`item_key`):** Cada elemento cuenta con una clave simétrica única e independiente envuelta bajo la clave maestra, sentando las bases para el intercambio asimétrico ECDH (v2.5).\n  - **Papelera de 30 Días con Purga Criptográfica:** Eliminación suave con restauración en 1 clic y destrucción definitiva automática tras 30 días sin fugas residuales en el texto cifrado.\n  - **Snapshots en Cloudflare D1 y Rollback Optimista:** Historial automático de los últimos 5 estados de la bóveda en D1 con rollback en un clic e incremento optimista de versión (`current.version + 1`).\n  - **Emergency Kit Físico Imprimible:** Generador offline en cliente de hoja de recuperación de alta resolución con QR vectorial y recuadro manuscrito de contraseña maestra.\n* **Argon2id KDF y Alertas Proactivas Zero-Knowledge (v1.5.0):**\n  - **Argon2id WASM:** Derivación de clave maestra resistente a memoria (64 MB, 3 rondas) compilada a WebAssembly via `hash-wasm`, inmune a ataques con clústeres GPU/ASIC. Incluye auto-upgrade silencioso e imperceptible de cuentas legadas PBKDF2 en su próximo inicio de sesión o desbloqueo, con recifrado de bóveda y re-empaquetado biométrico de passkeys.\n  - **Web Push Nativo ($0 Costo):** Alertas push en tiempo real directas desde Cloudflare Worker mediante la Push API del navegador, Service Worker y RFC 8291/8292 (VAPID + AES-128-GCM). Alerta ante inicios de sesión desde nuevos países, nuevas sesiones activas, revocaciones remotas y passkeys añadidas.\n  - **Alertas por Correo BYOK (Bring Your Own Key):** Notificaciones de seguridad por correo configurables a $0 de costo operacional mediante clave personal gratuita de Resend (3,000 emails/mes) o Cloudflare Email (`send_email`). Pestaña de Notificaciones dedicada en el Modal de Seguridad con botones de prueba inmediata.\n* **Exportador Masivo por Carrusel de QRs y Visor QR Individual (v1.4.1):** Codificador binario nativo de Protocol Buffers en Ty\n* **Importadores Universales y Exportadores Abiertos (v1.4.0):** Migración instantánea y sin fricción desde Google Authenticator (decodificador Protobuf en TypeScript puro), Authy, Aegis, 2FAS, Bitwarden, 1Password, Proton Pass, Ente Auth, LastPass y listas de URIs `otpauth://`. Motor de reconciliación inteligente con previsualización interactiva de diferencias (*nuevas, duplicadas, conflictos*) y resolución seleccionable (*conservar existentes, sobrescribir o conservar ambos*). Exportación abierta hacia formatos Aegis JSON, Bitwarden CSV y lista `otpauth://`. Soporte WebAuthn para llaves de seguridad físicas por hardware (**YubiKey / FIDO2 Roaming**) y exportación del historial de auditoría de seguridad en CSV/JSON.\n* **Cifrado Zero-Knowledge en Cliente:** Cifrado simétrico autenticado **AES-GCM de 256 bits** con vector de inicialización (`IV`) fresco por guardado y derivación de clave maestra mediante **Argon2id / PBKDF2 (600,000 rondas)** en un Web Worker dedicado.\n* **Endurecimiento Perimetral y Seguridad en Capas (v1.3.1):** Cabeceras Content-Security-Policy (CSP) estrictas para mitigar XSS (VEC-06), limitador de tasa nativo en Cloudflare Workers para prevenir enumeración de usuarios y spam de registros, CORS restringido dinámicamente al dominio productivo (`APP_DOMAIN`) y rotación automática de tokens de sesión deslizantes (*sliding sessions*) en cada sincronización.\n* **Diagnóstico de Salud, Higiene y Brechas k-Anonymity (v1.3):** Auditoría local y preventiva de seguridad con Scorecard interactivo (0-100%), detección de secretos Base32 débiles (<80 bits), duplicados reutilizados entre cuentas, control de obsolescencia de backups (>30 días) y comprobador de filtraciones de HaveIBeenPwned con privacidad matemática absoluta (sólo 5 caracteres hexadecimales de SHA-1 viajan al proxy perimetral con padding anti-análisis).\n* **Infraestructura Serverless Edge (\\$0 Costo Operativo):** Sincronización bidireccional ultrarrápida impulsada por **Cloudflare Workers** y la base de datos distribuida **Cloudflare D1 (SQLite Serverless)**, operando 100% dentro de la capa gratuita de Cloudflare.\n* **Internacionalización Bilingüe (i18n ES / EN):** Soporte integral de Español e Inglés sin llamadas a traductores en la nube ni fugas de privacidad, con diccionarios tipados compilados en el cliente y selector dinámico instantáneo.\n* **Panel de Seguridad y Gestión Granular de Sesiones:** Monitoreo en tiempo real de dispositivos y sesiones activas, nombrado personalizado persistente de dispositivos, y cierre remoto individual de sesiones.\n* **Desbloqueo Rápido y Administración de Passkeys (WebAuthn Level 3):** Soporte para **Windows Hello (PIN o biometría)**, Touch ID y Face ID. Panel de visualización, nombrado y revocación remota de credenciales Passkey para neutralizar accesos no autorizados en PCs compartidas.\n* **100% Offline-First:** Toda la bóveda se almacena localmente cifrada en **IndexedDB** (`idb`). Podés ver, generar códigos TOTP y gestionar respaldos completamente sin internet. Al recuperar conectividad, el motor de sincronización concilia automáticamente cambios diferidos (*Last-Write-Wins* a nivel de ítem).\n\n---\n\n## 🚀 Despliegue Rápido y Auto-Alojamiento (Self-Hosting)\n```bash\ngit clone https://github.com/Revolt-Group/revolt-pass.git\ncd revolt-pass\npnpm install\n```\n```bash\npnpm wrangler login\n```\n```bash\npnpm wrangler d1 create revolt-pass-db\n```\n```bash\ncp wrangler.toml.example wrangler.toml\n```\n```toml\n[[d1_databases]]\nbinding = \"DB\"\ndatabase_name = \"revolt-pass-db\"\ndatabase_id = \"<PEGA_AQUI_TU_DATABASE_ID>\"\n```\n```bash\ncp .env.example .env.local\n```\n```bash\npnpm wrangler d1 execute revolt-pass-db --file=schema.sql --remote\n```\n```bash\npnpm build\npnpm wrangler deploy\n```\n```bash\n# Iniciar servidor de desarrollo frontend (Vite)\npnpm dev\n\n# Ejecutar la suite completa de pruebas unitarias y de integración (Vitest)\npnpm test\n\n# Compilación y verificación estricta de tipos TypeScript\npnpm build\n\n# Ejecutar el Worker y la base de datos D1 en entorno local\npnpm wrangler dev\n```"
+  },
+  "pkg": {
+    "byteSize": 1611,
+    "text": "{\n  \"name\": \"revolt-pass\",\n  \"private\": true,\n  \"version\": \"2.0.1\",\n  \"description\": \"Zero-Knowledge Password, 2FA & Secrets Manager\",\n  \"license\": \"AGPL-3.0-only\",\n  \"type\": \"module\",\n  \"engines\": {\n    \"node\": \">=20.0.0\",\n    \"pnpm\": \">=9.0.0\"\n  },\n  \"packageManager\": \"pnpm@10.26.2\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"tsc -b && vite build\",\n    \"lint\": \"oxlint\",\n    \"lint:fix\": \"oxlint --fix\",\n    \"test\": \"vitest run\",\n    \"test:watch\": \"vitest\",\n    \"test:coverage\": \"vitest run --coverage\",\n    \"preview\": \"vite preview\",\n    \"icons\": \"node scripts/generate-icons.js\",\n    \"typecheck\": \"tsc -b --noEmit\"\n  },\n  \"dependencies\": {\n    \"@formkit/auto-animate\": \"^0.10.0\",\n    \"@radix-ui/react-dialog\": \"^1.1.23\",\n    \"@radix-ui/react-dropdown-menu\": \"^2.1.24\",\n    \"@tailwindcss/vite\": \"^4.3.3\",\n    \"@zxing/browser\": \"^0.2.1\",\n    \"@zxing/library\": \"^0.23.0\",\n    \"cmdk\": \"^1.1.1\",\n    \"hash-wasm\": \"^4.12.0\",\n    \"idb\": \"^8.0.3\",\n    \"lucide-react\": \"^1.41.0\",\n    \"motion\": \"^13.2.0\",\n    \"react\": \"^19.2.8\",\n    \"react-dom\": \"^19.2.8\",\n    \"sonner\": \"^2.0.8\",\n    \"tailwindcss\": \"^4.3.3\",\n    \"vite-plugin-pwa\": \"^1.3.0\"\n  },\n  \"devDependencies\": {\n    \"@cloudflare/workers-types\": \"^5.20260904.1\",\n    \"@types/node\": \"^24.13.3\",\n    \"@types/react\": \"^19.2.18\",\n    \"@types/react-dom\": \"^19.2.4\",\n    \"@vitejs/plugin-react\": \"^6.1.0\",\n    \"@vitest/coverage-v8\": \"^5.0.0\",\n    \"fake-indexeddb\": \"^6.2.5\",\n    \"happy-dom\": \"^20.14.0\",\n    \"oxlint\": \"^1.79.0\",\n    \"sharp\": \"^0.35.4\",\n    \"typescript\": \"~6.0.2\",\n    \"vite\": \"^8.2.2\",\n    \"vitest\": \"^5.0.0\",\n    \"wrangler\": \"^4.129.0\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

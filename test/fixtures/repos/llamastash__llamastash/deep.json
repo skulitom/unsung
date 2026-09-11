@@ -1,0 +1,208 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false
+  },
+  "releases": {
+    "totalCount": 123,
+    "nodes": [
+      {
+        "tagName": "snapshot-2026-09-11",
+        "publishedAt": "2026-09-11T07:48:53Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "v0.3.0",
+        "publishedAt": "2026-09-10T15:05:59Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "snapshot-2026-09-10",
+        "publishedAt": "2026-09-10T07:53:22Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-09",
+        "publishedAt": "2026-09-09T07:53:38Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-08",
+        "publishedAt": "2026-09-08T07:50:12Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-07",
+        "publishedAt": "2026-09-07T07:56:48Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-06",
+        "publishedAt": "2026-09-06T07:39:10Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-05",
+        "publishedAt": "2026-09-05T07:25:53Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-04",
+        "publishedAt": "2026-09-04T07:44:42Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-03",
+        "publishedAt": "2026-09-03T07:49:01Z",
+        "isPrerelease": true
+      }
+    ]
+  },
+  "issues": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-09T23:00:57Z",
+        "author": {
+          "login": "bernardogv",
+          "createdAt": "2021-11-06T21:35:05Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-22T05:52:32Z",
+        "author": {
+          "login": "easygoer33",
+          "createdAt": "2016-09-21T07:03:13Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-22T01:36:56Z",
+        "author": {
+          "login": "arun-ar",
+          "createdAt": "2015-10-10T02:33:41Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-21T21:14:45Z",
+        "author": {
+          "login": "Dasug",
+          "createdAt": "2014-06-28T18:17:39Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-09T06:14:47Z",
+        "author": {
+          "login": "easygoer33",
+          "createdAt": "2016-09-21T07:03:13Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-07T13:21:03Z",
+        "author": {
+          "login": "Judas2016",
+          "createdAt": "2016-09-28T21:18:08Z"
+        }
+      },
+      {
+        "createdAt": "2026-07-31T13:35:39Z",
+        "author": {
+          "login": "acidkill",
+          "createdAt": "2019-11-21T12:37:34Z"
+        }
+      },
+      {
+        "createdAt": "2026-07-09T02:44:03Z",
+        "author": {
+          "login": "Ansonfishing",
+          "createdAt": "2025-09-25T01:26:10Z"
+        }
+      },
+      {
+        "createdAt": "2026-07-06T20:35:32Z",
+        "author": {
+          "login": "johnzan",
+          "createdAt": "2019-09-22T17:27:32Z"
+        }
+      },
+      {
+        "createdAt": "2026-06-26T21:58:11Z",
+        "author": {
+          "login": "Silvani-In-The-Net",
+          "createdAt": "2021-12-10T22:20:03Z"
+        }
+      }
+    ]
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-10T15:45:01Z",
+        "author": {
+          "login": "bernardogv",
+          "createdAt": "2021-11-06T21:35:05Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-09T19:16:51Z",
+        "author": {
+          "login": "bernardogv",
+          "createdAt": "2021-11-06T21:35:05Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-09T17:46:24Z",
+        "author": {
+          "login": "bernardogv",
+          "createdAt": "2021-11-06T21:35:05Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-07T17:05:59Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-04T16:44:09Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-03T12:44:52Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-01T06:22:14Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-31T17:57:16Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-28T01:47:25Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T11:53:05Z",
+        "author": {
+          "login": "deepu105",
+          "createdAt": "2011-10-06T10:55:51Z"
+        }
+      }
+    ]
+  }
+}

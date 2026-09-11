@@ -1,0 +1,328 @@
+{
+  "id": "R_kgDOTHDqtg",
+  "nameWithOwner": "leowalk0613/LyricFocus",
+  "description": "一款小米HyperOS 3.0专用的AOD歌词焦点通知软件。",
+  "homepageUrl": "https://www.coolapk.com/u/551303",
+  "createdAt": "2026-06-27T20:12:51Z",
+  "pushedAt": "2026-09-10T13:53:44Z",
+  "diskUsage": 2116,
+  "stargazerCount": 15,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Kotlin"
+  },
+  "languages": {
+    "totalSize": 817285,
+    "edges": [
+      {
+        "size": 817285,
+        "node": {
+          "name": "Kotlin"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 32
+  },
+  "tags": {
+    "totalCount": 33
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "leowalk0613",
+    "__typename": "User",
+    "createdAt": "2022-08-16T16:05:32Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 160,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T13:53:41Z",
+            "messageHeadline": "fix: Gitee sync 复用 Release 并重试上传 APK",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:15:10Z",
+            "messageHeadline": "v1.9.3(OS4): 修复网络源切歌残留与 focus ID 滞后 (versionCode 35)",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:59:48Z",
+            "messageHeadline": "fix: sync lyric fetch on track change for network sources",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:15:08Z",
+            "messageHeadline": "docs: README 对齐 1.9.3 双渠道共用 Release 与当前功能",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:00:20Z",
+            "messageHeadline": "v1.9.3(OS4): 修复更新检测误报，替换发行包 (versionCode 34)",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:36:42Z",
+            "messageHeadline": "ci: Gitee 同步支持多 APK，并避免整包 --tags 刷回旧标签",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:35:01Z",
+            "messageHeadline": "docs: 禁止 git push --tags，避免恢复已删除的远端标签",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:32:57Z",
+            "messageHeadline": "docs: 1.9.3 Release 附件文件名注明 GitHub 去掉括号",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:29:45Z",
+            "messageHeadline": "v1.9.3(OS4): ID 直取歌词、多行仅当前行翻译与行距、关于页优化；OS3/OS4 共用 Release",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T06:34:25Z",
+            "messageHeadline": "Add externalLyricTest as third-party external lyric sample.",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T18:02:51Z",
+            "messageHeadline": "docs: OS4 验证环境更新为 HyperOS 4.0.0.35",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:56:41Z",
+            "messageHeadline": "ci: Gitee 同步时删除旧分支 hyperos3-1.9.1",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:54:17Z",
+            "messageHeadline": "ci: Gitee 同步 OS3 分支改为 hyperos3",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:47:22Z",
+            "messageHeadline": "ci: 修复 Gitee 同步 APK 资源匹配",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:45:16Z",
+            "messageHeadline": "ci: Gitee 同步前删除冲突 tag，支持强制更新 OS3 标签",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:44:04Z",
+            "messageHeadline": "docs: 标注 OS3/OS4 渠道与配套模块；Gitee 同步支持指定 Release 标签",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T16:40:37Z",
+            "messageHeadline": "docs: 补齐 v1.9.2(OS4) 更新日志（多行24行/强调色/欢迎页）",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T16:37:16Z",
+            "messageHeadline": "v1.9.2(OS4): 外部歌词协议、QQ翻译、按包名自动源、系统要求标明OS4",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T22:02:49Z",
+            "messageHeadline": "v1.9.1: 通知置顶修复（息屏cancel+repost）、当前行翻译淡化",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T21:25:23Z",
+            "messageHeadline": "v1.9.1: HyperOS4/Android17适配、焦点通知认证修复、专辑取色、多行歌词优化、关于页改版",
+            "author": {
+              "user": {
+                "login": "leowalk0613"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "build.gradle",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "externalLyricTest",
+        "type": "tree"
+      },
+      {
+        "name": "focus",
+        "type": "tree"
+      },
+      {
+        "name": "gradle.properties",
+        "type": "blob"
+      },
+      {
+        "name": "gradle",
+        "type": "tree"
+      },
+      {
+        "name": "gradlew",
+        "type": "blob"
+      },
+      {
+        "name": "gradlew.bat",
+        "type": "blob"
+      },
+      {
+        "name": "keystore.properties.example",
+        "type": "blob"
+      },
+      {
+        "name": "release-notes",
+        "type": "tree"
+      },
+      {
+        "name": "settings.gradle",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "sync-gitee.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 56917,
+    "text": "<div align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/leowalk0613/LyricFocus/main/focus/src/main/res/drawable-nodpi/ic_launcher_full.png\" alt=\"LyricFocus\" width=\"96\">\n\n# LyricFocus\n\n![GitHub Release](https://img.shields.io/github/v/release/leowalk0613/LyricFocus?style=for-the-badge)\n![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)\n![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)\n![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)\n\n在小米 HyperOS 上于**锁屏、AOD（息屏显示）、通知中心**展示同步歌词。  \n通过 LSPosed 注入 SystemUI，使用 HyperOS **焦点通知**（`miui.focus.*`）渲染歌词。\n\n> 实现 HyperOS 锁屏息屏焦点歌词的 LSP 模块 — `com.leowalk.LyricFocus`\n\n> ## ⚠️ 渠道包提醒（自 1.9.3 起）\n> **OS3 / OS4 共用同一个 GitHub Release**（如 [V1.9.3](https://github.com/leowalk0613/LyricFocus/releases/tag/v1.9.3)），附件含两个 APK。  \n> **包内 `versionName` 仍区分渠道**：`1.9.3(OS4)` / `1.9.3(OS3)`，请按系统安装对应包，**勿交叉安装**。  \n> - HyperOS **4** → 下载 `LyricFocus.v*.OS4.apk`  \n> - HyperOS **3** → 下载 `LyricFocus.v*.OS3.apk`  \n> 源码分支：`main` = OS4，`hyperos3` = OS3。\n\n[123 网盘](https://1825191091.share.123pan.cn/123pan/jNBsjv-vZrV?pwd=Ifn3) ·\n[GitHub Releases](https://github.com/leowalk0613/LyricFocus/releases/latest) ·\n[Gitee](https://gitee.com/leowalk0613/LyricFocus)\n\n</div>\n\n---\n\n## 📋 目录\n\n| | | |\n|---|---|---|\n| [功能概览](#功能概览) | [系统要求](#系统要求) | [架构与数据流](#架构与数据流) |\n| [项目结构](#项目结构) | [安装与配置](#安装与配置) | [设置项](#设置项) |\n| [歌词源](#歌词源) | [进程间通信](#进程间通信) | [外部歌词接入](#外部歌词接入指南) |\n| [Xposed Hook](#xposed-hook) | [依赖](#依赖) | [版本更新](#版本更新) |\n| [调试与反馈](#调试与反馈) | [已知限制](#已知限制) | [致谢](#致谢) / [许可证](#许可证) |\n\n---\n\n## 功能概览\n\n- **Material 3 界面**：主界面、歌词源管理、样式设置、关于页统一 Tonal 风格；工具栏常驻版本信息按钮（有更新变红）与重启 SystemUI 图标（需 Root）\n- **版本更新检测**：并行检测 GitHub / Gitee 最新 Release；比较时忽略 `(OS3)`/`(OS4)` 渠道后缀；下载优先匹配本渠道 APK\n- **实时歌词**：`NotificationListenerService` 绑定 MediaSession，监听播放进度与元数据；主界面 2 秒定时刷新歌曲状态\n- **多歌词源**：网易云、QQ、SuperLyricApi、LyricInfo、词幕 Lyricon、本地 LRC、AI 翻译；**优先按播放器歌曲 ID 直取**（网易 / QQ / 小米），失败再标题搜索；自动源按播放器包名匹配\n- **外部歌词推送**：开启外部渲染后本 App 仅推送歌词；第三方用 Manifest meta-data 声明即可接入（见 [外部歌词接入指南](#外部歌词接入指南)）。自研配套：[Aodchange](https://github.com/leowalk0613/Aodchange)（HyperOS 3 万象息屏）、[HyperLockMusic](https://github.com/leowalk0613/HyperLockMusic)（HyperOS 4 音乐锁屏）\n- **本地 LRC**：应用内 SAF 选文件夹，支持「歌名-歌手」双向匹配、三语 LRC 同时间戳合并；专辑名优先加分、已知歌曲 ID 直绑\n- **AI 翻译**：OpenAI 兼容 `/chat/completions` API，可选覆盖已有译文，支持连通性检测\n- **样式设置**：按场景分通用、锁屏样式 AOD、万象息屏 AOD 三类，开关联动互斥置灰\n- **通用样式**：歌词翻译位置互换、仅显示第一行、焦点通知背景、Monet 动态取色、通知文字取色\n- **锁屏样式 AOD**：字号、文字颜色、固定行数、对齐方式、**多行模式**（通知高度 / 行距可调；可选仅当前行显示翻译；当前行高亮+强调色；支持仅 AOD 展开多行）\n- **万象息屏 AOD**：独立字号、歌词宽度（50–100%）、歌名\n\n---\n\n\n\n\n\n\n\n\n---\n\n\n```mermaid\nflowchart LR\n    subgraph App[\"com.leowalk.LyricFocus\"]\n        MMS[MusicMonitorService]\n        LS[LyricService]\n        LM[LyricManager]\n        MMS -->|MediaSession| LS\n        LS --> LM\n        LS -->|Broadcast| SYSUI\n    end\n\n    subgraph SystemUI[\"com.android.systemui\"]\n        HOOK[SystemUIHyperFocusHook]\n        STYLE[HyperFocusLyricStyle]\n        HOOK --> STYLE\n        STYLE -->|FocusApi.sendDiyFocus| FN[锁屏 / AOD / 岛]\n    end\n\n    subgraph AOD[\"com.miui.aod\"]\n        AODH[AodFocusPluginHook]\n    end\n\n    SYSUI --> FN\n    AODH -.-> FN\n```\n```\nLyricFocus/\n├── settings.gradle\n├── build.gradle\n├── docs/external-lyric-protocol.md     → 外部歌词推送协议\n├── externalLyricTest/                  → 第三方接入最小示例（可运行）\n└── focus/\n    ├── build.gradle\n    └── src/main/\n        ├── AndroidManifest.xml\n        ├── assets/xposed_init          → FocusMainHook\n        ├── java/com/leowalk/LyricFocus/\n        │   ├── MainActivity.kt\n        │   ├── LyricSourceActivity.kt  → 歌词源管理\n        │   ├── AppWhitelistActivity.kt  → 音乐应用白名单\n        │   ├── WelcomeActivity.kt       → 欢迎页\n        │   ├── FocusPreferences.kt\n        │   ├── FocusStyleSnapshot.kt    → SystemUI 侧样式快照\n        │   ├── ui/                       # HomeFragment、StyleSettingsFragment、AboutFragment\n        │   ├── lyric/                    # 网易云 / QQ、ID 解析 PlayingSongIdResolver、LRC 解析\n        │   ├── service/                  # MediaSession、歌词服务、通知管理、ExternalLyricProtocol\n        │   ├── notification/             # HyperFocusLyricStyle\n        │   ├── receiver/                 # FocusResyncReceiver、ServiceRestartReceiver\n        │   ├── util/                     # RootHelper、AlbumColorExtractor、UpdateChecker\n        │   └── xposed/                   # SystemUI / AOD Hook（OS3/OS4 实现不同，禁止整文件互拷）\n        └── res/layout/                   # focus_lyric_* / activity_style_settings / about\n```\n   - HyperOS **4** → `LyricFocus.v*.OS4.apk`（包内 `x.y.z(OS4)`）\n   - HyperOS **3** → `LyricFocus.v*.OS3.apk`（包内 `x.y.z(OS3)`）\n```bash\nkeytool -genkeypair -v -keystore lyricfocus-release.jks -alias lyricfocus \\\n  -keyalg RSA -keysize 2048 -validity 10000 \\\n  -storepass <你的密码> -keypass <你的密码> \\\n  -dname \"CN=LyricFocus, OU=Dev, O=leowalk, L=Unknown, ST=Unknown, C=CN\"\n```\n```bash\n# 克隆仓库\ngit clone https://github.com/leowalk0613/LyricFocus.git\ncd LyricFocus\n\n# 编译 Debug APK（使用 debug 签名，可直接 adb 安装）\n./gradlew :focus:assembleDebug\n\n# 编译 Release APK（需 keystore.properties）\n./gradlew :focus:assembleRelease\n```\n```\nfocus/build/outputs/apk/debug/LyricFocus.v{versionName}.apk\nfocus/build/outputs/apk/release/LyricFocus.v{versionName}.apk\n```\n例：`LyricFocus.v1.9.3(OS4).apk`。上传 GitHub 时括号可能被去掉为 `LyricFocus.v1.9.3.OS4.apk`。\n```bash\nadb install -r \"focus/build/outputs/apk/debug/LyricFocus.v1.9.3(OS4).apk\"\n```\n```xml\n<meta-data\n    android:name=\"com.leowalk.LyricFocus.EXTERNAL_LYRIC\"\n    android:value=\"content://your.package.authority\" />\n```\n```json\n{\n  \"v\": 1,\n  \"l\": \"当前行原文\",\n  \"s\": \"副行\",\n  \"t\": 32000,\n  \"title\": \"歌名\",\n  \"artist\": \"歌手\",\n  \"pkg\": \"com.tencent.qqmusic\",\n  \"playing\": true,\n  \"ctx\": {\n    \"idx\": 12,\n    \"lines\": [\n      { \"t\": \"原文\", \"tm\": 32000, \"r\": \"翻译\", \"isCur\": true }\n    ]\n  }\n}\n```\n```bash\n# 查看所有 LyricFocus 相关日志\nadb logcat | findstr \"LyricFocus\"\n\n# 保存日志到文件\nadb logcat -d > logcat.txt\n```\n```\n/data/adb/lspd/log/\n├── modules_2026-06-28T15:30:37.775962.log  # 模块日志（按时间命名）\n└── LSPosed_xxx.zip                          # 导出的 zip 压缩包（需解压后使用）\n\n/data/adb/lspd/log.old/                      # 旧日志备份\n```"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 5243
+  },
+  "claude": null
+}

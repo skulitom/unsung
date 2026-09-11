@@ -1,0 +1,47 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "ogforange-coder/CodenameEngine-Mobile",
+  "set": "hardNegatives",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 6323,
+    "keptBytes": 6323,
+    "excerpt": false
+  },
+  "expect": {
+    "lane": null,
+    "notLane": [
+      "proven"
+    ],
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "setRule": "the median S of the hard negatives is below the median S of the seed gems"
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 6323,
+    "keptBytes": 6323,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/android.yml",
+      ".github/workflows/ios-sim.yml",
+      ".github/workflows/ios.yml"
+    ],
+    "treeEntries": 1950,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 2,
+    "stars": false
+  }
+}

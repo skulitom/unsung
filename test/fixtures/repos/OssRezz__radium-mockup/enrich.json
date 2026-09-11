@@ -1,0 +1,162 @@
+{
+  "nameWithOwner": "OssRezz/radium-mockup",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-09T00:22:03Z",
+  "pushedAt": "2026-09-09T04:05:44Z",
+  "diskUsage": 572,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 1387497,
+    "edges": [
+      {
+        "size": 891503,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 386723,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 102344,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 6651,
+        "node": {
+          "name": "PowerShell"
+        }
+      },
+      {
+        "size": 276,
+        "node": {
+          "name": "Batchfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "OssRezz",
+    "__typename": "User",
+    "createdAt": "2020-01-30T22:13:26Z",
+    "repositories": {
+      "totalCount": 46
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T04:05:37Z",
+            "messageHeadline": "feat-changes",
+            "author": {
+              "user": {
+                "login": "OssRezz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T03:24:41Z",
+            "messageHeadline": "feat(repo)",
+            "author": {
+              "user": {
+                "login": "OssRezz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T00:23:27Z",
+            "messageHeadline": "first commit",
+            "author": {
+              "user": {
+                "login": "OssRezz"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "Crear acceso directo.bat",
+        "type": "blob"
+      },
+      {
+        "name": "Iniciar Radium.bat",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "mockups",
+        "type": "tree"
+      },
+      {
+        "name": "radium-app",
+        "type": "tree"
+      },
+      {
+        "name": "radium-mockup-v2.html",
+        "type": "blob"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 11643,
+    "text": "# Radium Imágenes Diagnósticas\n\nSistema de liquidación de honorarios de radiólogos.\n\n**Este archivo es el mapa: qué hay, dónde está y cómo funciona.** El detalle del negocio\nvive en [`radium-app/context/`](radium-app/context/) y el detalle técnico en\n[`radium-app/README.md`](radium-app/README.md).\n\n---\n\n## Qué es esto en dos párrafos\n\nRadium presta servicios de radiólogos a EPS, clínicas y hospitales. Cada estudio tiene\ndos precios: lo que Radium le **cobra al cliente** (según el convenio de la sede) y lo\nque le **paga al médico** (según su contrato). Este sistema resuelve el segundo: la\nliquidación de honorarios.\n\nCada tipo de estudio vale un número de **horas** (su ponderación). Estudios × ponderación\nda la producción real del radiólogo; dividida entre las horas de su contrato da la\n**efectividad**; y el tramo en que cae esa efectividad define la tarifa hora de **todo el\nperiodo**. Bajo el 75%, o en teleradiología, no se paga por hora sino por evento. Aparte\nvan la disponibilidad (guardia, con recargo por tipo de día) y la oportunidad (si entregó\na tiempo), que es un indicador separado.\n\nEl detalle completo, con fórmulas y verificación contra el Excel del cliente, está en\n[`context/02-modelo-de-calculo.md`](radium-app/context/02-modelo-de-calculo.md).\n\n---\n\n## Dónde está cada cosa\n\n```\nRadium/\n├── Iniciar Radium.bat           ← doble clic: abre la app en el navegador\n├── Crear acceso directo.bat     ← doble clic una vez: deja el ícono en el Escritorio\n├── README.md                    ← este mapa\n├── CLAUDE.md                    ← reglas de trabajo sobre este repo\n├── tools/                       ← los scripts detrás de los dos .bat, y el ícono\n├── radium-mockup-v2.html        ← mockup original, referencia visual y numérica\n├── mockups/                     ← alternativas de diseño para escoger, antes de tocar la app\n└── radium-app/                  ← la aplicación\n    ├── README.md                ← documentación técnica: stack, estructura, cómo correr\n    ├── context/                 ← EL NEGOCIO: todo lo que hay que entender antes de tocar código\n    ├── public/logo.png\n    └── src/\n        ├── index.css            ← tokens del sistema de diseño (@theme) + clases recurrentes\n        ├── App.tsx              ← rutas\n        ├── domain/              ← el negocio en código, sin nada de UI\n        ├── data/                ← datos de prueba\n        ├── estado/              ← contextos de React con los datos que se editan\n        ├── lib/                 ← formateadores y utilidades de fecha\n        ├── components/          ← layout, ui, charts, panel, liquidacion, radiologos\n        └── pages/               ← una página por ruta\n```\n\n### El negocio → [`radium-app/context/`](radium-app/context/)\n\n| Archivo | Qué contiene |\n|---|---|\n| [`01-negocio.md`](radium-app/context/01-negocio.md) | Qué es Radium, los tres objetivos, los roles, el vocabulario |\n| [`02-modelo-de-calculo.md`](radium-app/context/02-modelo-de-calculo.md) | **Lo más importante.** Ponderaciones, fórmulas, tramos, cifras de referencia |\n| [`03-flujo-operativo.md`](radium-app/context/03-flujo-operativo.md) | Los cinco pasos del proceso y quién hace cada uno |\n| [`04-sistema-de-diseno.md`](radium-app/context/04-sistema-de-diseno.md) | Paleta, colores de tramo, tipografía, gráficas |\n| [`05-decisiones.md`](radium-app/context/05-decisiones.md) | Qué se decidió y por qué |\n| [`06-pendientes-cliente.md`](radium-app/context/06-pendientes-cliente.md) | Lo que falta confirmar, por impacto |\n| [`07-mockup-referencia.md`](radium-app/context/07-mockup-referencia.md) | El mockup original y cómo portar una vista |\n| [`08-roadmap.md`](radium-app/context/08-roadmap.md) | Qué sigue |\n| [`09-modulo-financiero.md`](radium-app/context/09-modulo-financiero.md) | El módulo Financiero: sus siete submódulos, qué está construido y qué falta por definir |\n\n### El código\n\n| Carpeta | Qué vive ahí |\n|---|---|\n| `domain/` | `types.ts`, `params.ts` (umbrales y tarifas), `engine.ts` (el cálculo), `costo.ts` (la escala de cada radiólogo), `venta.ts` (el margen), `asistente.ts` (lo que calcula el Asistente), `tareas.ts` (estados, flujo y vencimientos de Tareas). **Sin UI.** |\n| `data/` | Convenciones, clientes, sedes, tarifas de venta, los seis radiólogos demo, series históricas, festivos, marcaciones, usuarios y auditoría |\n| `lib/` | `format.ts`: pesos colombianos, porcentajes, iniciales. `fechas.ts`: fechas, días y horas. `i18n.ts`: los textos del marco en inglés |\n| `components/layout/` | Sidebar, Topbar, AppShell, `nav.tsx` (única fuente de la navegación), Notificaciones y MenuUsuario (campana, idioma, tema y la tarjeta del usuario) |\n| `components/ui/` | Card, Kpi, Note, Legend, SectionTitle, Empty |\n| `components/charts/` | Las siete gráficas SVG y el tooltip global |\n| `components/panel/` | La regla de efectividad |\n| `components/asistente/` | El Asistente: historial, mensajes, redactor con la demo guiada y las respuestas que sabe dar |\n| `components/tareas/` | Tareas: tarjeta, columna, lista, detalle, alta de tablero y la alerta emergente |\n| `pages/` | Una por ruta |\n\n---\n\n## Estado\n\n| Vista | Ruta | Estado |\n|---|---|---|\n| Panel | `/` | ✅ Completa |\n| Convenciones | `/convenciones` | ✅ Completa — ahora vive dentro de Administración |\n| **Administración** | `/administracion` | ✅ Índice con tarjetas: lo que ya se administra y lo que falta definir |\n| **Administración · Usuarios** | `/administracion/usuarios` | ✅ Quién entra, con qué rol y en qué sede |\n| **Administración · Roles y permisos** | `/administracion/roles` | ✅ Matriz de permisos por rol y módulo, editable |\n| **Administración · Auditoría** | `/administracion/auditoria` | ✅ Quién hizo qué, con el antes y el después, y exportable |\n| Estudios | `/estudios` | ✅ Completa — pipeline, filtros, KPIs, series diarias y tabla de archivos |\n| Importar archivo | `/estudios/importar` | ✅ Completa — arrastrar y soltar real, procesamiento por fases y resumen |\n| Revisión del archivo | `/estudios/archivo/:id` | ✅ Completa — las dos revisiones sobre la misma hoja, editable |\n| Liquidaciones | `/liquidaciones` | ✅ Completa — lista de liquidaciones |\n| Nueva liquidación | `/liquidaciones/nueva` | ✅ Completa — selección y animación de cálculo |\n| Detalle de liquidación | `/liquidaciones/:id` | ✅ Completa — pestañas por umbral, bloques con subtotales |\n| Detalle del especialista | `/liquidaciones/:id/especialista/:proId` | ✅ Completa — de dónde sale su valor |\n| **Clientes · Empresas** | `/clientes/empresas` | ✅ Listado, registro y ficha del cliente con sus sedes y su expediente |\n| **Clientes · Sedes** | `/clientes/sedes` | ✅ Listado y registro; ficha con pestañas de datos, documentos y negociación |\n| **Clientes · Documentos** | `/clientes/documentos` | ✅ Expediente de clientes y de sedes, con vencimientos y faltantes |\n| **Clientes · Tarifas de venta** | `/clientes/tarifas` | ✅ La negociación por sede: venta contra costo y margen, editable en la fila |\n| Radiólogos · Personal | `/radiologos/personal` | ✅ Listado, crear, editar y onboarding en tres pasos |\n| Radiólogos · Ficha | `/radiologos/:id` | ✅ Onboarding, documentos, turnos e historial de asistencia |\n| Radiólogos · Documentos | `/radiologos/documentos` | ✅ Carga con tipo y vigencia, alertas de vencimiento y faltantes obligatorios |\n| Radiólogos · Turnos | `/radiologos/turnos` | ✅ Patrón semanal editable —con columna de festivo— y contraste con las horas del contrato |\n| **Radiólogos · Asistencia** | `/radiologos/asistencia` | ✅ El líder del punto busca al profesional y registra inicio y fin de turno |\n\n\n\n\n\n1. Doble clic en **`Crear acceso directo.bat`** (una sola vez). Deja un ícono **Radium**\n```bash\ncd radium-app\nnpm install     # la primera vez en cada máquina\nnpm run dev     # http://localhost:5173\nnpm run build   # chequeo de tipos + build de producción\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": {
+    "byteSize": 4893
+  }
+}

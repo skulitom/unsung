@@ -1,0 +1,17 @@
+{
+  "request": {
+    "path": "/repos/codefly-dev/cli/activity?per_page=100"
+  },
+  "status": 304,
+  "headers": {
+    "date": "Fri, 11 Sep 2026 15:22:45 GMT",
+    "etag": "\"a4048ad318608f7581908023a4a01fc8d55ac1997c66897a3086b00d0a2fdf5b\"",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4875",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "125"
+  },
+  "body": null
+}

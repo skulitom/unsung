@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "profiles": {
+    "quick": { "budget": "10m", "archiveHours": 3, "deepTopN": 50, "enrichMax": 1000, "recheckTop": 100 },
+    "daily": { "budget": null, "archiveHours": 24, "deepTopN": 400, "enrichMax": 12000, "recheckTop": 2000 }
+  },
+  "lagDays": 3,
+  "backfillDays": 0,
+  "maxStars": 25,
+  "ownerCapPerDay": 5,
+  "explore": 0.05,
+  "queueTtlDays": 14,
+  "shares": { "census": 0.30, "archive": 0.05, "enrichUntil": 0.85 },
+  "governor": { "graphqlMsPerMin": 45000, "restMsPerMin": 20000, "searchGapMs": 2100, "restConcurrency": 2 },
+  "batch": {
+    "enrich": { "size": 12, "min": 1, "max": 20, "targetMs": 6000 },
+    "deep": { "size": 5, "min": 1, "max": 10, "targetMs": 5000 },
+    "lookup": { "size": 100, "min": 10, "max": 100, "targetMs": 5000 }
+  },
+  "caps": { "readmeBytes": 32768, "fileBytes": 16384, "treeEntries": 5000, "indexEntries": 20000 },
+  "server": { "port": 8750 },
+  "llm": {
+    "backend": "none",
+    "model": "claude-opus-5",
+    "effort": "high",
+    "maxUsd": 3.0,
+    "perCallUsd": 0.5,
+    "cliTimeoutMs": 180000,
+    "endpoint": "https://api.anthropic.com",
+    "claudePath": null,
+    "fallbacks": true,
+    "prices": { "claude-opus-5": { "input": 5, "output": 25 } }
+  }
+}

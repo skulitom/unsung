@@ -1,0 +1,653 @@
+{
+  "id": "R_kgDORWZhEg",
+  "nameWithOwner": "ellmos-ai/bach",
+  "description": "BACH v3.13.0-bluesky: local-first text-based OS for LLM agents with SQLite memory, 113+ handlers, 550+ tools, MCP servers, scheduler and multi-agent orchestration",
+  "homepageUrl": "https://github.com/ellmos-ai/bach#readme",
+  "createdAt": "2026-02-23T00:46:32Z",
+  "pushedAt": "2026-09-11T14:38:01Z",
+  "diskUsage": 26299,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 12816902,
+    "edges": [
+      {
+        "size": 11552335,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 1072763,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 78387,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 55565,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 28584,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 24742,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 4526,
+        "node": {
+          "name": "Smarty"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "automation"
+        }
+      },
+      {
+        "topic": {
+          "name": "knowledge-management"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "personal-os"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "task-management"
+        }
+      },
+      {
+        "topic": {
+          "name": "agent-framework"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-assistant"
+        }
+      },
+      {
+        "topic": {
+          "name": "cli"
+        }
+      },
+      {
+        "topic": {
+          "name": "sqlite"
+        }
+      },
+      {
+        "topic": {
+          "name": "workflow-automation"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 11,
+    "nodes": [
+      {
+        "tagName": "v3.14.0",
+        "publishedAt": "2026-09-11T05:04:01Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v3.13.0-bluesky",
+        "publishedAt": "2026-07-10T22:55:01Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v3.12.4-earth",
+        "publishedAt": "2026-05-17T15:40:03Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v3.12.1-coffee",
+        "publishedAt": "2026-05-17T03:04:13Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v3.9.0-tiramisu",
+        "publishedAt": "2026-05-10T06:32:35Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 22
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "ellmos-ai",
+    "__typename": "Organization",
+    "createdAt": "2026-03-06T20:49:44Z",
+    "repositories": {
+      "totalCount": 69
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "e909dc5efa4d630d5b00d5de255de720e5881533",
+      "history": {
+        "totalCount": 511,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T14:37:43Z",
+            "messageHeadline": "fix(memory): harden provenance queries with table introspection and e…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T14:01:00Z",
+            "messageHeadline": "fix(gui): enhance task board filtering with priority support, case-in…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:41:49Z",
+            "messageHeadline": "docs(architecture): Formalize Dual-Database architecture (bach.db Bac…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:39:58Z",
+            "messageHeadline": "feat(rheingold): Add explicit lead requirement, isolated default mode…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:27:47Z",
+            "messageHeadline": "feat(rheingold): Implement Rheingold-Bachgrund protocol and hash-to-i…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:29:54Z",
+            "messageHeadline": "docs(transfer): align task IDs to 1217-1224 across multi-host nodes",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:09:42Z",
+            "messageHeadline": "docs(architecture): add modular reverse-transfer master plan and inte…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T05:03:35Z",
+            "messageHeadline": "chore(release): bump version to v3.14.0",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:56:27Z",
+            "messageHeadline": "docs(roadmap): gate BACH 2.0 task graph",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:56:16Z",
+            "messageHeadline": "refactor(scheduler): add ellmos-scheduler provider seam",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:56:01Z",
+            "messageHeadline": "feat(memory): retain session provenance for new entries (Task 1174, M…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:54:19Z",
+            "messageHeadline": "Merge PR #30: fix(tests): close BACH path and ordering debt",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:53:24Z",
+            "messageHeadline": "docs: align prompt help with library surfaces",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:47:02Z",
+            "messageHeadline": "docs(todo): record mcp, hook and modularization backlog",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:47:02Z",
+            "messageHeadline": "docs(mcp): document bach mcp serve in README",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:46:57Z",
+            "messageHeadline": "feat(mcp): add bach mcp serve CLI handler and server tests",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:45:00Z",
+            "messageHeadline": "Merge branch 'codex/t-20260905-827545238-local-bach-dir': fix(paths):…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:44:24Z",
+            "messageHeadline": "Merge branch 'codex/t-20260902-764138953-routinika-briefing': feat(da…",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:44:06Z",
+            "messageHeadline": "Merge PR #28: refactor: route notifications through assistant-core",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T04:43:26Z",
+            "messageHeadline": "Merge PR #17: fix(tokens): fail closed on unknown telemetry",
+            "author": {
+              "user": {
+                "login": "lukisch"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_HELP_REFERENCE.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_HELP_REFERENCE.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_USER_MANUAL.en.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_USER_MANUAL.html",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_USER_MANUAL.md",
+        "type": "blob"
+      },
+      {
+        "name": "BACH_USER_MANUAL.txt",
+        "type": "blob"
+      },
+      {
+        "name": "CHAINS.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHAINS.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "MEMORY.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "MEMORY.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "PARTNERS.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "PARTNERS.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "QUICKSTART.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "QUICKSTART.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.es.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.ja.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.ru.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.zh.md",
+        "type": "blob"
+      },
+      {
+        "name": "ROADMAP.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILL.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILL.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILL.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILLS.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILLS.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILLS.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILL_EN.md",
+        "type": "blob"
+      },
+      {
+        "name": "THIRD_PARTY_LICENSES.md",
+        "type": "blob"
+      },
+      {
+        "name": "TODO.md",
+        "type": "blob"
+      },
+      {
+        "name": "USER.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "WORKFLOWS.template.de.md",
+        "type": "blob"
+      },
+      {
+        "name": "WORKFLOWS.template.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "bach.py",
+        "type": "blob"
+      },
+      {
+        "name": "bach_api.py",
+        "type": "blob"
+      },
+      {
+        "name": "backups",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "ellmos-logo.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "llms.txt",
+        "type": "blob"
+      },
+      {
+        "name": "logo_bach_text.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "overview.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "pytest.ini",
+        "type": "blob"
+      },
+      {
+        "name": "requirements-optional.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "setup.py",
+        "type": "blob"
+      },
+      {
+        "name": "sketch_bach_boss_agents.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "sketch_fachexperten_en_new.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "start",
+        "type": "tree"
+      },
+      {
+        "name": "system",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "auto-assign.yml"
+      },
+      {
+        "name": "label-sync.yml"
+      },
+      {
+        "name": "stale.yml"
+      },
+      {
+        "name": "welcome.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 20047,
+    "isTruncated": false,
+    "text": "<img src=\"assets/banner_v2.png\" width=\"100%\" alt=\"BACH Banner\">\n\n# ellmos BACH — Text-Based Operating System for LLMs\n\n> The stream that unites everything.\n\n[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)\n[![Version](https://img.shields.io/badge/Version-v3.14.0-orange)](CHANGELOG.md)\n[![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)](ROADMAP.md)\n[![Tests](https://img.shields.io/badge/Tests-4436%20collected-blue)](system/tests/)\n\n**Version:** v3.14.0\n\n## 🎬 Demo video\n\nSee BACH working live — dashboard, Codex backend, operator steering — in 2:22:\n\n[![BACH demo — local-first LLM operating system (2:22)](assets/bach-demo-preview.png)](https://youtu.be/Gv5nxF8HssU)\n\n## Built with OpenAI Codex & GPT-5.6\n\nBACH uses Codex both as a first-class runtime backend and as a repository-development partner. For the exact automation schedules, model routes, and auditable session IDs, see the [verified Build Week attribution](#openai-build-week--codex-and-gpt-56) below.\n\n## Languages\n\nBACH is documented and shipped with translation surfaces for six languages:\n\n**🇬🇧 English** | [🇩🇪 Deutsch](README.de.md) | [🇪🇸 Español](README.es.md) | [🇷🇺 Русский](README.ru.md) | [🇯🇵 日本語](README.ja.md) | [🇨🇳 中文](README.zh.md)\n\nThe current release snapshot enables `de`, `en`, `es`, `ru`, `ja`, and `zh` in `system/exports/translations/languages_config.release.json` and exports matching locale files in `system/exports/translations/locales/`. For crawlers and direct language entry points, each language also has its own `README.md` under `docs/i18n/<lang>/`.\n\n<p align=\"center\">\n  <img src=\"overview.jpg\" alt=\"BACH Overview\" width=\"700\">\n</p>\n\n## Overview\n\n**BACH** is a text-based operating system that empowers Large Language Models (LLMs) to work autonomously, learn, and self-organize. Part of the **ellmos** family (Extra Large Language Model Operating Systems), BACH provides comprehensive infrastructure for task management, knowledge management, automation, and LLM orchestration.\n\n## Discovery Context\n\nBACH is best described as a **local-first LLM operating system**: a persistent Python/SQLite workbench for autonomous agents, structured memory, scheduler-driven automation, prompt chains, MCP server integration, and multilingual operator surfaces. It is not a chatbot wrapper, hosted agent SaaS, Bash unit-test framework, music project, or LangChain-style pipeline library.\n\nCanonical GitHub repository: `ellmos-ai/bach`. Machine-readable project context for LLM crawlers is available in [`llms.txt`](llms.txt).\n\n> [!NOTE]\n> **For AI Assistants & LLM Crawlers:** Machine-readable project context, architectural details, and disambiguation indices are available in [`llms.txt`](llms.txt).\n\nUseful search phrases include `ellmos-ai/bach`, `local-first LLM operating system`, `text-based OS for LLM agents`, `SQLite memory for AI agents`, `BACH ellmos agent OS`, `personal agentic OS Python SQLite`, and `multi-agent orchestration with MCP servers`.\n\n## OpenAI Build Week — Codex and GPT-5.6\n\nBACH uses Codex in two distinct roles:\n\n- **Runtime backend:** `codex-cli` is one of five pluggable chat backends, and BACH agents can delegate coding tasks through `codex exec`.\n- **Repository development:** three active Codex automations maintain the project: `bach-daily-care-and-dev-check`, `bach-start-and-health-checks`, and `bach-github-release-service`. Since July 21, 2026, all three have been configured for GPT-5.6 (`gpt-5.6-terra`); the first two run daily, while the release service runs weekly.\n- **Verified model routing:** in Codex Session `019f85c6-4339-7f13-b8e5-bf1823fd8432`, GPT-5.6 Sol with high reasoning audited all 78 automation definitions and routed BACH's development and release jobs to Terra/high and health checks to Terra/medium.\n- **Final submission audit:** GPT-5.6 Sol in Codex Session `019f8674-fe9a-7d91-a80f-7ee799e8ced0` reviewed and certified the pending\n\nFor auditability, the GPT-5.6 automation attribution applies from that configuration change forward; earlier automation runs used earlier Codex models.\n\n### Key Features\n\n- **113+ Handlers** - Full CLI and API coverage of all system functions\n- **550+ Tools** - Extensive tool library for file processing, analysis, and automation\n- **1870+ Skills** - Reusable workflows and templates\n- **Skill Source Registry** - `bach skills version bach` resolves the canonical repo-root skill via `system/data/skill_sources.json` and can compare optional Codex/Claude user copies without fuzzy filename drift\n- **71 Workflow Templates** - Pre-built process workflows\n- **4400+ Tests** - Comprehensive automated coverage across handlers, services, GUI, and MCP servers\n- **Knowledge Store** - Lessons, Facts, and Multi-Level Memory System (6 memory types), with additive per-entry BACH-session provenance for new records; legacy authors remain explicitly unknown\n- **Agent CLI** - `bach agent start/stop/list` for direct agent control\n- **Agent Doctor** - `bach agent doctor [name] [--json]` validates Claude CLI availability, runtime dirs, skill files, and stale PID state before a launch\n- **Agent Operator Controls** - `bach agent pause/resume/checkpoint/steer/clear-steer [name] [--json]` lets operators stage cooperative pause requests and guidance before or during a run, record explicit safe-checkpoint acknowledgements, mirror that state into `OPERATOR_NOTES.md`, preserve queued hints across the next `bach agent start`, inject them into the generated session `CLAUDE.md`, and expose nested `operator_control` snapshots plus `queued_for_next_start` for automation-safe polling\n- **Agent Runtime Policy Defaults** - `bach agent start` now accepts `--permission-mode`, `--allowed-tools`, and `--max-turns`, and can preload the same defaults from agent SKILL frontmatter for per-agent guardrails\n- **Scheduler Doctor** - `bach scheduler doctor [--json]` plus `bach scheduler session doctor [--json]` validate automation scripts, PID state, DB/config/profile surfaces, and suggest recovery steps before background services are started\n- **Session Steering Controls** - `bach scheduler session pause/resume/steer/clear-steer [--json]` lets operators gate or retarget the next profile-specific auto-session without editing daemon config by hand\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/ellmos-ai/bach.git\ncd bach\n\n# Install dependencies and make `bach` CLI available\npip install -e .\n\n# Pre-flight check\nbach setup preflight\n\n# Full install (MCP servers, hooks, secrets, user profile)\nbach setup full-install\n```\n\n\n\n```bash\npip install -e \".[console]\"\nBACH_GUI_CONSOLE_ENABLED=1 python system/gui/server.py\n```\n\n\n\n\n```bash\n# Start the built-in BACH server (stdio)\nbach mcp serve\n\n# Install and configure MCP servers (recommended)\npython system/bach.py setup mcp\n\n# Or manually via npm:\nnpm install -g ellmos-codecommander-mcp ellmos-filecommander-mcp\n```\n\n\n## Quick Start\n\n```bash\n# Fast, side-effect-free metadata\npython bach.py --version\npython bach.py --help\n\n# Start BACH\npython bach.py --startup\n\n# Create a task\npython bach.py task add \"Analyze project structure\"\n\n# Manage agents\npython bach.py agent list\npython bach.py agent start bueroassistent\n\n# Manage prompts\npython bach.py prompt list\npython bach.py prompt add \"My Prompt\" --content \"...\"\n\n# Check scheduler status\npython bach.py scheduler status\n\n# Import versioned everyday-data exports (idempotent)\npython bach.py abo import PATH/abotracker-export-v1.json\npython bach.py versicherung import PATH/bach-fin-insurances-v1.json\n\n# Register recurring imports only after a valid export file exists\npython bach.py abo schedule-import PATH/abotracker-export-v1.json --interval 24h\npython bach.py versicherung schedule-import PATH/bach-fin-insurances-v1.json --interval 24h\n\n# Preview and refresh the current monthly/year-to-date finance summary\npython bach.py haushalt financial-summary refresh --dry-run\npython bach.py haushalt financial-summary refresh\n\n# Shut down BACH\npython bach.py --shutdown\n```\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

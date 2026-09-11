@@ -1,0 +1,278 @@
+{
+  "id": "R_kgDOUPvYDQ",
+  "nameWithOwner": "zhuchongba-01/AgentSessionManager",
+  "description": "A lightweight desktop manager for local coding-agent sessions.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-06T01:12:50Z",
+  "pushedAt": "2026-09-09T19:39:17Z",
+  "diskUsage": 2890,
+  "stargazerCount": 6,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 595981,
+    "edges": [
+      {
+        "size": 354964,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 194821,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 22490,
+        "node": {
+          "name": "Inno Setup"
+        }
+      },
+      {
+        "size": 17019,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 4762,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 1361,
+        "node": {
+          "name": "PowerShell"
+        }
+      },
+      {
+        "size": 564,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "zhuchongba-01",
+    "__typename": "User",
+    "createdAt": "2025-11-11T04:59:20Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 7,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T19:39:14Z",
+            "messageHeadline": "docs: align README with current session manager",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T19:12:38Z",
+            "messageHeadline": "release: Agent Session Manager v1.3.13",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T04:00:23Z",
+            "messageHeadline": "release: Agent Session Manager v1.3.9",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T03:49:44Z",
+            "messageHeadline": "fix: harden session cleanup and unify session UI",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T18:20:00Z",
+            "messageHeadline": "docs: add app icon, screenshot and feature overview to README",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T13:41:35Z",
+            "messageHeadline": "docs: add acknowledgments and license information",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T06:28:39Z",
+            "messageHeadline": "release: Agent Session Manager v1.3.8",
+            "author": {
+              "user": {
+                "login": "zhuchongba-01"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".node-version",
+        "type": "blob"
+      },
+      {
+        "name": "ACKNOWLEDGMENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SAFETY.md",
+        "type": "blob"
+      },
+      {
+        "name": "components.json",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "installer",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "postcss.config.cjs",
+        "type": "blob"
+      },
+      {
+        "name": "rust-toolchain.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src-tauri",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tailwind.config.cjs",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.node.json",
+        "type": "blob"
+      },
+      {
+        "name": "vite.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3169,
+    "text": "<div align=\"center\">\n\n<img src=\"src-tauri/icons/icon.png\" width=\"128\" alt=\"Agent 会话管理器图标\"/>\n\n# Agent 会话管理器\n\n**一款轻量的桌面应用，统一浏览、分类与安全清理本地编码 Agent 的会话记录。**\n\n[![Release](https://img.shields.io/github/v/release/zhuchongba-01/AgentSessionManager?style=flat-square)](https://github.com/zhuchongba-01/AgentSessionManager/releases)\n[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)\n[![Platform](https://img.shields.io/badge/platform-Windows%20x64-blue?style=flat-square)](https://github.com/zhuchongba-01/AgentSessionManager/releases)\n\n![主界面](docs/images/main-window.png)\n\n*主界面：左侧按 Agent 与项目分组的会话列表，中间会话缩略导航，右侧完整会话详情。*\n\n</div>\n\n## 这是什么\n\n面向本地编码 Agent 的独立会话浏览、分类与安全清理工具。当前版本不负责启动 Agent 或恢复会话。\n\n当前支持扫描 **Codex、Claude Code、OpenCode、ZCode、Pi 与 Grok Build** 六种 Agent 的本地会话。项目归类优先遵循各 Agent 自身保存的项目绑定。\n\n## 主要特性\n\n- 🔍 **六种 Agent，一个界面**：Codex、Claude Code、OpenCode、ZCode、Pi、Grok Build 的本地会话一站式浏览。\n- 🗂️ **项目分组 + 缩略导航**：会话按真实工作目录归组，紧凑型列表配合缩略导航快速定位。\n- 📖 **完整会话详情**：按时间线阅读本地 Agent 的对话内容，快速定位历史消息。\n- 🧹 **安全清理**：识别残留、归档和仅剩索引的任务，支持批量删除与失败后继续清理；会话清理绝不删除项目工作目录。\n- 🛡️ **明确失败而非假装为空**：扫描不完整或消息读取失败时显示原因，并限制超大会话的单次读取量。\n- 📚 **长历史可控**：会话列表每页最多显示 100 条，消息按可视区域渲染。\n- 💻 **会话数据留在本机**：扫描、展示与摘要全部在本机完成，不上传会话内容；启动时仅访问 GitHub API 检查新版本。\n\n删除前请完全退出对应 Agent（包括后台进程、终端任务），并自行备份重要会话。详细边界见 [SAFETY.md](./SAFETY.md)。\n\n## 下载安装\n\n当前仅提供 Windows x64 版本。前往 [Releases](https://github.com/zhuchongba-01/AgentSessionManager/releases) 下载 `AgentSessionManager-Setup-vX.Y.Z.exe`，无需预装运行时。\n\n> [!IMPORTANT]\n> 本程序暂未进行商业代码签名。Edge 首次下载时可能提示“不常下载”，请选择“保留”；Windows SmartScreen 如显示“Windows 已保护你的电脑”，请点击“更多信息” → “仍要运行”。请只从本仓库的 Releases 页面下载安装包。\n\n## 开发\n\n```powershell\npnpm install\npnpm tauri dev\n```\n\n## 验证\n\n```powershell\npnpm typecheck\npnpm test:unit\ncargo test --manifest-path src-tauri/Cargo.toml session_manager\n```\n\n## 致谢\n\n特别感谢 [LINUX DO](https://linux.do) 社区！！更多信息请参阅 [ACKNOWLEDGMENTS.md](./ACKNOWLEDGMENTS.md)。\n\n## 开源许可\n\n本项目采用 [MIT License](./LICENSE) 开源。\n"
+  },
+  "pkg": {
+    "byteSize": 2259,
+    "text": "{\n  \"name\": \"agent-session-manager\",\n  \"version\": \"1.3.13\",\n  \"description\": \"Standalone local session manager for coding agents\",\n  \"homepage\": \"https://github.com/zhuchongba-01/AgentSessionManager\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/zhuchongba-01/AgentSessionManager.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/zhuchongba-01/AgentSessionManager/issues\"\n  },\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"pnpm tauri dev\",\n    \"build\": \"pnpm tauri build\",\n    \"build:installer\": \"powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-installer.ps1\",\n    \"tauri\": \"tauri\",\n    \"dev:renderer\": \"vite\",\n    \"build:renderer\": \"vite build\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"format\": \"prettier --write \\\"src/**/*.{js,jsx,ts,tsx,css,json}\\\"\",\n    \"format:check\": \"prettier --check \\\"src/**/*.{js,jsx,ts,tsx,css,json}\\\"\",\n    \"test:unit\": \"vitest run\",\n    \"test:unit:watch\": \"vitest\"\n  },\n  \"keywords\": [],\n  \"license\": \"MIT\",\n  \"packageManager\": \"pnpm@10.12.3\",\n  \"devDependencies\": {\n    \"@tauri-apps/cli\": \"^2.8.0\",\n    \"@testing-library/jest-dom\": \"^6.6.3\",\n    \"@testing-library/react\": \"^16.0.1\",\n    \"@testing-library/user-event\": \"^14.5.2\",\n    \"@types/node\": \"^20.0.0\",\n    \"@types/react\": \"^18.2.0\",\n    \"@types/react-dom\": \"^18.2.0\",\n    \"@vitejs/plugin-react\": \"^4.2.0\",\n    \"autoprefixer\": \"^10.4.20\",\n    \"cross-fetch\": \"^4.1.0\",\n    \"jsdom\": \"^25.0.0\",\n    \"msw\": \"^2.11.6\",\n    \"postcss\": \"^8.4.49\",\n    \"prettier\": \"^3.6.2\",\n    \"tailwindcss\": \"^3.4.17\",\n    \"typescript\": \"^5.3.0\",\n    \"vite\": \"^7.3.0\",\n    \"vitest\": \"^2.0.5\"\n  },\n  \"dependencies\": {\n    \"@radix-ui/react-collapsible\": \"^1.1.12\",\n    \"@radix-ui/react-dialog\": \"^1.1.15\",\n    \"@radix-ui/react-select\": \"^2.2.6\",\n    \"@radix-ui/react-slot\": \"^1.2.3\",\n    \"@radix-ui/react-tooltip\": \"^1.2.8\",\n    \"@tanstack/react-query\": \"^5.90.3\",\n    \"@tanstack/react-virtual\": \"^3.13.23\",\n    \"@tauri-apps/api\": \"^2.8.0\",\n    \"@tauri-apps/plugin-opener\": \"2.5.5\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"i18next\": \"^25.5.2\",\n    \"lucide-react\": \"^0.542.0\",\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-i18next\": \"^16.0.0\",\n    \"sonner\": \"^2.0.7\",\n    \"tailwind-merge\": \"^3.3.1\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

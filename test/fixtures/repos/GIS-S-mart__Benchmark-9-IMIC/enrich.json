@@ -1,0 +1,263 @@
+{
+  "nameWithOwner": "GIS-S-mart/Benchmark-9-IMIC",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-09-20T09:40:53Z",
+  "pushedAt": "2026-09-02T13:04:20Z",
+  "diskUsage": 20831,
+  "stargazerCount": 0,
+  "forkCount": 4,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "CC0-1.0"
+  },
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 3
+  },
+  "owner": {
+    "login": "GIS-S-mart",
+    "__typename": "Organization",
+    "createdAt": "2021-05-25T14:02:21Z"
+  },
+  "defaultBranchRef": {
+    "name": "2027-edition",
+    "target": {
+      "history": {
+        "totalCount": 165,
+        "nodes": [
+          {
+            "committedDate": "2026-09-02T13:04:20Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T12:50:48Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T12:30:21Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T13:49:45Z",
+            "messageHeadline": "KPI Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T13:29:18Z",
+            "messageHeadline": "Update NU ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T13:04:15Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T13:03:06Z",
+            "messageHeadline": "nouveau schema SKU",
+            "author": {
+              "user": {
+                "login": "manuama"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T14:10:17Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T14:09:25Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T14:08:41Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T13:49:37Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T13:34:24Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T14:31:25Z",
+            "messageHeadline": "Delete Dynalog/Readme.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T14:31:00Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T14:29:00Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T14:27:04Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T14:26:22Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T13:09:24Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T13:09:08Z",
+            "messageHeadline": "Rename schema SKU.png to schema_SKU.png",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-23T13:08:37Z",
+            "messageHeadline": "Update ReadmeNU.md",
+            "author": {
+              "user": {
+                "login": "NathalieKlement"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Dynalog",
+        "type": "tree"
+      },
+      {
+        "name": "FAQ.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "images",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4733,
+    "text": "# Benchmark 9. Intelligent Manufacturing International Contest: IMIC\n\n\n## Motivations & Ambitions\nThe smart manufacturing community lacks of a suitable, comprehensive, and standardized benchmark for real industrial cases in manufacturing.\nThis type of tools is however highly needed to compare quantitatively academics proposals based on representative case studies of industrial systems and identify areas of improvement.\nGiven the time and effort required to build such a benchmark, the fundamental approach at the heart of the IMIC is to foster progressive collaboration among the scientific community over time.\nTo do so, the IMIC aims, each year, to propose a manufacturing problem submitted to the community in a form of a student/researcher academic competition. \nResults of the contest will then be considered as candidate solutions of the proposed problem, and will be compared and archived as a new benchmark instance.\nIn a couple of years, IMIC is expected to become a reference benchmark for the community.\n\n## Important dates\nPeople interested in joining the contest should consider the following planning\n![agenda](./images/VisuelIMIC26.PNG)\n\n### *From September to May* : Registration and team formation\nRegistration is opened from September to May.\nEarly registrations are opened until the 15th of November 2026.\nLate registration : May.\nContest results will be due by the end of June 2027.\n\nTeams should registered to the contest via an online form available [here](https://forms.office.com/e/LajmkM79Wn). \nThere are no limitations in the number of members in team, that could be constituted of students, industrials or academics.\nThe registration is completely free.\n\n### *From October to May* : Development of solutions, interactions via mail or the web platform\nThis Github page is the container of all information related to IMIC.\nThe following pages are available for team members to access and use :\n+ The problem is detailed [here](Dynalog/ReadmeNU.md). \n+ A simulator is provided to the teams for testing their tentative solutions. All information about the simulator and its use are available [here](2026_edition/Simulator/README.md). ***METTRE A JOUR LE LIEN***\n+ A FAQ is available [here](FAQ.md).\n+ A forum will be opened if needed.\nThe IMIC organization team will make its best to keep the participants informed of any important context modifications, but team members are advised to come on these pages regurlarly to check for any changes.\n\n### *End of June* : Submission of the contestants' proposals\nThe different proposal have to be submitted before **June, 25, 2027**. The organizing team will not consider proposals coming after this deadline.\nThe submission should include :\n+ A short paper describing the methodology followed to obtain the solution, with summarized results in the paper, + all detailed results in appendix.\n+ The input files needed to check the solution via the simulator (for more information, see the problem page).\n\n### *From July to September* : Evaluation and validation of the contestants' proposals \nThe different proposals will be evaluated on different criteria related to the quality of the solution but also the quality, rigor, and care taken in the publication.\n\n## Editions:\n### 2027: Dynalog\nThe theme was announced during the SAGIP 2026 congres, it will be presented also during the SOHOMA 2026 conference. The DYNALOG project is part of the field of intralogistics and warehouse automation, where mobile robots meet companies’ needs for flexibility and performance. Specifically, the project focuses on evaluating FIVES XCELLA’s solution, in which order fulfillment is handled by a fleet of AGVs capable of navigating and accessing warehouse racks via a system of elevators to retrieve or deposit packages. More details on the problem are available [here](Dynalog/ReadmeNU.md). \n\n### 2026: The Flexibac problem + (PLUS)\nThe theme was announced during the SOHOMA 2025 conference. The Flexibac+ problem is an evolution of the first problem proposed for the first IMIC edition. In 2025, the different proposals only adressed 2.5% of the total number of instances. Moreover, only online solutions were proposed.\nFlexibac+ takes up last year's theme with a view to pushing for the resolution of all available instances.\nMore details on the problem are available [here](https://github.com/GIS-S-mart/Benchmark-9-IMIC/tree/2026-edition).\n\n### 2025: The Flexibac problem\nThe first edition was about the Flexibac problem. \nMore details on the problem are available [here](https://github.com/GIS-S-mart/Benchmark-9-IMIC/tree/main).\n\n## Contest prizes\nTo be announced.\n\n## References\n[Presentation of IMIC at the SOHOMA 2024 workshop](https://hal.science/hal-04770839)\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 42647939244,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-05T02:31:02Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 42626568974,
+    "ref": "refs/heads/cursor/polish-ask-my-tabs-readme-7cde",
+    "timestamp": "2026-09-04T18:50:29Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42535007233,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-09-04T05:17:26Z",
+    "activity_type": "branch_creation"
+  }
+]

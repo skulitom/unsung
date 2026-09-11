@@ -1,0 +1,389 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkzOTA2ODIwNDM=",
+  "nameWithOwner": "openshift/assisted-image-service",
+  "description": "Provide RHCOS image customization and serving for assisted-installer",
+  "homepageUrl": null,
+  "createdAt": "2021-07-29T10:10:15Z",
+  "pushedAt": "2026-09-11T05:56:56Z",
+  "diskUsage": 4320,
+  "stargazerCount": 12,
+  "forkCount": 62,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 339550,
+    "edges": [
+      {
+        "size": 334134,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 3596,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 1820,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 171
+  },
+  "watchers": {
+    "totalCount": 12
+  },
+  "owner": {
+    "login": "openshift",
+    "__typename": "Organization",
+    "createdAt": "2011-05-17T02:01:03Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 391,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T11:02:34Z",
+            "messageHeadline": "Enable PQC in Dockerfiles (#1030)",
+            "author": {
+              "user": {
+                "login": "shay23bra"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T01:53:56Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1046)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T06:15:28Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1041)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T01:59:46Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1038)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T07:37:54Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1035)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:44:04Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1032)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T06:44:36Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1026)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T01:48:07Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles [SECURITY] (#1021)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T11:13:57Z",
+            "messageHeadline": "NO-ISSUE: Modify Konflux YAMLs to ocm-5.1 (#1017)",
+            "author": {
+              "user": {
+                "login": "rivkyrizel"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T01:46:29Z",
+            "messageHeadline": "NO-ISSUE: Update module github.com/golangci/golangci-lint to v2.13.2 …",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-27T17:56:32Z",
+            "messageHeadline": "MGMT-25140: Add a struct for OS Image and correctly check if initrd s…",
+            "author": {
+              "user": {
+                "login": "giladravid16"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T08:21:40Z",
+            "messageHeadline": "NO-ISSUE: Update module github.com/golangci/golangci-lint to v2.13.1 …",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T06:04:24Z",
+            "messageHeadline": "NO-ISSUE: Update module github.com/golangci/golangci-lint to v2.13.0 …",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-04T15:55:27Z",
+            "messageHeadline": "ACM-30180: Add TLS profile support for cluster-wide TLS compliance (#…",
+            "author": {
+              "user": {
+                "login": "yoavsc0302"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T23:22:29Z",
+            "messageHeadline": "NO-ISSUE: Ensure that kargs end with newline (#977)",
+            "author": {
+              "user": {
+                "login": "zaneb"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-24T09:23:07Z",
+            "messageHeadline": "MGMT-24904: Check image type when deduplicating (#978)",
+            "author": {
+              "user": {
+                "login": "giladravid16"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T08:39:12Z",
+            "messageHeadline": "MGMT-24783: Allow getting OS Images by RHCOS version (#965)",
+            "author": {
+              "user": {
+                "login": "giladravid16"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-18T22:59:35Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles RPM lockfile refresh (#975)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-18T19:19:22Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles RPM lockfile refresh (#974)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-18T14:44:44Z",
+            "messageHeadline": "NO-ISSUE: Refresh RPM lockfiles RPM lockfile refresh (#973)",
+            "author": {
+              "user": {
+                "login": "red-hat-konflux[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".ci-operator.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".codecov.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".tekton",
+        "type": "tree"
+      },
+      {
+        "name": "Dockerfile.image-service",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile.image-service-build",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile.image-service-mce",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "OWNERS",
+        "type": "blob"
+      },
+      {
+        "name": "OWNERS_ALIASES",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "build_deploy.sh",
+        "type": "blob"
+      },
+      {
+        "name": "certs",
+        "type": "tree"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "data_temp",
+        "type": "tree"
+      },
+      {
+        "name": "deploy",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "hack",
+        "type": "tree"
+      },
+      {
+        "name": "integration_test",
+        "type": "tree"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "pkg",
+        "type": "tree"
+      },
+      {
+        "name": "renovate.json",
+        "type": "blob"
+      },
+      {
+        "name": "rpm-prefetching",
+        "type": "tree"
+      },
+      {
+        "name": "skipper.yaml",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 7956,
+    "text": "# Assisted Image Service\n\nThis service customizes and serves RHCOS images for the [Assisted Installer Service](https://github.com/openshift/assisted-service).\nIt downloads a set of RHCOS images on startup based on config and responds to a single API endpoint to allow a user to download a customized image for use with assisted service.\n\n## Running the Image Service\n\nBuild the image and run it locally using `podman`\n\n```bash\nmake build run\n```\n\nThis will start the service running on port 8080 by default.\nIt will also bind-mount the `data` and `certs` local directories into the container root.\n\n## Running tests\n\n```bash\nskipper make test\n```\n\n## Configuration\n\n- `ALLOWED_DOMAINS` - When set, determines how the service responds to requests with `Origin` headers\n- `ASSISTED_SERVICE_HOST` - host or host:port to use to query assisted service for image information\n- `ASSISTED_SERVICE_SCHEME` - protocol to use to query assisted service for image information\n- `DATA_DIR` - Path at which to store downloaded RHCOS images.\n- `DATA_TEMP_DIR` - Path at which to extract downloaded images, preferably mounted as tmpfs.\n- `HTTPS_CERT_FILE` - tls cert file path\n- `HTTPS_KEY_FILE` - tls key file path\n- `HTTP_LISTEN_PORT` - When set, plain http listener is started on that port\n- `IMAGE_SERVICE_BASE_URL` - the base URL to use to query the image service\n- `LISTEN_PORT` - Image Service listen port\n- `LOG_LEVEL` - log level, such as \"info\" or \"debug\"; see logrus docs for a complete list\n- `MAX_CONCURRENT_REQUESTS` - caps the number of inflight image downloads to avoid things like open file limits\n- `RHCOS_VERSIONS`/`OS_IMAGES` - JSON string indicating the supported versions and their required urls. `OS_IMAGES` takes precedence.\n\nExample `OS_IMAGES`:\n```json\n[\n\t{\n\t\t\"openshift_version\": \"4.6\",\n\t\t\"cpu_architecture\":  \"x86_64\",\n\t\t\"url\":               \"https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.6/4.6.8/rhcos-4.6.8-x86_64-live.x86_64.iso\",\n\t\t\"version\":           \"46.82.202012051820-0\"\n\t},\n\t{\n\t\t\"openshift_version\": \"4.7\",\n\t\t\"cpu_architecture\":  \"x86_64\",\n\t\t\"url\":               \"https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.7/4.7.33/rhcos-4.7.33-x86_64-live.x86_64.iso\",\n\t\t\"version\":           \"47.84.202109241831-0\"\n\t},\n\t{\n\t\t\"openshift_version\": \"4.8\",\n\t\t\"cpu_architecture\":  \"x86_64\",\n\t\t\"url\":               \"https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.8/4.8.14/rhcos-4.8.14-x86_64-live.x86_64.iso\",\n\t\t\"version\":           \"48.84.202109241901-0\"\n\t}\n]\n```\n\n## API\n\nNone of these APIs should be considered stable for end-users of assisted\ninstaller. Users should never construct URLs that match these APIs; instead\nusers should obtain an ISO URL from an InfraEnv resource, as provided by\nassisted installer. These APIs represent a contract between\nassisted-image-service and assisted installer only.\n\n### `GET /byid/{image_id}/{version}/{arch}/{filename}`\n\nDownloads the RHCOS image for the specified image ID.\n\nURL segments:\n- `image_id`: ID for the image, usually the InfraEnv ID\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n- `filename`: `full.iso` to download the ISO including the rootfs, `minimal.iso` to download the ISO without the rootfs\n\n### `GET /bytoken/{token}/{version}/{arch}/{filename}`\n\nDownloads the RHCOS image for the specified image ID.\n\nURL segments:\n- `token`: JWT whose payload containes either a `sub` field or `infra_env_id` field\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n- `filename`: `full.iso` to download the ISO including the rootfs, `minimal.iso` to download the ISO without the rootfs\n\n### `GET /byapikey/{api_key}/{version}/{arch}/{filename}`\n\nDownloads the RHCOS image for the specified image ID.\n\nURL segments:\n- `api_key`: JWT whose payload containes either a `sub` field or `infra_env_id` field\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n- `filename`: `full.iso` to download the ISO including the rootfs, `minimal.iso` to download the ISO without the rootfs\n\n\n## Deprecated API\n\n### `GET /images/{image_id}`\n\nDownloads the RHCOS image for the specified image ID.\n\n#### Query parameters\n\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n- `type`: `full-iso` to download the ISO including the rootfs, `minimal-iso` to download the ISO without the rootfs\n- `api_key`: the api token to pass through to the assisted service calls if local authentication is required\n- `image_token`: the token to pass through to the Image-Token assisted service header if image pre-signed authentication is required\n\n#### Headers\n\n- `Authorization`: this header is passed directly through to assisted service requests to handle RHSSO authentication\n\n### `GET /images/{image_id}/pxe-initrd`\n\nDownloads the RHCOS initrd with the ignition for the specified image appended.\n\n#### Query parameters\n\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n- `api_key`: the api token to pass through to the assisted service calls if local authentication is required\n- `image_token`: the token to pass through to the Image-Token assisted service header if image pre-signed authentication is required\n\n#### Headers\n\n- `Authorization`: this header is passed directly through to assisted service requests to handle RHSSO authentication\n\n### `GET /images/{image_id}/s390x-initrd-addrsize`\n\nOnly for the s390x architecture. Downloads the initrd.addrsize (16 bytes) containing the psw of the initrd (8 bytes) and the size of the initrd (8 bytes).\n\n#### Query parameters\n\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `api_key`: the api token to pass through to the assisted service calls if local authentication is required\n- `image_token`: the token to pass through to the Image-Token assisted service header if image pre-signed authentication is required\n\n#### Headers\n\n- `Authorization`: this header is passed directly through to assisted service requests to handle RHSSO authentication\n\n### `GET /boot-artifacts/{artifact}`\n\nDownloads the artifact specified from the ISO. Artifacts are:\n\n- `rootfs`: rootfs.img \n- `kernel`: vmlinuz (kernel.img when arch is s390x)\n\n#### Architecture specific artifacts\n##### s390x\n- `ins-file`: generic.ins\n\n#### Query parameters\n\n- `version`: indicates the version of the RHCOS base image to use (must match an entry in `RHCOS_VERSIONS`)\n- `arch`: the base image cpu architecture (must match an entry in `RHCOS_VERSIONS`)\n\n### `GET /health`\n\nReturns 503 until the images are downloaded\nReturns 200 if the service is ready to respond to requests\n\n### `GET /live`\n\nReturns 200 if the service is running\n\n### `GET /metrics`\n\nPrometheus metrics scraping endpoint\n\n## Authentication\n\nAuthentication tokens are accepted in various ways to support different deployment models and assisted service authentication backends\nThe following table shows how each authentication input is translated when making calls to assisted service\n\n| Image Service                 | Assisted Service          |\n|-------------------------------|---------------------------|\n| `api_key` query parameter     | `api_key` query parameter |\n| `image_token` query parameter | `Image-Token` header      |\n| `Authorization` header        | `Authorization` header    |\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

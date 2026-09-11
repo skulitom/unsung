@@ -1,0 +1,337 @@
+{
+  "nameWithOwner": "preflower/vue-funcall",
+  "description": "A method that create component with function call",
+  "homepageUrl": "https://preflower.github.io/vue-funcall/",
+  "createdAt": "2024-05-06T15:32:33Z",
+  "pushedAt": "2026-09-03T10:10:52Z",
+  "diskUsage": 652,
+  "stargazerCount": 1,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Vue"
+  },
+  "languages": {
+    "totalSize": 9399,
+    "edges": [
+      {
+        "size": 5670,
+        "node": {
+          "name": "Vue"
+        }
+      },
+      {
+        "size": 3440,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 164,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 125,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "preflower",
+    "__typename": "User",
+    "createdAt": "2017-07-28T01:28:52Z",
+    "repositories": {
+      "totalCount": 30
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 158,
+        "nodes": [
+          {
+            "committedDate": "2026-08-31T05:52:18Z",
+            "messageHeadline": "chore(deps): update dependency vue to ^3.5.42 (#149)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-31T02:34:58Z",
+            "messageHeadline": "chore(deps): update dependency node to v24.20.0 (#150)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T06:12:35Z",
+            "messageHeadline": "fix(deps): update dependency es-toolkit to ^1.51.0 (#148)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T02:52:27Z",
+            "messageHeadline": "chore(deps): update dependency vue-tsc to ^3.3.11 (#147)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T05:30:03Z",
+            "messageHeadline": "chore(deps): update dependency vue to ^3.5.41 (#145)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T01:31:02Z",
+            "messageHeadline": "chore(deps): update dependency node to v24.19.0 (#146)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T01:42:00Z",
+            "messageHeadline": "chore(deps): update dependency vue-tsc to ^3.3.9 (#144)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T01:41:10Z",
+            "messageHeadline": "chore(deps): update dependency node to v24.18.1 (#143)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T04:24:48Z",
+            "messageHeadline": "chore(deps): update eslint related (#142)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T00:47:58Z",
+            "messageHeadline": "chore(deps): update dependency @changesets/cli to ^2.31.1 (#141)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T01:38:15Z",
+            "messageHeadline": "chore(deps): update eslint related (#140)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T01:37:23Z",
+            "messageHeadline": "chore(deps): update dependency pnpm to v10.34.5 (#139)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T10:10:22Z",
+            "messageHeadline": "chore(deps): update dependency vue to ^3.5.39 (#137)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T01:16:16Z",
+            "messageHeadline": "chore(deps): update dependency node to v24.18.0 (#138)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-22T00:53:08Z",
+            "messageHeadline": "chore(deps): update dependency node to v24.17.0 (#136)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-22T00:52:53Z",
+            "messageHeadline": "chore(deps): update dependency pnpm to v10.34.4 (#135)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-15T07:11:26Z",
+            "messageHeadline": "chore(deps): update eslint related (#134)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-15T00:36:55Z",
+            "messageHeadline": "chore(deps): update dependency pnpm to v10.34.3 (#133)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-08T09:36:58Z",
+            "messageHeadline": "chore(deps): update eslint related (#131)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-08T01:37:26Z",
+            "messageHeadline": "chore(deps): update dependency pnpm to v10.34.1 (#132)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".changeset",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".husky",
+        "type": "tree"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "eslint.config.js",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "renovate.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "gh-page.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2282,
+    "text": "# Vue funcall\nA method that create component with function call\n\n## Install\n```bash [pnpm]\n$ pnpm install vue-funcall\n```\n\n## Usage\n\n### Basic Usage\nPass it to the app as a plugin, make component mount on Vue instance.\n\n> This step can be ignored if you ensure that Vue context data will not be used in component\n\n```ts\nimport { createApp } from 'vue'\nimport { VueFuncallPlugin } from 'vue-funcall'\nimport App from './App.vue'\n\nconst app = createApp(App)\napp.use(VueFuncallPlugin)\napp.mount('#app')\n```\n\nUse it in any scenario you wish to use\n```ts\nimport { createFuncall } from 'vue-funcall'\n\ncreateFuncall(Component, props, options)\n```\n\n### Outside close\n`vue-funcall` export close function for user\n\n```ts\nimport { createFuncall } from 'vue-funcall'\n\ncont { close } = createFuncall(Component, props)\n\nclose()\n```\n\n### Async return result\nIt is not the capability that the library needs to support, but if you want to implement that functionality through the library, it's a demo\n\n```ts\nimport { createFuncall } from 'vue-funcall'\n\nconst asyncCall = () => {\n  return new Promise((resolve, reject) => {\n    createFuncall(Component, {\n      onSucceed: (result) => resolve(result),\n      onFailed: (result) => reject(result)\n    })\n  })\n}\n```\n\n## API\n```ts\nconst { close } = createFuncall(Component, props, options)\n```\n\n### Parameters\n\n| Name        |      Description      |\n| ------------- | ----------- |\n| Component | Component that need be function called |\n| props | Component support props |\n| options | an object of options for `createFuncall` |\n\n### Return Values\n\n| Name | Description |\n| ---- | --------- |\n| close | a function that unmount Component |\n\n### Options\n\n| Name | Description | Type | Default |\n| --- | -- | :--: | :--: |\n| visible | Internal field of Component to control Component display or not, If Component are not similiar field, define `undefined` | `string` &#124; `undefined` | visible |\n| onClosed | Internal field of Component to listen Component closed, If Component are not similiar field, define `undefined` | `string` &#124; `undefined` | onClosed |\n| container | Define component mount node, default is `document.body` | `HTMLElement` &#124; `undefined` | document.body |\n| appContext | For support multiple vue instance | `AppContext` | - |\n"
+  },
+  "pkg": {
+    "byteSize": 1280,
+    "text": "{\n  \"name\": \"vue-funcall\",\n  \"version\": \"0.0.1\",\n  \"description\": \"A monorepo for vue-funcall\",\n  \"type\": \"module\",\n  \"license\": \"MIT\",\n  \"homepage\": \"https://preflower.github.io/vue-funcall\",\n  \"bugs\": {\n    \"url\": \"https://github.com/preflower/vue-funcall/issues\"\n  },\n  \"repository\": \"https://github.com/preflower/vue-funcall\",\n  \"author\": \"Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"preinstall\": \"npx only-allow pnpm\",\n    \"docs:dev\": \"pnpm --filter docs run docs:dev\",\n    \"docs:build\": \"pnpm build && pnpm --filter docs run docs:build\",\n    \"build\": \"pnpm --filter vue-funcall run build\",\n    \"prepare\": \"husky install\",\n    \"ci:version\": \"pnpm changeset version && pnpm install --lockfile-only\",\n    \"ci:publish\": \"pnpm build && pnpm changeset publish\"\n  },\n  \"devDependencies\": {\n    \"@changesets/cli\": \"^2.31.1\",\n    \"@commitlint/cli\": \"^20.5.3\",\n    \"@commitlint/config-conventional\": \"^20.5.3\",\n    \"eslint\": \"^9.39.5\",\n    \"eslint-config-ted\": \"^4.1.1\",\n    \"husky\": \"^9.1.7\",\n    \"lint-staged\": \"^16.4.0\",\n    \"vue-tsc\": \"^3.3.11\"\n  },\n  \"commitlint\": {\n    \"extends\": [\n      \"@commitlint/config-conventional\"\n    ]\n  },\n  \"lint-staged\": {\n    \"*.{js,ts,tsx,vue}\": [\n      \"eslint --fix\"\n    ]\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

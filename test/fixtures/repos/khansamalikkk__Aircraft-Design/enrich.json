@@ -1,0 +1,158 @@
+{
+  "nameWithOwner": "khansamalikkk/Aircraft-Design",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T04:35:52Z",
+  "pushedAt": "2026-09-09T10:20:21Z",
+  "diskUsage": 401,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "MATLAB"
+  },
+  "languages": {
+    "totalSize": 42701,
+    "edges": [
+      {
+        "size": 42701,
+        "node": {
+          "name": "MATLAB"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "khansamalikkk",
+    "__typename": "User",
+    "createdAt": "2024-11-25T04:43:49Z",
+    "repositories": {
+      "totalCount": 9
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 9,
+        "nodes": [
+          {
+            "committedDate": "2026-09-09T10:20:21Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T10:11:24Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T09:49:52Z",
+            "messageHeadline": "Create xy",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T09:40:37Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T05:46:57Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:53:24Z",
+            "messageHeadline": "Rename empty_weight_fraction_vs_W0.m to empty_weight_estimation.m",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:40:49Z",
+            "messageHeadline": "Delete Lab-01/x",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:40:21Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:38:07Z",
+            "messageHeadline": "Create x",
+            "author": {
+              "user": {
+                "login": "khansamalikkk"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Lab-01",
+        "type": "tree"
+      },
+      {
+        "name": "Lab-02",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

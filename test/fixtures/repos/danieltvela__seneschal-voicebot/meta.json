@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "danieltvela/seneschal-voicebot",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S8_aiagent",
+  "readme": {
+    "name": "readme.md",
+    "originalBytes": 30329,
+    "keptBytes": 8192,
+    "excerpt": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "henry2026a/bishe-ssm-vue-js-1788757134",
+  "set": "luresAndSpam",
+  "label": "X",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 17984,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "outcome": "dropped",
+    "lane": null,
+    "gates": [
+      "g.spam.farm"
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 17984,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "treeEntries": 10,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 9,
+    "stars": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "unsung",
+  "version": "0.1.0",
+  "description": "Finds genuinely good GitHub repositories that almost nobody has noticed, and explains why.",
+  "keywords": [
+    "github",
+    "open-source",
+    "discovery",
+    "hidden-gems",
+    "repository-quality",
+    "code-quality",
+    "curation",
+    "github-api",
+    "graphql",
+    "zero-dependency",
+    "cli",
+    "explorer"
+  ],
+  "homepage": "https://skulitom.github.io/unsung/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skulitom/unsung.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skulitom/unsung/issues"
+  },
+  "author": "Artem Skulimovskiy",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "unsung": "bin/unsung.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "unsung": "node bin/unsung.mjs"
+  }
+}

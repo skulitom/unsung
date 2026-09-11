@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "lanerchenbuna/QueryForge",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S6_mcp",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 17994,
+    "keptBytes": 8192,
+    "excerpt": true
+  }
+}

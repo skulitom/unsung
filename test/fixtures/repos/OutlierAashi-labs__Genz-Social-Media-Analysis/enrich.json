@@ -1,0 +1,168 @@
+{
+  "nameWithOwner": "OutlierAashi-labs/Genz-Social-Media-Analysis",
+  "description": "Exploring Gen Z social media habits, addiction, and mental well-being through data analysis and visualization.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T11:58:43Z",
+  "pushedAt": "2026-09-10T13:41:34Z",
+  "diskUsage": 2046,
+  "stargazerCount": 1,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Jupyter Notebook"
+  },
+  "languages": {
+    "totalSize": 2826564,
+    "edges": [
+      {
+        "size": 2826564,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "OutlierAashi-labs",
+    "__typename": "User",
+    "createdAt": "2025-01-24T13:36:58Z",
+    "repositories": {
+      "totalCount": 3
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 9,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T13:41:33Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:37:06Z",
+            "messageHeadline": "Revise README title and structure",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:32:55Z",
+            "messageHeadline": "Fix formatting of questions in README.md",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:30:56Z",
+            "messageHeadline": "Refactor questions and tools section in README",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:27:21Z",
+            "messageHeadline": "Update Readme",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:23:28Z",
+            "messageHeadline": "Revise README for clarity and formatting",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:43:46Z",
+            "messageHeadline": "Add MIT License to the project",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:01:35Z",
+            "messageHeadline": "Enhance README with project details and findings",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:58:44Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "OutlierAashi-labs"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Inside_The_Scroll.ipynb",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2508,
+    "text": "# 📱 Inside The Scroll -- EDA + Visualization Analysis\nExploring Gen Z social media habits, addiction, and mental well-being through data analysis and visualization.\n\n### A Data-Driven Look at Digital Habits & Mental Well-being of Gen Z\n\n![Python](https://img.shields.io/badge/Python-3.x-blue)\n![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)\n![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue)\n![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow)\n![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-green)\n![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-Notebook-orange)\n![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF)\n\n---\n\n## 📌 Project Overview\n\nSocial media has become an important part of everyday life,\nespecially for Gen Z. This project explores how digital habits\nsuch as daily usage, night-time usage, session duration and\nplatform usage are associated with mental health and addiction.\n\nThe analysis focuses on discovering meaningful patterns\nthrough exploratory data analysis and data visualization.\n\n---\n\n## ❓🤔 Questions Explored\n\n - How much time does Gen Z spend on social media each day?\n - Which social media platforms are most preferred by Gen Z users?\n - What are the most common purposes of social media usage?\n - Is daily social media usage associated with mental health?\n - Is higher social media addiction associated with lower mental health scores?\n - Is screen time before sleep associated with mental health?\n -  Which variables show the strongest relationship with mental health?\n\n> And many more questions explored through EDA and visualization.\n---\n\n## 🔑 Key Findings\n\n- Daily social media usage and mental health score show a\n  strong negative correlation.\n- Higher addiction levels are associated with higher usage\n  intensity and lower mental health scores.\n- Entertainment is the dominant purpose of social media usage\n  across the countries analyzed.\n- Instagram appears as the most commonly preferred primary\n  platform in the dataset.\n\n> Note: These findings represent associations in the dataset and do not establish causation.\n\n---\n\n## 🛠️ Tools & Technologies\n\n- 🐍 Python\n- 🐼 Pandas\n- 🔢 NumPy\n- 📊 Matplotlib\n- 🎨 Seaborn\n- 📓 Jupyter Notebook\n- 📊 Kaggle\n\n---\n\n\n## 🚀 Future Scope\n- 📊 An interactive dashboard can be developed using Power BI\n- 📈 Advanced statistical analysis\n- 🤖 Predictive modeling.\n\n---\n\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

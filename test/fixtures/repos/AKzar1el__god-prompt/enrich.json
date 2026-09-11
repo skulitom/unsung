@@ -1,0 +1,423 @@
+{
+  "id": "R_kgDORsqYWw",
+  "nameWithOwner": "AKzar1el/god-prompt",
+  "description": "GodPrompt — a universal AI coding system prompt and skill for Claude, ChatGPT, Cursor and coding agents, with TDD, debugging protocols and verification gates.",
+  "homepageUrl": "https://tomiseregi.si/projects/god-prompt",
+  "createdAt": "2026-03-21T02:42:19Z",
+  "pushedAt": "2026-09-11T06:08:29Z",
+  "diskUsage": 467,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 68190,
+    "edges": [
+      {
+        "size": 67848,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 342,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "anthropic"
+        }
+      },
+      {
+        "topic": {
+          "name": "chatgpt"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude"
+        }
+      },
+      {
+        "topic": {
+          "name": "coding-assistant"
+        }
+      },
+      {
+        "topic": {
+          "name": "copilot"
+        }
+      },
+      {
+        "topic": {
+          "name": "cursor"
+        }
+      },
+      {
+        "topic": {
+          "name": "developer-tools"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "productivity"
+        }
+      },
+      {
+        "topic": {
+          "name": "prompt-engineering"
+        }
+      },
+      {
+        "topic": {
+          "name": "quality-gates"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 1,
+    "nodes": [
+      {
+        "tagName": "v1.0.0",
+        "publishedAt": "2026-03-21T03:22:44Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 2
+  },
+  "owner": {
+    "login": "AKzar1el",
+    "__typename": "User",
+    "createdAt": "2022-04-26T11:25:15Z",
+    "repositories": {
+      "totalCount": 30
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "ab131bd48c65a7c15d6f3b7da6c4d1597aeec0fa",
+      "history": {
+        "totalCount": 100,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T00:54:15Z",
+            "messageHeadline": "docs(revenue): show transparent harness review sample (#27)",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:32:50Z",
+            "messageHeadline": "Merge pull request #26 from AKzar1el/experiment/rs1-payability-gate",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:28:43Z",
+            "messageHeadline": "docs(revenue): gate CTA on public sponsor checkout",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:05:31Z",
+            "messageHeadline": "docs(revenue): expose GP-RS1 agent harness review",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:02:25Z",
+            "messageHeadline": "Merge pull request #24 from AKzar1el/experiment/godprompt-commercial-…",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:59:47Z",
+            "messageHeadline": "docs(revenue): freeze agent harness review experiment",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:38:32Z",
+            "messageHeadline": "Merge pull request #23 from AKzar1el/docs/revenue-shot-control-doc-v4",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T22:37:03Z",
+            "messageHeadline": "docs: make revenue doc the orchestration authority",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T21:55:59Z",
+            "messageHeadline": "Merge pull request #22 from AKzar1el/docs/revenue-shot-preflight-final",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T21:54:40Z",
+            "messageHeadline": "docs: reconcile revenue preflight distribution",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T18:33:30Z",
+            "messageHeadline": "Merge pull request #21 from AKzar1el/chore/revenue-preflight-finalize",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T18:32:05Z",
+            "messageHeadline": "docs: finalize revenue preflight state",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:10:29Z",
+            "messageHeadline": "chore: prepare revenue experiment preflight (#20)",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T00:06:11Z",
+            "messageHeadline": "chore: record benchmark feature history as integrated",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T00:01:14Z",
+            "messageHeadline": "Merge pull request #18 from AKzar1el/experiment/godprompt-half-2026-0…",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:26:45Z",
+            "messageHeadline": "test: verify clean frozen half-scale rerun",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:26:36Z",
+            "messageHeadline": "fix: ignore editable-install metadata in benchmark tree",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:25:30Z",
+            "messageHeadline": "test: expose pre-run dirty-tree source",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:17:09Z",
+            "messageHeadline": "test: rerun frozen half-scale benchmark preflight",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T23:16:08Z",
+            "messageHeadline": "test: verify frozen manifest before half rerun",
+            "author": {
+              "user": {
+                "login": "AKzar1el"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENT_HARNESS_REVIEW_SAMPLE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "GodPrompt.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "MONETIZATION_EXPERIMENT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "REVENUE_EXPERIMENT_PREFLIGHT.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILL.md",
+        "type": "blob"
+      },
+      {
+        "name": "VERSION",
+        "type": "blob"
+      },
+      {
+        "name": "bench",
+        "type": "tree"
+      },
+      {
+        "name": "build.py",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "references",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "bench-half-spike.yml"
+      },
+      {
+        "name": "bench-run.yml"
+      },
+      {
+        "name": "bench-verify.yml"
+      },
+      {
+        "name": "verify.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 12236,
+    "isTruncated": false,
+    "text": "# GodPrompt\n\nGodPrompt is a 1,145-line behavioral workflow prompt designed to push AI coding assistants toward a disciplined senior-engineering process: understand first, keep scope tight, execute deliberately, verify before claiming completion, and report evidence.\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude-Code-blueviolet)](https://docs.anthropic.com)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AKzar1el/god-prompt/issues)\n[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](CHANGELOG.md)\n\n> One skill to replace them all. Drop it in, describe what you want, and apply a consistent engineering workflow with explicit verification gates.\n\n## Agent Harness Review — US$49\n\nFor the seven-day `GP-RS1` experiment, GodPrompt offers one bounded paid service for developers and small teams whose coding agents lose context, overstep scope, skip verification, or repeat mistakes.\n\n**GodPrompt Agent Harness Review — US$49 one-time.** For one repository, send up to three agent-control artifacts (`AGENTS.md`, `CLAUDE.md`, project rules, or equivalent) plus one short failure example. The review returns five priority risks, one proposed revised instruction block or patch, and a next-task verification checklist, with a target of 24 hours after payment and usable inputs.\n\nGitHub Sponsors is the frozen payment rail. If checkout is live, [sponsor US$49](https://github.com/sponsors/AKzar1el?metadata_campaign=godprompt_rs1&metadata_offer=agent_harness_review&metadata_source=god_prompt_readme), then email `info@tomiseregi.si` with subject `[GP-RS1] Agent Harness Review`. If GitHub still shows checkout as unavailable or pending, email only `[GP-RS1] Agent Harness Review Interest`; do not send repository artifacts yet. I will confirm when the same checkout is publicly payable. Delivery begins only after an independently verified US$49 sponsorship. The free MIT GodPrompt remains unchanged and free. [See a transparent sample deliverable](AGENT_HARNESS_REVIEW_SAMPLE.md) before deciding; it is illustrative, not a client result or benchmark. [Full frozen experiment terms](MONETIZATION_EXPERIMENT.md).\n\n## What Is This?\n\nA single Claude Code skill that replaces 30+ individual skills with one unified system. GodPrompt routes tasks through an explicit engineering workflow and requires verification before completion claims. Whether that improves real task outcomes is measured by GodPrompt Bench rather than assumed from the prompt design.\n\n**The problem:** Skill-based systems like gstack ship 34 separate skills. You have to know which one to use, when to switch, how they interact. Nobody reads 34 SKILL.md files. Nobody remembers to invoke the right one at the right time. It's a toolbox without a craftsman.\n\n**The solution:** GodPrompt is one skill that's always active. It auto-detects what kind of work you're doing and routes to the right protocol internally. You describe what you want. It handles the rest.\n\n## Quick Start\n\n**Option A — One-shot paste (fastest)**\n```\nCopy the contents of GodPrompt.md into:\n→ CLAUDE.md in your repo, OR\n→ Claude Project Instructions on claude.ai\n```\n\n**Option B — Folder install (recommended for Claude Code)**\n```bash\n# Clone into your project's skill directory\ngit clone https://github.com/AKzar1el/god-prompt.git .claude/skills/god-prompt\n```\n\n**Option C — Claude.ai Projects**\n1. Create a new Claude Project.\n2. Add `SKILL.md` as Project Instructions.\n3. Upload the three reference files (`references/01-PROTOCOLS.md`, `references/02-GATES.md`, `references/03-ANTI-PATTERNS.md`) as Project Knowledge.\n\n**Option D — ChatGPT Projects & Custom Instructions**\n* **In a Project**:\n  1. Create a new Project on chatgpt.com.\n  2. Paste the contents of `SKILL.md` into the Project's Custom Instructions.\n  3. Upload the reference files in the `references/` folder to the Project files.\n* **Globally (Custom Instructions)**:\n  1. Go to **Customize ChatGPT*\n  2. Paste the contents of `GodPrompt.md` in the \"How would you like ChatGPT to respond?\" field.\n\n**Option E — Gemini Gems & System Instructions**\n* **As a Custom Gem**:\n  1. Go to gemini.google.com and click **Gems** (or \"Gem manager\") > **New Gem**.\n  2. Name it \"GodPrompt\" and paste the contents of `SKILL.md` into the Gem instructions.\n  3. Upload the reference files in the `references/` folder to the Gem's Knowledge files.\n\nIf you want a single paste target, use `GodPrompt.md`. If you want progressive disclosure and a smaller always-on context footprint, use the folder layout (`SKILL.md` and the `references/` folder).\n\n**Then just use Claude normally.** No special commands, no mode switching, no skill invocations. GodPrompt activates automatically on every task.\n\n## How It Works\n\n```\nYou: \"Build me a REST API for user authentication\"\n\nGodPrompt:\n  ┌─ Phase 0: CLASSIFY ──────── Detects BUILD task\n  ├─ Phase 1: UNDERSTAND ─────── Reads codebase, traces dependencies\n  ├─ Phase 2: PLAN ──────────── States changes, defines scope boundary\n  ├─ Phase 3: EXECUTE ────────── TDD, one change at a time, incremental verify\n  ├─ Phase 4: VERIFY ─────────── Runs build + tests + lint, reads output\n  └─ Phase 5: DELIVER ────────── Reports changes, verification, rollback plan\n```\n\nEvery task — from fixing a typo to architecting a system — flows through these phases. The depth scales automatically: a typo fix breezes through in seconds, a new feature goes deep.\n\n### The Three Iron Laws\n\n| Law | What It Prevents |\n|-----|-----------------|\n| **Understand before acting** | Breaking things you didn't know existed |\n| **Scope is sacred** | \"While I'm here\" scope creep that introduces bugs |\n| **Evidence before claims** | Shipping broken code with \"should work\" confidence |\n\n### Auto-Classification\n\nGodPrompt detects 9 primary task types and routes to the right protocol. Simple lookups fall through to a direct ANSWER path.\n\n| Task Type | Triggers On | Key Protocol |\n|-----------|------------|--------------|\n| **BUILD** | create, implement, add feature | TDD Red-Green-Refactor |\n| **DEBUG** | fix, bug, error, broken | Root cause → 4-layer defense |\n| **REFACTOR** | improve, optimize, clean up | Characterization tests first |\n| **CONTENT** | write, article, documentation | Research → verify → SEO |\n| **DESIGN** | UI, UX, layout, mockup | Bold aesthetics, no AI slop |\n| **SHIP** | deploy, release, push, PR | Safety-first checklist |\n| **ANALYZE** | audit, review, check | Evidence-based investigation |\n| **AUTOMATE** | pipeline, bot, script | Architecture → resilience → docs |\n| **PLAN** | brainstorm, think through | Explore → document → handoff |\n\n## What's Inside\n\n```\nGodPrompt/\n├── GodPrompt.md              # All-in-one file for quick deployment\n├── SKILL.md                  # Core protocol loaded every message\n├── references/\n│   ├── 01-PROTOCOLS.md       # Deep execution guides per task type\n│   ├── 02-GATES.md           # Verification checklists and report templates\n│   └── 03-ANTI-PATTERNS.md   # Red flags, rationalizations, and recovery\n├── bench/                    # Reproducible baseline-vs-GodPrompt evaluation suite\n├── .github/workflows/verify.yml\n├── README.md\n├── CHANGELOG.md\n├── LICENSE\n└── VERSION\n```\n\n**Single-file payload:** about 41 KB / 1,145 lines in `GodPrompt.md` — synthesized from 30+ battle-tested skills and hundreds of real coding sessions.\n\n### Progressive Disclosure Architecture\n\nThis is the key design advantage over multi-skill systems:\n\n- **SKILL.md** stays in the hot path → low token cost, covers the universal protocol and task routing\n- **references/01-PROTOCOLS.md**, **references/02-GATES.md**, **references/03-ANTI-PATTERNS.md** load only when deeper execution detail is needed → saves tokens on simpler tasks\n\n\n## What It Distills\n\n\n| Source Skill | → Becomes |\n\n\n\n\n\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

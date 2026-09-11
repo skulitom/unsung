@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "icomppower/midway1942",
+  "label": "W",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 1696,
+    "keptBytes": 1696,
+    "excerpt": false
+  }
+}

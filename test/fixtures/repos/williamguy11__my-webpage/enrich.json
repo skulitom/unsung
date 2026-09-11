@@ -1,0 +1,245 @@
+{
+  "nameWithOwner": "williamguy11/my-webpage",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-10-25T05:49:57Z",
+  "pushedAt": "2026-09-01T07:33:12Z",
+  "diskUsage": 1558,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 20438,
+    "edges": [
+      {
+        "size": 20438,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "williamguy11",
+    "__typename": "User",
+    "createdAt": "2024-05-02T23:10:32Z",
+    "repositories": {
+      "totalCount": 7
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 21,
+        "nodes": [
+          {
+            "committedDate": "2026-09-01T07:33:06Z",
+            "messageHeadline": "Add current UC Irvine research to portfolio",
+            "author": {
+              "user": {
+                "login": "williamguy11"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:49:26Z",
+            "messageHeadline": "Update resume",
+            "author": {
+              "user": {
+                "login": "williamguy11"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T02:56:19Z",
+            "messageHeadline": "Rebuild portfolio for data science recruiting",
+            "author": {
+              "user": {
+                "login": "williamguy11"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-05-28T22:07:57Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T22:00:50Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T21:58:51Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T21:44:42Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T21:41:25Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T21:37:25Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-28T00:42:27Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-21T02:15:10Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-20T02:24:11Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-20T02:06:40Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-19T22:11:42Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-19T01:33:14Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-16T22:36:07Z",
+            "messageHeadline": "Update resume PDF and finalize site changes",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-15T18:55:23Z",
+            "messageHeadline": "Fix resume PDF filename",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-15T18:46:12Z",
+            "messageHeadline": "Restore resume page with index.html and PDF",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-15T18:36:45Z",
+            "messageHeadline": "Definitive fix: remove submodule and add resume normally",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2025-05-14T02:36:04Z",
+            "messageHeadline": "Add website with index.html",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Images",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "resume",
+        "type": "tree"
+      },
+      {
+        "name": "style.css",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "pages.yml"
+      }
+    ]
+  },
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

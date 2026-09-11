@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "qinyre/dsh-plugin-capabilities",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S6_mcp",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 10785,
+    "keptBytes": 7871,
+    "excerpt": true
+  }
+}

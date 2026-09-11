@@ -1,0 +1,367 @@
+{
+  "id": "R_kgDOUOjAWg",
+  "nameWithOwner": "zaghaghi/toolog",
+  "description": "A local audit trail for Claude Code tool calls. Captures every tool call to an embedded database on your machine. Nothing leaves it.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T17:40:43Z",
+  "pushedAt": "2026-09-06T18:51:11Z",
+  "diskUsage": 3182,
+  "stargazerCount": 5,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 1490990,
+    "edges": [
+      {
+        "size": 1089870,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 314180,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 54106,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 11276,
+        "node": {
+          "name": "Just"
+        }
+      },
+      {
+        "size": 5765,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 5655,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 4939,
+        "node": {
+          "name": "Ruby"
+        }
+      },
+      {
+        "size": 4883,
+        "node": {
+          "name": "Swift"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 3
+  },
+  "tags": {
+    "totalCount": 3
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "zaghaghi",
+    "__typename": "User",
+    "createdAt": "2009-08-03T04:10:12Z",
+    "repositories": {
+      "totalCount": 69
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 51,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T18:51:04Z",
+            "messageHeadline": "The mockup was showing a real home directory",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T18:47:18Z",
+            "messageHeadline": "The screenshots, retakeable by a script instead of an afternoon",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T18:26:42Z",
+            "messageHeadline": "A readme about the program, not about how it got here",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T16:46:15Z",
+            "messageHeadline": "Point the cask at v1.2.0",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T16:19:31Z",
+            "messageHeadline": "Release v1.2.0",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T16:19:25Z",
+            "messageHeadline": "Put both verdicts where a reader is looking, and name the columns",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T12:11:22Z",
+            "messageHeadline": "Phase 13: ADR-0013, the documentation, and the numbers so far",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T12:07:04Z",
+            "messageHeadline": "Phase 13: a call arrives twice, and was being analysed twice",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T12:05:20Z",
+            "messageHeadline": "Phase 13: the bundle assertions, and the unsigned path that never worked",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T11:56:07Z",
+            "messageHeadline": "Phase 13: the two filters, and the guarantee re-checked with llama.cp…",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T11:54:25Z",
+            "messageHeadline": "Phase 13 (part 3): the window, and the section that is not the rules",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T11:40:35Z",
+            "messageHeadline": "Phase 13 (part 2): the examination, and the floor that moved to 11.0",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T11:23:23Z",
+            "messageHeadline": "Phase 13 (part 1): a model, a prompt, and somewhere to put a verdict",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T10:35:02Z",
+            "messageHeadline": "Fix the cask Homebrew refuses to load, and the check that missed it",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T06:01:20Z",
+            "messageHeadline": "Spec Phase 13: a local model over the calls no rule matched",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T05:43:17Z",
+            "messageHeadline": "Release v1.1.0",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T05:37:46Z",
+            "messageHeadline": "Give the search row one height",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T05:31:19Z",
+            "messageHeadline": "Add a theme switch: System, Light or Dark",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T05:18:47Z",
+            "messageHeadline": "Four fixes: a pane that scrolls, no grouping, time beside the box, blue",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T05:06:22Z",
+            "messageHeadline": "Give a rule an identity, and cut the prose off the risk page",
+            "author": {
+              "user": {
+                "login": "zaghaghi"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PRIVACY.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "fixtures",
+        "type": "tree"
+      },
+      {
+        "name": "justfile",
+        "type": "blob"
+      },
+      {
+        "name": "packaging",
+        "type": "tree"
+      },
+      {
+        "name": "ui",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10980,
+    "text": "# Toolog\n\n**A local audit trail for Claude Code tool calls.** macOS, one signed app, nothing leaves the\nmachine.\n\nClaude Code runs tools on your machine — shell commands, file edits, network fetches. Today there is\nno way to answer *\"what did the agent actually do, when, in which repo, and who approved it?\"*\nwithout scrolling a terminal that has already gone.\n\nToolog captures every tool call, stores it in an embedded database on your machine, and gives you\nthree views over it: a forensic timeline, a permission and risk review, and the state of capture\nitself.\n\n| | |\n|---|---|\n| [![The timeline](docs/screenshots/timeline.png)](docs/screenshots/timeline.png) | [![The risk review](docs/screenshots/risk.png)](docs/screenshots/risk.png) |\n| **The timeline.** Every tool call, newest first, under one query box — with the severity a rule gives each call and the score a local model gave the ones no rule matched. | **The risk review.** The rules evaluated, worst first, with what each one looks for whether or not it matched. |\n| [![Filtered to high risk](docs/screenshots/timeline-risk.png)](docs/screenshots/timeline-risk.png) | [![Filtered to the model's score](docs/screenshots/timeline-model-risk.png)](docs/screenshots/timeline-model-risk.png) |\n| **`@risk:high`** — what a rule flagged, and which rule, on hover. | **`@model-risk:>=4`** — what the local model scored 4 or 5, with its one-line reading of each on hover. |\n\n*Home directory blurred. The two columns are never the same column: a rule's severity is\ndeterministic, a model's score is not.*\n\n## Nothing leaves your machine\n\nThe OTLP receiver binds `127.0.0.1` only. There is no analytics, no crash reporting, no remote\nconfig, no account, and no update check — `brew upgrade --cask toolog` is the update path instead.\n\n**A CI test runs a full ingest and every query the window issues, then asks the operating system\nwhich sockets the process holds** — any address that is not loopback fails the build. A second test\nproves that check can fail, by opening a socket pointed off the machine and asserting the census\nsees it. The guarantee is a build failure when broken, not a promise in a readme.\n\n**Including the model.** Toolog links llama.cpp and does not gain a downloader with it: you fetch\nthe `.gguf` yourself and point toolog at it. llama.cpp has a `--hf-repo` fetcher of its own that a\ncheck reading `Cargo.toml` cannot see, so the release additionally asserts `otool -L` on the shipped\nbinary lists no `libcurl` and no TLS library. A config option is not a guarantee; the binary is.\n\nSee [ADR-0008](docs/adr/0008-local-only-zero-egress.md) and [PRIVACY.md](PRIVACY.md).\n\n## How it works\n\nTwo ingestion lanes, because neither is complete alone:\n\n```\n┌──────────────┐   OTLP/HTTP POST /v1/logs      ┌────────────────────────────┐\n│ Claude Code  │ ─────────────────────────────► │  toolog (single process)   │\n│              │   127.0.0.1:47318              │                            │\n│  writes ───► │ ~/.claude/projects/**/*.jsonl  │  OTLP receiver             │\n└──────────────┘        ▲                       │  transcript tailer         │\n                        │ fsevents tail         │  normalizer + joiner       │\n                        └───────────────────────┼─ SQLite (WAL + FTS5)       │\n                                                │  WebView UI (3 views)      │\n                                                └────────────────────────────┘\n```\n\n**Transcripts** carry the untruncated content — the full shell command, the full file diff. OTEL\ntruncates tool inputs at 512 characters, which is not evidence. **OTEL** carries what transcripts\nnever record: **who approved or refused each call, and under which rule**, and how long it took.\n\nThe two are joined exactly on `tool_use_id`, and where they disagree, that is a finding rather than\nan inconsistency to paper over: a call only the transcript saw is a gap in collection, and a call\nonly OTEL saw had no transcript body written. This is how the tool demonstrates its own completeness\ninstead of asserting it. Neither lane puts any code on Claude Code's critical path — one is a\nread-only file watch, the other a fire-and-forget export whose failure costs nothing.\nSee [ADR-0002](docs/adr/0002-dual-ingestion-transcripts-and-otel.md).\n\n**A second opinion, optional and advisory.** Twelve rules find what someone thought to write a rule\nfor, and 77% of the owner's store was Bash commands no rule had ever matched — reported as nothing,\nwhich reads as *these are fine* and means *these were not examined*. Point toolog at a local `.gguf`\nand it reads them and says what each was doing. It is never a rule, never a severity, and never a\nnumber in the summary — it gets its own column, its own section, and its own block in the detail\npane. See [ADR-0013](docs/adr/0013-a-verdict-is-stored-not-recomputed.md), and\n[docs/](docs/README.md#phases) for the one command that fetches the model.\n\n## Install\n\n```\nbrew install --cask zaghaghi/tap/toolog\n```\n\nOr download the `.dmg` from [Releases](https://github.com/zaghaghi/toolog/releases). It is a\nuniversal build signed with a Developer ID and notarized by Apple, so it opens without a\nGatekeeper warning. Verify what you got:\n\n```\nshasum -a 256 -c SHA256SUMS\nspctl --assess --type execute --verbose=2 /Applications/toolog.app\n```\n\nThen, from a terminal — the same binary is both the app and the CLI:\n\n```\ntoolog doctor --fix          # configures Claude Code telemetry, merged, with a backup\ntoolog backfill              # imports your existing history\ntoolog                       # starts the menu-bar app and the receiver\n```\n\n### Uninstall\n\n```\ntoolog uninstall             # show what would change\ntoolog uninstall --apply     # do it\n```\n\nIt removes the login agent and puts `~/.claude/settings.json` **back byte for byte** from the\nbackup taken before toolog first wrote to it — or, if you have edited that file since, removes\nonly toolog's own six keys and says why it did not restore. Your recorded history is kept unless\nyou add `--delete-data`. `brew uninstall --cask toolog` runs the same thing; add `--zap` to\ndelete the history too. There is also a \"Remove toolog\" section on the Status page.\n\n### From a checkout\n\n```\nnpm --prefix ui ci           # the window's dependencies, once\njust release                 # bundles the window, then builds one binary: the app and the CLI\njust bundle                  # the distributable universal .app and .dmg\n```\n\nThe window is TypeScript compiled by Vite and **embedded in the binary**, so it is built first;\n`just build`, `just release`, `just run` and `just bundle` all do that for you.\n\n## Commands\n\n| | |\n|---|---|\n| `toolog` | Menu-bar app: receiver, transcript tailer, window on demand |\n| `toolog doctor [--fix]` | The state of the integration. Read-only unless `--fix` |\n| `toolog backfill` | Import `~/.claude/projects`. Safe to re-run |\n| `toolog verify` | Cross-check the two lanes: gaps, refusals, completeness |\n| `toolog verify --chain` | Walk the integrity chain over stored evidence, and print its head |\n| `toolog purge` | Show what retention would remove. `--apply` to remove it |\n| `toolog risk` | Evaluate the risk rules: what got approved, and how |\n| `toolog model set PATH` | Point the local second opinion at a `.gguf`. Never downloads |\n| `toolog model status` | The configured model, and how far the examination has got |\n| `toolog export` | JSON, JSONL, CSV or Markdown, with filters |\n| `toolog agent install` | A login agent so capture survives a restart |\n| `toolog uninstall` | Undo the install. Restores `settings.json`; keeps your history |\n\n`doctor --fix` writes only to `~/.claude/settings.json`, merges rather than overwrites, keeps a\n\n\n- **No update notification.** If you downloaded the `.dmg` directly, nothing will tell you a new\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

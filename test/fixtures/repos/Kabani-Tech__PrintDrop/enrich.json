@@ -1,0 +1,383 @@
+{
+  "id": "R_kgDOUDx_Zg",
+  "nameWithOwner": "Kabani-Tech/PrintDrop",
+  "description": "PrintDrop plugs into a 3D printer's USB port and appears as an ordinary USB flash drive — no printer firmware changes, no cloud service, no vendor account. At the same time it joins the local network and serves a web UI, so anyone can drag a file onto the card from their desk and then walk over and press print.",
+  "homepageUrl": "https://kabani-tech.github.io/PrintDrop/",
+  "createdAt": "2026-08-25T13:02:54Z",
+  "pushedAt": "2026-09-10T11:47:37Z",
+  "diskUsage": 1762,
+  "stargazerCount": 8,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 338875,
+    "edges": [
+      {
+        "size": 134385,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 101886,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 51612,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 25563,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 17115,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 7391,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 923,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "3d-printing"
+        }
+      },
+      {
+        "topic": {
+          "name": "esp32"
+        }
+      },
+      {
+        "topic": {
+          "name": "storage"
+        }
+      },
+      {
+        "topic": {
+          "name": "usb"
+        }
+      },
+      {
+        "topic": {
+          "name": "usb-drive"
+        }
+      },
+      {
+        "topic": {
+          "name": "wifi"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 2
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Kabani-Tech",
+    "__typename": "Organization",
+    "createdAt": "2026-05-12T10:26:23Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 48,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T11:43:37Z",
+            "messageHeadline": "Merge branch 'dev' into main - multi-sector MSC, measured SDIO figures",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:35:55Z",
+            "messageHeadline": "Merge branch 'fix/msc-multi-sector' into dev - multi-sector MSC, meas…",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T08:46:53Z",
+            "messageHeadline": "docs: replace projected SDIO figures with measured ones",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:53:29Z",
+            "messageHeadline": "test(diag): add SDIO throughput and core-affinity benchmarks",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:53:12Z",
+            "messageHeadline": "fix(storage): issue one SDMMC command per MSC transfer, not one per s…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:25:02Z",
+            "messageHeadline": "Merge branch 'main' into dev - sync canonical docs URLs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:24:54Z",
+            "messageHeadline": "Merge branch 'dev' into main - canonical docs URLs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:24:50Z",
+            "messageHeadline": "Merge branch 'fix/docs-canonical-links' into dev",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:24:44Z",
+            "messageHeadline": "fix(site): use canonical repository and Pages URLs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:19:49Z",
+            "messageHeadline": "Merge branch 'main' into dev - sync rendered docs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:19:31Z",
+            "messageHeadline": "Merge branch 'dev' into main - rendered docs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:19:02Z",
+            "messageHeadline": "Merge branch 'docs/rendered-docs' into dev",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T16:18:44Z",
+            "messageHeadline": "docs(site): render project docs as first-class pages",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T15:40:48Z",
+            "messageHeadline": "feat(flash): filtered variant view + OTA json download",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T15:21:28Z",
+            "messageHeadline": "chore: bump version to 0.2.1 for fixed full-image CI",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T15:14:30Z",
+            "messageHeadline": "fix: devices auto subnet scan, flash OTA asset selection, drag-move o…",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T11:21:17Z",
+            "messageHeadline": "feat: auto-refresh USB host after upload, icons per extension, settin…",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T18:02:30Z",
+            "messageHeadline": "Merge branch 'main' into dev - sync",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T18:02:24Z",
+            "messageHeadline": "Merge branch 'dev' into main - PNA docs",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-28T18:02:18Z",
+            "messageHeadline": "fix(site): clarify Private Network Access for https->http scan",
+            "author": {
+              "user": {
+                "login": "Akash97p"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "partitions_printdrop.csv",
+        "type": "blob"
+      },
+      {
+        "name": "partitions_printdrop_ota.csv",
+        "type": "blob"
+      },
+      {
+        "name": "platformio.ini",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "website",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "firmware.yml"
+      },
+      {
+        "name": "pages.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13781,
+    "text": "<div align=\"center\">\n\n<picture>\n  <source srcset=\"assets/printdrop_banner_dark.webp\" media=\"(prefers-color-scheme: dark)\">\n  <img src=\"assets/printdrop_banner.webp\" alt=\"PrintDrop\" width=\"620\">\n</picture>\n\n**A Wi-Fi flash drive for 3D printers.**\nDrop a print job from your desk instead of walking a USB stick to the machine.\n\n[![Platform](https://img.shields.io/badge/platform-ESP32--S3-E7352C?logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32-s3)\n[![Framework](https://img.shields.io/badge/framework-Arduino-00979D?logo=arduino&logoColor=white)](https://github.com/espressif/arduino-esp32)\n[![Build](https://img.shields.io/badge/build-PlatformIO-FF7F00?logo=platformio&logoColor=white)](https://platformio.org/)\n[![USB](https://img.shields.io/badge/USB-TinyUSB%20MSC-336791)](https://github.com/hathach/tinyusb)\n[![UI](https://img.shields.io/badge/UI-LittleFS%20hosted-4B32C3)](data/)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/status-working%20on%20hardware-brightgreen)](docs/)\n[![Issues](https://img.shields.io/github/issues/Akash97p/PrintDrop)](https://github.com/Akash97p/PrintDrop/issues)\n[![Last commit](https://img.shields.io/github/last-commit/Akash97p/PrintDrop)](https://github.com/Akash97p/PrintDrop/commits)\n\n</div>\n\n---\n\nPrintDrop plugs into a 3D printer's USB port and appears as an ordinary USB\nflash drive — no printer firmware changes, no cloud service, no vendor account.\nAt the same time it joins the local network and serves a web UI, so anyone can\ndrag a `.gcode` file onto it from their desk and then walk over and press print.\n\nIt is a **flash drive that happens to be reachable over Wi-Fi**. The printer\nsees nothing unusual: a USB mass storage device with a FAT32 volume. An SD card\nis simply the storage medium behind it.\n\nBuilt for printers that only accept USB media and have no networking of their\nown.\n\nWorking on hardware: the card enumerates as a USB drive, the web UI serves from\nLittleFS, and files uploaded over Wi-Fi appear to the USB host without a\nreboot.\n\nAll figures below are **measured on hardware** — an ESP32-S3-DevKitC-1 with a\n32 GB SDHC card on a 3.3 V-native breakout, SDIO 4-bit at 40 MHz.\n\n| Measurement | Value | Notes |\n|---|---|---|\n| Read (USB, uncached) — SDIO 4-bit | **1 016 KB/s** | at the USB Full-Speed ceiling |\n| Write (USB) — SDIO 4-bit | **~535 KB/s** | |\n| Read (USB, uncached) — SPI | 485 KB/s | 4-wire SPI @ 20 MHz, for comparison |\n| Write (USB) — SPI | 248 KB/s | |\n| Upload over Wi-Fi (web UI) | ~200 KB/s | bounded by the HTTP path, not the card |\n| Download over Wi-Fi (web UI) | ~500 KB/s | same |\n| Raw SD — SDIO 4-bit @ 40 MHz | ~16 000 KB/s | 32 KB per command (~1 600 KB/s at one command per sector) |\n| Raw SD — SPI @ 20 MHz | ~910 KB/s | |\n| USB link | Full Speed, 12 Mbit/s | **~1.2 MB/s hard ceiling** — the ESP32-S3 has no High-Speed PHY |\n| SD clock — SDIO | 40 MHz, 4-bit | only 40 and 20 MHz are usable, see [hardware.md](docs/hardware.md#sdio-clocks) |\n| SD clock — SPI | 20 MHz (verified clean to 25 MHz) | legacy bus |\n| Web UI size | 62 KB, served from LittleFS | |\n| Card tested | 32 GB SDHC, FAT32 | |\n\n**What actually bounds this.** The card is not the bottleneck on any path — it\nhas roughly 16 MB/s available and nothing uses more than a fraction of it.\nUSB transfers are bounded by the ESP32-S3's **USB Full-Speed** peripheral\n(12 Mbit/s ≈ 1.2 MB/s); reads already sit at that ceiling, so faster USB needs\ndifferent silicon, not firmware. The Wi-Fi figures are bounded by the HTTP\nupload/download path in software. Earlier versions of this table carried\nprojected SDIO figures of ~3 200 KB/s read and ~2 000 KB/s write; those were\nnever achievable over USB Full-Speed and have been replaced with measurements.\n\n## How the USB and Wi-Fi sides coexist\n\nThis is the part that matters, and the part that is easy to get wrong.\n\nA USB host caches the FAT. If the ESP32 writes to the card while the printer\nhas it mounted, the host's cached allocation table goes stale and the \nwrite from either side corrupts the filesystem. The reverse is also true — the\nESP32's own FATFS cache goes stale if the host writes sectors underneath it.\n\n`src/printdrop/storage.cpp` enforces three rules:\n\n1. **One mutex.** Every SD access, from either side, is serialised.\n2. **Withdraw before writing.** Before the ESP32 modifies the card, the media is\n   withdrawn from the USB host, then re-presented afterwards. The printer sees a\n   card removal and re-reads its file list, so uploads appear without a reboot.\n3. **Remount when the host writes.** MSC write callbacks set a flag; the ESP32\n   remounts FATFS before trusting its own view of the filesystem again.\n\nMSC callbacks take the mutex with a short timeout and fail the transfer rather\nthan stall the USB task, so a slow Wi-Fi upload can never hang the printer.\n\nThe full design is in [`docs/architecture.md`](docs/architecture.md).\n\n## Hardware\n\n- ESP32-S3-DevKitC-1 (configured for a **4 MB flash, no PSRAM** board)\n- microSD breakout — **SDIO 4-bit** (recommended, 6 wires), **SPI** (legacy, 4 wires)\n- A **FAT32** card — exFAT will not mount\n- Printer on the native USB port; the UART bridge carries the console\n\n### Wiring\n\n**SDIO 4-bit (recommended, 6 wires):**\n\n| Signal | GPIO | Notes |\n|--------|------|-------|\n| CLK    | 40   | |\n| CMD    | 14   | 10 k pull-up |\n| D0     | 39   | 10 k pull-up |\n| D1     | 12   | 10 k pull-up |\n| D2     | 13   | 10 k pull-up |\n| D3     | 15   | 10 k pull-up |\n\nReuses the four SPI pins plus two new data lines — an SPI-wired board migrates with two jumpers. Requires a **3.3 V-native microSD breakout** (no AMS1117/LC125) with pull-ups on CMD/D0-D3. Jumpers at 20 MHz are stable; 40 MHz wants short, equal-length wires. 1-bit mode (`SDMMC_WIDTH=1`) works with only CLK/CMD/D0 for bring-up.\n\n**SPI — `main` legacy (4 wires):**\n\n| Signal | GPIO |\n|--------|------|\n| CS     | 12   |\n| MISO   | 39   |\n| MOSI   | 14   |\n| CLK    | 40   |\n\nBuild with `pio run -e printdrop_spi` to stay on SPI. See [`docs/hardware.md`](docs/hardware.md) for both wirings, power notes, and measured clocks.\n\n> **Power the breakout from 3V3.** AMS1117/LC125 modules also run on 5 V, but their pull-ups then reference the 5 V rail and drive the ESP32's GPIOs above 3.3 V, outside the SoC's absolute maximum. SDIO must use a 3.3 V-native breakout.\n\n## Flashing\n\n```bash\npio run -e printdrop -t upload      # firmware\npio run -e printdrop -t uploadfs    # web UI into LittleFS\n```\n\nBoth are needed on a first install. See [Reflashing](#reflashing) for how to get\nthe board into download mode on this hardware.\n\n## First run\n\nWith no credentials stored, PrintDrop raises its own access point:\n\n| | |\n|---|---|\n| Network | `PrintDrop-Setup` |\n| Password | `printdrop` |\n| Setup page | `http://192.168.4.1` |\n\nJoin it, open the page, and set the Wi-Fi network and hostname under\n**Settings**. The device reboots and reappears on the office network.\n\nCredentials are stored in NVS and never enter the source tree.\n\n### Provisioning over serial instead\n\nFaster on a bench, and the only option if the AP is inconvenient:\n\n```\nwifi <ssid> <password>     join a network and reboot\nhostname <name>            set the mDNS name and reboot\nstatus                     show device state\nforget                     clear Wi-Fi settings\nhelp                       list commands\n```\n\nSend these as lines to the UART bridge (`COM5`) at 115200 baud.\n\n## Finding it on the network\n\nPrintDrop advertises itself over mDNS, so `http://printdrop.local` works on most\nmachines out of the box.\n\n\n## Using it\n\n  not the card and not the network.\n\n## The experience\n\n```powershell\n\"BOOTLOADER\" | Out-File -Encoding ascii COM5\n```\n```\nsrc/printdrop/    the product: storage arbitration, networking, HTTP API\nsrc/diag/         SD and USB diagnostics\nsrc/legacy/       USB mass storage only\nsrc/common/       shared helpers\ndata/             web UI, flashed to LittleFS\ndocs/             architecture, hardware, bugs, flashing notes\nassets/           branding\nwebsite/          GitHub Pages source (Next.js, statically exported)\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

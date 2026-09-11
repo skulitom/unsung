@@ -1,0 +1,400 @@
+{
+  "nameWithOwner": "codefly-dev/cli",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2023-10-20T09:59:56Z",
+  "pushedAt": "2026-09-11T11:21:25Z",
+  "diskUsage": 34260,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 5152388,
+    "edges": [
+      {
+        "size": 5100254,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 27565,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 15953,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 6197,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1089,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 832,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 498,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 131
+  },
+  "tags": {
+    "totalCount": 270
+  },
+  "watchers": {
+    "totalCount": 2
+  },
+  "owner": {
+    "login": "codefly-dev",
+    "__typename": "Organization",
+    "createdAt": "2023-10-07T12:48:47Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1074,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T11:21:25Z",
+            "messageHeadline": "fix(run): provision a consumed module's own registration secret into …",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:46:30Z",
+            "messageHeadline": "fix(orchestration): require lifecycle completion and declared endpoin…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:40:37Z",
+            "messageHeadline": "fix(sync): refresh the module's generated interface from the synced b…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:19:53Z",
+            "messageHeadline": "feat(deploy): distinguish rendered, applied, bootstrapped and healthy…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:13:39Z",
+            "messageHeadline": "fix(orchestration): stop consumers before their dependencies (#591) (…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:13:20Z",
+            "messageHeadline": "fix(run): reject a stale materialized module when a requested pin fai…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:22:33Z",
+            "messageHeadline": "fix(run): give a disposable run its own identity and control address …",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:22:30Z",
+            "messageHeadline": "feat(ci): gate supported CLI/core/agent rows on real conformance (#59…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:22:28Z",
+            "messageHeadline": "fix(orchestration): publish the agent-accepted network mappings to ev…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T18:58:22Z",
+            "messageHeadline": "fix(run): reap the native binaries an aborted run strands, and name t…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T18:58:19Z",
+            "messageHeadline": "fix(companion): take companion build inputs from core's specs (#583) …",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T17:33:43Z",
+            "messageHeadline": "fix(companion): pin a dependent's base companion image by digest (#58…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T15:36:46Z",
+            "messageHeadline": "fix(generate client): map protovalidate and googleapis upstream inste…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T14:07:41Z",
+            "messageHeadline": "fix(companion): publish to the registry the tags actually name (codef…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T13:45:29Z",
+            "messageHeadline": "fix(run): write one overlay selector for a git-cloned module (#576) (…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T13:32:50Z",
+            "messageHeadline": "feat(run): provision the module registration secrets both halves (#10…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T01:26:02Z",
+            "messageHeadline": "fix(generate client): stop vendoring google/protobuf into the generat…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T00:52:32Z",
+            "messageHeadline": "feat(companion): tag companion images through resources.ImageRegistry…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:40:44Z",
+            "messageHeadline": "feat: companion verify/push run anonymously against the registry (#56…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:24:08Z",
+            "messageHeadline": "fix(run): inject CODEFLY__API_CONSUMES into the solution backend (#56…",
+            "author": {
+              "user": {
+                "login": "antoinetoussaint-byte"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".coderabbit.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".govulncheck.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".testcoverage.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "pkg",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "web",
+        "type": "tree"
+      },
+      {
+        "name": "zshrc",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "companions.yaml"
+      },
+      {
+        "name": "go.yml"
+      },
+      {
+        "name": "release.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6789,
+    "text": "[![Go CLI](https://github.com/codefly-dev/cli/actions/workflows/go.yml/badge.svg)](https://github.com/codefly-dev/cli/actions/workflows/go.yml)\n[![Release](https://github.com/codefly-dev/cli/actions/workflows/release.yaml/badge.svg)](https://github.com/codefly-dev/cli/actions/workflows/release.yaml)\n\n# Welcome to the `codefly.ai` CLI 😇\n\n> We are building the next generation of tools for developers.\n\n![](docs/media/dragonfly.png)\n\n---\n\n# Install and update\n\nInstall the release cask with:\n\n```shell\nbrew install --cask codefly-dev/cli/codefly\n```\n\nDirect release archives and their verification material are published on the\nGitHub release for each immutable version. See [CLI releases and\nupdates](docs/cli-updates.md) for direct installation, update commands,\nverification, rollback, and package-manager ownership.\n\n# Development\n\n## Repository layout\n\ncodefly is developed as several repos checked out **side by side**. Put this `cli`\nrepo next to `core` and the agent repos (one repo per agent):\n\n```\ncodefly/\n├── cli/            # this repo — the `codefly` binary\n├── core/           # shared library (github.com/codefly-dev/core)\n├── service-go/     # agents: service-*, toolbox-*, module-* (one repo each)\n├── service-rust/\n├── toolbox-web/\n└── ...\n```\n\n`core/` must be a sibling of `cli/` and of every agent repo — the build tooling\nlocates it by walking **up** the directory tree looking for the `core/` module.\n\nPull/refresh the CLI, Core, LLM, and canonical plugin repositories:\n\n```shell\ncodefly self pull        # pull latest main into CLI/Core/LLM/plugins (non-destructive)\n```\n\n## Requirements\n\n- Go **1.25+** (see `go.mod`)\n\nCodefly resolves the pinned `govulncheck` revision through Go's module/build\ncache when an operator-managed binary is not on `PATH`. Agent builds fail if a\nrequired scan cannot run; `--skip-audit` is the explicit waiver. Every built\nagent binary also receives a sibling `.cdx.json` CycloneDX SBOM.\n\n## Building the CLI\n\nLocal development builds against your **local** `core` (and every other local\nrepo), not the pinned published versions in `go.mod`. codefly does this with a\nsingle **shared `go.work` at the workspace root** — gitignored, so CI keeps\nbuilding against the pinned versions (`GOWORK=off`).\n\nBootstrap it once, then build:\n\n```shell\ncd <workspace>                       # the folder holding cli/ and core/\ngo work init ./cli ./core ./sdk-go   # one-time: seed the shared workspace\n(cd cli && go build -o codefly .)    # build the CLI against local core\n```\n\nOnce the CLI exists, it manages the workspace itself — link every agent's source\ninto the same `go.work` so inter-repo dependencies also resolve locally:\n\n```shell\ncodefly agent deps --link --all      # add every agent to the shared go.work\n```\n\nRebuild the CLI later with `codefly self build` (compiles from source and installs\nover the binary currently on your PATH; picks up local `core` via the `go.work`).\n\n## Building agents\n\nEach agent lives in its own repo with an `agent.codefly.yaml` (publisher, kind,\nname, version). Build one, or every agent in the workspace:\n\n```shell\n# a single agent\ncodefly agent build --dir ./service-go\n\n# every agent under a directory (e.g. run from the codefly/ workspace root)\ncodefly agent build --all --dir .\n```\n\n`codefly agent build`:\n\n- auto-detects the workspace root (the directory whose `core/` is the local core\n  module) and adds a local `replace` so the agent compiles against **local core**;\n- installs each binary to `~/.codefly/agents/<kind>/<publisher>/<name>__<version>`;\n- also cross-builds a Linux/amd64 static binary for Docker-mode runs. Running\n  natively on a mac? Add `--native-only` to skip that and roughly halve build time.\n\nAgents whose manifest sets `quarantine: true` are skipped by `--all`; build them\nexplicitly with `--dir` to work on the migration.\n\n> **Flat checkout note:** `codefly self build --with-agents` rebuilds the CLI and\n> every canonical agent cloned alongside it. A checkout is canonical when its\n> directory name matches its origin repository; duplicate and task-specific\n> checkouts are reported and skipped.\n\n> **Version drift:** an agent only builds against local `core` HEAD if it has been\n> migrated to the current core API.\n> - An agent that depends on an older *published* sibling agent (e.g.\n>   `service-go-grpc` → `service-go`) builds once that sibling is linked into the\n>   shared `go.work` — `codefly agent deps --link --all` handles this.\n> - An agent that imports *removed* core packages still needs migration; until then,\n>   pin it to a compatible published core with `codefly agent deps --pin <version>`.\n\n## Using local (latest) agents at runtime\n\nBuilding an agent installs it under `~/.codefly/agents/`. To make codefly use those\nlocal builds instead of downloading published agents, resolve agents locally:\n\n```shell\ncodefly run service --local-agents        # or: export CODEFLY_AGENT_SOURCE=local\n```\n\n`--local-agents` resolves agent versions from `~/.codefly/agents/` only (skips\nGitHub); an agent referenced as `latest` resolves **local-first**.\n\n## Managing an agent's `core` dependency\n\n`codefly agent deps` controls how a single agent (or `--all` of them) resolves core:\n\n| Command | Effect |\n| --- | --- |\n| `codefly agent deps` (or `--link`) | wire a local `go.work` → local core (default; no network pull) |\n| `codefly agent deps --unlink` | remove the local `go.work` (revert to published core) |\n| `codefly agent deps --pin <version>` | pin `go.mod` to a published core version + tidy + verify the standalone build (`latest` allowed; the **only** mode that pulls) |\n| `codefly agent deps --ci` | scaffold/repair the agent's `.github/workflows/ci.yml` |\n\n## Common commands\n\n```shell\ncodefly init workspace                    # create a workspace\ncodefly add service my-svc --agent go     # add a service backed by the `go` agent\ncodefly run service -d                     # run a service (with debug)\ncodefly doctor                             # check your environment for common problems\ncodefly doctor workspace                   # read-only readiness check for this workspace (great after a fresh worktree)\n```\n\n> Tip: while developing in the `cli` directory you can replace `codefly` with\n> `go run main.go` in any of the commands above.\n\n## Debugging into agent code\n\nYou can attach a debugger and step into a running agent:\n\n- run the CLI with a breakpoint,\n- get the agent PID from the log,\n- set a breakpoint in the agent code,\n- attach to that process in your IDE.\n\nThe CLI also exposes an endpoint carrying the client process PID, so the same\ntechnique works for debugging the client code.\n\n## Generating client code\n\n```shell\ncodefly generate proto --proto ../proto --output . --local\n```\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 8977
+  },
+  "claude": {
+    "byteSize": 601
+  }
+}

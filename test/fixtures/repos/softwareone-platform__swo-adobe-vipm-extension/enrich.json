@@ -1,0 +1,403 @@
+{
+  "id": "R_kgDOK5vSpw",
+  "nameWithOwner": "softwareone-platform/swo-adobe-vipm-extension",
+  "description": "Adobe VIP Marketplace extension for SWO Marketplace Platform",
+  "homepageUrl": "https://docs.platform.softwareone.com/extensions/adobe-vip-marketplace",
+  "createdAt": "2023-12-14T14:14:37Z",
+  "pushedAt": "2026-09-08T12:40:47Z",
+  "diskUsage": 7666,
+  "stargazerCount": 15,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 2582290,
+    "edges": [
+      {
+        "size": 2565614,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 11611,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 2352,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 2070,
+        "node": {
+          "name": "Mustache"
+        }
+      },
+      {
+        "size": 643,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "extensions"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "softwareone"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 308
+  },
+  "tags": {
+    "totalCount": 313
+  },
+  "watchers": {
+    "totalCount": 9
+  },
+  "owner": {
+    "login": "softwareone-platform",
+    "__typename": "Organization",
+    "createdAt": "2023-08-01T05:14:27Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1618,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T12:33:15Z",
+            "messageHeadline": "MPT-24991 Rehydrate reseller-change transfer order from adobeOrderIds…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T06:49:20Z",
+            "messageHeadline": "fix(reseller-change): rehydrate transfer order from adobeOrderIds param",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T12:20:13Z",
+            "messageHeadline": "MPT-24862 Flex discounts: typed unknown code not written back into th…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T08:46:32Z",
+            "messageHeadline": "MPT-24862 Flex discounts: typed unknown code not written back into th…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T16:06:48Z",
+            "messageHeadline": "MPT-24838 record only committed flex discount codes on renew-now rede…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T14:21:15Z",
+            "messageHeadline": "fix(renewal): record only committed flex discount codes on renew-now …",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T10:22:41Z",
+            "messageHeadline": "MPT-24772 handle net-new items on renew-now with flex-discount parity…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T10:07:28Z",
+            "messageHeadline": "feat(renewal): handle net-new items on renew-now with flex-discount p…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T10:00:39Z",
+            "messageHeadline": "MPT-24778 block native orders while an at-anniversary renewal is stag…",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T08:07:54Z",
+            "messageHeadline": "fix(validation): block native orders while an at-anniversary renewal …",
+            "author": {
+              "user": {
+                "login": "smeeks-swo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T16:13:07Z",
+            "messageHeadline": "MPT-24777 Renewal fulfilment hardening: 3YC floor guard, redemption p…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T16:05:01Z",
+            "messageHeadline": "MPT-24777 Renewal fulfilment hardening: 3YC floor guard, redemption p…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T10:52:38Z",
+            "messageHeadline": "MPT-24765 Flex discounts: store and surface hardening bundle (#961)",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T10:45:39Z",
+            "messageHeadline": "fix: apply CodeRabbit auto-fixes",
+            "author": {
+              "user": {
+                "login": "coderabbitai[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T10:38:02Z",
+            "messageHeadline": "MPT-24765 Flex discounts: store and surface hardening bundle",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T13:39:58Z",
+            "messageHeadline": "MPT-24778 Renewals: block native Change / Configuration / Termination…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T11:13:35Z",
+            "messageHeadline": "MPT-24778 Renewals: block native Change / Configuration / Termination…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T10:22:46Z",
+            "messageHeadline": "MPT-24770 Renewals: reconcile scheduled (1009) subscriptions in the a…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T10:11:23Z",
+            "messageHeadline": "MPT-24770 Renewals: reconcile scheduled (1009) subscriptions in the a…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T09:46:47Z",
+            "messageHeadline": "MPT-24750 Mid-term upgrade: x-recommendation-tracker-id not sent as h…",
+            "author": {
+              "user": {
+                "login": "alephsur"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".coderabbit.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".env.sample",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".python-version",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "adobe_vipm",
+        "type": "tree"
+      },
+      {
+        "name": "azure-pipelines.yml",
+        "type": "blob"
+      },
+      {
+        "name": "compose.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "helm",
+        "type": "tree"
+      },
+      {
+        "name": "make",
+        "type": "tree"
+      },
+      {
+        "name": "migrations",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "sonar-project.properties",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "uv.lock",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "danger.yml"
+      },
+      {
+        "name": "pr-build-merge.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1674,
+    "text": "# SoftwareONE Adobe VIP Marketplace Extension\n\n`swo-adobe-vipm-extension` is a SoftwareOne Marketplace extension for Adobe VIP Marketplace.\n\nThe repository contains:\n\n- a Django-based extension runtime\n- Marketplace order validation and fulfillment flows\n- Adobe synchronization and transfer-processing logic\n- operational commands for workers and scheduled jobs\n- Helm deployment charts for API and worker workloads\n\n## Documentation\n\nStart here:\n\n- [AGENTS.md](AGENTS.md): entry point for AI agents\n- [docs/deployment.md](docs/deployment.md): runtime configuration and deployment model\n- [docs/contributing.md](docs/contributing.md): repository-specific development workflow\n- [docs/testing.md](docs/testing.md): testing strategy and commands\n- [docs/migrations.md](docs/migrations.md): migration workflow and migration-specific constraints\n- [docs/documentation.md](docs/documentation.md): repository documentation rules\n\n## Quick Start\n\nPrerequisites:\n\n- Docker with the `docker compose` plugin\n- `make`\n\nRecommended setup:\n\n```bash\ncp .env.sample .env\nmake build\nmake test\nmake run\n```\n\nThe application runs on `http://localhost:8080`.\n\nSee [docs/deployment.md](docs/deployment.md) for runtime parameters and the Docker-based local execution context.\n\n## Repository Layout\n\n- [`adobe_vipm/`](adobe_vipm): extension package and business flows\n- [`tests/`](tests): pytest suite\n- [`make/`](make): modular make targets\n- [`migrations/`](migrations): `mpt-service-cli` migration scripts\n- [`helm/swo-extension-adobe/`](helm/swo-extension-adobe): Helm charts for deployment\n\n## Common Commands\n\n```bash\nmake build\nmake run\nmake test\nmake check\nmake check-all\nmake shell\n```\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 2825
+  },
+  "claude": null
+}

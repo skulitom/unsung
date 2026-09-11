@@ -1,0 +1,47 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "elacy/terraform-provider-pfsense",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 5869,
+    "keptBytes": 5869,
+    "excerpt": false
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 5869,
+    "keptBytes": 5869,
+    "excerpt": false
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/release.yml",
+      "go.mod"
+    ],
+    "treeEntries": 83,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": true
+  }
+}

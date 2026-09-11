@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "sambhav/pycelld",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S3_rust_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 4819,
+    "keptBytes": 4819,
+    "excerpt": false
+  }
+}

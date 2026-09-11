@@ -1,0 +1,46 @@
+{
+  "request": {
+    "path": "/repos/zaghaghi/toolog/releases?per_page=5"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:14:08 GMT",
+    "etag": "W/\"220b89aed6b4367d41243484609ceff0bf82037702cb2c04681b12c3f797c264\"",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4913",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "87"
+  },
+  "body": [
+    {
+      "id": 383651806,
+      "tag_name": "v1.2.0",
+      "name": "v1.2.0",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2026-09-06T16:19:51Z",
+      "published_at": "2026-09-06T16:45:02Z"
+    },
+    {
+      "id": 383482337,
+      "tag_name": "v1.1.0",
+      "name": "v1.1.0",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2026-09-06T05:43:31Z",
+      "published_at": "2026-09-06T06:02:38Z"
+    },
+    {
+      "id": 383373442,
+      "tag_name": "v1.0.0",
+      "name": "v1.0.0",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2026-09-05T20:12:20Z",
+      "published_at": "2026-09-05T21:02:31Z"
+    }
+  ]
+}

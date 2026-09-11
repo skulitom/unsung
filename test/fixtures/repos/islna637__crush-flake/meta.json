@@ -1,0 +1,45 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "islna637/crush-flake",
+  "set": "luresAndSpam",
+  "label": "X",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 13349,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "outcome": "quarantined",
+    "lane": "quarantine",
+    "gates": [
+      "g.lure.link"
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 13349,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      "go.mod"
+    ],
+    "treeEntries": 14,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": true
+  }
+}

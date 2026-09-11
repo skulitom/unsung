@@ -1,0 +1,485 @@
+{
+  "id": "R_kgDOSSS8dg",
+  "nameWithOwner": "sifr01-labs/EstaCoda",
+  "description": "The Middle East's first open source agentic harness. Designed for governed self-evolution.",
+  "homepageUrl": "https://www.estacoda.com",
+  "createdAt": "2026-05-02T09:12:31Z",
+  "pushedAt": "2026-09-10T22:21:29Z",
+  "diskUsage": 19141,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 20205514,
+    "edges": [
+      {
+        "size": 20015492,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 74323,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 44187,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 39021,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 15710,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 15093,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 1688,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "anthropic"
+        }
+      },
+      {
+        "topic": {
+          "name": "arabic"
+        }
+      },
+      {
+        "topic": {
+          "name": "hermes-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "kimi"
+        }
+      },
+      {
+        "topic": {
+          "name": "open-source"
+        }
+      },
+      {
+        "topic": {
+          "name": "openclaw"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "sifr01-labs",
+    "__typename": "Organization",
+    "createdAt": "2026-04-30T12:29:23Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1013,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T14:27:53Z",
+            "messageHeadline": "fix(deps): patch website dependency vulnerabilities (#165)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T11:21:32Z",
+            "messageHeadline": "fix(deps): patch root Discord transport and Vite vulnerabilities (#164)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T10:48:11Z",
+            "messageHeadline": "Improve execution reliability, protected integrations, and session UX…",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T10:09:24Z",
+            "messageHeadline": "chore(deps): bump protobufjs (#162)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T09:49:02Z",
+            "messageHeadline": "chore(deps): bump nanoid in the npm_and_yarn group across 1 directory…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T07:47:15Z",
+            "messageHeadline": "Centralize first-run bootstrap and Task result delivery (#160)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T07:07:52Z",
+            "messageHeadline": "chore(deps): bump postcss in the npm_and_yarn group across 1 director…",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-29T17:01:35Z",
+            "messageHeadline": "chore(deps): bump sharp (#158)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T13:52:40Z",
+            "messageHeadline": "fix(delegation): canonicalize provider tool aliases (#157)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T12:51:48Z",
+            "messageHeadline": "Harden Arabic bidi rendering, Telegram delivery, and delegated Tasks …",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T12:33:02Z",
+            "messageHeadline": "Add governed Durable Task execution foundation (#155)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-19T19:23:15Z",
+            "messageHeadline": "Add observable delegation, durable finalization, and accurate context…",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T03:45:54Z",
+            "messageHeadline": "Improve vision fallback reliability and setup console polish (#153)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-08T22:09:29Z",
+            "messageHeadline": "Govern skill routing and telemetry boundaries (#152)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-08T05:53:08Z",
+            "messageHeadline": "Fix gateway reset detaching surface pointers",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-07T21:06:51Z",
+            "messageHeadline": "Add proactive memory curation controls (#151)",
+            "author": {
+              "user": {
+                "login": "0xAly"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-06T20:23:42Z",
+            "messageHeadline": "Add deterministic operator suite smoke (#150)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-06T19:12:28Z",
+            "messageHeadline": "Add benchmark regression tracking (#149)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-06T05:44:06Z",
+            "messageHeadline": "Add cross-session memory benchmark evals (#148)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-06T05:17:51Z",
+            "messageHeadline": "Add trajectory-backed scenario evals (#147)",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".mailmap",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.ar.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "acp_registry",
+        "type": "tree"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "benchmarks",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "evals",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "registries",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.build.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.node.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "website",
+        "type": "tree"
+      },
+      {
+        "name": "workers",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "ghcr.yml"
+      },
+      {
+        "name": "history-check.yml"
+      },
+      {
+        "name": "osv-scanner.yml"
+      },
+      {
+        "name": "package-artifact-check.yml"
+      },
+      {
+        "name": "rebuild-skills-catalog.yml"
+      },
+      {
+        "name": "secret-scan.yml"
+      },
+      {
+        "name": "skills-catalog-check.yml"
+      },
+      {
+        "name": "supply-chain-audit.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 14045,
+    "text": "![EstaCoda banner](assets/estacoda-readme-banner.png)\n\n# EstaCoda\n\n[العربية](./README.ar.md)\n\nOpen-source runtime for Agent Evolution — the first of its kind built in the Arab world.\n\nEstaCoda is a terminal-native AI agent that gets better from real work. It uses tools, remembers across sessions, runs through messaging channels, schedules recurring jobs, and turns repeated execution patterns into reusable skills and workflows.\n\nBring your own model. Run it locally, on a server, through Docker, or from WSL2. Use it from the terminal, Telegram, and gated WhatsApp. Discord and Email adapters are present for operators who validate them in their own deployment.\n\nEstaCoda is built with Arabic as a first-class operating language, including shaped, bidirectional Arabic rendering for terminal workflows.\n\nWhen EstaCoda proposes changes to its own harness, they stay reviewable: evidence, hypothesis, approval, and rollback — not silent mutation.\n\nBuilt by SIFR01.\n\n---\n\n## Why EstaCoda\n\n| If you want... | EstaCoda gives you... |\n|---|---|\n| An agent that improves over time | Skills, memory, workflows, and reviewable improvement proposals based on real execution patterns. |\n| A real operator terminal | CLI sessions with tool execution, approvals, profile state, durable history, and shaped bidirectional Arabic rendering. |\n| An agent that follows you | CLI and Telegram as the strongest channels, gated WhatsApp through an isolated bridge, and Discord/Email adapters for operator-validated deployments. |\n| Work that runs without babysitting | Cron jobs and durable workflows that can run unattended and deliver results back to you. |\n| Model freedom | OpenRouter, Kimi, DeepSeek, OpenAI, Google, local/custom endpoints, and other configured providers. |\n| More than chat | Web research, browser automation, hosted voice providers, image generation, files, shell commands, and tool workflows. |\n| Power without mystery mutation | Explicit proposals, evidence, approval, rollback, and hard safety boundaries. |\n\n---\n\n## The Agent Evolution Loop\n\n1. Give EstaCoda real work.\n2. It uses tools, memory, skills, browser automation, shell commands, scheduled jobs, and channel delivery as needed.\n3. When a useful pattern repeats, it can propose a reusable skill, workflow, or harness improvement.\n4. You review the evidence, approve the change, revise it, or reject it.\n5. Future sessions start with more useful context and reusable capability than the last one.\n\n---\n\n## Example Uses\n\n```text\n\"Every morning, check my orders, supplier emails, and delivery issues. Send me a Telegram summary in Arabic with anything that needs action.\"\n\n\"Monitor customer messages from Telegram and email, group them by issue, and draft replies in Arabic and English.\"\n\n\"Compare payment gateways for an online store selling across Egypt, Saudi Arabia, and the UAE. Check pricing, settlement times, local support, and integration effort.\"\n\n\"Watch competitor websites and social pages across the GCC, Egypt, and Jordan. Summarize new products, pricing changes, and campaigns every Sunday.\"\n\n\"Track this GitHub repo and tell me what changed before our weekly release meeting. Turn the release checklist into a reusable workflow.\"\n\n\"Research packaging suppliers in Cairo, Riyadh, Casablanca, and Dubai. Compare minimum order quantities, lead times, and estimated cost.\"\n\n\"Prepare a weekly sales follow-up list from my email threads. Separate hot leads, blocked deals, and people who need a reminder.\"\n\n\"Watch property listings in Riyadh, Cairo, Amman, and Dubai. Alert me when prices change or a comparable unit appears.\"\n\n\"Track tenders and procurement announcements in my sector. Summarize relevant opportunities and deadlines each week.\"\n\n\"Research cafés, clinics, or boutiques launching new branches in my city. Build a short partnership or sales prospect list.\"\n```\n\n---\n\n## Quick Install\n\nmacOS, Linux, WSL2, and Termux:\n\n```bash\ncurl -fsSL https://www.estacoda.com/install.sh | bash\n```\n\nThe installer creates a managed-source install, symlinks a wrapper to `~/.local/bin/estacoda`, and adds PATH\n\nFor the full setup flow, see the [Quickstart](https://www.estacoda.com/docs/getting-started/quickstart).\n\n---\n\n## First Run\n\n```bash\nestacoda         # start onboarding; launch an interactive session when setup is ready\n```\n\nOn a fresh install, `estacoda` opens the Onboarding Wizard directly. It walks through provider selection, endpoint or credential setup where needed, security mode, and optional capabilities, then shows the proposed configuration before anything is written. Later runs launch the interactive session; use `estacoda setup` to review, edit, or repair configuration.\n\n---\n\n## Common Commands\n\n```bash\nestacoda                       # start a fresh terminal session\nestacoda -c                    # explicitly continue the last session for this profile and workspace\nestacoda --continue            # long form of -c\nestacoda sessions              # choose a resumable session interactively\nestacoda sessions open <id>    # resume a known session by id\nestacoda setup                 # review, edit, or repair setup\nestacoda update                # update using the current install method\nestacoda update --check        # check for updates without modifying files\nestacoda uninstall             # remove install code and wrappers; keep user data\nestacoda uninstall --purge     # remove install code and user data\nestacoda whatsapp              # start the WhatsApp setup wizard\n```\n\nFor the full command surface, see [CLI Commands](https://www.estacoda.com/docs/reference/cli-commands).\n\n---\n\n## Capability and Maturity\n\nEstaCoda distinguishes between live-proven, configurable, experimental, and emerging functionality. The root README gives the short version; the docs contain the full setup and troubleshooting details.\n\n### LLM Providers\n\n| Provider | Maturity |\n|---|---|\n| OpenAI | Live-proven |\n| Kimi | Live-proven |\n| DeepSeek | Live-proven |\n| OpenRouter | Live-proven |\n| Google | Configurable |\n| Local / custom endpoint | Supported through OpenAI-compatible local or custom endpoints, with optional API key auth |\n\nUse the built-in `local` provider for Ollama, LM Studio, llama.cpp, vLLM, or another OpenAI-compatible local/custom endpoint. Custom OpenAI-compatible providers remain available when you need a separate named provider ID with an explicit `baseUrl`. Catalog-known providers are not automatically runnable; check the provider reference before treating one as a primary route.\n\n### Channels\n\n| Channel | Maturity |\n|---|---|\n| CLI | Primary |\n| Telegram | Live-proven |\n| WhatsApp | Operational with external API risk; gated by `channels.whatsapp.experimental: true` |\n| Discord | Implemented and test-backed; operator validation required |\n| Email | Implemented and test-backed; operator validation required |\n\nWhatsApp uses an isolated Baileys bridge under `scripts/whatsapp-bridge/`. The bridge dependencies are managed separately and are not part of the root pnpm workspace. See the channel docs for setup, authorization, pairing, and delivery behavior.\n\n### Other Capabilities\n\n| Capability | Status |\n|---|---|\n| Arabic terminal support | Supported with shaped, bidirectional Arabic rendering for terminal workflows. |\n| Browser automation | Local CDP is supported, including supervised background or visible Chrome/Chromium auto-launch. Browserbase is implemented behind explicit cloud spend approval. |\n| Web research | Guarded built-in fetch/extraction is supported. Additional search providers are registered but not all are live-supported. |\n\n---\n\n\n\n---\n\n\n\n\n```bash\n~/.estacoda/active-profile.json\n```\n```bash\ngit clone https://github.com/sifr01-labs/EstaCoda.git\ncd EstaCoda\n./scripts/setup-estacoda.sh\n```\n```bash\nestacoda\n```\n```bash\nestacoda update\n```\n```bash\nestacoda update --check    # report availability without modifying files\nestacoda update --yes      # apply without interactive confirmation where safe\nestacoda update --gateway  # run in non-interactive service mode\n```\n```bash\nestacoda uninstall               # remove install code and wrappers; keep user data\nestacoda uninstall --purge --yes  # also remove user data\n```"
+  },
+  "pkg": {
+    "byteSize": 3756,
+    "text": "{\n  \"name\": \"estacoda\",\n  \"version\": \"0.1.0\",\n  \"private\": false,\n  \"type\": \"module\",\n  \"packageManager\": \"pnpm@10.33.0\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/sifr01-labs/EstaCoda.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/sifr01-labs/EstaCoda/issues\"\n  },\n  \"homepage\": \"https://www.estacoda.com\",\n  \"engines\": {\n    \"node\": \">=22.18.0\"\n  },\n  \"publishConfig\": {\n    \"access\": \"public\"\n  },\n  \"files\": [\n    \"dist\",\n    \"skills\",\n    \"assets\",\n    \"workers\",\n    \"acp_registry\",\n    \"scripts/install.sh\",\n    \"scripts/setup-estacoda.sh\",\n    \"scripts/uninstall.sh\",\n    \"scripts/estacoda-wrapper.sh\",\n    \"scripts/whatsapp-bridge/package.json\",\n    \"scripts/whatsapp-bridge/package-lock.json\",\n    \"scripts/whatsapp-bridge/bridge.js\",\n    \"scripts/whatsapp-bridge/README.md\",\n    \"README.md\",\n    \"LICENSE\",\n    \"NOTICE\",\n    \"package.json\"\n  ],\n  \"bin\": {\n    \"estacoda\": \"./dist/index.js\"\n  },\n  \"scripts\": {\n    \"skills:catalog\": \"tsx scripts/build-skills-catalog.ts\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"clean:dist\": \"node scripts/clean-dist.mjs\",\n    \"build\": \"pnpm run clean:dist && tsc -p tsconfig.build.json\",\n    \"verify:local-bin\": \"pnpm run build && head -n 1 dist/index.js && node dist/index.js --version && node dist/index.js --help\",\n    \"pack:dry-run\": \"pnpm run build && npm pack --dry-run\",\n    \"verify:package-bin\": \"scripts/verify-package-bin.sh\",\n    \"validate:install\": \"scripts/validate-install-update.sh\",\n    \"validate:source-install\": \"scripts/validate-source-install.sh\",\n    \"validate:uninstall\": \"pnpm exec vitest run src/lifecycle/uninstall.test.ts src/cli/uninstall-command.test.ts\",\n    \"validate:docker\": \"scripts/validate-docker-image.sh\",\n    \"validate:homebrew\": \"scripts/validate-homebrew-handoff.sh\",\n    \"start\": \"node dist/index.js\",\n    \"dev\": \"node --import tsx src/index.ts\",\n    \"dev:bun\": \"bun src/index.ts\",\n    \"smoke\": \"node --import tsx src/smoke.ts\",\n    \"smoke:dist\": \"node dist/smoke.js\",\n    \"smoke:bun\": \"bun src/smoke.ts\",\n    \"benchmark:smoke\": \"vitest run --config vitest.node.config.ts src/benchmark/local-smoke.test.ts src/benchmark/native-runtime-evals.test.ts src/benchmark/trajectory-scenario-evals.test.ts src/benchmark/cross-session-memory-evals.test.ts\",\n    \"benchmark:operator-smoke\": \"vitest run --config vitest.node.config.ts src/benchmark/operator-suite.test.ts\",\n    \"benchmark:terminal-bench:adapter-test\": \"python3 -m unittest benchmarks.terminal_bench.harbor_agent_test\",\n    \"audit:esm\": \"node scripts/audit-esm.mjs dist\",\n    \"audit:runtime-imports\": \"node scripts/audit-runtime-imports.mjs\",\n    \"test\": \"vitest run --config vitest.node.config.ts\",\n    \"test:node\": \"vitest run --config vitest.node.config.ts\",\n    \"test:bun\": \"bun ./node_modules/vitest/vitest.mjs run\",\n    \"alpha:harness\": \"node --import tsx scripts/internal-alpha.ts\",\n    \"alpha:harness:bun\": \"bun scripts/internal-alpha.ts\",\n    \"eval:substrate\": \"node --import tsx scripts/eval-substrate.ts\",\n    \"eval:substrate:bun\": \"bun scripts/eval-substrate.ts\",\n    \"eval:fixtures\": \"node --import tsx scripts/run-eval-fixtures.ts\",\n    \"eval:vision:fixtures\": \"node --import tsx scripts/generate-vision-evaluation-fixtures.ts\",\n    \"eval:vision:live\": \"node --import tsx scripts/run-vision-live-evaluation.ts\",\n    \"provider:hardening\": \"node --import tsx scripts/provider-hardening.ts\",\n    \"provider:hardening:bun\": \"bun scripts/provider-hardening.ts\"\n  },\n  \"devDependencies\": {\n    \"@types/better-sqlite3\": \"^7.6.13\",\n    \"@types/node\": \"^25.6.0\",\n    \"tsx\": \"^4.20.6\",\n    \"typescript\": \"^5.8.0\",\n    \"vitest\": \"^4.1.5\"\n  },\n  \"dependencies\": {\n    \"better-sqlite3\": \"^12.10.0\",\n    \"bidi-js\": \"^1.0.3\",\n    \"discord.js\": \"^14.27.0\",\n    \"sharp\": \"^0.35.3\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 44094
+  },
+  "claude": null
+}

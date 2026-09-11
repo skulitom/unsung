@@ -1,0 +1,401 @@
+{
+  "id": "R_kgDOUPR2ZA",
+  "nameWithOwner": "imythu/kirara",
+  "description": "云母 Kirara：面向 PT 用户的影视订阅、资源搜索、下载与自动化管理工具。原 rflush 项目的后续维护仓库。",
+  "homepageUrl": "https://github.com/imythu/kirara#readme",
+  "createdAt": "2026-09-05T13:03:59Z",
+  "pushedAt": "2026-09-10T15:19:08Z",
+  "diskUsage": 15131,
+  "stargazerCount": 9,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 4724983,
+    "edges": [
+      {
+        "size": 3097783,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 950761,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 654316,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 6438,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 5606,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 3881,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 3673,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1791,
+        "node": {
+          "name": "PowerShell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 21
+  },
+  "tags": {
+    "totalCount": 21
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "imythu",
+    "__typename": "User",
+    "createdAt": "2018-04-15T03:25:01Z",
+    "repositories": {
+      "totalCount": 20
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 159,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T15:18:32Z",
+            "messageHeadline": "feat(rss): add persistent rule-based RSS downloader",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T15:36:41Z",
+            "messageHeadline": "chore(release): prepare 2.4.4 [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T15:35:52Z",
+            "messageHeadline": "fix(downloaders): filter analysis by tags and categories and correct …",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T14:26:56Z",
+            "messageHeadline": "chore(release): prepare 2.4.3 [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T14:26:15Z",
+            "messageHeadline": "feat(sites): show last sync time beside sync status",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T14:20:01Z",
+            "messageHeadline": "fix(nexusphp): parse available invites from scoped profile fields",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T14:01:55Z",
+            "messageHeadline": "fix(downloaders): enable path analysis and display torrent metadata",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T16:51:36Z",
+            "messageHeadline": "chore(release): prepare 2.4.2 [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T16:37:22Z",
+            "messageHeadline": "fix(sign-in): wait after BrowserQL conditional submission",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:16:57Z",
+            "messageHeadline": "chore(release): prepare 2.4.1 [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:13:30Z",
+            "messageHeadline": "fix(ui): contain hidden labels within the content scroller",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:04:49Z",
+            "messageHeadline": "feat(sign-in): add batch creation and enforce one task per site",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T10:01:26Z",
+            "messageHeadline": "fix(search): preserve asset hashes on Windows checkout [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:45:21Z",
+            "messageHeadline": "chore(release): prepare 2.4.0 and optimize packaging [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:35:44Z",
+            "messageHeadline": "chore: remove ui-ux-pro-max skill and fix public docs",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:26:09Z",
+            "messageHeadline": "feat(sites): add PTD import and shared-port WebDAV cookie sync",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T09:25:42Z",
+            "messageHeadline": "feat(sites): replace connection test with manual stats sync",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T08:32:29Z",
+            "messageHeadline": "feat: add offline smart search and improve site management",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T23:05:33Z",
+            "messageHeadline": "feat: route sites to dedicated signers and simplify setup for 2.3.3 […",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T18:01:52Z",
+            "messageHeadline": "feat: configurable sign-in results and submission for 2.3.1 [skip ci]",
+            "author": {
+              "user": {
+                "login": "InuYashaYa"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".codex",
+        "type": "tree"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".impeccable",
+        "type": "tree"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN.md",
+        "type": "blob"
+      },
+      {
+        "name": "PRODUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "demos",
+        "type": "tree"
+      },
+      {
+        "name": "doc",
+        "type": "tree"
+      },
+      {
+        "name": "docker",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "frontend",
+        "type": "tree"
+      },
+      {
+        "name": "kill-ports.ps1",
+        "type": "blob"
+      },
+      {
+        "name": "release-notes",
+        "type": "tree"
+      },
+      {
+        "name": "rflush.iml",
+        "type": "blob"
+      },
+      {
+        "name": "src-tauri",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "release.yml"
+      },
+      {
+        "name": "search.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 14794,
+    "text": "# 云母\n\n[![GitHub Release](https://img.shields.io/github/v/release/imythu/kirara?style=flat-square)](https://github.com/imythu/kirara/releases)\n[![Docker Image](https://img.shields.io/github/v/release/imythu/kirara?style=flat-square&label=ghcr.io)](https://github.com/imythu/kirara/pkgs/container/kirara)\n\n云母是一套面向 PT 用户的管理工具，提供自动追剧、电影订阅、多站资源搜索、qBittorrent 下载、刷流任务和站点数据总览。Windows 和 macOS 提供桌面应用，Linux 和 Docker 提供 Web 服务。\n\n云母的英文项目名为 **Kirara**，仓库、二进制、Docker 镜像和新建数据库统一使用 `kirara`。项目已从 [imythu/rflush](https://github.com/imythu/rflush) 迁移至本仓库，后续更新、问题反馈和发布均在这里进行。\n\n旧版本用户请先阅读[迁移指南](doc/migration-from-rflush.md)，保留原有数据目录即可继续使用。\n\n## 主要功能\n\n- 从 TMDB 搜索电影、电视剧和动漫并创建订阅\n- 自动识别季、集、动画绝对集和已播出目标\n- 并发搜索多个 NexusPHP、M-Team 站点\n- 解析分辨率、片源和视频编码，按质量规则筛选排序\n- 提供电视剧、电影、动漫的内置质量方案\n- 手动搜索资源，查看匹配结果、拒绝原因和质量信息\n- 自动或手动提交资源到 qBittorrent\n- 使用持久化下载队列处理重试、去重和状态对账\n- [RSS 下载](doc/rss-downloader.md)：订阅种子源，按标题与属性规则自动收取新增资源，预览判定并按需补下历史条目\n- 管理 PT 刷流任务\n- 使用公共 Lightpanda 或 Browserless 配置执行自动签到，支持单个新增和批量创建；每个站点最多一个签到任务（包括已暂停任务），批量失败项可重试\n- 升级时若已有重复签到任务，保留最早创建的一条并合并执行记录，其余配置归档至 `sign_in_tasks_duplicate_archive` 表\n- 查看 PT 站点上传量、下载量、分享率等账号数据\n- 导出站点账号总览图片\n- React Web 界面，适配桌面端和移动端\n\n配置、订阅、下载记录和运行状态保存在本地 SQLite 数据库中，路径见[数据目录](#数据目录)。\n\n## 快速开始\n\n### Windows / macOS 桌面应用\n\n从 [GitHub Releases](https://github.com/imythu/kirara/releases) 下载对应系统的安装包，并核对同一版本的 `SHA256SUMS.txt`：\n\n| 系统 | 安装包 | 使用方式 |\n| --- | --- | --- |\n| Windows x64 | `kirara-2.4.4-x86_64-pc-windows-msvc-setup.exe` | 运行安装程序，完成后从开始菜单打开 Kirara |\n| macOS Apple Silicon | `kirara-2.4.4-aarch64-apple-darwin.dmg` | 打开映像，将 Kirara 拖入“应用程序”，然后打开 |\n\n桌面应用启动后直接显示管理界面，无需打开终端或浏览器。关闭窗口后，应用会隐藏到 Windows 系统托盘或 macOS 菜单栏，自动扫描、下载队列和定时任务继续在后台运行。\n\n从托盘或菜单栏图标选择“打开主窗口”可恢复界面；再次启动 Kirara 也会打开原有窗口。需要停止服务时，请在图标菜单中选择“退出”（macOS 也可使用 `⌘Q`）。\n\n当前 Windows 安装包未配置开发者签名，macOS 使用临时签名且未经过 Apple 公证，首次打开可能出现系统的发布者验证提示。macOS 可按 [Apple 的说明](https://support.apple.com/zh-cn/102445)在“隐私与安全性”中允许打开已确认来源的应用。\n\n从 1.x 命令行版本升级时，请先按[桌面版数据迁移](#桌面版数据迁移)保留原有配置。\n\n### Linux 直接运行\n\n从 [GitHub Releases](https://github.com/imythu/kirara/releases) 下载对应架构的 `.tar.gz` 压缩包，解压后运行：\n\n```bash\n./kirara\n```\n\n默认访问地址：\n\n```text\nhttp://127.0.0.1:3000\n```\n\n常用启动参数：\n\n```text\n-H, --host <HOST>       监听地址，默认 127.0.0.1\n-p, --port <PORT>       监听端口，默认 3000\n-d, --data-dir <DIR>    数据库和运行数据目录\n```\n\n示例：\n\n```bash\n./kirara -H 127.0.0.1 -p 8080 -d ./runtime-data\n```\n\n对应环境变量为 `KIRARA_HOST`、`KIRARA_PORT` 和 `KIRARA_DATA_DIR`。\n\n### Docker\n\n正式版镜像支持 Linux `amd64` 和 `arm64`：\n\n```bash\ndocker run --name kirara \\\n  -p 127.0.0.1:3000:3000 \\\n  -v $(pwd)/data:/data \\\n  ghcr.io/imythu/kirara:2.4.4\n```\n\n自动构建提供 `latest-beta`（Linux amd64）；正式版提供 `latest`（Linux amd64 / arm64）。\n\n指定版本：\n\n```bash\ndocker run --name kirara \\\n  -p 127.0.0.1:3000:3000 \\\n  -v $(pwd)/data:/data \\\n  ghcr.io/imythu/kirara:<version>\n```\n\n容器默认使用：\n\n```text\nKIRARA_HOST=0.0.0.0\nKIRARA_PORT=3000\nKIRARA_DATA_DIR=/data\n```\n\n## 首次配置\n\nPTD 用户可点击站点管理中的「导入 PTD 配置」，按页面说明导出并选择 PTD 备份，手动导入站点 Cookie。也可在「站点管理 → 备份与同步 → Cookie 自动同步」启用内置 WebDAV 接收服务，让 PTD 定时推送后自动更新站点 Cookie。与现有 Web 服务共用端口，接收路径为 `/dav/ptd/`，首次保存生成独立连接密码；Docker 无需额外映射端口。配置方法、同步规则和部署说明见 [WebDAV Cookie 自动同步](doc/webdav-cookie-sync.md)。\n\n建议按以下顺序完成配置：\n\n1. 在“站点管理”中添加 PT 站点并测试连接。\n2. 在“下载器”中添加 qBittorrent 并测试连接。\n3. 在“自动追剧 -> 质量与设置”中填写 TMDB API Key 或 Read Access Token。\n4. 检查自动扫描间隔、搜索并发和质量配置。\n5. 从 TMDB 添加订阅，或进入“资源搜索”手动查找资源。\n\n自动追剧和资源搜索复用同一套站点、下载器和质量配置，不需要重复维护账号。\n\n## 自动追剧\n\n### 创建订阅\n\n1. 打开“自动追剧”。\n2. 进入“TMDB 添加”。\n3. 搜索影视名称并选择电影、电视剧或动漫。\n4. 电视剧选择季和起始集；动漫可使用季集编号或绝对集编号。\n5. 选择质量配置、搜索站点、下载器和保存路径。\n6. 创建订阅。\n\n创建后，系统会根据 TMDB 元数据确定当前应搜索的电影或剧集。尚未播出的集数不会提前下载；成功提交当前集后，订阅会推进到下一集。\n\n订阅支持：\n\n- 手动立即扫描\n- 暂停和恢复\n- 修改季、起始集、绝对集、站点、质量配置和下载器\n- 查看最近一次扫描使用的搜索词、候选、站点错误和拒绝原因\n- 查看关联下载任务及其状态\n\n### 自动匹配流程\n\n每次扫描会依次执行：\n\n```text\n生成搜索词\n  -> 多站并发搜索\n  -> 解析发布名称\n  -> 校验影视标题、年份、季和集\n  -> 应用质量规则\n  -> 按匹配分、质量和做种数排序\n  -> 将最佳资源加入下载队列\n```\n\n错剧、错季、错集、被禁止的质量和做种数不足属于明确拒绝条件，不会因为其它项目得分较高而被自动下载。\n\n## 质量配置\n\n新建质量配置时，可以直接选择内置方案，小白用户不需要填写专业参数：\n\n| 类型 | 方案 | 主要偏好 |\n| --- | --- | --- |\n| 电视剧 | 日常 | 1080p WEB-DL 优先，兼顾更新速度和体积 |\n| 电视剧 | 4K | 2160p WEB-DL 优先，1080p 作为备选 |\n| 电影 | 收藏 | 2160p、REMUX、BluRay 优先 |\n| 电影 | 均衡 | 1080p BluRay、WEB-DL 优先 |\n| 动漫 | 日常 | 2160p 优先，兼容常见字幕组命名 |\n| 动漫 | 省空间 | 1080p H.265、AV1 优先，拒绝 4K |\n\n高级设置可以调整：\n\n- 分辨率优先级、允许值和拒绝值\n- 片源优先级和允许值，例如 `REMUX`、`BluRay`、`WEB-DL`、`WEBRip`\n- 视频编码优先级和拒绝值，例如 `H265`、`H264`、`AV1`\n- 最低匹配分\n- 最低做种数\n\n\n\n\n\n\n```text\n./data/kirara.db\n```\n```text\n<data-dir>/kirara.db\n```\n```bash\ncargo run\n```\n```bash\ncd frontend\nnpm ci\nnpm run dev\n```\n```bash\ncd frontend\nnpm ci\nnpm run build\n\ncd ..\ncargo build --release\n```\n```bash\nnpm --prefix frontend ci\nnpm exec --prefix frontend -- tauri dev\n```\n```bash\n# Windows\nnpm exec --prefix frontend -- tauri build --bundles nsis\n\n# macOS\nnpm exec --prefix frontend -- tauri build --bundles dmg\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

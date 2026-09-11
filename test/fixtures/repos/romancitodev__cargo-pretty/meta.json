@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "romancitodev/cargo-pretty",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S3_rust_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 2461,
+    "keptBytes": 2461,
+    "excerpt": false
+  }
+}

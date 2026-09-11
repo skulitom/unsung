@@ -1,0 +1,361 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyNDI3NDMzMw==",
+  "nameWithOwner": "OCA/l10n-colombia",
+  "description": "Odoo modules for Colombia",
+  "homepageUrl": null,
+  "createdAt": "2014-09-20T20:59:11Z",
+  "pushedAt": "2026-09-04T03:16:25Z",
+  "diskUsage": 1152,
+  "stargazerCount": 15,
+  "forkCount": 51,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "AGPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 382102,
+    "edges": [
+      {
+        "size": 277824,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 97309,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 6624,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 345,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 18
+  },
+  "owner": {
+    "login": "OCA",
+    "__typename": "Organization",
+    "createdAt": "2014-05-16T07:52:36Z"
+  },
+  "defaultBranchRef": {
+    "name": "18.0",
+    "target": {
+      "history": {
+        "totalCount": 35,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T03:16:24Z",
+            "messageHeadline": "[BOT] add or update setup/_metapackage",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:16:24Z",
+            "messageHeadline": "[ADD] icon.png",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:16:24Z",
+            "messageHeadline": "[UPD] README.rst",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T03:16:23Z",
+            "messageHeadline": "[UPD] addons table in README.md",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:05:26Z",
+            "messageHeadline": "[UPD] Update l10n_co_withholding.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:05:25Z",
+            "messageHeadline": "[UPD] Update l10n_co_verification_digit.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:05:23Z",
+            "messageHeadline": "[UPD] Update l10n_co_economic_activities.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-02T18:02:46Z",
+            "messageHeadline": "[ADD] l10n_co_verification_digit: Compute NIT verification digit (#28)",
+            "author": {
+              "user": {
+                "login": "juanparmer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-11T19:04:20Z",
+            "messageHeadline": "[UPD] Update l10n_co_electronic_invoice_self.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-11T19:04:18Z",
+            "messageHeadline": "[UPD] Update l10n_co_check_vat.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-11T19:01:50Z",
+            "messageHeadline": "[BOT] add or update setup/_metapackage",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-11T19:01:50Z",
+            "messageHeadline": "[UPD] addons table in README.md",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-11T19:01:46Z",
+            "messageHeadline": "Merge pull request #27 from juanparmer/18.0",
+            "author": {
+              "user": {
+                "login": "yanchirino"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-04T21:40:07Z",
+            "messageHeadline": "[18.0][IMP] l10n_co_check_vat: use double quotes for string consistency",
+            "author": {
+              "user": {
+                "login": "juanparmer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-04T21:35:31Z",
+            "messageHeadline": "[ADD] l10n_co_check_vat: add Colombian VAT validator for res.partner",
+            "author": {
+              "user": {
+                "login": "juanparmer"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T21:36:52Z",
+            "messageHeadline": "[UPD] Update l10n_co_electronic_invoice_self.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-04-03T21:36:51Z",
+            "messageHeadline": "[UPD] Update l10n_co_electronic_invoice.pot",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-04-03T21:34:24Z",
+            "messageHeadline": "[BOT] add or update setup/_metapackage",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T21:34:24Z",
+            "messageHeadline": "[UPD] README.rst",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T21:34:23Z",
+            "messageHeadline": "[UPD] addons table in README.md",
+            "author": {
+              "user": {
+                "login": "OCA-git-bot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".copier-answers.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".pylintrc",
+        "type": "blob"
+      },
+      {
+        "name": ".pylintrc-mandatory",
+        "type": "blob"
+      },
+      {
+        "name": ".ruff.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "checklog-odoo.cfg",
+        "type": "blob"
+      },
+      {
+        "name": "eslint.config.cjs",
+        "type": "blob"
+      },
+      {
+        "name": "l10n_co_check_vat",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_currency_rate_update",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_economic_activities",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_electronic_invoice",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_electronic_invoice_self",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_verification_digit",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_withholding",
+        "type": "tree"
+      },
+      {
+        "name": "l10n_co_withholding_advance",
+        "type": "tree"
+      },
+      {
+        "name": "prettier.config.cjs",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "setup",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "pre-commit.yml"
+      },
+      {
+        "name": "stale.yml"
+      },
+      {
+        "name": "test.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3438,
+    "text": "\n[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/l10n-colombia&target_branch=18.0)\n[![Pre-commit Status](https://github.com/OCA/l10n-colombia/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/l10n-colombia/actions/workflows/pre-commit.yml?query=branch%3A18.0)\n[![Build Status](https://github.com/OCA/l10n-colombia/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/l10n-colombia/actions/workflows/test.yml?query=branch%3A18.0)\n[![codecov](https://codecov.io/gh/OCA/l10n-colombia/branch/18.0/graph/badge.svg)](https://codecov.io/gh/OCA/l10n-colombia)\n[![Translation Status](https://translation.odoo-community.org/widgets/l10n-colombia-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/l10n-colombia-18-0/?utm_source=widget)\n\n<!-- /!\\ do not modify above this line -->\n\n# l10n-colombia\n\nl10n-colombia\n\n<!-- /!\\ do not modify below this line -->\n\n<!-- prettier-ignore-start -->\n\n[//]: # (addons)\n\nAvailable addons\n----------------\naddon | version | maintainers | summary\n--- | --- | --- | ---\n[l10n_co_check_vat](l10n_co_check_vat/) | 18.0.1.0.0 | <a href='https://github.com/juanparmer'><img src='https://github.com/juanparmer.png' width='32' height='32' style='border-radius:50%;' alt='juanparmer'/></a> | Colombian NIT/VAT validation\n[l10n_co_currency_rate_update](l10n_co_currency_rate_update/) | 18.0.1.0.0 |  | Tasa de cambio de Superfinanciera para Colombia\n[l10n_co_economic_activities](l10n_co_economic_activities/) | 18.0.1.0.0 | <a href='https://github.com/juanparmer'><img src='https://github.com/juanparmer.png' width='32' height='32' style='border-radius:50%;' alt='juanparmer'/></a> | Códigos de actividades económicas CIIU para Colombia\n[l10n_co_electronic_invoice](l10n_co_electronic_invoice/) | 18.0.1.0.0 |  | Campos y datos de pre-configuración para la Factura Electrónica en Colombia\n[l10n_co_electronic_invoice_self](l10n_co_electronic_invoice_self/) | 18.0.2.0.0 |  | Integración con la DIAN Colombia para la emisión de Facturas Electrónicas en modo de operación software propio\n[l10n_co_verification_digit](l10n_co_verification_digit/) | 18.0.1.0.0 | <a href='https://github.com/juanparmer'><img src='https://github.com/juanparmer.png' width='32' height='32' style='border-radius:50%;' alt='juanparmer'/></a> | Compute Colombian NIT verification digit (DIAN algorithm)\n[l10n_co_withholding](l10n_co_withholding/) | 18.0.1.0.0 | <a href='https://github.com/juanparmer'><img src='https://github.com/juanparmer.png' width='32' height='32' style='border-radius:50%;' alt='juanparmer'/></a> | Retención en la fuente (RteFte), ReteIVA y ReteICA para Colombia\n[l10n_co_withholding_advance](l10n_co_withholding_advance/) | 18.0.1.0.0 |  | Soporte para retenciones anticipadas en la contabilidad colombiana.\n\n[//]: # (end addons)\n\n<!-- prettier-ignore-end -->\n\n## Licenses\n\nThis repository is licensed under [AGPL-3.0](LICENSE).\n\nHowever, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)\npolicy. Consult each module's `__manifest__.py` file, which contains a `license` key\nthat explains its license.\n\n----\nOCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit\norganization whose mission is to support the collaborative development of Odoo features\nand promote its widespread use.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

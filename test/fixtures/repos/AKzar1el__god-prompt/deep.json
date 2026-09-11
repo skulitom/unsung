@@ -1,0 +1,102 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 1,
+    "nodes": [
+      {
+        "tagName": "v1.0.0",
+        "publishedAt": "2026-03-21T03:22:44Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-11T00:52:50Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T00:29:01Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T00:03:17Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-10T22:59:52Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-10T22:37:09Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-10T21:54:46Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-10T18:32:12Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-10T17:08:37Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-29T00:03:28Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-29T00:00:05Z",
+        "author": {
+          "login": "AKzar1el",
+          "createdAt": "2022-04-26T11:25:15Z"
+        }
+      }
+    ]
+  }
+}

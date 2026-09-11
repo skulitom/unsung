@@ -1,0 +1,56 @@
+{
+  "version": "w2",
+  "signals": {
+    "q.licence": { "points": 1, "kind": "quality" },
+    "q.readme": { "points": 1, "kind": "quality" },
+    "q.usage": { "points": 1, "kind": "quality" },
+    "q.ci": { "points": 1, "kind": "quality" },
+    "q.manifest": { "points": 1, "kind": "quality" },
+    "q.deps": { "points": 1, "kind": "quality" },
+    "q.tests": { "points": 1, "kind": "quality" },
+    "q.code": { "points": 1, "kind": "quality" },
+    "q.release": { "points": 1, "kind": "quality" },
+    "q.examples": { "points": 1, "kind": "quality" },
+    "p.testsRun": { "points": 1, "kind": "proof", "provisional": true },
+    "p.shipped": { "points": 1, "kind": "proof", "provisional": true },
+    "p.coherent": { "points": 1, "kind": "proof", "provisional": true },
+    "s.incoherent": { "points": 0, "kind": "slop" },
+    "s.webui": { "points": -2, "kind": "slop" },
+    "s.template": { "points": -2, "kind": "slop" },
+    "s.prose": { "points": -2, "kind": "slop", "group": "prose" },
+    "s.mdheavy": { "points": -1, "kind": "slop", "group": "prose" },
+    "s.junk": { "points": -1, "kind": "slop" },
+    "s.farm": { "points": -1, "kind": "slop" },
+    "s.cloneUrl": { "points": -1, "kind": "slop", "provisional": true },
+    "llm.review": { "points": { "promote": 1, "demote": -2 }, "kind": "judge" }
+  },
+  "confidence": {
+    "k.owner": { "group": "owner", "max": 0.3 },
+    "k.time": { "group": "time", "max": 0.25 },
+    "k.pushDays": { "group": "time", "max": 0.4 },
+    "k.releases": { "group": "releases", "max": 0.3 },
+    "k.outsiders": { "group": "people", "max": 0.45, "each": 0.15 },
+    "k.ciVerified": { "group": "ci", "max": 0.15 }
+  },
+  "bands": { "gem": 7, "look": 5 },
+  "gem": { "kWeight": 1.5, "aWeight": 1.5 },
+  "attention": { "saturation": 25 },
+  "eligibility": { "maxStars": 25, "risingGain4w": 10 },
+  "institutions": { "orgMinRepos": 100 },
+  "confidenceBands": { "medium": 0.3, "high": 0.6 },
+  "lanes": { "provenK": 0.5 },
+  "changelog": [
+    {
+      "version": "w1",
+      "date": "2026-09-11",
+      "change": "Initial weights: unit points for the ten quality signals, provisional +1 proof signals, the slop penalties, the judge at +1/-2, and the thresholds of DESIGN sections 5 and 6.",
+      "evidence": "Pooled AUC 0.962 and uniform AUC 0.945 on the 149 research labels (research/raw/haystack/final_eval.py); unit weights, not fitted ones, because only 9 uniform positives exist."
+    },
+    {
+      "version": "w2",
+      "date": "2026-09-11",
+      "change": "Retired the provisional s.incoherent (at least 5 checkable references cited in the README and under 40% of them resolve) from -1 to 0 points. It is still evaluated and shown as a chip, 'README cites missing files', but it adds nothing to S, pointsMax or coverage, and it is no longer provisional.",
+      "evidence": "Of the five known firings, four are on repositories labelled G and one is on a re-upload, where the missing paths were runtime outputs rather than false claims. First live run (review finding scoring-3): a genuine Debian packaging tool (3 of 14 resolve; blind label G) and a re-upload of another author's project (1 of 8; blind label C); both READMEs document files the tool itself generates. Blind-check deep experiment (research/blind-check-2026-09-11.md): a genuine Android and ESP32 project, label G, lost 1 point to it. Recorded fixtures: it fires only on the seed gems codefly-dev/cli (3 of 11 resolve) and montezuma-p/harken (2 of 6), both G, and on no red-team fixture. It cannot fire on the 149 research snapshots (no file tree), so the pooled and uniform AUC (0.961 / 0.945), the Goodhart AUC (0.437 / 0.322) and the calibration fit do not move (unsung eval --labels fixtures, before and after)."
+    }
+  ]
+}

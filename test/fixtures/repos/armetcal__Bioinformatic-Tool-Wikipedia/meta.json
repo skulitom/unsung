@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "armetcal/Bioinformatic-Tool-Wikipedia",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 107,
+    "keptBytes": 107,
+    "excerpt": false
+  }
+}

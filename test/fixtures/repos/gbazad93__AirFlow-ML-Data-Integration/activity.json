@@ -1,0 +1,602 @@
+[
+  {
+    "id": 41110874013,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:06:29Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110835137,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:05:52Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110796523,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:05:16Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110756434,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:04:39Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110718834,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:04:03Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110639724,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:02:49Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110552604,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:01:30Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110468672,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T01:00:19Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41110408906,
+    "ref": "refs/heads/gbazad93-patch-9",
+    "timestamp": "2026-08-25T00:59:26Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110358848,
+    "ref": "refs/heads/gbazad93-patch-8",
+    "timestamp": "2026-08-25T00:58:36Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110309175,
+    "ref": "refs/heads/gbazad93-patch-7",
+    "timestamp": "2026-08-25T00:57:45Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110256111,
+    "ref": "refs/heads/gbazad93-patch-6",
+    "timestamp": "2026-08-25T00:56:53Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110188765,
+    "ref": "refs/heads/gbazad93-patch-5",
+    "timestamp": "2026-08-25T00:55:45Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110139272,
+    "ref": "refs/heads/gbazad93-patch-4",
+    "timestamp": "2026-08-25T00:54:56Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41110049979,
+    "ref": "refs/heads/gbazad93-patch-3",
+    "timestamp": "2026-08-25T00:53:26Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41109997074,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2026-08-25T00:52:33Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41109942845,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T00:51:39Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41109798179,
+    "ref": "refs/heads/gbazad93-patch-1",
+    "timestamp": "2026-08-25T00:49:17Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40887802544,
+    "ref": "refs/heads/fix/dag-start-date-syntax",
+    "timestamp": "2026-08-23T01:31:48Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887802009,
+    "ref": "refs/heads/fix/locations-csv-path",
+    "timestamp": "2026-08-23T01:31:48Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887800347,
+    "ref": "refs/heads/fix/openweather-metric-units",
+    "timestamp": "2026-08-23T01:31:46Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887799575,
+    "ref": "refs/heads/chore/timezone-aware-utcnow",
+    "timestamp": "2026-08-23T01:31:44Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887797742,
+    "ref": "refs/heads/chore/schedule-argument",
+    "timestamp": "2026-08-23T01:31:43Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887795711,
+    "ref": "refs/heads/perf/batch-insert-rows",
+    "timestamp": "2026-08-23T01:31:41Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887795416,
+    "ref": "refs/heads/docs/add-mit-license",
+    "timestamp": "2026-08-23T01:31:40Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887793985,
+    "ref": "refs/heads/chore/add-requirements",
+    "timestamp": "2026-08-23T01:31:39Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887792714,
+    "ref": "refs/heads/chore/add-gitignore",
+    "timestamp": "2026-08-23T01:31:37Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887781437,
+    "ref": "refs/heads/test/dag-integrity",
+    "timestamp": "2026-08-23T01:31:25Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887780740,
+    "ref": "refs/heads/ci/github-actions",
+    "timestamp": "2026-08-23T01:31:24Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887780009,
+    "ref": "refs/heads/docs/readme-badges-quickstart",
+    "timestamp": "2026-08-23T01:31:23Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887779378,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:31:22Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887777853,
+    "ref": "refs/heads/feat/docker-compose",
+    "timestamp": "2026-08-23T01:31:21Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40887547903,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:27:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40887430637,
+    "ref": "refs/heads/feat/docker-compose",
+    "timestamp": "2026-08-23T01:24:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887401393,
+    "ref": "refs/heads/feat/docker-compose",
+    "timestamp": "2026-08-23T01:24:23Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887376006,
+    "ref": "refs/heads/feat/docker-compose",
+    "timestamp": "2026-08-23T01:23:55Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887359030,
+    "ref": "refs/heads/feat/docker-compose",
+    "timestamp": "2026-08-23T01:23:36Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40887197206,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:20:37Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40887139997,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:19:37Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887125586,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:19:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887095777,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:18:48Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887071189,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:18:20Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40887017789,
+    "ref": "refs/heads/docs/community-health",
+    "timestamp": "2026-08-23T01:17:21Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886966153,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:16:22Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886925699,
+    "ref": "refs/heads/docs/readme-badges-quickstart",
+    "timestamp": "2026-08-23T01:15:38Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886850005,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:14:15Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886725595,
+    "ref": "refs/heads/ci/github-actions",
+    "timestamp": "2026-08-23T01:11:58Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886662372,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:10:48Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886615964,
+    "ref": "refs/heads/test/dag-integrity",
+    "timestamp": "2026-08-23T01:09:59Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886573425,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:09:11Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886528572,
+    "ref": "refs/heads/chore/add-gitignore",
+    "timestamp": "2026-08-23T01:08:22Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886495184,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:07:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886449657,
+    "ref": "refs/heads/chore/add-requirements",
+    "timestamp": "2026-08-23T01:06:56Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886417982,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:06:20Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886372731,
+    "ref": "refs/heads/docs/add-mit-license",
+    "timestamp": "2026-08-23T01:05:33Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886338387,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:04:56Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40886292898,
+    "ref": "refs/heads/perf/batch-insert-rows",
+    "timestamp": "2026-08-23T01:04:08Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40886233925,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T01:03:05Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40885999655,
+    "ref": "refs/heads/chore/schedule-argument",
+    "timestamp": "2026-08-23T00:59:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40885970549,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T00:58:40Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40885919863,
+    "ref": "refs/heads/chore/timezone-aware-utcnow",
+    "timestamp": "2026-08-23T00:57:44Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40885887819,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T00:57:07Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40885770427,
+    "ref": "refs/heads/fix/openweather-metric-units",
+    "timestamp": "2026-08-23T00:54:59Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40885724706,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T00:54:08Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40885660442,
+    "ref": "refs/heads/fix/locations-csv-path",
+    "timestamp": "2026-08-23T00:53:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40885594123,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-23T00:51:51Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40885525081,
+    "ref": "refs/heads/fix/dag-start-date-syntax",
+    "timestamp": "2026-08-23T00:50:40Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 23395137140,
+    "ref": "refs/heads/gbazad93-patch-1",
+    "timestamp": "2025-03-26T13:55:50Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 22314826351,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-25T22:34:22Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 22314815597,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-25T22:32:27Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 22314702466,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-25T22:15:52Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 22085570571,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-12T04:33:48Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 22085569742,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-12T04:33:39Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 22085567804,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-12T04:33:20Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 22085539256,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-12T04:28:26Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 22085538504,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-12T04:28:17Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 22085534962,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-12T04:27:37Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 21980930029,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:31:23Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980925360,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:30:31Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980909461,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:27:31Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980908093,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:27:15Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980907372,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:27:07Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980906551,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:26:58Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980876870,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:21:07Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980862464,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:18:31Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 21980862173,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:18:28Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 21980860873,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:18:16Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980860893,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:18:15Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 21980857384,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:17:39Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 21980856750,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:17:32Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 21980855352,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:17:19Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980855227,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:17:18Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 21980853160,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:56Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 21980852708,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:16:51Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 21980851711,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:42Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980851689,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:41Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 21980849890,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:22Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 21980849656,
+    "ref": "refs/heads/main",
+    "timestamp": "2025-01-05T23:16:18Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 21980848693,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:08Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 21980848646,
+    "ref": "refs/heads/gbazad93-patch-2",
+    "timestamp": "2025-01-05T23:16:08Z",
+    "activity_type": "branch_creation"
+  }
+]

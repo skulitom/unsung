@@ -1,0 +1,123 @@
+{
+  "nameWithOwner": "arusrangra13/Fare-compare-in-travel",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T14:22:30Z",
+  "pushedAt": "2026-09-08T18:41:20Z",
+  "diskUsage": 8806,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Java"
+  },
+  "languages": {
+    "totalSize": 238164,
+    "edges": [
+      {
+        "size": 159986,
+        "node": {
+          "name": "Java"
+        }
+      },
+      {
+        "size": 73136,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 5042,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "arusrangra13",
+    "__typename": "User",
+    "createdAt": "2025-02-25T06:07:22Z",
+    "repositories": {
+      "totalCount": 16
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T18:41:20Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "SDummie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:31:57Z",
+            "messageHeadline": "Initial commit of full project",
+            "author": {
+              "user": {
+                "login": "arusrangra13"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "CabFareComparison",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "database",
+        "type": "tree"
+      },
+      {
+        "name": "practice",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 740,
+    "text": "<h2>Description:</h2>\n\nThis is a dynamic website which is based on J2EE, this compares the fare of your ride based upon the source and destination address. \nIt uses current taxi providers like Uber, Rapido etc to generate it's data for comparison.\n\nBy following the steps given below you can use the Web app according to your search fare.\n\n \n\n<h2>Pre-requisites:</h2>\n\n·      MySql Connector\n\n·      Eclipse\n\n·      Apache tomcat server\n\n·      predefined libraries\n\n<h2>Step to follow:</h2>\n\n1.  First of all, open the practice folder.\n\n2.  Then deploy newhome.html in your respective system.\n\n\n<strong>Note:</strong> In order to deploy this project completely you have to create your database according to source code of the project.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

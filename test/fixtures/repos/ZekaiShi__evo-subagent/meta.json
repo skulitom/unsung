@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "ZekaiShi/evo-subagent",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S8_aiagent",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 5261,
+    "keptBytes": 5261,
+    "excerpt": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "timorunge/espanso-misspell",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S4_go_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 2145,
+    "keptBytes": 2145,
+    "excerpt": false
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "nameWithOwner": "Olli9/transfer-assignment",
+  "description": "Transfer assignment for the course \"Data Literacy: Introduction to Git\".",
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T14:22:25Z",
+  "pushedAt": "2026-09-08T16:53:04Z",
+  "diskUsage": 315,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Olli9",
+    "__typename": "User",
+    "createdAt": "2021-08-08T19:25:00Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 21,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T16:40:56Z",
+            "messageHeadline": "Fix first two headings.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:37:24Z",
+            "messageHeadline": "Add 5-th weakness of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:37:04Z",
+            "messageHeadline": "Add 4-th weakness of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:36:33Z",
+            "messageHeadline": "Add 3-rd weakness of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:35:04Z",
+            "messageHeadline": "Add 2-nd weakness of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:34:20Z",
+            "messageHeadline": "Add 1-st weakness of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:25:53Z",
+            "messageHeadline": "Add 5-th strength of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:25:25Z",
+            "messageHeadline": "Add 4-th strength of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:24:49Z",
+            "messageHeadline": "Add 3-rd strength of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:24:09Z",
+            "messageHeadline": "Add 2-nd strength of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:22:58Z",
+            "messageHeadline": "Add 1-st strength of Git.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:11:53Z",
+            "messageHeadline": "Create two headings “Strengths” and “Weaknesses”.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:05:12Z",
+            "messageHeadline": "Add empty file strengths_and_weaknesses.md.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:04:09Z",
+            "messageHeadline": "Add also the Transfer Assignment file \"Introduction to git\".",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:01:58Z",
+            "messageHeadline": "Do also level 4: Git rebasing.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:31:37Z",
+            "messageHeadline": "Complete levels 1 - 3 in the introduction sequence from https://learn…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T15:15:37Z",
+            "messageHeadline": "Update Answer to \"6. Create new branches with ...\".",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:53:29Z",
+            "messageHeadline": "Answer the questions in how-to-use-git.md",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:44:03Z",
+            "messageHeadline": "Add file how-to-use-git.md with questions.",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:31:14Z",
+            "messageHeadline": "Add empty file \"how-to-use-git.md\".",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "how-to-use-git.md",
+        "type": "blob"
+      },
+      {
+        "name": "solution-overview.png",
+        "type": "blob"
+      },
+      {
+        "name": "solution-to-task3.png",
+        "type": "blob"
+      },
+      {
+        "name": "solution-to-task4.png",
+        "type": "blob"
+      },
+      {
+        "name": "strengths_and_weaknesses.md",
+        "type": "blob"
+      },
+      {
+        "name": "transfer-assignment-introduction.pdf",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 22,
+    "text": "# transfer-assignment\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

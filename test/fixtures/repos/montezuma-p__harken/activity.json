@@ -1,0 +1,596 @@
+[
+  {
+    "id": 42137354874,
+    "ref": "refs/heads/dependabot/cargo/sha2-0.11.0",
+    "timestamp": "2026-09-01T16:42:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 42137346397,
+    "ref": "refs/heads/dependabot/cargo/opus-0.4.0",
+    "timestamp": "2026-09-01T16:42:30Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41733011902,
+    "ref": "refs/heads/dependabot/github_actions/actions-14539f6179",
+    "timestamp": "2026-08-29T16:33:05Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41233792782,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T22:32:36Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41233452358,
+    "ref": "refs/heads/feat/mcp-warm-residue-and-schemas",
+    "timestamp": "2026-08-25T22:28:15Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41233450396,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T22:28:13Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41232817148,
+    "ref": "refs/heads/feat/mcp-warm-residue-and-schemas",
+    "timestamp": "2026-08-25T22:20:08Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41226634812,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T21:06:12Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41225780842,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:56:55Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41225681130,
+    "ref": "refs/heads/docs/best-of-and-vad",
+    "timestamp": "2026-08-25T20:55:48Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41225680343,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:55:47Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41224782998,
+    "ref": "refs/heads/docs/best-of-and-vad",
+    "timestamp": "2026-08-25T20:45:59Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41224557461,
+    "ref": "refs/heads/feat/mcp-warm",
+    "timestamp": "2026-08-25T20:43:36Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41224556425,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:43:35Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41223762630,
+    "ref": "refs/heads/feat/mcp-warm",
+    "timestamp": "2026-08-25T20:35:10Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41223644542,
+    "ref": "refs/heads/feat/sha256-verify",
+    "timestamp": "2026-08-25T20:33:56Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41223643504,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:33:55Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41223144557,
+    "ref": "refs/heads/feat/sha256-verify",
+    "timestamp": "2026-08-25T20:28:45Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41223055604,
+    "ref": "refs/heads/fix/download-integrity",
+    "timestamp": "2026-08-25T20:27:47Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41223055621,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:27:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41222361832,
+    "ref": "refs/heads/build/ureq-3",
+    "timestamp": "2026-08-25T20:20:25Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41222301100,
+    "ref": "refs/heads/fix/download-integrity",
+    "timestamp": "2026-08-25T20:19:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41221745241,
+    "ref": "refs/heads/build/ureq-3",
+    "timestamp": "2026-08-25T20:13:56Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41221010453,
+    "ref": "refs/heads/build/ureq-3",
+    "timestamp": "2026-08-25T20:06:04Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41221009300,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:06:03Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41220902967,
+    "ref": "refs/heads/fix/gpu-fallback-warning",
+    "timestamp": "2026-08-25T20:04:55Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41220901803,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:04:54Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41220896498,
+    "ref": "refs/heads/fix/malformed-glob",
+    "timestamp": "2026-08-25T20:04:51Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41220895400,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:04:50Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41220798114,
+    "ref": "refs/heads/fix/empty-decode",
+    "timestamp": "2026-08-25T20:03:47Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41220797474,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-25T20:03:46Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41164270298,
+    "ref": "refs/heads/feat/mcp-warm",
+    "timestamp": "2026-08-25T11:15:27Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41162760747,
+    "ref": "refs/heads/feat/sha256-verify",
+    "timestamp": "2026-08-25T11:01:13Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41161837613,
+    "ref": "refs/heads/fix/download-integrity",
+    "timestamp": "2026-08-25T10:52:15Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41161090176,
+    "ref": "refs/heads/build/ureq-3",
+    "timestamp": "2026-08-25T10:44:54Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41160482382,
+    "ref": "refs/heads/fix/empty-decode",
+    "timestamp": "2026-08-25T10:38:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41160482076,
+    "ref": "refs/heads/fix/malformed-glob",
+    "timestamp": "2026-08-25T10:38:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41160481758,
+    "ref": "refs/heads/docs/best-of-and-vad",
+    "timestamp": "2026-08-25T10:38:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41160481385,
+    "ref": "refs/heads/fix/gpu-fallback-warning",
+    "timestamp": "2026-08-25T10:38:57Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41063606992,
+    "ref": "refs/heads/dependabot/cargo/cargo-2dd50ea71a",
+    "timestamp": "2026-08-24T15:41:25Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41063605784,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T15:41:23Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41030660210,
+    "ref": "refs/heads/ci/exempt-bot-subjects-from-length",
+    "timestamp": "2026-08-24T10:26:04Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41030658652,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T10:26:02Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41030060624,
+    "ref": "refs/heads/ci/exempt-bot-subjects-from-length",
+    "timestamp": "2026-08-24T10:19:28Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41030040999,
+    "ref": "refs/heads/ci/exempt-bot-subjects-from-length",
+    "timestamp": "2026-08-24T10:19:15Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41028804659,
+    "ref": "refs/heads/dependabot/cargo/cargo-2dd50ea71a",
+    "timestamp": "2026-08-24T10:05:51Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41028586831,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T10:03:34Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 41027733896,
+    "ref": "refs/heads/dependabot/cargo/cargo-2dd50ea71a",
+    "timestamp": "2026-08-24T09:54:52Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41027641146,
+    "ref": "refs/heads/feat/mcp-dual-era-protocol",
+    "timestamp": "2026-08-24T09:53:54Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41027640080,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T09:53:53Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41027295432,
+    "ref": "refs/heads/dependabot/cargo/ureq-3.4.0",
+    "timestamp": "2026-08-24T09:50:18Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41027241959,
+    "ref": "refs/heads/dependabot/cargo/indicatif-0.18.6",
+    "timestamp": "2026-08-24T09:49:45Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41027241344,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T09:49:44Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41027236982,
+    "ref": "refs/heads/dependabot/cargo/zip-8.6.0",
+    "timestamp": "2026-08-24T09:49:42Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 41027236431,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-24T09:49:41Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 41027175858,
+    "ref": "refs/heads/feat/mcp-dual-era-protocol",
+    "timestamp": "2026-08-24T09:49:04Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40893986388,
+    "ref": "refs/heads/claude/harken-mcp-optimization-2btqzb",
+    "timestamp": "2026-08-23T03:16:29Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40892796755,
+    "ref": "refs/heads/feat/mcp-dual-era-protocol",
+    "timestamp": "2026-08-23T02:59:49Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40891980767,
+    "ref": "refs/heads/claude/harken-mcp-optimization-2btqzb",
+    "timestamp": "2026-08-23T02:46:28Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40881375959,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T23:40:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40879526345,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T23:10:21Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40860481038,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T18:08:09Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40859009257,
+    "ref": "refs/heads/dependabot/cargo/ureq-3.4.0",
+    "timestamp": "2026-08-22T17:46:09Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40859006003,
+    "ref": "refs/heads/dependabot/cargo/indicatif-0.18.6",
+    "timestamp": "2026-08-22T17:46:07Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40859002732,
+    "ref": "refs/heads/dependabot/cargo/zip-8.6.0",
+    "timestamp": "2026-08-22T17:46:03Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40858947391,
+    "ref": "refs/heads/dependabot/cargo/cargo-b84d8494f7",
+    "timestamp": "2026-08-22T17:45:14Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40858938831,
+    "ref": "refs/heads/dependabot/github_actions/actions-640176b5ab",
+    "timestamp": "2026-08-22T17:45:07Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40858933245,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T17:45:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40858641230,
+    "ref": "refs/heads/dependabot/github_actions/actions-640176b5ab",
+    "timestamp": "2026-08-22T17:40:34Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40858583829,
+    "ref": "refs/heads/dependabot/cargo/cargo-b84d8494f7",
+    "timestamp": "2026-08-22T17:39:43Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40858509317,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T17:38:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40857908053,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T17:30:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40856726221,
+    "ref": "refs/heads/ci/rehearse-release-builds-on-prs",
+    "timestamp": "2026-08-22T17:13:33Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40856724559,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T17:13:31Z",
+    "activity_type": "pr_merge"
+  },
+  {
+    "id": 40856266636,
+    "ref": "refs/heads/ci/rehearse-release-builds-on-prs",
+    "timestamp": "2026-08-22T17:07:02Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 40855723168,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T16:59:22Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40855337582,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T16:53:47Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40855063333,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T16:49:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40854128619,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-22T16:37:13Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40726886435,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T11:49:07Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40722787009,
+    "ref": "refs/heads/copilot/remove-whisper-rs-dependency",
+    "timestamp": "2026-08-21T11:06:09Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40722781094,
+    "ref": "refs/heads/copilot/fix-failing-github-actions-job",
+    "timestamp": "2026-08-21T11:06:05Z",
+    "activity_type": "branch_deletion"
+  },
+  {
+    "id": 40676043904,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T02:13:26Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40671613969,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T00:56:49Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40671384399,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T00:52:54Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40670953584,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T00:45:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40670771869,
+    "ref": "refs/heads/copilot/fix-failing-github-actions-job",
+    "timestamp": "2026-08-21T00:42:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40654439089,
+    "ref": "refs/heads/copilot/fix-failing-github-actions-job",
+    "timestamp": "2026-08-20T20:50:56Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40653811404,
+    "ref": "refs/heads/copilot/remove-whisper-rs-dependency",
+    "timestamp": "2026-08-20T20:43:46Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40648834039,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T19:49:35Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40627032292,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:58:29Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40625300590,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:40:57Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40623748508,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:25:30Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40623561951,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:23:41Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40622749558,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:15:45Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40622337413,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T15:11:45Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40610883751,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T13:22:02Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40609436235,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-20T13:08:40Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 40417060988,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-18T22:30:12Z",
+    "activity_type": "branch_creation"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "nameWithOwner": "arikaran1108/portfolio",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-06T19:32:52Z",
+  "pushedAt": "2026-09-06T20:07:52Z",
+  "diskUsage": 1578,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 29036,
+    "edges": [
+      {
+        "size": 23263,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 5773,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "arikaran1108",
+    "__typename": "User",
+    "createdAt": "2026-03-25T09:25:42Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T20:06:25Z",
+            "messageHeadline": "Initial portfolio commit",
+            "author": {
+              "user": {
+                "login": "arikaran1108"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "backend",
+        "type": "tree"
+      },
+      {
+        "name": "frontend",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "styles.css",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1815,
+    "text": "# ARIKARAN A Portfolio\n\nA full-stack portfolio website built with React + Vite, Node.js + Express, MongoDB, and Nodemailer.\n\n## Project structure\n\n- `frontend/` React/Vite recruiter-facing portfolio\n- `backend/` Express REST API, MongoDB models, contact controller, and routes\n- `backend/models/` Contact and Project schemas\n- `backend/controllers/` Project and contact logic\n- `backend/routes/` `/api/projects` and `/api/contact`\n\n## Requirements\n\nNode.js 18+, npm, MongoDB Atlas or a local MongoDB instance.\n\n## Setup\n\n1. Install dependencies:\n   ```bash\n   cd backend && npm install\n   cd ../frontend && npm install\n   ```\n2. Create `backend/.env` from `backend/.env.example`:\n   ```env\n   PORT=5000\n   MONGO_URI=your_mongodb_connection_string\n   EMAIL_USER=arikaran1108@gmail.com\n   EMAIL_PASSWORD=your_gmail_app_password\n   ```\n3. In Google Account security, enable 2-Step Verification, create a Gmail App Password, and place the generated 16-character value in `EMAIL_PASSWORD`. Never commit `.env`.\n4. Start the API:\n   ```bash\n   cd backend\n   npm run dev\n   ```\n5. Start the frontend in another terminal:\n   ```bash\n   cd frontend\n   npm run dev\n   ```\n\nDuring Vite development, `/api` requests are proxied to `http://localhost:5000`, so the frontend and backend work together without hardcoded API URLs. When `MONGO_URI` is configured, submitted messages are saved to MongoDB and emailed to `EMAIL_USER`. Without it, the project endpoint still serves its built-in portfolio data for local UI work.\n\n## API\n\n- `GET /api/projects` returns portfolio projects\n- `POST /api/contact` validates, stores, and emails `{ name, email, subject, message }`\n- `GET /api/contact` returns messages for admin use; protect this route with authentication before deploying publicly\n- `GET /api/health` returns service status\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

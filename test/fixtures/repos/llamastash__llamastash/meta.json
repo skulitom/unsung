@@ -1,0 +1,26 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:17:23Z",
+  "nwo": "llamastash/llamastash",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 41703,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "deep": {
+    "recordedAt": "2026-09-11T15:17:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/publish-aur-manual.yml",
+      ".github/workflows/publish-cargo-manual.yml",
+      "Cargo.toml"
+    ],
+    "treeEntries": 764,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 100,
+    "stars": true
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "07prajwal2000/streamer": {
+    "cat": "G",
+    "flags": [],
+    "note": "Wails desktop GUI for Kafka/NATS; emoji-and-badge README over real code",
+    "stratum": "search"
+  },
+  "AKzar1el/god-prompt": {
+    "cat": "S",
+    "flags": [],
+    "note": "a 1,145-line prompt plus a US$49 upsell",
+    "stratum": "search"
+  },
+  "alphagov/notifications-utils": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "GOV.UK Notify shared code",
+    "stratum": "search"
+  },
+  "Anshulworld/Microsoft_Certificates": {
+    "cat": "P",
+    "flags": [],
+    "note": "certificate images",
+    "stratum": "uniform"
+  },
+  "arikaran1108/portfolio": {
+    "cat": "C",
+    "flags": [],
+    "note": "portfolio",
+    "stratum": "uniform"
+  },
+  "armetcal/Bioinformatic-Tool-Wikipedia": {
+    "cat": "C",
+    "flags": [],
+    "note": "bioinformatics workshop tutorials site",
+    "stratum": "uniform"
+  },
+  "arusrangra13/Fare-compare-in-travel": {
+    "cat": "C",
+    "flags": [],
+    "note": "J2EE college project",
+    "stratum": "uniform"
+  },
+  "AshLaw96/weather-wise": {
+    "cat": "C",
+    "flags": [],
+    "note": "bootcamp portfolio project (TESTING.md, Heroku, 21 badges)",
+    "stratum": "uniform"
+  },
+  "asmcos/cpython": {
+    "cat": "C",
+    "flags": [],
+    "note": "Python textbook for students (MkDocs)",
+    "stratum": "search"
+  },
+  "asot8tn56n/mseauu": {
+    "cat": "X",
+    "flags": [
+      "farm"
+    ],
+    "note": "1,000 gambling-SEO md files, owner 43 days old with 303 repos",
+    "stratum": "uniform"
+  },
+  "AuLatin/Game_AuLatin": {
+    "cat": "E",
+    "flags": [],
+    "note": "one txt file, README 'XD'",
+    "stratum": "uniform"
+  },
+  "azarshaikh1991/CipherChat": {
+    "cat": "C",
+    "flags": [],
+    "note": "node_modules committed, no README",
+    "stratum": "uniform"
+  },
+  "BadassBaboon/Bully-DE": {
+    "cat": "G",
+    "flags": [],
+    "note": "ASI graphics plugin for Bully",
+    "stratum": "search"
+  },
+  "bigger-z/namecodes": {
+    "cat": "C",
+    "flags": [],
+    "note": "Codenames-style PWA clone, no README",
+    "stratum": "uniform"
+  },
+  "BinhPQ2/master-thesis": {
+    "cat": "C",
+    "flags": [],
+    "note": "master's thesis workspace",
+    "stratum": "uniform"
+  },
+  "bodowd/duckdb_rdkit": {
+    "cat": "G",
+    "flags": [],
+    "note": "RDKit extension for DuckDB",
+    "stratum": "search"
+  },
+  "BuburEncer/genre-cnn": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "undergrad thesis notebook",
+    "stratum": "uniform"
+  },
+  "ButbkaDrug/REAPER": {
+    "cat": "D",
+    "flags": [],
+    "note": "church REAPER sessions and media",
+    "stratum": "uniform"
+  },
+  "cblock85/GoldenEye64Recomp": {
+    "cat": "G",
+    "flags": [],
+    "note": "native macOS/Linux GoldenEye port via N64Recomp",
+    "stratum": "search"
+  },
+  "cloudfoundry/csb-brokerpak-azure": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "CF brokerpak",
+    "stratum": "search"
+  },
+  "codefly-dev/cli": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "0 stars, 1,074 commits, 131 releases, 267 test files",
+    "stratum": "uniform"
+  },
+  "d557wgl3zj/tohuys": {
+    "cat": "X",
+    "flags": [
+      "farm"
+    ],
+    "note": "700 gambling-SEO md files, owner 42 days old with 377 repos",
+    "stratum": "uniform"
+  },
+  "danieltvela/seneschal-voicebot": {
+    "cat": "G",
+    "flags": [],
+    "note": "Rust voice-first assistant",
+    "stratum": "search"
+  },
+  "DaraPalwina/darapalwinanet": {
+    "cat": "X",
+    "flags": [],
+    "note": "cron auto-commit streak farm, 5,624 commits, copied README with foreign placeholders",
+    "stratum": "uniform"
+  },
+  "dbtuneai/dbtune-agent": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "Postgres tuning agent",
+    "stratum": "search"
+  },
+  "determ1ne/weasel-rs": {
+    "cat": "G",
+    "flags": [],
+    "note": "Rust Rime IME front-end for Windows",
+    "stratum": "search"
+  },
+  "Dev-moe-kyawaung/moekyawaung-developer-portfolio-15": {
+    "cat": "C",
+    "flags": [
+      "farm"
+    ],
+    "note": "portfolio #15, owner has 840 repos, no README",
+    "stratum": "search"
+  },
+  "Devarshi1010/2025-29_DevarshiSingh_25SCS1003003121_3_2CSE33": {
+    "cat": "C",
+    "flags": [],
+    "note": "internship report PDFs",
+    "stratum": "uniform"
+  },
+  "dorynexstudio-eng/famyrex": {
+    "cat": "W",
+    "flags": [
+      "agent"
+    ],
+    "note": "Android family-safety app: 861 commits in one day, 70 test files, owner 6 days old, no licence",
+    "stratum": "uniform"
+  },
+  "dragonGR/Dropzone": {
+    "cat": "G",
+    "flags": [],
+    "note": "GNOME LAN file-sharing app on Flathub",
+    "stratum": "search"
+  },
+  "elacy/terraform-provider-pfsense": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "pfSense REST v2 Terraform provider: 62 resources, fuzz targets, releases",
+    "stratum": "uniform"
+  },
+  "elastic/apm-data": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "Elastic APM data model",
+    "stratum": "search"
+  },
+  "elastic/geneve": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "event generator from detection rules",
+    "stratum": "search"
+  },
+  "ellmos-ai/bach": {
+    "cat": "W",
+    "flags": [
+      "agent",
+      "sprawl"
+    ],
+    "note": "509 commits in ~1 day, 3,430 files, 'Production-Ready' badge; agent sprawl",
+    "stratum": "search"
+  },
+  "elvaropablo-oss/cuanto-material": {
+    "cat": "W",
+    "flags": [
+      "agent"
+    ],
+    "note": "static DIY calculators site, 97 SEO-tuning commits in a day, owner 1 day old",
+    "stratum": "uniform"
+  },
+  "enfold-lab/SNPrior": {
+    "cat": "W",
+    "flags": [],
+    "note": "paper notebooks moved from another repo, README is setup only",
+    "stratum": "uniform"
+  },
+  "erayakbas15/dynamic-queue-monitor": {
+    "cat": "C",
+    "flags": [],
+    "note": "case-study assignment (tidy, tested, one day)",
+    "stratum": "uniform"
+  },
+  "facetoplace/Workix": {
+    "cat": "W",
+    "flags": [],
+    "note": "job hub storefront + MCP; 9 README translations, no tests",
+    "stratum": "search"
+  },
+  "gabe565/cloudflare-ddns": {
+    "cat": "G",
+    "flags": [],
+    "note": "Cloudflare DDNS CLI",
+    "stratum": "search"
+  },
+  "gbazad93/AirFlow-ML-Data-Integration": {
+    "cat": "C",
+    "flags": [],
+    "note": "demo ETL: 8KB code under 20 md files, 9 badges, CoC/SECURITY/CONTRIBUTING, patch-N PR padding",
+    "stratum": "search"
+  },
+  "gene-git/wg-client": {
+    "cat": "G",
+    "flags": [],
+    "note": "WireGuard CLI+GUI; no tests, no CI, rst README, licence not detected",
+    "stratum": "search"
+  },
+  "ggnkua/bigbrownbuild-git": {
+    "cat": "G",
+    "flags": [],
+    "note": "Atari ST GCC toolchain build scripts",
+    "stratum": "search"
+  },
+  "giantswarm/etcd-backup-operator": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "etcd backup operator",
+    "stratum": "search"
+  },
+  "GIS-S-mart/Benchmark-9-IMIC": {
+    "cat": "D",
+    "flags": [],
+    "note": "contest benchmark docs/data, no code",
+    "stratum": "uniform"
+  },
+  "gtfo-ai/platform": {
+    "cat": "W",
+    "flags": [
+      "agent"
+    ],
+    "note": "agent-built ticket-to-MR platform; README honest that no runner/UI exists yet",
+    "stratum": "search"
+  },
+  "gvcgo/nekos": {
+    "cat": "W",
+    "flags": [],
+    "note": "Tauri + sing-box proxy client, P0 in progress",
+    "stratum": "search"
+  },
+  "harsiithjoshi2007/igniscontrol": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "student wildfire-ML project built on Replit Agent; .pptx in root",
+    "stratum": "search"
+  },
+  "HaveNiceDa/My-Notion": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "Notion clone on the well-known Convex+BlockNote tutorial stack, grown large (hard negative)",
+    "stratum": "search"
+  },
+  "henry2026a/bishe-ssm-vue-js-1788757134": {
+    "cat": "X",
+    "flags": [
+      "farm"
+    ],
+    "note": "graduation-project source-code sales ad, owner has 6,690 repos",
+    "stratum": "uniform"
+  },
+  "HUIXI-AI/RhinoForge": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "vendor PyTorch backend, single squashed commit",
+    "stratum": "search"
+  },
+  "iamdharamveer/borderguard-ai": {
+    "cat": "C",
+    "flags": [],
+    "note": "static 'AI border security' demo with fake passport images",
+    "stratum": "uniform"
+  },
+  "IBM/networking-go-sdk": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "IBM Cloud SDK",
+    "stratum": "search"
+  },
+  "icomppower/midway1942": {
+    "cat": "W",
+    "flags": [
+      "agent"
+    ],
+    "note": "3D battle documentary on an unmodified third-party engine",
+    "stratum": "uniform"
+  },
+  "IinjyI/Hands-On-Neural-Networks": {
+    "cat": "C",
+    "flags": [],
+    "note": "PyTorch teaching labs; 44MB .pt committed",
+    "stratum": "search"
+  },
+  "imythu/kirara": {
+    "cat": "G",
+    "flags": [],
+    "note": "PT subscription/download manager, 21 releases",
+    "stratum": "search"
+  },
+  "inamdarmihir/ask-my-tabs": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "in-browser (WebGPU) RAG over open tabs; 2 commits",
+    "stratum": "uniform"
+  },
+  "islna637/crush-flake": {
+    "cat": "X",
+    "flags": [
+      "malware"
+    ],
+    "note": "README points to a .zip inside tests/ as 'release assets'; one-repo owner; LLM-written README - malware-lure pattern",
+    "stratum": "uniform"
+  },
+  "ivalsaraj/browserforce": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "agents drive your real Chrome",
+    "stratum": "search"
+  },
+  "jaykumar1432/Resume-Analyzer-App": {
+    "cat": "C",
+    "flags": [],
+    "note": "copied project (README clones another user), venv committed (11,683 files)",
+    "stratum": "uniform"
+  },
+  "JevinFC/Portfolio": {
+    "cat": "C",
+    "flags": [],
+    "note": "portfolio with untouched Vite README",
+    "stratum": "uniform"
+  },
+  "jiarong65/Rongine": {
+    "cat": "W",
+    "flags": [],
+    "note": "personal C++ engine, no README",
+    "stratum": "search"
+  },
+  "jonny981/obversa": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "durable multi-agent workflow runtime; 162 test files",
+    "stratum": "search"
+  },
+  "juanwinograd/CalculadoraSalarial": {
+    "cat": "W",
+    "flags": [],
+    "note": "Argentine salary calculator updated monthly, no README",
+    "stratum": "uniform"
+  },
+  "jukedz/Quarto-Application-Assignment": {
+    "cat": "C",
+    "flags": [],
+    "note": "assignment",
+    "stratum": "uniform"
+  },
+  "jusfaming30-cmd/SMK---negeri--5-bone": {
+    "cat": "C",
+    "flags": [],
+    "note": "school department website, owner 0 days old",
+    "stratum": "uniform"
+  },
+  "Kabani-Tech/PrintDrop": {
+    "cat": "G",
+    "flags": [],
+    "note": "ESP32-S3 Wi-Fi USB drive for 3D printers",
+    "stratum": "search"
+  },
+  "kagura-agent/wiki": {
+    "cat": "P",
+    "flags": [
+      "agent"
+    ],
+    "note": "an autonomous agent's notes, 1,227 md files",
+    "stratum": "search"
+  },
+  "khansamalikkk/Aircraft-Design": {
+    "cat": "C",
+    "flags": [],
+    "note": "MATLAB lab uploads",
+    "stratum": "uniform"
+  },
+  "kubernetes/cri-client": {
+    "cat": "G",
+    "flags": [
+      "corp",
+      "mirror"
+    ],
+    "note": "read-only staging mirror",
+    "stratum": "search"
+  },
+  "kunalworldwide/kunalworldwide.github.io": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "portfolio + blog",
+    "stratum": "uniform"
+  },
+  "lanerchenbuna/QueryForge": {
+    "cat": "G",
+    "flags": [],
+    "note": "governed NL-to-SQL; static test-count badges",
+    "stratum": "search"
+  },
+  "lavvsharma/stars-manager": {
+    "cat": "P",
+    "flags": [],
+    "note": "cron-generated list of own stars",
+    "stratum": "uniform"
+  },
+  "LayerZero-Labs/akita": {
+    "cat": "G",
+    "flags": [
+      "corp",
+      "agent"
+    ],
+    "note": "lattice polynomial commitment scheme",
+    "stratum": "search"
+  },
+  "legandrop/LGA_NukeShortcuts": {
+    "cat": "G",
+    "flags": [],
+    "note": "small AutoHotkey tool for Nuke compositors, .exe committed",
+    "stratum": "uniform"
+  },
+  "leowalk0613/LyricFocus": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "HyperOS lyric AOD LSPosed module, 32 releases",
+    "stratum": "search"
+  },
+  "liamdarmody/rundock": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "AI team workspace app, 346 test files",
+    "stratum": "search"
+  },
+  "LinyuJupiter/LinyuJupiter": {
+    "cat": "P",
+    "flags": [],
+    "note": "profile README, 18,082 bot commits",
+    "stratum": "uniform"
+  },
+  "lsst/daf_butler": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "Rubin Observatory data butler",
+    "stratum": "search"
+  },
+  "m1lwmpmzom/ovxmxv": {
+    "cat": "X",
+    "flags": [
+      "farm"
+    ],
+    "note": "same gambling-SEO farm as asot8tn56n (created 2s apart, owners created same day, 222 repos)",
+    "stratum": "uniform"
+  },
+  "maasho/voltage-africa-ai-ap": {
+    "cat": "S",
+    "flags": [
+      "agent"
+    ],
+    "note": "120 agent-role md files, 10KB code",
+    "stratum": "uniform"
+  },
+  "magdmartin/stimilo": {
+    "cat": "P",
+    "flags": [
+      "agent"
+    ],
+    "note": "Jekyll business site",
+    "stratum": "uniform"
+  },
+  "mat-lucie/outbound-sales-agent": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "outbound sales engine, 211 test files",
+    "stratum": "search"
+  },
+  "MehrshadEsk/Mehrshadesk.github.io": {
+    "cat": "C",
+    "flags": [],
+    "note": "academic homepage",
+    "stratum": "uniform"
+  },
+  "mgonzs13/robcraft": {
+    "cat": "G",
+    "flags": [],
+    "note": "ROS 2 simulator; 10 squashed commits, 52 test files",
+    "stratum": "search"
+  },
+  "montezuma-p/harken": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "offline whisper.cpp transcription MCP server + CLI",
+    "stratum": "search"
+  },
+  "MooGPT/android": {
+    "cat": "E",
+    "flags": [],
+    "note": "13KB wrapper app, fabricated 'BLAI Statuses passing' badge",
+    "stratum": "uniform"
+  },
+  "n1n9-jp/hugo-vizjp": {
+    "cat": "P",
+    "flags": [
+      "agent"
+    ],
+    "note": "Hugo blog content, 1.6GB",
+    "stratum": "uniform"
+  },
+  "NASA-IMPACT/veda-data-airflow": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "NASA STAC ingest pipeline",
+    "stratum": "search"
+  },
+  "neuralnetworkingnight/neuralnetworkingnight.github.io": {
+    "cat": "P",
+    "flags": [],
+    "note": "meetup website",
+    "stratum": "uniform"
+  },
+  "nitropush/.github": {
+    "cat": "P",
+    "flags": [],
+    "note": "organisation profile repo",
+    "stratum": "uniform"
+  },
+  "nodeexcel/E-Shop": {
+    "cat": "C",
+    "flags": [],
+    "note": "Angular/Express e-commerce demo",
+    "stratum": "uniform"
+  },
+  "nuetzliches/hookaido": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "durable webhook gateway, 32 releases",
+    "stratum": "search"
+  },
+  "NVIDIA-TAO/tao-data-services": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "NVIDIA TAO data tools",
+    "stratum": "search"
+  },
+  "OBDb/Mazda-3": {
+    "cat": "D",
+    "flags": [],
+    "note": "OBD signal-set data, 917 files under tests/",
+    "stratum": "uniform"
+  },
+  "OCA/l10n-colombia": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "Odoo community modules",
+    "stratum": "search"
+  },
+  "ogforange-coder/CodenameEngine-Mobile": {
+    "cat": "C",
+    "flags": [
+      "copy"
+    ],
+    "note": "non-fork re-upload of Codename Engine with mobile tweaks; 3,515 inherited commits; keystore committed",
+    "stratum": "uniform"
+  },
+  "Olli9/transfer-assignment": {
+    "cat": "C",
+    "flags": [],
+    "note": "Git course assignment",
+    "stratum": "uniform"
+  },
+  "onlyflowstech/servicenow-mcp": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "53 emoji, 'most comprehensive', logo-placeholder comment - but 71 test files + npm trusted publishing",
+    "stratum": "search"
+  },
+  "OpenJobDescription/openjd-model-for-python": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "spec data-model library",
+    "stratum": "search"
+  },
+  "openshift/assisted-image-service": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "RHCOS image service",
+    "stratum": "search"
+  },
+  "OssRezz/radium-mockup": {
+    "cat": "W",
+    "flags": [
+      "agent"
+    ],
+    "note": "radiologist-fee settlement system for one clinic group",
+    "stratum": "uniform"
+  },
+  "OutlierAashi-labs/Genz-Social-Media-Analysis": {
+    "cat": "C",
+    "flags": [],
+    "note": "EDA notebook, 14 badges",
+    "stratum": "uniform"
+  },
+  "Pallavi-2005/Blogging": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "AI-built Next.js blog MVP; PRD/BRD docs in root, untouched create-next-app README",
+    "stratum": "uniform"
+  },
+  "PanomaAI/panoma": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "local project catalogue for you and your agents",
+    "stratum": "search"
+  },
+  "pasek-projects-um/ElectionDataGrabber": {
+    "cat": "W",
+    "flags": [],
+    "note": "experimental local-election results pipeline, 31 test files, 7 workflows",
+    "stratum": "uniform"
+  },
+  "peelar/pipes": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "TUI software factory running agent pipelines",
+    "stratum": "search"
+  },
+  "pgen0x/azimuth": {
+    "cat": "G",
+    "flags": [
+      "agent",
+      "crypto"
+    ],
+    "note": "LP screening daemon (DeFi) - legit engineering",
+    "stratum": "search"
+  },
+  "preflower/vue-funcall": {
+    "cat": "G",
+    "flags": [],
+    "note": "small Vue library on npm, changesets, docs site, no tests",
+    "stratum": "uniform"
+  },
+  "qinyre/dsh-plugin-capabilities": {
+    "cat": "G",
+    "flags": [],
+    "note": "DeepSeek-harness plugin",
+    "stratum": "search"
+  },
+  "quay/quay-builder": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "Quay build worker",
+    "stratum": "search"
+  },
+  "RamaAditya49/titen": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "LLM-free agent memory MCP server, 386 test files",
+    "stratum": "search"
+  },
+  "recp/assetkit-blender": {
+    "cat": "G",
+    "flags": [],
+    "note": "Blender import/export add-on via AssetKit",
+    "stratum": "search"
+  },
+  "Revolt-Group/revolt-pass": {
+    "cat": "G",
+    "flags": [],
+    "note": "zero-knowledge vault PWA; hype copy + static 'Tests Passing' badge",
+    "stratum": "search"
+  },
+  "RichN06/CSC4370-Personal-Webpage": {
+    "cat": "C",
+    "flags": [],
+    "note": "course webpage",
+    "stratum": "uniform"
+  },
+  "Riteshp2001/CineWindows": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "Qt6/libmpv player; 45 emoji, 21 emoji headings, GOVERNANCE/MAINTAINERS/CITATION sprawl, no tests - yet real",
+    "stratum": "search"
+  },
+  "rjstudiosaustralia/DeFeedback": {
+    "cat": "G",
+    "flags": [],
+    "note": "Apple-Silicon live host for De-Feedback AU",
+    "stratum": "search"
+  },
+  "rmaynar/bajatelo-app": {
+    "cat": "G",
+    "flags": [],
+    "note": "Flutter yt-dlp downloader with a release; emoji README",
+    "stratum": "uniform"
+  },
+  "romancitodev/cargo-pretty": {
+    "cat": "G",
+    "flags": [],
+    "note": "cargo build wrapper with live status view; no tests",
+    "stratum": "search"
+  },
+  "sakajunquality/bunko": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "ko-style OCI image builder for Bun; 21 releases, 123 test files",
+    "stratum": "search"
+  },
+  "sambai-dev/rookhold": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "bounded code-execution runner with receipts",
+    "stratum": "search"
+  },
+  "sambhav/pycelld": {
+    "cat": "G",
+    "flags": [],
+    "note": "Monty Python workers for celld",
+    "stratum": "search"
+  },
+  "Shantodotdev/blacksparrow": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "Rust crawler + SEO audit + MCP; 'blazingly fast' copy",
+    "stratum": "search"
+  },
+  "shunjid/last": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "Claude Code sessions in a browser tab; CI, Apache-2.0",
+    "stratum": "uniform"
+  },
+  "sifr01-labs/EstaCoda": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "agent harness, 594 test files",
+    "stratum": "search"
+  },
+  "smlx/jiratime": {
+    "cat": "G",
+    "flags": [],
+    "note": "Jira timesheet CLI",
+    "stratum": "search"
+  },
+  "sodahaunted/brainrot-clicker": {
+    "cat": "C",
+    "flags": [],
+    "note": "toy clicker",
+    "stratum": "uniform"
+  },
+  "softwareone-platform/swo-adobe-vipm-extension": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "internal marketplace extension",
+    "stratum": "search"
+  },
+  "Sonda2024/LOCAL_2": {
+    "cat": "D",
+    "flags": [],
+    "note": "IP/URL/hash blocklists",
+    "stratum": "uniform"
+  },
+  "Swetha-2202/Smart-waste-segregation-system": {
+    "cat": "C",
+    "flags": [],
+    "note": "Arduino 'mini project' + PDF report",
+    "stratum": "search"
+  },
+  "swethasureshkumar-s/swetha": {
+    "cat": "S",
+    "flags": [
+      "agent",
+      "platform"
+    ],
+    "note": "Lovable-generated portfolio app, .env committed",
+    "stratum": "uniform"
+  },
+  "sysdiglabs/sysdig-mcp-server": {
+    "cat": "G",
+    "flags": [
+      "corp"
+    ],
+    "note": "vendor MCP server",
+    "stratum": "search"
+  },
+  "TakakiHashimoto/explain_back_back": {
+    "cat": "S",
+    "flags": [
+      "agent"
+    ],
+    "note": "75 agent .md files vs 33KB code; README is a title",
+    "stratum": "search"
+  },
+  "TigerSeparate/zaPReTTeLeGrAM": {
+    "cat": "X",
+    "flags": [
+      "malware"
+    ],
+    "note": "repackaged zapret, 1 commit, new account, 13MB 'serivce.bat' - trojan pattern",
+    "stratum": "uniform"
+  },
+  "timorunge/espanso-misspell": {
+    "cat": "G",
+    "flags": [],
+    "note": "generates espanso misspelling packages",
+    "stratum": "search"
+  },
+  "triptu/rabbithole": {
+    "cat": "G",
+    "flags": [],
+    "note": "agent-assisted reading UX with live demo, human-voiced README",
+    "stratum": "uniform"
+  },
+  "tuliofalcao/inventoryproject": {
+    "cat": "C",
+    "flags": [],
+    "note": "university project from a YouTube Django tutorial",
+    "stratum": "uniform"
+  },
+  "veda-chen/Yulai-miniapp": {
+    "cat": "G",
+    "flags": [],
+    "note": "WeChat badminton mini-program, milestones M1-M4, vitest, CI",
+    "stratum": "search"
+  },
+  "vitcipher/W7_LAB_In-God-we-trust-everyone-else-bring-the-data": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "week-7 lab",
+    "stratum": "uniform"
+  },
+  "williamguy11/my-webpage": {
+    "cat": "C",
+    "flags": [],
+    "note": "recruiting portfolio",
+    "stratum": "uniform"
+  },
+  "wirio-org/python-template": {
+    "cat": "G",
+    "flags": [],
+    "note": "uv/FastAPI vertical-slice template; tiny code, real CI",
+    "stratum": "search"
+  },
+  "wonderingStars/foxsdr": {
+    "cat": "G",
+    "flags": [],
+    "note": "from-scratch SDR receiver, 20 releases, 163 test files",
+    "stratum": "search"
+  },
+  "WordPressBugBounty/plugins-clear-autoptimize-cache-automatically": {
+    "cat": "D",
+    "flags": [
+      "mirror"
+    ],
+    "note": "auto-mirror of a WP plugin",
+    "stratum": "uniform"
+  },
+  "WordPressBugBounty/plugins-trinity-audio": {
+    "cat": "D",
+    "flags": [
+      "mirror"
+    ],
+    "note": "auto-mirror of a WP plugin for scanning",
+    "stratum": "uniform"
+  },
+  "xilla420/dlss5-wow-sidecar": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "out-of-process DLSS 5 for WoW, measured latencies",
+    "stratum": "search"
+  },
+  "YQ-RZJ/three.cj": {
+    "cat": "G",
+    "flags": [],
+    "note": "three.js-style 3D engine in Cangjie; mirrored from a dev repo (3 commits)",
+    "stratum": "uniform"
+  },
+  "yuvidew/todo-app-claude-code-": {
+    "cat": "C",
+    "flags": [
+      "agent"
+    ],
+    "note": "todo app built to learn Claude Code",
+    "stratum": "uniform"
+  },
+  "zaghaghi/toolog": {
+    "cat": "G",
+    "flags": [
+      "agent"
+    ],
+    "note": "local audit trail for Claude Code tool calls; every commit agent-trailered",
+    "stratum": "search"
+  },
+  "ZekaiShi/evo-subagent": {
+    "cat": "G",
+    "flags": [],
+    "note": "DSH plugin; daily bot commits inflate activity",
+    "stratum": "search"
+  },
+  "zhuchongba-01/AgentSessionManager": {
+    "cat": "G",
+    "flags": [],
+    "note": "desktop browser/cleaner for coding-agent sessions",
+    "stratum": "search"
+  }
+}

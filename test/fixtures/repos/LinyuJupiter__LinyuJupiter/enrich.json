@@ -1,0 +1,272 @@
+{
+  "nameWithOwner": "LinyuJupiter/LinyuJupiter",
+  "description": "我的GitHub个人资料页",
+  "homepageUrl": null,
+  "createdAt": "2024-03-22T09:38:25Z",
+  "pushedAt": "2026-09-11T08:47:18Z",
+  "diskUsage": 22880,
+  "stargazerCount": 1,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "LinyuJupiter",
+    "__typename": "User",
+    "createdAt": "2022-12-06T02:09:53Z",
+    "repositories": {
+      "totalCount": 10
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 18082,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T08:47:17Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T03:53:56Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:01:28Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T20:39:28Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:35:53Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:27:47Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:53:18Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T03:57:36Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:05:06Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T20:44:40Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T17:43:09Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T13:36:10Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T08:54:52Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T03:58:32Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:16:55Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:56:31Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:08:54Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T12:44:20Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T07:04:59Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T01:02:10Z",
+            "messageHeadline": "Update github-metrics.svg - [Skip GitHub Action]",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "github-metrics.svg",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "action.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5883,
+    "text": "<h2 align=\"center\">Hi 👋, I'm Linyu Jupiter </h2>\n<h4 align=\"center\">May you seek common ground, and if not, may you also strive for diversity. </h4>\n<h3 align=\"center\">A LLM and programming enthusiast</h3>\n<h5 align=\"center\">\n  <a href=\"mailto:liufx7@mail2.sysu.edu.cn\">EMAIL</a>&emsp;•&emsp;\n  <a href=\"http://134.175.123.166:3003/\">BLOG</a>&emsp;•&emsp;\n  <a href=\"https://linyujupiter.github.io/\">HOMEPAGE</a>&emsp;•&emsp;\n  <a href=\"https://space.bilibili.com/519875324\">BILIBILI</a>\n</h5>\n<div align=\"center\">\n    <img src=\"github-metrics.svg\" width=\"90%\">\n</div>\n<h3 align=\"left\">Connect with me:</h3>\n<p align=\"left\">\n<a href=\"https://twitter.com/fangxinliu88506\" target=\"blank\"><img align=\"center\" src=\"https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg\" alt=\"twitter\" height=\"30\" width=\"30\" /> </a>\n<a href=\"https://www.kaggle.com/LinyuJupiter\" target=\"blank\"><img align=\"center\" src=\"https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg\" alt=\"kaggle\" height=\"30\" width=\"30\" /> </a>\n<a href=\"https://www.linkedin.com/in/linyujupiter/\" target=\"blank\"><img align=\"center\" src=\"https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg\" alt=\"linked-in\" height=\"30\" width=\"30\" /> </a>\n<a href=\"https://www.facebook.com/profile.php?id=61554376700209\" target=\"blank\"><img align=\"center\" src=\"https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg\" alt=\"facebook\" height=\"30\" width=\"30\" /> </a>\n<a href=\"https://leetcode.cn/u/linyujupiter/\" target=\"blank\"><img align=\"center\" src=\"https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg\" alt=\"leetcode\" height=\"30\" width=\"30\" /> </a>\n<a href=\"https://gitee.com/plume-rain-jupiter/\" target=\"blank\"><img align=\"center\" src=\"https://avatar.gitee.com/uploads/1/1_oschina-org.png!avatar200?1524465517\" alt=\"gitee\" height=\"30\" width=\"30\" /> </a>\n</p>\n\n\n<h3 align=\"left\">Languages and Tools:</h3>\n<p align=\"left\"> <a href=\"https://www.cprogramming.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg\" alt=\"c\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.w3schools.com/cpp/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg\" alt=\"cplusplus\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.docker.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg\" alt=\"docker\" width=\"40\" height=\"40\"/> </a> <a href=\"https://git-scm.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg\" alt=\"git\" width=\"40\" height=\"40\"/> </a> <a href=\"hexo.io/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/hexoio/hexoio-icon.svg\" alt=\"hexo\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.linux.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg\" alt=\"linux\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.mathworks.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png\" alt=\"matlab\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.mysql.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg\" alt=\"mysql\" width=\"40\" height=\"40\"/> </a> <a href=\"https://opencv.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg\" alt=\"opencv\" width=\"40\" height=\"40\"/> </a> <a href=\"https://pandas.pydata.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg\" alt=\"pandas\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.photoshop.com/en\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg\" alt=\"photoshop\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.python.org\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg\" alt=\"python\" width=\"40\" height=\"40\"/> </a> <a href=\"https://pytorch.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg\" alt=\"pytorch\" width=\"40\" height=\"40\"/> </a> <a href=\"https://scikit-learn.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg\" alt=\"scikit_learn\" width=\"40\" height=\"40\"/> </a> <a href=\"https://seaborn.pydata.org/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://seaborn.pydata.org/_images/logo-mark-lightbg.svg\" alt=\"seaborn\" width=\"40\" height=\"40\"/> </a> <a href=\"https://www.tensorflow.org\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg\" alt=\"tensorflow\" width=\"40\" height=\"40\"/> </a> <a href=\"https://unity.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg\" alt=\"unity\" width=\"40\" height=\"40\"/> </a> <a href=\"https://unrealengine.com/\" target=\"_blank\" rel=\"noreferrer\"> <img src=\"https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg\" alt=\"unreal\" width=\"40\" height=\"40\"/> </a> </p>\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

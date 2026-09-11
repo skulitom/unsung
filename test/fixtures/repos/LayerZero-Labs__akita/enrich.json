@@ -1,0 +1,442 @@
+{
+  "id": "R_kgDOUSy4ZA",
+  "nameWithOwner": "LayerZero-Labs/akita",
+  "description": "A high-performance, lattice-based polynomial commitment scheme with transparent setup and post-quantum security.",
+  "homepageUrl": "https://layerzero-labs.github.io/akita/",
+  "createdAt": "2026-09-08T20:41:26Z",
+  "pushedAt": "2026-09-11T00:24:52Z",
+  "diskUsage": 23177,
+  "stargazerCount": 10,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 10545833,
+    "edges": [
+      {
+        "size": 9937495,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 551457,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 43834,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 11785,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 1262,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "LayerZero-Labs",
+    "__typename": "Organization",
+    "createdAt": "2021-09-15T16:58:13Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 301,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T22:52:26Z",
+            "messageHeadline": "refactor(prover): consolidate validation at input boundaries (#21)",
+            "author": {
+              "user": {
+                "login": "RadNi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T14:36:55Z",
+            "messageHeadline": "fix(sumcheck): validate compressed round messages (#19)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T10:12:10Z",
+            "messageHeadline": "chore(deps): bump the dependencies group with 3 updates (#14)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T09:18:46Z",
+            "messageHeadline": "fix: bind verifier cache lifetime and stabilize SIS numeric costs (#18)",
+            "author": {
+              "user": {
+                "login": "RadNi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T03:24:02Z",
+            "messageHeadline": "fix(sis): correct probability estimates and regenerate cutoffs (#17)",
+            "author": {
+              "user": {
+                "login": "RadNi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T02:26:59Z",
+            "messageHeadline": "fix(prover): reject invalid dense polynomial shapes (#16)",
+            "author": {
+              "user": {
+                "login": "RadNi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T00:49:50Z",
+            "messageHeadline": "fix(schedules): price committed B against the certified opening alpha…",
+            "author": {
+              "user": {
+                "login": "RadNi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:22:48Z",
+            "messageHeadline": "chore(deps): complete grouped dependency upgrades (#13)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T22:18:52Z",
+            "messageHeadline": "chore(deps): consolidate Dependabot updates (#12)",
+            "author": {
+              "user": {
+                "login": "sumchecker"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:42:22Z",
+            "messageHeadline": "ci(docs): publish mdBook to GitHub Pages (#11)",
+            "author": {
+              "user": {
+                "login": "sumchecker"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T18:45:26Z",
+            "messageHeadline": "chore: update crate author (#482)",
+            "author": {
+              "user": {
+                "login": "omibo"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T17:46:07Z",
+            "messageHeadline": "docs(book): complete core commitment and opening chapters (#480)",
+            "author": {
+              "user": {
+                "login": "f7ed"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T16:29:30Z",
+            "messageHeadline": "docs(book): document Akita implementation internals (#465)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T11:58:33Z",
+            "messageHeadline": "feat(planner): add bounded guided schedule adaptation (#472)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T00:37:11Z",
+            "messageHeadline": "refactor(schedules)!: externalize trusted schedule catalogs (#428)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T17:38:34Z",
+            "messageHeadline": "docs(book): explain extension-opening reduction step by step (#478)",
+            "author": {
+              "user": {
+                "login": "f7ed"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T18:43:10Z",
+            "messageHeadline": "feat(protocol)!: bind quotient-free ring relation mode (#466)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T16:50:04Z",
+            "messageHeadline": "docs(book): clarify subring coefficient packing (#474)",
+            "author": {
+              "user": {
+                "login": "f7ed"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T17:55:03Z",
+            "messageHeadline": "fix(sumcheck): normalize equality-factored claims without inversions …",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T16:21:05Z",
+            "messageHeadline": "Optimize coefficient packing across prover kernels and Stage 2 (#468)",
+            "author": {
+              "user": {
+                "login": "quangvdao"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".config",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "AUTHORS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-APACHE",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE-MIT",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "STACK.md",
+        "type": "blob"
+      },
+      {
+        "name": "artifacts",
+        "type": "tree"
+      },
+      {
+        "name": "bench-data",
+        "type": "tree"
+      },
+      {
+        "name": "book",
+        "type": "tree"
+      },
+      {
+        "name": "crates",
+        "type": "tree"
+      },
+      {
+        "name": "deny.toml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "fixtures",
+        "type": "tree"
+      },
+      {
+        "name": "fuzz",
+        "type": "tree"
+      },
+      {
+        "name": "hooks",
+        "type": "tree"
+      },
+      {
+        "name": "profile",
+        "type": "tree"
+      },
+      {
+        "name": "rust-toolchain.toml",
+        "type": "blob"
+      },
+      {
+        "name": "rustfmt.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "specs",
+        "type": "tree"
+      },
+      {
+        "name": "third_party",
+        "type": "tree"
+      },
+      {
+        "name": "typos.toml",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "doc-blast-radius-comment.yml"
+      },
+      {
+        "name": "doc-guardrails.yml"
+      },
+      {
+        "name": "fuzz.yml"
+      },
+      {
+        "name": "jolt-verifier-profile-smoke.yml"
+      },
+      {
+        "name": "portability.yml"
+      },
+      {
+        "name": "profile-bench-comment.yml"
+      },
+      {
+        "name": "profile-bench.yml"
+      },
+      {
+        "name": "security.yml"
+      },
+      {
+        "name": "spec-review-request.yml"
+      },
+      {
+        "name": "spec-tracking.yml"
+      },
+      {
+        "name": "test-timing-comment.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6042,
+    "text": "# Akita PCS\n\nAkita is a high-performance, modular lattice polynomial commitment scheme with transparent setup and post-quantum security.\n\nAkita is the public scheme name for this implementation and the intended repository/package name is `akita-pcs`.\nThe codebase is being decomposed into a focused `akita-*` crate family rather than remaining a single monolithic package.\n\nThe current workspace exposes the main ownership boundaries under `crates/`:\n\n- `akita-error` owns the shared protocol error and reusable checked integer formulas for exact sizes, offsets, and ranges.\n- Jolt's `jolt-field` package owns shared field arithmetic; `akita-serialization` and `akita-algebra` own Akita encoding, NTT, ring, and polynomial utilities.\n- `akita-transcript`, `akita-challenges`, and `akita-sumcheck` own Fiat-Shamir transcripts, challenge sampling, and generic sumcheck machinery.\n- `akita-types` owns shared proof, setup, schedule, layout, SIS, and commitment data shapes used by both roles.\n- `akita-planner` is the `Cfg`-free offline schedule engine: candidate expansion, schedule-search DP, and external artifact emitter. It sits *below* `akita-config`.\n- `akita-schedules` owns versioned schedule artifacts, semantic row validation, and validated owned runtime catalogs.\n- `akita-config` owns concrete runtime config presets and the single `CommitmentConfig` policy trait. A config identifies the expected artifact family and policy but does not own rows.\n- `akita-setup` owns config-backed setup construction and optional setup cache persistence.\n- `akita-verifier` owns verifier replay without prover-only polynomial backends. It receives the validated schedule catalog explicitly.\n- `akita-prover` owns commitment, proving, setup expansion, recursive/ring-switch witness construction, and polynomial backends.\n- `akita-pcs` is the umbrella package: it owns the end-to-end `AkitaCommitmentScheme` orchestration, re-exports the broad public surface, and hosts examples, benches, and integration tests. (There is no separate `akita-scheme` crate.)\n\nVerifier-only consumers should prefer the slim role crates directly:\n`akita-verifier` for verification, `akita-types` for proof/setup/claim shapes,\nand `akita-config` for concrete schedule/config policy. The umbrella\n`akita-pcs` package is convenient for examples and end-to-end use, but it also\npulls in prover-facing APIs.\n\n## Documentation\n\nThe [Akita Book](book/README.md) is the **canonical target** for narrative\ndocumentation (how the scheme works, how to use it, and the foundations). Most\nchapters are still stubs that cite source paths and specs to fold; until prose\nlands, integrators should read the [Akita Book](book/README.md) (start with\n[`book/src/how/architecture.md`](book/src/how/architecture.md)),\n[`book/src/usage/commitment-api.md`](book/src/usage/commitment-api.md),\nand [`profile/akita-recursion/README.md`](profile/akita-recursion/README.md).\nBuild the book locally with `./scripts/serve-book.sh` (see\n[`book/README.md`](book/README.md) for the toolchain). `AGENTS.md` is the\nagent command runbook; `docs/` holds maintainer contracts (crate graph,\nverifier contract, CI timing). `specs/` holds design records (lifecycle in\n[`specs/PRUNING.md`](specs/PRUNING.md)). Documentation guardrails (CI + PR\ncomments) are in [`docs/documentation.md`](docs/documentation.md).\n\n## External schedule artifacts\n\nThe runtime schedule contract is `TrustedScheduleCatalog<Cfg>`. A versioned\nJSON artifact stores complete expanded rows. The application loads that\nartifact as a config-bound trusted parameter for both proving and verification.\nA proof contains only the 32 byte `OpeningScheduleSelection` row digest. It\ncannot provide or replace schedule content.\n\nArtifact loading checks the expected family, protocol epoch, config policy,\nruntime challenge hooks, every expanded schedule invariant, every committed\nprofile, and every row digest. Honest prover key selection and verifier digest\nselection then use the same owned catalog.\n\n`AkitaCommitmentScheme<Cfg>` instance owns one validated catalog and uses it\nfor setup, commitment, proving, and verification. Direct verifier and prover\norchestration accept `&TrustedScheduleCatalog<Cfg>`, so an integration can load\nan external trusted artifact without compiling its rows into Akita.\n\nLoad artifact bytes from application-owned storage and construct the scheme:\n\n```rust\nlet bytes = std::fs::read(\"parameters/fp128_onehot.aks\")?;\nlet scheme = AkitaCommitmentScheme::<fp128::OneHot>::from_schedule_artifact(&bytes)?;\n```\n\nGit tracks deterministic family artifacts under `artifacts/schedules/`.\nRegenerate them after changing planner policy, candidate search, or artifact\nstructure:\n\n```bash\nscripts/generate-schedule-artifacts.sh\n```\n\nFor a faster planner iteration loop, pass one or more family names, for example\n`scripts/generate-schedule-artifacts.sh fp32_dense`. Run the unfiltered command\nbefore committing planner changes.\n\nThe schedule-artifact drift job regenerates every family into a temporary\ndirectory and rejects any byte difference from the tracked artifacts.\n\n## Lineage\n\nAkita keeps the earlier implementation lineage explicit while giving the improved scheme its own name.\nThis is also the line where planned protocol improvements over the original design live: faster verifier-oriented reductions via matrix-claim delegation, smaller large-field proofs via field-size lowering, and efficient zero-knowledge techniques under the Whiteout design direction.\n\n## Contributing\n\nMajor features and architectural changes should start with a short spec.\nSee [CONTRIBUTING.md](CONTRIBUTING.md) and [specs/TEMPLATE.md](specs/TEMPLATE.md) for the review workflow.\n\n## Acknowledgements\n\nThe CRT/NTT and small-prime arithmetic design in this repository is informed by the Labrador/Greyhound C implementation family. In particular, the pseudo-Mersenne profile uses moduli of the form `q = 2^k - offset`. Akita provides a Rust-native architecture and APIs, while drawing algorithmic inspiration from those implementations.\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 6481
+  },
+  "claude": null
+}

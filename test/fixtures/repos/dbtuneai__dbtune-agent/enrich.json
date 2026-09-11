@@ -1,0 +1,381 @@
+{
+  "id": "R_kgDONqoGFw",
+  "nameWithOwner": "dbtuneai/dbtune-agent",
+  "description": "Open-source Agent to observe and optimize your PostgreSQL database",
+  "homepageUrl": "https://www.dbtune.com",
+  "createdAt": "2025-01-15T11:29:57Z",
+  "pushedAt": "2026-09-11T08:38:26Z",
+  "diskUsage": 1259,
+  "stargazerCount": 12,
+  "forkCount": 7,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 1092818,
+    "edges": [
+      {
+        "size": 1084446,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 7503,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 869,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "postgresql"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 42
+  },
+  "tags": {
+    "totalCount": 45
+  },
+  "watchers": {
+    "totalCount": 4
+  },
+  "owner": {
+    "login": "dbtuneai",
+    "__typename": "Organization",
+    "createdAt": "2021-05-06T21:47:48Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 177,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T08:07:31Z",
+            "messageHeadline": "fix: don't cast oid to integer in DDL queries (#195)",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T12:27:49Z",
+            "messageHeadline": "fix: PRM user-agent tag corrupted by SDK sanitizer (#194)",
+            "author": {
+              "user": {
+                "login": "MohsinEjaz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T09:26:32Z",
+            "messageHeadline": "feat: add AWS PRM user-agent attribution tag (#193)",
+            "author": {
+              "user": {
+                "login": "MohsinEjaz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T09:01:40Z",
+            "messageHeadline": "fix: a panicking collector no longer takes the agent down (#187)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-21T08:44:15Z",
+            "messageHeadline": "fix: fall back to unknown when platform version is blank (#189)",
+            "author": {
+              "user": {
+                "login": "MohsinEjaz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T14:57:38Z",
+            "messageHeadline": "fix: support PostgreSQL 12 in pg_stat_activity, pg_stat_statements, p…",
+            "author": {
+              "user": {
+                "login": "MohsinEjaz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T10:22:25Z",
+            "messageHeadline": "fix: don't kill the agent on Cloud Monitoring API errors (#186)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-05T14:53:04Z",
+            "messageHeadline": "feat: gzip active config payload (#185)",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T13:01:28Z",
+            "messageHeadline": "feat: collect Postgres cluster identity in server_uptime collector (D…",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-28T12:50:39Z",
+            "messageHeadline": "fix(ci): migrate missed docker/docker import to moby/moby (#184)",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T10:24:22Z",
+            "messageHeadline": "feat: add new system info data (#181)",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T10:24:10Z",
+            "messageHeadline": "chore(deps): patch dependabot vulns; migrate docker/docker → moby/mob…",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T11:38:25Z",
+            "messageHeadline": "feat: add relallfrozen to pgclass",
+            "author": {
+              "user": {
+                "login": "ErikOrm"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T10:24:52Z",
+            "messageHeadline": "chore: bump go 1.25 (#179)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T10:13:42Z",
+            "messageHeadline": "fix: toplevel query-id duplication in pgss (#176)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-29T10:12:38Z",
+            "messageHeadline": "refactor: remove more dead code (#178)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-26T15:29:39Z",
+            "messageHeadline": "refactor: remove dead node type storage (#177)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-26T13:09:12Z",
+            "messageHeadline": "fix: add per-attempt HTTP timeout so retries actually fire (#175)",
+            "author": {
+              "user": {
+                "login": "GougeGouge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-22T14:25:32Z",
+            "messageHeadline": "feat: add Microsoft Entra authentication support for Azure Flex agent…",
+            "author": {
+              "user": {
+                "login": "MohsinEjaz"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-22T08:24:20Z",
+            "messageHeadline": "refactor: remove dead pgss collector statements (#173)",
+            "author": {
+              "user": {
+                "login": "eddiebergman"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "CustomAgent.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "Taskfile.yml",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "dbtune.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "fargate",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "pkg",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "setup.sh",
+        "type": "blob"
+      },
+      {
+        "name": "templates",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "check.yml"
+      },
+      {
+        "name": "docker-main.yml"
+      },
+      {
+        "name": "format.yml"
+      },
+      {
+        "name": "lint.yml"
+      },
+      {
+        "name": "pr-title-check.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 8483,
+    "text": "<h1 align=\"center\">DBtune agent</h1>\n\n![Go](https://img.shields.io/badge/golang-00ADD8?&style=plastic&logo=go&logoColor=white)\n\nThe DBtune agent is a lightweight, extensible monitoring and configuration management tool for PostgreSQL databases. It collects system metrics, database performance data, and manages database configurations through a centralized DBtune software as a service.\n\n## PostgreSQL providers supported\n\n- PostgreSQL -\n  [docs](https://docs.dbtune.com/postgresql),\n  [config](pkg/pgprem/CONFIG.md)\n- AWS Aurora PostgreSQL -\n  [docs](https://docs.dbtune.com/aws-aurora),\n  [config](pkg/rds/CONFIG.md)\n- AWS RDS PostgreSQL -\n  [docs](https://docs.dbtune.com/aws-rds),\n  [config](pkg/rds/CONFIG.md)\n- Google Cloud SQL -\n  [docs](https://docs.dbtune.com/google-cloud-sql),\n  [config](pkg/cloudsql/CONFIG.md)\n- Aiven -\n  [docs](https://docs.dbtune.com/aiven),\n  [config](pkg/aiven/CONFIG.md)\n- Azure Flexible Server -\n  [docs](https://docs.dbtune.com/azure-flex-server),\n  [config](pkg/azureflex/CONFIG.md)\n- CloudNativePG -\n  [docs](https://docs.dbtune.com/cnpg),\n  [config](pkg/cnpg/CONFIG.md)\n\n## Quick start\nYou can use the binary or our docker image to run the `dbtune-agent`.\n[Configuration](#Configuration) is done with a `dbtune.yaml` and is required for running.\n[See here for more advanced deployment options](#advanced-deployments)\n\n> [!IMPORTANT]\n> Please check the relevant documentation page for your provider for the pre-requisites required for `dbtune-agent` to operate properly.\n\n### Docker\n\n```bash\ndocker pull --platform linux/amd64 public.ecr.aws/dbtune/dbtune/agent:latest\n\n# Run with a dbtune.yaml\ndocker run \\\n    -v $(pwd)/dbtune.yaml:/app/dbtune.yaml \\\n    --name dbtune-agent \\\n    public.ecr.aws/dbtune/dbtune/agent:latest\n\n# OR... run with environment variables.\ndocker run \\\n    -e DBT_POSTGRESQL_CONNECTION_URL=postgresql://user:password@localhost:5432/database \\\n    -e DBT_DBTUNE_SERVER_URL=https://app.dbtune.com \\\n    -e DBT_DBTUNE_API_KEY=your-api-key \\\n    -e DBT_DBTUNE_DATABASE_ID=your-database-id \\\n    public.ecr.aws/dbtune/dbtune/agent:latest\n```\n\n> [!NOTE]\n> If PostgreSQL also runs in Docker, `localhost` in the URL won't reach it. Join the same network, mount the Docker socket, and pass the PG container name:\n> ```bash\n> docker run --restart always \\\n>     --network <pg-network> \\\n>     -v /var/run/docker.sock:/var/run/docker.sock \\\n>     -e DBT_DOCKER_CONTAINER_NAME=<pg-container-name> \\\n>     -e DBT_POSTGRESQL_CONNECTION_URL=\"postgresql://user:password@<pg-container-name>:5432/database\" \\\n>     ...\n>     public.ecr.aws/dbtune/dbtune/agent:latest\n> ```\n> PG must be started with `-c shared_preload_libraries=pg_stat_statements`. Full example: [`templates/docker-compose.yml`](templates/docker-compose.yml).\n\n### Binary\nYou can use the one-liner below to fetch the latest binary for your system, from our [releases page](https://github.com/dbtuneai/dbtune-agent/releases).\n\n```bash\ncurl https://raw.githubusercontent.com/dbtuneai/dbtune-agent/refs/heads/main/setup.sh > /tmp/dbtune-agent.sh && sh /tmp/dbtune-agent.sh\n./dbtune-agent\n```\n\nAlternatively, you can [build from source](#build-from-source).\n\nYou can further deploy this as a [systemd service](#systemd).\n\n## Configuration\nConfiguration can be done via a `dbtune.yaml` file, which is looked up in the following places,\nordered by priority:\n* `/etc/dbtune.yaml`\n* `/etc/dbtune/dbtune.yaml`\n* `./dbtune.yaml` (Relative to the path from which `dbtune-agent` was executed)\n\nEach PostgreSQL provider has [different configuration options](#PostgreSQL-providers-supported), so please refer to their specific configuration options.\nPlease also take note of any pre-requisites required for the `dbtune-agent` to be able to read\nsystem metrics.\n\nThe shared options for the `dbtune.yaml` are listed below:\n\n```yaml\n# dbtune.yaml\npostgresql:\n  connection_url: postgresql://user:password@localhost:5432/database # Connection url to your database\n  allow_restart: false  # Whether to allow the agent to restart PostgreSQL when applying\n                        # configuration changes\n\n# Query text is collected by the pg_stat_statements collector (enabled by\n# default). To opt out, disable it on the collector:\n# collectors:\n#   pg_stat_statements:\n#     include_queries: false  # or set DBT_COLLECTOR_PG_STAT_STATEMENTS_INCLUDE_QUERIES=false\n\n# Optional\nguardrail_settings:\n  memory_threshold: 90  # The percentage at which the dbtune-agent triggers a memory gaurdrail\n                        # DBtune will act to prevent an OOM if this threshold is reached\n                        # during tuning.\ndbtune:\n  server_url: https://app.dbtune.com\n  api_key:  \"\" # Provided when you create a database on DBtune\n  database_id: \"\" # Provided when you create a database on DBtune\n\ndebug: false\n```\n\nThe shared options for environment variables are listed below:\n\n```bash\nexport DBT_DBTUNE_SERVER_URL=\"https://app.dbtune.com\"\nexport DBT_DBTUNE_API_KEY=\"\"\nexport DBT_DBTUNE_DATABASE_ID=\"\"\nexport DBT_POSTGRESQL_ALLOW_RESTART=false  # Set to true to allow PostgreSQL restarts\nexport DBT_POSTGRESQL_RESTART_SCRIPT_PATH=\"\"  # Optional. Path to a custom restart script (see below).\n\n# Your database specific\nexport DBT_POSTGRESQL_CONNECTION_URL=postgresql://user:password@localhost:5432/database\n```\n\n## Advanced deployments\n\n### Build from source\nTo build the DBtune agent from source, you'll need Go 1.23.1 or later installed on your system.\n\n```bash\ngit clone https://github.com/dbtuneai/dbtune-agent.git\ncd dbtune-agent\n\n# Download dependencies and build\ngo mod download\ngo build -o dbtune-agent ./cmd/agent.go\n```\n\n### Systemd\nCreate a systemd service with the following config and save it as `/etc/systemd/system/dbtune-agent.service`.\n\n```bash\n[Unit]\nDescription=DBtune agent\nAfter=network.target\n\n[Service]\nUser=dbtune   # User that runs the dbtune-agent, can be root\nGroup=dbtune  # Group to run the dbtune-agent with\nWorkingDirectory=/usr/local/bin\nExecStart=/usr/local/bin/dbtune-agent\nRestart=always\nRestartSec=5s\nStandardOutput=journal\nStandardError=journal\n\n[Install]\nWantedBy=multi-user.target\n```\n\nMake sure the user and group that you specify in the systemd service has rights to access postgres data files and also is allowed to use sudo without a password to do a systemd restart of the postgresql service e.g. `sudo systemctl restart postgres`.\n\nReload the unit files and enable the dbtune-agent.service:\n```bash\nsudo systemctl daemon-reload\nsudo systemctl enable --now dbtune-agent\n```\n\nOnce started you can check and verify that the dbtune-agent is running by looking at the journal, for example: `journalctl -u dbtune-agent -f`\n\n### Using a custom restart script\n\nIf restarting the database can't be done through `systemctl` (e.g. you need `pg_ctl`, a\ncontainer exec, or a privileged wrapper), you can point the agent at your own restart script.\n\nTo do so, export the path to an executable script:\n```bash\nexport DBT_POSTGRESQL_RESTART_SCRIPT_PATH=/path/to/your/restart.sh\n```\nWhen set, this takes precedence over `DBT_POSTGRESQL_SERVICE_NAME` and the agent executes the\nscript directly (no shell — the value must be a bare executable path with no arguments). The\nfile must exist and be executable (`chmod +x`); the agent validates this on startup.\n\nThe script must signal success with exit code `0` and failure with any non-zero exit code.\nOutput on stdout/stderr is logged on failure but does not by itself indicate failure — many\ntools (including `pg_ctl`) write to stderr during normal operation.\n\nAn example of such a restart script using `pg_ctl` instead of `systemctl`:\n```sh\n#!/bin/bash\nset -eo pipefail\n\n# Restarts the database using pg_ctl, and a timeout of 10min.\n# Assumes PGDATA points to the data folder of postgres.\nexec gosu postgres pg_ctl restart -D \"$PGDATA\" -m fast -w -t 600\n```\n\n### AWS Fargate / ECS\nFollow these [README](fargate/README.md) instructions to run the agent under AWS Fargate as a service.\n\n## Metric collection\n\nThe agent collects essential metrics required for DBtune's optimization engine, you can find more information about the metrics [here](https://docs.dbtune.com/agent-monitoring-and-privacy).\n\n## How to contribute\n\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

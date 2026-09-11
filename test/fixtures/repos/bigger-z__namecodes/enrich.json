@@ -1,0 +1,272 @@
+{
+  "nameWithOwner": "bigger-z/namecodes",
+  "description": "namecodes pwa game",
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T04:35:43Z",
+  "pushedAt": "2026-09-10T23:11:32Z",
+  "diskUsage": 2359,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 48829,
+    "edges": [
+      {
+        "size": 32265,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 12965,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 3599,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "bigger-z",
+    "__typename": "User",
+    "createdAt": "2026-03-04T05:56:59Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 19,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T23:11:21Z",
+            "messageHeadline": "Fix images with black border",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:03:08Z",
+            "messageHeadline": "Remove uncommon words",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T04:18:31Z",
+            "messageHeadline": "Change word background colors",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T04:18:04Z",
+            "messageHeadline": "Remove more uncommon words",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T01:26:41Z",
+            "messageHeadline": "Remove uncommon words",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T01:13:31Z",
+            "messageHeadline": "Extend word list",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:54:28Z",
+            "messageHeadline": "Add credit in footer",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:48:28Z",
+            "messageHeadline": "Update word colors to match card",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:38:35Z",
+            "messageHeadline": "Switch word font to DIN",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T00:23:51Z",
+            "messageHeadline": "Center gameboard vertically",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T23:22:27Z",
+            "messageHeadline": "Add a New Game confirmation modal",
+            "author": {
+              "user": {
+                "login": "simefield"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T21:51:50Z",
+            "messageHeadline": "Refine word spacing and card design",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-09T21:16:46Z",
+            "messageHeadline": "Revert card flip animation method",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-09T08:12:01Z",
+            "messageHeadline": "Fix card flip animation for iPhone",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T22:13:16Z",
+            "messageHeadline": "Remove unused image",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T22:08:36Z",
+            "messageHeadline": "Update image paths",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T22:00:11Z",
+            "messageHeadline": "File images",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:53:38Z",
+            "messageHeadline": "Polish the board for play: larger short-word cards, illustrated spies…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-09-07T02:37:09Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "app.js",
+        "type": "blob"
+      },
+      {
+        "name": "fonts",
+        "type": "tree"
+      },
+      {
+        "name": "images",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "manifest.webmanifest",
+        "type": "blob"
+      },
+      {
+        "name": "styles.css",
+        "type": "blob"
+      },
+      {
+        "name": "sw.js",
+        "type": "blob"
+      },
+      {
+        "name": "words.js",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

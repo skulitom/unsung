@@ -1,0 +1,233 @@
+{
+  "nameWithOwner": "rmaynar/bajatelo-app",
+  "description": "Universal Video & Audio Downloader — Fast, Private & Free",
+  "homepageUrl": "",
+  "createdAt": "2026-09-10T13:24:10Z",
+  "pushedAt": "2026-09-10T15:30:38Z",
+  "diskUsage": 2071,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Dart"
+  },
+  "languages": {
+    "totalSize": 183177,
+    "edges": [
+      {
+        "size": 118918,
+        "node": {
+          "name": "Dart"
+        }
+      },
+      {
+        "size": 25992,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 19834,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 10111,
+        "node": {
+          "name": "Kotlin"
+        }
+      },
+      {
+        "size": 2756,
+        "node": {
+          "name": "Ruby"
+        }
+      },
+      {
+        "size": 2511,
+        "node": {
+          "name": "Swift"
+        }
+      },
+      {
+        "size": 1529,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 1488,
+        "node": {
+          "name": "C"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "rmaynar",
+    "__typename": "User",
+    "createdAt": "2016-05-29T14:38:52Z",
+    "repositories": {
+      "totalCount": 91
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 6,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T15:30:37Z",
+            "messageHeadline": "fix(android): resolve build issues, update youtubedl & flutter plugins",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:12:22Z",
+            "messageHeadline": "docs: add macos app screenshot to README",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:08:00Z",
+            "messageHeadline": "fix(ui): prevent button text overflow on narrow widths",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:57:23Z",
+            "messageHeadline": "chore: disable macOS sandbox and document in README",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:48:24Z",
+            "messageHeadline": "docs: add CocoaPods prerequisite to README and update .gitignore",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:41:43Z",
+            "messageHeadline": "Initial commit: Add Flutter project scaffolding",
+            "author": {
+              "user": {
+                "login": "rmaynar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".metadata",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "analysis_options.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "android",
+        "type": "tree"
+      },
+      {
+        "name": "ios",
+        "type": "tree"
+      },
+      {
+        "name": "l10n.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "linux",
+        "type": "tree"
+      },
+      {
+        "name": "macos",
+        "type": "tree"
+      },
+      {
+        "name": "pubspec.lock",
+        "type": "blob"
+      },
+      {
+        "name": "pubspec.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "screenshots",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "web",
+        "type": "tree"
+      },
+      {
+        "name": "windows",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3854,
+    "text": "# Bajatelo App 🚀\n\nA 100% standalone, cross-platform Flutter application for downloading videos and audio. This app is the native evolution of the Bajatelo web app, designed to run completely offline on your device without needing a remote backend!\n\n<img src=\"screenshots/macos-app.png\" alt=\"Bajatelo macOS App\" width=\"600\"/>\n\n## 🌟 Features\n- **Cross-Platform:** Runs natively on Android, macOS, Windows, and Linux.\n- **Embedded yt-dlp:** Powered by `yt-dlp` running locally on your hardware.\n- **Video & Audio Modes:** Download high-quality video (MP4) or extract audio directly (MP3).\n- **Responsive UI:** A beautiful, dark glassmorphic design that adapts from mobile screens to wide desktop windows.\n- **Multilingual:** Auto-detects your system language (English & Spanish supported).\n- **History Tracking:** Local persistent history of all your downloaded media.\n\n## 🏗️ Architecture\n\nBecause `yt-dlp` requires Python, the app employs two distinct native engines depending on the platform:\n\n1. **Desktop Engine (macOS, Windows, Linux):**\n   - Keeps the app bundle extremely small by dynamically downloading standalone, pre-compiled `yt-dlp` and `ffmpeg` binaries to the application support directory on the very first launch.\n   - Executes these binaries via native Dart subprocesses (`Process.start`) and parses stdout for progress.\n   - **macOS Security Note:** The macOS App Sandbox is intentionally disabled in this project. Sandboxing strictly prevents the execution of unbundled binaries downloaded at runtime, which is required for our dynamic `yt-dlp` and `ffmpeg` engine.\n\n2. **Android Engine:**\n   - Uses the `youtubedl-android` wrapper which embeds a minimal Python runtime natively.\n   - Communicates with Flutter via Kotlin `MethodChannel` and `EventChannel`.\n   - Downloads directly to the `Downloads` folder and registers the media using Android's `MediaStore` so it instantly appears in your gallery.\n   - *(Requires Minimum SDK 24).*\n\n*(Note: iOS is currently deferred due to App Store restrictions on bundling execution runtimes like Python/yt-dlp.)*\n\n---\n\n## 🛠️ Prerequisites\n\nTo build and run this project, you need the following installed:\n1. [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.47.3 or higher)\n2. **For Android:** Android Studio, Android SDK, and an emulator/device.\n3. **For macOS:** \n   - Xcode (requires macOS 10.15+ deployment target).\n   - [CocoaPods](https://cocoapods.org/) (for managing macOS platform dependencies). If not installed, you can install it via Homebrew: `brew install cocoapods`.\n\n---\n\n## 🚀 Getting Started\n\n1. **Clone the repository:**\n   ```bash\n   git clone https://github.com/rmaynar/bajatelo-app.git\n   cd bajatelo-app\n   ```\n\n2. **Install Dependencies:**\n   ```bash\n   flutter pub get\n   ```\n\n3. **Run the App:**\n\n   *To see available devices:*\n   ```bash\n   flutter devices\n   ```\n\n   *To run on macOS (Desktop):*\n   ```bash\n   flutter run -d macos\n   ```\n\n   *To run on an Android Emulator or connected device:*\n   ```bash\n   flutter run -d android\n   ```\n\n---\n\n## 📦 Building for Release\n\n### Android\nBuild a release APK or AAB:\n```bash\nflutter build apk --release\n# OR\nflutter build appbundle --release\n```\n*The built APK will be located at `build/app/outputs/flutter-apk/app-release.apk`.*\n\n### macOS\nBuild a release macOS app:\n```bash\nflutter build macos --release\n```\n*The built application will be located at `build/macos/Build/Products/Release/bajatelo_app.app`.*\n\n---\n\n## 🧑‍💻 Contributing\n- **UI/UX Changes:** Modify code within `lib/screens` and `lib/widgets`.\n- **State Management:** Riverpod providers are located in `lib/core/providers`.\n- **Native Bridges:** \n  - Android Kotlin code is in `android/app/src/main/kotlin/maynar/bajatelo/bajatelo_app/MainActivity.kt`.\n  - Desktop Dart subprocess code is in `lib/services/desktop/`.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

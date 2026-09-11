@@ -1,0 +1,422 @@
+{
+  "id": "R_kgDORVnL4w",
+  "nameWithOwner": "ivalsaraj/browserforce",
+  "description": "Give AI agents your real Chrome browser — fully autonomous, no manual tab clicking. Works with OpenClaw, Claude, and any MCP agent.",
+  "homepageUrl": null,
+  "createdAt": "2026-02-21T18:41:00Z",
+  "pushedAt": "2026-09-11T07:44:56Z",
+  "diskUsage": 2119,
+  "stargazerCount": 7,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 1907068,
+    "edges": [
+      {
+        "size": 1836952,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 53271,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 15692,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 1153,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "browser-automation"
+        }
+      },
+      {
+        "topic": {
+          "name": "cdp"
+        }
+      },
+      {
+        "topic": {
+          "name": "chrome"
+        }
+      },
+      {
+        "topic": {
+          "name": "chrome-devtools-protocol"
+        }
+      },
+      {
+        "topic": {
+          "name": "chrome-extension"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "openclaw"
+        }
+      },
+      {
+        "topic": {
+          "name": "playwright"
+        }
+      },
+      {
+        "topic": {
+          "name": "browserforce"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "ivalsaraj",
+    "__typename": "User",
+    "createdAt": "2018-08-16T05:33:36Z",
+    "repositories": {
+      "totalCount": 77
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 565,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T07:44:19Z",
+            "messageHeadline": "feat: label the ghost cursor with the driving agent's name (#28)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:17:36Z",
+            "messageHeadline": "feat(skill): widen description trigger coverage and claim precedence …",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:24:50Z",
+            "messageHeadline": "Merge pull request #25 from ivalsaraj/feat/agent-discoverability-tab-…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T00:03:49Z",
+            "messageHeadline": "fix(test): address Codex round 8 (1 IMPORTANT)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:54:34Z",
+            "messageHeadline": "fix(test): address Codex round 7 on the live harness (3 IMPORTANT)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:42:53Z",
+            "messageHeadline": "fix(test): address Codex round 6 on the live harness (3 IMPORTANT, 1 …",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T23:27:57Z",
+            "messageHeadline": "test(extension): add the live end-to-end verification harness",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:41:14Z",
+            "messageHeadline": "fix: address Codex round 4 (1 IMPORTANT)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:24:34Z",
+            "messageHeadline": "fix: address Codex round 3 (1 IMPORTANT — regression from round 2)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T21:10:18Z",
+            "messageHeadline": "fix: address Codex round 2 (2 IMPORTANT — both regressions from round 1)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:53:32Z",
+            "messageHeadline": "fix: address Codex round 1 (3 IMPORTANT, 1 MINOR)",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:11:22Z",
+            "messageHeadline": "docs(agents): record durable tab identity and per-client active tab c…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:07:03Z",
+            "messageHeadline": "fix(agent): pin the token-count locale so usage reads the same on eve…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:02:35Z",
+            "messageHeadline": "fix(extension): sync the manifest version with the released package v…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T20:02:35Z",
+            "messageHeadline": "test(extension): update the background source contracts to the widene…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:56:53Z",
+            "messageHeadline": "feat(skill,cli): document subagent handoff and make the client label …",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:53:13Z",
+            "messageHeadline": "feat(mcp,cli): give each identified client its own active tab so para…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:42:11Z",
+            "messageHeadline": "fix(mcp): give each unready BrowserForce state its own message and fix",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:35:52Z",
+            "messageHeadline": "fix(mcp): refuse unknown tabs subcommands instead of silently discard…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T19:34:03Z",
+            "messageHeadline": "feat(mcp,cli): cap and filter the tabs listing, and report what was o…",
+            "author": {
+              "user": {
+                "login": "ivalsaraj"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".cursor",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "GUIDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.frontpage.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "agent",
+        "type": "tree"
+      },
+      {
+        "name": "bin.js",
+        "type": "blob"
+      },
+      {
+        "name": "cli",
+        "type": "tree"
+      },
+      {
+        "name": "constants.js",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "extension",
+        "type": "tree"
+      },
+      {
+        "name": "mcp",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "plugins",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "relay",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 51885,
+    "text": "# BrowserForce // Parallel AI Agents in \"your\" Browser!\n\nGive AI agents controlled access to the browser you already use.\n\n> \"a lion doesn't concern itself with token counting\" — [@steipete](https://x.com/steipete), creator of [OpenClaw](https://github.com/openclaw/openclaw)\n>\n> \"a 10x user doesn't concern itself with sandboxed browsers // sandboxes are for kids\" — BrowserForce, your friendly neighborhood power source.\n\n**You're giving an AI your real Chrome — your logins, cookies, and sessions. That takes conviction.** BrowserForce is built for people who use the best models and don't look back. Security is built in: lock URLs, block navigation, read-only mode, auto-cleanup — you stay in control.\n\n**Autonomous when you want it, controlled when you need it.** Your agent can run hands-off in Auto mode, or you can switch to Manual mode and explicitly attach only the tabs you trust. BrowserForce connects to **your running browser** with one Chrome extension and full Playwright API support.\n\nWorks with [OpenClaw](https://github.com/openclaw/openclaw), Claude, or any MCP-compatible agent.\n\nWhen you ask an agent to inspect an existing page, BrowserForce exposes open Chrome tabs through `context.pages()` first. It should only open a new tab when you explicitly ask it to open/navigate somewhere new, or when no suitable page exists and policy allows new tabs.\n\n## Why BrowserForce?\n\n\n|                | Playwright MCP       | OpenClaw Browser        | Playwriter              | Claude Extension     | BrowserForce                         |\n| -------------- | -------------------- | ----------------------- | ----------------------- | -------------------- | ------------------------------------ |\n| Browser        | Spawns new Chrome    | Separate profile        | Your Chrome             | Your Chrome          | **Your Chrome**                      |\n| Login state    | Fresh                | Fresh (isolated)        | Yours                   | Yours                | **Yours**                            |\n| Tab access     | N/A (new browser)    | Managed by agent        | Click each tab          | Click each tab       | **Open tabs + manual attached tabs** |\n| Autonomous     | Yes                  | Yes                     | No (manual click)       | No (manual click)    | **Yes (fully autonomous)**           |\n| Context method | Screenshots (100KB+) | Screenshots + snapshots | A11y snapshots (5-20KB) | Screenshots (100KB+) | **A11y snapshots (5-20KB), also support screenshots**          |\n| Tools          | Many dedicated       | 1 `browser` tool        | 1 `execute` tool        | Built-in             | **4 tools: `browserforce`, `exec`, `help`, `reset` + extend via plugins** |\n| Agent support  | Any MCP client       | OpenClaw only           | Any MCP client          | Claude only          | **Any MCP client**                   |\n| Playwright API | Partial              | No                      | Full                    | No                   | **Full**                             |\n\n\n## Your Credentials Stay Yours\n\nEvery other approach asks you to hand over something: an API key, an OAuth token, stored passwords, session cookies in a config file. BrowserForce asks for none of it.\n\n**Why?** Because you're already logged in. BrowserForce talks to your running Chrome — it doesn't extract credentials, store cookies, or replay tokens. The browser handles auth exactly as it always has. Your agent inherits your sessions the same way a new Chrome tab does.\n\nWhat you never need to provide:\n\n- No passwords\n- No API keys\n- No OAuth tokens\n- No session cookies in env vars or config files\n\nIt's a security win *and* a setup win — there are no secrets to rotate, leak, or manage. Your logins live in Chrome. They stay in Chrome.\n\n## Setup\n\n### 1. Install\n\n```bash\nnpm install -g browserforce\n```\n\nOr from source:\n\n```bash\ngit clone https://github.com/ivalsaraj/browserforce.git\ncd browserforce\npnpm install\n```\n\n### 2. Load the Chrome extension\n\n**If you installed via npm:**\n\n1. Run: `browserforce install-extension` — note the path it prints (e\n```bash\nbrowserforce serve\n```\n```bash\nnpm install -g browserforce\nbrowserforce install-extension\nbrowserforce setup openclaw\n```\n```bash\nnpx -y skills add ivalsaraj/browserforce --agent openclaw --skill browserforce --yes\n```\n```bash\nnpx -y skills add ivalsaraj/browserforce --list\n```\n```bash\nBROWSERFORCE_SETUP_OPENCLAW=1\nBROWSERFORCE_SETUP_OPENCLAW_FORCE=1\nBROWSERFORCE_SETUP_OPENCLAW_APPLY=1\n```\n```bash\nbrowserforce serve\n```\n```mermaid\nflowchart LR\n  U[\"User (Telegram / WhatsApp / OpenClaw UI)\"] --> OA[\"OpenClaw Agent\"]\n  OA --> MCP[\"BrowserForce MCP (`browserforce mcp`)\"]\n  MCP --> RELAY[\"Relay (`127.0.0.1:19222`)\"]\n  RELAY --> EXT[\"Chrome Extension (MV3)\"]\n  EXT --> CHROME[\"User's Real Chrome Session\"]\n  SETUP[\"`browserforce setup openclaw`\"] --> PLUGIN[\"Auto-install `openclaw` plugin\\n(metadata shown in prompt, details via pluginHelp())\"]\n  PLUGIN --> MCP\n```\n```json\n{\n  \"plugins\": {\n    \"entries\": {\n```\n```json\n{\n  \"mcpServers\": {\n    \"browserforce\": {\n```\n```json\n{\n  \"mcpServers\": {\n    \"browserforce\": {\n```\n```toml\n[mcp_servers.browserforce]\ncommand = \"npx\"\nargs = [\"-y\", \"browserforce@latest\", \"mcp\"]\n```\n```json\n{\n  \"mcpServers\": {\n    \"browserforce\": {\n```\n```json\n{\n  \"mcpServers\": {\n    \"browserforce\": {\n```\n- `single-active`: allows only one active MCP/CDP client slot at a time.\nWhen `single-active` is enabled, additional clients get `409 Conflict` while the slot is busy, and can wait/retry using `/client-slot`.\n```json\n{\n  \"plugins\": {\n    \"entries\": {\n```\n```json\n{\n  \"mcpServers\": {\n    \"browserforce\": {\n```\n```toml\n[mcp_servers.browserforce]\ncommand = \"env\"\nargs = [\"BF_CLIENT_MODE=single-active\", \"npx\", \"-y\", \"browserforce@latest\", \"mcp\"]\n```\n```bash\nnpm install -g browserforce   # or: pnpm add -g browserforce\n```\n```bash\nbrowserforce serve              # Start the relay server\nbrowserforce status             # Check relay and extension status\nbrowserforce screenshot [n]     # Screenshot tab n (PNG to stdout)\n```\n```bash\nbrowserforce open https://example.com --as docs   # open a new tab (optionally named)\nbrowserforce tabs                             # list tabs: stable t<N> handles + names + active marker\n```\n```bash\nbrowserforce agent start\n```\n```bash\n```\n```javascript\n\n```\n```bash\n```\n```javascript\n```\n```javascript\n\n\n```\n```text\n```\n```javascript\n```\n```javascript\n```\n```text\n```\n```mermaid\n  AGENT[\"Agent (OpenClaw, Claude, Codex, etc.)\"] --> MCP[\"MCP Server (`browserforce mcp`)\"]\n  AGENT --> CLI[\"CLI (`browserforce -e`)\"]\n  MCP --> RELAY[\"Relay Server (`127.0.0.1:19222`)\"]\n  CLI --> RELAY\n  RELAY --> EXT[\"Chrome Extension (MV3 Service Worker)\"]\n  EXT --> CDP[\"`chrome.debugger` bridge\"]\n  CDP --> BROWSER[\"User's Real Chrome Browser\"]\n```\n```text\n```\n```json\n{\n```\n```json\n{\n```\n```json\n{\n```\n```bash\n\n# opt-in: enforce one active /cdp client slot\n```\nIn `multi-client` mode (default), slot arbitration is disabled. In `single-active` mode, the relay enforces one active client slot and a second `/cdp` connection receives HTTP `409 Conflict` (busy).\n**MCP standby polling (single-active mode):** if MCP sees a busy/`409` connect error, it enters standby and polls `GET /client-slot` until `busy: false` (about every 200-400ms, up to 30s), then retries connect.\n| `GET /client-slot`       | Client-slot state: `{ mode, busy, activeClientId, connectedAt }` |\n```bash\n```\n```bash\n```\n```bash\ncurl -s http://127.0.0.1:19222/client-slot | jq\n```\nExpected: `cdp-url` points to `ws://127.0.0.1:19222/...` and `/client-slot` returns `{ mode, busy, activeClientId, connectedAt }`.\n```bash\ncurl -s http://127.0.0.1:19222/client-slot | jq\n```\n```bash\ncurl -s http://127.0.0.1:19222/client-slot | jq\n```\nThis appears when `BF_CLIENT_MODE=single-active` and another CDP client currently holds the slot.\n```bash\ncurl -s http://127.0.0.1:19222/client-slot | jq\n```\nThis is most common when you intentionally run `single-active` mode and a second MCP session starts while the slot is busy.\n```toml\n```\nIf startup still times out, verify the relay endpoint and slot state:\n```bash\ncurl -s http://127.0.0.1:19222/client-slot | jq\n```\n```bash\n```"
+  },
+  "pkg": {
+    "byteSize": 6015,
+    "text": "{\n  \"name\": \"browserforce\",\n  \"version\": \"1.2.0\",\n  \"type\": \"module\",\n  \"description\": \"Give AI agents your real Chrome browser with progressive examples: simple reads, form interactions, multi-tab workflows, and state persistence. Search X and GitHub, extract ProductHunt data, test forms, compare A/B variants, monitor status pages. Works with OpenClaw, Claude, and any MCP agent.\",\n  \"homepage\": \"https://github.com/ivalsaraj/browserforce\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/ivalsaraj/browserforce.git\"\n  },\n  \"license\": \"MIT\",\n  \"keywords\": [\n    \"browser\",\n    \"chrome\",\n    \"playwright\",\n    \"mcp\",\n    \"openclaw\",\n    \"ai-agent\",\n    \"cdp\",\n    \"automation\",\n    \"browserforce\"\n  ],\n  \"engines\": {\n    \"node\": \">=18.3.0\"\n  },\n  \"bin\": {\n    \"browserforce\": \"bin.js\"\n  },\n  \"files\": [\n    \"README.md\",\n    \"bin.js\",\n    \"scripts/\",\n    \"extension/\",\n    \"relay/src/\",\n    \"relay/package.json\",\n    \"mcp/src/\",\n    \"mcp/package.json\",\n    \"skills/\",\n    \"agent/\",\n    \"cli/\"\n  ],\n  \"dependencies\": {\n    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"diff\": \"^8.0.3\",\n    \"playwright-core\": \"^1.60.0\",\n    \"ws\": \"^8.21.0\",\n    \"zod\": \"^3.24.0\"\n  },\n  \"scripts\": {\n    \"relay\": \"lsof -ti tcp:19222 | xargs kill -9 2>/dev/null; sleep 0.3; node relay/src/index.js\",\n    \"relay:dev\": \"lsof -ti tcp:19222 | xargs kill -9 2>/dev/null; sleep 0.3; node --watch relay/src/index.js\",\n    \"mcp\": \"node mcp/src/index.js\",\n    \"agent\": \"node bin.js agent start\",\n    \"agent:dev\": \"node --watch agent/src/chatd.js\",\n    \"agent:stop\": \"node bin.js agent stop\",\n    \"agent:status\": \"node bin.js agent status\",\n    \"postinstall\": \"node scripts/postinstall-openclaw.mjs\",\n    \"test\": \"node --test relay/test/relay-server.test.js && node --test mcp/test/client-label.test.js && node --test mcp/test/mcp-tools.test.js && node --test mcp/test/aria-snapshot-engine.test.js && node --test mcp/test/exec-engine-snapshot.test.js && node --test mcp/test/plugin-loader.test.js && node --test mcp/test/plugin-installer.test.js && node --test mcp/test/exec-engine-plugins.test.js && node --test mcp/test/mcp-plugin-integration.test.js && node --test mcp/test/openclaw-setup.test.js && node --test mcp/test/a11y-labels.test.js && node --test mcp/test/browserforce-command-registry.test.js && node --test mcp/test/browser-session-runtime.test.js && node --test mcp/test/tab-identity.test.js && node --test mcp/test/readiness.test.js && node --test mcp/test/help-docs.test.js && node --test test/agent/port-resolver.test.js && node --test test/agent/session-store.test.js && node --test test/agent/codex-runner.test.js && node --test test/agent/chatd-api.test.js && node --test test/agent/extension-manifest.test.js && node --test test/agent/popup-contract.test.js && node --test test/agent/relay-url-reconnect-contract.test.js && node --test test/agent/agent-panel-contract.test.js && node --test test/agent/agent-panel-send-contract.test.js && node --test test/agent/session-ui-state.test.js && node --test test/agent/sse-events.test.js && node --test test/agent/auth.test.js && node --test test/agent/agent-panel-runtime.test.js && node --test test/agent/tab-group-sync-plan.test.js && node --test test/agent/agent-defaults.test.js && node --test test/agent/auto-manage-state.test.js && node --test test/agent/window-affinity.test.js && node --test test/agent/background-window-plan.test.js && node --test test/agent/debugger-resume-contract.test.js && node --test test/agent/cli-agent.test.js && node --test test/agent/ghost-cursor.test.js && node --test test/agent/extension-tab-updates.test.js && node --test test/cli.test.js && node --test test/cli-sessiond.test.js && node --test test/browserforce-skill.test.js && node --test test/doctor.test.js && node --test test/postinstall.test.js\",\n    \"test:skill-install\": \"node --test test/opencode-skill-install.test.mjs\",\n    \"test:relay\": \"node --test relay/test/relay-server.test.js\",\n    \"test:mcp\": \"node --test mcp/test/client-label.test.js && node --test mcp/test/mcp-tools.test.js && node --test mcp/test/aria-snapshot-engine.test.js && node --test mcp/test/exec-engine-snapshot.test.js && node --test mcp/test/plugin-loader.test.js && node --test mcp/test/plugin-installer.test.js && node --test mcp/test/exec-engine-plugins.test.js && node --test mcp/test/mcp-plugin-integration.test.js && node --test mcp/test/openclaw-setup.test.js && node --test mcp/test/a11y-labels.test.js && node --test mcp/test/browserforce-command-registry.test.js && node --test mcp/test/browser-session-runtime.test.js && node --test mcp/test/tab-identity.test.js && node --test mcp/test/readiness.test.js && node --test mcp/test/help-docs.test.js\",\n    \"test:agent\": \"node --test test/agent/port-resolver.test.js && node --test test/agent/session-store.test.js && node --test test/agent/codex-runner.test.js && node --test test/agent/chatd-api.test.js && node --test test/agent/extension-manifest.test.js && node --test test/agent/popup-contract.test.js && node --test test/agent/relay-url-reconnect-contract.test.js && node --test test/agent/agent-panel-contract.test.js && node --test test/agent/agent-panel-send-contract.test.js && node --test test/agent/session-ui-state.test.js && node --test test/agent/sse-events.test.js && node --test test/agent/auth.test.js && node --test test/agent/agent-panel-runtime.test.js && node --test test/agent/tab-group-sync-plan.test.js && node --test test/agent/agent-defaults.test.js && node --test test/agent/auto-manage-state.test.js && node --test test/agent/window-affinity.test.js && node --test test/agent/background-window-plan.test.js && node --test test/agent/debugger-resume-contract.test.js && node --test test/agent/cli-agent.test.js && node --test test/agent/ghost-cursor.test.js && node --test test/agent/extension-tab-updates.test.js\",\n    \"test:e2e\": \"node mcp/test/e2e-smoke.mjs\",\n    \"test:e2e:sessiond\": \"node test/sessiond-real-smoke.mjs\",\n    \"fixtures:codex\": \"bash scripts/capture-codex-jsonl.sh\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 45742
+  },
+  "claude": {
+    "byteSize": 11
+  }
+}

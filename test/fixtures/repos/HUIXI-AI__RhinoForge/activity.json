@@ -1,0 +1,44 @@
+[
+  {
+    "id": 42792274974,
+    "ref": "refs/heads/pi05-full-activation-aware-w8",
+    "timestamp": "2026-09-07T06:35:45Z",
+    "activity_type": "push"
+  },
+  {
+    "id": 42789789744,
+    "ref": "refs/heads/pi05-full-activation-aware-w8",
+    "timestamp": "2026-09-07T05:56:07Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41914791798,
+    "ref": "refs/heads/draft/source-update-unbound-20260831",
+    "timestamp": "2026-08-31T07:56:01Z",
+    "activity_type": "branch_creation"
+  },
+  {
+    "id": 41454912317,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-27T13:35:30Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41432160917,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-27T10:10:49Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 41427475872,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-27T09:32:14Z",
+    "activity_type": "force_push"
+  },
+  {
+    "id": 40720406780,
+    "ref": "refs/heads/main",
+    "timestamp": "2026-08-21T10:41:24Z",
+    "activity_type": "branch_creation"
+  }
+]

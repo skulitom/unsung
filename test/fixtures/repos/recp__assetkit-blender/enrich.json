@@ -1,0 +1,411 @@
+{
+  "id": "R_kgDOSVqPFQ",
+  "nameWithOwner": "recp/assetkit-blender",
+  "description": "Blender Extension to import/export assets via high performance AssetKit",
+  "homepageUrl": "",
+  "createdAt": "2026-05-06T08:00:23Z",
+  "pushedAt": "2026-09-10T21:58:58Z",
+  "diskUsage": 1224,
+  "stargazerCount": 15,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "GPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 2570886,
+    "edges": [
+      {
+        "size": 1613666,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 923178,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 16395,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 9614,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 8033,
+        "node": {
+          "name": "C"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "3d"
+        }
+      },
+      {
+        "topic": {
+          "name": "3mf"
+        }
+      },
+      {
+        "topic": {
+          "name": "animation"
+        }
+      },
+      {
+        "topic": {
+          "name": "blender"
+        }
+      },
+      {
+        "topic": {
+          "name": "blender-addon"
+        }
+      },
+      {
+        "topic": {
+          "name": "blender-exporter"
+        }
+      },
+      {
+        "topic": {
+          "name": "blender-importer"
+        }
+      },
+      {
+        "topic": {
+          "name": "blender-plugin"
+        }
+      },
+      {
+        "topic": {
+          "name": "collada"
+        }
+      },
+      {
+        "topic": {
+          "name": "dae"
+        }
+      },
+      {
+        "topic": {
+          "name": "gltf"
+        }
+      },
+      {
+        "topic": {
+          "name": "mesh"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 14
+  },
+  "tags": {
+    "totalCount": 16
+  },
+  "watchers": {
+    "totalCount": 3
+  },
+  "owner": {
+    "login": "recp",
+    "__typename": "User",
+    "createdAt": "2011-12-15T07:14:10Z",
+    "repositories": {
+      "totalCount": 67
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 303,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T21:53:09Z",
+            "messageHeadline": "merge upstream fixes",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T21:44:11Z",
+            "messageHeadline": "v0.3.0",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T21:20:39Z",
+            "messageHeadline": "update blender banner",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T11:39:18Z",
+            "messageHeadline": "extend gaussian node workflows",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T10:54:17Z",
+            "messageHeadline": "add gaussian point editing",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T10:54:17Z",
+            "messageHeadline": "add source transform inputs",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T12:17:52Z",
+            "messageHeadline": "add gaussian viewport preview",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T12:17:27Z",
+            "messageHeadline": "add geometry node sources",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T08:05:04Z",
+            "messageHeadline": "add lgsc import support",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T01:28:41Z",
+            "messageHeadline": "import gaussian point clouds",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T18:39:18Z",
+            "messageHeadline": "v0.2.8",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T17:58:39Z",
+            "messageHeadline": "fix dae material preview",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-23T13:15:35Z",
+            "messageHeadline": "fix dae preview",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T13:55:52Z",
+            "messageHeadline": "v0.2.7",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T13:23:59Z",
+            "messageHeadline": "update blender addon",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T10:31:11Z",
+            "messageHeadline": "name staged imports after source files",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T08:38:31Z",
+            "messageHeadline": "realize full hierarchy instances safely",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T07:19:05Z",
+            "messageHeadline": "keep full source hierarchy visible in Blender",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T06:33:38Z",
+            "messageHeadline": "realize editable instance hierarchy in Blender",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T22:56:52Z",
+            "messageHeadline": "preserve source hierarchy in Blender imports",
+            "author": {
+              "user": {
+                "login": "recp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSES",
+        "type": "tree"
+      },
+      {
+        "name": "NOTICE.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "assetkit-blender.png",
+        "type": "blob"
+      },
+      {
+        "name": "blender_manifest.toml",
+        "type": "blob"
+      },
+      {
+        "name": "deps",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "prepare_addon_verison.sh",
+        "type": "blob"
+      },
+      {
+        "name": "prepare_addon_version.sh",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tools",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "extension-package.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5648,
+    "text": "<img   alt=\"AssetKit for Blender: native import and export, Gaussian preview, and Geometry Nodes\" src=\"assetkit-blender.png\" />\n\n<br>\n<br>\n\nBlender add-on for importing and exporting 3D assets through [AssetKit](https://github.com/recp/assetkit)\n\n👉  **Blender 5 removed the built-in COLLADA/DAE importer and exporter. AssetKit-Blender brings DAE support back to current Blender releases**, while also adding\na **fast**, native path for **other formats** like glTF/GLB, OBJ, STL, PLY, and 3MF import/export. \n\n## Formats\n\n- glTF / GLB (2.0+)\n- COLLADA DAE (1.4+, 1.5.0+)\n- 3MF\n- OBJ\n- STL\n- PLY (including Gaussian splat import)\n- SPZ (import)\n- L-GSC (standalone `.lgsc` and glTF/GLB import)\n\nGaussian SPZ, L-GSC, PLY and glTF import preserves scale, rotation, opacity and spherical\nharmonics as PointCloud attributes. Blender builds with the native Gaussian splat\ntype use it directly; other builds have an optional GPU preview in Solid shading.\nIt draws oriented, transparent splats with view-dependent SH color, without\ncreating meshes. See [Gaussian preview](docs/gaussian-preview.md) for controls\nand the distinction from F12 rendering.\nSPZ uses the optional `assetkit_spz` decoder bundled with the native bridge.\nL-GSC uses AssetKit's built-in C decoder.\n\n## Geometry Nodes\n\nIn the Geometry Nodes editor, use **Add > AssetKit** for file sources, existing\nobjects, point cropping and splat opacity. File sources output the selected\nscene's geometry as instances; an optional node path selects a subtree.\nThe file source is also in **Add > Input > Import > AssetKit File / Sequence**.\n\nNumbered file sequences follow the Blender timeline and share a memory-budgeted\ncache. Helpers are created only when added; ordinary import does not enable them.\nNo custom Blender build is needed. See [Geometry Nodes](docs/geometry-nodes.md)\nfor selection, sequence and cache settings.\n\n\n## Install to Blender\n\nAfter a release a tag e.g. *v0.1.0*, [GitHub Actions](https://github.com/recp/assetkit-blender/actions/) builds package for multiple platforms then attaches\nthe generated platform zip files to the *GitHub Release* for that tag automatically. \n\n1. Download the zip for your platform from:\n   https://github.com/recp/assetkit-blender/releases/latest\n\n2. In Blender, install it with:\n   Edit > Preferences > Add-ons > Install from Disk\n\n3. Enable the add-on.\n\n4. Follow repo to get/report bugfixes and get new features asap\n\n## Benchmarks\n\nHere are local benchmark results from an M1 Max MacBook Pro, measured with `tools/benchmark_review_imports.sh`.\n\nDAE Blender builtin results are measured with Blender 4.5.10 LTS because Blender 5.x no longer includes the COLLADA importer. Other Blender builtin results are measured with Blender 5.2.0 LTS.\n\n\n| File | AssetKit + Blender native bridge | AssetKit-Blender (Total) | Blender | Blender / AssetKit Blender |\n| --- | ---: | ---: | ---: | ---: |\n| BrainStem.dae | 27.9 ms | 52.2 ms | 6294.3 ms | 120.50x |\n| Duck.dae | 0.7 ms | 1.6 ms | 5.8 ms | 3.58x |\n| GearboxAssy.dae | 21.9 ms | 44.4 ms | 230.2 ms | 5.19x |\n| NodePerformanceTest.glb | 119.6 ms | 12080.7 ms | 216220.8 ms | 17.90x |\n| BoomBox.glb | 0.3 ms | 2.0 ms | 13.0 ms | 6.48x |\n| DamagedHelmet.glb | 0.3 ms | 2.3 ms | 29.9 ms | 13.05x |\n| WaterBottle.glb | 0.3 ms | 1.9 ms | 10.6 ms | 5.70x |\n| ABeautifulGame.glb | 12.0 ms | 46.3 ms | 828.7 ms | 17.89x |\n| AntiqueCamera.glb | 0.4 ms | 3.0 ms | 45.6 ms | 15.41x |\n| MosquitoInAmber.glb | 0.5 ms | 3.4 ms | 44.8 ms | 13.09x |\n| xyzrgb_dragon.obj | 17.8 ms | 23.6 ms | 61.1 ms | 2.59x |\n| dragon_vrip.ply | 26.3 ms | 47.5 ms | 122.3 ms | 2.58x |\n| 3DBenchy.stl | 3.5 ms | 8.6 ms | 31.5 ms | 3.67x |\n...\n\nThe script uses AssetKit shading mode `AS_IS` and texture loading `IMMEDIATE`.\n### Reproducing the Benchmarks\n\nRun the review benchmark script:\n\n```sh\ntools/benchmark_review_imports.sh\n```\n\nThe script downloads the benchmark assets into the ignored `benchmark-assets/` cache and writes JSONL results plus a Markdown table to `benchmark-results/`.\n\nBy default it uses:\n\n- Blender 5.2.0 LTS for glTF, OBJ, PLY, and STL comparisons\n- Blender 4.5.10 LTS for DAE builtin COLLADA comparisons\n- AssetKit shading mode `AS_IS`\n- AssetKit texture loading `IMMEDIATE`\n\n---\n\n## Build\n\nBuild AssetKit, then build the native Blender bridge with Blender's Python:\n\n```sh\ncmake -S deps/assetkit -B deps/assetkit/build -DAK_SHARED=ON\ncmake --build deps/assetkit/build\ncmake -S . -B build -DASSETKIT_ROOT=deps/assetkit -DPython3_EXECUTABLE=/path/to/blender/python\ncmake --build build\n```\n\nThe bridge is written to `src/assetkit_blender/` as `_assetkit_blender.*`. If it is not present, the add-on can still use the configured AssetKit shared library through `ctypes`.\n\n### Production package\n\nBuild and validate a Blender Extensions package zip with one command:\n\n```sh\npython3 tools/release_extension.py --blender /path/to/blender\n```\n\nTo include Blender 4.5/5.0 support in the same platform package, add Python\n3.11:\n\n```sh\npython3 tools/release_extension.py --blender /path/to/blender --extra-python python3.11\n```\n\nThe zip is written to `dist/`.\n\nFor repeat packaging after the native bridge is already built:\n\n```sh\npython3 tools/package_extension.py --blender /path/to/blender --platform auto\n```\n\nThe release script stages the extension so `blender_manifest.toml` and\n`__init__.py` are at the zip root. Native bridge binaries and optional AssetKit\ndecoder libraries are packaged as platform wheels under `wheels/`.\n\n### Release assets\n\nPushing a tag such as `v0.1.0` runs the package matrix on GitHub Actions and attaches\nthe platform zip files to the GitHub Release for that tag automatically.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

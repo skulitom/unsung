@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "neuralnetworkingnight/neuralnetworkingnight.github.io",
+  "label": "P",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 6408,
+    "keptBytes": 6408,
+    "excerpt": false
+  }
+}

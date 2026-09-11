@@ -1,0 +1,354 @@
+{
+  "id": "R_kgDOUTT3wA",
+  "nameWithOwner": "peelar/pipes",
+  "description": "A personal software factory that organizes incoming work and runs it through code-defined agent pipelines.",
+  "homepageUrl": "",
+  "createdAt": "2026-09-09T08:44:33Z",
+  "pushedAt": "2026-09-10T15:20:19Z",
+  "diskUsage": 921,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 355769,
+    "edges": [
+      {
+        "size": 354332,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 1437,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "peelar",
+    "__typename": "User",
+    "createdAt": "2018-10-26T09:16:11Z",
+    "repositories": {
+      "totalCount": 49
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 44,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T12:49:49Z",
+            "messageHeadline": "Merge pull request #7 from peelar/chore/automatic-releases",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:42:32Z",
+            "messageHeadline": "Automate releases when the Release PR merges",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:56:33Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:21:55Z",
+            "messageHeadline": "Update README.md",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:21:34Z",
+            "messageHeadline": "Merge pull request #6 from peelar/changeset-release/main",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:18:11Z",
+            "messageHeadline": "Version Packages",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:03:30Z",
+            "messageHeadline": "Merge pull request #5 from peelar/batch/since-v0.0.1",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:49:19Z",
+            "messageHeadline": "Fix Linux CI test assumptions",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:22:07Z",
+            "messageHeadline": "Fix clean workspace dependency installation",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:30:17Z",
+            "messageHeadline": "Move the releasable pipes package into packages/pipes",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:40:29Z",
+            "messageHeadline": "Keep TUI choice rows single-line and share test helpers",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:23:28Z",
+            "messageHeadline": "Show active connections and unify TUI choice lists",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:55:11Z",
+            "messageHeadline": "Add CI workflow running check on PRs",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:41:44Z",
+            "messageHeadline": "Extract the daemon into the @pipes/server package",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:32:52Z",
+            "messageHeadline": "Split repository into a Bun workspace monorepo",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T07:04:31Z",
+            "messageHeadline": "Keep the repository config as the GitHub intake example",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T05:17:59Z",
+            "messageHeadline": "Refresh README with product shot and intake example",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T05:17:57Z",
+            "messageHeadline": "Use lowercase pipes consistently in user-facing copy",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T05:17:48Z",
+            "messageHeadline": "Split oversized server modules into focused files",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T05:14:35Z",
+            "messageHeadline": "Add pipes upgrade with server restart and update check",
+            "author": {
+              "user": {
+                "login": "peelar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".changeset",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pipes",
+        "type": "tree"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "bun.lock",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vite.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "changeset-check.yml"
+      },
+      {
+        "name": "changesets.yml"
+      },
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3343,
+    "text": "# pipes\n\n```text\n╭───┬───╮  ╭┬─────┬╮  ╭───┬───╮  ╭───┬───╮  ╭───┬───╮\n│ ╭─┴─╮ │  ╰┴─╮ ╭─┴╯  │ ╭─┴─╮ │  │ ╭─┴───╯  │ ╭─┴───╯\n│ │   │ │     │ │     │ │   │ │  │ ╰─┬──╮   │ ╰─┬───╮\n│ ╰─┬─╯ │     ├─┤     │ ╰─┬─╯ │  │ ╭─┴──╯   ╰───┴─╮ │\n│ ╭─┴───╯     │ │     │ ╭─┴───╯  ├─┤              ├─┤\n├─┤        ╭┬─╯ ╰─┬╮  ├─┤        │ ╰─┬───╮  ╭───┬─╯ │\n╰─╯        ╰┴─────┴╯  ╰─╯        ╰───┴───╯  ╰───┴───╯\n```\n\nA terminal-based personal software factory built to protect your attention.\n\n![pipes terminal UI showing the task queue, workflow steps, and task activity](docs/pipes.png)\n\n---\n\nEach source of software work follows its own process and definition of done. pipes lets you codify them and forward the boring parts to the agents, without you babysitting them.\n\nYou start by defining a TypeScript workflow (pipe):\n\n```ts\nimport { pipe } from \"pipes\";\n\nexport default pipe({\n  workflows: {\n    'plan-implement-review': {\n      steps: [\n        {\n          name: 'plan',\n          agent: {\n            model: 'gpt-5.6-sol',\n            provider: 'codex',\n            reasoning: 'high',\n          },\n          prompt:\n            'Read the task and repository. Write an actionable implementation plan, including checks and open questions.',\n        },\n        ...\n      ],\n    },\n  },\n});\n```\n\nThen, you attach it to your source of intake (GitHub, Linear, Sentry, etc.):\n\n```ts\nimport { pipe } from \"pipes\";\n\nexport default pipe({\n  github: {\n    assigned_to_me: true,\n    repository: 'peelar/pipes',\n    state: 'open',\n    workflow: 'plan-implement-review',\n  },\n  ...\n});\n```\n\nand run `pipes` to start the server + TUI.\n\nAfter initial configuration, pipes pulls tasks from your configured sources and moves each through its assigned\nsequence of pipes. Each pipe runs a detached agent to carry out its step.\n\nYou can monitor the work through TUI, jump into an agent session when you want to take the wheel, or use MCP to ask for tasks that require your attention.\n\n## Features\n\n- A keyboard-first terminal UI with live agent messages, tool activity, and step progress.\n- Work that keeps running in the background, with tasks and history saved locally in SQLite.\n- TypeScript workflows with model, reasoning, and prompt settings for each step.\n- Separate Git worktrees for each run, with results saved to local branches.\n- Run a detached agent session or jump into a task's agent session when you want to take the wheel.\n- Work intake from connected tools: GitHub today, with more sources such as Linear and Sentry planned.\n- MCP access for delegating work from your coding agent.\n- Planned: human review and follow-up runs before accepting finished work.\n\n> [!NOTE]\n> Currently, pipes only supports Codex as the agent and GitHub as the work intake source.\n\n## Run\n\nInstall the single binary:\n\n```sh\ncurl -fsSL https://raw.githubusercontent.com/peelar/pipes/main/scripts/install.sh | sh\npipes\n```\n"
+  },
+  "pkg": {
+    "byteSize": 1340,
+    "text": "{\n  \"name\": \"pipes-workspace\",\n  \"private\": true,\n  \"workspaces\": [\n    \"packages/*\"\n  ],\n  \"type\": \"module\",\n  \"scripts\": {\n    \"reset\": \"bun scripts/reset.ts\",\n    \"dev\": \"bun --watch packages/pipes/src/dev.ts\",\n    \"build\": \"bun scripts/build.ts\",\n    \"changeset\": \"changeset\",\n    \"version-packages\": \"changeset version\",\n    \"pipes\": \"bun packages/pipes/src/cli.ts\",\n    \"pipesd\": \"bun packages/pipes/src/server.ts\",\n    \"test\": \"bun test\",\n    \"check\": \"vp check && tsc --noEmit && bun test\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"lint\": \"vp lint\",\n    \"fmt\": \"vp fmt\",\n    \"postinstall\": \"effect-tsgo patch\"\n  },\n  \"devDependencies\": {\n    \"@agentclientprotocol/codex-acp\": \"1.10.0\",\n    \"@agentclientprotocol/sdk\": \"1.4.0\",\n    \"@changesets/cli\": \"^3.0.2\",\n    \"@effect/platform-bun\": \"4.0.0-rc.112\",\n    \"@effect/tsgo\": \"0.43.0\",\n    \"@nkzw/oxlint-config\": \"2.0.1\",\n    \"@openai/codex\": \"0.153.4\",\n    \"@opentui/core-darwin-x64\": \"0.5.11\",\n    \"@opentui/core-linux-arm64\": \"0.5.11\",\n    \"@opentui/core-linux-x64\": \"0.5.11\",\n    \"@pipes/protocol\": \"workspace:*\",\n    \"@types/bun\": \"latest\",\n    \"@types/react\": \"latest\",\n    \"effect\": \"4.0.0-rc.112\",\n    \"oxlint\": \"1.81.0\",\n    \"typescript\": \"7.0.2\",\n    \"vite-plus\": \"0.3.1\"\n  },\n  \"engines\": {\n    \"bun\": \">=1.4.2\",\n    \"node\": \">=22.18.0\"\n  },\n  \"packageManager\": \"bun@1.4.2\"\n}\n"
+  },
+  "agents": {
+    "byteSize": 1755
+  },
+  "claude": null
+}

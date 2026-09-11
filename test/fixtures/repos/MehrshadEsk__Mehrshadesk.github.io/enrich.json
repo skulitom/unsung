@@ -1,0 +1,397 @@
+{
+  "nameWithOwner": "MehrshadEsk/Mehrshadesk.github.io",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-02-04T07:41:21Z",
+  "pushedAt": "2026-09-11T11:18:35Z",
+  "diskUsage": 893,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 496372,
+    "edges": [
+      {
+        "size": 462843,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 23871,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 9658,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "MehrshadEsk",
+    "__typename": "User",
+    "createdAt": "2025-02-02T10:09:18Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 70,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T11:18:35Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:01:55Z",
+            "messageHeadline": "Update research-cryptography-coding.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:59:53Z",
+            "messageHeadline": "Update research-intelligent-processing-efficient-ai.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:59:14Z",
+            "messageHeadline": "Update research-cryptography-coding.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:55:27Z",
+            "messageHeadline": "Update research-intelligent-processing-efficient-ai.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:47:34Z",
+            "messageHeadline": "Update research-wireless-systems.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:45:05Z",
+            "messageHeadline": "Update research-wireless-systems.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:42:39Z",
+            "messageHeadline": "Update research-intelligent-ran.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:32:04Z",
+            "messageHeadline": "Rename research-intelligent-processing-efficient-ai-updated.html to r…",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:31:43Z",
+            "messageHeadline": "Delete research-intelligent-processing-efficient-ai.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:29:55Z",
+            "messageHeadline": "Update research-wireless-systems.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T19:40:29Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T19:10:32Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T18:51:44Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:09:53Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:03:47Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:58:40Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:53:47Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:48:26Z",
+            "messageHeadline": "Update index.html",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T11:41:32Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "MehrshadEsk"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".nojekyll",
+        "type": "blob"
+      },
+      {
+        "name": "404.html",
+        "type": "blob"
+      },
+      {
+        "name": "ACCESS_SETUP.md",
+        "type": "blob"
+      },
+      {
+        "name": "CNAME",
+        "type": "blob"
+      },
+      {
+        "name": "DEPLOY_CHECKLIST.txt",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "UPLOAD_NOTES.txt",
+        "type": "blob"
+      },
+      {
+        "name": "VAULT_ADMIN_GUIDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "academic-references.html",
+        "type": "blob"
+      },
+      {
+        "name": "access-config.js",
+        "type": "blob"
+      },
+      {
+        "name": "application-journey-private.html",
+        "type": "blob"
+      },
+      {
+        "name": "application-journey.html",
+        "type": "blob"
+      },
+      {
+        "name": "apply-vault-private.html",
+        "type": "blob"
+      },
+      {
+        "name": "apply-vault.html",
+        "type": "blob"
+      },
+      {
+        "name": "contact.html",
+        "type": "blob"
+      },
+      {
+        "name": "crypto-viz.css",
+        "type": "blob"
+      },
+      {
+        "name": "detail-theme.css",
+        "type": "blob"
+      },
+      {
+        "name": "favicon.ico",
+        "type": "blob"
+      },
+      {
+        "name": "google-apps-script.gs",
+        "type": "blob"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "manifest.webmanifest",
+        "type": "blob"
+      },
+      {
+        "name": "research-cryptography-coding.html",
+        "type": "blob"
+      },
+      {
+        "name": "research-detail.css",
+        "type": "blob"
+      },
+      {
+        "name": "research-detail.js",
+        "type": "blob"
+      },
+      {
+        "name": "research-intelligent-processing-efficient-ai.html",
+        "type": "blob"
+      },
+      {
+        "name": "research-intelligent-ran.html",
+        "type": "blob"
+      },
+      {
+        "name": "research-viz.css",
+        "type": "blob"
+      },
+      {
+        "name": "research-wireless-systems.html",
+        "type": "blob"
+      },
+      {
+        "name": "robots.txt",
+        "type": "blob"
+      },
+      {
+        "name": "script.js",
+        "type": "blob"
+      },
+      {
+        "name": "sitemap.xml",
+        "type": "blob"
+      },
+      {
+        "name": "styles.css",
+        "type": "blob"
+      },
+      {
+        "name": "teaching-assistantships.html",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 17,
+    "text": "# DO NOT READ ME\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

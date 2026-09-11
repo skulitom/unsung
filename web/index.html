@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="referrer" content="no-referrer">
+<title>Unsung explorer</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="web/style.css">
+<script type="module" src="web/app.mjs"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the queue</a>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">U</span><span class="brand-name">Unsung</span>
+  </div>
+  <nav id="shelves" class="shelves-nav" aria-label="Shelves"></nav>
+  <div class="tools">
+    <label class="sr-only" for="filter">Filter the queue</label>
+    <input id="filter" type="search" placeholder="Filter  ( / )" autocomplete="off" spellcheck="false">
+    <button id="filters-toggle" class="filters-toggle" type="button" aria-controls="facets"
+      aria-expanded="false">Filters</button>
+    <button id="help-button" type="button" title="Keys and help (?)" aria-label="Keys and help">?</button>
+    <span id="runinfo" class="runinfo"></span>
+  </div>
+</header>
+<div id="banner"></div>
+<div class="layout">
+  <aside id="facets" class="facets" aria-label="Filters"></aside>
+  <main id="main" class="main" tabindex="-1"><p class="loading">Loading the index…</p></main>
+  <section id="detail" class="detail-pane" aria-label="Repository detail" tabindex="-1"></section>
+</div>
+<div id="overlay" class="overlay" hidden></div>
+<div id="toast" class="toast-region" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">The explorer needs JavaScript. The command line works without it:
+npm run unsung -- explain owner/name</p></noscript>
+</body>
+</html>

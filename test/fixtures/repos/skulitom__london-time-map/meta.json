@@ -1,0 +1,34 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "skulitom/london-time-map",
+  "set": "seedGems",
+  "expect": {
+    "lane": [
+      "promising",
+      "proven"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 4898,
+    "keptBytes": 4898,
+    "excerpt": false
+  },
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/deploy.yml"
+    ],
+    "treeEntries": 25,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 1,
+    "stars": false
+  }
+}

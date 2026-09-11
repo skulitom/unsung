@@ -1,0 +1,142 @@
+{
+  "nameWithOwner": "sodahaunted/brainrot-clicker",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-07T04:58:58Z",
+  "pushedAt": "2026-09-08T03:15:32Z",
+  "diskUsage": 2044,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "CC0-1.0"
+  },
+  "primaryLanguage": {
+    "name": "CSS"
+  },
+  "languages": {
+    "totalSize": 1049,
+    "edges": [
+      {
+        "size": 514,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 403,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 132,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "sodahaunted",
+    "__typename": "User",
+    "createdAt": "2024-11-27T19:36:08Z",
+    "repositories": {
+      "totalCount": 6
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T03:15:26Z",
+            "messageHeadline": "add images",
+            "author": {
+              "user": {
+                "login": "sodahaunted"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T05:13:33Z",
+            "messageHeadline": "created index.html",
+            "author": {
+              "user": {
+                "login": "sodahaunted"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T04:58:59Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "sodahaunted"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".DS_Store",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "images",
+        "type": "tree"
+      },
+      {
+        "name": "index.html",
+        "type": "blob"
+      },
+      {
+        "name": "script.js",
+        "type": "blob"
+      },
+      {
+        "name": "style.css",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 18,
+    "text": "# brainrot-clicker"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

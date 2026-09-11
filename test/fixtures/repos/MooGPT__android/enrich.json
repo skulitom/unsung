@@ -1,0 +1,344 @@
+{
+  "nameWithOwner": "MooGPT/android",
+  "description": "MooGPT for Android (recommended the SimSimi to OpenAI)",
+  "homepageUrl": "",
+  "createdAt": "2024-09-26T14:46:40Z",
+  "pushedAt": "2026-09-04T20:49:40Z",
+  "diskUsage": 531,
+  "stargazerCount": 1,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Shell"
+  },
+  "languages": {
+    "totalSize": 15730,
+    "edges": [
+      {
+        "size": 11354,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 2227,
+        "node": {
+          "name": "Kotlin"
+        }
+      },
+      {
+        "size": 2149,
+        "node": {
+          "name": "Ruby"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 2
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "MooGPT",
+    "__typename": "Organization",
+    "createdAt": "2024-09-26T11:38:38Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 112,
+        "nodes": [
+          {
+            "committedDate": "2024-09-30T19:17:29Z",
+            "messageHeadline": "Merged",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-30T19:16:57Z",
+            "messageHeadline": "Merged",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-30T19:16:11Z",
+            "messageHeadline": "Update ruby/setup-ruby action to v1.194.0",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-30T19:16:08Z",
+            "messageHeadline": "Update gradle/actions action to v4.1.0",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-30T19:14:21Z",
+            "messageHeadline": "Added package.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T06:18:30Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T06:16:32Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T06:15:00Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:55:16Z",
+            "messageHeadline": "Added screenshot.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:53:29Z",
+            "messageHeadline": "Added screenshot.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:49:30Z",
+            "messageHeadline": "Added screenshot.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:48:37Z",
+            "messageHeadline": "Renamed.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:47:36Z",
+            "messageHeadline": "Added screenshot.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:46:44Z",
+            "messageHeadline": "Added screenshot.",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:25:08Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:21:10Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:19:56Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T05:18:38Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T04:59:26Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-09-29T04:56:20Z",
+            "messageHeadline": "Stuff by Fastlane",
+            "author": {
+              "user": {
+                "login": "HeySimSimi"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "Gemfile",
+        "type": "blob"
+      },
+      {
+        "name": "Gemfile.lock",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "VERSION",
+        "type": "blob"
+      },
+      {
+        "name": "app",
+        "type": "tree"
+      },
+      {
+        "name": "build.gradle.kts",
+        "type": "blob"
+      },
+      {
+        "name": "fastlane",
+        "type": "tree"
+      },
+      {
+        "name": "gradle.properties",
+        "type": "blob"
+      },
+      {
+        "name": "gradle",
+        "type": "tree"
+      },
+      {
+        "name": "gradlew",
+        "type": "blob"
+      },
+      {
+        "name": "gradlew.bat",
+        "type": "blob"
+      },
+      {
+        "name": "release.sh",
+        "type": "blob"
+      },
+      {
+        "name": "settings.gradle",
+        "type": "blob"
+      },
+      {
+        "name": "version.properties",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "android.yml"
+      },
+      {
+        "name": "gem-push.yml"
+      },
+      {
+        "name": "gradle.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 574,
+    "text": "# MooGPT for Android\n![Gradle Release](https://img.shields.io/github/v/release/gradle/gradle?display_name=tag&style=flat&logoColor=%23F6901&label=gradle&color=%2300A7C8) ![Kotlin Release](https://img.shields.io/github/v/release/JetBrains/kotlin?display_name=tag&style=flat&logoColor=%23FFFFFF&label=kotlin&color=8051FF) ![BLAI](https://img.shields.io/badge/BLAI_Statuses-passing-brightgreen?style=flat&logo=GitHubActions&logoColor=%23FFFFFF)\n\nMooGPT for Android (recommended SimSimi to OpenAI)\n# Download\n- Google Play\n- [GitHub](https://github.com/MooGPT/android/releases)\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

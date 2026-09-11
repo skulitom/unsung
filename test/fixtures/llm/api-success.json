@@ -1,0 +1,37 @@
+{
+  "name": "api-success",
+  "kind": "api",
+  "description": "Messages API answer: a thinking block (ignored) then the JSON text block.",
+  "message": {
+    "id": "msg_synthetic",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-opus-5",
+    "content": [
+      {
+        "type": "thinking",
+        "thinking": "",
+        "signature": "synthetic"
+      },
+      {
+        "type": "text",
+        "text": "{\"category\":\"G\",\"categoryConfidence\":0.85,\"scores\":{\"purpose\":4,\"craft\":3,\"verification\":3,\"honesty\":3,\"originality\":3},\"claims\":[{\"text\":\"Predicts tides offline from harmonic constants\",\"path\":\"README.md\",\"quote\":\"Offline tide predictions for any port with published harmonic constants.\",\"supports\":\"purpose\"},{\"text\":\"A test checks a known high water at Brest\",\"path\":\"tests/predict.rs\",\"quote\":\"fn brest_high_water_is_near_six_metres()\",\"supports\":\"verification\"},{\"text\":\"The README states its limits\",\"path\":\"README.md\",\"quote\":\"It does not model storm surge.\",\"supports\":\"honesty\"}],\"flags\":[],\"pitch\":\"Offline tide predictions from harmonic constants, checked against a known port.\",\"audience\":\"Sailors and coastal walkers\",\"summary\":\"A small, tested Rust CLI that does one job well.\",\"injectionSeen\":false}"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_details": null,
+    "usage": {
+      "input_tokens": 3100,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2600,
+      "output_tokens": 1900
+    }
+  },
+  "expect": {
+    "status": "ok",
+    "kept": 3,
+    "dropped": 0,
+    "points": 1,
+    "lane": null
+  }
+}

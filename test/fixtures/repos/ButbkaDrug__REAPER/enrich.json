@@ -1,0 +1,660 @@
+{
+  "nameWithOwner": "ButbkaDrug/REAPER",
+  "description": "Projects for reaper that we use in church",
+  "homepageUrl": null,
+  "createdAt": "2024-09-20T09:41:19Z",
+  "pushedAt": "2026-08-20T16:07:54Z",
+  "diskUsage": 81023,
+  "stargazerCount": 0,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "ButbkaDrug",
+    "__typename": "User",
+    "createdAt": "2014-04-01T19:39:19Z",
+    "repositories": {
+      "totalCount": 20
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 98,
+        "nodes": [
+          {
+            "committedDate": "2026-08-20T16:07:41Z",
+            "messageHeadline": "last update",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-30T14:02:21Z",
+            "messageHeadline": "Be enthroned",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-30T13:44:40Z",
+            "messageHeadline": "changes",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-30T13:16:43Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-27T06:39:39Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-23T12:33:08Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-16T04:13:17Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-16T04:05:17Z",
+            "messageHeadline": "Changes from Sunday",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-06T06:07:38Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-03T14:08:27Z",
+            "messageHeadline": "rehersal changes",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-02T11:27:37Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-19T10:07:21Z",
+            "messageHeadline": "Updated with setlist for 22.03.2026",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-08T06:19:38Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-05T13:44:19Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-01T06:17:00Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-28T11:14:59Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-24T10:32:57Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-19T12:39:27Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-15T10:01:59Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-14T13:52:27Z",
+            "messageHeadline": "msg",
+            "author": {
+              "user": {
+                "login": "ButbkaDrug"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".template.RPP",
+        "type": "blob"
+      },
+      {
+        "name": "10000 Reasons - Matt Radman - G - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Adonai - Paul Wilbur - A - 108 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "All That I Am - Lifetree Kids - B - 77 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "All That Is Good - Kids Song",
+        "type": "tree"
+      },
+      {
+        "name": "All That Is Good - Lifetree Kids - Bb - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Amazing Grace (My Chains Are Gone) - Chris Tomlin - G - 63 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "At The Cross (Love Ran Red) - Chris Tomlin - Ab - 73 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "BaseProject",
+        "type": "tree"
+      },
+      {
+        "name": "Be Enthroned - Bethel Music - Db - 71 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Blessed Be Your Name - Matt Redman - G - 116 BPM(Original)",
+        "type": "tree"
+      },
+      {
+        "name": "Build My Life - Patt Barat - G - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Call And I Will Listen - Hillsong United - G - 69 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Canvas And Clay - Patt Barett - A - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Deeep, Deep, Deep - Kids Song -  A - 123 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Ever Be - Bethel Music - G - 69 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Everybody, Everywhere - Jana Alayra - G -68 BPM ",
+        "type": "tree"
+      },
+      {
+        "name": "First - Lauren Daigle - C - 60 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Forever - Kari Jobe - Ab - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Forever love forever God - Kids Song - A - 60 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Gloria (Angels We Have Heard On High) - Hillsong Worship - F - 93 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Glory - Matt Maher - Bb - 77 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Good In Every Way - Lifetree Kids - D - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Hark The Herald Angels Sing - Hillsong Worship - D - 98 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Have It All - Bethel Music - G - 73 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "He Rose - Kids Song - A - 132 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "He Rose - River Valley Kids - G - 130 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Holy Forever - Chris Tomlin - Db - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Hope Was Born This Night - Sidewalk Prophets - G - 79 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Hosanna - Praise is Rising (Live) - Paul Baloche - G - 113.9 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "House of the Lord - Phil Wickham - Bb - 86 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "How Great Is Our God - Chris Tomlin - C - 76 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "How Great Is Our God - Chris Tomlin - G - 76 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "I Give You My Heart - Hillsong United - G - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "I'm Trusting You - Kids Song - A- 112 BPM ",
+        "type": "tree"
+      },
+      {
+        "name": "Idi Vpered - Deti Boga - A - 123 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "In Jesus Name - Darlene Zschech - D - 105 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Jesus Have It All - Jeremy Riddle - F - 80 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Jesus Messiah - Chris Tomlin - A - 83 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Jesus Savior - KidSprings - A - 160 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Jesus We Enthrone You - G - 70 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Joy To The World - BICF Music - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Kajdim Utrom - Deti Boga - A - 113 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "King Of My Heart - Bethel Music - A - 68 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "King of Kings - Hillsong Worship - D - 68 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Light The Fire Again - Brian Doerksen - G - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Living Hope - Phil Wickham - Eb - 74 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Lord, I Need You - Matt Maher - Bb - 75 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Love Come Down - North Point Worship - A - 118 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Monumental Love - Kids Song - A - 118 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "More Love More Power - Em - 71 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "My God Is Powerful - Kids Song - A - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Never Let Go Of Me - Lifetreekids - A - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Newborn King - Antioch Music - E - 108 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "No Longer Slaves - Bb - 74 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Nuteki - Halellujah - Db - 86 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "O Come to the Altar - Elevation Worship - B - 70 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "O Holy Night - A - 80 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "O Praise the Name (Anástasis) - Hillsong Worship - C - 72,50 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "One Thing Remains - Bethel Music - Bb - 74 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "One, Two, Three, Jesus Is Alive - Kids Music - A - 106 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Our God - Chris Tomlin - B - 105 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Our God Is Good - Adlai - A - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Perfect God - G - 62 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Praise - Seph Schlueter - A - 129 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Promises - Maverick City - Bb - 86 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Psalm 46 - Capital City Music - Ab - 69 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Pust Slishit Vsya Zemplya - Kids Song - A - 60 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Raise A Hallelujah - Db - 164 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Reckless Love - Cory Asbury - Gb - 83 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Rojdestvo - Deti Boga - A - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Run To The Father - Cody Carnes - C - 137 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Silent Night - Click Track",
+        "type": "tree"
+      },
+      {
+        "name": "Sinking Deep - Hillsong Young And Free - Bb - 70 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Stand Together - Kids Song - A - 60 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Star Of The Morning - Kids Song - Db - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Still - Hillsong United - C - 70 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Take Me In - Kutless - A - 72 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "The Blessing",
+        "type": "tree"
+      },
+      {
+        "name": "Then He Rose - Elevation Worship - B - 94 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "This Is Amazing Grace - Phil Wickham - Bb - 98 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Through The Sacrifice Of Jesus Christ - New Generation - Db - 115 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Tremble - Mosaic MSC - C - 148 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Trust In You - Lauren Daigle - G - 88 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "V ty noch - New Beginnings Church - D - 82 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Verit i Lubit - Deti Boga - A - 123 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Way Maker - Leeland - E - 68 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "We Fall Down - C - 67 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "We're Here For You - Jeremy Riddle - D - 152 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "What Child Is This - Kids Song - A - 100 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "What The Lord Has Done in Me",
+        "type": "tree"
+      },
+      {
+        "name": "What a Beautiful Name - Hillsong Worship - D - 68 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Who You Say I Am - G - 84 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Worthy - Elevation Worship - Eb - 67,50 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Worthy Is The Lamb - G - 136 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Ya Noviy - Nuteki Worship - Ab - 131 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "You Are Good - Bethel Music - A - 144 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "You Are My Peace - Housefires - A - 76 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "You Are The Rock - The Maranatha Singers - A - 106 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "You Are The Rock",
+        "type": "tree"
+      },
+      {
+        "name": "Your Love Never Fails - Bb - 114 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "Zvezda Rojdestva - Kids Song - A - 73 BPM",
+        "type": "tree"
+      },
+      {
+        "name": "default.rpp",
+        "type": "blob"
+      },
+      {
+        "name": "template.RPP",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

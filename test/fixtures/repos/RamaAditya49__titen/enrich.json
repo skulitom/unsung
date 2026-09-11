@@ -1,0 +1,504 @@
+{
+  "id": "R_kgDOTmsk0g",
+  "nameWithOwner": "RamaAditya49/titen",
+  "description": "Agent memory that needs no API key, no LLM, and no embedding provider. One command on Bun and it is serving MCP over stdio against a local SQLite store. Drop-in for the MCP reference memory server. Every memory keeps its source, who may read it, and the evidence that contradicts it.",
+  "homepageUrl": "https://titen.dev",
+  "createdAt": "2026-07-29T03:23:46Z",
+  "pushedAt": "2026-09-10T01:18:28Z",
+  "diskUsage": 11833,
+  "stargazerCount": 13,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 2828010,
+    "edges": [
+      {
+        "size": 2576170,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 141910,
+        "node": {
+          "name": "Astro"
+        }
+      },
+      {
+        "size": 50505,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 22145,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 18007,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 16101,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 3172,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "agent-memory"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "bun"
+        }
+      },
+      {
+        "topic": {
+          "name": "cloudflare-workers"
+        }
+      },
+      {
+        "topic": {
+          "name": "context-engineering"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "self-hosted"
+        }
+      },
+      {
+        "topic": {
+          "name": "sqlite"
+        }
+      },
+      {
+        "topic": {
+          "name": "typescript"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp-server"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 33
+  },
+  "tags": {
+    "totalCount": 33
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "RamaAditya49",
+    "__typename": "User",
+    "createdAt": "2025-05-29T05:23:30Z",
+    "repositories": {
+      "totalCount": 26
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 277,
+        "nodes": [
+          {
+            "committedDate": "2026-08-30T16:53:28Z",
+            "messageHeadline": "Close authentication security release evidence",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T16:20:37Z",
+            "messageHeadline": "Harden dashboard authentication and public artifacts",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T15:28:06Z",
+            "messageHeadline": "Add authentication security work plans",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T12:57:03Z",
+            "messageHeadline": "docs: koreksi hash bukti website 0.9.1",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T12:55:28Z",
+            "messageHeadline": "docs: tutup rilis error actionable 0.9.1",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T12:41:28Z",
+            "messageHeadline": "chore: siapkan rilis error actionable 0.9.1",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T12:36:27Z",
+            "messageHeadline": "feat: beri panduan error actionable",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-30T12:19:07Z",
+            "messageHeadline": "docs: rencanakan pelaporan error actionable",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:49:07Z",
+            "messageHeadline": "docs: catat bukti rilis dashboard",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:48:56Z",
+            "messageHeadline": "docs: tutup rilis dashboard 0.9.0",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:28:37Z",
+            "messageHeadline": "docs: siapkan rilis dashboard 0.9.0",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:26:20Z",
+            "messageHeadline": "feat: tampilkan data dashboard sesuai tugas",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:08:46Z",
+            "messageHeadline": "docs: rencanakan perbaikan seluruh area dashboard",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:06:36Z",
+            "messageHeadline": "docs: tetapkan kejelasan dashboard operator",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-29T17:02:59Z",
+            "messageHeadline": "chore: abaikan worktree lokal",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T01:09:08Z",
+            "messageHeadline": "docs: close workspace picker release",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T16:44:25Z",
+            "messageHeadline": "fix: match workspace picker mockup",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T15:39:12Z",
+            "messageHeadline": "docs: close Level 6 dashboard release",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-16T15:12:26Z",
+            "messageHeadline": "feat: ship Level 6 operator dashboard",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-15T12:57:02Z",
+            "messageHeadline": "docs: close Atlas evidence trace delivery",
+            "author": {
+              "user": {
+                "login": "RamaAditya49"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".claude-plugin",
+        "type": "tree"
+      },
+      {
+        "name": ".cursor-plugin",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PONYTAIL-DEBT.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "astro.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "blueprint.md",
+        "type": "blob"
+      },
+      {
+        "name": "clients",
+        "type": "tree"
+      },
+      {
+        "name": "deploy",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "integrations",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "playwright.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "plugins",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "server.json",
+        "type": "blob"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.sdk-contract.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.sdk.json",
+        "type": "blob"
+      },
+      {
+        "name": "wrangler.jsonc",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 43843,
+    "text": "<h1 align=\"center\">Titen</h1>\n\n<p align=\"center\">\n  <strong>Agent memory that runs with no API key, no LLM, and no embedding provider.</strong><br>\n  Every memory keeps its source, who may read it, and the evidence that contradicts it.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://titen.dev\"><img src=\"https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-hero.svg\" alt=\"Titen — self-hosted agent memory with no API key and no LLM. Zero LLM calls, zero embedding calls, dependencies empty, and recall@1 0.880 on LongMemEval-S in the per-instance scoped condition, which falls to 0.524, 0.364, 0.308 and 0.246 as the store pools to 1k, 5k, 10k and 19,829 sessions\" width=\"100%\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://titen.dev\"><strong>Website</strong></a> ·\n  <a href=\"https://github.com/RamaAditya49/titen/blob/main/docs/README.md\">Documentation</a> ·\n  <a href=\"https://www.npmjs.com/package/titen-memory\">npm</a> ·\n  <a href=\"https://github.com/RamaAditya49/titen/blob/main/CHANGELOG.md\">Changelog</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/titen-memory\"><img alt=\"npm version\" src=\"https://img.shields.io/npm/v/titen-memory?style=flat&amp;labelColor=3E3630&amp;color=A9552A\"></a>\n  <a href=\"https://www.npmjs.com/package/titen-memory\"><img alt=\"npm downloads\" src=\"https://img.shields.io/npm/dm/titen-memory?style=flat&amp;labelColor=3E3630&amp;color=223A57\"></a>\n  <a href=\"https://github.com/RamaAditya49/titen/blob/main/LICENSE\"><img alt=\"Apache-2.0 license\" src=\"https://img.shields.io/badge/license-Apache--2.0-171310?style=flat&amp;labelColor=3E3630\"></a>\n</p>\n\n<p align=\"center\">\n  Built with <a href=\"https://cadis.digital/\">C.A.D.I.S Agent</a>.\n</p>\n\n## Try it in 30 seconds\n\nNo account, no key, no configuration — but the CLI runs on\n**[Bun](https://bun.sh/) 1.2 or newer**, and refuses to start without it:\n\n```bash\ncurl -fsSL https://bun.sh/install | bash   # skip if you already have Bun\nnpx titen-memory mcp\n```\n\nWith no environment set, that opens or creates `~/.titen/memory.db`, writes a\nreal organization, workspace, project and owner into it, and serves MCP over\nstdio in-process — no HTTP hop, no key to paste, and **no outbound network\ncall**. Retrieval is FTS5, so nothing needs an embedding provider or a model.\n\n`curl -fsSL https://titen.dev/install.sh | bash` does the same in one step: it\nadds Bun when it is missing, then installs the `titen` command.\n\nPoint an agent at it:\n\n```bash\nclaude mcp add --transport stdio --scope user titen -- npx -y titen-memory mcp\n```\n\nAlready using `@modelcontextprotocol/server-memory`? Titen serves the same nine\ntool names with the same schemas, and answers `memory://knowledge-graph` too, so\na client does not notice the swap. On the first local-mode start it imports your\nexisting graph. **Pass the old store's path**, because that server writes beside\nits own install rather than in the directory you launch it from:\n\n```bash\nclaude mcp add --transport stdio --scope user titen \\\n  --env MEMORY_FILE_PATH=/path/to/memory.jsonl -- npx -y titen-memory mcp\n```\n\nWithout it Titen still checks the working directory, its `node_modules`, and\nnpm's `npx` cache — and says on stderr when it found nothing, rather than\nstarting empty in silence. Point `titen` at a served instance later by setting\n`TITEN_MCP_URL` and `TITEN_API_KEY` — [full setup below](#install-and-connect-an-agent).\n\nAudit what any agent memory store has accumulated, including one Titen does not\nown:\n\n```bash\nnpx titen-memory audit ./memory.json\n```\n\n## What is different about it\n\n- **No provider, no key, no account.** FTS5 lexical retrieval is the default\n  operating point, not a fallback. Embeddings and model enrichment are opt-in\n  projections that degrade cleanly when they are absent.\n- **No runtime dependencies.** `package.json` declares none. What it needs is\n  Bun and one SQLite file; everything else is the standard library and Web APIs.\n- **Drop-in for `@modelcontextprotocol/server-memory`.** Eighteen tools — the\n  nine `titen_*` plus the nine reference-server nam\n  routed through real retrieval rather than a substring scan, and your existing\n  `memory.json` imported on first run.\n- **It audits stores it does not own.** `titen audit` reads a reference-server\n  `memory.json`, a Mem0 export, or a Titen store, and reports duplicates,\n  recall loops, secret patterns and staleness with per-item evidence you can\n  check by hand.\n- **The benchmark publishes the losses.** Two of the five pre-registered\n  falsifiers fired against Titen, and they are printed on the chart below\n  rather than left out of it.\n\n## Already running `@modelcontextprotocol/server-memory`?\n\nThat server had **106,662 downloads in the week of 31 July 2026** — it is the\ndefault memory for a large part of the MCP ecosystem, and it is deliberately\nminimal. Reading its published `2026.7.4` tarball: the store is one\nnewline-delimited JSON file rewritten in full on every mutation, and a search is\n\n```js\ngraph.entities.filter(e => e.name.toLowerCase().includes(query.toLowerCase()) || ...)\n```\n\nthat exact sentence is stored.\n\n\n| --- | --- | --- |\n```sh\nnpx titen-memory audit ~/.titen/memory.db        # a Titen store\nnpx titen-memory audit ./memory.jsonl            # @modelcontextprotocol/server-memory\nnpx titen-memory audit ./mem0-export.json --json # a Mem0 export\n```\nthe public API is not yet stable. Below `1.0.0` the **minor** slot is the only\n```bash\ncurl -fsSL https://titen.dev/install.sh | bash\ntiten --version\n```\n```powershell\nirm https://titen.dev/install.ps1 | iex\ntiten --version\n```\n```bash\ntiten bootstrap --org \"My Org\"\n```\n```bash\ntiten key create \\\n  --org-id org_replace_me \\\n  --principal agent-codex \\\n  --kind agent \\\n  --scopes \"mcp:call,projects:create\" \\\n  --trust asserted \\\n  --label codex\n```\n```bash\ntiten serve\n```\n```bash\ncurl --fail http://127.0.0.1:8787/readyz\nexport TITEN_MCP_URL=\"http://127.0.0.1:8787/mcp\"\nexport TITEN_API_KEY=\"paste-the-agent-key-here\"\n```\n```bash\ncodex mcp add titen --url \"$TITEN_MCP_URL\" \\\n  --bearer-token-env-var TITEN_API_KEY\ncodex mcp get titen --json\n```\n```bash\nclaude mcp add --transport stdio --scope user titen -- titen mcp\nclaude mcp get titen\n```\n```bash\nopenclaw mcp set titen \\\n  '{\"url\":\"${TITEN_MCP_URL}\",\"transport\":\"streamable-http\",\"headers\":{\"Authorization\":\"Bearer ${TITEN_API_KEY}\"}}'\nopenclaw gateway restart\nopenclaw mcp doctor titen --probe\n```\n```bash\nhermes mcp add titen \\\n  --command titen \\\n  --args mcp \\\n  --env 'TITEN_MCP_URL=${TITEN_MCP_URL}' 'TITEN_API_KEY=${TITEN_API_KEY}'\nhermes mcp test titen\n```\n```json\n{\n  \"mcpServers\": {\n    \"titen\": {\n      \"command\": \"titen\",\n      \"args\": [\"mcp\"]\n    }\n  }\n}\n```\n```bash\nbun add titen-memory sqlite-vec@0.1.9\n\nTITEN_EMBED_BASE_URL=http://127.0.0.1:11434/v1 \\\nTITEN_EMBED_MODEL=embeddinggemma \\\nTITEN_EMBED_DIMS=768 \\\nTITEN_EMBED_REVISION=embeddinggemma-q4-2026-07-31 \\\nTITEN_EMBED_PROFILE=embeddinggemma-retrieval-v1 \\\nTITEN_EMBED_MIN_COSINE=0.32 \\\nbunx titen-memory serve\n```\n```bash\nnpm install titen-memory\nnpm pkg set type=module\n```\n```js\nimport { TitenClient } from \"titen-memory\";\n\nconst titen = new TitenClient({\n  url: process.env.TITEN_URL ?? \"http://127.0.0.1:8787\",\n  key: process.env.TITEN_API_KEY,\n});\n\nconst subject = \"release-runbook\";\nconst observation = await titen.observe({\n  subject_id: subject,\n  kind: \"imported_source\",\n  content: \"The release runbook requires a rollback smoke test after deployment.\",\n  source: { type: \"runbook\", ref: \"ops/release.md\" },\n  trust: \"verified\",\n});\n\nawait titen.consolidate(subject, [\n  {\n    kind: \"procedural\",\n    statement: \"Run a rollback smoke test after deployment.\",\n    sources: [\n      { observation_id: observation.observation_id, relation: \"supports\" },\n    ],\n  },\n]);\n\nconst context = await titen.compile({\n  subject_id: subject,\n  task: \"rollback smoke after deployment\",\n  max_tokens: 900,\n});\n\nconsole.log(context.items);\n```\n```bash\nTITEN_DASHBOARD_LIVE=true \\\nTITEN_DASHBOARD_AUTH=session \\\nTITEN_API_URL=http://127.0.0.1:8787 \\\ntiten dashboard\n```\n```bash\ngit clone https://github.com/RamaAditya49/titen.git\ncd titen\npnpm install\npnpm test\npnpm check:workflow\n```"
+  },
+  "pkg": {
+    "byteSize": 4461,
+    "text": "{\n  \"name\": \"titen-memory\",\n  \"version\": \"0.10.0\",\n  \"mcpName\": \"io.github.RamaAditya49/titen-memory\",\n  \"description\": \"Agent memory with no API key, no LLM, and no embedding provider. Serves MCP over stdio against a local SQLite store, or Cloudflare Workers + D1. Drop-in for @modelcontextprotocol/server-memory; every memory keeps its source, its scope, and the evidence that contradicts it.\",\n  \"license\": \"Apache-2.0\",\n  \"type\": \"module\",\n  \"packageManager\": \"pnpm@11.17.0\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/RamaAditya49/titen.git\"\n  },\n  \"homepage\": \"https://titen.dev\",\n  \"bugs\": \"https://github.com/RamaAditya49/titen/issues\",\n  \"keywords\": [\n    \"agent-memory\",\n    \"memory\",\n    \"rag\",\n    \"context\",\n    \"mcp\",\n    \"bun\",\n    \"sqlite\",\n    \"cloudflare-workers\",\n    \"mcp-server\",\n    \"model-context-protocol\",\n    \"provenance\",\n    \"self-hosted\",\n    \"claude\"\n  ],\n  \"bin\": {\n    \"titen\": \"src/runtime/bun/cli.ts\"\n  },\n  \"exports\": {\n    \".\": {\n      \"types\": \"./dist/npm/sdk.d.ts\",\n      \"bun\": \"./dist/npm/sdk.js\",\n      \"default\": \"./dist/npm/sdk.js\"\n    },\n    \"./sdk\": {\n      \"types\": \"./dist/npm/sdk.d.ts\",\n      \"bun\": \"./dist/npm/sdk.js\",\n      \"default\": \"./dist/npm/sdk.js\"\n    },\n    \"./bun\": {\n      \"bun\": \"./src/runtime/bun/server.ts\"\n    },\n    \"./package.json\": \"./package.json\"\n  },\n  \"files\": [\n    \"SECURITY.md\",\n    \"src/core\",\n    \"src/runtime/bun\",\n    \"src/sdk.ts\",\n    \"dist/npm\",\n    \"dist/index.html\",\n    \"dist/dashboard\",\n    \"dist/_astro\",\n    \"scripts/dashboard-adapter.ts\"\n  ],\n  \"engines\": {\n    \"node\": \">=22\",\n    \"bun\": \">=1.2\"\n  },\n  \"peerDependencies\": {\n    \"sqlite-vec\": \"0.1.9\"\n  },\n  \"peerDependenciesMeta\": {\n    \"sqlite-vec\": {\n      \"optional\": true\n    }\n  },\n  \"scripts\": {\n    \"dev\": \"astro dev\",\n    \"build\": \"astro build && node scripts/check-dashboard-bundle.mjs && node scripts/check-public-artifacts.mjs --root dist\",\n    \"preview\": \"astro preview\",\n    \"test\": \"pnpm build && playwright test\",\n    \"test:browser\": \"playwright test\",\n    \"test:api\": \"pnpm build:worker && pnpm test:d1 && bun test tests/contract/bun-sqlite.test.ts tests/contract/vectors.test.ts tests/sdk\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"test:d1\": \"bun test tests/contract/d1-harness.test.ts && bun build tests/contract/cloudflare-d1.test.ts --outfile dist/test/cloudflare-d1.test.mjs --target node --format esm --external miniflare && node --test dist/test/cloudflare-d1.test.mjs\",\n    \"test:all\": \"pnpm test:api && pnpm test:integration && pnpm verify:dashboard-live && pnpm test && pnpm check:workflow\",\n    \"build:worker\": \"WRANGLER_SEND_METRICS=false wrangler deploy --dry-run --outdir dist/worker\",\n    \"build:npm\": \"bun build src/sdk.ts --outfile dist/npm/sdk.js --target node --format esm && tsc -p tsconfig.sdk.json && tsc -p tsconfig.sdk-contract.json\",\n    \"prepack\": \"pnpm check:public && pnpm build && bun run build:npm\",\n    \"deploy:worker\": \"WRANGLER_SEND_METRICS=false wrangler deploy\",\n    \"titen\": \"bun src/runtime/bun/cli.ts\",\n    \"screenshots\": \"UPDATE_DASHBOARD_SCREENSHOTS=1 playwright test tests/dashboard-screenshots.spec.ts\",\n    \"check:routes\": \"node scripts/check-route-docs.mjs\",\n    \"check:workflow\": \"node scripts/check-workflow-docs.mjs && node scripts/check-workflow-docs.mjs --self-test && node scripts/check-ponytail-debt.mjs && pnpm check:public\",\n    \"check:public\": \"node scripts/check-public-artifacts.mjs\",\n    \"check:ponytail\": \"node scripts/check-ponytail-debt.mjs\",\n    \"verify:dashboard-live\": \"bun scripts/verify-dashboard-live.ts\",\n    \"verify:live\": \"bun scripts/verify-live.ts\",\n    \"test:integration\": \"bun test tests/integration\",\n    \"example:golden-path\": \"bun examples/small-team-golden-path.ts\",\n    \"dashboard:adapter\": \"bun scripts/dashboard-adapter.ts\",\n    \"test:adapter\": \"bun test tests/integration/dashboard-adapter.test.ts\",\n    \"benchmark:retrieval\": \"bun scripts/benchmark-retrieval-h2h.ts\"\n  },\n  \"devDependencies\": {\n    \"@fontsource-variable/bricolage-grotesque\": \"5.3.0\",\n    \"@fontsource-variable/instrument-sans\": \"5.3.0\",\n    \"@fontsource-variable/jetbrains-mono\": \"5.3.0\",\n    \"@playwright/test\": \"1.62.0\",\n    \"@types/bun\": \"^1.3.14\",\n    \"@types/node\": \"^24.13.3\",\n    \"astro\": \"7.1.4\",\n    \"miniflare\": \"4.20260730.0\",\n    \"sqlite-vec\": \"0.1.9\",\n    \"typescript\": \"5.9.3\",\n    \"wrangler\": \"4.116.0\"\n  },\n  \"dependencies\": {\n    \"@simplewebauthn/browser\": \"13.3.0\",\n    \"@simplewebauthn/server\": \"13.3.3\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 4553
+  },
+  "claude": {
+    "byteSize": 2917
+  }
+}

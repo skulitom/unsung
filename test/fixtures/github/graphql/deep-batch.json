@@ -1,0 +1,602 @@
+{
+  "request": {
+    "query": "query($o0: String!, $n0: String!, $o1: String!, $n1: String!, $o2: String!, $n2: String!, $o3: String!, $n3: String!, $o4: String!, $n4: String!) {\n  rateLimit { cost remaining resetAt }\n  r0: repository(owner: $o0, name: $n0) { ...Deep }\n  r1: repository(owner: $o1, name: $n1) { ...Deep }\n  r2: repository(owner: $o2, name: $n2) { ...Deep }\n  r3: repository(owner: $o3, name: $n3) { ...Deep }\n  r4: repository(owner: $o4, name: $n4) { ...Deep }\n}\nfragment Deep on Repository {\n  fundingLinks { platform url }\n  owner { ... on User { hasSponsorsListing contributionsCollection { contributionYears } }\n          ... on Organization { hasSponsorsListing } }\n  releases(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) { totalCount nodes { tagName publishedAt isPrerelease } }\n  issues(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { createdAt author { login ... on User { createdAt } } } }\n  pullRequests(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { createdAt author { login ... on User { createdAt } } } }\n}\n",
+    "variables": {
+      "o0": "codefly-dev",
+      "n0": "cli",
+      "o1": "inamdarmihir",
+      "n1": "ask-my-tabs",
+      "o2": "sakajunquality",
+      "n2": "bunko",
+      "o3": "zaghaghi",
+      "n3": "toolog",
+      "o4": "dragonGR",
+      "n4": "Dropzone"
+    }
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:22:31 GMT",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4951",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "graphql",
+    "x-ratelimit-used": "49"
+  },
+  "body": {
+    "data": {
+      "rateLimit": {
+        "cost": 1,
+        "remaining": 4951,
+        "resetAt": "2026-09-11T15:48:01Z"
+      },
+      "r0": {
+        "fundingLinks": [],
+        "owner": {
+          "hasSponsorsListing": false
+        },
+        "releases": {
+          "totalCount": 131,
+          "nodes": [
+            {
+              "tagName": "v0.1.145",
+              "publishedAt": "2026-09-07T23:36:53Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.144",
+              "publishedAt": "2026-09-07T22:54:31Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.143",
+              "publishedAt": "2026-09-07T21:39:24Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.142",
+              "publishedAt": "2026-09-07T19:31:21Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.141",
+              "publishedAt": "2026-09-01T17:51:49Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.140",
+              "publishedAt": "2026-08-29T23:00:56Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.139",
+              "publishedAt": "2026-08-22T22:03:26Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.138",
+              "publishedAt": "2026-08-20T14:38:40Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.137",
+              "publishedAt": "2026-08-17T22:59:29Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.1.136",
+              "publishedAt": "2026-08-17T20:18:09Z",
+              "isPrerelease": false
+            }
+          ]
+        },
+        "issues": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-11T13:41:02Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:07:44Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:07:42Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:07:40Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:07:26Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T11:33:23Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T03:08:40Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-09T21:00:30Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-09T18:24:00Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-09T18:23:59Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            }
+          ]
+        },
+        "pullRequests": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-11T14:10:53Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T14:09:37Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:37:12Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:34:21Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:33:19Z",
+              "author": {
+                "login": "dependabot"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:32:22Z",
+              "author": {
+                "login": "dependabot"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:32:06Z",
+              "author": {
+                "login": "dependabot"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:31:44Z",
+              "author": {
+                "login": "dependabot"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:31:36Z",
+              "author": {
+                "login": "dependabot"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T12:19:55Z",
+              "author": {
+                "login": "antoinetoussaint-byte",
+                "createdAt": "2026-08-03T13:24:42Z"
+              }
+            }
+          ]
+        }
+      },
+      "r1": {
+        "fundingLinks": [],
+        "owner": {
+          "hasSponsorsListing": false,
+          "contributionsCollection": {
+            "contributionYears": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018
+            ]
+          }
+        },
+        "releases": {
+          "totalCount": 0,
+          "nodes": []
+        },
+        "issues": {
+          "nodes": []
+        },
+        "pullRequests": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-04T18:50:48Z",
+              "author": {
+                "login": "inamdarmihir",
+                "createdAt": "2018-05-16T15:17:15Z"
+              }
+            }
+          ]
+        }
+      },
+      "r2": {
+        "fundingLinks": [],
+        "owner": {
+          "hasSponsorsListing": false,
+          "contributionsCollection": {
+            "contributionYears": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018,
+              2017,
+              2016,
+              2015,
+              2014,
+              2013,
+              2012
+            ]
+          }
+        },
+        "releases": {
+          "totalCount": 21,
+          "nodes": [
+            {
+              "tagName": "v0.7.0",
+              "publishedAt": "2026-09-11T09:44:50Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.6.2",
+              "publishedAt": "2026-09-11T03:37:22Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.6.1",
+              "publishedAt": "2026-09-11T01:44:20Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.6.0",
+              "publishedAt": "2026-09-11T00:18:20Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.5.0",
+              "publishedAt": "2026-09-10T15:47:51Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.4.0",
+              "publishedAt": "2026-09-10T12:33:47Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.3.2",
+              "publishedAt": "2026-09-10T10:25:39Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.3.1",
+              "publishedAt": "2026-09-10T08:11:08Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.3.0",
+              "publishedAt": "2026-09-10T06:44:19Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v0.2.0",
+              "publishedAt": "2026-09-10T05:33:08Z",
+              "isPrerelease": false
+            }
+          ]
+        },
+        "issues": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-11T01:43:55Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T01:43:28Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T11:00:28Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T10:59:51Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T10:59:26Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T10:58:57Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T10:58:35Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T00:21:33Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T00:21:05Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-10T00:20:35Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            }
+          ]
+        },
+        "pullRequests": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-11T09:55:22Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T09:26:24Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T07:02:46Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T05:24:16Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T03:46:04Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T03:21:29Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T03:04:36Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T03:00:31Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T01:55:15Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            },
+            {
+              "createdAt": "2026-09-11T01:24:43Z",
+              "author": {
+                "login": "sakajunquality",
+                "createdAt": "2012-11-03T14:33:38Z"
+              }
+            }
+          ]
+        }
+      },
+      "r3": {
+        "fundingLinks": [],
+        "owner": {
+          "hasSponsorsListing": false,
+          "contributionsCollection": {
+            "contributionYears": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018,
+              2017,
+              2016,
+              2015,
+              2014,
+              2013,
+              2012,
+              2011,
+              2010,
+              2009,
+              2008,
+              2007
+            ]
+          }
+        },
+        "releases": {
+          "totalCount": 3,
+          "nodes": [
+            {
+              "tagName": "v1.2.0",
+              "publishedAt": "2026-09-06T16:45:02Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v1.1.0",
+              "publishedAt": "2026-09-06T06:02:38Z",
+              "isPrerelease": false
+            },
+            {
+              "tagName": "v1.0.0",
+              "publishedAt": "2026-09-05T21:02:31Z",
+              "isPrerelease": false
+            }
+          ]
+        },
+        "issues": {
+          "nodes": []
+        },
+        "pullRequests": {
+          "nodes": []
+        }
+      },
+      "r4": {
+        "fundingLinks": [],
+        "owner": {
+          "hasSponsorsListing": false,
+          "contributionsCollection": {
+            "contributionYears": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018,
+              2017,
+              2016,
+              2015,
+              2014
+            ]
+          }
+        },
+        "releases": {
+          "totalCount": 0,
+          "nodes": []
+        },
+        "issues": {
+          "nodes": []
+        },
+        "pullRequests": {
+          "nodes": [
+            {
+              "createdAt": "2026-09-06T13:14:47Z",
+              "author": {
+                "login": "albanobattistella",
+                "createdAt": "2017-12-24T12:40:47Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

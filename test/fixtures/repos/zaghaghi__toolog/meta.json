@@ -1,0 +1,47 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "zaghaghi/toolog",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S3_rust_new",
+  "researchRecordedAt": "2026-09-11T14:17:05Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 10980,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 10980,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/release.yml",
+      "Cargo.toml"
+    ],
+    "treeEntries": 269,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 28,
+    "stars": true
+  }
+}

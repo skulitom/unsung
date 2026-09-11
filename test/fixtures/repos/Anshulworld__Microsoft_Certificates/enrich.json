@@ -1,0 +1,135 @@
+{
+  "nameWithOwner": "Anshulworld/Microsoft_Certificates",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T04:35:45Z",
+  "pushedAt": "2026-09-08T04:48:22Z",
+  "diskUsage": 3632,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": null,
+  "languages": {
+    "totalSize": 0,
+    "edges": []
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Anshulworld",
+    "__typename": "User",
+    "createdAt": "2026-06-02T15:50:53Z",
+    "repositories": {
+      "totalCount": 14
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 7,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T04:48:22Z",
+            "messageHeadline": "Delete Microsoft_Business_Analyst_Professional_Certificate/m",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:47:59Z",
+            "messageHeadline": "Delete Microsoft_Business_Analyst_Professional_Certificate/Badges/b",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:46:18Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:45:50Z",
+            "messageHeadline": "Create b",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:45:25Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:43:45Z",
+            "messageHeadline": "Create m",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T04:35:46Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "Anshulworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "Microsoft_Business_Analyst_Professional_Certificate",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 24,
+    "text": "# Microsoft_Certificates"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,245 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyMTUzOTk2OTM=",
+  "nameWithOwner": "timorunge/espanso-misspell",
+  "description": "espanso-misspell generates espanso packages that replace commonly misspelled words in multiple languages.",
+  "homepageUrl": "",
+  "createdAt": "2019-10-15T21:26:16Z",
+  "pushedAt": "2026-09-02T22:33:46Z",
+  "diskUsage": 2081,
+  "stargazerCount": 12,
+  "forkCount": 3,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 22143,
+    "edges": [
+      {
+        "size": 21139,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 1004,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "espanso"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "timorunge",
+    "__typename": "User",
+    "createdAt": "2012-03-21T09:44:55Z",
+    "repositories": {
+      "totalCount": 25
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 12,
+        "nodes": [
+          {
+            "committedDate": "2026-09-02T22:33:42Z",
+            "messageHeadline": "build(deps): bump actions/setup-go from 6 to 7 in the all group (#4)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-27T17:21:45Z",
+            "messageHeadline": "build(deps): bump actions/checkout from 6 to 7 in the all group (#3)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T19:06:51Z",
+            "messageHeadline": "feat: switch to golangci/misspell v0.8.0, bump EN package versions",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T18:36:40Z",
+            "messageHeadline": "docs: reference Makefile targets in README",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T18:35:03Z",
+            "messageHeadline": "feat: upgrade to espanso v0.1.0, add hub manifests, CI, and quality g…",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-31T18:00:52Z",
+            "messageHeadline": "feat: add codespell package, per-package licensing, and FR/IT languages",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-31T17:00:31Z",
+            "messageHeadline": "feat: add French and Italian misspell packages",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-31T15:55:05Z",
+            "messageHeadline": "refactor: consolidate EN/DE/ES misspell packages into single project",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-31T12:28:15Z",
+            "messageHeadline": "refactor: update to new espanso library API",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2020-04-25T10:27:04Z",
+            "messageHeadline": "Adding case propagation as mentioned by @femtocept in #1 - Doing it i…",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2019-10-28T21:16:53Z",
+            "messageHeadline": "Adopting to espanso v0.3.2 which is sorting out #82 and introduces wo…",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          },
+          {
+            "committedDate": "2019-10-15T21:27:21Z",
+            "messageHeadline": "Initial commit of espanso-misspell-en. espanso-misspell-en is holding…",
+            "author": {
+              "user": {
+                "login": "timorunge"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "lint-and-test.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2145,
+    "text": "# espanso-misspell\n\n`espanso-misspell` generates [espanso](https://espanso.org) packages that\nreplace commonly misspelled words in multiple languages.\n\n## Packages\n\n| Package | Language | Source | License | Entries |\n|---|---|---|---|---|\n| `misspell-de` | German | [Wikipedia Wortliste](https://de.wikipedia.org/wiki/Wikipedia:Helferlein/Rechtschreibpr%C3%BCfung/Wortliste) | CC BY-SA 4.0 | ~5.7k |\n| `misspell-en` | English | [golangci/misspell](https://github.com/golangci/misspell) DictMain | MIT | ~28.1k |\n| `misspell-en-codespell` | English | [codespell](https://github.com/codespell-project/codespell) | CC BY-SA 3.0 | ~50.7k |\n| `misspell-en_UK` | English | [golangci/misspell](https://github.com/golangci/misspell) DictBritish | MIT | ~1.5k |\n| `misspell-en_US` | English | [golangci/misspell](https://github.com/golangci/misspell) DictAmerican | MIT | ~1.6k |\n| `misspell-es` | Spanish | [Wikipedia Corrector ortográfico](https://es.wikipedia.org/wiki/Wikipedia:Corrector_ortogr%C3%A1fico/Listado) | CC BY-SA 4.0 | ~19k |\n| `misspell-fr` | French | [Wikipédia Fautes d'orthographe](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Liste_de_fautes_d%27orthographe_courantes) | CC BY-SA 4.0 | ~91 |\n| `misspell-it` | Italian | [Wikipedia Errori comuni](https://it.wikipedia.org/wiki/Wikipedia:Bot/Richieste/Errori_comuni) | CC BY-SA 4.0 | ~331 |\n\n`misspell-en-codespell` is deduplicated against `misspell-en` - install both\nfor maximum coverage without trigger conflicts.\n\n## Usage\n\nGenerate all packages:\n\n```bash\nmake generate\n```\n\nGenerate packages for a specific language:\n\n```bash\ngo run ./cmd/generate de\ngo run ./cmd/generate en codespell\n```\n\nOutput is written to `packages/`.\n\n## Development\n\n```bash\nmake help      # Show all available targets\nmake check     # Run all quality gates (fmt, tidy, vet, lint, test)\nmake lint      # Run golangci-lint\nmake test      # Run tests with race detector\nmake generate  # Generate all espanso packages\n```\n\n## License\n\nGenerator code: [MIT License](LICENSE)\n\nEach generated package carries its own license matching its data source.\nSee the table above and individual package LICENSE files.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

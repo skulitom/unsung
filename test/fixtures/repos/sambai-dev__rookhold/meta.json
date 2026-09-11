@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "sambai-dev/rookhold",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S6_mcp",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 9426,
+    "keptBytes": 8192,
+    "excerpt": true
+  }
+}

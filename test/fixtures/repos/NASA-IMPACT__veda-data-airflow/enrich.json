@@ -1,0 +1,403 @@
+{
+  "id": "R_kgDOI4mwRw",
+  "nameWithOwner": "NASA-IMPACT/veda-data-airflow",
+  "description": "Airflow implementation of ingest pipeline for VEDA STAC data",
+  "homepageUrl": null,
+  "createdAt": "2023-02-01T18:26:15Z",
+  "pushedAt": "2026-09-09T19:51:22Z",
+  "diskUsage": 5525,
+  "stargazerCount": 15,
+  "forkCount": 6,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 290872,
+    "edges": [
+      {
+        "size": 262042,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 16564,
+        "node": {
+          "name": "HCL"
+        }
+      },
+      {
+        "size": 3418,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 3399,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 3247,
+        "node": {
+          "name": "Go Template"
+        }
+      },
+      {
+        "size": 2202,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 180
+  },
+  "tags": {
+    "totalCount": 181
+  },
+  "watchers": {
+    "totalCount": 17
+  },
+  "owner": {
+    "login": "NASA-IMPACT",
+    "__typename": "Organization",
+    "createdAt": "2016-10-12T17:52:08Z"
+  },
+  "defaultBranchRef": {
+    "name": "dev",
+    "target": {
+      "history": {
+        "totalCount": 1324,
+        "nodes": [
+          {
+            "committedDate": "2026-08-12T22:57:57Z",
+            "messageHeadline": "Airflow 3.0 upgrade (#449)",
+            "author": {
+              "user": {
+                "login": "ividito"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-10T15:34:38Z",
+            "messageHeadline": "Merge pull request #452 from NASA-IMPACT/add/regex-testing",
+            "author": {
+              "user": {
+                "login": "sandrahoang686"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T17:05:53Z",
+            "messageHeadline": "Merge pull request #484 from NASA-IMPACT/feat/aws-request-payer",
+            "author": {
+              "user": {
+                "login": "botanical"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-07T16:47:31Z",
+            "messageHeadline": "fix: this is an empty commit",
+            "author": {
+              "user": {
+                "login": "botanical"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-06T17:22:53Z",
+            "messageHeadline": "fix: add aws_request_payer to test env vars",
+            "author": {
+              "user": {
+                "login": "botanical"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-15T17:33:41Z",
+            "messageHeadline": "ci: security updates (#470)",
+            "author": {
+              "user": {
+                "login": "aliziel"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T20:37:28Z",
+            "messageHeadline": "try get airflow variables in util",
+            "author": {
+              "user": {
+                "login": "anayeaye"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T20:23:26Z",
+            "messageHeadline": "discover group aws request payer",
+            "author": {
+              "user": {
+                "login": "anayeaye"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T18:49:23Z",
+            "messageHeadline": "move aws request payer to common env",
+            "author": {
+              "user": {
+                "login": "anayeaye"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T18:06:04Z",
+            "messageHeadline": "feat: add aws request payer to worker env",
+            "author": {
+              "user": {
+                "login": "anayeaye"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-15T17:14:41Z",
+            "messageHeadline": "add proxy fix to airflow config",
+            "author": {
+              "user": {
+                "login": "smohiudd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-15T16:56:56Z",
+            "messageHeadline": "add proxy fix to correct airflow.cfg file",
+            "author": {
+              "user": {
+                "login": "smohiudd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T15:19:00Z",
+            "messageHeadline": "add proxy fix to airflow.cfg",
+            "author": {
+              "user": {
+                "login": "smohiudd"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-27T17:12:20Z",
+            "messageHeadline": "fix: consolidate SM2A variables (#439)",
+            "author": {
+              "user": {
+                "login": "ividito"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-22T15:23:30Z",
+            "messageHeadline": "add YYYY-MM regex pattern and add regex tests",
+            "author": {
+              "user": {
+                "login": "sandrahoang686"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-25T23:18:58Z",
+            "messageHeadline": "fix: declare new alb logging vars (#431)",
+            "author": {
+              "user": {
+                "login": "ividito"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-25T22:41:05Z",
+            "messageHeadline": "fix: increment to sm2a version 1.15 (#430)",
+            "author": {
+              "user": {
+                "login": "ividito"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-25T19:07:28Z",
+            "messageHeadline": "chore: bump source module to fix prod url (#429)",
+            "author": {
+              "user": {
+                "login": "aliziel"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-18T23:11:44Z",
+            "messageHeadline": "Merge pull request #427 from NASA-IMPACT/ci/tf-plan",
+            "author": {
+              "user": {
+                "login": "aliziel"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-18T23:09:29Z",
+            "messageHeadline": "Update .github/workflows/cicd.yml",
+            "author": {
+              "user": {
+                "login": "aliziel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".coveragerc",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".env_dev",
+        "type": "blob"
+      },
+      {
+        "name": ".flake8",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "ARCHITECTURE.md",
+        "type": "blob"
+      },
+      {
+        "name": "GITFLOW.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "airflow_services",
+        "type": "tree"
+      },
+      {
+        "name": "airflow_worker",
+        "type": "tree"
+      },
+      {
+        "name": "dags",
+        "type": "tree"
+      },
+      {
+        "name": "deploy_requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "docker-compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "img",
+        "type": "tree"
+      },
+      {
+        "name": "infrastructure",
+        "type": "tree"
+      },
+      {
+        "name": "plugins",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "pytest.ini",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "sm2a-local-config",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "uv.lock",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "cicd.yml"
+      },
+      {
+        "name": "scorecard.yml"
+      },
+      {
+        "name": "tags.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 7254,
+    "text": "# VEDA SM2A (Self-Managed Apache Airflow)\n\nThis repo houses function code and deployment code for VEDA projects.\n\n## Project layout\n\n- [dags](./dags/) contains the Directed Acyclic Graphs which constitute Airflow state machines. This includes the Python for running each task as well as the Python definitions of the structure of these DAGs. Files that define a DAG object are considered top-level DAG files, which are processed by Airflow.\n- [groups](./dags/veda_data_pipeline/groups/) contain common groups of tasks that can be reused in multiple DAGs.\n- [utils](./dags/veda_data_pipeline/utils) contains shared low-level functions used in tasks and DAGs.\n- [airflow_worker](./airflow_worker/) contains a dockerfile, as well as requirements for Airflow workers. This service runs the tasks in the DAGs.\n- [airflow_services](./airflow_services/) contains a dockerfile, as well as requirements for the Airflow scheduler, DAG processor and the webserver. These requirements are largely dependent on the Airflow version, as well as any requirements needed to parse the top-level DAG code.\n- [infrastructure](./infrastructure/) contains the Terraform necessary to deploy all resources to AWS\n- [scripts](./scripts/) contains bash scripts for deploying and operating Airflow instances.\n- [sm2a-local-config](./sm2a-local-config) contains airflow configuration to run Airflow locally.\n\n## Getting started\n\n### Terraform\n\nSee [terraform-getting-started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)\n\n### AWS CLI\n\nSee [getting-started-install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)\n\n### Docker && docker-compose\n\nSee [install-docker-and-docker-compose](https://docs.docker.com/compose/install/)\n\n### Python\n\n- Install [uv](https://docs.astral.sh/uv/getting-started/installation/).\n- Run `uv sync` to install the required python packages. By default, all optional dependencies are included. To avoid this, use `uv sync --no-default-groups`.\n\n### Configuration\n- ⚠️ You need to copy ./sm2a-local-config/env_example to ./sm2a-local-config/.env\n- You can define AWS credentials or other custom envs in [.env](./sm2a/sm2a-local-config/.env) file.\n- ⚠️  If you update ./sm2a/sm2a-local-config/.env file you should run `make sm2a-local-run` again\n\n### Fetch environment variables using AWS CLI\n\nTo retrieve the variables for a stage that has been previously deployed, the secrets manager can be used to quickly populate an .env file with [`scripts/sync-env-local.sh`](scripts/sync-env-local.sh).\n\n```\n./scripts/sync-env-local.sh <app-secret-name>\n```\n\n> [!IMPORTANT]\n> Be careful not to check in `.env` (or whatever you called your env file) when committing work.\n\n\n### Setup a local SM2A development environment\n\n1. Build services\n\n```shell\nmake sm2a-local-build\n```\n\n2. Initialize the metadata db\n\n> [!NOTE]\n> This command is typically required only once at the beginning.\nAfter running it, you generally do not need to run it again unless you run `make clean`,\nwhich will require you to reinitialize SM2A with `make sm2a-local-init`\n\n```shell\nmake sm2a-local-init\n```\n\nThis will create an airflow username: `airflow` with password `airflow`\n\n3. Start all services\n\n```shell\nmake sm2a-local-run\n```\n\nThis will start SM2A services and will be running on http://localhost:8080\n\n4. Stop all services\n\n```shell\nmake sm2a-local-stop\n```\n\n## Deployment\n\n### Deployment via GitHub Actions\n\nThis project uses Terraform modules to deploy Apache Airflow and related AWS resources. Typically, your code will deploy automatically via Github Actions, after your Pull Request has been approved and merged.\n\n#### Github Actions workflows layout\n\n- [cicd.yml](./.github/workflows/cicd.yml) defines multiple jobs to:\n  - Check the linter\n  - Run unit tests\n  - Define the environment where the deployment will happen\n- [deploy.yml](./.github/workflows/deploy.yml) file uses OpenOIDC to obtain AWS credentials and deploys Terraform modules to AWS. The necessary environment variables are retrieved from AWS Secret Manager using the following Python [script](./scripts/generate_env_file.py).\n- [gitflow.yml](./.github/workflows/gitflow.yml) provides a structured way to manage the development, testing, and deployment of terraform modules. For more info refer to [gitflow](https://github.com/NASA-IMPACT/csda-data-pipelines/blob/dev/GITFLOW.md)\n\n\n### Login to UI\n\nTo log in to the Airflow UI, you must be added to a specific GitHub team, depending on the deployed Airflow configuration.\nContact your instance administrator to be added to the appropriate GitHub team that has access to the Airflow instance.\nOnce added, you can log in by visiting https://<domain_name> and using your GitHub credentials.\n\n## Developers Guide\n\nPlease review the [docs](docs/) folder for more information on how to create a DAG, add tasks, and manage dependencies and variables.\n\n\n### Adding a DAG\n\nThe DAGs are defined in Python files located in the [dags](./dags/) directory. Each DAG should be defined as a Python module that defines a DAG object. The DAGs are scheduled by  the [Airflow Scheduler](https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/scheduler.html#scheduler). Since we aim to keep the scheduler lightweight, every task-dependent library should be imported in the tasks and not at the DAG level.\nExample: Let's assume we need numpy library in a task, we should not import it like this\n\n```python\nfrom airflow import DAG\nimport pendulum\nfrom airflow.operators.python import PythonOperator\nfrom airflow.operators.empty import EmptyOperator\nimport numpy as np\n\ndef foo_task():\n    process = ML_processing(np.rand())\n    return process\n```\n\nBut rather like this\n\n```python\nfrom airflow import DAG\nimport pendulum\nfrom airflow.operators.python import PythonOperator\nfrom airflow.operators.empty import EmptyOperator\n\n\ndef foo_task():\n    import numpy as np\n    process = ML_processing(np.rand())\n    return process\n```\n\nDoing so, the scheduler won't need numpy installed to schedule the task.\n\n## DAG Launcher Role Overview\nThe DAG Launcher role in Airflow is designed to provide users with the necessary permissions to manage and launch DAGs\nin the Airflow UI. This role allows users to perform actions such as reading DAG runs,\nand interacting with various views like Task Instances, Jobs, and XComs.\n\nThe permissions granted are tailored to streamline the interaction with the DAG management interface,\nenabling effective monitoring and control over DAG executions.\n\n### Key Permissions Assigned to the DAG Launcher Role:\n- Permission on Dag runs for `veda_discover`, `veda_dataset_pipeline`, `veda_collection_pipeline`\n- Read access to \"My Profile\", \"DAG Runs\", \"Jobs\", \"Task Instances\", \"XComs\", \"DAG Dependencies\", \"Task Logs\", and \"Website\".\n- Create, Read, Edit, and Menu Access for DAG runs and DAG-related views (e.g., DAGs, Documentation).\n- Edit access to specific DAGs like veda_discover.\n- Integrating GitHub Users with the Airflow DAG UI\nTo grant users access to the Airflow UI, including the ability to manage DAGs and view the Swagger interface, \nGitHub users must be added to a GitHub [team](https://github.com/orgs/NASA-IMPACT/teams/veda-dag-launcher).\n\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

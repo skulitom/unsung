@@ -1,0 +1,7984 @@
+{
+  "v": 1,
+  "generatedAt": "2026-09-11T16:00:00Z",
+  "model": {
+    "weights": {
+      "version": "w2",
+      "signals": {
+        "q.licence": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.readme": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.usage": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.ci": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.manifest": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.deps": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.tests": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.code": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.release": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "q.examples": {
+          "points": 1,
+          "kind": "quality"
+        },
+        "p.testsRun": {
+          "points": 1,
+          "kind": "proof",
+          "provisional": true
+        },
+        "p.shipped": {
+          "points": 1,
+          "kind": "proof",
+          "provisional": true
+        },
+        "p.coherent": {
+          "points": 1,
+          "kind": "proof",
+          "provisional": true
+        },
+        "s.incoherent": {
+          "points": 0,
+          "kind": "slop"
+        },
+        "s.webui": {
+          "points": -2,
+          "kind": "slop"
+        },
+        "s.template": {
+          "points": -2,
+          "kind": "slop"
+        },
+        "s.prose": {
+          "points": -2,
+          "kind": "slop",
+          "group": "prose"
+        },
+        "s.mdheavy": {
+          "points": -1,
+          "kind": "slop",
+          "group": "prose"
+        },
+        "s.junk": {
+          "points": -1,
+          "kind": "slop"
+        },
+        "s.farm": {
+          "points": -1,
+          "kind": "slop"
+        },
+        "s.cloneUrl": {
+          "points": -1,
+          "kind": "slop",
+          "provisional": true
+        },
+        "llm.review": {
+          "points": {
+            "promote": 1,
+            "demote": -2
+          },
+          "kind": "judge"
+        }
+      },
+      "confidence": {
+        "k.owner": {
+          "group": "owner",
+          "max": 0.3
+        },
+        "k.time": {
+          "group": "time",
+          "max": 0.25
+        },
+        "k.pushDays": {
+          "group": "time",
+          "max": 0.4
+        },
+        "k.releases": {
+          "group": "releases",
+          "max": 0.3
+        },
+        "k.outsiders": {
+          "group": "people",
+          "max": 0.45,
+          "each": 0.15
+        },
+        "k.ciVerified": {
+          "group": "ci",
+          "max": 0.15
+        }
+      },
+      "bands": {
+        "gem": 7,
+        "look": 5
+      },
+      "gem": {
+        "kWeight": 1.5,
+        "aWeight": 1.5
+      },
+      "attention": {
+        "saturation": 25
+      },
+      "eligibility": {
+        "maxStars": 25,
+        "risingGain4w": 10
+      },
+      "institutions": {
+        "orgMinRepos": 100
+      },
+      "confidenceBands": {
+        "medium": 0.3,
+        "high": 0.6
+      },
+      "lanes": {
+        "provenK": 0.5
+      },
+      "changelog": [
+        {
+          "version": "w1",
+          "date": "2026-09-11",
+          "change": "Initial weights: unit points for the ten quality signals, provisional +1 proof signals, the slop penalties, the judge at +1/-2, and the thresholds of DESIGN sections 5 and 6.",
+          "evidence": "Pooled AUC 0.962 and uniform AUC 0.945 on the 149 research labels (research/raw/haystack/final_eval.py); unit weights, not fitted ones, because only 9 uniform positives exist."
+        },
+        {
+          "version": "w2",
+          "date": "2026-09-11",
+          "change": "Retired the provisional s.incoherent (at least 5 checkable references cited in the README and under 40% of them resolve) from -1 to 0 points. It is still evaluated and shown as a chip, 'README cites missing files', but it adds nothing to S, pointsMax or coverage, and it is no longer provisional.",
+          "evidence": "Of the five known firings, four are on repositories labelled G and one is on a re-upload, where the missing paths were runtime outputs rather than false claims. First live run (review finding scoring-3): a genuine Debian packaging tool (3 of 14 resolve; blind label G) and a re-upload of another author's project (1 of 8; blind label C); both READMEs document files the tool itself generates. Blind-check deep experiment (research/blind-check-2026-09-11.md): a genuine Android and ESP32 project, label G, lost 1 point to it. Recorded fixtures: it fires only on the seed gems codefly-dev/cli (3 of 11 resolve) and montezuma-p/harken (2 of 6), both G, and on no red-team fixture. It cannot fire on the 149 research snapshots (no file tree), so the pooled and uniform AUC (0.961 / 0.945), the Goodhart AUC (0.437 / 0.322) and the calibration fit do not move (unsung eval --labels fixtures, before and after)."
+        }
+      ]
+    },
+    "calibration": {
+      "version": "c1",
+      "method": "platt-pooled-slope-uniform-intercept",
+      "a": -6.403,
+      "b": 1.113,
+      "fittedOn": {
+        "labels": 149,
+        "uniform": 69,
+        "positives": 74,
+        "uniformPositives": 9,
+        "base": 0.141,
+        "weights": "w1"
+      },
+      "fittedAt": "2026-09-11",
+      "changelog": [
+        {
+          "version": "c1",
+          "date": "2026-09-11",
+          "change": "Initial calibration: the slope from a logistic fit of genuine on points over all 149 research labels, the intercept set so that the mean predicted rate on the uniform stratum equals its smoothed base rate (10 / 71).",
+          "evidence": "research/raw/haystack/final_eval.py on the 149 research labels (74 genuine; uniform stratum 69, of which 9 genuine); uniform Brier score 0.041."
+        }
+      ]
+    }
+  },
+  "counts": {
+    "promising": 14,
+    "proven": 3,
+    "look": 8,
+    "doubted": 3,
+    "institutional": 5,
+    "rising": 1,
+    "graduated": 2,
+    "quarantine": 2
+  },
+  "lastRun": {
+    "v": 1,
+    "runId": "20260911T155000Z-fx01",
+    "startedAt": "2026-09-11T15:50:00Z",
+    "endedAt": "2026-09-11T16:00:00Z",
+    "argv": [
+      "run",
+      "--budget",
+      "10m"
+    ],
+    "profile": "quick",
+    "budget": {
+      "wallMs": 600000,
+      "graphqlMs": 450000
+    },
+    "stages": {
+      "census": {
+        "days": [
+          "2026-09-08"
+        ],
+        "units": 2,
+        "pages": 13,
+        "seeds": 1224,
+        "saturated": 1
+      },
+      "archive": {
+        "hours": [
+          "2026-09-10-15"
+        ],
+        "events": 270,
+        "lookups": 1,
+        "seeds": 99
+      },
+      "prefilter": {
+        "in": 1323,
+        "queued": 0,
+        "deferred": 0,
+        "quarantined": 0,
+        "dropped": {}
+      },
+      "enrich": {
+        "repos": 30,
+        "calls": 3,
+        "halvings": 0,
+        "heavy": 0,
+        "gone": 0,
+        "explore": 0
+      },
+      "deep": {
+        "repos": 30,
+        "graphqlCalls": 12,
+        "restCalls": 85
+      },
+      "score": {
+        "gem": 56,
+        "look": 15,
+        "low": 56,
+        "lanes": {
+          "promising": 53,
+          "proven": 3
+        }
+      },
+      "recheck": {
+        "checked": 0,
+        "gone": 0,
+        "requeued": 0
+      }
+    },
+    "rate": {
+      "graphql": {
+        "points": 30,
+        "serverMs": 0,
+        "remaining": 0
+      },
+      "rest": {
+        "calls": 85,
+        "notModified": 1,
+        "remaining": 0
+      },
+      "pauses": []
+    },
+    "exit": {
+      "code": 0,
+      "reason": "finished",
+      "resumeAt": null
+    }
+  },
+  "entries": [
+    {
+      "id": "R_kgDOKi2JEQ",
+      "nwo": "codefly-dev/cli",
+      "description": null,
+      "lang": "Go",
+      "topics": [],
+      "createdAt": "2023-10-20T09:59:56Z",
+      "pushedAt": "2026-09-11T15:06:04Z",
+      "ageDays": 1057,
+      "lane": "promising",
+      "band": "gem",
+      "S": 12,
+      "pointsMax": 14,
+      "coverage": 1,
+      "quality": 1,
+      "k": 0.46,
+      "kBand": "medium",
+      "a": 0,
+      "gem": 12.69,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": true,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 131 releases, latest v0.1.145 on 7 Sep 2026",
+        "CI runs the tests: CI runs go test -failfast ./... -coverprofile=cover.out -covermode=… and passes",
+        "Shipped over time: 10 releases on 6 days over 21 days"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": {
+        "category": "G",
+        "pitch": "We are building the next generation of tools for developers.",
+        "points": 1
+      },
+      "facets": [
+        "lang:go",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "8952ff850fda895bcbbbcd09e3fc8845f02976f4"
+    },
+    {
+      "id": "R_kgDOUQ0koA",
+      "nwo": "sakajunquality/bunko",
+      "description": "Build OCI images from Bun apps without Dockerfiles or a Docker daemon. Inspired by ko",
+      "lang": "TypeScript",
+      "topics": [
+        "bun",
+        "docker",
+        "github-actions",
+        "oci",
+        "typescript"
+      ],
+      "createdAt": "2026-09-07T05:50:21Z",
+      "pushedAt": "2026-09-11T10:01:03Z",
+      "ageDays": 4,
+      "lane": "promising",
+      "band": "gem",
+      "S": 12,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 1,
+      "k": 0.41,
+      "kBand": "medium",
+      "a": 0.34,
+      "gem": 12.1,
+      "stars": 2,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 21 releases, latest v0.7.0 on 11 Sep 2026",
+        "CI runs the tests: CI runs bun run test:bundled-smoke and passes",
+        "Has tests: 123 test files, such as test/application-policy.test.ts"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:typescript",
+        "topic:bun",
+        "topic:docker",
+        "topic:github-actions",
+        "topic:oci",
+        "topic:typescript",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "214e23536fb0d3bd88f74496a277dfa05b3924fc"
+    },
+    {
+      "id": "R_kgDOUOFEMg",
+      "nwo": "dragonGR/Dropzone",
+      "description": "A GNOME application for quick, temporary file sharing over your local network.",
+      "lang": "Rust",
+      "topics": [
+        "file-sharing",
+        "flatpak",
+        "gnome",
+        "gtk4",
+        "lan",
+        "libadwaita",
+        "linux",
+        "qr-code",
+        "rust"
+      ],
+      "createdAt": "2026-09-04T09:16:52Z",
+      "pushedAt": "2026-09-05T13:57:09Z",
+      "ageDays": 7,
+      "lane": "promising",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 12,
+      "coverage": 1,
+      "quality": 0.99,
+      "k": 0.49,
+      "kBand": "medium",
+      "a": 0.6,
+      "gem": 9.85,
+      "stars": 5,
+      "forks": 1,
+      "gain4w": 5,
+      "spark": [
+        1,
+        4
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 2 tags",
+        "CI runs the tests: CI runs cargo test --all-targets --all-features and passes",
+        "Has tests: 1 test file, such as tests/server_tests.rs"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:rust",
+        "topic:file-sharing",
+        "topic:flatpak",
+        "topic:gnome",
+        "topic:gtk4",
+        "topic:lan",
+        "topic:libadwaita",
+        "topic:linux",
+        "topic:qr-code",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "54c4c3e6eaaff5e9a1b5a133cf956e37b75e7f3f"
+    },
+    {
+      "id": "R_kgDOUOjAWg",
+      "nwo": "zaghaghi/toolog",
+      "description": "A local audit trail for Claude Code tool calls. Captures every tool call to an embedded database on your machine. Nothing leaves it.",
+      "lang": "Rust",
+      "topics": [],
+      "createdAt": "2026-09-04T17:40:43Z",
+      "pushedAt": "2026-09-06T18:51:11Z",
+      "ageDays": 6,
+      "lane": "promising",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 12,
+      "coverage": 1,
+      "quality": 0.99,
+      "k": 0.41,
+      "kBand": "medium",
+      "a": 0.55,
+      "gem": 9.78,
+      "stars": 5,
+      "forks": 0,
+      "gain4w": 5,
+      "spark": [
+        0,
+        5
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 3 releases, latest v1.2.0 on 6 Sep 2026",
+        "CI runs the tests: CI runs cargo test --workspace --all-targets and passes",
+        "Has tests: 29 test files, such as crates/toolog-app/tests/bundle.rs"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:rust",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "a8da25030982889eb28dc51b6673d8efdc5b0dcd"
+    },
+    {
+      "id": "R_kgDOShtsCw",
+      "nwo": "danieltvela/seneschal-voicebot",
+      "description": "Voice chatbot to use your personal AI agents.",
+      "lang": "Rust",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "assistant"
+      ],
+      "createdAt": "2026-05-19T08:20:42Z",
+      "pushedAt": "2026-09-10T21:19:17Z",
+      "ageDays": 115,
+      "lane": "promising",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 13,
+      "coverage": 0.87,
+      "quality": 0.99,
+      "k": 0.1,
+      "kBand": "low",
+      "a": 0.67,
+      "gem": 9.14,
+      "stars": 7,
+      "forks": 1,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 8 releases",
+        "Has tests: Tests at tests/",
+        "Has examples: examples/ at the root"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:rust",
+        "topic:ai",
+        "topic:ai-agent",
+        "topic:assistant",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDOUUML6A",
+      "nwo": "07prajwal2000/streamer",
+      "description": "A unified, high-performance desktop GUI suite for Apache Kafka, Redpanda, and NATS (JetStream & KV).",
+      "lang": "TypeScript",
+      "topics": [],
+      "createdAt": "2026-09-10T00:26:50Z",
+      "pushedAt": "2026-09-11T00:47:24Z",
+      "ageDays": 1,
+      "lane": "promising",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 12,
+      "coverage": 1,
+      "quality": 0.97,
+      "k": 0.3,
+      "kBand": "medium",
+      "a": 0.34,
+      "gem": 8.94,
+      "stars": 2,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 3 releases, latest v1.1 on 11 Sep 2026",
+        "Has tests: 5 test files, such as internal/kafkamanager/groups_test.go",
+        "Shows how to use it: 9 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:typescript",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "117d1d1c6ca59145aeb7693dc33d2aae7b49401c"
+    },
+    {
+      "id": "R_kgDORWZhEg",
+      "nwo": "ellmos-ai/bach",
+      "description": "BACH v3.13.0-bluesky: local-first text-based OS for LLM agents with SQLite memory, 113+ handlers, 550+ tools, MCP servers, scheduler and multi-agent orchestration",
+      "lang": "Python",
+      "topics": [
+        "ai-agent",
+        "automation",
+        "knowledge-management",
+        "llm",
+        "personal-os",
+        "python",
+        "task-management",
+        "agent-framework",
+        "ai-assistant",
+        "cli",
+        "sqlite",
+        "workflow-automation"
+      ],
+      "createdAt": "2026-02-23T00:46:32Z",
+      "pushedAt": "2026-09-11T14:38:01Z",
+      "ageDays": 200,
+      "lane": "promising",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 13,
+      "coverage": 0.96,
+      "quality": 0.97,
+      "k": 0.48,
+      "kBand": "medium",
+      "a": 0.67,
+      "gem": 8.7,
+      "stars": 7,
+      "forks": 1,
+      "gain4w": 0,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 11 releases, latest v3.14.0 on 11 Sep 2026",
+        "Shipped over time: 10 releases on 8 days over 191 days",
+        "Has tests: 229 test files, such as system/hub/_services/claude_bridge/telegram_test.py"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.demo",
+        "d.sprawl",
+        "d.funding"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "topic:ai-agent",
+        "topic:automation",
+        "topic:knowledge-management",
+        "topic:llm",
+        "topic:personal-os",
+        "topic:python",
+        "topic:task-management",
+        "topic:agent-framework",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "e909dc5efa4d630d5b00d5de255de720e5881533"
+    },
+    {
+      "id": "R_kgDOUTT3wA",
+      "nwo": "peelar/pipes",
+      "description": "A personal software factory that organizes incoming work and runs it through code-defined agent pipelines.",
+      "lang": "TypeScript",
+      "topics": [],
+      "createdAt": "2026-09-09T08:44:33Z",
+      "pushedAt": "2026-09-10T15:20:19Z",
+      "ageDays": 2,
+      "lane": "promising",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 12,
+      "coverage": 0.91,
+      "quality": 0.97,
+      "k": 0,
+      "kBand": "low",
+      "a": 0.34,
+      "gem": 8.49,
+      "stars": 2,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 1 release",
+        "Has tests: Tests at test/",
+        "Shows how to use it: 4 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:typescript",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDOUSRrGw",
+      "nwo": "gtfo-ai/platform",
+      "description": null,
+      "lang": "TypeScript",
+      "topics": [],
+      "createdAt": "2026-09-08T12:11:33Z",
+      "pushedAt": "2026-09-11T13:41:37Z",
+      "ageDays": 3,
+      "lane": "promising",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.97,
+      "k": 0,
+      "kBand": "low",
+      "a": 0.34,
+      "gem": 8.49,
+      "stars": 2,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Has tests: 342 test files, such as apps/launcher/src/config.test.ts",
+        "README matches the code: 20 of 20 cited paths and scripts exist",
+        "Shows how to use it: 3 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:typescript",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "8553bca2656c0adc302520d8d279a0c14a061610"
+    },
+    {
+      "id": "R_kgDOUVI4Dw",
+      "nwo": "skulitom/london-time-map",
+      "description": "London coloured by travel time on foot, by tube, train, bus or car. Static site on GitHub Pages.",
+      "lang": "JavaScript",
+      "topics": [
+        "d3",
+        "github-pages",
+        "isochrone",
+        "london",
+        "map",
+        "tfl",
+        "travel-time"
+      ],
+      "createdAt": "2026-09-10T14:31:39Z",
+      "pushedAt": "2026-09-10T14:31:45Z",
+      "ageDays": 1,
+      "lane": "promising",
+      "band": "gem",
+      "S": 8,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.92,
+      "k": 0.3,
+      "kBand": "medium",
+      "a": 0,
+      "gem": 8.45,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "README matches the code: 11 of 12 cited paths and scripts exist",
+        "Shows how to use it: 2 fenced code blocks in the README",
+        "Has CI: 1 GitHub Actions workflow"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.squashed",
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:javascript",
+        "topic:d3",
+        "topic:github-pages",
+        "topic:isochrone",
+        "topic:london",
+        "topic:map",
+        "topic:tfl",
+        "topic:travel-time",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "20ae2ffee317f5550c6aad57293b5806ed4afe38"
+    },
+    {
+      "id": "R_kgDOT85-cw",
+      "nwo": "wonderingStars/foxsdr",
+      "description": "FoxSDR — a from-scratch SDR receiver for Windows: spectrum/waterfall, browser remote control with full feature parity, and a decoder plugin ecosystem (ADS-B, AIS, APRS, POCSAG, SSTV). Linux build in development, not usable yet. Free for noncommercial use (PolyForm Noncommercial).",
+      "lang": "C++",
+      "topics": [],
+      "createdAt": "2026-08-18T23:57:24Z",
+      "pushedAt": "2026-09-10T07:37:41Z",
+      "ageDays": 23,
+      "lane": "promising",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 11,
+      "coverage": 0.95,
+      "quality": 0.97,
+      "k": 0.3,
+      "kBand": "medium",
+      "a": 0.74,
+      "gem": 8.35,
+      "stars": 8,
+      "forks": 2,
+      "gain4w": 8,
+      "spark": [
+        8,
+        0,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 20 releases, latest v0.90.1 on 10 Sep 2026",
+        "Has tests: 95 test files, such as tests/CMakeLists.txt",
+        "Has examples: examples/ at the root"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:c++",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "e739b88fcc4fa427fde9c5665f52689ba597c7fb"
+    },
+    {
+      "id": "R_kgDOUN3yuQ",
+      "nwo": "inamdarmihir/ask-my-tabs",
+      "description": null,
+      "lang": "JavaScript",
+      "topics": [],
+      "createdAt": "2026-09-04T05:17:20Z",
+      "pushedAt": "2026-09-05T02:31:02Z",
+      "ageDays": 7,
+      "lane": "promising",
+      "band": "gem",
+      "S": 7,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.8,
+      "k": 0.3,
+      "kBand": "medium",
+      "a": 0,
+      "gem": 7.45,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "README matches the code: 21 of 21 cited paths and scripts exist",
+        "Shows how to use it: 2 fenced code blocks in the README",
+        "Has CI: 1 GitHub Actions workflow"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.squashed"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:javascript",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "348bf8791c4b5642d6d0b9a70020cdaff613ec83"
+    },
+    {
+      "id": "R_kgDOUOFO4A",
+      "nwo": "YQ-RZJ/three.cj",
+      "description": "three.cj is a cross-platform, Cangjie-based 3D engine runtime with a pluggable backend architecture and a full rendering stack: Scene Graph, Entities, Materials, Lights, Cameras, Geometry, Shaders, and Post-processing. It also integrates Audio, Physics, Scripting, Networking, and Window/Input subsy…",
+      "lang": "Cangjie",
+      "topics": [],
+      "createdAt": "2026-09-04T09:19:36Z",
+      "pushedAt": "2026-09-11T11:33:11Z",
+      "ageDays": 7,
+      "lane": "promising",
+      "band": "gem",
+      "S": 7,
+      "pointsMax": 12,
+      "coverage": 1,
+      "quality": 0.8,
+      "k": 0.3,
+      "kBand": "medium",
+      "a": 0.21,
+      "gem": 7.13,
+      "stars": 1,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 1 release, latest v0.0.372 on 11 Sep 2026",
+        "Has tests: 663 test files, such as test/general/script/cjpm.toml",
+        "Shows how to use it: 5 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.squashed"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:cangjie",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "5f340b8adff607eb8e8e7978f746ae346e518a36"
+    },
+    {
+      "id": "R_kgDOT_f1bA",
+      "nwo": "HUIXI-AI/RhinoForge",
+      "description": "RhinoForge is an open-source development, deployment, and inference stack for Rhino RPU. It helps developers bring PyTorch models, existing code and weights, and custom AI workloads to efficient execution on RPU hardware.",
+      "lang": "C++",
+      "topics": [],
+      "createdAt": "2026-08-21T09:51:21Z",
+      "pushedAt": "2026-09-07T06:35:45Z",
+      "ageDays": 21,
+      "lane": "promising",
+      "band": "gem",
+      "S": 7,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.8,
+      "k": 0,
+      "kBand": "low",
+      "a": 0.71,
+      "gem": 5.94,
+      "stars": 8,
+      "forks": 1,
+      "gain4w": 8,
+      "spark": [
+        0,
+        1,
+        6,
+        1
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 1 tag",
+        "Has tests: 8 test files, such as tests/test_configuration.py",
+        "Has examples: examples/ at the root"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.squashed",
+        "d.script"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:c++",
+        "owner:org",
+        "script:cjk"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "3f268894e6bad843beceda8c97aee5cbded0d805"
+    },
+    {
+      "id": "R_kgDOLHal-g",
+      "nwo": "bodowd/duckdb_rdkit",
+      "description": null,
+      "lang": "C++",
+      "topics": [],
+      "createdAt": "2024-01-20T17:52:26Z",
+      "pushedAt": "2026-08-22T17:45:05Z",
+      "ageDays": 964,
+      "lane": "proven",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 11,
+      "coverage": 1,
+      "quality": 0.99,
+      "k": 0.83,
+      "kBand": "high",
+      "a": 0.9,
+      "gem": 9.88,
+      "stars": 15,
+      "forks": 3,
+      "gain4w": 1,
+      "spark": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 4 releases, latest v.0.4.0 on 22 Aug 2026",
+        "CI runs the tests: CI runs make test and passes",
+        "Shipped over time: 3 releases on 3 days over 677 days"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:c++",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "a3f6bf9d73aa0a47e4eec0d2d40d45a59947b45a"
+    },
+    {
+      "id": "R_kgDOKP3Zrw",
+      "nwo": "elacy/terraform-provider-pfsense",
+      "description": null,
+      "lang": "Go",
+      "topics": [],
+      "createdAt": "2023-09-05T21:56:41Z",
+      "pushedAt": "2026-08-24T06:57:33Z",
+      "ageDays": 1101,
+      "lane": "proven",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.99,
+      "k": 0.8,
+      "kBand": "high",
+      "a": 0.9,
+      "gem": 9.84,
+      "stars": 15,
+      "forks": 3,
+      "gain4w": 0,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 4 releases, latest v2.0.0 on 24 Aug 2026",
+        "Shipped over time: 4 releases on 2 days over 689 days",
+        "Has tests: 21 test files, such as internal/client/client_test.go"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "f042c398586357f6cddb3e5c6abefd0f82e6714b"
+    },
+    {
+      "id": "R_kgDORIlHTg",
+      "nwo": "nuetzliches/hookaido",
+      "description": "🪝 Durable webhook gateway with Caddyfile-style config. Receive → queue → deliver (pull, push, SSE, or exec). HMAC auth, retries, DLQ, hot reload.",
+      "lang": "Go",
+      "topics": [
+        "webhooks",
+        "dead-letter-queue",
+        "event-driven",
+        "golang",
+        "grpc",
+        "mcp",
+        "message-queue",
+        "webhook",
+        "webhook-proxy",
+        "webhook-relay",
+        "server-sent-events",
+        "sse"
+      ],
+      "createdAt": "2026-02-04T15:37:45Z",
+      "pushedAt": "2026-09-07T06:35:44Z",
+      "ageDays": 219,
+      "lane": "proven",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.99,
+      "k": 0.55,
+      "kBand": "medium",
+      "a": 0.87,
+      "gem": 9.53,
+      "stars": 14,
+      "forks": 2,
+      "gain4w": 1,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 32 releases, latest v2.15.0 on 2 Sep 2026",
+        "Shipped over time: 10 releases on 8 days over 117 days",
+        "Has tests: 101 test files, such as internal/admin/consumer_groups_test.go"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.demo",
+        "d.funding"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "topic:webhooks",
+        "topic:dead-letter-queue",
+        "topic:event-driven",
+        "topic:golang",
+        "topic:grpc",
+        "topic:mcp",
+        "topic:message-queue",
+        "topic:webhook",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "f6349dc328d78ba27b40adde8d772b7039bd9883"
+    },
+    {
+      "id": "R_kgDOUU3S1g",
+      "nwo": "ogforange-coder/CodenameEngine-Mobile",
+      "description": null,
+      "lang": "Haxe",
+      "topics": [],
+      "createdAt": "2026-09-10T11:58:42Z",
+      "pushedAt": "2026-09-10T12:02:33Z",
+      "ageDays": 1,
+      "lane": "look",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 11,
+      "coverage": 0.95,
+      "quality": 0.57,
+      "k": 0,
+      "kBand": "low",
+      "a": 0,
+      "gem": 6,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 2 tags",
+        "Has tests: 9 test files, such as assets/songs/test/charts/normal.json",
+        "Has CI: 7 GitHub Actions workflows"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.funding"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:haxe",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "9376b67236d1eda597c6ac6a0ff685a29b6184af"
+    },
+    {
+      "id": "fixture:pasek-projects-um/ElectionDataGrabber",
+      "nwo": "pasek-projects-um/ElectionDataGrabber",
+      "description": null,
+      "lang": "Python",
+      "topics": [],
+      "createdAt": "2026-09-04T22:29:34Z",
+      "pushedAt": "2026-09-05T14:59:57Z",
+      "ageDays": 6,
+      "lane": "look",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 13,
+      "coverage": 0.91,
+      "quality": 0.57,
+      "k": 0,
+      "kBand": "low",
+      "a": 0,
+      "gem": 6,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Has tests: Tests at tests/",
+        "Shows how to use it: 2 fenced code blocks in the README",
+        "Has CI: 7 GitHub Actions workflows"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDONdpmgw",
+      "nwo": "gbazad93/AirFlow-ML-Data-Integration",
+      "description": "An Airflow-based pipeline that fetches data from a free API, cleans and transforms it, and saves it to a database—ready for downstream machine learning.",
+      "lang": "Python",
+      "topics": [
+        "airflow",
+        "api-integration",
+        "data-engineering",
+        "data-integration",
+        "data-pipeline",
+        "etl",
+        "machine-learning",
+        "postgresql",
+        "python",
+        "python3",
+        "open-source",
+        "step-by-step"
+      ],
+      "createdAt": "2024-12-14T19:15:15Z",
+      "pushedAt": "2026-08-25T01:06:29Z",
+      "ageDays": 635,
+      "lane": "look",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.57,
+      "k": 0.55,
+      "kBand": "medium",
+      "a": 0.87,
+      "gem": 5.53,
+      "stars": 15,
+      "forks": 1,
+      "gain4w": 0,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": -1,
+          "status": "ok",
+          "hit": true,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "CI runs the tests: CI runs pip install apache-airflow-providers-postgres pandas reques… and passes",
+        "Has tests: 1 test file, such as tests/test_dag_integrity.py",
+        "Shows how to use it: 7 fenced code blocks in the README"
+      ],
+      "negatives": [
+        "Markdown-heavy: 5 Markdown files at the root, 8.0 KB of code"
+      ],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "topic:airflow",
+        "topic:api-integration",
+        "topic:data-engineering",
+        "topic:data-integration",
+        "topic:data-pipeline",
+        "topic:etl",
+        "topic:machine-learning",
+        "topic:postgresql",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "641012d254cbe4a7991cf4bfe346159e3d38e9fb"
+    },
+    {
+      "id": "fixture:BinhPQ2/master-thesis",
+      "nwo": "BinhPQ2/master-thesis",
+      "description": null,
+      "lang": "Jupyter Notebook",
+      "topics": [],
+      "createdAt": "2025-08-10T15:53:01Z",
+      "pushedAt": "2026-09-06T19:57:12Z",
+      "ageDays": 397,
+      "lane": "look",
+      "band": "look",
+      "S": 5,
+      "pointsMax": 12,
+      "coverage": 1,
+      "quality": 0.3,
+      "k": 0.25,
+      "kBand": "low",
+      "a": 0,
+      "gem": 5.38,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Shows how to use it: 5 fenced code blocks in the README",
+        "Build manifest: requirements.txt at the root",
+        "Real code: 1.4 MB of code"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:jupyter notebook",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "fixture:kunalworldwide/kunalworldwide.github.io",
+      "nwo": "kunalworldwide/kunalworldwide.github.io",
+      "description": null,
+      "lang": "TypeScript",
+      "topics": [],
+      "createdAt": "2025-04-18T08:30:57Z",
+      "pushedAt": "2026-08-21T10:00:30Z",
+      "ageDays": 511,
+      "lane": "look",
+      "band": "look",
+      "S": 5,
+      "pointsMax": 13,
+      "coverage": 0.91,
+      "quality": 0.3,
+      "k": 0.25,
+      "kBand": "low",
+      "a": 0,
+      "gem": 5.38,
+      "stars": 0,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Shows how to use it: 2 fenced code blocks in the README",
+        "Has CI: 2 GitHub Actions workflows",
+        "Real code: 218.8 KB of code"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:typescript",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDONDvqzA",
+      "nwo": "wirio-org/python-template",
+      "description": "Project template for Python projects + Vertical Slice Architecture",
+      "lang": "Python",
+      "topics": [
+        "astral",
+        "python",
+        "python-architecture",
+        "ruff",
+        "uv",
+        "python-seed",
+        "python-template",
+        "seed",
+        "template",
+        "fastapi",
+        "github-actions",
+        "astral-ty"
+      ],
+      "createdAt": "2024-10-21T20:02:28Z",
+      "pushedAt": "2026-09-11T03:24:10Z",
+      "ageDays": 689,
+      "lane": "look",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.57,
+      "k": 0.25,
+      "kBand": "low",
+      "a": 0.83,
+      "gem": 5.13,
+      "stars": 14,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Has tests: Tests at tests/",
+        "Shows how to use it: 2 fenced code blocks in the README",
+        "Has CI: 2 GitHub Actions workflows"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "topic:astral",
+        "topic:python",
+        "topic:python-architecture",
+        "topic:ruff",
+        "topic:uv",
+        "topic:python-seed",
+        "topic:python-template",
+        "topic:seed",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTUzOTk2OTM=",
+      "nwo": "timorunge/espanso-misspell",
+      "description": "espanso-misspell generates espanso packages that replace commonly misspelled words in multiple languages.",
+      "lang": "Go",
+      "topics": [
+        "espanso"
+      ],
+      "createdAt": "2019-10-15T21:26:16Z",
+      "pushedAt": "2026-09-02T22:33:46Z",
+      "ageDays": 2522,
+      "lane": "look",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.57,
+      "k": 0.25,
+      "kBand": "low",
+      "a": 0.85,
+      "gem": 5.1,
+      "stars": 12,
+      "forks": 3,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Shows how to use it: 3 fenced code blocks in the README",
+        "Has CI: 2 GitHub Actions workflows",
+        "Build manifest: Makefile, go.mod at the root"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "topic:espanso",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "fixture:MooGPT/android",
+      "nwo": "MooGPT/android",
+      "description": "MooGPT for Android (recommended the SimSimi to OpenAI)",
+      "lang": "Shell",
+      "topics": [],
+      "createdAt": "2024-09-26T14:46:40Z",
+      "pushedAt": "2026-09-04T20:49:40Z",
+      "ageDays": 715,
+      "lane": "look",
+      "band": "look",
+      "S": 5,
+      "pointsMax": 12,
+      "coverage": 0.91,
+      "quality": 0.3,
+      "k": 0.25,
+      "kBand": "low",
+      "a": 0.21,
+      "gem": 5.06,
+      "stars": 1,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 2 releases",
+        "Has CI: 3 GitHub Actions workflows",
+        "Build manifest: Gemfile, build.gradle.kts at the root"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:shell",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDOQ7qbxQ",
+      "nwo": "HaveNiceDa/My-Notion",
+      "description": "基于现代前端与 AI 技术栈构建的个性化 Notion 应用",
+      "lang": "TypeScript",
+      "topics": [
+        "ai",
+        "blocknote",
+        "convex",
+        "mcp",
+        "nextjs",
+        "notion",
+        "shadcn-ui",
+        "tailwindcss",
+        "typescript",
+        "vercel",
+        "agent",
+        "langchain"
+      ],
+      "createdAt": "2026-01-17T12:50:45Z",
+      "pushedAt": "2026-09-06T09:55:40Z",
+      "ageDays": 237,
+      "lane": "doubted",
+      "band": "gem",
+      "S": 7,
+      "pointsMax": 13,
+      "coverage": 0.96,
+      "quality": 0.8,
+      "k": 0.48,
+      "kBand": "medium",
+      "a": 0.89,
+      "gem": 6.38,
+      "stars": 13,
+      "forks": 4,
+      "gain4w": 0,
+      "spark": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": -2,
+          "status": "ok",
+          "hit": true,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Has tests: 44 test files, such as apps/web/src/components/ai-chat/ai-chat-components.test.ts",
+        "README matches the code: 36 of 37 cited paths and scripts exist",
+        "Shows how to use it: 6 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.script",
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": {
+        "category": "C",
+        "pitch": null,
+        "points": -2
+      },
+      "facets": [
+        "lang:typescript",
+        "topic:ai",
+        "topic:blocknote",
+        "topic:convex",
+        "topic:mcp",
+        "topic:nextjs",
+        "topic:notion",
+        "topic:shadcn-ui",
+        "topic:tailwindcss",
+        "owner:user",
+        "script:cjk"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "60903b5dee819e84d318439d5f0d46a3ce00516b"
+    },
+    {
+      "id": "R_kgDORsqYWw",
+      "nwo": "AKzar1el/god-prompt",
+      "description": "GodPrompt — a universal AI coding system prompt and skill for Claude, ChatGPT, Cursor and coding agents, with TDD, debugging protocols and verification gates.",
+      "lang": "Python",
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "coding-assistant",
+        "copilot",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "productivity",
+        "prompt-engineering",
+        "quality-gates"
+      ],
+      "createdAt": "2026-03-21T02:42:19Z",
+      "pushedAt": "2026-09-11T06:08:29Z",
+      "ageDays": 174,
+      "lane": "doubted",
+      "band": "look",
+      "S": 6,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.57,
+      "k": 0.35,
+      "kBand": "medium",
+      "a": 0.67,
+      "gem": 5.51,
+      "stars": 7,
+      "forks": 1,
+      "gain4w": 1,
+      "spark": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": -2,
+          "status": "ok",
+          "hit": true,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 1 release, latest v1.0.0 on 21 Mar 2026",
+        "CI runs the tests: CI runs python -m pytest bench/tests/test_sandbox_config.py bench/t… and passes",
+        "Has tests: 12 test files, such as bench/tests/test_agent.py"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": {
+        "category": "S",
+        "pitch": null,
+        "points": -2
+      },
+      "facets": [
+        "lang:python",
+        "topic:ai-agent",
+        "topic:anthropic",
+        "topic:chatgpt",
+        "topic:claude",
+        "topic:coding-assistant",
+        "topic:copilot",
+        "topic:cursor",
+        "topic:developer-tools",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "ab131bd48c65a7c15d6f3b7da6c4d1597aeec0fa"
+    },
+    {
+      "id": "R_kgDORrzZVA",
+      "nwo": "kagura-agent/wiki",
+      "description": "Everything I learned as an AI agent — from projects I contributed to, patterns I recognized, and mistakes I made.",
+      "lang": "Shell",
+      "topics": [
+        "ai-agent",
+        "kagura-project",
+        "knowledge"
+      ],
+      "createdAt": "2026-03-20T01:32:58Z",
+      "pushedAt": "2026-09-10T12:03:49Z",
+      "ageDays": 175,
+      "lane": "doubted",
+      "band": "low",
+      "S": 3,
+      "pointsMax": 11,
+      "coverage": 0.95,
+      "quality": 0.04,
+      "k": 0.1,
+      "kBand": "low",
+      "a": 0.6,
+      "gem": 2.25,
+      "stars": 6,
+      "forks": 0,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Has CI: 1 GitHub Actions workflow",
+        "Real code: 105.1 KB of code",
+        "Substantial README: README.md, 2.1 KB"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.injection",
+          "action": "doubt",
+          "reason": "The README addresses an AI reviewer; the reviewer is disabled and points are unchanged"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:shell",
+        "topic:ai-agent",
+        "topic:kagura-project",
+        "topic:knowledge",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDOI4mwRw",
+      "nwo": "NASA-IMPACT/veda-data-airflow",
+      "description": "Airflow implementation of ingest pipeline for VEDA STAC data",
+      "lang": "Python",
+      "topics": [],
+      "createdAt": "2023-02-01T18:26:15Z",
+      "pushedAt": "2026-09-09T19:51:22Z",
+      "ageDays": 1317,
+      "lane": "institutional",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 12,
+      "coverage": 0.91,
+      "quality": 0.97,
+      "k": 0.36,
+      "kBand": "medium",
+      "a": 0.95,
+      "gem": 8.12,
+      "stars": 15,
+      "forks": 6,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 180 releases",
+        "Has tests: Tests at tests/",
+        "Shows how to use it: 7 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.institutional",
+          "action": "institutional",
+          "reason": "NASA-IMPACT is on the institutions list"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDY4NzMxNDk=",
+      "nwo": "lsst/daf_butler",
+      "description": "Data Access abstraction framework for the Rubin Observatory",
+      "lang": "Python",
+      "topics": [
+        "hacktoberfest",
+        "python",
+        "astronomy",
+        "pipeline-middleware"
+      ],
+      "createdAt": "2017-10-13T21:03:25Z",
+      "pushedAt": "2026-09-10T08:55:59Z",
+      "ageDays": 3254,
+      "lane": "institutional",
+      "band": "gem",
+      "S": 9,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.97,
+      "k": 0.36,
+      "kBand": "medium",
+      "a": 1,
+      "gem": 8.04,
+      "stars": 15,
+      "forks": 20,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 617 tags",
+        "Has tests: Tests at tests/",
+        "Shows how to use it: 3 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.institutional",
+          "action": "institutional",
+          "reason": "lsst is on the institutions list"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "topic:hacktoberfest",
+        "topic:python",
+        "topic:astronomy",
+        "topic:pipeline-middleware",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjY3OTg5NzU=",
+      "nwo": "cloudfoundry/csb-brokerpak-azure",
+      "description": null,
+      "lang": "Go",
+      "topics": [
+        "cff-wg-service-management"
+      ],
+      "createdAt": "2021-01-04T20:23:02Z",
+      "pushedAt": "2026-09-05T13:14:48Z",
+      "ageDays": 2075,
+      "lane": "institutional",
+      "band": "gem",
+      "S": 8,
+      "pointsMax": 12,
+      "coverage": 0.91,
+      "quality": 0.92,
+      "k": 0.36,
+      "kBand": "medium",
+      "a": 0.96,
+      "gem": 7.1,
+      "stars": 12,
+      "forks": 10,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 37 releases",
+        "Shows how to use it: 3 fenced code blocks in the README",
+        "Has CI: 5 GitHub Actions workflows"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.institutional",
+          "action": "institutional",
+          "reason": "cloudfoundry is on the institutions list"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "topic:cff-wg-service-management",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzY2NjUxOTI=",
+      "nwo": "IBM/networking-go-sdk",
+      "description": "IBM Cloud Networking Services Go SDK",
+      "lang": "Go",
+      "topics": [],
+      "createdAt": "2020-07-02T14:17:03Z",
+      "pushedAt": "2026-09-10T16:05:02Z",
+      "ageDays": 2262,
+      "lane": "institutional",
+      "band": "gem",
+      "S": 8,
+      "pointsMax": 12,
+      "coverage": 0.91,
+      "quality": 0.92,
+      "k": 0.36,
+      "kBand": "medium",
+      "a": 1,
+      "gem": 7.04,
+      "stars": 12,
+      "forks": 19,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 98 releases",
+        "Shows how to use it: 3 fenced code blocks in the README",
+        "Has CI: 2 GitHub Actions workflows"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.institutional",
+          "action": "institutional",
+          "reason": "IBM is on the institutions list"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk0OTIwMjkzOQ==",
+      "nwo": "alphagov/notifications-utils",
+      "description": "Shared code between GOV.UK Notify applications",
+      "lang": "Python",
+      "topics": [
+        "govuk-notify",
+        "government-as-a-platform"
+      ],
+      "createdAt": "2016-01-07T12:17:46Z",
+      "pushedAt": "2026-09-10T12:16:19Z",
+      "ageDays": 3900,
+      "lane": "institutional",
+      "band": "gem",
+      "S": 8,
+      "pointsMax": 12,
+      "coverage": 0.95,
+      "quality": 0.92,
+      "k": 0.36,
+      "kBand": "medium",
+      "a": 1,
+      "gem": 7.04,
+      "stars": 14,
+      "forks": 12,
+      "gain4w": null,
+      "spark": null,
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "na",
+          "hit": null,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 754 tags",
+        "Has tests: Tests at tests/",
+        "Shows how to use it: 3 fenced code blocks in the README"
+      ],
+      "negatives": [],
+      "descriptors": [],
+      "gates": [
+        {
+          "id": "g.institutional",
+          "action": "institutional",
+          "reason": "alphagov is on the institutions list"
+        }
+      ],
+      "verdict": null,
+      "facets": [
+        "lang:python",
+        "topic:govuk-notify",
+        "topic:government-as-a-platform",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": null
+    },
+    {
+      "id": "R_kgDOT83OVA",
+      "nwo": "montezuma-p/harken",
+      "description": "Your agent cannot listen to audio. harken fixes that — locally. MCP server + CLI, one 13 MB binary, fully offline: no Python, no ffmpeg, no API key.",
+      "lang": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "offline",
+        "transcription",
+        "whatsapp",
+        "whisper",
+        "cli",
+        "rust",
+        "speech-to-text",
+        "whisper-cpp",
+        "mcp",
+        "mcp-server"
+      ],
+      "createdAt": "2026-08-18T22:30:09Z",
+      "pushedAt": "2026-09-01T16:42:34Z",
+      "ageDays": 23,
+      "lane": "rising",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.99,
+      "k": 0.15,
+      "kBand": "low",
+      "a": 0.81,
+      "gem": 9.01,
+      "stars": 13,
+      "forks": 0,
+      "gain4w": 13,
+      "spark": [
+        12,
+        0,
+        1,
+        0
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": true,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 8 releases, latest v0.8.0 on 25 Aug 2026",
+        "CI runs the tests: CI runs cargo test and passes",
+        "Has tests: 13 test files, such as tests/audio_test.rs"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:rust",
+        "topic:agent-skills",
+        "topic:claude-code",
+        "topic:offline",
+        "topic:transcription",
+        "topic:whatsapp",
+        "topic:whisper",
+        "topic:cli",
+        "topic:rust",
+        "owner:user",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "f10152e0543e2192d292ef22179602358333ea92"
+    },
+    {
+      "id": "R_kgDOT0qeJA",
+      "nwo": "rostamlabs/rostam",
+      "description": "Open-source vector database and sub-microsecond key-value store in one Go engine — embed it as a library, run it standalone, or replicate it across a Raft cluster. HNSW/IVF/Vamana indexes, quantization, hybrid dense+sparse and BM25 search, WASM stored procedures. Apache-2.0.",
+      "lang": "Go",
+      "topics": [
+        "bm25",
+        "database",
+        "distributed-systems",
+        "embeddings",
+        "hnsw",
+        "hybrid-search",
+        "key-value-store",
+        "llm",
+        "mcp",
+        "quantization",
+        "raft",
+        "rag"
+      ],
+      "createdAt": "2026-08-10T22:22:24Z",
+      "pushedAt": "2026-09-11T14:52:30Z",
+      "ageDays": 31,
+      "lane": "graduated",
+      "band": "gem",
+      "S": 12,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 1,
+      "k": 0.35,
+      "kBand": "medium",
+      "a": 1,
+      "gem": 11.02,
+      "stars": 36,
+      "forks": 3,
+      "gain4w": 34,
+      "spark": [
+        2,
+        0,
+        6,
+        22,
+        6
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 11 releases, latest v0.7.0-beta2 on 11 Sep 2026",
+        "CI runs the tests: CI runs go test -p 2 -timeout 15m $(go list ./... | grep -vE '/rost… and passes",
+        "Shipped over time: 8 releases on 7 days over 22 days"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:go",
+        "topic:bm25",
+        "topic:database",
+        "topic:distributed-systems",
+        "topic:embeddings",
+        "topic:hnsw",
+        "topic:hybrid-search",
+        "topic:key-value-store",
+        "topic:llm",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "db6dd29ba22716a4c57b074fa8ca6913cf107da6"
+    },
+    {
+      "id": "R_kgDOSi2SAw",
+      "nwo": "llamastash/llamastash",
+      "description": "Zero-overhead, terminal-native local-LLM runtime manager. Launches, supervises, and routes local models behind one OpenAI-compatible endpoint.",
+      "lang": "Rust",
+      "topics": [
+        "ai",
+        "gguf",
+        "llamacpp",
+        "llm",
+        "lmstudio",
+        "local-ai",
+        "ollama"
+      ],
+      "createdAt": "2026-05-20T10:21:02Z",
+      "pushedAt": "2026-09-11T07:48:53Z",
+      "ageDays": 114,
+      "lane": "graduated",
+      "band": "gem",
+      "S": 10,
+      "pointsMax": 13,
+      "coverage": 1,
+      "quality": 0.99,
+      "k": 0.65,
+      "kBand": "high",
+      "a": 1,
+      "gem": 9.47,
+      "stars": 161,
+      "forks": 14,
+      "gain4w": 29,
+      "spark": [
+        3,
+        14,
+        16,
+        14,
+        15,
+        6,
+        6,
+        2
+      ],
+      "chips": [
+        {
+          "id": "q.licence",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has a licence"
+        },
+        {
+          "id": "q.readme",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Substantial README"
+        },
+        {
+          "id": "q.usage",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Shows how to use it"
+        },
+        {
+          "id": "q.ci",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has CI"
+        },
+        {
+          "id": "q.manifest",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Build manifest"
+        },
+        {
+          "id": "q.deps",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Pinned dependencies"
+        },
+        {
+          "id": "q.tests",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Has tests"
+        },
+        {
+          "id": "q.code",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Real code"
+        },
+        {
+          "id": "q.release",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "Ships releases"
+        },
+        {
+          "id": "q.examples",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Has examples"
+        },
+        {
+          "id": "p.testsRun",
+          "points": 1,
+          "status": "ok",
+          "hit": true,
+          "label": "CI runs the tests"
+        },
+        {
+          "id": "p.shipped",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Shipped over time"
+        },
+        {
+          "id": "p.coherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README matches the code"
+        },
+        {
+          "id": "s.incoherent",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "README cites missing files"
+        },
+        {
+          "id": "s.webui",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Uploaded through the web"
+        },
+        {
+          "id": "s.template",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Untouched template"
+        },
+        {
+          "id": "s.prose",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Mostly prose"
+        },
+        {
+          "id": "s.mdheavy",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Markdown-heavy"
+        },
+        {
+          "id": "s.junk",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Junk committed"
+        },
+        {
+          "id": "s.farm",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Prolific owner"
+        },
+        {
+          "id": "s.cloneUrl",
+          "points": 0,
+          "status": "ok",
+          "hit": false,
+          "label": "Clone URL points elsewhere"
+        },
+        {
+          "id": "llm.review",
+          "points": 0,
+          "status": "unknown",
+          "hit": null,
+          "label": "LLM review"
+        }
+      ],
+      "top": [
+        "Ships releases: 123 releases, latest snapshot-2026-09-11 on 11 Sep 2026",
+        "CI runs the tests: CI runs cargo nextest run --profile ci --features ${{ matrix.featur… and passes",
+        "Has tests: 88 test files, such as deployment/aur/packager_test.py"
+      ],
+      "negatives": [],
+      "descriptors": [
+        "d.agent",
+        "d.demo"
+      ],
+      "gates": [],
+      "verdict": null,
+      "facets": [
+        "lang:rust",
+        "topic:ai",
+        "topic:gguf",
+        "topic:llamacpp",
+        "topic:llm",
+        "topic:lmstudio",
+        "topic:local-ai",
+        "topic:ollama",
+        "owner:org",
+        "script:latin"
+      ],
+      "feedback": {
+        "last": null,
+        "published": false,
+        "snoozeUntil": null
+      },
+      "headOid": "e4d9dc1dac429a01108c5bd874a6f4cc0c8cbb3f"
+    },
+    {
+      "id": "R_kgDOUPpuWA",
+      "nwo": "TigerSeparate/zaPReTTeLeGrAM",
+      "lane": "quarantine",
+      "gates": [
+        {
+          "id": "g.lure.script",
+          "action": "quarantine",
+          "reason": "12.8 MB of Batchfile"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOPd2Dxw",
+      "nwo": "islna637/crush-flake",
+      "lane": "quarantine",
+      "gates": [
+        {
+          "id": "g.lure.link",
+          "action": "quarantine",
+          "reason": "The README links 3 archives or executables: the same file three or more times, stored under a tests, docs, assets, images or .github folder"
+        }
+      ]
+    }
+  ]
+}

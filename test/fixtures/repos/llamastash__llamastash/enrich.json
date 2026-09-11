@@ -1,0 +1,498 @@
+{
+  "id": "R_kgDOSi2SAw",
+  "nameWithOwner": "llamastash/llamastash",
+  "description": "Zero-overhead, terminal-native local-LLM runtime manager. Launches, supervises, and routes local models behind one OpenAI-compatible endpoint.",
+  "homepageUrl": "https://llamastash.dev",
+  "createdAt": "2026-05-20T10:21:02Z",
+  "pushedAt": "2026-09-11T07:48:53Z",
+  "diskUsage": 31633,
+  "stargazerCount": 161,
+  "forkCount": 14,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Rust"
+  },
+  "languages": {
+    "totalSize": 5754135,
+    "edges": [
+      {
+        "size": 5299159,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 367127,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 70209,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 11145,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 6495,
+        "node": {
+          "name": "PowerShell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "gguf"
+        }
+      },
+      {
+        "topic": {
+          "name": "llamacpp"
+        }
+      },
+      {
+        "topic": {
+          "name": "llm"
+        }
+      },
+      {
+        "topic": {
+          "name": "lmstudio"
+        }
+      },
+      {
+        "topic": {
+          "name": "local-ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "ollama"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 123,
+    "nodes": [
+      {
+        "tagName": "snapshot-2026-09-11",
+        "publishedAt": "2026-09-11T07:48:53Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "v0.3.0",
+        "publishedAt": "2026-09-10T15:05:59Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "snapshot-2026-09-10",
+        "publishedAt": "2026-09-10T07:53:22Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-09",
+        "publishedAt": "2026-09-09T07:53:38Z",
+        "isPrerelease": true
+      },
+      {
+        "tagName": "snapshot-2026-09-08",
+        "publishedAt": "2026-09-08T07:50:12Z",
+        "isPrerelease": true
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 124
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "llamastash",
+    "__typename": "Organization",
+    "createdAt": "2026-05-20T08:46:45Z",
+    "repositories": {
+      "totalCount": 5
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "e4d9dc1dac429a01108c5bd874a6f4cc0c8cbb3f",
+      "history": {
+        "totalCount": 1096,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T15:21:04Z",
+            "messageHeadline": "docs(changelog): credit the PRs and contributors behind 0.3.0",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:53:14Z",
+            "messageHeadline": "fix(unit2): size the launch IPC budget for engine startup, not round-…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:41:02Z",
+            "messageHeadline": "test: stop the macOS release gate losing ports it needs",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T14:26:30Z",
+            "messageHeadline": "fix(unit8): a slow --version probe no longer aborts init",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:46:29Z",
+            "messageHeadline": "chore(release): 0.3.0",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:27:37Z",
+            "messageHeadline": "feat(unit5): one load-mode knob, spelled per build",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T13:20:38Z",
+            "messageHeadline": "chore: update changelog to reflect recent changes",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:54:34Z",
+            "messageHeadline": "fix(unit2): a crashed daemon keeps its launches addressable by name",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:42:13Z",
+            "messageHeadline": "feat(unit5): show the preset a running launch used",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:37:54Z",
+            "messageHeadline": "Merge pull request #77 from llamastash/dependabot/github_actions/acti…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T10:37:36Z",
+            "messageHeadline": "Merge pull request #76 from llamastash/feat/named-launches",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:29:49Z",
+            "messageHeadline": "Merge pull request #78 from bernardogv/fix/duplicate-knob-id",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:23:58Z",
+            "messageHeadline": "refactor(unit5): one state read and one last_params lookup per launch",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T09:07:17Z",
+            "messageHeadline": "fix(unit5): identity takes the preset the launch resolved, not a seco…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:47:29Z",
+            "messageHeadline": "fix(unit2): the poison test needs unwinding, so skip it where there i…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:15:45Z",
+            "messageHeadline": "feat(unit5): a named auto-start launches the preset the address names",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T08:09:10Z",
+            "messageHeadline": "fix(named-launches): one name rule for readers, and an address that s…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:03:03Z",
+            "messageHeadline": "docs(plan): second review pass on named launches (RV37-RV45)",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:01:20Z",
+            "messageHeadline": "test: hash lookups in the fallback suite's stop helper",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T06:00:32Z",
+            "messageHeadline": "fix(unit2): unnamed status rows omit name; a poisoned lock cannot hol…",
+            "author": {
+              "user": {
+                "login": "deepu105"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".cargo-husky",
+        "type": "tree"
+      },
+      {
+        "name": ".cargo",
+        "type": "tree"
+      },
+      {
+        "name": ".claude-plugin",
+        "type": "tree"
+      },
+      {
+        "name": ".config",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.lock",
+        "type": "blob"
+      },
+      {
+        "name": "Cargo.toml",
+        "type": "blob"
+      },
+      {
+        "name": "FEATURES.md",
+        "type": "blob"
+      },
+      {
+        "name": "INSTALL.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "TODO.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "benches",
+        "type": "tree"
+      },
+      {
+        "name": "config.example.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "deployment",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "rustfmt.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "publish-aur-manual.yml"
+      },
+      {
+        "name": "publish-cargo-manual.yml"
+      },
+      {
+        "name": "publish-homebrew-manual.yml"
+      },
+      {
+        "name": "regenerate-benchmark-snapshot.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 41703,
+    "isTruncated": false,
+    "text": "# LlamaStash\n\n![ci](https://github.com/llamastash/llamastash/actions/workflows/ci.yml/badge.svg)\n![release](https://github.com/llamastash/llamastash/actions/workflows/release.yml/badge.svg)\n[![crates.io](https://img.shields.io/crates/v/llamastash.svg)](https://crates.io/crates/llamastash)\n[![Crate downloads](https://img.shields.io/crates/d/llamastash?label=Crate%20downloads)](https://crates.io/crates/llamastash)\n[![GitHub Downloads](https://img.shields.io/github/downloads/llamastash/llamastash/total.svg?label=GitHub%20downloads)](https://github.com/llamastash/llamastash/releases)\n[![GitHub Release](https://img.shields.io/github/v/release/llamastash/llamastash?color=%23c694ff)](https://github.com/llamastash/llamastash/releases)\n![License](https://img.shields.io/badge/license-MIT-blueviolet.svg)\n![Code size](https://img.shields.io/github/languages/code-size/llamastash/llamastash)\n[![Coverage](https://coveralls.io/repos/github/llamastash/llamastash/badge.svg?branch=main)](https://coveralls.io/github/llamastash/llamastash?branch=main)\n[![GitHub stars](https://img.shields.io/github/stars/llamastash/llamastash?style=social)](https://github.com/llamastash/llamastash)\n\n[![Follow Deepu K Sasidharan on Bluesky](https://img.shields.io/badge/Bluesky-Follow%20deepu105-1185fe?logo=bluesky&logoColor=white)](https://bsky.app/profile/deepu105.bsky.social)\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/llamastash/llamastash/main/assets/logo-h.jpg\" alt=\"Logo\" width=\"50%\">\n</p>\n\n**Zero-overhead, terminal-native local-LLM manager.**\n\nA fast TUI **and** CLI with init wizard for managing local LLMs. One Rust binary that's a TUI, a CLI, a daemon, and an OpenAI-compatible proxy. [llama.cpp](https://github.com/ggml-org/llama.cpp) is the direct, zero-overhead default backend (vs raw `llama-server`), plus [Lemonade](https://github.com/lemonade-sdk/lemonade) for NPU / multi-engine inference, [vLLM](https://github.com/vllm-project/vllm) for safetensors, and [ds4](https://github.com/antirez/ds4) for DeepSeek-V4. See [benchmarks](docs/benchmarks.md).\n\n![TUI Gif](https://raw.githubusercontent.com/llamastash/llamastash/main/assets/tui.gif)\n\n![TUI](https://raw.githubusercontent.com/llamastash/llamastash/main/assets/tui_3.png)\n\n## Contents\n\n- [Why](#why)\n- [Install](#install)\n- [Quickstart](#quickstart)\n- [Agent Skills](#agent-skills)\n- [Features](#features)\n- [Benchmarks](#benchmarks)\n- [Screenshots](#screenshots)\n- [Configuration](#configuration)\n- [CLI exit codes](#cli-exit-codes)\n- [Platforms](#platforms)\n- [Roadmap](#roadmap)\n- [Contributing](#contributing)\n\n## Why\n\nHeavy abstractions (Ollama, LM Studio) hide llama.cpp; raw `llama-server` use is tedious. LlamaStash is a fast, transparent manager that is also a first-class shell-tool surface for agents — one binary, daemon on demand, same primitives in the TUI and the CLI.\n\n> **AI agents installing this for a user:** jump to [`INSTALL.md` § For AI agents](INSTALL.md#for-ai-agents). The non-interactive install + verify contract, and exit-code branching live there.\n\n## Install\n\nPick whichever channel you prefer — all install the same binary. Full per-platform notes, troubleshooting, and the agent-friendly non-interactive path live in [`INSTALL.md`](INSTALL.md).\n\n```bash\n# macOS + Linux, one-shot\ncurl -fsSL https://llamastash.dev/install.sh | sh\n\n# Windows 11 (PowerShell, no admin elevation)\nirm https://llamastash.dev/install.ps1 | iex\n\n# Homebrew (macOS + Linuxbrew)\nbrew install llamastash/llamastash/llamastash\n\n# Arch Linux (AUR — pick one)\nyay -S llamastash       # source build\n\n# From crates.io (any platform with a Rust toolchain)\ncargo install llamastash\n\n# Windows via Scoop bucket\nscoop bucket add llamastash https://github.com/llamastash/scoop-llamastash && scoop install llamastash\n```\n\n_Windows: 64-bit Windows 10 1809+ / Windows 11, PowerShell 5.1+, [Windows Terminal](https://aka.ms/terminal) recommended for the TUI; the bundled `llama-server` needs the VC++ 2015–2022 Redistributable (x64). See [INSTALL.md](INSTALL.md#platform-notes)._\n\nThen run `llamastash init` — the\n\n## Quickstart\n\n```bash\n# Open the TUI. Scans default caches; daemon auto-spawns on demand.\nllamastash\n\n# List discovered models. TTY → padded + table; piped or\n# `--no-colors` → TSV bytes. `--json` is the agent contract.\nllamastash list\nllamastash list --json | jq\n\n# Launch a model by name, name substring, path, or canonical id.\nllamastash start qwen-coder --ctx 16384 --reasoning on\n\n# `run` is an alias for `start`, and the positional takes a YAML\n# launch file: one model, its presets, nothing saved to config.yaml.\nllamastash run qwen-coder.yml\n\n# Drive a smoke-test request against the running endpoint.\ncurl -s http://127.0.0.1:41100/v1/chat/completions \\\n  -H 'Content-Type: application/json' \\\n  -d '{\"model\": \"qwen-coder\", \"messages\": [{\"role\": \"user\", \"content\": \"hi\"}]}'\n\n# Stop it.\nllamastash stop qwen-coder\n```\n\n**Tip — mouse focus.** Mouse capture is off by default so the terminal keeps native click-and-drag text selection. To opt in on every TUI run, alias the binary in your shell rc:\n\n```bash\n# bash / zsh\nalias llamastash='llamastash --mouse-focus'\n\n# fish\nalias llamastash 'llamastash --mouse-focus'\n```\n\nOr set it permanently in `config.yaml`:\n\n```yaml\nmouse_focus: true\n```\n\nEither source flips on click-to-focus for the Models list, the right pane, and the tab labels (`Settings`/`Logs`/`Chat`/`Embed`/`Rerank`). Most terminals still expose a bypass modifier (Shift on iTerm2 / Alacritty / foot / wezterm, Option on Apple Terminal) so ad-hoc selection stays reachable.\n\nFull subcommand reference: [`docs/usage.md`](docs/usage.md). Proxy client setup (including an OpenCode example): [`docs/usage.md#opencode-setup`](docs/usage.md#opencode-setup). Prefer a Vulkan `llama-server` build on AMD/NVIDIA hosts: [`docs/usage.md#preferring-a-vulkan-llama-server-build`](docs/usage.md#preferring-a-vulkan-llama-server-build). Architecture and IPC contract: [`docs/architecture.md`](docs/architecture.md). When things go wrong: [`docs/troubleshooting.md`](docs/troubleshooting.md).\n\n## Agent Skills\n\nThe CLI ships with an [Agent Skills](https://agentskills.io) manifest so supported agents can load repo-specific instructions for using `llamastash` as a local model-management CLI.\n\n- Canonical skill bundle: [`skills/llamastash/`](https://github.com/llamastash/llamastash/tree/main/skills/llamastash)\n\n**Any supported agent (recommended):** install the bundled skill with the [Agent Skills](https://agentskills.io) CLI. It auto-detects your harness and writes the bundle to the right path:\n\n```bash\nnpx skills add llamastash/llamastash\n```\n\n**Claude Code plugin marketplace:** install the repo as a plugin, then install the bundled skill:\n\n```text\n/plugin marketplace add llamastash/llamastash\n/plugin install llamastash@llamastash\n/reload-plugins\n```\n\nManual install examples:\n\n```bash\n# OpenClaw\nmkdir -p ~/.openclaw/skills && cp -r skills/llamastash ~/.openclaw/skills/\n\n# OpenCode\nmkdir -p ~/.config/opencode/skills && cp -r skills/llamastash ~/.config/opencode/skills/\n```\n\nThe skill teaches agents to prefer `--json`, branch on LlamaStash's documented exit codes, reuse exact discovered model names, and read `status --json` `proxy.listen` before configuring an OpenAI-compatible client.\n\n## Features\n\nFull detail per feature in [`FEATURES.md`](FEATURES.md) — including trade-offs, contracts, and links into [`docs/usage.md`](docs/usage.md).\n\n### [Zero-to-chat in one command](FEATURES.md#zero-to-chat-in-one-command)\n\n- [`llamastash init` — first-run wizard](FEATURES.md#llamastash-init--first-run-wizard) that detects hardware, installs `llama-server`, picks + downloads a starter GGUF, writes a tuned config, and smoke-launches.\n- [Hardware-aware model recommender](FEATURES.md#hardware-aware-model-recommender) with a VRAM-fit filter + composite ranking over a CI-refreshed benchmark snapshot.\n- [`llamastash doctor`](FEATURES.md#llamastash-doctor--read-only-health-check) — typed, agent-branchable findings; always exits `0`.\n\n### [Discovers what you already have](FEATURES.md#discovers-what-you-already-have)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## Benchmarks\n\n\n\n\n\n\n\n\n\n\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 15547
+  },
+  "claude": {
+    "byteSize": 9
+  }
+}

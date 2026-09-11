@@ -1,0 +1,172 @@
+{
+  "nameWithOwner": "inamdarmihir/ask-my-tabs",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T05:17:20Z",
+  "pushedAt": "2026-09-05T02:31:02Z",
+  "diskUsage": 2560,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "JavaScript"
+  },
+  "languages": {
+    "totalSize": 30897,
+    "edges": [
+      {
+        "size": 26661,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 2759,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1477,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "inamdarmihir",
+    "__typename": "User",
+    "createdAt": "2018-05-16T15:17:15Z",
+    "repositories": {
+      "totalCount": 67
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T02:31:02Z",
+            "messageHeadline": "Polish to shareable quality: README overhaul, fix launch-blocking bug…",
+            "author": {
+              "user": {
+                "login": "inamdarmihir"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T05:17:19Z",
+            "messageHeadline": "Ask My Tabs: local-first agentic RAG over open browser tabs",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "build.js",
+        "type": "blob"
+      },
+      {
+        "name": "dist",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "icons",
+        "type": "tree"
+      },
+      {
+        "name": "manifest.json",
+        "type": "blob"
+      },
+      {
+        "name": "offscreen.html",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "popup.css",
+        "type": "blob"
+      },
+      {
+        "name": "popup.html",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 13250,
+    "text": "# Ask My Tabs\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Build](https://github.com/inamdarmihir/ask-my-tabs/actions/workflows/build.yml/badge.svg)](https://github.com/inamdarmihir/ask-my-tabs/actions/workflows/build.yml)\n![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-informational)\n\nA Chrome extension for the specific moment where you've got six tabs open comparing something\nand you're tired of clicking between them to check one fact. Add the tabs you're working with,\nask a question, and it searches across all of them and writes an answer with citations back to\nthe tab each claim came from. Everything -- the embedding model and the language model -- runs\nin-browser via WebGPU/WASM: no server, no API key, no tab content or question ever leaves your\nmachine.\n\n## Screenshots\n\n<img src=\"docs/screenshot-popup.png\" alt=\"Ask My Tabs popup in its default state: model-status banner, empty working set, and a question box\" width=\"360\" />\n\nThe popup's default state, loaded unpacked in real Chrome (no models downloaded yet -- that's\nwhat \"Load models\" does on first click). There's no screenshot of an answered question yet since\nthat requires the ~1.1GB model download described below; if you try it and want to contribute\none, a PR updating `docs/screenshot-popup.png` (or adding a second screenshot/GIF) would be\nwelcome.\n\n## Try it (no build required)\n\n`dist/` is committed pre-built, so you can load the extension straight from a clone or a\ndownloaded zip -- no Node, no npm, no build step.\n\n1. Download or clone this repo.\n2. Open `chrome://extensions` in Chrome (or another Chromium browser with WebGPU support, e.g.\n   Edge).\n3. Enable **Developer mode** (top-right toggle).\n4. Click **Load unpacked** and select the repo folder (the one containing `manifest.json`).\n5. Click the toolbar icon, hit **Load models** (see download sizes below -- one-time, then\n   cached by Chrome), add a couple of tabs, and ask a question.\n\n**Before you do:** read [What's verified vs. what isn't](#whats-verified-vs-what-isnt) below.\nShort version: the extension now loads cleanly and creates its offscreen document without\nerrors (confirmed live, see below), and the embedding/retrieval path has been tested live too --\nbut nobody has yet run the full \"download the ~1GB language model and get a written, cited\nanswer\" path start-to-finish. Loading this unpacked makes you one of the first real tests of\nthat specific step. Worst case if it breaks: the popup shows an error and nothing outside your\nmachine is affected -- there's no server for anything to leak to.\n\n## How it works\n\nAdding a tab extracts its readable text (strips nav/header/footer/script), splits it into ~180\nword overlapping chunks, embeds each chunk with a small retrieval model, and stores the\nchunk/vector pairs in IndexedDB. Re-adding a tab whose content hasn't changed is a no-op --\nthere's a content hash check before anything gets re-embedded.\n\nAsking a question kicks off the agent loop in `src/lib/agent.js`:\n\n1. A small local LLM breaks the question into 1-3 search queries. A question comparing two\n   things becomes two queries, one per thing, instead of one blurry query that muddles both.\n2. Each query gets embedded and searched against the working set's chunks.\n3. The model looks at what came back and decides if it's enough. If the best match is weak, or\n   the model itself says the snippets don't cover the question, it issues one refined follow-up\n   search before giving up on finding more.\n4. The top matches get handed to the LLM as numbered context, and it writes an answer citing\n   `[1]`, `[2]`, etc. back to specific tabs.\n\nTwo hops, not an open-ended loop. Enough to actually help on \"compare X and Y,\" not enough to\nwander off searching forever.\n\n### Pinned models\n\n| Role | Model ID | Params | Runtime | Precision | Approx. download |\n| --- | --- | --- | --- | --- | --- |\n| Embeddings | [`Xenova/bge-small-en-v1.5`](https://huggingface.co/Xenova/bge-small-en-v1.5) | 33M | [transformers.js](https://huggingface.co/docs/transformers.js) | fp16\n| Answer generation | [`Qwen2.5-1.5B-Instruct-q4f16_1-MLC`](https://huggingface.co/mlc-ai/Qwen2.5-1.5B-Instruct-q4f16_1-MLC) | 1.5B | [WebLLM](https://github.com/mlc-ai/web-llm) | 4-bit (q4f16_1) | ~1.0 GB |\n\nCombined first-run download is roughly **1.1 GB**, which is what the popup's \"Load models\"\nbutton tells you up front. Both are cached by the browser after the first load, so it's a\none-time cost per Chrome profile (until the cache is cleared).\n\n### Why offscreen, not the popup or the background worker\n\nThe models take real memory and take a while to load, so they need to survive the popup being\nclosed -- popups get destroyed the moment you click away, and reloading ~1GB of weights every\ntime you open the toolbar icon would be miserable. The service worker looks like the obvious\nplace to keep them alive instead, but MV3 service workers are ephemeral and historically\ninconsistent about WebGPU access. Chrome's actual answer to \"I need a persistent context with\nfull DOM/GPU access from an extension\" is `chrome.offscreen` -- an invisible document that lives\nindependently of both the popup and the service worker's lifecycle. That's where the embedder,\nthe LLM, and the whole agent loop live. `background.js` is just a thin router: it does the two\nthings offscreen documents can't (read tab content via `chrome.scripting`, create the offscreen\ndocument itself) and otherwise stays out of the way.\n\n### Why no WASM vector database\n\nThe original plan called for something like Voy or Orama for the vector store. A research session\nrealistically has a handful of tabs and a few hundred chunks, and brute-force cosine similarity\nover a plain JS array is microseconds at that size -- there's nothing for an approximate-nearest-\nneighbor index to buy you here, and it's one less WASM binary to package and debug. IndexedDB is\nonly there so the working set survives the offscreen document restarting, not for search speed.\nThis is a deliberate choice, not a missing feature -- see [Known limitations](#known-limitations)\nfor what that trade-off does and doesn't cost you.\n\n## What's verified vs. what isn't\n\nBeing upfront about this: parts of this pipeline have been exercised in a real, loaded copy of\nthe extension; the most expensive part (actually downloading and running the local LLM) hasn't.\n\n| Path | Status | Evidence |\n| --- | --- | --- |\n| Embeddings (`bge-small-en-v1.5` via transformers.js) | ✅ Verified live | Loaded via transformers.js and ran on WebGPU without falling back to WASM. Correctly separated a similar sentence pair (cosine 0.59) from an unrelated one (cosine 0.30). See details below. |\n| Vector store / retrieval (`src/lib/vectorstore.js`) | ✅ Exercised as part of the above | Same test run: brute-force cosine search over the embedded vectors returned the expected ranking. |\n| Extension loads unpacked, no console errors (`manifest.json`) | ✅ Verified live | Loaded unpacked in real Chrome via `chrome://extensions`. See \"A real bug this pass found and fixed\" below -- this used to fail immediately. |\n\n\n\n\n\n\n\n\n\n\n```bash\nnpm install              # installs esbuild, transformers.js, web-llm\nnpm run build             # bundles src/ into dist/ once\nnpm run watch              # rebuild on every file save, for iterating\n```\n\n\n\n\n```\nmanifest.json          extension manifest (MV3)\npopup.html / .css       the toolbar UI\noffscreen.html          hosts the models -- see \"Why offscreen\" above\nsrc/\n  background.js          service worker: reads tab content, keeps the offscreen doc alive\n  offscreen.js            owns the embedder, the LLM, and the agent loop\n  popup.js                toolbar UI logic\n  lib/\n    embeddings.js          wraps the embedding model\n    llm.js                 wraps the language model\n    agent.js                the actual agentic retrieval loop\n    vectorstore.js          IndexedDB-backed flat cosine search\n    chunk.js                text chunking + content hashing\nbuild.js                bundles src/ into dist/ with esbuild\nicons/\ndist/                   pre-built bundles -- load this unpacked and it just works\n```"
+  },
+  "pkg": {
+    "byteSize": 679,
+    "text": "{\n  \"name\": \"ask-my-tabs\",\n  \"version\": \"0.1.0\",\n  \"description\": \"A private, on-device research assistant for your open tabs. Embeddings and generation both run locally in the browser via WebGPU/WASM -- no server, nothing leaves your machine.\",\n  \"private\": true,\n  \"type\": \"module\",\n  \"license\": \"MIT\",\n  \"author\": \"Mihir Inamdar\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/inamdarmihir/ask-my-tabs.git\"\n  },\n  \"scripts\": {\n    \"build\": \"node build.js\",\n    \"watch\": \"node build.js --watch\"\n  },\n  \"devDependencies\": {\n    \"esbuild\": \"^0.23.1\"\n  },\n  \"dependencies\": {\n    \"@huggingface/transformers\": \"^3.7.5\",\n    \"@mlc-ai/web-llm\": \"^0.2.79\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

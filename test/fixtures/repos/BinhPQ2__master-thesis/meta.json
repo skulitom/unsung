@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "BinhPQ2/master-thesis",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 1224,
+    "keptBytes": 1224,
+    "excerpt": false
+  }
+}

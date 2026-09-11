@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "tuliofalcao/inventoryproject",
+  "label": "C",
+  "stratum": "uniform",
+  "sample": "U_old",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 317,
+    "keptBytes": 317,
+    "excerpt": false
+  }
+}

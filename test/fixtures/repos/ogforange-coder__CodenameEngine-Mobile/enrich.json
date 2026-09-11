@@ -1,0 +1,403 @@
+{
+  "id": "R_kgDOUU3S1g",
+  "nameWithOwner": "ogforange-coder/CodenameEngine-Mobile",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T11:58:42Z",
+  "pushedAt": "2026-09-10T12:02:33Z",
+  "diskUsage": 951534,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Haxe"
+  },
+  "languages": {
+    "totalSize": 2389153,
+    "edges": [
+      {
+        "size": 2375730,
+        "node": {
+          "name": "Haxe"
+        }
+      },
+      {
+        "size": 11122,
+        "node": {
+          "name": "GLSL"
+        }
+      },
+      {
+        "size": 863,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 642,
+        "node": {
+          "name": "Nix"
+        }
+      },
+      {
+        "size": 575,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 221,
+        "node": {
+          "name": "PowerShell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 2
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "ogforange-coder",
+    "__typename": "User",
+    "createdAt": "2026-07-18T06:36:12Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "9376b67236d1eda597c6ac6a0ff685a29b6184af",
+      "history": {
+        "totalCount": 3515,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T12:02:33Z",
+            "messageHeadline": "Update libs-mobile.xml",
+            "author": {
+              "user": {
+                "login": "ogforange-coder"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T13:41:45Z",
+            "messageHeadline": "now",
+            "author": {
+              "user": {
+                "login": "ogforange-coder"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T13:41:37Z",
+            "messageHeadline": "remove assets/data/stages/test.xml",
+            "author": {
+              "user": {
+                "login": "ogforange-coder"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T04:07:35Z",
+            "messageHeadline": "Initialize btnExtra variable to null",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T03:43:00Z",
+            "messageHeadline": "Flush FlxG save before exiting OptionsMenu",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T03:39:21Z",
+            "messageHeadline": "Add Hitbox Press Opacity strings to Options.xml",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T15:43:33Z",
+            "messageHeadline": "add hitboxAlpha",
+            "author": {
+              "user": {
+                "login": "ogforange-coder"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T15:17:08Z",
+            "messageHeadline": "Update PlayState.hx",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T14:47:19Z",
+            "messageHeadline": "Backport 3 commits from internal-merge",
+            "author": {
+              "user": {
+                "login": "ogforange-coder"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T13:21:56Z",
+            "messageHeadline": "Refactor copyAssets to support default asset folders",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T13:20:25Z",
+            "messageHeadline": "Refactor MobileUtil.copyAssets call",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-03T12:42:25Z",
+            "messageHeadline": "Update MobileUtil.copyAssets to accept directories",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:57:16Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:54:16Z",
+            "messageHeadline": "Add CHANGE_WINDOW_TITLE_PLAYSTATE flag",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:52:36Z",
+            "messageHeadline": "Change hscript-improved repository details",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:50:52Z",
+            "messageHeadline": "Add lowFPS tracking to FramerateCounter",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-25T10:50:48Z",
+            "messageHeadline": "更新 libs-mobile.xml",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T11:44:01Z",
+            "messageHeadline": "Update Android workflow to reset haxelib",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T11:40:46Z",
+            "messageHeadline": "Update mobile-controls repository URL",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T07:12:04Z",
+            "messageHeadline": "Fix preprocessor condition for mobile support",
+            "author": {
+              "user": {
+                "login": "azmlpoh"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".git-blame-ignore-revs",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "FEATURES.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "PATCHNOTES.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "adb",
+        "type": "blob"
+      },
+      {
+        "name": "addons",
+        "type": "tree"
+      },
+      {
+        "name": "art",
+        "type": "tree"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "building",
+        "type": "tree"
+      },
+      {
+        "name": "commandline",
+        "type": "tree"
+      },
+      {
+        "name": "hxformat.json",
+        "type": "blob"
+      },
+      {
+        "name": "key.keystore",
+        "type": "blob"
+      },
+      {
+        "name": "mods",
+        "type": "tree"
+      },
+      {
+        "name": "project.xml",
+        "type": "blob"
+      },
+      {
+        "name": "shell.nix",
+        "type": "blob"
+      },
+      {
+        "name": "source",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "android.yml"
+      },
+      {
+        "name": "ios-sim.yml"
+      },
+      {
+        "name": "ios.yml"
+      },
+      {
+        "name": "linux.yml"
+      },
+      {
+        "name": "macos.yml"
+      },
+      {
+        "name": "release.yml"
+      },
+      {
+        "name": "windows.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 6323,
+    "isTruncated": false,
+    "text": "# Friday Night Funkin' - Codename Engine\n\n![Animated-Banner](https://github.com/user-attachments/assets/5830221d-d954-4be3-afe8-caae364a5881)\n\nCodename Engine is a cross platform [Friday Night Funkin'](https://github.com/FunkinCrew/Funkin) Engine aimed at simplifying modding focusing on softcoding, along with extensiblity and ease of use.<br>\nIt is the the official successor of the previously well known [Yoshi Engine](https://github.com/CodenameCrew/YoshiCrafterEngine).\n\nThe engine uses [HaxeFlixel](https://haxeflixel.com/) and it mainly features:\n- A full scripting system with an optimized fork of [Hscript](https://lib.haxe.org/p/hscript/) (its name is [Hscript Improved](https://github.com/CodenameCrew/hscript-improved))\n- Uses forks of popular libraries tailored specifically for the engine for the goal of better optimization.\n- Modding system and softcoding is as capable as source coding.\n- Focuses heavily on optimization, and encourages its users to also take on optimization practices.\n- Many modding tools without changing the core gameplay and the base to mod on.\n- Allows modularity using addons and mods that apply on top of the core mod.\n- Advanced editors which allows for possibly better experience and easiness when creating the mod.\n- Much more can be read [HERE](FEATURES.md)\n\n> [!NOTE]\n> Please keep in mind that, despite these differences, we do not consider our engine to be any better or worse than the others.\n\n---\n\n> [!CAUTION]\n> Want to use this project's code for different purposes or something similar? Check out the ***Usage Info*** part below first, it basically explains what you can do or not do!<br>\n> We love open source but we also love proper credits for having respect of all the people who worked hard on this project!!\n\n> [!WARNING]\n> Before making issues or if you need help with something, check our website [HERE](https://codename-engine.com/).<br>\n> It contains a wiki of how to mod with EXAMPLES, an api, lists of mods made with Codename Engine and more!\n\n> [!TIP]\n> Want to stay updated with this project?<br>\n> Check out our [patch notes](PATCHNOTES.md)!\n\n---\n\n<img width=\"1080\" height=\"146\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/93604082-6bac-4ffc-99b0-5393b1e340a4\" />\n\n<br><br>\n\n<img width=\"1280\" height=\"720\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/4106f77a-40f8-4159-9f4e-b601cc79e1d0\" />\n<img width=\"1280\" height=\"720\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/2c06f5ea-3462-459b-982e-bf4eddf3d099\" />\n<img width=\"1280\" height=\"720\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/4979e256-6b99-4857-8a2a-96abd94f9c4e\" />\n<img width=\"1280\" height=\"720\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/55a5a710-55b9-4988-bdcc-0977ba1de97a\" />\n<img width=\"1280\" height=\"720\" alt=\"immagine\" src=\"https://github.com/user-attachments/assets/4676b035-bec7-445b-a303-78e66f11c479\" />\n\n---\n\n> [!NOTE]\n> Codename Engine as for now supports **Windows x64**, **Mac OS x64** and **Linux x64**.<br>\n> More platforms will soon come, stay tuned!<br>\n> - [ ] **Web (HTML5) Support**\n> - [ ] **Mobile Support**\n\n<details>\n  <summary><h2>How to download</h2></summary>\n\n  - Stable builds of the engine can be found on our [GameBanana](https://gamebanana.com/mods/598553) or our [itch.io](https://nex-isdumb.itch.io/codename-engine) pages.\n  - Latest *EXPERIMENTAL* builds of the engine can be found in the [Actions](https://github.com/CodenameCrew/CodenameEngine/actions) tab. **REQUIRES A GITHUB ACCOUNT!!**\n\n  If you don't have a GitHub account to download experimental builds, you can also go onto our [official website](https://codename-engine.com/) and click the download button for the respective operating system under the **Experimental** section.\n</details>\n\n<details>\n  <summary><h2>How to mod</h2></summary>\n\n  Check out our wiki [HERE](https://codename-engine.com/wiki/)\n</details>\n\n<details>\n  <summary><h2>How to setup and build the engine and its documentation</h2></summary>\n\n  Check out our guide [HERE](building/README.md)\n</details>\n\n<details>\n  <summary><h2>Usage Info</h2></summary>\n\n  ### Feel free to:\n  - Download and play the engine with its mods and modpacks\n  - Mod and fork the engine (without using it for illicit purposes)\n  - Contribute to the engine (for example through *Pull Requests*, *Issues*, etc.)\n  - Create a sub engine with Codename Engine as **TEMPLATE** with **CREDITS** (for example leaving the *credits menu submenu with the GitHub contributors* and putting the *[main devs](https://github.com/CodenameCrew)* in a *README* specifying that it's a *sub engine from Codename Engine*)\n  - Release excutable mods that use Codename Engine as source (specifing that uses Codename Engine by for example the same way written above this)\n  - Release Codename Engine modpacks\n\n  ### Please do not:\n  - Create a *side/new/etc* engine (or mod that doesn't use Codename Engine) using Codename Engine's code\n  - Steal code from Codename Engine for another different project that is not Codename Engine related (Codename Engine mods excluded) without properly crediting\n  - Release the entirety of Codename Engine on platforms (mods that use Codename Engine as source are fine)\n\n  #### *If you need more info or feel like asking to do something which is not listed here, ask us directly on our [discord server](https://discord.gg/codename-crew)!*\n</details>\n\n<details>\n  <summary><h2>Credits</h2></summary>\n\n- All main Credits can be seen inside the Engine and specifically [HERE](https://github.com/CodenameCrew/CodenameEngine/graphs/contributors)\n- Credits to the [FlxAnimate](https://github.com/Dot-Stuff/flxanimate) team for the Animate Atlas support\n- Credits to Smokey555 for the backup Animate Atlas to spritesheet code\n- Credits to MAJigsaw77 for [hxvlc](https://github.com/MAJigsaw77/hxvlc) (video cutscene/mp4 support) and [hxdiscord_rpc](https://github.com/MAJigsaw77/hxdiscord_rpc) (discord rpc integration)\n- Credits to [TheoDev](https://github.com/TheoDevelops) for [FunkinModchart](https://lib.haxe.org/p/funkin-modchart/). ***(library used for modcharting features)***\n- Credits to [Ninjamuffin99](https://github.com/ninjamuffin99) and the [Funkin Crew](https://github.com/FunkinCrew) for the base game Friday Night Funkin'\n</details>\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

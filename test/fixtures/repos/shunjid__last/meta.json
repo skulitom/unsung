@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:05Z",
+  "nwo": "shunjid/last",
+  "label": "G",
+  "stratum": "uniform",
+  "sample": "U_new",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 3532,
+    "keptBytes": 3532,
+    "excerpt": false
+  }
+}

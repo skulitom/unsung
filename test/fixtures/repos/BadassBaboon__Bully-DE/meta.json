@@ -1,0 +1,14 @@
+{
+  "source": "research",
+  "recordedAt": "2026-09-11T14:17:04Z",
+  "nwo": "BadassBaboon/Bully-DE",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S5_cpp_month",
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 10434,
+    "keptBytes": 8192,
+    "excerpt": true
+  }
+}

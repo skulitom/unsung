@@ -1,0 +1,158 @@
+{
+  "request": {
+    "query": "query($ids: [ID!]!) {\n  rateLimit { cost remaining resetAt }\n  nodes(ids: $ids) { ... on Repository { id stargazerCount forkCount pushedAt isArchived primaryLanguage { name } } }\n}",
+    "variables": {
+      "ids": [
+        "R_kgDOKi2JEQ",
+        "R_kgDOUN3yuQ",
+        "R_kgDOUQ0koA",
+        "R_kgDOUOjAWg",
+        "R_kgDOUOFEMg",
+        "R_kgDOT85-cw",
+        "R_kgDOT83OVA",
+        "R_kgDORIlHTg",
+        "R_kgDOLHal-g",
+        "R_kgDOKP3Zrw",
+        "R_kgDOAAAAAA"
+      ]
+    }
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:14:01 GMT",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4961",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "graphql",
+    "x-ratelimit-used": "39"
+  },
+  "body": {
+    "data": {
+      "rateLimit": {
+        "cost": 1,
+        "remaining": 4961,
+        "resetAt": "2026-09-11T15:48:01Z"
+      },
+      "nodes": [
+        {
+          "id": "R_kgDOKi2JEQ",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "pushedAt": "2026-09-11T15:06:04Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Go"
+          }
+        },
+        {
+          "id": "R_kgDOUN3yuQ",
+          "stargazerCount": 0,
+          "forkCount": 0,
+          "pushedAt": "2026-09-05T02:31:02Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "JavaScript"
+          }
+        },
+        {
+          "id": "R_kgDOUQ0koA",
+          "stargazerCount": 2,
+          "forkCount": 0,
+          "pushedAt": "2026-09-11T10:01:03Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "TypeScript"
+          }
+        },
+        {
+          "id": "R_kgDOUOjAWg",
+          "stargazerCount": 5,
+          "forkCount": 0,
+          "pushedAt": "2026-09-06T18:51:11Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Rust"
+          }
+        },
+        {
+          "id": "R_kgDOUOFEMg",
+          "stargazerCount": 5,
+          "forkCount": 1,
+          "pushedAt": "2026-09-05T13:57:09Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Rust"
+          }
+        },
+        {
+          "id": "R_kgDOT85-cw",
+          "stargazerCount": 8,
+          "forkCount": 2,
+          "pushedAt": "2026-09-10T07:37:41Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "C++"
+          }
+        },
+        {
+          "id": "R_kgDOT83OVA",
+          "stargazerCount": 13,
+          "forkCount": 0,
+          "pushedAt": "2026-09-01T16:42:34Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Rust"
+          }
+        },
+        {
+          "id": "R_kgDORIlHTg",
+          "stargazerCount": 14,
+          "forkCount": 2,
+          "pushedAt": "2026-09-07T06:35:44Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Go"
+          }
+        },
+        {
+          "id": "R_kgDOLHal-g",
+          "stargazerCount": 15,
+          "forkCount": 3,
+          "pushedAt": "2026-08-22T17:45:05Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "C++"
+          }
+        },
+        {
+          "id": "R_kgDOKP3Zrw",
+          "stargazerCount": 15,
+          "forkCount": 3,
+          "pushedAt": "2026-08-24T06:57:33Z",
+          "isArchived": false,
+          "primaryLanguage": {
+            "name": "Go"
+          }
+        },
+        null
+      ]
+    },
+    "errors": [
+      {
+        "type": "NOT_FOUND",
+        "path": [
+          "nodes",
+          10
+        ],
+        "locations": [
+          {
+            "line": 3,
+            "column": 3
+          }
+        ],
+        "message": "Could not resolve to a node with the global id of 'R_kgDOAAAAAA'."
+      }
+    ]
+  }
+}

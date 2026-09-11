@@ -1,0 +1,408 @@
+{
+  "id": "R_kgDOUSRrGw",
+  "nameWithOwner": "gtfo-ai/platform",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T12:11:33Z",
+  "pushedAt": "2026-09-11T10:11:40Z",
+  "diskUsage": 4535,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 5286365,
+    "edges": [
+      {
+        "size": 5169231,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 87616,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 26220,
+        "node": {
+          "name": "PLpgSQL"
+        }
+      },
+      {
+        "size": 2675,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 623,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "gtfo-ai",
+    "__typename": "Organization",
+    "createdAt": "2026-09-08T12:10:12Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 116,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T10:06:32Z",
+            "messageHeadline": "fix(integrations): the stored-secret class, and the difference betwee…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:05:55Z",
+            "messageHeadline": "docs: rules 69-72, the ci-fix's notes, and a backlog that names the r…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:01:18Z",
+            "messageHeadline": "fix(workspace): ci-fix -- the Linux gate, and three defects stacked b…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:52:12Z",
+            "messageHeadline": "fix(workspace): empty the control directory by retry, not by one walk",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:01:02Z",
+            "messageHeadline": "fix(workspace): reclaim the control directory with no capability at all",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:35:51Z",
+            "messageHeadline": "fix(workspace): ask whether the name resolves, not what nslookup exit…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:31:17Z",
+            "messageHeadline": "fix(integrations): reconcile the two stored keys, and withdraw a fals…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:17:05Z",
+            "messageHeadline": "fix(workspace): unlock before removing, for the host filesystem behin…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:02:44Z",
+            "messageHeadline": "fix(workspace): ensure the images, and reclaim the control dir from t…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:51:47Z",
+            "messageHeadline": "fix(integrations): refuse an idempotency key a redactor would collapse",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:43:19Z",
+            "messageHeadline": "fix(workspace): a root helper without CAP_DAC_OVERRIDE is an ordinary…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:23:57Z",
+            "messageHeadline": "fix(integrations): redact the idempotency record the executor stores",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:09:56Z",
+            "messageHeadline": "Merge branch 'main' into fix/slack-redaction-and-census",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T06:57:15Z",
+            "messageHeadline": "docs: WP-15a in the plan, and one backlog for every open finding",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T18:45:35Z",
+            "messageHeadline": "feat(pipeline): WP-15 interpreter, stage executor and sagas",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T18:16:52Z",
+            "messageHeadline": "docs: rules 67 and 68 from WP-15's review",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:55:01Z",
+            "messageHeadline": "Merge branch 'main' into fix/slack-redaction-and-census",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:52:14Z",
+            "messageHeadline": "fix(integrations): redact Slack's stored dedup key, and derive the cl…",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:48:10Z",
+            "messageHeadline": "docs: rule 66 -- cap concurrency, after two kernel panics on the host",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T17:39:22Z",
+            "messageHeadline": "docs: WP-14 is DONE, and rule 65 on oracles that share a shape",
+            "author": {
+              "user": {
+                "login": "JanMikes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitleaks.toml",
+        "type": "blob"
+      },
+      {
+        "name": ".nvmrc",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "NOTICE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "apps",
+        "type": "tree"
+      },
+      {
+        "name": "biome.json",
+        "type": "blob"
+      },
+      {
+        "name": "commitlint.config.js",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "lefthook.yml",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "playwright.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "renovate.json",
+        "type": "blob"
+      },
+      {
+        "name": "schemas",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "test",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.base.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 3165,
+    "text": "# Agentic\n\nAn open-source, self-hosted platform that turns a ticket into a reviewed, mergeable merge request through a pipeline of role-specialised Claude Code agents, with a per-project knowledge base that improves with every task.\n\n**Status:** early implementation. The product and technical definition is complete and lives in [`docs/`](docs/README.md). The database, the event store, the job runtime and the HTTP server are built; there are no integrations, no agent runner and no UI yet, so no ticket has been through the pipeline. Follow [`docs/technical/PROGRESS.md`](docs/technical/PROGRESS.md) for what is built.\n\n## Quick start (contributors)\n\n```bash\ncorepack enable && corepack install   # pnpm 12.3.4, per packageManager\npnpm install                          # also installs the git hooks\npnpm run -s verify                    # lint + typecheck + unit + contract\n```\n\nNode 24 or newer is required (`.nvmrc`). Other targets: `pnpm run -s verify:integration`, `pnpm run -s verify:e2e`, `pnpm run -s verify:ui`. Each prints one final `PASS:`/`FAIL:` line. The integration and e2e targets start a PostgreSQL 18 container, so they need a running Docker daemon (or `TEST_DATABASE_URL` pointing at a PostgreSQL 18 server).\n\nTo run the server itself against a local database, copy `.env.example` to `.env`, set `DATABASE_URL`, `APP_SECRET_KEY` and the `APP_BOOTSTRAP_ADMIN_*` pair, then:\n\n```bash\npnpm db:migrate                       # forward-only SQL migrations, advisory-locked\npnpm dev                              # apps/server on $PORT; apps/web arrives in WP-20\n```\n\nRunning a whole instance (`docker compose up`) arrives with the images in WP-22.\n\n## Layout\n\n```\npackages/domain          aggregates, state machines, policies — no I/O\npackages/application     use cases, event handlers, sagas, ports\npackages/contracts       zod schemas shared by server and UI\npackages/infrastructure  Postgres, jobs, broadcast, Claude SDK runner, workspaces\npackages/integrations    integration ports, fakes, contract suites, providers\npackages/prompts         role prompts, artifact schemas, eval sets\napps/server              Fastify composition root\napps/web                 React SPA\napps/launcher            workspace provider service\n```\n\n## Documentation\n\n- Start here: [`docs/README.md`](docs/README.md)\n- Product definition: [`docs/product/`](docs/product/)\n- Technical design: [`docs/technical/`](docs/technical/)\n- Decisions (BD/TD records): [`docs/decisions/`](docs/decisions/)\n- Research: [`docs/research/`](docs/research/)\n- Open questions: [`docs/OPEN-QUESTIONS.md`](docs/OPEN-QUESTIONS.md) · Backlog: [`docs/TODO.md`](docs/TODO.md)\n\n## Contributing\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md) — conventional commits, DCO sign-off (`git commit -s`), tests with every change. Security issues go through [SECURITY.md](SECURITY.md), never a public issue.\n\nThis project is built in public. No secrets are ever committed; see [BD-002](docs/decisions/business/BD-002-open-source-build-in-public.md).\n\n## Licence\n\n[Apache-2.0](LICENSE). Bundled third-party CLIs keep their own licences and are executed, never linked; the notice file ships with the images.\n"
+  },
+  "pkg": {
+    "byteSize": 3073,
+    "text": "{\n  \"name\": \"platform\",\n  \"version\": \"0.0.0\",\n  \"private\": true,\n  \"type\": \"module\",\n  \"license\": \"Apache-2.0\",\n  \"description\": \"Self-hosted platform that runs Claude Code agents through a delivery pipeline.\",\n  \"packageManager\": \"pnpm@12.3.4\",\n  \"engines\": {\n    \"node\": \">=24\"\n  },\n  \"scripts\": {\n    \"prepare\": \"lefthook install\",\n    \"verify\": \"node scripts/verify.mjs verify\",\n    \"verify:static\": \"node scripts/verify.mjs verify:static\",\n    \"verify:types\": \"node scripts/verify.mjs verify:types\",\n    \"verify:bundle\": \"node scripts/verify.mjs verify:bundle\",\n    \"verify:tests\": \"node scripts/verify.mjs verify:tests\",\n    \"verify:integration\": \"node scripts/verify.mjs verify:integration\",\n    \"verify:e2e\": \"node scripts/verify.mjs verify:e2e\",\n    \"verify:ui\": \"node scripts/verify.mjs verify:ui\",\n    \"verify:commits\": \"node scripts/commits.mjs\",\n    \"verify:dco\": \"node scripts/commits.mjs dco\",\n    \"verify:commitlint\": \"node scripts/commits.mjs commitlint\",\n    \"lint\": \"biome check .\",\n    \"lint:fix\": \"biome check --write .\",\n    \"format\": \"biome format --write .\",\n    \"typecheck\": \"tsc --noEmit -p tsconfig.json\",\n    \"test\": \"vitest run --project unit --project contract --coverage\",\n    \"test:integration\": \"vitest run --project integration\",\n    \"test:e2e\": \"vitest run --project e2e-fake-claude\",\n    \"test:ui\": \"vitest run --project ui\",\n    \"dev\": \"node scripts/dev.mjs\",\n    \"db:migrate\": \"node --import ./scripts/ts-source-resolver.mjs apps/server/src/migrate.ts\",\n    \"schemas\": \"node scripts/schemas.mjs\",\n    \"schemas:check\": \"node scripts/schemas.mjs --check\",\n    \"ignored:check\": \"node scripts/check-ignored.mjs\",\n    \"nul:check\": \"node scripts/check-nul.mjs\",\n    \"conflict:check\": \"node scripts/check-conflict.mjs\",\n    \"secrets:scan\": \"node scripts/gitleaks.mjs dir .\",\n    \"secrets:scan:ci\": \"node scripts/gitleaks.mjs git --log-opts=--all --require\",\n    \"secrets:scan:history\": \"node scripts/gitleaks.mjs git --log-opts=--all\",\n    \"bundle:check\": \"node scripts/bundle-budget.mjs\",\n    \"test:web-e2e\": \"playwright test\",\n    \"verify:web-e2e\": \"node scripts/verify.mjs verify:web-e2e\"\n  },\n  \"devDependencies\": {\n    \"@b12k/gitleaks\": \"8.30.1-v.36\",\n    \"@biomejs/biome\": \"2.5.12\",\n    \"@commitlint/cli\": \"21.2.2\",\n    \"@commitlint/config-conventional\": \"21.2.2\",\n    \"@platform/application\": \"workspace:*\",\n    \"@platform/contracts\": \"workspace:*\",\n    \"@platform/domain\": \"workspace:*\",\n    \"@platform/infrastructure\": \"workspace:*\",\n    \"@platform/integrations\": \"workspace:*\",\n    \"@platform/server\": \"workspace:*\",\n    \"@platform/web\": \"workspace:*\",\n    \"@playwright/test\": \"1.63.0\",\n    \"@testcontainers/postgresql\": \"12.1.0\",\n    \"@testing-library/dom\": \"10.4.1\",\n    \"@testing-library/react\": \"16.3.3\",\n    \"@testing-library/user-event\": \"14.6.7\",\n    \"@types/node\": \"24.13.3\",\n    \"@types/pg\": \"8.23.1\",\n    \"@vitest/coverage-v8\": \"5.0.0\",\n    \"drizzle-orm\": \"0.45.2\",\n    \"fast-check\": \"4.9.0\",\n    \"happy-dom\": \"20.14.0\",\n    \"lefthook\": \"2.1.12\",\n    \"pg\": \"8.23.0\",\n    \"typescript\": \"7.0.2\",\n    \"vitest\": \"5.0.0\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": {
+    "byteSize": 18170
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "R_kgDOUNwq4Q",
+  "nameWithOwner": "TakakiHashimoto/explain_back_back",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T02:02:31Z",
+  "pushedAt": "2026-09-04T22:09:29Z",
+  "diskUsage": 1596,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 34138,
+    "edges": [
+      {
+        "size": 29856,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 3710,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 572,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "TakakiHashimoto",
+    "__typename": "User",
+    "createdAt": "2025-04-16T06:33:11Z",
+    "repositories": {
+      "totalCount": 92
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 5,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T22:09:26Z",
+            "messageHeadline": "Refactor code structure and remove redundant changes",
+            "author": {
+              "user": {
+                "login": "TakakiHashimoto"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T20:52:28Z",
+            "messageHeadline": "feat: update backend references and add .env.example for configuration",
+            "author": {
+              "user": {
+                "login": "TakakiHashimoto"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T20:34:55Z",
+            "messageHeadline": "feat: add development scripts for API and mobile applications",
+            "author": {
+              "user": {
+                "login": "TakakiHashimoto"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T04:47:30Z",
+            "messageHeadline": "chore: initialize package.json for monorepo setup with workspaces",
+            "author": {
+              "user": {
+                "login": "TakakiHashimoto"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T02:10:00Z",
+            "messageHeadline": "first commit",
+            "author": {
+              "user": {
+                "login": "TakakiHashimoto"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "apps",
+        "type": "tree"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 20,
+    "text": "# explain_back_back\n"
+  },
+  "pkg": {
+    "byteSize": 521,
+    "text": "{\n  \"name\": \"explain-it-back\",\n  \"version\": \"0.0.0\",\n  \"private\": true,\n  \"workspaces\": [\n    \"apps/*\",\n    \"packages/*\"\n  ],\n  \"scripts\": {\n    \"dev\": \"concurrently -n BACKEND,MOBILE \\\"npm run dev:backend\\\" \\\"npm run dev:mobile\\\"\",\n    \"dev:backend\": \"npm run dev --workspace=@explain-it-back/backend\",\n    \"dev:mobile\": \"npm run start --workspace=@explain-it-back/mobile\",\n    \"typecheck:backend\": \"npm run typecheck --workspace=@explain-it-back/backend\"\n  },\n  \"devDependencies\": {\n    \"concurrently\": \"^10.0.5\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

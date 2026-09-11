@@ -1,0 +1,434 @@
+{
+  "id": "R_kgDOTKHPAg",
+  "nameWithOwner": "pgen0x/azimuth",
+  "description": "Azimuth — multi-venue concentrated-liquidity LP bot. Automated pool screening, entry and exit for Meteora DLMM on Solana and Uniswap v3/v4 on Robinhood Chain.",
+  "homepageUrl": "",
+  "createdAt": "2026-07-01T03:28:24Z",
+  "pushedAt": "2026-09-01T02:46:05Z",
+  "diskUsage": 1929,
+  "stargazerCount": 7,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 1326252,
+    "edges": [
+      {
+        "size": 573625,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 504280,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 224140,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 24207,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "dlmm"
+        }
+      },
+      {
+        "topic": {
+          "name": "golang"
+        }
+      },
+      {
+        "topic": {
+          "name": "liquidity-management"
+        }
+      },
+      {
+        "topic": {
+          "name": "meteora"
+        }
+      },
+      {
+        "topic": {
+          "name": "meteora-dlmm"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "solana"
+        }
+      },
+      {
+        "topic": {
+          "name": "trading-bot"
+        }
+      },
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "defi"
+        }
+      },
+      {
+        "topic": {
+          "name": "liquidity-pool"
+        }
+      },
+      {
+        "topic": {
+          "name": "concentrated-liquidity"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 34
+  },
+  "tags": {
+    "totalCount": 35
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "pgen0x",
+    "__typename": "User",
+    "createdAt": "2021-09-25T12:16:50Z",
+    "repositories": {
+      "totalCount": 26
+    }
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 283,
+        "nodes": [
+          {
+            "committedDate": "2026-08-24T11:55:38Z",
+            "messageHeadline": "chore(master): release 2.7.3 (#85)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T11:54:31Z",
+            "messageHeadline": "fix(solana): cap dump-swap impact, tighten turnover OOR fuse, risk-sc…",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T04:35:07Z",
+            "messageHeadline": "docs(readme): convert architecture ASCII diagram to mermaid (#83)",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T04:26:49Z",
+            "messageHeadline": "docs: add community health files and GitHub Sponsors config (#82)",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T03:31:08Z",
+            "messageHeadline": "chore(master): release 2.7.2 (#81)",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-24T03:30:15Z",
+            "messageHeadline": "fix(indicators): fetch 1m candles at entry, add Birdeye fallback for …",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:53:39Z",
+            "messageHeadline": "chore(git): add tracked commit-msg hook for Conventional Commits (#79)",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:34:43Z",
+            "messageHeadline": "Merge pull request #78 from pgen0x/release-please--branches--master--…",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:34:13Z",
+            "messageHeadline": "chore(master): release 2.7.1",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:33:57Z",
+            "messageHeadline": "Merge pull request #77 from pgen0x/feat/sol-turnover-stale-repin",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:32:52Z",
+            "messageHeadline": "style(scanner): gofmt the reasonKey test table",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:30:52Z",
+            "messageHeadline": "fix(scanner): stop reject-tally reasonKey from erasing the gate name",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-22T17:27:26Z",
+            "messageHeadline": "fix(solana): widen suspect-read guard to catch shallower indexing-lag…",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T10:45:57Z",
+            "messageHeadline": "fix(solana): stop booking losses that never happened, and cut the dra…",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-18T07:31:01Z",
+            "messageHeadline": "Merge pull request #73 from pgen0x/release-please--branches--master--…",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T12:28:25Z",
+            "messageHeadline": "chore(master): release 2.7.0",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T12:28:12Z",
+            "messageHeadline": "Merge pull request #72 from pgen0x/feat/sol-turnover-stale-repin",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T12:28:06Z",
+            "messageHeadline": "Merge pull request #71 from pgen0x/fix/rh-gateway-retry",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T12:27:57Z",
+            "messageHeadline": "Merge pull request #70 from pgen0x/fix/rh-cooldown-streak",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-17T12:17:30Z",
+            "messageHeadline": "feat(solana): close the turnover stale-ticket hole, and journal what …",
+            "author": {
+              "user": {
+                "login": "pgen0x"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".claude",
+        "type": "tree"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".githooks",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".release-please-manifest.json",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "install.sh",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      },
+      {
+        "name": "release-please-config.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release-please.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 25653,
+    "text": "# Azimuth — Concentrated-Liquidity Pool Signal Daemon for AI Agents\n\n[![Version](https://img.shields.io/static/v1?label=version&message=2.7.3&color=informational)](CHANGELOG.md) <!-- x-release-please-version -->\n[![Go Version](https://img.shields.io/badge/go-1.22%2B-00ADD8?logo=go&logoColor=white)](go.mod)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/status-beta-yellow)](#project-status)\n[![Chain](https://img.shields.io/badge/chain-Solana-9945FF?logo=solana&logoColor=white)](#)\n[![Chain](https://img.shields.io/badge/chain-Robinhood%20Chain-00C805)](#)\n\n**Azimuth** is a Go daemon that watches concentrated-liquidity pools across two\nvenues — **Meteora DLMM** (Dynamic Liquidity Market Maker) on **Solana** and\n**Uniswap v3/v4** on **Robinhood Chain** — screens them through quality gates,\nand hands an **AI trading agent** (built on\n[Hermes](https://github.com/NousResearch/hermes)) a batch of vetted candidates\nto pick from and deploy — instead of you babysitting a screener or grabbing the\nfirst mediocre pool a dumb cron finds.\n\nEach venue gets its own exit monitor. Solana is the mature path (screening,\nentry and automated exits); the Robinhood Chain side screens and signals, and\nits exit loop ships disabled until you deploy there yourself.\n\n> ⚠️ **This trades real funds.** DYOR. NFA. Use at your own risk — see\n> [Disclaimer](#disclaimer).\n\n---\n\n## Table of Contents\n\n- [Why this exists](#why-this-exists)\n- [Features](#features)\n- [Architecture](#architecture)\n- [Quick Start](#quick-start)\n- [What gets screened](#what-gets-screened)\n- [Configuration](#configuration)\n- [Repo layout](#repo-layout)\n- [Example output](#example-output)\n- [Project Status](#project-status)\n- [Contributing](#contributing)\n- [Security](#security)\n- [Disclaimer](#disclaimer)\n\n## Why this exists\n\nMost pool screeners run on a fixed schedule and deploy into whatever happens\nto be trending at that moment, grabbing the first pool that clears their\nfilters. Both habits cost money: stale snapshots miss short-lived fee\nopportunities, and first-match selection lets a mediocre pool take the slot a\nstronger one deserved.\n\nThis daemon instead watches Meteora's pool-discovery API *continuously* and,\neach cycle, emits every pool that crosses all quality gates as one batch. Your\nAI agent sees the full set side by side and deploys only the strongest\ncandidate — always off fresh data.\n\nThe Solana path runs entirely on Meteora's **public pool-discovery API** — no\nthird-party accounts, API keys, or scraping required to source signals. The\nRobinhood Chain path is keyless for discovery too (GeckoTerminal's public tier\nplus Uniswap's interface GraphQL gateway), though its token-safety gates want a\nGMGN key and fail open without one.\n\n## Features\n\n- **Continuous discovery, not polling snapshots** — every `POLL_INTERVAL`\n  cycle, not just on a fixed cron tick.\n- **Batch signalling** — one HMAC-signed webhook per cycle carries *every*\n  qualifying pool, so your agent ranks the set instead of racing to grab the\n  first one.\n- **Four isolated Solana screening modes** — `casual` (30m, volume-spike plays),\n  `multiday` (24h, quality holds), `turnover` (30m, fee-capture plays on\n  small high-base-fee pools) and `pulse` (5m trending) with independent\n  thresholds and position budgets. `turnover` and `pulse` share a band but\n  sample it through different discovery windows, so enabling both makes entries\n  the union of the two screens rather than either alone.\n- **Four more on Robinhood Chain** — `fresh` (launch feed), `mature` (24h+ pools\n  still printing an outsized fee pace), and two **one-sided bid-wall** modes,\n  `ladder` (WETH-quoted) and `usdg-ladder` (USDG-quoted tokenized equities),\n  which park resting quote-asset rungs *below* spot and never buy the token.\n- **Layered risk gates** — TVL, fee/TVL, market cap, holder count, organic\n  score, top-10/dev supply concentration, mint/freeze authority, Jupiter\n  shield status, a best-effort DexScreener downtrend filter, and a Jupiter\n  \n- **Conviction scoring** — every signal carries a 0–100 Degen Score (balanced\n  trading/LP/fee/liquidity efficiency); single-candidate cycles must clear a\n  conviction floor, so \"only option\" never auto-reads as \"good option\".\n  reads on every pick.\n  fields.\n  profile and builds the daemon.\n\n\n```mermaid\nflowchart LR\n    A[\"azimuth (this Go daemon)<br/>poll → screen → dedup\"] -->|\"HMAC-signed POST /webhooks/dlmm-signal<br/>(batch array)\"| B[\"Hermes agent<br/>ranks the batch,<br/>picks 1 + strategy<br/>→ dlmm_pipeline.py\"]\n    C[(Meteora discovery API)] --> A\n    B --> D[(Meteora on-chain<br/>deploy/monitor)]\n```\n\n  `api.mainnet-beta.solana.com` as a fallback) and a funded wallet.\n```bash\n# Create a profile named \"dlmm\" — this also registers a `dlmm` command alias\nhermes profile create dlmm\n\n# Configure API keys and model settings interactively\ndlmm setup\n\n# Optional config tweaks\ndlmm config set model.default anthropic/claude-sonnet-4\n```\n- `.env` — API keys and, for this project, your wallet (`SOLANA_PUBLIC_KEY` /\n```bash\ndlmm gateway start        # foreground\ndlmm gateway install      # or persistent systemd/launchd service\n```\n```bash\ngit clone https://github.com/pgen0x/azimuth.git\ncd azimuth\n\n# Installs the skill (symlinked, not copied — edits here go live instantly),\n# the webhook subscription, SOUL.md section + cron job templates, the 20s\n# monitor-loop systemd service, and builds azimuth.\n./install.sh ~/.hermes/profiles/<your-profile>\n```\n```bash\nloginctl enable-linger $USER\nsystemctl --user status azimuth-sol-monitor   # verify it's running\n```\n```bash\nSOLANA_PUBLIC_KEY=...\nSOLANA_PRIVATE_KEY=...            # base58, used by dlmm_executor.js\nSOLANA_RPC_URLS=https://mainnet.helius-rpc.com/?api-key=YOUR_KEY,https://api.mainnet-beta.solana.com\nDLMM_ALERT_TARGET=telegram        # instant trade-event alerts (close/rebalance/compound)\n                                  # sent script-side via `hermes send` — no LLM tokens.\n                                  # \"platform\" or \"platform:chat_id\"; empty disables.\nDLMM_TZ=Asia/Jakarta              # timezone for every report-card timestamp (IANA name,\n                                  # e.g. America/New_York; empty/unset = system zone)\nDLMM_STATS_HOUR=09                # daily scoreboard send hour in DLMM_TZ (00-23, default 09)\n```\n```bash\ncp .env.example .env        # set HERMES_WEBHOOK_SECRET to match the subscription\n```\n```bash\nset -a && . ./.env && set +a\n./azimuth\n```\n```bash\nENABLE_TURNOVER=true\n```\n```bash\nENABLE_PULSE=true\n```\n| holds | *what to screen, which venues, how to dispatch* | **every secret** — wallet keys, RPC URLs, alert targets |\n| wallet keys | none, ever | `SOLANA_PRIVATE_KEY`, `EVM_PRIVATE_KEY` |\nspending. Dry runs read your **real** wallet balance — it is a read-only RPC\n```\nmain.go                     daemon entrypoint\ninternal/config             env config\ninternal/meteora            discovery client, screening gates, momentum\ninternal/scanner            poll ▸ screen ▸ dedup ▸ forward loop\ninternal/webhook            HMAC-signed forwarder\ninternal/store              seen-pool dedup (Redis or in-memory)\nassets/skill                solana-dlmm skill (pipeline/monitor/executor) + safety scripts\nassets/hermes               dlmm-signal webhook subscription + SOUL.md/cron templates\ndocs/SIGNAL_SCHEMA.md       webhook contract\ninstall.sh                  wires assets into a Hermes profile + builds daemon\n```\n```bash\npython3 <profile>/skills/solana-dlmm/scripts/dlmm_stats.py [--hours 24] [--send]\n```\n```\n🤖 AI Pick — multiday · 14:32 WIB\n\nCandidates screened: 5\nChose: world-SOL over 4 others — highest organic score, healthiest fee/TVL\nStrategy: custom_ratio_spot — meme-pool volatility, symmetric range fits\n\n`CQEYFv3KGnJ6xxRyrUNWbXjPHGnbyCbjuZDTGocV92ug`\n\n| Metric | Value |\n|---|---|\n| Token | world |\n| Decision | ✅ DEPLOYED (multiday) pos DoSj3Ga... |\n| Size | 1.03 SOL |\n| Range | 62↓ 62↑ bins |\n| Fee/TVL | 10.8%/d |\n| Score | 290.7 |\n```\n- Wallet keys never live in this repo. The skill reads `SOLANA_PUBLIC_KEY` /"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": {
+    "byteSize": 31493
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "attack": "dressed scaffold",
+    "description": "The eight cheap artefacts (licence, README over 1 KB, two code blocks, CI, manifest, lockfile, one test, one release) on 8 KB of code and 20 Markdown files, in a five-day-old repository.",
+    "now": "2026-09-11T16:00:00Z",
+    "expect": {
+      "signals": {
+        "s.mdheavy": {
+          "status": "ok",
+          "hit": true
+        }
+      },
+      "notProven": true
+    }
+  },
+  "facts": {
+    "v": 1,
+    "id": "R_redteam_dressed",
+    "nwo": "acme/agent-kit",
+    "owner": "acme",
+    "name": "agent-kit",
+    "fetchedAt": "2026-09-11T16:00:00Z",
+    "source": "fixture",
+    "stages": [
+      "enrich",
+      "deep"
+    ],
+    "headOid": "4f1c2e9d0b7a",
+    "defaultBranch": "main",
+    "createdAt": "2026-09-06T16:00:00Z",
+    "pushedAt": "2026-09-10T16:00:00Z",
+    "description": "An agent toolkit",
+    "homepageUrl": null,
+    "isFork": false,
+    "isArchived": false,
+    "isTemplate": false,
+    "isMirror": false,
+    "hasIssues": true,
+    "hasDiscussions": false,
+    "stars": 1,
+    "forks": 0,
+    "watchers": 1,
+    "diskKB": 420,
+    "licence": "MIT",
+    "primaryLanguage": "TypeScript",
+    "languages": [
+      {
+        "name": "TypeScript",
+        "bytes": 8192
+      }
+    ],
+    "codeBytes": 8192,
+    "topics": [
+      "cli",
+      "logs"
+    ],
+    "releases": {
+      "count": 1,
+      "recent": [
+        {
+          "tag": "v0.1.0",
+          "publishedAt": "2026-09-09T16:00:00Z",
+          "prerelease": false
+        }
+      ]
+    },
+    "tags": 1,
+    "ownerInfo": {
+      "login": "acme",
+      "type": "User",
+      "createdAt": "2026-08-20T00:00:00Z",
+      "publicRepos": 12,
+      "contributionYears": [
+        2026
+      ],
+      "sponsorsListing": false
+    },
+    "commits": {
+      "total": 6,
+      "recent": [
+        {
+          "at": "2026-09-10T16:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-09-09T23:12:00Z",
+          "headline": "Fix timestamp parsing for ISO weeks",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-09-09T06:24:00Z",
+          "headline": "Handle gzip input",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-09-08T13:36:00Z",
+          "headline": "Refactor the parser state",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-09-07T20:48:00Z",
+          "headline": "Document the config file",
+          "authorLogin": "acme"
+        },
+        {
+          "at": "2026-09-07T04:00:00Z",
+          "headline": "Add summary grouping",
+          "authorLogin": "acme"
+        }
+      ]
+    },
+    "rollup": "SUCCESS",
+    "root": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "ARCHITECTURE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN.md",
+        "type": "blob"
+      },
+      {
+        "name": "FAQ.md",
+        "type": "blob"
+      },
+      {
+        "name": "GLOSSARY.md",
+        "type": "blob"
+      },
+      {
+        "name": "GOVERNANCE.md",
+        "type": "blob"
+      },
+      {
+        "name": "INSTALL.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "MAINTAINERS.md",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "PERSONAS.md",
+        "type": "blob"
+      },
+      {
+        "name": "PROMPTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "RELEASING.md",
+        "type": "blob"
+      },
+      {
+        "name": "ROADMAP.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "SKILLS.md",
+        "type": "blob"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "SUPPORT.md",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "VISION.md",
+        "type": "blob"
+      }
+    ],
+    "workflows": [
+      {
+        "name": "ci.yml",
+        "text": "name: CI\non: [push]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: npm ci\n      - run: npm test\n"
+      }
+    ],
+    "readme": {
+      "name": "README.md",
+      "bytes": 516,
+      "truncated": false,
+      "text": "# agent-kit\n\nA next-generation toolkit for autonomous agents, with personas, skills and prompts.\n\n## Install\n\n```sh\nnpm install agent-kit\n```\n\n## Use\n\n```ts\nimport { run } from 'agent-kit';\nawait run('plan');\n```\n\nSee `PROMPTS.md` and `PERSONAS.md` for the details, and `SKILLS.md` for the skill catalogue.\n\nThis toolkit gives your agents structure: personas describe who they are, skills describe what they can do,\nand prompts describe how they speak. Everything is plain Markdown so it is easy to edit and review.\n"
+    },
+    "packageJson": {
+      "name": "agent-kit",
+      "private": false,
+      "deps": 0,
+      "devDeps": 1,
+      "peerDeps": 0,
+      "optionalDeps": 0,
+      "testScript": "vitest run",
+      "scripts": [
+        "test",
+        "build"
+      ]
+    },
+    "manifest": null,
+    "agentsMdBytes": 4000,
+    "claudeMdBytes": 0,
+    "tree": {
+      "truncated": false,
+      "count": 30,
+      "entries": [
+        [
+          ".github",
+          "tree"
+        ],
+        [
+          ".github/workflows",
+          "tree"
+        ],
+        [
+          ".github/workflows/ci.yml",
+          "blob",
+          200
+        ],
+        [
+          "AGENTS.md",
+          "blob",
+          2500
+        ],
+        [
+          "ARCHITECTURE.md",
+          "blob",
+          2500
+        ],
+        [
+          "CHANGELOG.md",
+          "blob",
+          2500
+        ],
+        [
+          "CODE_OF_CONDUCT.md",
+          "blob",
+          2500
+        ],
+        [
+          "CONTRIBUTING.md",
+          "blob",
+          2500
+        ],
+        [
+          "DESIGN.md",
+          "blob",
+          2500
+        ],
+        [
+          "FAQ.md",
+          "blob",
+          2500
+        ],
+        [
+          "GLOSSARY.md",
+          "blob",
+          2500
+        ],
+        [
+          "GOVERNANCE.md",
+          "blob",
+          2500
+        ],
+        [
+          "INSTALL.md",
+          "blob",
+          2500
+        ],
+        [
+          "LICENSE",
+          "blob",
+          1070
+        ],
+        [
+          "MAINTAINERS.md",
+          "blob",
+          2500
+        ],
+        [
+          "package-lock.json",
+          "blob",
+          30000
+        ],
+        [
+          "package.json",
+          "blob",
+          400
+        ],
+        [
+          "PERSONAS.md",
+          "blob",
+          2500
+        ],
+        [
+          "PROMPTS.md",
+          "blob",
+          2500
+        ],
+        [
+          "README.md",
+          "blob",
+          516
+        ],
+        [
+          "RELEASING.md",
+          "blob",
+          2500
+        ],
+        [
+          "ROADMAP.md",
+          "blob",
+          2500
+        ],
+        [
+          "SECURITY.md",
+          "blob",
+          2500
+        ],
+        [
+          "SKILLS.md",
+          "blob",
+          2500
+        ],
+        [
+          "src",
+          "tree"
+        ],
+        [
+          "src/index.ts",
+          "blob",
+          8192
+        ],
+        [
+          "SUPPORT.md",
+          "blob",
+          2500
+        ],
+        [
+          "tests",
+          "tree"
+        ],
+        [
+          "tests/index.test.ts",
+          "blob",
+          300
+        ],
+        [
+          "VISION.md",
+          "blob",
+          2500
+        ]
+      ]
+    },
+    "activity": {
+      "pushDays": 3,
+      "firstAt": "2026-09-06T16:00:00Z",
+      "lastAt": "2026-09-10T16:00:00Z",
+      "forcePushes": 0
+    },
+    "starHistory": null,
+    "outsiders": [],
+    "funding": [],
+    "heavy": false
+  }
+}

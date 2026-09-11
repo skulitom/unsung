@@ -1,0 +1,430 @@
+{
+  "id": "R_kgDOQ7qbxQ",
+  "nameWithOwner": "HaveNiceDa/My-Notion",
+  "description": "基于现代前端与 AI 技术栈构建的个性化 Notion 应用",
+  "homepageUrl": "https://notion-j9zj.vercel.app/",
+  "createdAt": "2026-01-17T12:50:45Z",
+  "pushedAt": "2026-09-06T09:55:40Z",
+  "diskUsage": 10034,
+  "stargazerCount": 13,
+  "forkCount": 4,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 1448684,
+    "edges": [
+      {
+        "size": 1356454,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 88885,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 3345,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai"
+        }
+      },
+      {
+        "topic": {
+          "name": "blocknote"
+        }
+      },
+      {
+        "topic": {
+          "name": "convex"
+        }
+      },
+      {
+        "topic": {
+          "name": "mcp"
+        }
+      },
+      {
+        "topic": {
+          "name": "nextjs"
+        }
+      },
+      {
+        "topic": {
+          "name": "notion"
+        }
+      },
+      {
+        "topic": {
+          "name": "shadcn-ui"
+        }
+      },
+      {
+        "topic": {
+          "name": "tailwindcss"
+        }
+      },
+      {
+        "topic": {
+          "name": "typescript"
+        }
+      },
+      {
+        "topic": {
+          "name": "vercel"
+        }
+      },
+      {
+        "topic": {
+          "name": "agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "langchain"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "HaveNiceDa",
+    "__typename": "User",
+    "createdAt": "2021-08-11T02:12:09Z",
+    "repositories": {
+      "totalCount": 15
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "60903b5dee819e84d318439d5f0d46a3ce00516b",
+      "history": {
+        "totalCount": 666,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T09:54:23Z",
+            "messageHeadline": "docs: 更新2026年9月AI模型列表及相关配置",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-09T08:22:03Z",
+            "messageHeadline": "Merge remote-tracking branch 'origin/main'",
+            "author": {
+              "user": {
+                "login": "HaveNiceDa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-09T08:21:06Z",
+            "messageHeadline": "chore(ai): upgrade Qwen Max to qwen3.8-max",
+            "author": {
+              "user": {
+                "login": "HaveNiceDa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-03T03:06:05Z",
+            "messageHeadline": "Merge pull request #8 from AshSgDe29071999/fix/conversations-loading-…",
+            "author": {
+              "user": {
+                "login": "HaveNiceDa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T14:31:07Z",
+            "messageHeadline": "fix(ai-chat): reset conversations loading state on failure",
+            "author": {
+              "user": {
+                "login": "AshSgDe29071999"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T12:18:15Z",
+            "messageHeadline": "chore: 更新开发环境qdrant启动配置",
+            "author": {
+              "user": {
+                "login": "HaveNiceDa"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-27T05:16:25Z",
+            "messageHeadline": "refactor(agent): add configurable max iterations for ReAct loop",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-27T05:10:17Z",
+            "messageHeadline": "refactor(editor-ai): 完成编辑器AI稳定性修复与流式模块拆分",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-26T05:33:23Z",
+            "messageHeadline": "refactor(agent/stream): extract tool call accumulator to shared utils",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-26T03:30:14Z",
+            "messageHeadline": "refactor(react-loop): 重构ReAct循环，添加返回类型和执行结果",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-25T14:16:08Z",
+            "messageHeadline": "refactor(editor-ai): 优化AI请求逻辑与处理流程",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-24T01:41:09Z",
+            "messageHeadline": "fix(editor-ai): 修复选区AI指令返回纯文本的问题",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-03T03:30:58Z",
+            "messageHeadline": "chore: 清理独立AI服务，收口Mobile AI到Web API",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-01T12:39:39Z",
+            "messageHeadline": "refactor(ai-chat): 简化AI模型展示名称",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-01T12:18:03Z",
+            "messageHeadline": "feat: 完成AI服务模型白名单切换与链路加固",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-06-29T03:13:28Z",
+            "messageHeadline": "docs: 更新各文档与里程碑，同步M28完成状态",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-06-28T01:46:52Z",
+            "messageHeadline": "chore: add pretest script to build agent-tools package",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-06-27T02:49:38Z",
+            "messageHeadline": "chore: 发布版本0.1.2和0.1.3，修复默认配置加载逻辑",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-06-27T02:20:34Z",
+            "messageHeadline": "refactor: 将 @mynotion/mcp-server 合并为 @mynotion/mcp 并完成全链路迁移",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-06-25T09:20:28Z",
+            "messageHeadline": "chore: 完成 MCP 服务独立拆分与全链路适配",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": {
+        "state": "SUCCESS"
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".cursor",
+        "type": "tree"
+      },
+      {
+        "name": ".dockerignore",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".npmrc",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "apps",
+        "type": "tree"
+      },
+      {
+        "name": "blog",
+        "type": "tree"
+      },
+      {
+        "name": "docker-compose.dev.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "milestones",
+        "type": "tree"
+      },
+      {
+        "name": "my-notion-go",
+        "type": "commit"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "playwright.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "progress",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "vitest.config.ts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ai-smoke.yml"
+      },
+      {
+        "name": "build.yml"
+      },
+      {
+        "name": "lint-typecheck.yml"
+      },
+      {
+        "name": "playwright.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 8574,
+    "isTruncated": false,
+    "text": "# My-Notion\n\n定制化个人版 Notion。它不是单纯的编辑器 demo，而是一套把 Web 文档编辑、移动端工作区、AI Agent、RAG/Memory、CLI/Skills/MCP Agent 生态放在同一个 pnpm monorepo 里的完整工程。\n\n**线上体验：** <https://notion-j9zj.vercel.app/>\n\n## 项目概览\n\n- **产品闭环完整**：Web 编辑器、移动端工作区、AI 侧边栏、文档树、发布、收藏、归档、回收站都在同一个业务系统里。\n- **Agent 工程化充分**：Web Agent 已覆盖 ReAct Loop、RAG、Memory、文档读写 dry-run、确认式写入、Plan、流式续跑和 tool result 契约。\n- **外部 Agent 可用**：`@mynotion/cli`、`@mynotion/mcp` 和 Skills 已形成独立使用链路，支持外部 Agent 安全读写 My-Notion 文档。\n- **跨端架构清晰**：Web 和 Mobile 共享 AI、业务状态、Convex schema 与文档逻辑，移动端正在补齐 Agent Stream、弱网恢复和编辑器深水区。\n\n## 快速入口\n\n| 关注方向 | 文档 |\n| --- | --- |\n| 项目全貌和当前状态 | 本 README、[AGENTS.md](./AGENTS.md)、[milestones/README.md](./milestones/README.md) |\n| Web Agent / RAG / Memory | [apps/web/README.md](./apps/web/README.md)、[docs/ai-chat-refactor-plan.md](./docs/ai-chat-refactor-plan.md)、[docs/agent-stream-resume-protocol.md](./docs/agent-stream-resume-protocol.md) |\n| Mobile 客户端路线 | [apps/mobile/README.md](./apps/mobile/README.md)、[docs/web-mobile-gap-analysis.md](./docs/web-mobile-gap-analysis.md) |\n| CLI / MCP / Skills | [packages/my-notion-cli/README.md](./packages/my-notion-cli/README.md)、[packages/my-notion-mcp/README.md](./packages/my-notion-mcp/README.md)、[packages/my-notion-skills/README.md](./packages/my-notion-skills/README.md) |\n\n## 项目入口\n\n- [Web 应用说明](./apps/web/README.md)：Next.js Web 端、BlockNote 编辑器、AI Agent、CLI 授权页和机器 API。\n- [Mobile 应用说明](./apps/mobile/README.md)：Expo 移动端、文档工作区、移动 AI Chat 和跨端共享架构。\n- [My-Notion CLI](./packages/my-notion-cli/README.md)：已发布 npm 包 [`@mynotion/cli`](https://www.npmjs.com/package/@mynotion/cli)，提供 `my-notion` 命令。\n- [My-Notion MCP Server](./packages/my-notion-mcp/README.md)：独立 MCP STDIO server，提供 Agent 文档工具和 `my_notion_readme`。\n- [My-Notion Skills](./packages/my-notion-skills/README.md)：供 Agent 调用 CLI/MCP 的 Skills 源文件与同步规则。\n- [里程碑索引](./milestones/README.md)：稳定阶段结论和下一步路线。\n- [Docs 索引](./docs/README.md)：当前维护方案、操作手册、发布检查和外部 AI 参考入口。\n- [Web / Mobile 差距](./docs/web-mobile-gap-analysis.md)：当前双端能力差距和后续 backlog。\n\n## 核心能力\n\n- **Web 文档编辑**：Next.js + Convex + Clerk + BlockNote，支持文档树、编辑器 AI、公开预览、收藏、归档、回收站和设置页。\n- **Web Agent**：ReAct Loop、结构感知 RAG、Memory MVP、联网搜索、网页抽取、文档读写 dry-run、确认式写入、`task_plan`、受控 MCP adapter、`tool-result-v1` 契约和流式续跑可用闭环。\n- **Mobile 工作区**：Expo + React Native，支持移动文档树、文档编辑、AI Chat、会话管理、模型选择、深度思考展示和安全代理。\n- **CLI / Skills / MCP**：`@mynotion/cli@latest` 负责浏览器 Device Flow 登录、文档 CRUD、导入导出和随包发布的 Agent Skills；`@mynotion/mcp` 独立提供 MCP STDIO 工具。\n- **共享包**：`packages/ai`、`packages/business`、`packages/convex` 收敛 AI、业务状态、i18n、Convex schema 和文档逻辑。\n- **验证链路**：覆盖 Web typecheck/build/lint、Agent 单测、AI smoke、CLI E2E、MCP E2E、Skills 漂移检查和 npm pack/publish 验证。\n\n## 架构总览\n\n```text\n用户 / Agent\n  ├─ Web UI: apps/web\n  ├─ Mobile UI: apps/mobile\n  ├─ CLI: @mynotion/cli / packages/my-notion-cli\n  ├─ MCP: @mynotion/mcp / packages/my-notion-mcp\n  └─ Skills: packages/my-notion-skills\n\n共享包\n  ├─ packages/ai\n  ├─ packages/business  # Zustand、i18n、共享类型和工具函数\n  ├─ packages/convex    # Convex schema、文档、Chat、CLI Token 逻辑\n  └─ packages/my-notion-agent-tools # CLI/MCP 内部共享 Machine API client 和 Agent 工具契约\n\n后端与服务\n  ├─ Convex             # 实时数据库 + HTTP Actions / Machine API\n  ├─ Clerk              # 登录认证\n  ├─ Qdrant             # 向量数据库\n  ├─ DashScope          # LLM、Embedding、工具调用\n  └─ EdgeStore          # 文件与图片存储\n```\n\n## 目录结构\n\n```text\nMy-Notion/\n├── apps/\n│   ├── web/                    # Next.js Web 应用\n│   └── mobile/                 # Expo 移动应用\n├── packages/\n│   ├── ai/                     # AI、RAG、Embeddings、Agent 服务端逻辑\n│   ├── business/               # Zustand Stores、i18n、类型、工具函数\n│   ├── convex/                 # Convex Schema、Documents、Chat、CLI Token 逻辑\n│   ├── my-notion-agent-tools/  # CLI/MCP 内部共享 Machine API client 和 Agent 工具契约\n│   ├── my-notion-cli/          # @mynotion/cli 源码与 npm 包内容\n│   ├── my-notion-mcp/          # @mynotion/mcp 独立 MCP STDIO server\n│   └── my-notion-skills/       # Agent Skills 源文件\n├── docs/                       # 当前方案、发布检查、AI 外部文档索引\n├── milestones/                 # 稳定阶段结论\n├── progress/                   # 压缩后的阶段进展记录\n├── scripts/                    # E2E、skills sync、发布辅助脚本\n└── .trae/skills/               # 同步后的本地 Agent Skills\n```\n\n## 快速开始\n\n```bash\npnpm i\n\n# Web\npnpm start:web\n\n# Mobile\npnpm start:mobile\n\n# 本地 RAG / Agent 调试通常需要先启动 Qdrant\ndocker compose -f docker-compose.dev.yml up -d qdrant\n```\n\n## CLI / MCP Quick Start\n\nCLI 已发布到 npm latest：[`@mynotion/cli`](https://www.npmjs.com/package/@mynotion/cli)。\n\n```bash\nnpm install -g @mynotion/cli@latest\nnpm install -g @mynotion/mcp@latest\nnpx skills add @mynotion/cli -y -g\nmy-notion install --check\nmy-notion config init\nmy-notion auth login\n```\n\nAgent 场景使用：\n\n```bash\nmy-notion auth login --no-open\nmy-notion config init --check --format json\nmy-notion docs create --title \"Agent Doc\" --content-file /tmp/doc.md --format json\nmy-notion-mcp --transport stdio\n```\n\n约定：Agent 必须把授权 URL 以 Markdown 可点击链接发给用户；写入已有文档优先使用 append；MCP 写工具默认保持 `dryRun: true`。\n\n## 常用验证\n\n```bash\n# Web\npnpm --filter @notion/web typecheck\npnpm --filter @notion/web lint\npnpm --filter @notion/web build\npnpm ci:ai-smoke\n\n# CLI / MCP / Skills\npnpm --filter @mynotion/cli test\npnpm --filter @mynotion/cli typecheck\npnpm --filter @mynotion/cli build\npnpm e2e:cli\npnpm e2e:cli:errors\npnpm e2e:mcp\npnpm e2e:mcp:client\npnpm sync:skills\npnpm sync:skills:package\npnpm sync:skills:check\n\n# 全局\npnpm test\npnpm exec playwright test\n```\n\n## 当前主线\n\n- P0：Web Agent 基础操作闭环已完成，覆盖 ReAct、RAG、Memory、文档读写 dry-run、确认式写入、Plan 模式、受控 MCP adapter、`tool-result-v1`、强类型 `sources` 和流式续跑；续跑协议见 [Agent Stream Resume Protocol](./docs/agent-stream-resume-protocol.md)。\n- P0：Agent 交互治理已收口，包含生成中禁用确认型 tool 操作、发送后滚动收口、Memory 保存反馈、`document_write` 空白文档预览、MCP `docs_fetch` ID 防护，以及 Convex/Clerk 短时不可用时的主链路降级。\n- P0：独立 `@mynotion/mcp` 已拆出并发布，CLI 保留兼容入口；CLI/MCP 默认线上 `prod`，本地调试必须显式 `--local`。\n- P1：Mobile 已接入 Agent Stream、checkpoint/resume 基础链路和当前文档上下文；下一步聚焦真机验证、正文图片上传、弱网恢复和移动编辑器复杂 block 降级。\n- P2：Harness、Trace Replay、Storybook、Memory/RAG 真实质量评估继续后置。\n"
+  },
+  "pkg": {
+    "byteSize": 1792,
+    "text": "{\n  \"name\": \"notion-monorepo\",\n  \"private\": true,\n  \"workspaces\": [\n    \"apps/*\",\n    \"packages/*\"\n  ],\n  \"scripts\": {\n    \"build:web\": \"pnpm --filter @notion/web build\",\n    \"build:mobile\": \"pnpm --filter @notion/mobile export\",\n    \"dev\": \"pnpm run dev --filter 'apps/*'\",\n    \"start:web\": \"pnpm --filter @notion/web start\",\n    \"start:mobile\": \"pnpm --filter @notion/mobile dev:all\",\n    \"pretest\": \"pnpm --filter @mynotion/agent-tools build\",\n    \"test\": \"vitest run\",\n    \"test:watch\": \"vitest\",\n    \"test:coverage\": \"vitest run --coverage\",\n    \"ci:ai-smoke\": \"node scripts/ci-ai-smoke.mjs\",\n    \"eval:retrieval\": \"tsx packages/ai/eval/retrieval-eval-runner.ts\",\n    \"eval:memory\": \"tsx packages/ai/eval/memory-eval-runner.ts\",\n    \"e2e:cli\": \"node scripts/e2e-my-notion-cli.mjs\",\n    \"e2e:cli:errors\": \"node scripts/e2e-my-notion-cli-errors.mjs\",\n    \"e2e:mcp\": \"node scripts/e2e-my-notion-mcp.mjs\",\n    \"e2e:mcp:client\": \"node scripts/e2e-my-notion-mcp-sdk-client.mjs\",\n    \"build:mcp\": \"pnpm --filter @mynotion/mcp build\",\n    \"test:mcp\": \"pnpm --filter @mynotion/mcp test\",\n    \"sync:skills\": \"node scripts/sync-my-notion-skills.mjs\",\n    \"sync:skills:package\": \"node scripts/sync-my-notion-package-skills.mjs\",\n    \"sync:skills:check\": \"node scripts/sync-my-notion-skills.mjs --check\",\n    \"clean\": \"rd /s /q node_modules 2>nul || exit 0\"\n  },\n  \"engines\": {\n    \"node\": \">=18\"\n  },\n  \"devDependencies\": {\n    \"@playwright/test\": \"^1.59.1\",\n    \"@types/node\": \"^20.19.39\",\n    \"concurrently\": \"^9.2.1\",\n    \"rimraf\": \"^6.1.3\",\n    \"tsx\": \"^4.21.0\",\n    \"vitest\": \"^4.1.5\"\n  },\n  \"resolutions\": {\n    \"prosemirror-view\": \"^1.31.4\",\n    \"react\": \"19.1.0\",\n    \"react-dom\": \"19.1.0\"\n  },\n  \"pnpm\": {\n    \"overrides\": {\n      \"react\": \"19.1.0\",\n      \"react-dom\": \"19.1.0\"\n    }\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 6542
+  },
+  "claude": null
+}

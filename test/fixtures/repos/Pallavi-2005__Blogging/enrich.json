@@ -1,0 +1,340 @@
+{
+  "nameWithOwner": "Pallavi-2005/Blogging",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T05:17:02Z",
+  "pushedAt": "2026-09-04T05:19:54Z",
+  "diskUsage": 1645,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 501658,
+    "edges": [
+      {
+        "size": 494235,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 6864,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 559,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "Pallavi-2005",
+    "__typename": "User",
+    "createdAt": "2024-03-26T08:18:58Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 26,
+        "nodes": [
+          {
+            "committedDate": "2026-09-04T05:18:56Z",
+            "messageHeadline": "Fix images not loading after upload",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T10:02:33Z",
+            "messageHeadline": "AI: support OpenAI-compatible providers via AI_BASE_URL (e.g. OpenRou…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:38:12Z",
+            "messageHeadline": "Update BUILD_PLAN.md: mark MVP complete, add quick start and known li…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:37:49Z",
+            "messageHeadline": "Integration pass: wire AIWritingPanel into BlogEditor, fix unpublish/…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:33:22Z",
+            "messageHeadline": "Fix updateBlog silently wiping content/tags on partial updates",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:29:41Z",
+            "messageHeadline": "Fix admin components: avoid setState-in-effect lint errors",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:28:37Z",
+            "messageHeadline": "Admin panel: reports queue, comments shell, analytics, settings",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:27:31Z",
+            "messageHeadline": "Add loading skeletons and sitemap/robots",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:26:39Z",
+            "messageHeadline": "Author dashboard: blog CRUD service, editor, My Posts, analytics, pro…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:25:48Z",
+            "messageHeadline": "Build blog detail, search, and author profile pages; add public 404/e…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:24:37Z",
+            "messageHeadline": "Admin panel: tags CRUD + merge, blog moderation table",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:23:43Z",
+            "messageHeadline": "Build homepage, explore, and category pages",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:22:21Z",
+            "messageHeadline": "Admin panel: dashboard, users, authors, categories CRUD",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:21:52Z",
+            "messageHeadline": "Flesh out public header/footer and add reusable public UI primitives",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:19:59Z",
+            "messageHeadline": "Add AI Writing Assistant: lib/ai/*, 8 /api/ai/* routes, AIWritingPanel",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:19:33Z",
+            "messageHeadline": "Add public query layer and read-only blog/category/author/search API …",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T09:17:47Z",
+            "messageHeadline": "Implement authentication flows (Track B)",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T06:45:45Z",
+            "messageHeadline": "Commit Next.js 16 auto-generated AGENTS.md/CLAUDE.md agent guidance (…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T06:44:18Z",
+            "messageHeadline": "Add docs/BUILD_PLAN.md: track ownership, shared contracts, dev comman…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-08-24T06:43:16Z",
+            "messageHeadline": "Add idempotent seed script (admin, 3 authors, categories, tags, blogs…",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "Blogging Platform — Brand & UI-UX Design System.md",
+        "type": "blob"
+      },
+      {
+        "name": "Business Requirements Document — AI-Powered Public Blogging & Publishing Platform.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "ChatGPT Image Aug 22, 2026, 04_38_54 PM.png",
+        "type": "blob"
+      },
+      {
+        "name": "Product Requirements Document — AI-Powered Public Blogging & Publishing Platform.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "User Stories Document — AI-Powered Public Blogging & Publishing Platform.md",
+        "type": "blob"
+      },
+      {
+        "name": "app",
+        "type": "tree"
+      },
+      {
+        "name": "components.json",
+        "type": "blob"
+      },
+      {
+        "name": "components",
+        "type": "tree"
+      },
+      {
+        "name": "docker-compose.yml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "middleware.ts",
+        "type": "blob"
+      },
+      {
+        "name": "next.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "postcss.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "prisma.config.ts",
+        "type": "blob"
+      },
+      {
+        "name": "prisma",
+        "type": "tree"
+      },
+      {
+        "name": "public",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "types",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1450,
+    "text": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n"
+  },
+  "pkg": {
+    "byteSize": 2132,
+    "text": "{\n  \"name\": \"blog-mangment\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\",\n    \"db:push\": \"prisma db push\",\n    \"db:migrate\": \"prisma migrate dev\",\n    \"db:seed\": \"prisma db seed\",\n    \"db:studio\": \"prisma studio\",\n    \"docker:up\": \"docker compose up -d\",\n    \"docker:down\": \"docker compose down\"\n  },\n  \"dependencies\": {\n    \"@auth/prisma-adapter\": \"^2.11.3\",\n    \"@hookform/resolvers\": \"^5.9.1\",\n    \"@prisma/client\": \"^6.19.3\",\n    \"@tiptap/extension-code-block\": \"^3.30.3\",\n    \"@tiptap/extension-image\": \"^3.30.3\",\n    \"@tiptap/extension-link\": \"^3.30.3\",\n    \"@tiptap/extension-placeholder\": \"^3.30.3\",\n    \"@tiptap/extension-table\": \"^3.30.3\",\n    \"@tiptap/extension-table-cell\": \"^3.30.3\",\n    \"@tiptap/extension-table-header\": \"^3.30.3\",\n    \"@tiptap/extension-table-row\": \"^3.30.3\",\n    \"@tiptap/pm\": \"^3.30.3\",\n    \"@tiptap/react\": \"^3.30.3\",\n    \"@tiptap/starter-kit\": \"^3.30.3\",\n    \"bcryptjs\": \"^3.0.3\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"cmdk\": \"^1.1.1\",\n    \"date-fns\": \"^4.4.0\",\n    \"lucide-react\": \"^1.33.0\",\n    \"next\": \"16.3.2\",\n    \"next-auth\": \"^5.0.0-beta.32\",\n    \"next-themes\": \"^0.4.6\",\n    \"openai\": \"^7.5.0\",\n    \"prisma\": \"^6.19.3\",\n    \"radix-ui\": \"^1.6.7\",\n    \"react\": \"19.2.8\",\n    \"react-day-picker\": \"^10.0.1\",\n    \"react-dom\": \"19.2.8\",\n    \"react-hook-form\": \"^7.86.0\",\n    \"shadcn\": \"^4.19.0\",\n    \"sonner\": \"^2.0.8\",\n    \"tailwind-merge\": \"^3.6.0\",\n    \"tw-animate-css\": \"^1.4.0\",\n    \"zod\": \"^4.4.3\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/postcss\": \"^4\",\n    \"@types/bcryptjs\": \"^2.4.6\",\n    \"@types/node\": \"^20\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"dotenv\": \"^17.4.2\",\n    \"eslint\": \"^9\",\n    \"eslint-config-next\": \"16.3.2\",\n    \"tailwindcss\": \"^4\",\n    \"tsx\": \"^4.23.12\",\n    \"typescript\": \"^5\"\n  },\n  \"allowScripts\": {\n    \"esbuild@0.28.2\": true,\n    \"unrs-resolver@1.12.2\": true,\n    \"fsevents@2.3.3\": true,\n    \"@prisma/client@6.19.3\": true,\n    \"prisma@6.19.3\": true,\n    \"@prisma/engines@6.19.3\": true\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 678
+  },
+  "claude": {
+    "byteSize": 11
+  }
+}

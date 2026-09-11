@@ -1,0 +1,401 @@
+{
+  "id": "R_kgDONDvqzA",
+  "nameWithOwner": "wirio-org/python-template",
+  "description": "Project template for Python projects + Vertical Slice Architecture",
+  "homepageUrl": "",
+  "createdAt": "2024-10-21T20:02:28Z",
+  "pushedAt": "2026-09-11T03:24:10Z",
+  "diskUsage": 1680,
+  "stargazerCount": 14,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 13134,
+    "edges": [
+      {
+        "size": 11307,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 1103,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      },
+      {
+        "size": 634,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 90,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "astral"
+        }
+      },
+      {
+        "topic": {
+          "name": "python"
+        }
+      },
+      {
+        "topic": {
+          "name": "python-architecture"
+        }
+      },
+      {
+        "topic": {
+          "name": "ruff"
+        }
+      },
+      {
+        "topic": {
+          "name": "uv"
+        }
+      },
+      {
+        "topic": {
+          "name": "python-seed"
+        }
+      },
+      {
+        "topic": {
+          "name": "python-template"
+        }
+      },
+      {
+        "topic": {
+          "name": "seed"
+        }
+      },
+      {
+        "topic": {
+          "name": "template"
+        }
+      },
+      {
+        "topic": {
+          "name": "fastapi"
+        }
+      },
+      {
+        "topic": {
+          "name": "github-actions"
+        }
+      },
+      {
+        "topic": {
+          "name": "astral-ty"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "wirio-org",
+    "__typename": "Organization",
+    "createdAt": "2026-03-19T17:14:59Z"
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 190,
+        "nodes": [
+          {
+            "committedDate": "2026-08-20T15:20:04Z",
+            "messageHeadline": "Prevent newer dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T14:48:02Z",
+            "messageHeadline": "Prevent newer dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T14:42:49Z",
+            "messageHeadline": "Fix uv version",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T12:31:10Z",
+            "messageHeadline": "Update Dockerfile",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-08T12:26:32Z",
+            "messageHeadline": "Simplify pyproject.toml",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-25T14:30:30Z",
+            "messageHeadline": "Use default Ruff rules with the new version",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-10T16:41:35Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-03T14:35:43Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-19T16:07:26Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-16T16:03:58Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-14T08:22:00Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-31T14:44:30Z",
+            "messageHeadline": "Remove patch version",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-31T07:59:53Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-31T07:54:12Z",
+            "messageHeadline": "Remove validation from entities",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-27T15:54:19Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-13T16:41:13Z",
+            "messageHeadline": "Remove global logger",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-12T19:38:11Z",
+            "messageHeadline": "Simplify Docker Compose",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-12T19:34:01Z",
+            "messageHeadline": "Add explicit port",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-03T09:52:52Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-18T17:06:13Z",
+            "messageHeadline": "Update dependencies",
+            "author": {
+              "user": {
+                "login": "AndreuCodina"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".python-version",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "compose.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "database",
+        "type": "tree"
+      },
+      {
+        "name": "notebooks",
+        "type": "tree"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "uv.lock",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "_deploy.yaml"
+      },
+      {
+        "name": "pull_request.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 379,
+    "text": "# Overview\n\nProject template for Python projects + uv + Vertical Slice Architecture\n\n# Execute project\n\n**Initialize environment:**\n\n```bash\ndocker compose up --detach\n```\n\n**Run project:**\n\n> Visual Studio Code -> Run and Debug -> api\n\n(or `uv run -- fastapi dev --port 8080 src/python_template/api/main.py`)\n\n**Destroy environment:**\n\n```bash\ndocker compose down --volumes\n```\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

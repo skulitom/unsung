@@ -1,0 +1,344 @@
+{
+  "id": "R_kgDOOOP2lg",
+  "nameWithOwner": "gabe565/cloudflare-ddns",
+  "description": "Sync a Cloudflare DNS record with your public IP address.",
+  "homepageUrl": "",
+  "createdAt": "2025-03-25T05:56:44Z",
+  "pushedAt": "2026-09-08T03:03:49Z",
+  "diskUsage": 228,
+  "stargazerCount": 12,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 57159,
+    "edges": [
+      {
+        "size": 56592,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 567,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "cloudflare"
+        }
+      },
+      {
+        "topic": {
+          "name": "ddns"
+        }
+      },
+      {
+        "topic": {
+          "name": "ddns-updater"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 7
+  },
+  "tags": {
+    "totalCount": 7
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "gabe565",
+    "__typename": "User",
+    "createdAt": "2014-05-27T21:12:26Z",
+    "repositories": {
+      "totalCount": 203
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 109,
+        "nodes": [
+          {
+            "committedDate": "2026-09-07T10:28:50Z",
+            "messageHeadline": "ci(goreleaser): migrate to homebrew_casks",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T10:28:49Z",
+            "messageHeadline": "ci(goreleaser): migrate to new dockers_v2 builder",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:57:48Z",
+            "messageHeadline": "feat(lookup): add experimental STUN support",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:34:44Z",
+            "messageHeadline": "chore(config): collapse icanhazip hosts",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:18:16Z",
+            "messageHeadline": "feat(config,lookup): add `aws` source",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:53:14Z",
+            "messageHeadline": "chore(config): remove plaintext DNS from default sources",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:30:34Z",
+            "messageHeadline": "chore(config): remove `ipify` from default sources",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T08:52:06Z",
+            "messageHeadline": "chore(config): remove `ipinfo` from default sources",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:15:01Z",
+            "messageHeadline": "chore(deps): update module github.com/miekg/dns to v1.1.73 (#66)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:09:50Z",
+            "messageHeadline": "chore(deps): update module golang.org/x/tools to v0.49.0",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:09:25Z",
+            "messageHeadline": "chore(log): update tint handler creation",
+            "author": {
+              "user": {
+                "login": "gabe565"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:05:20Z",
+            "messageHeadline": "chore(deps): update module charm.land/lipgloss/v2 to v2.0.6 (#48)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:04:02Z",
+            "messageHeadline": "chore(deps): update gabe565.com/utils digest to 4059440 (#47)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:03:03Z",
+            "messageHeadline": "chore(deps): update actions/upload-artifact action to v7.0.1 (#52)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:36Z",
+            "messageHeadline": "chore(deps): update module github.com/lmittmann/tint to v1.2.0 (#64)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:27Z",
+            "messageHeadline": "chore(deps): update docker/setup-buildx-action action to v4.3.0 (#59)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:22Z",
+            "messageHeadline": "chore(deps): update docker/login-action action to v4.6.0 (#54)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:17Z",
+            "messageHeadline": "chore(deps): update module github.com/stretchr/testify to v1.12.1 (#67)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:12Z",
+            "messageHeadline": "chore(deps): update docker/setup-qemu-action action to v4.3.0 (#60)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-07T09:02:04Z",
+            "messageHeadline": "chore(deps): update golangci/golangci-lint-action action to v9.3.0 (#58)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".pre-commit-config.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "goreleaser.Dockerfile",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "main.go",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 4346,
+    "text": "# Cloudflare DDNS\n[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gabe565/cloudflare-ddns)](https://github.com/gabe565/cloudflare-ddns/releases)\n[![Build](https://github.com/gabe565/cloudflare-ddns/actions/workflows/build.yml/badge.svg)](https://github.com/gabe565/cloudflare-ddns/actions/workflows/build.yml)\n[![Go Report Card](https://goreportcard.com/badge/github.com/gabe565/cloudflare-ddns)](https://goreportcard.com/report/github.com/gabe565/cloudflare-ddns)\n\nCloudflare DDNS is a command-line dynamic DNS tool that keeps Cloudflare DNS records in sync with your public IP address.\n\n## Features\n- **Multiple IP Sources:** Tries multiple sources in order for fetching your public IP:\n  - Cloudflare DNS (TLS) (using `whoami.cloudflare`)\n  - OpenDNS (TLS) (using `myip.opendns.com`)\n  - Cloudflare STUN (using `stun.cloudflare.com`)\n  - Google STUN (using `stun.l.google.com`)\n  - [icanhazip.com](https://icanhazip.com)\n  - [AWS](https://checkip.global.api.aws)\n  - [ipinfo.io](https://ipinfo.io)\n  - [ipify.org](https://ipify.org)\n  - Cloudflare DNS (using `whoami.cloudflare`)\n  - OpenDNS (using `myip.opendns.com`)\n- **Future Compatibility:** Supports managing A and AAAA records.\n- **Flexible Usage:** Run as a one-off command for use with cron/systemd/Kubernetes, or as a daemon with a configurable update interval.\n- **Simple Authentication:** Use either `CF_API_TOKEN` or `CF_API_KEY` with `CF_API_EMAIL` to securely connect to the Cloudflare API.\n\n## Installation\n\n### APT (Ubuntu, Debian)\n\n<details>\n  <summary>Click to expand</summary>\n\n1. If you don't have it already, install the `ca-certificates` package\n   ```shell\n   sudo apt install ca-certificates\n   ```\n\n2. Add gabe565 apt repository\n   ```\n   echo 'deb [trusted=yes] https://apt.gabe565.com /' | sudo tee /etc/apt/sources.list.d/gabe565.list\n   ```\n\n3. Update apt repositories\n   ```shell\n   sudo apt update\n   ```\n\n4. Install cloudflare-ddns\n   ```shell\n   sudo apt install cloudflare-ddns\n   ```\n</details>\n\n### RPM (CentOS, RHEL)\n\n<details>\n  <summary>Click to expand</summary>\n\n1. If you don't have it already, install the `ca-certificates` package\n   ```shell\n   sudo dnf install ca-certificates\n   ```\n\n2. Add gabe565 rpm repository to `/etc/yum.repos.d/gabe565.repo`\n   ```ini\n   [gabe565]\n   name=gabe565\n   baseurl=https://rpm.gabe565.com\n   enabled=1\n   gpgcheck=0\n   ```\n\n3. Install cloudflare-ddns\n   ```shell\n   sudo dnf install cloudflare-ddns\n   ```\n</details>\n\n### AUR (Arch Linux)\n\n<details>\n  <summary>Click to expand</summary>\n\nInstall [cloudflare-ddns-bin](https://aur.archlinux.org/packages/cloudflare-ddns-bin) with your [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) of choice.\n</details>\n\n### Homebrew (macOS, Linux)\n\n<details>\n  <summary>Click to expand</summary>\n\nInstall cloudflare-ddns from [gabe565/homebrew-tap](https://github.com/gabe565/homebrew-tap):\n```shell\nbrew install gabe565/tap/cloudflare-ddns\n```\n</details>\n\n### Docker\n\n<details>\n  <summary>Click to expand</summary>\n\nA Docker image is available at [`ghcr.io/gabe565/cloudflare-ddns`](https://ghcr.io/gabe565/cloudflare-ddns)\n</details>\n\n\n### Manual Installation\n\n<details>\n  <summary>Click to expand</summary>\n\nDownload and run the [latest release binary](https://github.com/gabe565/cloudflare-ddns/releases/latest) for your system and architecture.\n</details>\n\n## Usage\nTo authenticate to the Cloudflare API, set either `CF_API_TOKEN` or `CF_API_KEY` and `CF_API_EMAIL`.\n\n### One-Off Mode\nRuns once, then exits. Useful for crontab, systemd timers, or Kubernetes CronJobs.\n\n#### Local\n```shell\nexport CF_API_TOKEN=token\ncloudflare-ddns example.com\n```\n\n#### Docker\n```shell\ndocker run --rm -it \\\n  -e CF_API_TOKEN=token \\\n  -e DDNS_DOMAINS=example.com \\\n  ghcr.io/gabe565/cloudflare-ddns \\\n```\n\n### Daemon Mode\nRuns continuously, updating the DNS record every specified interval.\n\n#### Local\n```shell\nexport CF_API_TOKEN=token\ncloudflare-ddns example.com --interval=10m\n```\n\n#### Docker\n```shell\ndocker run --rm -d --restart=always \\\n  -e CF_API_TOKEN=token \\\n  -e DDNS_DOMAINS=example.com \\\n  -e DDNS_INTERVAL=10m \\\n  ghcr.io/gabe565/cloudflare-ddns\n```\n\n### Full Reference\n- [Command line usage](docs/cloudflare-ddns.md)\n- [Environment variables](docs/cloudflare-ddns_envs.md)\n- [Public IP Sources](docs/cloudflare-ddns_sources.md)\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

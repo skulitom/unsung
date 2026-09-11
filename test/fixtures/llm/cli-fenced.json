@@ -1,0 +1,13 @@
+{
+  "name": "cli-fenced",
+  "kind": "cli",
+  "description": "No structured_output: the verdict is in .result, after prose and inside a ```json fence.",
+  "stdout": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"duration_ms\":41250,\"num_turns\":1,\"result\":\"Here is my review.\\n\\n```json\\n{\\n  \\\"category\\\": \\\"G\\\",\\n  \\\"categoryConfidence\\\": 0.85,\\n  \\\"scores\\\": {\\n    \\\"purpose\\\": 3,\\n    \\\"craft\\\": 3,\\n    \\\"verification\\\": 3,\\n    \\\"honesty\\\": 3,\\n    \\\"originality\\\": 2\\n  },\\n  \\\"claims\\\": [\\n    {\\n      \\\"text\\\": \\\"Predicts tides offline from harmonic constants\\\",\\n      \\\"path\\\": \\\"README.md\\\",\\n      \\\"quote\\\": \\\"Offline tide predictions for any port with published harmonic constants.\\\",\\n      \\\"supports\\\": \\\"purpose\\\"\\n    },\\n    {\\n      \\\"text\\\": \\\"The README states its limits\\\",\\n      \\\"path\\\": \\\"README.md\\\",\\n      \\\"quote\\\": \\\"It does not model storm surge.\\\",\\n      \\\"supports\\\": \\\"honesty\\\"\\n    }\\n  ],\\n  \\\"flags\\\": [],\\n  \\\"pitch\\\": \\\"Offline tide predictions from harmonic constants, checked against a known port.\\\",\\n  \\\"audience\\\": \\\"Sailors and coastal walkers\\\",\\n  \\\"summary\\\": \\\"A small, tested Rust CLI that does one job well.\\\",\\n  \\\"injectionSeen\\\": false\\n}\\n```\\n\",\"stop_reason\":\"end_turn\",\"session_id\":\"00000000-0000-4000-8000-000000000000\",\"total_cost_usd\":0.1123,\"usage\":{\"input_tokens\":9800,\"cache_creation_input_tokens\":2400,\"cache_read_input_tokens\":0,\"output_tokens\":2100},\"modelUsage\":{\"claude-opus-5\":{\"inputTokens\":9800,\"outputTokens\":2100,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":2400,\"costUSD\":0.1123}},\"api_error_status\":null,\"permission_denials\":[]}",
+  "expect": {
+    "status": "ok",
+    "kept": 2,
+    "dropped": 0,
+    "points": 0,
+    "lane": null
+  }
+}

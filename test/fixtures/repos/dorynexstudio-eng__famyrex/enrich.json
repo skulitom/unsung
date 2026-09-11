@@ -1,0 +1,309 @@
+{
+  "nameWithOwner": "dorynexstudio-eng/famyrex",
+  "description": "Famyrex — Inteligencia que protege a tu familia. Aplicación Android de seguridad y bienestar familiar, diseñada para ayudar a las familias a comprender y gestionar el uso digital de sus dispositivos de forma segura, transparente y responsable.",
+  "homepageUrl": null,
+  "createdAt": "2026-09-04T22:29:13Z",
+  "pushedAt": "2026-09-11T11:32:23Z",
+  "diskUsage": 1037,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Kotlin"
+  },
+  "languages": {
+    "totalSize": 855639,
+    "edges": [
+      {
+        "size": 823722,
+        "node": {
+          "name": "Kotlin"
+        }
+      },
+      {
+        "size": 31917,
+        "node": {
+          "name": "TypeScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "dorynexstudio-eng",
+    "__typename": "User",
+    "createdAt": "2026-09-04T22:27:40Z",
+    "repositories": {
+      "totalCount": 1
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 861,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T11:32:23Z",
+            "messageHeadline": "Make extra-time remote command replay-safe",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:32:06Z",
+            "messageHeadline": "Make extra-time commands crash-safe and idempotent",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:31:55Z",
+            "messageHeadline": "Harden command replay ledger durability",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:26:45Z",
+            "messageHeadline": "fix: serialize parental policy revision allocation",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:16:36Z",
+            "messageHeadline": "fix: fail closed when app approval store is unavailable",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:16:17Z",
+            "messageHeadline": "fix: fail closed when app approval store is unavailable",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:08:59Z",
+            "messageHeadline": "fix: report missing usage access in parental protection health",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T11:02:42Z",
+            "messageHeadline": "Fix parental screen-time accounting to exclude Famyrex itself",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:56:20Z",
+            "messageHeadline": "perf: limit periodic parental policy rechecks",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:56:03Z",
+            "messageHeadline": "fix: continuously re-evaluate foreground parental policy",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:50:12Z",
+            "messageHeadline": "Detect disabled parental accessibility enforcement in protection health",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:42:15Z",
+            "messageHeadline": "Fix cross-midnight night alert interval filtering",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:20:13Z",
+            "messageHeadline": "Fix cross-midnight night usage alert window",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:15:48Z",
+            "messageHeadline": "Test wellbeing trend data completeness",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:15:36Z",
+            "messageHeadline": "Harden wellbeing trend against incomplete and missing days",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:14:29Z",
+            "messageHeadline": "Test complete-period report trends",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:14:18Z",
+            "messageHeadline": "Prevent incomplete-period report trends",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:13:17Z",
+            "messageHeadline": "Cover partial-day report trend behavior",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T10:13:07Z",
+            "messageHeadline": "Avoid misleading daily usage trends",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:52:38Z",
+            "messageHeadline": "Stabilize periodic usage scheduling",
+            "author": {
+              "user": {
+                "login": "dorynexstudio-eng"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "app",
+        "type": "tree"
+      },
+      {
+        "name": "build.gradle.kts",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "firebase.json",
+        "type": "blob"
+      },
+      {
+        "name": "firebase",
+        "type": "tree"
+      },
+      {
+        "name": "gradle.properties",
+        "type": "blob"
+      },
+      {
+        "name": "gradle",
+        "type": "tree"
+      },
+      {
+        "name": "settings.gradle.kts",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "android.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 5133,
+    "text": "# Famyrex\n\nAplicación Android de protección y bienestar familiar, orientada a ayudar a las familias a comprender y gestionar el uso digital de sus dispositivos de forma segura, transparente y responsable.\n\n## Principios del producto\n\n- Protección visible y proporcional.\n- Privacidad por defecto y procesamiento local siempre que sea posible.\n- **⚪ Datos insuficientes** es distinto de “todo bien”.\n- Las señales no se presentan como diagnósticos, culpabilidad ni intenciones.\n- La supervisión no debe convertirse en vigilancia oculta.\n- El menor no se presupone víctima ni responsable: las señales se interpretan con contexto.\n\n## Funciones implementadas\n\n### 1.0–1.4 — Protección familiar\n\n- Dashboard de protección.\n- Perfil de adulto y perfil protegido.\n- Vinculación familiar local con código temporal de 6 dígitos.\n- Control de tiempo de pantalla, horarios y restricciones.\n- Alertas con ciclo de vida revisable.\n- UsageStats y trabajos periódicos con WorkManager.\n- Localización y geozonas mediante APIs oficiales.\n- Diagnóstico local de estado de protección.\n- Recuperación segura: Famyrex, Ajustes de Android y launcher no quedan atrapados por un bloqueo.\n\n### 1.5 — Seguridad web\n\n- Motor local de listas permitidas/bloqueadas por dominio.\n- Reglas de bloqueo con límites de dominio correctos.\n- WebView endurecido: JavaScript y acceso a archivos desactivados por defecto, sin ventanas múltiples ni contenido mixto.\n- Safe Browsing cuando está disponible.\n- Navegación no web tratada como advertencia.\n- No intercepta el navegador externo ni mensajes de otras aplicaciones.\n\n### 1.6 — Inteligencia familiar explicable\n\n- Tendencias de uso.\n- Detección conservadora de anomalías.\n- Evidencia estructurada para cada explicación.\n- Priorización de datos insuficientes y señales de riesgo.\n- Lenguaje neutral que no asigna intenciones ni culpabilidad.\n- Recomendaciones vinculadas a señales reales y a su ciclo de vida.\n\n### 1.7 — Asistente familiar local\n\n- Consultas sobre uso, alertas, tendencias y bienestar.\n- Respuestas basadas en datos disponibles localmente.\n- Sin lectura secreta de conversaciones privadas.\n\n### 1.8 — Informes\n\n- Informes diario, semanal y mensual.\n- Uso total y promedio.\n- Día de mayor uso y aplicaciones con mayor consumo.\n- Comparación con periodos anteriores.\n- Recuento de alertas.\n- Narrativa automática explicable.\n- Corrección para alertas almacenadas con fecha y hora.\n\n### 2.0 — Producto final en preparación\n\n- Target Android 16 / API 36.\n- Política de privacidad visible dentro de la aplicación.\n- Política de privacidad versionada en `docs/PRIVACY_POLICY.md`.\n- Checklist de publicación y Data safety en `docs/PLAY_STORE_CHECKLIST.md`.\n- Revisión final de permisos, UX, rendimiento, compatibilidad y publicación pendiente antes del lanzamiento.\n\n### 2.1 — Arquitectura familiar conectada en preparación\n\n- Google Sign-In para adultos mediante Firebase Authentication.\n- Más de un adulto por familia, cada uno con su propia identidad.\n- **Identidad de miembro separada de identidad de dispositivo.**\n- La cuenta Google del menor queda contemplada como identidad familiar de primera clase para permitir una integración más profunda con el ecosistema Android/Google cuando las APIs y políticas aplicables lo permitan.\n- La cuenta Google no se utiliza como sustituto de los mecanismos técnicos de control de Android: los permisos y capacidades reales dependen de las APIs y autorizaciones disponibles en cada versión/dispositivo.\n- La identidad técnica de Firebase puede ser anónima durante el emparejamiento y posteriormente vincularse al dispositivo/membresía sin convertirse en la identidad de la persona.\n- Firestore preparado para familias, miembros, dispositivos, invitaciones y alertas cifradas.\n- Cloud Functions 2nd gen para emparejamiento seguro.\n- App Check / Play Integrity preparado para reducir abuso de los endpoints de emparejamiento.\n- FCM preparado para avisos sin transportar contenido sensible.\n- Modelo local preparado para políticas de aplicaciones: bloqueo/permiso, límites, aprobación y sincronización de políticas.\n- Modelo local preparado para acciones remotas: bloqueo/desbloqueo, tiempo adicional, límites, horarios, aplicaciones, ubicación y política web.\n\nLa conexión al proyecto Firebase real y el `google-services.json` siguen siendo el punto externo pendiente de activar la capa conectada.\n\n## Privacidad\n\nLa aplicación mantiene el análisis y la generación de señales en el dispositivo siempre que sea posible. La arquitectura online en preparación solo transportará los datos funcionales estrictamente necesarios para sincronizar la familia y entregar alertas estructuradas; las alertas sensibles deberán cifrarse antes de salir del dispositivo infantil.\n\nLa política completa está en `docs/PRIVACY_POLICY.md`.\n\n## Desarrollo y validación\n\nEl CI ejecuta tests unitarios, validación de Cloud Functions y compilación del APK debug/release. La versión de producción no se considera terminada hasta completar la revisión final y las pruebas en dispositivo físico.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

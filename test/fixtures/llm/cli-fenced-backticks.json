@@ -1,0 +1,13 @@
+{
+  "name": "cli-fenced-backticks",
+  "kind": "cli",
+  "description": "The verdict in a ```json fence whose strings contain ``` (a quoted ```sh install block and a summary that mentions fences). The fence must end at the closing ``` on its own line, not at the first ``` inside a string, or the parser returns a nested object.",
+  "stdout": "{\"duration_api_ms\":40050,\"stop_reason\":\"end_turn\",\"total_cost_usd\":0.1123,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\"},\"modelUsage\":{\"claude-opus-5\":{\"inputTokens\":9800,\"outputTokens\":2100,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":2400,\"webSearchRequests\":0,\"costUSD\":0.1123,\"contextWindow\":1000000,\"maxOutputTokens\":64000,\"canonicalModel\":\"claude-opus-5\",\"provider\":\"firstParty\",\"costBasis\":\"list\"}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"is_error\":false,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":null,\"result\":\"```json\\n{\\n  \\\"category\\\": \\\"G\\\",\\n  \\\"categoryConfidence\\\": 0.8,\\n  \\\"scores\\\": {\\n    \\\"purpose\\\": 3,\\n    \\\"craft\\\": 3,\\n    \\\"verification\\\": 3,\\n    \\\"honesty\\\": 4,\\n    \\\"originality\\\": 3\\n  },\\n  \\\"claims\\\": [\\n    {\\n      \\\"text\\\": \\\"Installs with cargo and predicts from the command line\\\",\\n      \\\"path\\\": \\\"README.md\\\",\\n      \\\"quote\\\": \\\"```sh\\\\ncargo install tidewatch\\\\ntidewatch predict --port brest --days 3\\\\n```\\\",\\n      \\\"supports\\\": \\\"purpose\\\"\\n    },\\n    {\\n      \\\"text\\\": \\\"The README states its limits\\\",\\n      \\\"path\\\": \\\"README.md\\\",\\n      \\\"quote\\\": \\\"It does not model storm surge.\\\",\\n      \\\"supports\\\": \\\"honesty\\\"\\n    }\\n  ],\\n  \\\"flags\\\": [],\\n  \\\"pitch\\\": \\\"Offline tide predictions from harmonic constants, checked against a known port.\\\",\\n  \\\"audience\\\": \\\"Sailors and coastal walkers\\\",\\n  \\\"summary\\\": \\\"Uses ``` fences for its install and test commands; a small, tested Rust CLI that does one job well.\\\",\\n  \\\"injectionSeen\\\": false\\n}\\n```\",\"type\":\"result\",\"duration_ms\":41250,\"queued_turn_count\":0}",
+  "expect": {
+    "status": "ok",
+    "kept": 2,
+    "dropped": 0,
+    "points": 1,
+    "lane": null
+  }
+}

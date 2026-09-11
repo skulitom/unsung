@@ -1,0 +1,433 @@
+{
+  "id": "R_kgDOUSmBoQ",
+  "nameWithOwner": "jonny981/obversa",
+  "description": "Model how your team really works. Durable agent workflows, reviews that send work back, no database needed.",
+  "homepageUrl": "https://obversa.ai",
+  "createdAt": "2026-09-08T17:01:39Z",
+  "pushedAt": "2026-09-11T10:51:12Z",
+  "diskUsage": 6743,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 3763424,
+    "edges": [
+      {
+        "size": 2555476,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 1147117,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 50906,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 9925,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "agents"
+        }
+      },
+      {
+        "topic": {
+          "name": "durable-execution"
+        }
+      },
+      {
+        "topic": {
+          "name": "multi-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "orchestration"
+        }
+      },
+      {
+        "topic": {
+          "name": "typescript"
+        }
+      },
+      {
+        "topic": {
+          "name": "workflow"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "jonny981",
+    "__typename": "User",
+    "createdAt": "2014-12-27T20:32:12Z",
+    "repositories": {
+      "totalCount": 7
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 494,
+        "nodes": [
+          {
+            "committedDate": "2026-09-11T09:18:34Z",
+            "messageHeadline": "fix(process): align bounded execution contracts",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T09:14:14Z",
+            "messageHeadline": "fix(engine): retain surviving processes on output limits",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:21:53Z",
+            "messageHeadline": "fix(process): let exited children finish bounded drain",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T08:15:11Z",
+            "messageHeadline": "test(process): reap survivor fixture",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:49:43Z",
+            "messageHeadline": "test(engine-codex): make timeout propagation deterministic",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T07:41:46Z",
+            "messageHeadline": "fix(process): bound pipe drain and parent cleanup",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T03:49:47Z",
+            "messageHeadline": "fix(process): classify timeout at child exit",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T02:50:56Z",
+            "messageHeadline": "test(engine-codex): order timeout signal fixture",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T02:19:33Z",
+            "messageHeadline": "test(engine-codex): order null-exit timeout fixture",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T01:44:17Z",
+            "messageHeadline": "fix(process): preserve timeout after late child close",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T01:10:25Z",
+            "messageHeadline": "fix(engine-codex): include setup in timeout accounting",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:47:19Z",
+            "messageHeadline": "test(packages): pin runtime process build outputs",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:39:53Z",
+            "messageHeadline": "test(runtime): follow bounded process runner in lease fixtures",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:31:00Z",
+            "messageHeadline": "fix(engine-codex): classify late null exits as timeouts",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:25:32Z",
+            "messageHeadline": "fix(process): settle teardown failures through the wrapper",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:17:52Z",
+            "messageHeadline": "fix(boundaries): register bounded process package",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:09:40Z",
+            "messageHeadline": "feat(graph): integrate D28 graph form",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-11T00:08:18Z",
+            "messageHeadline": "feat(process): centralize bounded child execution",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:52:10Z",
+            "messageHeadline": "chore(stage): take the team stage and the first pages from main",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T23:38:05Z",
+            "messageHeadline": "chore(stage): take the team communication stage from main",
+            "author": {
+              "user": {
+                "login": "jonny981"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".changeset",
+        "type": "tree"
+      },
+      {
+        "name": ".cmux",
+        "type": "tree"
+      },
+      {
+        "name": ".dependency-cruiser-known-violations.json",
+        "type": "blob"
+      },
+      {
+        "name": ".dependency-cruiser.cjs",
+        "type": "blob"
+      },
+      {
+        "name": ".editorconfig",
+        "type": "blob"
+      },
+      {
+        "name": ".githooks",
+        "type": "tree"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "blob"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "hosts",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "packages",
+        "type": "tree"
+      },
+      {
+        "name": "plugins",
+        "type": "tree"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "test-support",
+        "type": "tree"
+      },
+      {
+        "name": "tsconfig.base.json",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      },
+      {
+        "name": "release.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 7755,
+    "text": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/logo-dark.svg\">\n    <img src=\"docs/public/logo-light.svg\" alt=\"Obversa\" width=\"280\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <strong>Model real teamwork.</strong>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"license: MIT\">\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22.12-3c873a\" alt=\"node >=22.12\">\n  <img src=\"https://img.shields.io/badge/TypeScript-strict-3178c6\" alt=\"TypeScript strict\">\n</p>\n\nAgent frameworks give you one clever session. When it dies, it starts over.\nWorkflow engines give you durable steps and a server to run them on. Neither\ngives you a team: named roles, a review that returns work to whoever owns it, a\nvote when one opinion is not enough, and a person to answer to.\n\nThat is the layer Obversa owns. You describe the work the way you would describe\nit to people, and the runtime runs it one bounded engine call at a time.\n\nEvery step appends events to a file on disk, with its artifacts beside them.\nThat record is the whole story: no server, no database.\n\n`@obversa/runner` supervises a run in its own worker. After a crash it starts\na fresh worker that reads the record and carries on. Steps that finished are\nnever repeated. A step that was mid-flight when the worker died runs again\nonly if its binding declares it safe to retry; otherwise the run pauses and\nasks a person to reconcile it before it continues, so uncertain work is never\nrepeated silently. That is a separate layer with its own call, not something\na plain `run()` does by itself, and\n[the runner's page](https://docs.obversa.ai/packages/runner) has it.\n\n```bash\nnpm install @obversa/runtime   # Node >= 22.12\n```\n\n## A feature, as one file\n\nFive named stages. The review is a panel of three, and the panel names the\nstage that must fix the work, so a failed review goes back to the stage that\nowns it rather than starting the run again.\n\n```ts\nimport { fnJob, pipeline, reviewPanel, run, type Outcome } from '@obversa/runtime';\n```\n\n```ts\nconst review = reviewPanel({\n  label: 'review',\n  reviewers: [\n    { name: 'correctness', job: checks.correctness },\n    { name: 'safety', job: checks.safety },\n    { name: 'scope', job: checks.scope },\n  ],\n  pass: 2, // two of three agree and the step passes\n  target: 'implement', // a failing panel sends the work back here\n});\n\nexport const featureDelivery = pipeline(\n  'feature-delivery',\n  [\n    { name: 'analyse', job: analyse },\n    { name: 'implement', job: implement },\n    { name: 'test', job: testStage },\n    { name: 'review', job: review },\n    { name: 'approve', job: approve },\n  ],\n  { maxKickbacks: 2 },\n);\n```\n\n\nRun the whole thing, offline and without a model:\n\n```bash\npnpm example:feature-team\n```\n\n## Engines\n\nAn engine binding names the adapter, the provider, the model family and the\nmodel. A review seat can be required to differ from the writer, so the model\nthat wrote the work is not the model that grades it.\n\n| package | drives | needs |\n| --- | --- | --- |\n| `@obversa/engine-claude-cli` | the Claude CLI, one process per attempt | Claude CLI, host auth |\n| `@obversa/engine-codex` | the Codex CLI | Codex CLI, host auth |\n| `@obversa/engine-grok-cli` | the Grok CLI | Grok CLI 1.0.5 |\n| `@obversa/engine-opencode-cli` | the OpenCode CLI | OpenCode CLI 1.18.23 |\n| `@obversa/engine-anthropic-api` | the Anthropic API | an API key |\n| `@obversa/engine-agent-sdk` | the Claude Agent SDK | host Claude auth |\n\nWrite your own against the engine contract; it must pass the conformance kit.\n\n## Where to go\n\n- **Site:** [obversa.ai](https://obversa.ai)\n- **Docs:** [docs.obversa.ai](https://docs.obversa.ai)\n- **Your first run:** [get started](https://docs.obversa.ai/get-started/first-run)\n- **Contributing:** [AGENTS.md](AGENTS.md)\n\n## What is in this repository\n\nFourteen publishable packages. `packages/` holds the six that define the\nproduct: `@obversa/runtime` is the runtime and its public contract,\n`@obversa/runner` supervises stored runs, `@obversa/engine` and `@obversa/memory`\nare the engine and memory contracts, and `@obversa/surfacer` and\n`@obversa/source` are the local review surface. `plugins/` holds the eight\nadapters: the six engines above and two memories, one in process and one in\nprivate Git references. `hosts/` holds the terminal host, which is not\npublished.\n\n## Requirements\n\n- Node.js 22.12 or later\n- pnpm 10.15.1\n\n## Install the workspace\n\nFrom an Obversa checkout, run:\n\n```bash\ncorepack enable\npnpm install --frozen-lockfile\npnpm build\n```\n\nThe install activates this repository's commit hooks for the checkout. See\n[AGENTS.md](AGENTS.md) for what the hooks need before your first commit.\n\n## Run the offline workflow\n\nThe first example uses deterministic function jobs. It does not use a model or\nnetwork service.\n\n```bash\npnpm example:offline\n```\n\nThe full form, if the shortcut is not available:\n\n```bash\npnpm --filter @obversa/runtime exec tsx ../../examples/offline-review.ts\n```\n\nExpected result:\n\n```json\n{\n  \"status\": \"pass\",\n  \"attempts\": 2,\n  \"summary\": \"config is complete\"\n}\n```\n\n## Define an outside graph type\n\nThe graph contract lets a package define a pure graph type without importing\nruntime implementation modules. It validates a graph definition, reduces\nrecorded events, makes graph commands, and describes a stable plan for a host.\n\nRun the checked-in example from the workspace root:\n\n```bash\npnpm example:graph\n```\n\nThe example is `examples/custom-graph.ts`. It defines a graph type,\nchecks it with the public conformance kit, and prints its resolved plan bounds.\n\n`validateGraphDescription(unknown)` returns a frozen valid description or\nthrows `GraphValidationError`. The conformance kit checks repeatable graph\nbehavior from independent compiled instances.\n\nRead [the graph contract](docs/public/graphs/contract.mdx) and\n[plan admission](docs/public/graphs/plan-admission.mdx) before a host uses a\ngraph package.\n\n## Store events and artifacts\n\nThe runtime storage ports keep small JSON events separate from larger byte\ncontent. Run the offline local-storage example from the workspace root:\n\n```bash\npnpm example:storage\n```\n\nThe example writes one large synthetic artifact, appends one small reference,\nreopens the stores through a fresh binding, folds the same state, and runs the\nevent-store and artifact-store conformance kits.\n\nRead [Events and artifacts](docs/public/recording/events-and-artifacts.mdx) for\nthe storage contract, limits, secret handling, conflict behavior, and integrity\nchecks. This storage layer does not execute graph work or recover a stopped\nrun.\n\n## Run safe node attempts\n\nThe runtime adapters run one fresh CLI process for one bounded node attempt. The\noffline example uses scripted Grok and OpenCode executables, validates both\nstructured results, keeps missing usage as `unknown`, and removes its temporary\nfixture files.\n\n```bash\npnpm example:attempt\n```\n\nRead [Safe node attempts](docs/public/recording/node-attempts.mdx) for result\nparts, declared capabilities, workspace access, fallback, and cleanup limits.\n\n## Documentation\n\nThe public documentation is in [`docs/public`](docs/public). It includes the\nfirst-run guide, the memory contract, the guides to writing a workflow shape\nand to what a run records, the examples,\n[cmux host setup](docs/public/hosts/cmux.mdx), and\n[reviewing a diff in a host pane](docs/public/hosts/review.mdx).\n\nValidate the documentation from the workspace root:\n\n```bash\npnpm docs:validate\n```\n\n## Development\n\n```bash\npnpm typecheck\npnpm typecheck:ts6\npnpm test\npnpm build\n```\n\n## License\n\nObversa uses the [MIT License](LICENSE). Report security problems as described\nin the [security policy](SECURITY.md).\n"
+  },
+  "pkg": {
+    "byteSize": 10931,
+    "text": "{\n  \"name\": \"obversa\",\n  \"private\": true,\n  \"description\": \"Model how your team really works. Durable agent workflows, reviews that send work back, no database needed.\",\n  \"license\": \"MIT\",\n  \"author\": \"Jonny Neill <jonnyneill@hotmail.com>\",\n  \"type\": \"module\",\n  \"packageManager\": \"pnpm@10.15.1\",\n  \"engines\": {\n    \"node\": \">=22.12.0\"\n  },\n  \"pnpm\": {\n    \"executionEnv\": {\n      \"nodeVersion\": \"22.22.0\"\n    },\n    \"packageExtensions\": {\n      \"dependency-cruiser\": {\n        \"dependencies\": {\n          \"typescript\": \"npm:@typescript/typescript6@6.0.2\"\n        }\n      }\n    }\n  },\n  \"scripts\": {\n    \"prepare\": \"node scripts/configure-git-hooks.mjs\",\n    \"build\": \"pnpm --recursive --if-present run build\",\n    \"test\": \"pnpm --recursive --if-present run test\",\n    \"typecheck\": \"pnpm --recursive --if-present run typecheck\",\n    \"typecheck:ts6\": \"pnpm --recursive --if-present run typecheck:ts6\",\n    \"docs:validate\": \"pnpm test:docs-versions && node scripts/check-docs-versions.mjs && node --test scripts/check-durability-wording.spec.mjs && node scripts/check-durability-wording.mjs && node --test scripts/check-page-shape.spec.mjs && node scripts/check-page-shape.mjs && node --test scripts/check-repo-links.spec.mjs && node scripts/check-repo-links.mjs && node --test scripts/check-plugins-page.spec.mjs && node scripts/check-plugins-page.mjs && cd docs/public && mint validate\",\n    \"test:docs-versions\": \"node --test scripts/check-docs-versions.spec.mjs\",\n    \"example:offline\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/offline-review.ts\",\n    \"check:readme-examples\": \"node --test scripts/check-readme-examples.spec.mjs && node scripts/check-readme-examples.mjs\",\n    \"example:feature-team\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/feature-team.ts\",\n    \"example:feature\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/feature-delivery.ts\",\n    \"example:forge\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/forge-helper.ts\",\n    \"example:packages\": \"pnpm --filter @obversa/memory exec tsx ../../examples/memory.ts && pnpm --filter @obversa/memory-simple exec tsx ../../examples/memory-simple.ts && pnpm --filter @obversa/memory-git exec tsx ../../examples/memory-git.ts\",\n    \"example:graph\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/custom-graph.ts\",\n    \"example:pipeline\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/pipeline.ts\",\n    \"example:team-conversation\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/team-conversation.ts\",\n    \"test:team-exchange\": \"node --test scripts/check-team-exchange.spec.mjs\",\n    \"example:workspace\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/workspace.ts\",\n    \"example:runner\": \"pnpm --filter @obversa/runner exec tsx ../../examples/supervised-run.ts\",\n    \"example:review-loop\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/review-loop.ts\",\n    \"example:proof-bound-approval\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/proof-bound-approval.ts\",\n    \"example:proof-cache\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/proof-cache.ts\",\n    \"example:safe-change\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/safe-change.ts\",\n    \"example:callback-gate\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/callback-gate.ts\",\n    \"example:turn-taking\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/turn-taking.ts\",\n    \"example:storage\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/durable-storage.ts\",\n    \"example:attempt\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/safe-node-attempt.ts\",\n    \"example:described-team\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/described-team.ts\",\n    \"check:crash-resume\": \"pnpm --filter @obversa/runtime build && node scripts/check-crash-resume.mjs\",\n    \"check:agent-instructions\": \"node scripts/check-agent-instructions.mjs\",\n    \"check:workstream-branch\": \"node scripts/check-workstream-branch.mjs\",\n    \"check:proof-path-budgets\": \"node scripts/check-proof-path-budgets.mjs\",\n    \"check:boundaries\": \"node scripts/check-boundaries.mjs && node scripts/check-retired-paths.mjs && pnpm check:arrows\",\n    \"check:graph-purity\": \"node scripts/check-graph-purity.mjs packages/runtime/src/graph packages/runtime/src/graph-types\",\n    \"check:packages\": \"node scripts/check-packages.mjs\",\n    \"check:consumer\": \"node --test scripts/check-clean-consumer.spec.mjs && node scripts/check-clean-consumer.mjs\",\n    \"check:commit\": \"node scripts/check-commit-policy.mjs\",\n    \"check:publish\": \"node scripts/check-publish-allowlist.mjs --audit\",\n    \"test:commit-policy\": \"node --test scripts/check-commit-policy.spec.mjs\",\n    \"test:publish-guard\": \"node --test scripts/check-publish-allowlist.spec.mjs\",\n    \"test:boundaries\": \"node --test scripts/check-boundaries.spec.mjs && node --test scripts/check-retired-paths.spec.mjs && node --test scripts/check-spec-coverage.spec.mjs && node scripts/check-spec-coverage.mjs && pnpm test:arrows\",\n    \"test:agent-workflow\": \"node --test scripts/agent-workflow.spec.mjs\",\n    \"test:proof-path-budgets\": \"node --test scripts/check-proof-path-budgets.spec.mjs\",\n    \"test:graph-purity\": \"node --test scripts/check-graph-purity.spec.mjs\",\n    \"stage:claim\": \"node scripts/stage-merge.mjs claim\",\n    \"stage:finish\": \"node scripts/stage-merge.mjs finish\",\n    \"stage:release\": \"node scripts/stage-merge.mjs release\",\n    \"verify:d1\": \"pnpm check:agent-instructions && pnpm build && pnpm check:lint && pnpm test:lint && pnpm test:skill-install && pnpm check:boundaries && pnpm test:boundaries && pnpm check:publish && pnpm test:publish-guard && pnpm test:agent-workflow && pnpm test:commit-policy && pnpm typecheck && pnpm typecheck:ts6 && pnpm test && pnpm check:packages && pnpm check:readme-examples && pnpm example:feature-team && pnpm example:described-team && pnpm docs:validate && pnpm example:packages && pnpm example:offline && pnpm example:feature && pnpm example:forge && pnpm check:consumer\",\n    \"verify:d2\": \"pnpm verify:d1 && pnpm test:graph-purity && pnpm check:graph-purity && pnpm example:graph\",\n    \"verify:d3\": \"pnpm verify:d2 && pnpm example:storage\",\n    \"verify:d4\": \"pnpm verify:d3 && pnpm example:attempt\",\n    \"verify:d5\": \"pnpm verify:d4 && pnpm --filter @obversa/runtime exec vitest run tests/graph-executor.spec.ts && pnpm example:turn-taking\",\n    \"verify:d6\": \"pnpm verify:d5 && pnpm --filter @obversa/runtime exec vitest run tests/graph-types-dag.spec.ts && pnpm example:pipeline\",\n    \"verify:d7\": \"pnpm verify:d6 && pnpm --filter @obversa/runtime exec vitest run tests/graph-types-loop.spec.ts tests/callback.spec.ts && pnpm example:review-loop && pnpm example:callback-gate\",\n    \"verify:d10\": \"pnpm verify:d7 && pnpm --filter @obversa/runtime exec vitest run tests/local-event-store.spec.ts tests/event-store-conformance.spec.ts tests/graph-executor.spec.ts tests/graph-types-dag.spec.ts tests/graph-types-loop.spec.ts && pnpm check:crash-resume\",\n    \"verify:d12\": \"pnpm verify:d10 && pnpm --filter @obversa/runtime exec vitest run tests/workspace-git-provider.spec.ts tests/workspace-lease-crash.spec.ts tests/workspace-scope.spec.ts && pnpm example:workspace\",\n    \"verify:d13\": \"pnpm verify:d12 && pnpm --filter @obversa/runtime exec vitest run tests/acceptance.spec.ts tests/approval.spec.ts tests/callback-storage.spec.ts tests/proof-artifact.spec.ts tests/graph-types-loop.spec.ts tests/callback.spec.ts && pnpm example:proof-bound-approval\",\n    \"verify:d14\": \"pnpm verify:d13 && pnpm --filter @obversa/runner test && pnpm example:runner && pnpm check:tarballs\",\n    \"verify:d15\": \"pnpm verify:d14 && OBVERSA_TEST_REAL_PACK=1 pnpm test:tarballs && node scripts/changelog-gate.mjs\",\n    \"verify:d28\": \"pnpm verify:d15 && pnpm test:team-exchange && pnpm example:team-conversation\",\n    \"verify:d30\": \"pnpm verify:d23\",\n    \"verify:f11\": \"pnpm verify:d15\",\n    \"verify:f10\": \"pnpm verify:d15\",\n    \"verify:f17\": \"pnpm verify:d23\",\n    \"verify:f16\": \"pnpm verify:d15\",\n    \"verify:f14\": \"pnpm verify:d15\",\n    \"verify:f15\": \"pnpm verify:d15 && pnpm test:proof-path-budgets && pnpm check:proof-path-budgets\",\n    \"verify:d22\": \"pnpm verify:d15\",\n    \"verify:d34\": \"pnpm verify:d23\",\n    \"verify:d23\": \"pnpm verify:d15\",\n    \"verify:d43\": \"pnpm verify:d23\",\n    \"verify:f20\": \"pnpm verify:d23\",\n    \"verify:f25\": \"pnpm verify:d43\",\n    \"verify:f26\": \"pnpm verify:d43\",\n    \"verify:d44\": \"pnpm verify:d43\",\n    \"verify:d24\": \"pnpm verify:d23\",\n    \"changeset\": \"changeset\",\n    \"version-packages\": \"changeset version\",\n    \"check:arrows\": \"depcruise --config .dependency-cruiser.cjs --ignore-known .dependency-cruiser-known-violations.json packages/engine/src packages/engine/tests packages/memory/src packages/memory/tests packages/process/src packages/process/tests packages/runtime/src packages/runtime/tests packages/runner/src packages/runner/tests packages/source/src packages/source/bin packages/source/test packages/source/assets packages/surfacer/src packages/surfacer/test packages/surfacer/examples plugins/engine-agent-sdk/src plugins/engine-agent-sdk/tests plugins/engine-anthropic-api/src plugins/engine-anthropic-api/tests plugins/engine-claude-cli/src plugins/engine-claude-cli/tests plugins/engine-codex/src plugins/engine-codex/tests plugins/engine-grok-cli/src plugins/engine-grok-cli/tests plugins/engine-opencode-cli/src plugins/engine-opencode-cli/tests plugins/memory-git/src plugins/memory-git/tests plugins/memory-simple/src plugins/memory-simple/tests hosts/cmux/test scripts examples\",\n    \"test:arrows\": \"node --test scripts/check-arrows.spec.mjs\",\n    \"check:lint\": \"eslint .\",\n    \"test:lint\": \"node --test scripts/check-lint.spec.mjs\",\n    \"check:tarballs\": \"node scripts/check-tarballs.mjs\",\n    \"test:tarballs\": \"node --test scripts/check-tarballs.spec.mjs\",\n    \"check:surface-consumer\": \"node scripts/check-surface-consumer.mjs\",\n    \"check:skill-offline\": \"node scripts/check-skill-offline.mjs\",\n    \"test:skill-install\": \"node --test scripts/skill-install.spec.mjs\",\n    \"example:write-and-review\": \"pnpm --filter @obversa/runtime exec tsx ../../examples/write-and-review.ts\"\n  },\n  \"devDependencies\": {\n    \"@arethetypeswrong/cli\": \"0.18.5\",\n    \"@changesets/cli\": \"2.29.7\",\n    \"@obversa/engine-grok-cli\": \"workspace:^\",\n    \"@obversa/engine-opencode-cli\": \"workspace:^\",\n    \"@obversa/runner\": \"workspace:^\",\n    \"@obversa/runtime\": \"workspace:^\",\n    \"@types/node\": \"22.12.0\",\n    \"@typescript/typescript6\": \"6.0.2\",\n    \"dependency-cruiser\": \"18.2.0\",\n    \"eslint\": \"10.9.1\",\n    \"eslint-import-resolver-typescript\": \"4.4.5\",\n    \"eslint-plugin-import-x\": \"4.17.1\",\n    \"mint\": \"4.2.820\",\n    \"npm\": \"10.9.2\",\n    \"openapi-types\": \"12.1.3\",\n    \"pnpm\": \"10.15.1\",\n    \"publint\": \"0.3.24\",\n    \"react\": \"19.2.3\",\n    \"semver\": \"7.7.2\",\n    \"tsup\": \"8.5.1\",\n    \"tsx\": \"4.22.4\",\n    \"typescript\": \"7.0.2\",\n    \"vitest\": \"4.1.11\"\n  }\n}\n"
+  },
+  "agents": {
+    "byteSize": 5810
+  },
+  "claude": {
+    "byteSize": 9
+  }
+}

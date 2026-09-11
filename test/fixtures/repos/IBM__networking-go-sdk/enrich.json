@@ -1,0 +1,577 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkyNzY2NjUxOTI=",
+  "nameWithOwner": "IBM/networking-go-sdk",
+  "description": "IBM Cloud Networking Services Go SDK",
+  "homepageUrl": null,
+  "createdAt": "2020-07-02T14:17:03Z",
+  "pushedAt": "2026-09-10T16:05:02Z",
+  "diskUsage": 3528,
+  "stargazerCount": 12,
+  "forkCount": 19,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 11760102,
+    "edges": [
+      {
+        "size": 11759454,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 331,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 317,
+        "node": {
+          "name": "JavaScript"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 98
+  },
+  "tags": {
+    "totalCount": 99
+  },
+  "watchers": {
+    "totalCount": 5
+  },
+  "owner": {
+    "login": "IBM",
+    "__typename": "Organization",
+    "createdAt": "2012-02-21T22:13:01Z"
+  },
+  "defaultBranchRef": {
+    "name": "master",
+    "target": {
+      "history": {
+        "totalCount": 713,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T16:04:54Z",
+            "messageHeadline": "Merge pull request #330 from IBM/dependabot/npm_and_yarn/js-yaml-4.3.2",
+            "author": {
+              "user": {
+                "login": "sridhargk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:46:37Z",
+            "messageHeadline": "chore(deps-dev): bump js-yaml from 4.3.1 to 4.3.2",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:40:48Z",
+            "messageHeadline": "chore(release): 0.53.11 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:40:48Z",
+            "messageHeadline": "Update version 0.53.10 -> 0.53.11 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T15:30:45Z",
+            "messageHeadline": "Merge pull request #327 from IBM/renovate/github.com-ibm-go-sdk-core-…",
+            "author": {
+              "user": {
+                "login": "sridhargk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-09T16:04:40Z",
+            "messageHeadline": "fix(deps): update module github.com/ibm/go-sdk-core/v5 to v5.23.4",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T16:59:02Z",
+            "messageHeadline": "Merge pull request #323 from IBM/chore-prevention",
+            "author": {
+              "user": {
+                "login": "DevxNetworkServices"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-14T16:39:00Z",
+            "messageHeadline": "chore(actions): release prevention for chore commits",
+            "author": {
+              "user": {
+                "login": "sridhargk"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:35:17Z",
+            "messageHeadline": "chore(release): 0.53.10 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:35:16Z",
+            "messageHeadline": "Update version 0.53.9 -> 0.53.10 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:33:02Z",
+            "messageHeadline": "fix(deps): update module github.com/onsi/ginkgo to v2 (#321)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:15:47Z",
+            "messageHeadline": "chore(release): 0.53.9 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:15:47Z",
+            "messageHeadline": "Update version 0.53.8 -> 0.53.9 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:12:59Z",
+            "messageHeadline": "fix(deps): update module github.com/onsi/ginkgo to v2 (#320)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:12:12Z",
+            "messageHeadline": "chore(deps-dev): bump undici from 6.25.0 to 6.28.0 (#319)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T16:11:44Z",
+            "messageHeadline": "chore(deps-dev): bump js-yaml from 4.1.1 to 4.3.1 (#317)",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T15:16:47Z",
+            "messageHeadline": "chore(release): 0.53.8 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T15:16:47Z",
+            "messageHeadline": "Update version 0.53.7 -> 0.53.8 [skip ci]",
+            "author": {
+              "user": {
+                "login": "semantic-release-bot"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T15:09:20Z",
+            "messageHeadline": "fix(deps): update module github.com/onsi/ginkgo to v2 (#316)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-13T14:46:46Z",
+            "messageHeadline": "chore(deps): update semantic-release monorepo (#315)",
+            "author": {
+              "user": {
+                "login": "renovate[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".bumpversion.cfg",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yml",
+        "type": "blob"
+      },
+      {
+        "name": ".releaserc",
+        "type": "blob"
+      },
+      {
+        "name": ".secrets.baseline",
+        "type": "blob"
+      },
+      {
+        "name": ".travis.yml.deprecated",
+        "type": "blob"
+      },
+      {
+        "name": ".whitesource",
+        "type": "blob"
+      },
+      {
+        "name": "CHANGELOG.md",
+        "type": "blob"
+      },
+      {
+        "name": "CODE_OF_CONDUCT.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "DEPRECATION-NOTICE.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "alertsv1",
+        "type": "tree"
+      },
+      {
+        "name": "authenticatedoriginpullapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "botanalyticsv1",
+        "type": "tree"
+      },
+      {
+        "name": "botmanagementv1",
+        "type": "tree"
+      },
+      {
+        "name": "cachingapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "cis.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "cisipapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "cislog.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "common",
+        "type": "tree"
+      },
+      {
+        "name": "custompagesv1",
+        "type": "tree"
+      },
+      {
+        "name": "directlink.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "directlink.env.properties",
+        "type": "blob"
+      },
+      {
+        "name": "directlinkproviderv2",
+        "type": "tree"
+      },
+      {
+        "name": "directlinkv1",
+        "type": "tree"
+      },
+      {
+        "name": "dns.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "dnsrecordbulkv1",
+        "type": "tree"
+      },
+      {
+        "name": "dnsrecordsv1",
+        "type": "tree"
+      },
+      {
+        "name": "dnssvcsv1",
+        "type": "tree"
+      },
+      {
+        "name": "dnszonesv1",
+        "type": "tree"
+      },
+      {
+        "name": "edgefunctionsapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "filtersv1",
+        "type": "tree"
+      },
+      {
+        "name": "firewallaccessrulesv1",
+        "type": "tree"
+      },
+      {
+        "name": "firewallapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "firewallrulesv1",
+        "type": "tree"
+      },
+      {
+        "name": "globalloadbalancereventsv1",
+        "type": "tree"
+      },
+      {
+        "name": "globalloadbalancermonitorv1",
+        "type": "tree"
+      },
+      {
+        "name": "globalloadbalancerpoolsv0",
+        "type": "tree"
+      },
+      {
+        "name": "globalloadbalancersv1",
+        "type": "tree"
+      },
+      {
+        "name": "globalloadbalancerv1",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "listsapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "logpushjobsapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "mtlsv1",
+        "type": "tree"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "blob"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pageruleapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "pdns.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "permittednetworksfordnszonesv1",
+        "type": "tree"
+      },
+      {
+        "name": "rangeapplicationsv1",
+        "type": "tree"
+      },
+      {
+        "name": "renovate.json",
+        "type": "blob"
+      },
+      {
+        "name": "resourcerecordsv1",
+        "type": "tree"
+      },
+      {
+        "name": "routingv1",
+        "type": "tree"
+      },
+      {
+        "name": "rulesetsv1",
+        "type": "tree"
+      },
+      {
+        "name": "securityeventsapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "sslcertificateapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "transit.env.enc",
+        "type": "blob"
+      },
+      {
+        "name": "transitgatewayapisv1",
+        "type": "tree"
+      },
+      {
+        "name": "useragentblockingrulesv1",
+        "type": "tree"
+      },
+      {
+        "name": "wafapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "wafrulegroupsapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "wafrulepackagesapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "wafrulesapiv1",
+        "type": "tree"
+      },
+      {
+        "name": "webhooksv1",
+        "type": "tree"
+      },
+      {
+        "name": "zonefirewallaccessrulesv1",
+        "type": "tree"
+      },
+      {
+        "name": "zonelockdownv1",
+        "type": "tree"
+      },
+      {
+        "name": "zoneratelimitsv1",
+        "type": "tree"
+      },
+      {
+        "name": "zonessettingsv1",
+        "type": "tree"
+      },
+      {
+        "name": "zonesv1",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build-release.yml"
+      },
+      {
+        "name": "codeql-analysis.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 11250,
+    "text": "[![Build & Release](https://github.com/IBM/networking-go-sdk/actions/workflows/build-release.yml/badge.svg)](https://github.com/IBM/networking-go-sdk/actions/workflows/build-release.yml)\n[![Release](https://img.shields.io/github/v/release/IBM/networking-go-sdk)](https://github.com/IBM/networking-go-sdk/releases/latest)\n![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/IBM/networking-go-sdk)\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)\n\n# IBM Cloud Networking Go SDK Version 0.53.11\n\nGo client library to interact with the various [IBM Cloud Networking Service APIs](https://cloud.ibm.com/apidocs?category=<networking>).\n\n## Table of Contents\n\n<!--\n  The TOC below is generated using the `markdown-toc` node package.\n\n      https://github.com/jonschlinkert/markdown-toc\n\n  You should regenerate the TOC after making changes to this file.\n\n      npx markdown-toc -i README.md\n  -->\n\n<!-- toc -->\n\n- [Overview](#overview)\n- [Prerequisites](#prerequisites)\n- [Installation](#installation)\n  - [`go get` command](#go-get-command)\n  - [Go modules](#go-modules)\n  - [`dep` dependency manager](#dep-dependency-manager)\n- [Using the SDK](#using-the-sdk)\n- [Questions](#questions)\n- [Issues](#issues)\n- [Open source @ IBM](#open-source--ibm)\n- [Contributing](#contributing)\n- [License](#license)\n\n<!-- tocstop -->\n\n## Overview\n\nThe IBM Cloud Networking Go SDK allows developers to programmatically interact with the following IBM Cloud services:\n\n| Service Name                                                                                                         | Package name                   |\n| -------------------------------------------------------------------------------------------------------------------- | ------------------------------ |\n| [Transit Gateway Service](https://cloud.ibm.com/docs/transit-gateway)                                                | transitgatewayapisv1           |\n| [Direct Link Service](https://cloud.ibm.com/apidocs/direct_link?code=go)                                             | directlinkv1                   |\n| [Direct Link Provider Service](https://cloud.ibm.com/apidocs/direct_link_provider_api?code=go)                       | directlinkproviderv2           |\n| [CIS: Cache](https://cloud.ibm.com/apidocs/cis?code=go#purge-all)                                                    | cachingapiv1                   |\n| [CIS: IP](https://cloud.ibm.com/apidocs/cis?code=go#list-of-all-ip-addresses-used-by-the-cis-proxy)                  | cisipapiv1                     |\n| [CIS: Custom Pages](https://cloud.ibm.com/apidocs/cis?code=go#list-all-custom-pages-for-a-given-instance)            | custompagesv1                  |\n| [CIS: DNS Records Bulk](https://cloud.ibm.com/apidocs/cis?code=go#export-zone-file)                                  | dnsrecordbulkv1                |\n| [CIS: DNS Records](https://cloud.ibm.com/apidocs/cis?code=go#export-zone-file)                                       | dnsrecordsv1                   |\n| [CIS: Firewall Access Rules](https://cloud.ibm.com/apidocs/cis?code=go#list-instance-level-firewall-access-rules)    | firewallaccessrulesv1          |\n| [CIS: Security Level Settings](https://cloud.ibm.com/apidocs/cis?code=go#get-security-level-setting)                 | firewallapiv1                  |\n| [CIS: GLB Events](https://cloud.ibm.com/apidocs/cis?code=go#list-all-load-balancer-events)                           | globalloadbalancereventsv1     |\n| [CIS: GLB Monitor](https://cloud.ibm.com/apidocs/cis?code=go#list-all-load-balancer-monitors)                        | globalloadbalancermonitorv1    |\n| [CIS: GLB Pools](https://cloud.ibm.com/apidocs/cis?code=go#list-all-pools)                                           | globalloadbalancerpoolsv0      |\n| [CIS: GLB Service](https://cloud.ibm.com/apidocs/cis?code=go#list-all-load-bala\n| [CIS: Page Rules](https://cloud.ibm.com/apidocs/cis?code=go#get-page-rule)                                           | pageruleapiv1                  |\n| [CIS: Range Application](https://cloud.ibm.com/apidocs/cis?code=go#list-range-applications)                          | rangeapplicationsv1            |\n| [CIS: Routing](https://cloud.ibm.com/apidocs/cis?code=go#get-routing-feature-smart-routing-setting)                  | routingv1                      |\n| [CIS: Rulesets]()\t\t| rulesetsv1\t\t|\n| [CIS: Security Events](https://cloud.ibm.com/apidocs/cis?code=go#logs-of-the-mitigations-performed-by-firewall-feat) | securityeventsapiv1            |\n| [CIS: SSL/TLS](https://cloud.ibm.com/apidocs/cis?code=go#list-all-certificates)                                      | sslcertificateapiv1            |\n| [CIS: User Agent Blocking Rules](https://cloud.ibm.com/apidocs/cis?code=go#list-all-user-agent-blocking-rules)       | useragentblockingrulesv1       |\n| [CIS: WAF Settings](https://cloud.ibm.com/apidocs/cis?code=go#get-waf-setting)                                       | wafapiv1                       |\n| [CIS: WAF Rule Groups](https://cloud.ibm.com/apidocs/cis?code=go#list-all-waf-rule-groups)                           | wafrulegroupsapiv1             |\n| [CIS: WAF Rule Packages](https://cloud.ibm.com/apidocs/cis?code=go#list-all-waf-rule-packages)                       | wafrulepackagesapiv1           |\n| [CIS: WAF Rules](https://cloud.ibm.com/apidocs/cis?code=go#list-all-waf-rules)                                       | wafrulesapiv1                  |\n| [CIS: Zone Firewall Access Rules](https://cloud.ibm.com/apidocs/cis?code=go#list-all-firewall-access-rules)          | zonefirewallaccessrulesv1      |\n| [CIS: Zone Lockdown](https://cloud.ibm.com/apidocs/cis?code=go#list-all-lockdown-rules)                              | zonelockdownv1                 |\n| [PDNS: Resource Records](https://cloud.ibm.com/apidocs/dns-svcs?code=go#list-resource-records) | ~resourcerecordsv1~ dnssvcsv1 |\n\n\n\n\n\n\n```\ngo get -u github.com/IBM/networking-go-sdk\n```\n```go\nimport (\n  \"github.com/IBM/networking-go-sdk/transitgatewayapisv1\"\n  \"github.com/IBM/networking-go-sdk/directlinkv1\"\n  \"github.com/IBM/networking-go-sdk/directlinkproviderv2\"\n  \"github.com/IBM/networking-go-sdk/cachingapiv1\"\n  \"github.com/IBM/networking-go-sdk/cisipapiv1\"\n  \"github.com/IBM/networking-go-sdk/custompagesv1\"\n  \"github.com/IBM/networking-go-sdk/dnsrecordbulkv1\"\n  \"github.com/IBM/networking-go-sdk/dnsrecordsv1\"\n  \"github.com/IBM/networking-go-sdk/firewallaccessrulesv1\"\n  \"github.com/IBM/networking-go-sdk/firewallapiv1\"\n  \"github.com/IBM/networking-go-sdk/globalloadbalancereventsv1\"\n  \"github.com/IBM/networking-go-sdk/globalloadbalancermonitorv1\"\n  \"github.com/IBM/networking-go-sdk/globalloadbalancerpoolsv0\"\n  \"github.com/IBM/networking-go-sdk/globalloadbalancerv1\"\n  \"github.com/IBM/networking-go-sdk/pageruleapiv1\"\n  \"github.com/IBM/networking-go-sdk/rangeapplicationsv1\"\n  \"github.com/IBM/networking-go-sdk/routingv1\"\n  \"github.com/IBM/networking-go-sdk/rulestsv1\"\n  \"github.com/IBM/networking-go-sdk/securityeventsapiv1\"\n  \"github.com/IBM/networking-go-sdk/sslcertificateapiv1\"\n  \"github.com/IBM/networking-go-sdk/useragentblockingrulesv1\"\n  \"github.com/IBM/networking-go-sdk/wafapiv1\"\n  \"github.com/IBM/networking-go-sdk/wafrulegroupsapiv1\"\n  \"github.com/IBM/networking-go-sdk/wafrulepackagesapiv1\"\n  \"github.com/IBM/networking-go-sdk/wafrulesapiv1\"\n  \"github.com/IBM/networking-go-sdk/zonefirewallaccessrulesv1\"\n  \"github.com/IBM/networking-go-sdk/zonelockdownv1\"\n  \"github.com/IBM/networking-go-sdk/zoneratelimitsv1\"\n  \"github.com/IBM/networking-go-sdk/zonessettingsv1\"\n  \"github.com/IBM/networking-go-sdk/zonesv1\"\n  \"github.com/IBM/networking-go-sdk/dnszonesv1\"\n  \"github.com/IBM/networking-go-sdk/resourcerecordsv1\"\n  \"github.com/IBM/networking-go-sdk/permittednetworksfordnszonesv1\"`\n  \"github.com/IBM/networking-go-sdk/globalloadbalancersv1\"\n  \"github.com/IBM/networking-go-sdk/dnssvcsv1\"\n)\n```\n```\n[[constraint]]\n  name = \"github.com/IBM/networking-go-sdk\"\n  version = \"0.53.11\"\n\n```"
+  },
+  "pkg": {
+    "byteSize": 600,
+    "text": "{\n  \"name\": \"semantic-release-dependencies\",\n  \"version\": \"0.0.0\",\n  \"description\": \"This package.json is being used to manage semantic-release and its dependencies\",\n  \"license\": \"Apache-2.0\",\n  \"devDependencies\": {\n    \"@semantic-release/changelog\": \"^7.0.0\",\n    \"@semantic-release/commit-analyzer\": \"^13.0.0\",\n    \"@semantic-release/exec\": \"^7.0.0\",\n    \"@semantic-release/git\": \"^11.0.0\",\n    \"@semantic-release/github\": \"^12.0.0\",\n    \"@semantic-release/release-notes-generator\": \"^14.0.1\",\n    \"semantic-release\": \"^25.0.3\"\n  },\n  \"scripts\": {\n    \"semantic-release\": \"semantic-release\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

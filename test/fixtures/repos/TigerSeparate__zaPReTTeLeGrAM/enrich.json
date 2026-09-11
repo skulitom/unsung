@@ -1,0 +1,210 @@
+{
+  "id": "R_kgDOUPpuWA",
+  "nameWithOwner": "TigerSeparate/zaPReTTeLeGrAM",
+  "description": "Обновлённая версия с поддержкой работы Telegram в текущих условиях. Стабильнее, надежнее, быстрее (стабильный релиз) 📌",
+  "homepageUrl": "https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/tag/1.9.9c",
+  "createdAt": "2026-09-05T21:58:22Z",
+  "pushedAt": "2026-09-05T21:58:58Z",
+  "diskUsage": 8377,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "hasDiscussionsEnabled": false,
+  "licenseInfo": {
+    "spdxId": "NOASSERTION"
+  },
+  "primaryLanguage": {
+    "name": "Batchfile"
+  },
+  "languages": {
+    "totalSize": 13457407,
+    "edges": [
+      {
+        "size": 13418301,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 39106,
+        "node": {
+          "name": "PowerShell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1,
+    "nodes": [
+      {
+        "tagName": "1.9.9c",
+        "publishedAt": "2026-09-05T21:58:58Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "TigerSeparate",
+    "__typename": "User",
+    "createdAt": "2026-07-22T04:31:08Z",
+    "repositories": {
+      "totalCount": 6
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "oid": "703239095b3690904d3b4977ffc69be016d4ce91",
+      "history": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "committedDate": "2026-09-05T21:58:42Z",
+            "messageHeadline": "build(assets): bump bundle",
+            "author": {
+              "user": {
+                "login": "TigerSeparate"
+              }
+            }
+          }
+        ]
+      },
+      "statusCheckRollup": null
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "LICENSE.txt",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "type": "blob"
+      },
+      {
+        "name": "bin",
+        "type": "tree"
+      },
+      {
+        "name": "general (ALT).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT10).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT11).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT12).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT2).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT3).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT4).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT5).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT6).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT7).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT8).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (ALT9).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (FAKE TLS AUTO ALT).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (FAKE TLS AUTO ALT2).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (FAKE TLS AUTO ALT3).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (FAKE TLS AUTO).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (SIMPLE FAKE ALT).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (SIMPLE FAKE ALT2).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general (SIMPLE FAKE).bat",
+        "type": "blob"
+      },
+      {
+        "name": "general.bat",
+        "type": "blob"
+      },
+      {
+        "name": "lists",
+        "type": "tree"
+      },
+      {
+        "name": "serivce.bat",
+        "type": "blob"
+      },
+      {
+        "name": "utils",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 20965,
+    "isTruncated": false,
+    "text": "[Releases](https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/tag/1.9.9c) | [Latest](https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/latest)\n\n# TigerSeparate/zaPReTTeLeGrAM\n\n**zaPReTTeLeGrAM** — инструмент для обхода блокировок Telegram и других ресурсов без использования VPN. Актуальная версия доступна в разделе [Releases](https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/latest).\n\n> [!CAUTION]\n>\n> ### Фейковые сборки\n>\n> Я не веду никаких других каналов, групп или страниц в Telegram или на других платформах. Любые сборки или информация, распространяемые вне данного репозитория `TigerSeparate/zaPReTTeLeGrAM` от моего имени, являются **фейковыми**.\n\n> [!WARNING]\n>\n> ### Реакция антивирусов на WinDivert\n>\n> Компонент **WinDivert** может вызывать срабатывание антивирусного ПО. WinDivert — это утилита для перехвата и фильтрации сетевого трафика, необходимая для корректной работы zaPReTTeLeGrAM. Он является аналогом `iptables` и `NFQUEUE` для Linux, но предназначен для Windows. Хотя WinDivert может использоваться как в легитимных, так и в вредоносных целях, сам по себе он не является вирусом. Драйвер `WinDivert64.sys` подписан для обеспечения загрузки в 64-битном ядре Windows.\n>\n> Некоторые антивирусы могут классифицировать файлы WinDivert как потенциально опасные или как инструменты для хакинга, что приводит к их удалению или помещению в карантин. Обнаружение часто сопровождается названиями вроде `WinDivert` или `Not-a-virus:RiskTool.Multi.WinDivert`.\n>\n> В случае проблем с антивирусом рекомендуется добавить папку с zaPReTTeLeGrAM в исключения или отключить детектирование потенциально нежелательных приложений (PUA). Например, в Kaspersky есть опция \"Обнаруживать легальные приложения, которые злоумышленники часто используют для нанесения вреда\". При корректной настройке исключений это допустимо. Однако, если вы не уверены в своих действиях, лучше отключить детектирование PUA.\n\n> [!IMPORTANT]\n>\n> Все бинарные файлы в папке [`bin`](./bin) были взяты из проектов zapret-win-bundle и [zapret/releases](https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/latest). Вы можете проверить их подлинность с помощью контрольных сумм SHA256, представленных в файле [`SHA256SUMS.txt`](./SHA256SUMS.txt). Всегда проверяйте загружаемые файлы.\n\n## ⚙️Руководство по использованию\n\n1.  **Включите Secure DNS:**\n    *   **Chrome:** В настройках перейдите в раздел \"Конфиденциальность и безопасность\" -> \"Безопасность\" -> \"Использовать безопасный DNS\". Выберите поставщика услуг DNS, отличного от вашего провайдера по умолчанию.\n    *   **Firefox:** В настройках перейдите в раздел \"Прив\n    *   **Windows 11:** Включите Secure DNS непосредственно в настройках операционной системы. Инструкция доступна по ссылке: [https://remontka.pro/dns-over-https-windows-11/](https://remontka.pro/dns-over-https-windows-11/). Это наиболее рекомендуемый способ для пользователей Windows 11.\n    *   **Keenetic Router:** Если вы используете роутер Keenetic, включите опцию \"Транзит запросов\" в настройках роутера. Отключение этой опции может вызвать проблемы с настройкой и использованием Secure DNS на вашем компьютере.\n\n2.  **Скачайте архив:** Загрузите архив (ZIP или RAR) со [страницы последнего релиза](https://github.com/TigerSeparate/zaPReTTeLeGrAM/releases/latest).\n\n3.  **Разблокируйте файл:** Щелкните правой кнопкой мыши по скачанному архиву, выберите \"Свойства\" и, если в нижней части окна есть опция \"Разблокировать\", поставьте соответствующую галочку. Если вы используете архиваторы 7-Zip или PeaZip, этот шаг может быть необязателен.\n\n\n5.  **Запустите:** Запустите один из `.bat` файлов для активации нужной стратегии обхода.\n\n\n*   **`general*.bat`** (например, `general.bat`, `general (ALT).bat`):\n\n*   **`service.bat`**:\n\n\n### После запуска скрипта `general*.bat` ничего не происходит\n\n*   После запуска стратегии, в системном трее (рядом с часами) должен появиться значок `winws.exe` (обход). Если этого не произошло, обратитесь к [issue #522](https://github.com/TigerSeparate/zaPReTTeLeGrAM/issues/522).\n\n\n*   Запустите `service.bat` и выберите пункт **`Update hosts file`**. Если ваш файл `hosts` устарел, вам будет предложено его обновить.\n\n\n> [!IMPORTANT]\n>\n*   Проверьте наличие ошибок в выводе `service.bat` -> `Run Diagnostics`.\n3.  Запустите `service.bat` и выберите **`Remove Services`**.\n4.  Запустите `service.bat` -> **`Run Diagnostics`**. Устраните возникшие ошибки, если они есть (в конце диагностики нажмите `Y` для продолжения).\n9.  Запустите различные `general*.bat` скрипты для тестирования стратегий. Если ресурс не работает, закройте программу (иконка замочка в трее) и попробуйте другую стратегию.\n10. Найдя рабочую стратегию, вы можете настроить её автозапуск через `service.bat` -> `Install Service`.\n*   В `service.bat` убедитесь, что **`Game Filter`** установлен в **`disabled`**, а **`IPSet Filter`** — в **`none`**. В противном случае могут возникнуть проблемы с доступом к нежелательным ресурсам.\n### WinDivert остается в службах после удаления через `service.bat`\n    ```cmd\n    driverquery | find \"Divert\"\n    ```\n    ```cmd\n    sc stop название_службы\n    sc delete название_службы\n    ```\n    *   В `service.bat` обновите `ipset` и включите **`Game Filter`**.\nФайлы с суффиксом `*-user.txt` будут автоматически созданы при первом запуске `zaPReTTeLeGrAM` или `service.bat`."
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

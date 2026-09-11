@@ -1,0 +1,381 @@
+{
+  "request": {
+    "path": "/repos/zaghaghi/toolog/commits?per_page=20"
+  },
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 11 Sep 2026 15:14:08 GMT",
+    "etag": "W/\"5113b2b1e4428bfe591f6c99957925c3fa39fe3038b4ceba6a0b3cfb3c7ae613\"",
+    "last-modified": "Sun, 06 Sep 2026 18:51:04 GMT",
+    "link": "<https://api.github.com/repositories/1357430874/commits?per_page=20&page=2>; rel=\"next\", <https://api.github.com/repositories/1357430874/commits?per_page=20&page=3>; rel=\"last\"",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4912",
+    "x-ratelimit-reset": "1789141681",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "88"
+  },
+  "body": [
+    {
+      "sha": "a8da25030982889eb28dc51b6673d8efdc5b0dcd",
+      "commit": {
+        "message": "The mockup was showing a real home directory\n\n`docs/design/timeline.html` pinned the detail pane's layout with the path it\nhappened to be looking at the day it was written, and that path had a username\nin it. Eight lines further down the same file already writes `/Users/…`, and\nevery other path in the repository is `/Users/x`, `/Users/me` or\n`/Users/someone` — the mockup was the one place a real one survived.\n\nThe screenshots beside it are checked optically before they are installed;\nnothing was checking the source. This is the only occurrence in the tree,\nbinaries included. `Cargo.toml`'s `authors` field stays: an author's name and\naddress are published with the crate on purpose, and are not a leak.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01BbHfervDXD6FrfTKuupqa6",
+        "author": {
+          "date": "2026-09-06T18:51:04Z"
+        },
+        "committer": {
+          "date": "2026-09-06T18:51:04Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "32a26191bb4010bca87056fb48227fd843dba91f",
+      "commit": {
+        "message": "The screenshots, retakeable by a script instead of an afternoon\n\nThe four images in the readme go stale on every release — the app bar prints\nits version into all of them — and the last set went out reading v1.1.0\nbecause it had been shot from a development build. Retaking them is an hour of\ndriving a WebView through the accessibility API and blurring a home directory\nout of the result, and the hour is spent rediscovering the same four things.\n\nSo the working version of that hour is in the repository. `bin/update.sh`\nlaunches the app, pauses capture, switches to light, shoots the timeline, the\nrisk review and the timeline under each of the two filters, restores the theme\nand capture, blurs every home directory, reads each image back to prove none\nsurvived, and installs them. Nothing is installed unless every image passes the\nread-back.\n\nThe four things, each written down beside what to do instead:\n\nVision's bounding box for a *substring* is not usable at 13px. It is honest\nabout it",
+        "author": {
+          "date": "2026-09-06T18:47:18Z"
+        },
+        "committer": {
+          "date": "2026-09-06T18:47:18Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "0b52133f0ccf7d6e9e6ad1c0abb3bb92da376184",
+      "commit": {
+        "message": "A readme about the program, not about how it got here\n\nThe top of the file had become a changelog. Thirty lines of blockquote said\nwhat v1.2 answered, then what v1.1 had changed, then which phase declined the\nupdate check and which one cut the Linux build — before the first sentence\nsaying what the program is. The limitations read the same way: every entry\ncarried the phase that discovered it. All of it is true and none of it is what\nsomeone arriving at the repository is trying to find out, and every word of it\nis already in docs/README.md, which is where a history belongs.\n\nSo the history goes and the claims stay. The loopback guarantee keeps its two\ntests, the two lanes keep the diagram and the tool_use_id join, and each\nlimitation keeps the ADR it rests on — it just no longer says when it was\ndecided. The one piece of the blockquote that was the program rather than its\nhistory is the local model, and it is now a subsection of How it works.\n14.1K to 10.6K, and the first thing on ",
+        "author": {
+          "date": "2026-09-06T18:26:42Z"
+        },
+        "committer": {
+          "date": "2026-09-06T18:26:42Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "356d2cb826e9b46160b20e7c1952e1ba2836331c",
+      "commit": {
+        "message": "Point the cask at v1.2.0\n\nThe checksum is the released artifact's, read from that release's SHA256SUMS —\na local build is not byte-identical, and publishing its checksum would hand\neverybody a cask that refuses to install.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01BwAXXG2B6pb8n4bXTMZX5m",
+        "author": {
+          "date": "2026-09-06T16:46:15Z"
+        },
+        "committer": {
+          "date": "2026-09-06T16:46:15Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "b1b403bfe246dcbf52068258274688800298b1ff",
+      "commit": {
+        "message": "Release v1.2.0\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01BwAXXG2B6pb8n4bXTMZX5m",
+        "author": {
+          "date": "2026-09-06T16:19:31Z"
+        },
+        "committer": {
+          "date": "2026-09-06T16:19:31Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "258e35b146ae66c50c92f95fc0ec27df73394fa9",
+      "commit": {
+        "message": "Put both verdicts where a reader is looking, and name the columns\n\nPhase 13 shipped a second opinion that vanished at the moment it was most\nwanted. Clicking a scored command in the risk view opened the detail pane, and\nthe verdict that sent the reader there was not in it. `@model-risk:>=4` returned\na list of commands with no visible reason for being in it. Reading that back\nraised the question the phase had not asked: the *rules* were no more visible\nthan the model. `@risk:high` narrowed the timeline to ten rows and left the\nreader to work out which rule had put each of them there.\n\nBoth verdicts are now columns in the timeline and blocks in the detail pane,\nand they are never the same column. A rule's severity is a word in the risk\npage's red and amber; a model's score is a digit in the second opinion's own\nhue. ADR-0013 says a reader must be able to tell at a glance which produced a\nnumber, and one shared column would be the fastest way to lose that. They also\nrarely both appear: th",
+        "author": {
+          "date": "2026-09-06T16:19:25Z"
+        },
+        "committer": {
+          "date": "2026-09-06T16:19:25Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "a7a966120a248fe2a2b56a60a8fa4fe7536df583",
+      "commit": {
+        "message": "Phase 13: ADR-0013, the documentation, and the numbers so far\n\nADR-0013 records the four decisions the phase rested on and, more usefully, the\ntwo rejections that would have been most tempting: letting the model raise a\nseverity — which would put a prompt injection's output into the numbers a\nreviewer trusts — and downloading the model behind a switch, which would mean\ndeleting the egress check ADR-0008 is enforced by.\n\nPRIVACY.md gains the paragraph task 13.11 asks for: the model is local, the\nprompt is never transmitted, and it reads `input_summary` — the redacted\nprojection every other view reads — so the analysis adds **no new place a\nsecret can go**. database.md documents `llm_verdict` as the fourth table\nrecomputation cannot recover, beside the dismissal, the deletion and the\nsighting. The README states the trade in its own words: 3.1 GB against a 166 MB\nstore, and a model that is wrong sometimes.\n\nThe phase file is filled in, including the parts that are not flattering. ",
+        "author": {
+          "date": "2026-09-06T12:11:22Z"
+        },
+        "committer": {
+          "date": "2026-09-06T12:11:22Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "4e8c31e8b8d43b9ff7111b2c8c9c15172d65fdd0",
+      "commit": {
+        "message": "Phase 13: a call arrives twice, and was being analysed twice\n\nADR-0009's central fact, costing something new. The transcript lane creates the\nrow and the OTLP lane completes it, so the live sink fires twice for one call,\nboth times with the same command — and the live path analysed it both times.\nThe primary key made the second write a REPLACE, so nothing was ever wrong;\nwhat it cost was 1.25 seconds of inference to overwrite an answer with itself,\non every call witnessed by both lanes.\n\n`observe` now claims the id first. In memory rather than a lookup in\n`llm_verdict`, because this runs on the ingestion thread and that thread has no\nread connection — giving it one to answer a question the backfill already\nanswers correctly would be the wrong trade. The store stays the authority, and\n`pending` remains what stops the backfill redoing anything.\n\nThe set is cleared rather than evicted when it fills. An LRU would be right if\nforgetting produced wrong data; it produces at most one repea",
+        "author": {
+          "date": "2026-09-06T12:07:04Z"
+        },
+        "committer": {
+          "date": "2026-09-06T12:07:04Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "2fe4e6c593b8c10ff71f31409737a38d23e194cd",
+      "commit": {
+        "message": "Phase 13: the bundle assertions, and the unsigned path that never worked\n\n`just verify-bundle` now reads the shipped binary rather than trusting the\nbuild's configuration, and both new checks pass on the real universal artifact:\n\n    == linked libraries (ADR-0008, task 13.4) ==\n        ok: no libcurl, no TLS library\n    == deployment target (task 13.18) ==\n        arm64  minos 11.0 (config says 11.0)\n        x86_64 minos 11.0 (config says 11.0)\n\nGetting there found a pre-existing bug the justfile's own comment denied. It\nsays an unset `APPLE_SIGNING_IDENTITY` produces an unsigned bundle that \"still\nbuilds\". It did not: `just` cannot conditionally export, so the variable\nreaches the bundler *present and empty*, and Tauri 2.11 reads that as \"sign\nwith the identity ``\" and fails with `: no identity found`. A machine without\nthe certificate got no bundle at all. `bundle` now unsets it when empty, and\nthe comment says why the indirection is load-bearing.\n\nThe universal build, which task 13.",
+        "author": {
+          "date": "2026-09-06T12:05:20Z"
+        },
+        "committer": {
+          "date": "2026-09-06T12:05:20Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "febde2f0e3070da8363fbefdf713702640ae2949",
+      "commit": {
+        "message": "Phase 13: the two filters, and the guarantee re-checked with llama.cpp in it\n\nThe egress test's own comment says the guarantee is only as good as what runs\ninside it, so the workload now runs Phase 13's reads too: the prompt rendered,\nthe GGUF header read on a file that is not a model, verdicts written and read\nback, and the timeline narrowed by them. It still opens no non-loopback socket\nwith llama.cpp linked into the test binary — which is the exit criterion, and\nthe half that matters, because a library that opened a socket on load would be\nseen by the census whether or not this test called it.\n\nOne check the manifest scan structurally cannot make: libcurl reaches the\nbinary through CMake, not through Cargo. Saying otherwise in `OUTBOUND_CLIENTS`\nwould be theatre, so it is named in a constant that says where it *is* checked,\nand a test asserts `just verify-bundle` still contains that check — because the\nthing guarding the release is a `grep` inside a shell recipe, and deleting th",
+        "author": {
+          "date": "2026-09-06T11:56:07Z"
+        },
+        "committer": {
+          "date": "2026-09-06T11:56:07Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "f938daae64cd6c8ac362e9c55c34a08de3e746ac",
+      "commit": {
+        "message": "Phase 13 (part 3): the window, and the section that is not the rules\n\nStatus → Model points at a `.gguf`, shows what the file turned out to be, and\nprints the `curl` line toolog will never run. It is honest about three\ndifferent kinds of nothing that look alike from a distance and lead to\ncompletely different next steps: no model configured, a path that is not a\nmodel, and a build with no inference compiled in.\n\nThe risk view gains one section, and its whole design is separation. Everything\nabove it is deterministic — a rule with an id, conditions anyone can read, a\nseverity that means the same thing every time. This is a 4.6B model's opinion.\nSo it sits on its own surface with its own border, it draws scores as digits on\nthe histogram's magnitude ramp rather than in the rules' red and amber, it uses\nnone of the four severity words, and it states the model and prompt that\nproduced it in words. A test asserts all of that, because \"a reader must be\nable to tell at a glance which numb",
+        "author": {
+          "date": "2026-09-06T11:54:25Z"
+        },
+        "committer": {
+          "date": "2026-09-06T11:54:25Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "17d6ba09781c41b68b47dcf944beeb46cc18f5e4",
+      "commit": {
+        "message": "Phase 13 (part 2): the examination, and the floor that moved to 11.0\n\nThe resident half. A model configured in `prefs.json` loads on its own thread —\nhashing 3.1 GB is 1.5 seconds and a menu-bar app must not take that long to\nappear — and two threads then work: a backfill oldest-first through the calls\nno rule matched, and a queue for calls as they arrive.\n\nThe backfill's queue is the store, not a `VecDeque`. Each batch asks which\ncalls this (model, prompt) pair has no verdict for, which makes it survive a\nrestart, unable to drift from what was recorded, and coordinated with the live\npath for free. The live path never blocks ingestion: a full queue drops the\ncall, because the backfill will reach it anyway.\n\n**The macOS floor moves 10.15 → 11.0**, and it is now written in four places\nthat have to agree. `.cargo/config.toml` and CI set both MACOSX_DEPLOYMENT_TARGET\nand CMAKE_OSX_DEPLOYMENT_TARGET — the first reaches rustc, the second reaches\nggml, and without it ggml compiles bel",
+        "author": {
+          "date": "2026-09-06T11:40:35Z"
+        },
+        "committer": {
+          "date": "2026-09-06T11:40:35Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "12d3bf9ace71d06a2f32538a3b75858c9560e22b",
+      "commit": {
+        "message": "Phase 13 (part 1): a model, a prompt, and somewhere to put a verdict\n\nThe storage and inference core, with the two risks the phase named measured\nbefore anything was built on them.\n\n**The universal build holds.** Task 13.19 called it the risk that could sink\nthe phase, and it does not: a cold llama.cpp build is 29.8s for aarch64 and\n23.5s for x86_64 on an M4 Pro, both link no libcurl, and `lipo` produces a\nuniversal binary. `MACOSX_DEPLOYMENT_TARGET` and `CMAKE_OSX_DEPLOYMENT_TARGET`\nboth go in a workspace `.cargo/config.toml`; `otool -l` confirms minos 11.0.\nAn `inference` feature exists as the reserved fallback and is on by default,\nbecause a feature CI never builds is a feature that rots.\n\n**The engine works on the real store**: 50 unmatched Bash commands, 0 schema\nfailures, 476 ms to load, 1,249 ms per call — a 3,618-call backfill in 75\nminutes. Two things the spike found and the code now depends on:\n\n`llama_sampler_sample` accepts the token into the chain itself. Calling\n`accept",
+        "author": {
+          "date": "2026-09-06T11:23:23Z"
+        },
+        "committer": {
+          "date": "2026-09-06T11:23:23Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "1b8462256a6a1df9caba76628e76ce4ac0f1b354",
+      "commit": {
+        "message": "Fix the cask Homebrew refuses to load, and the check that missed it\n\n`brew tap zaghaghi/tap` failed on the v1.1.0 cask: `depends_on macos:\n:catalina` is disabled — Homebrew's version table no longer reaches back to\n10.15, and brew itself now requires macOS 14. `verified:` on the `url`\nstanza is deprecated in the same release.\n\n`just cask-check` said \"no offenses\" about both, because it ran `brew style`,\nwhich is RuboCop and does not load the cask. It now runs `brew readall`\nfirst, which loads it for every platform — the same thing `brew tap` and a\nuser's install do. Verified by putting the broken stanza back: the old check\npassed it, the new one fails it.\n\nThe cask now says `depends_on :macos` with no version. The bundle's own\nLSMinimumSystemVersion is 10.15 and macOS will not launch below it, which is\nthe real floor and enforces itself; naming a version Homebrew still knows\nwould claim a *higher* floor than the app has and refuse to install on\nmachines where it runs.\n\nCo-Authored-",
+        "author": {
+          "date": "2026-09-06T10:35:02Z"
+        },
+        "committer": {
+          "date": "2026-09-06T10:35:02Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "bca1bf8b6001761317953a496bc2c439df5a875b",
+      "commit": {
+        "message": "Spec Phase 13: a local model over the calls no rule matched\n\nThe rules only find what someone thought to write a rule for. Measured on\nthe owner's store: 3,545 of 4,605 calls — 77% — are Bash commands carrying\nno rule_sighting, reported as nothing rather than as unexamined.\n\nModelled on project-birthday's llama-cpp-2 setup: one worker thread owning\nevery llama.cpp object, MACOSX_DEPLOYMENT_TARGET and CMAKE_OSX_DEPLOYMENT_TARGET\nboth pinned to 11.0, and gemma-4-E2B QAT q4_0.\n\nFour decisions the phase rests on:\n\ntoolog gains no network capability. ADR-0008 is the tool's central claim and\nthe egress test forbids an HTTP client structurally, so the user brings the\nGGUF and toolog is pointed at a path. That extends to C: llama.cpp's\nLLAMA_CURL has defaulted on in some versions and would be invisible to a\nmanifest check, so the phase asserts `otool -L` on the shipped binary lists\nno libcurl — Phase 8's lesson that a config option is not a guarantee.\n\nA verdict is stored, not recomputed",
+        "author": {
+          "date": "2026-09-06T06:01:20Z"
+        },
+        "committer": {
+          "date": "2026-09-06T06:01:20Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "d0f99a23d4958078a8475c759bfff7b1cd0ea6c7",
+      "commit": {
+        "message": "Release v1.1.0\n\nPhases 9–12 and the fixes that followed them:\n\n  9  the usage and live views removed; toolog captures cost and reports\n     none of it (ADR-0010)\n 10  seven filter dropdowns became one @key:value query bar, an activity\n     histogram that sets the range as well as showing it, and a detail\n     pane that closes three ways\n 11  the risk review from 2,314 ms to 95 ms, a summary whose columns add\n     up to it, and every rule visible with what it looks for (ADR-0011)\n 12  a sighting ledger recording when a finding was first seen, and\n     @risk / @rule in the timeline (ADR-0012)\n\nSince: session grouping removed after use, a blue accent measured rather\nthan eyeballed, a System/Light/Dark switch, and a detail pane that\nscrolls.\n\nThe bundle test no longer asserts the version against a literal. That\nassertion read Cargo.toml and compared it to a hard-coded string, so it\nfailed on every release while checking nothing; it now checks the shape\nthe release workflow's tag comparis",
+        "author": {
+          "date": "2026-09-06T05:43:17Z"
+        },
+        "committer": {
+          "date": "2026-09-06T05:43:17Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "e3b416fa7ab9e2c9e861b91261818258a4571130",
+      "commit": {
+        "message": "Give the search row one height\n\nThe box, the time control and Export sat on one line at three different\nheights: the box is `--text-base` in mono with `--s3` of vertical padding,\nthe other two are `--text-sm` with `--s2`, which computes to 32px against\n26px. Centring three different heights reads as an accident rather than as\na row.\n\n`align-items: stretch` rather than `center`, so the height comes from the box\n— the control that sets it — and the other two follow. Their wrappers become\nflex so the single child inside each fills them, rather than needing a\n`height: 100%` with nothing to resolve against. The vertical padding on the\nselect and the button goes, since the row supplies it now; the horizontal\npadding stays, because the text still needs room either side.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01BwAXXG2B6pb8n4bXTMZX5m",
+        "author": {
+          "date": "2026-09-06T05:37:46Z"
+        },
+        "committer": {
+          "date": "2026-09-06T05:37:46Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "84d8be9253a29cd4267effefab9cad0b9a3dbd66",
+      "commit": {
+        "message": "Add a theme switch: System, Light or Dark\n\nBoth themes were fully built and the only way to pick one was System Settings.\nStatus gains an Appearance control with three states, not two: macOS changes\nappearance at sunset, and a switch would make the state most people want the\none they cannot pick.\n\nThe choice is remembered in the window's localStorage rather than in\n`prefs.json`. `Prefs` is a file the resident process reads because it acts on\nwhat is in it — notifications fire from the capture thread, redaction happens\non the write path — and nothing outside the window cares which theme it is\ndrawn in. Keeping it local also means it is applied synchronously at boot: a\nround trip to Rust would paint a light frame and correct it a moment later,\nevery launch. The activity chart's collapsed state is remembered the same way.\n\nThe dark palette is now written twice — once behind `prefers-color-scheme` for\n\"follow the system\", once behind `[data-theme=\"dark\"]` for an explicit choice.\nThat",
+        "author": {
+          "date": "2026-09-06T05:31:19Z"
+        },
+        "committer": {
+          "date": "2026-09-06T05:31:19Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "82513b97bb0dab8a2298118f666c92a5f541fb36",
+      "commit": {
+        "message": "Four fixes: a pane that scrolls, no grouping, time beside the box, blue\n\n**The detail pane did not scroll.** `.split` set `grid-template-columns` and\nno rows, so the implicit row was `auto` — sized by whatever the pane held.\nA long result body ran off the bottom of the window with no way down.\n`grid-template-rows: minmax(0, 1fr)` tells the row it may be shorter than its\ncontent, which is what `overflow-y: auto` inside it needs to mean anything.\n\n**Session grouping is gone**, and so is its machinery: the collapse set, the\ngroup and subagent headers, `Plan.grouped`, `timeline_groups`, `SessionGroup`,\n`AgentGroup`, and the per-group queries that narrowed a filter to one session\nand one agent. 738 lines out against 114 in. A `group=session` hash written by\nv1.0 is read and dropped rather than rejected, so an old link still restores\nthe filter it carried. A subagent's calls are still identifiable — the row\nsays which agent made them — they are simply not nested.\n\n**Time moved onto the",
+        "author": {
+          "date": "2026-09-06T05:18:47Z"
+        },
+        "committer": {
+          "date": "2026-09-06T05:18:47Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    },
+    {
+      "sha": "c84670e1e58fd30be00e86da45eb05696ffc24a9",
+      "commit": {
+        "message": "Give a rule an identity, and cut the prose off the risk page\n\n**Rule identity.** A sighting keyed on `rule_id` alone let a rule keep its id,\nchange what it looks for, and inherit a `first_seen` describing the question\nit used to ask — measured on a rule retuned from `rm -rf` to `dd if=`, which\nmatched nothing and still reported the original date. Migration 007 keys\nsightings on `(rule_id, fingerprint)`, where the fingerprint hashes the rule's\nscope and every field of its `[rule.match]`. A retuned rule starts again; a\nrenamed or re-graded one keeps its history, because neither is a different\nquestion. Rows written before 007 are claimed for the current fingerprint on\nthe next review rather than reset — verified on the real store, all 193 dates\nintact through the upgrade.\n\nThe fingerprint is written field by field, so the compiler cannot notice a new\ncondition being left out of it. A test can, and does.\n\n**The risk page.** The paragraph under the hero boxes explained the unit, the\nse",
+        "author": {
+          "date": "2026-09-06T05:06:22Z"
+        },
+        "committer": {
+          "date": "2026-09-06T05:06:22Z"
+        }
+      },
+      "author": {
+        "login": "zaghaghi"
+      },
+      "committer": {
+        "login": "zaghaghi"
+      }
+    }
+  ]
+}

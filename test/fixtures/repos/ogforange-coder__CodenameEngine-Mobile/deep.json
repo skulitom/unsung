@@ -1,0 +1,26 @@
+{
+  "fundingLinks": [
+    {
+      "platform": "KO_FI",
+      "url": "https://ko-fi.com/codename_engine"
+    }
+  ],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 0,
+    "nodes": []
+  },
+  "issues": {
+    "nodes": []
+  },
+  "pullRequests": {
+    "nodes": []
+  }
+}

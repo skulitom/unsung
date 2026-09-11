@@ -1,0 +1,368 @@
+{
+  "id": "MDEwOlJlcG9zaXRvcnkzODc1MjcxNDg=",
+  "nameWithOwner": "smlx/jiratime",
+  "description": "Submit timesheets to Jira from the command line",
+  "homepageUrl": "",
+  "createdAt": "2021-07-19T16:24:10Z",
+  "pushedAt": "2026-09-02T01:29:24Z",
+  "diskUsage": 693,
+  "stargazerCount": 12,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Go"
+  },
+  "languages": {
+    "totalSize": 59197,
+    "edges": [
+      {
+        "size": 58020,
+        "node": {
+          "name": "Go"
+        }
+      },
+      {
+        "size": 921,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 256,
+        "node": {
+          "name": "Makefile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "jira"
+        }
+      },
+      {
+        "topic": {
+          "name": "go"
+        }
+      },
+      {
+        "topic": {
+          "name": "hacktoberfest"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 24
+  },
+  "tags": {
+    "totalCount": 26
+  },
+  "watchers": {
+    "totalCount": 2
+  },
+  "owner": {
+    "login": "smlx",
+    "__typename": "User",
+    "createdAt": "2011-06-20T13:48:35Z",
+    "repositories": {
+      "totalCount": 68
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 419,
+        "nodes": [
+          {
+            "committedDate": "2026-09-02T01:29:22Z",
+            "messageHeadline": "Merge pull request #203 from smlx/dependabot/github_actions/github-ac…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-02T01:28:30Z",
+            "messageHeadline": "chore(deps): bump actions/attest-build-provenance",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T15:52:35Z",
+            "messageHeadline": "Merge pull request #202 from smlx/dependabot/go_modules/gomod-3b8b394518",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T15:51:30Z",
+            "messageHeadline": "chore(deps): bump github.com/alecthomas/kong in the gomod group",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T12:29:17Z",
+            "messageHeadline": "Merge pull request #201 from smlx/dependabot/github_actions/actions/s…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T12:28:52Z",
+            "messageHeadline": "chore(deps): bump actions/setup-go from 6.5.0 to 7.0.0",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T12:26:44Z",
+            "messageHeadline": "Merge pull request #200 from smlx/dependabot/github_actions/github-ac…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-02T12:26:11Z",
+            "messageHeadline": "chore(deps): bump the github-actions group across 1 directory with 2 …",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-01T15:52:58Z",
+            "messageHeadline": "Merge pull request #199 from smlx/dependabot/go_modules/gomod-117b85a244",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-01T15:52:16Z",
+            "messageHeadline": "chore(deps): bump github.com/alecthomas/kong in the gomod group",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T15:55:56Z",
+            "messageHeadline": "Merge pull request #198 from smlx/dependabot/github_actions/actions/c…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T15:55:24Z",
+            "messageHeadline": "chore(deps): bump actions/checkout from 6.0.3 to 7.0.0",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T15:53:40Z",
+            "messageHeadline": "Merge pull request #197 from smlx/dependabot/github_actions/github-ac…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-01T15:53:00Z",
+            "messageHeadline": "chore(deps): bump the github-actions group with 4 updates",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T02:07:10Z",
+            "messageHeadline": "Merge pull request #196 from smlx/readme",
+            "author": {
+              "user": {
+                "login": "smlx"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-09T02:03:34Z",
+            "messageHeadline": "chore: udpate badge",
+            "author": {
+              "user": {
+                "login": "smlx"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T02:23:19Z",
+            "messageHeadline": "Merge pull request #195 from smlx/dependabot/github_actions/actions/d…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T02:22:53Z",
+            "messageHeadline": "chore(deps): bump actions/dependency-review-action from 4.9.0 to 5.0.0",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T02:21:16Z",
+            "messageHeadline": "Merge pull request #194 from smlx/dependabot/github_actions/github-ac…",
+            "author": {
+              "user": {
+                "login": "github-actions[bot]"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-02T22:31:30Z",
+            "messageHeadline": "chore(deps): bump the github-actions group with 4 updates",
+            "author": {
+              "user": {
+                "login": "dependabot[bot]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".golangci.yaml",
+        "type": "blob"
+      },
+      {
+        "name": ".goreleaser.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "Makefile",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "cmd",
+        "type": "tree"
+      },
+      {
+        "name": "go.mod",
+        "type": "blob"
+      },
+      {
+        "name": "go.sum",
+        "type": "blob"
+      },
+      {
+        "name": "internal",
+        "type": "tree"
+      },
+      {
+        "name": "jiratime.jpg",
+        "type": "blob"
+      },
+      {
+        "name": "line-selection.gif",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "visual-selection.gif",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "build.yaml"
+      },
+      {
+        "name": "coverage.yaml"
+      },
+      {
+        "name": "dependabot-automerge.yaml"
+      },
+      {
+        "name": "dependency-review.yaml"
+      },
+      {
+        "name": "lint.yaml"
+      },
+      {
+        "name": "release.yaml"
+      },
+      {
+        "name": "test.yaml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10710,
+    "text": "# JiraTime\n\n![release](https://github.com/smlx/jiratime/workflows/release/badge.svg)\n[![Coverage Status](https://coveralls.io/repos/github/smlx/jiratime/badge.svg?branch=main)](https://coveralls.io/github/smlx/jiratime?branch=main)\n[![Go Report Card](https://goreportcard.com/badge/github.com/smlx/jiratime)](https://goreportcard.com/report/github.com/smlx/jiratime)\n\n<img align=\"left\" src=\"jiratime.jpg\">\n\n`jiratime` makes it easy to submit worklog records to Jira quickly from the command line.\nIt accepts timesheets on standard input so works well with any editor that lets you pipe chunks of text to external commands, such as (neo)vim.\n\n`jiratime` only works with Atlassian Cloud hosted Jira, and does not support the deprecated self-hosted Jira server.\n\n<br clear=\"left\" />\n\n## Get it\n\nDownload the latest [release](https://github.com/smlx/jiratime/releases) on github, or:\n\n```\ngo install github.com/smlx/jiratime/cmd/jiratime@latest\n```\n\n## How it works\n\n### Configuration\n\n`jiratime` reads configuration from [`$XDG_CONFIG_HOME`](https://github.com/adrg/xdg#xdg-base-directory)`/jiratime/config.yml`.\nThis example `config.yml` has a list of regular expressions for implicitly identifying issues, and another list for matching timesheet entries to be ignored.\n\n```\njiraURL: https://example.atlassian.net/\nissues:\n- id: XYZ-1\n  defaultComment: email / slack\n  regexes:\n  - ^admin( .+)?$\n- id: ABC-2\n  defaultComment: Primary On-call\n  regexes:\n  - ^pd$\nignore:\n- ^lunch$\n```\n\n### Timesheet format\n\nThe timesheet format is minimal and opinionated.\n\n#### Sample timesheet\n\n```\n0900-0945\nadmin - TPS report cover sheet\n0945-1100\nXYZ-123 - fighting fires\n1100-1200\nadmin\n1200-1300\nlunch\n1300-1400\nABC-987\n- more meetings after...\nlunch\n1400-1430\nABC-988\nwill the meetings\never stop?\n```\n\n#### Features\n\n* Each entry begins with a duration written as a 24-hour time range.\n* The comment body of a timesheet entry is anything on the first line following an issue match, and any lines below before the next duration or end of the timesheet.\n* Comment lines are trimmed of spaces and hyphens before being added to the comment body.\n* Jira issues may be identified explicitly by putting the name of the issue at the start of the first line of the comment body.\n* Jira issues may be identified implicitly by matching the first line against a configured list of regular expressions.\n* Regular expressions for implicitly identifying issues may have a capture group. In that case the capture group becomes part of the comment body.\n* Timesheet entries may be ignored by matching the first line against a configured list of regular expressions.\n* Implicitly matched issues can have a default comment configured which will be automatically added to the Jira worklog record if no comment is defined in the timesheet.\n\n#### Timesheet entry processing examples\n\nEach row in this table shows:\n\n1. a single timesheet entry\n2. configuration involved in processing the entry\n3. the worklog record generated by the entry\n\n```\n| Timesheet Entry                | Configuration                 | Jira Worklog Record              |\n| ---                            | ---                           | ---                              |\n| 0900-0945                      | issues:                       | Issue:    XYZ-1                  |\n| admin - TPS report cover sheet | - id: XYZ-1                   | Start:    0900 (local TZ)        |\n|                                | defaultComment: email / slack | Duration: 45 minutes             |\n|                                | regexes:                      | Comment:  TPS report cover sheet |\n|                                | - ^admin( .+)?$               |                                  |\n| ---                            | ---                           | ---                              |\n| 0945-1100                      | n/a (explicit issue)          | Issue:    XYZ-123                |\n| XYZ-123 - fighting fires       |                               | Start:    0945 (local TZ)        |\n|                                |                               |\n|                                |                               | Comment:  fighting fires         |\n| ---                            | ---                           | ---                              |\n| 1100-1200                      | issues:                       | Issue:    XYZ-1                  |\n| admin                          | - id: XYZ-1                   | Start:    1100 (local TZ)        |\n|                                | defaultComment: email / slack | Duration: 1 hour                 |\n|                                | regexes:                      | Comment:  email / slack          |\n|                                | - ^admin( .+)?$               |                                  |\n| ---                            | ---                           | ---                              |\n| 1200-1300                      | ignore:                       | n/a (this entry is skipped)      |\n| lunch                          | - ^lunch$                     |                                  |\n| ---                            | ---                           | ---                              |\n| 1300-1400                      | n/a (explicit issue)          | Issue:    ABC-987                |\n| ABC-987                        |                               | Start:    1300 (local TZ)        |\n| - more meetings after...       |                               | Duration: 1 hour                 |\n| lunch                          |                               | Comment:  more meetings after... |\n|                                |                               |           lunch                  |\n| ---                            | ---                           | ---                              |\n| 1400-1430                      | n/a (explicit issue)          | Issue:    ABC-988                |\n| ABC-988                        |                               | Start:    1400 (local TZ)        |\n| will the meetings              |                               | Duration: 30 minutes             |\n| ever stop?                     |                               | Comment:  will the meetings      |\n|                                |                               |           ever stop?             |\n```\n\n### Design Philosophy\n\n`jiratime` tries hard to submit timesheets atomically.\nThat is, either all worklog records are submitted, or none are.\nIt does this by checking that all issues identified are valid Jira issues before submitting any worklogs.\nUnfortunately there is no transactional batch API for Jira worklogs.\n\n`jiratime` exits with a return code of zero and no output on success.\nOn failure it will exit with a non-zero return code and a message on standard error.\n\n## Authorization Setup\n\n`jiratime` authentication requires a one-time initial setup.\n\n`jiratime` can authenticate using OAuth2 (more secure, more complex setup, the default), or using an API Key and HTTP Basic Auth (less secure, but simpler).\n\n### OAuth2\n\n#### Configure jiratime app in Jira cloud\n\n1. Visit Atlassian's [developer console](https://developer.atlassian.com/console/myapps/), and log in.\n2. Create a new \"OAuth 2.0 integration\".\n3. Name the app `jiratime`, and agree to Atlassian's T&Cs.\n\n##### Scopes\n\n1. Select \"Permissions\", then \"Add\", and \"Configure\" the \"Jira platform REST API\".\n2. Ensure these scopes are selected:\n   * `read:jira-work`\n   * `write:jira-work`\n\n##### Authorization callback URL\n\n1. Select \"Authorization\", then \"Configure\" the \"OAuth 2.0 (3LO)\" authorization type.\n\n##### Gather app Credentials\n\n\n\n\n```yaml\noauth2:\n  clientID: chiYahchob7xoThahvohH5quae6Di0Ee\n  secret: HxHOiN3bD5l93X3qugp9bHI8EKEJ7xVV4vcj6tG3vr7GFqxtxruMrkLcgtZAOPrZ\n```\n\n\n```\nAuthorization successful. You may now close this page.\n```\n\n\n\n\n\n\n\n```yaml\nuser: my.name@example.com\napiKey: SZ8411BnS9dKw2FDArWAe9eYiToNTx6ugtCzR2UTtaSFmXnw16bYcBuiLFYuqSffnFEzdXti8HcVRWPaLjPxFaOx7KVlckD2amFoxiiwK2hTBlfYU62CrJJ3VfZprwf3\nscoped: true\n```\n\n```\n$ jiratime < timesheet\n```\n```\n:'<,'>!jiratime\n```\n```\n:130,135!jiratime\n```\n```\njiratime submit --day-offset=\"-1\" < timesheet\n```"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

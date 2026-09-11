@@ -1,0 +1,115 @@
+{
+  "nameWithOwner": "RichN06/CSC4370-Personal-Webpage",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T14:22:24Z",
+  "pushedAt": "2026-09-08T14:44:39Z",
+  "diskUsage": 994,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "HTML"
+  },
+  "languages": {
+    "totalSize": 14284,
+    "edges": [
+      {
+        "size": 10894,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 3390,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "RichN06",
+    "__typename": "User",
+    "createdAt": "2025-11-19T02:19:08Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 4,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T14:44:39Z",
+            "messageHeadline": "Update aboutSite.html",
+            "author": {
+              "user": {
+                "login": "RichN06"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:38:25Z",
+            "messageHeadline": "Delete aboutSite.html",
+            "author": {
+              "user": {
+                "login": "RichN06"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:37:13Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "RichN06"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T14:26:17Z",
+            "messageHeadline": "Add files via upload",
+            "author": {
+              "user": {
+                "login": "RichN06"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": "RichN - webpage",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

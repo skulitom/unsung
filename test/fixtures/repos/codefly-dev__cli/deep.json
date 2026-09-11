@@ -1,0 +1,204 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false
+  },
+  "releases": {
+    "totalCount": 131,
+    "nodes": [
+      {
+        "tagName": "v0.1.145",
+        "publishedAt": "2026-09-07T23:36:53Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.144",
+        "publishedAt": "2026-09-07T22:54:31Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.143",
+        "publishedAt": "2026-09-07T21:39:24Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.142",
+        "publishedAt": "2026-09-07T19:31:21Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.141",
+        "publishedAt": "2026-09-01T17:51:49Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.140",
+        "publishedAt": "2026-08-29T23:00:56Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.139",
+        "publishedAt": "2026-08-22T22:03:26Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.138",
+        "publishedAt": "2026-08-20T14:38:40Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.137",
+        "publishedAt": "2026-08-17T22:59:29Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.1.136",
+        "publishedAt": "2026-08-17T20:18:09Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "issues": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-11T13:41:02Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:07:44Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:07:42Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:07:40Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:07:26Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T11:33:23Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T03:08:40Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-09T21:00:30Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-09T18:24:00Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-09T18:23:59Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      }
+    ]
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-11T14:10:53Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T14:09:37Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:37:12Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:34:21Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:33:19Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:32:22Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:32:06Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:31:44Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:31:36Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-11T12:19:55Z",
+        "author": {
+          "login": "antoinetoussaint-byte",
+          "createdAt": "2026-08-03T13:24:42Z"
+        }
+      }
+    ]
+  }
+}

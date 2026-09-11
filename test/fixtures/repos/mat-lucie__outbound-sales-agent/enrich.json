@@ -1,0 +1,436 @@
+{
+  "id": "R_kgDOS2sBqA",
+  "nameWithOwner": "mat-lucie/outbound-sales-agent",
+  "description": "Agent-operated outbound sales engine: LinkedIn + email cadence, two-stage ICP qualifier, learning loop. CRM-agnostic (Attio bundled, adapters generated + conformance-tested). Clone it and let your AI agent onboard you.",
+  "homepageUrl": null,
+  "createdAt": "2026-06-10T16:46:00Z",
+  "pushedAt": "2026-09-02T17:47:17Z",
+  "diskUsage": 3631,
+  "stargazerCount": 6,
+  "forkCount": 1,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 7488560,
+    "edges": [
+      {
+        "size": 7485336,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 1685,
+        "node": {
+          "name": "Jinja"
+        }
+      },
+      {
+        "size": 1539,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": [
+      {
+        "topic": {
+          "name": "ai-agent"
+        }
+      },
+      {
+        "topic": {
+          "name": "attio"
+        }
+      },
+      {
+        "topic": {
+          "name": "b2b-sales"
+        }
+      },
+      {
+        "topic": {
+          "name": "claude-code"
+        }
+      },
+      {
+        "topic": {
+          "name": "cold-email"
+        }
+      },
+      {
+        "topic": {
+          "name": "crm"
+        }
+      },
+      {
+        "topic": {
+          "name": "linkedin"
+        }
+      },
+      {
+        "topic": {
+          "name": "outbound"
+        }
+      },
+      {
+        "topic": {
+          "name": "sales-automation"
+        }
+      }
+    ]
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "mat-lucie",
+    "__typename": "User",
+    "createdAt": "2026-02-03T19:56:52Z",
+    "repositories": {
+      "totalCount": 2
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 42,
+        "nodes": [
+          {
+            "committedDate": "2026-09-02T17:47:15Z",
+            "messageHeadline": "sync: port manual-touch detection + cold-responder radar lane (upstre…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T16:14:30Z",
+            "messageHeadline": "fix(scrub): remove remaining real company/person names from public tr…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T05:30:52Z",
+            "messageHeadline": "sync: close whole-stack review findings (radar degrade, sweep guard, …",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:59:52Z",
+            "messageHeadline": "fix(weekly): port stable per-search csvName + ingest cursor (PR-300) …",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:44:50Z",
+            "messageHeadline": "sync: port the integrator/service-provider disqualifier family (PR-29…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T04:29:26Z",
+            "messageHeadline": "sync: port the pain-signal discovery lane, off by default (PR-280/282…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:48:42Z",
+            "messageHeadline": "sync: port the Gmail sweep + counterparty ball-direction fixes (PR-29…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:33:55Z",
+            "messageHeadline": "sync: port the email-lane disarm gate + radar-wide hard-decline suppr…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T03:29:46Z",
+            "messageHeadline": "sync: port the Sender transport seam, net of the Botdog series (PR-27…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T01:37:30Z",
+            "messageHeadline": "sync: port LinkedIn profile-id identity key across all dedup surfaces…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T01:12:55Z",
+            "messageHeadline": "sync: port upstream experiments + finalize hardening (PR-246/248/281)…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T00:53:27Z",
+            "messageHeadline": "sync: port upstream misc hardening (PR-270/275/271/272/267) (#29)",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T00:18:30Z",
+            "messageHeadline": "sync: port upstream attio-reliability fixes (PR-262/263/264/266/273) …",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-01T00:06:39Z",
+            "messageHeadline": "test(conftest): defuse the acme target-list freshness date-bomb (#27)",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T19:58:04Z",
+            "messageHeadline": "Update README.md (#26)",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T01:00:23Z",
+            "messageHeadline": "chore(ci): add job timeout cap (PR-235 eval — fork CI already exceeds…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T01:00:13Z",
+            "messageHeadline": "feat(daily): port Phase 0.6 email-response detection (PR-243) (#24)",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T01:00:03Z",
+            "messageHeadline": "feat(followup-radar): port Radar Phase C + WAITING lane + weekly-repo…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T00:59:53Z",
+            "messageHeadline": "feat(gmail): port optional standalone Gmail client (PR-243 infra) (#22)",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-21T00:59:43Z",
+            "messageHeadline": "feat(weekly): port compact borderline staging + deep scrape window (P…",
+            "author": {
+              "user": {
+                "login": "mat-lucie"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".ruff.toml",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CLAUDE.md",
+        "type": "blob"
+      },
+      {
+        "name": "COMPLIANCE.md",
+        "type": "blob"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "blob"
+      },
+      {
+        "name": "DESIGN_SPEC.md",
+        "type": "blob"
+      },
+      {
+        "name": "GETTING_STARTED.md",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "SECURITY.md",
+        "type": "blob"
+      },
+      {
+        "name": "cli.py",
+        "type": "blob"
+      },
+      {
+        "name": "clients",
+        "type": "tree"
+      },
+      {
+        "name": "config",
+        "type": "tree"
+      },
+      {
+        "name": "content",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "examples",
+        "type": "tree"
+      },
+      {
+        "name": "models",
+        "type": "tree"
+      },
+      {
+        "name": "mypy.ini",
+        "type": "blob"
+      },
+      {
+        "name": "pyproject.toml",
+        "type": "blob"
+      },
+      {
+        "name": "sales-program.md",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "skills",
+        "type": "tree"
+      },
+      {
+        "name": "tests",
+        "type": "tree"
+      },
+      {
+        "name": "workflows",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": {
+    "entries": [
+      {
+        "name": "ci.yml"
+      }
+    ]
+  },
+  "readme": {
+    "name": "README.md",
+    "byteSize": 10499,
+    "text": "# outbound-sales-agent\n\nA CRM-agnostic, config-driven autonomous outbound engine extracted from a\nproduction B2B sales system. It runs a staged LinkedIn + email cadence against\nyour pipeline, qualifies prospects through a two-stage ICP scorer (deterministic\nkeyword rules + an LLM tiebreaker), and feeds a learning loop that surfaces\nresponse patterns back into ICP tuning. You stand it up against **your** CRM,\nPhantomBuster account, and ICP — the engine's math and cadence logic stay\nunchanged.\n\n> **First time here?** Point an AI coding agent at this repo — it reads\n> [AGENTS.md](AGENTS.md) and drives the setup for you. Prefer doing it by\n> hand? Follow the **[Getting Started guide](GETTING_STARTED.md)**.\n\n---\n\n## Quick start (with an AI agent — recommended)\n\nThis repo is built to be set up *by* an AI coding agent. Clone it, open your\nagent in the repo root, and ask it to onboard you:\n\n```bash\ngit clone https://github.com/mat-lucie/outbound-agent.git\ncd outbound-agent\nclaude        # or any agent that reads AGENTS.md\n```\n\n> *\"Run the /onboard skill and set this up for my CRM and ICP.\"*\n\nThe agent reads [AGENTS.md](AGENTS.md) automatically, follows the `/onboard`\ninterview (`skills/onboard/SKILL.md`), and walks you from fresh clone to a\nsafe `--dry-run`. It interviews you about your CRM, PhantomBuster account,\nand ICP — and for a non-Attio CRM it generates the adapter and proves it\nagainst the conformance suite.\n\n## Quick start (manual)\n\n```bash\ngit clone https://github.com/mat-lucie/outbound-agent.git\ncd outbound-agent\n\npython -m venv .venv\nsource .venv/bin/activate          # Windows: .venv\\Scripts\\activate\npip install -e '.[dev]'\n```\n\nThen follow **[GETTING_STARTED.md](GETTING_STARTED.md)** — fresh clone to your\nfirst safe dry-run in ~60–90 minutes.\n\nEither path produces:\n\n| Output | What it is |\n|--------|-----------|\n| `config/crm.yaml` | CRM vendor + credential env-var references |\n| `config/phantombuster.yaml` | PhantomBuster phantom IDs + degree-check backend |\n| `config/icp.yaml` | Your ICP: keywords, weights, thresholds, LLM prompt slots |\n| `.env` | Secrets (API keys, LinkedIn cookies) — never committed |\n| `clients/crm/<vendor>_provider.py` | Generated adapter (non-Attio CRMs only) |\n\n### Config model\n\nEvery config file has a committed example template (`config/*.example.yaml`)\nand a git-ignored live copy (`config/*.yaml`). To configure manually without\nthe onboard skill:\n\n```bash\ncp config/crm.example.yaml        config/crm.yaml\ncp config/icp.example.yaml        config/icp.yaml\ncp config/phantombuster.example.yaml  config/phantombuster.yaml\n```\n\nEdit each live copy with your values. **Secrets stay in `.env`** — the YAML\nfiles store the *name* of the environment variable, never the value itself:\n\n```yaml\n# config/crm.yaml\ncredentials:\n  api_key_env: ATTIO_API_KEY    # ← env var name, not the secret\n```\n\nTo override the config directory (e.g. for multi-instance setups):\n\n```\nOUTBOUND_CONFIG_DIR=/path/to/your/config sales daily\n```\n\nSee `config/README.md` for the full convention.\n\n---\n\n## Architecture\n\n```\nPhantomBuster phantoms\n   └── LinkedIn invites + DMs + inbox scraping\n         │\n         ▼\n   outbound-agent CLI  (python cli.py  /  sales <command>)\n         │\n    ┌────┴───────────────────────────────────┐\n    │  ICP qualifier  (config/icp.yaml)      │\n    │   stage 1: deterministic keyword score │\n    │   stage 2: LLM tiebreaker             │\n    │           (config/prompts/qualifier.md.j2) │\n    └────┬───────────────────────────────────┘\n         │\n    ┌────┴──────────────────┐\n    │  CRMProvider contract │   clients/crm/base.py\n    │  (vendor-neutral)     │   clients/crm/CONTRACT.md\n    └────┬──────────────────┘\n         │\n    ┌────┴──────────────\n    │  Adapter              │   Attio: clients/crm/attio_provider.py\n    │  (one per vendor)     │   Other CRMs: generated by /onboard\n    └───────────────────────┘\n         │\n    conformance gate: tests/crm/test_provider_contract.py\n```\n\n**CRM seam.** The `CRMProvider` abstract base (`clients/crm/base.py`) defines\nthe method contract. `clients/crm/CONTRACT.md` documents every method, the\nnormalized return types (`Record`, `Entry`, `Stage`, `RecordInfo`), and the\nknown limitations. The conformance suite (`tests/crm/test_provider_contract.py`)\nis the adapter bar: a generated adapter is \"correct\" iff it is green here.\nAttio is the bundled reference adapter; other CRMs are generated by the\n`/onboard` skill and proven against the suite.\n\n**ICP qualifier.** Scoring math lives in `workflows/quality_gate.py` and is\nunchanged by your configuration — only the source data moves into\n`config/icp.yaml`. The LLM tiebreaker system prompt is templated via\n`config/prompts/qualifier.md.j2`; your ICP narrative slots (`product_summary`,\n`geography_requirement`, `lanes`, `disqualifiers`) render into it while the\nJSON output contract stays engine-owned.\n\n**PhantomBuster.** Six phantoms handle the LinkedIn automation (invite,\nmessage, inbox scrape, degree-check). Non-secret IDs live in\n`config/phantombuster.yaml`; secrets (API key, cookies) stay in `.env`. First-\ntime setup: `docs/onboarding/phantombuster-setup.md`.\n\n**Secrets gate.** `scripts/check_no_secrets.py` scans the repo tree for known\nsecret-value patterns. It runs as a pytest target and can be used as a\npre-commit hook.\n\n---\n\n## Running the engine\n\nThe CLI entry point is installed as `sales` (or run directly with\n`python cli.py`). Key commands:\n\n| Command | What it does |\n|---------|-------------|\n| `sales daily` | Daily cadence: invite new prospects (Part A) + send DMs to 1st-degree connections (Part B). Add `--dry-run` to print what would happen without sending. |\n| `sales weekly` | Weekly prospecting: export new profiles from Sales Navigator, score against ICP, add passing prospects to the pipeline. |\n| `sales report` | Print (or email) a pipeline summary. |\n| `sales learn` | Learning loop: analyse response patterns, surface ICP signal. |\n| `sales pipeline` | Print live pipeline state. |\n| `sales check-responses` | Detect replies and advance stages. |\n| `sales health-check` | Verify CRM + PhantomBuster connectivity. |\n| `sales backfill-export` | Export the current pipeline to CSV. |\n| `sales weekly-finalize` | Finalize a weekly batch: score + enrich + push to CRM. |\n| `sales sales-approve` | Operator review queue: approve/reject borderline prospects. |\n\nRun `sales --help` or `sales <command> --help` for all flags.\n\nTo verify the suite is green:\n\n```bash\npython -m pytest -q\n```\n\nExpected: all tests pass (3,400+ passed, ~15 skipped, 0 failed).\n\n---\n\n## Bring your own CRM\n\nAttio is the bundled reference adapter. Other CRMs are generated by the\n`/onboard` skill, which:\n\n1. Interviews you about your CRM's API shape.\n2. Generates `clients/crm/<vendor>_provider.py` against the contract\n   (using `clients/crm/fake_provider.py` as the structural template and\n   `clients/crm/attio_provider.py` as a worked example of vendor-JSON\n   normalization).\n3. Registers the new adapter in `clients/crm/factory.py`.\n4. Iterates until `tests/crm/test_provider_contract.py` is green.\n\nRead `clients/crm/CONTRACT.md` for the full method map, normalized types, and\nknown limitations before generating an adapter. The conformance suite\n(`tests/crm/test_provider_contract.py`) is the definitive adapter bar.\n\n**This is proven:** the onboarding agent has successfully generated a passing\nadapter for a Pipedrive-shaped CRM.\n\n---\n\n## Reference operator: `examples/acme/`\n\n`examples/acme/` is a fully **synthetic** reference operator (a fictional\nB2B SaaS company): a worked example of a complete config + content set —\nICP definition, personas, message/email sequences, target list — with\nruntime**; the test suite pins to it. Replace the shipped repo-root\n\n\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 3909
+  },
+  "claude": {
+    "byteSize": 11
+  }
+}

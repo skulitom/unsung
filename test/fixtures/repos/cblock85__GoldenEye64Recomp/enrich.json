@@ -1,0 +1,385 @@
+{
+  "id": "R_kgDOT-PWJw",
+  "nameWithOwner": "cblock85/GoldenEye64Recomp",
+  "description": "Native macOS and Linux port of GoldenEye 007 (N64) via static recompilation (N64Recomp + RT64). No emulator. Contains no ROM or game assets — you supply your own cartridge dump. Optional builds ship zero game code and recompile from your ROM at launch.",
+  "homepageUrl": "",
+  "createdAt": "2026-08-20T05:46:26Z",
+  "pushedAt": "2026-08-20T07:49:51Z",
+  "diskUsage": 86602,
+  "stargazerCount": 10,
+  "forkCount": 2,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "GPL-3.0"
+  },
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 92498014,
+    "edges": [
+      {
+        "size": 49608802,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 31507237,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 5156002,
+        "node": {
+          "name": "GLSL"
+        }
+      },
+      {
+        "size": 2463211,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 757206,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 704230,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 463629,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 401330,
+        "node": {
+          "name": "Less"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 1
+  },
+  "tags": {
+    "totalCount": 1
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "cblock85",
+    "__typename": "User",
+    "createdAt": "2016-07-09T13:41:57Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 15,
+        "nodes": [
+          {
+            "committedDate": "2026-08-20T07:14:57Z",
+            "messageHeadline": "Implement the libultra 64-bit helpers instead of stubbing them to zero",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T07:08:30Z",
+            "messageHeadline": "Implement osDpGetCounters properly and report any stub the game calls",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T06:44:03Z",
+            "messageHeadline": "Fix clean-build crash: stub libultra routines the runtime doesn't imp…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T04:59:48Z",
+            "messageHeadline": "Fix macOS link: only reference libultra shims that actually exist",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T04:56:04Z",
+            "messageHeadline": "Fix macOS build: unistd/pwd includes, and don't pick up devkitPro's S…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T04:30:50Z",
+            "messageHeadline": "Fix lib/ge: restore decomp submodule (was committed as a broken absol…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T04:16:54Z",
+            "messageHeadline": "Fix macOS build: bundled fmt overrode -DFMT_USE_CONSTEVAL=0",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T04:13:28Z",
+            "messageHeadline": "README: document Linux support, both build modes, and the live recomp…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Restore bundled dxc runtime: x64/libdxcompiler.so",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Restore bundled dxc runtime: x64/libdxcompiler.dylib",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Restore bundled dxc runtime: arm64/libdxcompiler.so",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Restore bundled dxc runtime: arm64/libdxcompiler.dylib",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Restore bundled dxc shader compiler executables (macOS + Linux, arm64…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-20T03:52:07Z",
+            "messageHeadline": "Clean distributable builds, Linux support, live recompiler fixes, rep…",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-08-19T15:21:53Z",
+            "messageHeadline": "GoldenEye 007: Recompiled — native macOS port",
+            "author": {
+              "user": {
+                "login": "cblock85"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".clang-format",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "BUILD_MACOS.md",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeSettings.json",
+        "type": "blob"
+      },
+      {
+        "name": "COPYING",
+        "type": "blob"
+      },
+      {
+        "name": "LiveGamecode",
+        "type": "tree"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "aspMain.us.toml",
+        "type": "blob"
+      },
+      {
+        "name": "assets",
+        "type": "tree"
+      },
+      {
+        "name": "build_linux.sh",
+        "type": "blob"
+      },
+      {
+        "name": "build_macos.sh",
+        "type": "blob"
+      },
+      {
+        "name": "data_dump.toml",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "dump.toml",
+        "type": "blob"
+      },
+      {
+        "name": "icons",
+        "type": "tree"
+      },
+      {
+        "name": "include",
+        "type": "tree"
+      },
+      {
+        "name": "launch.vs.json",
+        "type": "blob"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "make_macos_app.sh",
+        "type": "blob"
+      },
+      {
+        "name": "n64recomp-src",
+        "type": "tree"
+      },
+      {
+        "name": "patches.toml",
+        "type": "blob"
+      },
+      {
+        "name": "patches",
+        "type": "tree"
+      },
+      {
+        "name": "rsp",
+        "type": "tree"
+      },
+      {
+        "name": "shaders",
+        "type": "tree"
+      },
+      {
+        "name": "src",
+        "type": "tree"
+      },
+      {
+        "name": "tools_gen_live.py",
+        "type": "blob"
+      },
+      {
+        "name": "tools_weaken_patched.py",
+        "type": "blob"
+      },
+      {
+        "name": "us.toml",
+        "type": "blob"
+      },
+      {
+        "name": "vanilla_to_tlbfree.gep1",
+        "type": "blob"
+      },
+      {
+        "name": "vanilla_to_tlbfree.xdelta",
+        "type": "blob"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 7646,
+    "text": "# GoldenEye64Recomp\n\nA native **macOS and Linux** port of **GoldenEye 007 (N64)**, built from the\n[100%-complete decompilation](https://gitlab.com/kholdfuzion/goldeneye_src) via static\nrecompilation ([N64Recomp](https://github.com/N64Recomp/N64Recomp)) with the\n[RT64](https://github.com/rt64/rt64) renderer — Metal on macOS, Vulkan on Linux.\nBased on the [GoldenRecomp](https://github.com/kholdfuzion/goldenrecomp) project,\nwhich was previously Windows-only.\n\n**This is not an emulator.** The game's original MIPS code is translated into C (or\ninto machine code at launch, see below) and runs natively on your CPU — Apple\nSilicon, Intel, or x86-64 Linux. This is believed to be the first native macOS\nbuild of GoldenEye 007.\n\n## No Nintendo assets\n\nThis repository contains **no game code, no game assets, and no ROM data.** You\nmust own a retail GoldenEye 007 NTSC-U cartridge dump.\n\nWhat *is* committed is factual symbol data — function names, addresses and sizes\n(`dump.toml`, `data_dump.toml`) — plus original port code and a delta patch that\nrearranges *your own* dump into the modified \"TLBFREE\" ROM layout the\nrecompilation needs. Everything game-derived is produced on your machine, from\nyour ROM.\n\n## Requirements\n\n**Both platforms**\n\n- Your own GoldenEye 007 **NTSC-U** ROM dump, big-endian `.z64`,\n  sha1 `abe01e4aeb033b6c0836819f549c791b26cfde83`\n  (byteswapped `.v64` / `.n64` dumps are accepted and converted too)\n\n**macOS**\n\n- macOS 13+ (Apple Silicon or Intel)\n- Full Xcode, for the Metal shader compiler:\n  `sudo xcode-select -s /Applications/Xcode.app`\n  (Command Line Tools alone are not enough)\n- [Homebrew](https://brew.sh) — the build script installs the rest\n\n**Linux**\n\n- A Vulkan-capable GPU and drivers\n- `cmake ninja-build clang lld python3 libsdl2-dev libfreetype-dev libgtk-3-dev xdelta3`\n  (Debian/Ubuntu names; the build script checks and tells you what's missing)\n\n## Build\n\nThere are two build modes. Both need your ROM; they differ in *when* the game\ncode is generated.\n\n### Standard build\n\nThe game code is generated from your ROM at build time and compiled into the\nexecutable. Fastest to launch; the resulting binary is personal to you and\nshould not be redistributed.\n\n```bash\ngit clone --recurse-submodules https://github.com/cblock85/GoldenEye64Recomp.git\ncd GoldenEye64Recomp\ncp /path/to/your/goldeneye.z64 baserom.u.z64\n\n./build_macos.sh          # macOS\n./build_linux.sh          # Linux\n```\n\n(If you already cloned without `--recurse-submodules`, don't worry — the build\nscripts fetch what's missing. The `lib/ge` submodule is the decompilation, whose\nheaders the gameplay patches compile against.)\n\n### Clean build\n\nThe executable ships with **zero game-derived CPU code**. At first launch it\nrecompiles all ~3,000 game functions from your ROM in memory — about two seconds —\nusing N64Recomp's live recompiler. This is the variant suitable for distributing\nbinaries, since the app itself contains only original code plus symbol facts.\n\n```bash\n./build_macos.sh --clean  # macOS\n./build_linux.sh --clean  # Linux\n```\n\n(The audio microcode is still translated at build time, so a ROM is needed once\neven for a clean build.)\n\n### macOS app bundle\n\nOptional, wraps the binary into a double-clickable `.app` with an icon:\n\n```bash\n./make_macos_app.sh                          # standard build\n./make_macos_app.sh build-clean/GoldenRecomp # clean build\n```\n\n## Running\n\n```bash\n./build/GoldenRecomp          # standard build\n./build-clean/GoldenRecomp    # clean build\n```\n\nor open **GoldenEye 007 Recompiled.app** on macOS.\n\nOn first launch, pick your ROM in the picker — a plain retail NTSC-U dump works\ndirectly, and the app converts it for you. Settings and the stored ROM live in\n`~/Library/Application Support/GoldenRecomp` (macOS) or `~/.config/GoldenRecomp`\n(Linux); delete the stored `.z64` there if you ever want the ROM picker back.\n\n## State\n\n**Working:** the full intro (Nintendo and Rareware logos, gunbarrel), menus,\nfile select, briefings, missions, audio, controller support, frame interpolation\nto your display's refresh rate, and widescreen.\n\n**Known issues**, inherited from upstream GoldenRecomp and present in the Windows\nbuild too: skyboxes render black and water is flat (the game draws them with\ncustom microcode commands RT64 doesn't implement); the multiplayer UI is\nincomplete; some weapons fire too fast because the game runs at native 60Hz.\n\n**Region:** only NTSC-U (US) is supported. Other regions are rejected — the\nsymbol data here is generated against the US ROM. The decompilation supports EU,\nso PAL support is possible future work.\n\n## What was fixed to get here\n\nBeyond the macOS and Linux platform glue, this port surfaced and fixed a number\nof bugs affecting all platforms. Drafted upstream reports live in\n`docs/upstream-issues/`.\n\n**N64ModernRuntime**\n\n1. SP/DP task-completion messages were silently dropped when the game's scheduler\n   queue was full, wedging GoldenEye's renderer. Fixed with a FIFO pending queue\n   in `ultramodern/src/mesgqueue.cpp`.\n\n**RT64**\n\n2. Specialized (spec-constant) raster shaders produce broken output on the\n   SPIRV/Metal shader paths, so any geometry using them silently vanished — no\n   character models, no weapon in hand. Worked around by forcing the ubershader\n   path (`ubershadersOnly` in `rt64_workload_queue.h`).\n3. Frame interpolation interpolated *rotation* unconditionally (a `FIXME` in\n   tree), so mismatched transform pairs swept garbage geometry across the screen\n   for a frame every few seconds while moving. Added a teleport guard mirroring\n   the existing translation heuristic (`rt64_rigid_body.cpp`).\n\n**N64Recomp (static)**\n\n4. The game's `cosf` is a 3-instruction stub that *falls through* into `sinf`\n   (`cos(x) = sin(x + pi/2)`). N64Recomp truncates functions at the fallthrough\n   boundary, so `cosf` returned stale garbage — breaking every CPU-built rotation\n   matrix in the game (the Nintendo logo zoomed past the camera; Bond was a white\n   triangle in the gunbarrel). Repaired post-generation in\n   `tools_weaken_patched.py`.\n\n**N64Recomp (live recompiler)** — found while making the clean build work:\n\n5. Odd-indexed single FPR accesses (`mtc1 $f5`, …) hit a `TODO`/`assert` that\n   compiles out in release builds, returning context offset `-1` and silently\n   corrupting memory. Implemented properly via the runtime `f_odd` pointer.\n6. `mtc1` emitted a full-width 64-bit move into a 32-bit float-word slot,\n   clobbering the adjacent half of the FPR pair — corrupting any double built\n   high-half-first, which is what GoldenEye's audio synthesizer does.\n7. Jump-table analysis assumed jump tables live in the same section as the\n   function using them; GoldenEye keeps game-code jump tables in its data\n   segment, which crashed the analyzer.\n\n## Credits\n\n- The [GoldenEye decompilation](https://gitlab.com/kholdfuzion/goldeneye_src) team — 100% as of 2026-08-17\n- [kholdfuzion](https://github.com/kholdfuzion)'s GoldenRecomp — the Windows recomp this port builds on\n- [Mr-Wiseguy](https://github.com/Mr-Wiseguy) — N64Recomp, N64ModernRuntime, and the recomp technique\n- [RT64](https://github.com/rt64/rt64) — the renderer\n- macOS/Linux port, bug fixes, live-recompilation mode, and in-app ROM conversion\n\n## License\n\nThe port code and build scripts follow the licenses of the projects they extend\n(see `COPYING` and the license files under `lib/`). No Nintendo, Rare, Danjaq, or\nEON material is included; GoldenEye 007 is their property. This project exists for\npreservation and interoperability, and requires you to supply your own legally\nobtained ROM.\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

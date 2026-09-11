@@ -1,0 +1,309 @@
+{
+  "nameWithOwner": "BinhPQ2/master-thesis",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-08-10T15:53:01Z",
+  "pushedAt": "2026-09-06T19:57:12Z",
+  "diskUsage": 3510,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "Apache-2.0"
+  },
+  "primaryLanguage": {
+    "name": "Jupyter Notebook"
+  },
+  "languages": {
+    "totalSize": 1506221,
+    "edges": [
+      {
+        "size": 1470373,
+        "node": {
+          "name": "Jupyter Notebook"
+        }
+      },
+      {
+        "size": 35848,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "BinhPQ2",
+    "__typename": "User",
+    "createdAt": "2021-04-24T06:58:50Z",
+    "repositories": {
+      "totalCount": 20
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 22,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T19:57:09Z",
+            "messageHeadline": "Rework to only delete beginning and last cover.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-06T14:04:56Z",
+            "messageHeadline": "Update log system.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T20:26:23Z",
+            "messageHeadline": "Update the missing chapter code.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T18:42:39Z",
+            "messageHeadline": "Improved the matched filter algorithm.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T10:14:47Z",
+            "messageHeadline": "Change name of matched-only directory variable.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-08T21:58:10Z",
+            "messageHeadline": "Add logging system for unduped procress.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-08T21:22:50Z",
+            "messageHeadline": "Add deduped script. Update requirement file.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-01T13:55:44Z",
+            "messageHeadline": "Add merge csv script.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-29T15:22:20Z",
+            "messageHeadline": "Improve progress bar for fix VI ocr pipeline.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-29T15:05:49Z",
+            "messageHeadline": "Finish python script. Done progcess for raw_data_finished.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-23T19:15:46Z",
+            "messageHeadline": "Add google lens. Add config file. Complete Magi Vi pipline.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-15T21:10:36Z",
+            "messageHeadline": "Create a centralized config file.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-03-15T20:58:42Z",
+            "messageHeadline": "Add script to compare similarity between 2 pic. Improve magi script.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-30T04:03:54Z",
+            "messageHeadline": "Add a small code to move remaining valid manga to a different folder.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-11-05T11:21:36Z",
+            "messageHeadline": "Add script to filter out missing titles, missing chapters and missing…",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-10-11T21:23:12Z",
+            "messageHeadline": "Add library to requirement.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-10-11T21:01:02Z",
+            "messageHeadline": "Add script to crawl valid manga from mangadex.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-27T02:29:23Z",
+            "messageHeadline": "Add PaddleOCR.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-26T22:42:26Z",
+            "messageHeadline": "Add ocr script.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          },
+          {
+            "committedDate": "2025-09-07T20:48:07Z",
+            "messageHeadline": "Add magi script.",
+            "author": {
+              "user": {
+                "login": "BinhPQ2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "data",
+        "type": "tree"
+      },
+      {
+        "name": "dir_config.py",
+        "type": "blob"
+      },
+      {
+        "name": "mangadexdl_checkpoint",
+        "type": "tree"
+      },
+      {
+        "name": "models",
+        "type": "tree"
+      },
+      {
+        "name": "paddleocr_requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "results",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "utils",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 1224,
+    "text": "# Master Thesis\n\nThis repository contains code and resources for my master thesis project.\n\n## Command to update requirement file\n\n`pip list --format=freeze > requirements.txt`\n\n## Environment\n\n- **CUDA version:** 12.9\n\n## PyTorch Installation\n\nBasic Conda environment:\n\n```\nconda create -n paddleocr python=3.10 notebook\n```\n\nTo install the correct version of PyTorch for CUDA 12.9, run:\n\n```bash\npip uninstall torch torchvision torchaudio\npip install torch torchvision --index-url https://download.pytorch.org/whl/cu129\n```\n\nInstall PaddleOCR:\n\n```\npip install paddlepaddle-gpu==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu129/\npip install paddleocr==3.1.1\npip uninstall paddlex && pip install paddlex==3.1.1\npip install -r paddleocr_requirements.txt\n```\n\n## Code Formatting\n\nTo keep the code clean and consistent, use [Black](https://black.readthedocs.io/en/stable/getting_started.html):\n\n```\nblack {source_file_or_directory}\n```\n\nor\n\n```\npython -m black {source_file_or_directory}\n```\n\n## Environment Structure\n\n- Use `master-thesis-magi-v2` to run magi v2 pipeline.\n- Use `easyocr-vietocr` for any task requires easyocr or vietocr.\n- Use `paddleocr` to run PaddleOCR pipeline.\n\n## File Structure\n\n- TODO\n"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

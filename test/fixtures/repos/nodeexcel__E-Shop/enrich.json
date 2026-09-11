@@ -1,0 +1,166 @@
+{
+  "nameWithOwner": "nodeexcel/E-Shop",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2024-07-05T14:07:57Z",
+  "pushedAt": "2026-08-26T12:22:42Z",
+  "diskUsage": 384,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 143548,
+    "edges": [
+      {
+        "size": 76247,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 32915,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 23571,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 10815,
+        "node": {
+          "name": "SCSS"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 1
+  },
+  "owner": {
+    "login": "nodeexcel",
+    "__typename": "User",
+    "createdAt": "2017-04-12T07:11:24Z",
+    "repositories": {
+      "totalCount": 144
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 7,
+        "nodes": [
+          {
+            "committedDate": "2024-07-22T06:56:00Z",
+            "messageHeadline": "Merge pull request #1 from nodeexcel/eshop/1002",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-22T06:55:45Z",
+            "messageHeadline": "Merge pull request #2 from nodeexcel/eshop/1003",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-11T08:11:34Z",
+            "messageHeadline": "modified Readme file and added instruction",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-11T08:03:43Z",
+            "messageHeadline": "added product functionality",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-05T14:11:05Z",
+            "messageHeadline": "Merge branch 'eshop/1001' of https://github.com/nodeexcel/E-Shop",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-05T14:09:53Z",
+            "messageHeadline": "added Initial code of Auth",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          },
+          {
+            "committedDate": "2024-07-05T14:07:57Z",
+            "messageHeadline": "Initial commit",
+            "author": {
+              "user": {
+                "login": "nodeexcel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "eShop",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 505,
+    "text": "# eShop\n\nAngular 10, node express Ecommerce Application with NGRX state management\n\n## Get started\n\n### Clone the repo\n\n```shell\nhttps://github.com/nodeexcel/E-Shop.git\ncd eShop\n```\n\n### Install npm packages\n\nInstall the `npm` packages described in the `package.json` and verify that it works:\n\n```shell\nnpm install\n```\n\n## Start the frontend Angular Application\n```shell\nnpm run start\n```\n\n\n## Run Server\n\n```shell\nnodemon server.js\n```\n\n## Create a .env file, \nDBURL=yourmongodburl\n\nJWTSECRET=yoursecret"
+  },
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

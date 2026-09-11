@@ -1,0 +1,42 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:11:35Z",
+  "nwo": "HUIXI-AI/RhinoForge",
+  "set": "hardPositives",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S5_cpp_month",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 10517,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": null,
+    "band": null,
+    "minS": null,
+    "maxS": null,
+    "gates": []
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 10517,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:11:35Z",
+    "deep": true,
+    "files": [
+      "pyproject.toml"
+    ],
+    "treeEntries": 426,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 7,
+    "stars": true
+  }
+}

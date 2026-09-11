@@ -1,0 +1,371 @@
+{
+  "id": "R_kgDOUSYTbA",
+  "nameWithOwner": "harsiithjoshi2007/igniscontrol",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2026-09-08T13:50:43Z",
+  "pushedAt": "2026-09-08T13:59:14Z",
+  "diskUsage": 29814,
+  "stargazerCount": 2,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": {
+    "spdxId": "MIT"
+  },
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "languages": {
+    "totalSize": 1170965,
+    "edges": [
+      {
+        "size": 976809,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 149464,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 19303,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 16768,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 5713,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 2836,
+        "node": {
+          "name": "Batchfile"
+        }
+      },
+      {
+        "size": 72,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "harsiithjoshi2007",
+    "__typename": "User",
+    "createdAt": "2025-11-08T13:53:54Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 24,
+        "nodes": [
+          {
+            "committedDate": "2026-09-08T13:59:10Z",
+            "messageHeadline": "Add MIT License",
+            "author": {
+              "user": {
+                "login": "harsi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-08T13:32:32Z",
+            "messageHeadline": "Document IgnisControl setup and clean repository for GitHub upload",
+            "author": {
+              "user": {
+                "login": "harsi"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:31:45Z",
+            "messageHeadline": "Add agent assets metadata configuration file",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:25:22Z",
+            "messageHeadline": "Add dataset route handlers to API server",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:19:26Z",
+            "messageHeadline": "Mark FIRMS setup steps as done once user completes each one",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:14:23Z",
+            "messageHeadline": "Add copy button for API server restart command in FIRMS setup panel",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:10:27Z",
+            "messageHeadline": "Add numbered step tracker to FIRMS setup panel in LiveFires page",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:08:01Z",
+            "messageHeadline": "Add copy-to-clipboard button to FIRMS_MAP_KEY code block in Live Fire…",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:08:01Z",
+            "messageHeadline": "Git commit prior to merge",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T16:05:42Z",
+            "messageHeadline": "Point FIRMS setup links to NASA MAP_KEY request form",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T15:46:45Z",
+            "messageHeadline": "Add dataset versioning and improve API route error handling across da…",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T15:15:30Z",
+            "messageHeadline": "Add file upload validation and error handling to DatasetUploadDialog",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T15:12:18Z",
+            "messageHeadline": "Add model filtering and enhanced dashboard display with improved mode…",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T15:04:52Z",
+            "messageHeadline": "Enhance API server with model routes and update dependencies",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:52:08Z",
+            "messageHeadline": "Add live fires API endpoint with generated schemas and client bindings",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:41:06Z",
+            "messageHeadline": "Add dataset upload functionality with API endpoint and improved UI co…",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:33:53Z",
+            "messageHeadline": "Refactor API route handlers to consolidate shared logic and improve r…",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:14:15Z",
+            "messageHeadline": "Update Vite config, add VS Code workspace settings, and install depen…",
+            "author": {
+              "user": {
+                "login": "replit-agent"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:07:11Z",
+            "messageHeadline": "Implement backend API & ML engine with embedded PGlite database",
+            "author": {
+              "user": null
+            }
+          },
+          {
+            "committedDate": "2026-07-13T14:07:11Z",
+            "messageHeadline": "Git commit prior to merge",
+            "author": {
+              "user": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".env.example",
+        "type": "blob"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".npmrc",
+        "type": "blob"
+      },
+      {
+        "name": ".replit",
+        "type": "blob"
+      },
+      {
+        "name": ".replitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".vscode",
+        "type": "tree"
+      },
+      {
+        "name": "AI_Wildfire_Prediction_210425244015.pptx",
+        "type": "blob"
+      },
+      {
+        "name": "LICENSE",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "artifacts",
+        "type": "tree"
+      },
+      {
+        "name": "attached_assets",
+        "type": "tree"
+      },
+      {
+        "name": "lib",
+        "type": "tree"
+      },
+      {
+        "name": "package.json",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-lock.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "pnpm-workspace.yaml",
+        "type": "blob"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "blob"
+      },
+      {
+        "name": "screenshots",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      },
+      {
+        "name": "start.cmd",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.base.json",
+        "type": "blob"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "blob"
+      },
+      {
+        "name": "video_assets",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 24676,
+    "text": "# IgnisControl — AI Wildfire Prediction System\n\nA full-stack web application for wildfire risk modeling: upload tabular (CSV) or image datasets, preprocess them, train scikit-learn classification models (Random Forest, SVM, Neural Network, and more), run risk predictions, and explore live satellite fire detections, fire-spread simulations, and resource-prioritization recommendations — all from a clean dark-themed dashboard.\n\nThe system pairs a **React + Vite** frontend with an **Express** API that shells out to **Python (scikit-learn)** for every machine-learning job. Data is stored in **MySQL** through **Drizzle ORM**.\n\n---\n\n## Table of contents\n\n- [Features](#features)\n- [Screenshots](#screenshots)\n- [Tech stack](#tech-stack)\n- [Architecture overview](#architecture-overview)\n- [Project structure](#project-structure)\n- [Prerequisites](#prerequisites)\n- [Database setup](#database-setup)\n- [Installation](#installation)\n- [Running the app](#running-the-app)\n  - [Development mode (hot reload)](#development-mode-hot-reload)\n  - [Production / offline single-command run](#production--offline-single-command-run)\n  - [Windows one-click launcher](#windows-one-click-launcher)\n- [Configuration](#configuration)\n  - [Environment variables](#environment-variables)\n  - [Python interpreter detection](#python-interpreter-detection)\n- [The ML pipeline](#the-ml-pipeline)\n  - [Dataset kinds](#dataset-kinds)\n  - [Supported algorithms](#supported-algorithms)\n  - [Preprocessing](#preprocessing)\n  - [Metrics](#metrics)\n- [API reference](#api-reference)\n- [Code generation (OpenAPI → Zod → React hooks)](#code-generation-openapi--zod--react-hooks)\n- [Useful commands](#useful-commands)\n- [Troubleshooting & FAQ](#troubleshooting--faq)\n- [VSCode setup](#vscode-setup)\n- [License](#license)\n\n---\n\n## Features\n\n**End-to-end ML workflow (no Jupyter needed)**\n\n- Upload **CSV datasets** (paste or batch-upload multiple at once) or **image datasets** (drag-and-drop, per-image class labels), or **combined** CSV + image datasets.\n- One-click **\"Create fire-risk labels\"** on a CSV that contains an `area` column — it derives a binary `fire_risk` label (`1` when `area > 0`).\n- **Preprocess** CSV datasets from the UI: missing-value handling, outlier capping/removal (IQR or Z-score), categorical encoding (label/one-hot), feature scaling (standard/min-max/robust), and class balancing (SMOTE). Every run produces a **proof report** (before/after shapes, column stats) so you can audit the transformation.\n- **Train** one or several models in parallel on a chosen target column with selectable feature columns and test-split size. A data-driven **configuration suggestion** panel recommends a model name, algorithm, split size, target, and features based on the dataset.\n- **Run predictions** with a trained model against any compatible dataset; results include per-row risk, a high-risk count, and a risk summary.\n- Inspect **model quality** in depth: accuracy, precision, recall, F1, ROC/AUC curve, confusion matrix, and feature-importance charts.\n- Image models train on locally extracted image features (color histograms, spatial statistics, fire-specific color ratios) — no external downloads required.\n\n**Geospatial & decision-support tools**\n\n- **Live Fires map** — near-real-time active-fire detections from **NASA FIRMS** (VIIRS & MODIS) with risk classification based on Fire Radiative Power (FRP) and detection confidence, filterable by time window, satellite, and risk level.\n- **Fire Spread simulator** — click ignition points on a map, set wind/temperature/humidity/terrain/fuel parameters, and get projected spread perimeters over 1–72 hours, plus fire-behavior summaries. Save/load scenarios and compare them side by side.\n- **Resource Prioritization** — ranks fire detections by urgency and recommends allocation of firefighting resources.\n- **Dashboard** — aggregate stats: datasets/models/predictions counts, best model accuracy, high-risk zones detected, recent activity, and algorithm breakdown.\n\n---\n\n## Screenshots\n\n| Dashboard | Datasets | Train model |\n|-\n\n```\n┌────────────────────────────────────────────────────────────────────┐\n│  Browser                                                        │\n│  React + Vite SPA (dark UI)                                      │\n│  React Query  ·  Recharts  ·  Leaflet                            │\n└───────────────────────────────┬────────────────────────────────────┘\n                                │  /api/* (dev: Vite proxy → :3001)\n                                ▼\n┌────────────────────────────────────────────────────────────────────┐\n│  Express API server (TypeScript → esbuild bundle)                │\n│  routes: health · dashboard · datasets · models · predictions    │\n│          live-fires · fire-spread                                │\n│  validation: generated Zod schemas                               │\n├────────────────────────────────────────────────────────────────────┤\n│  Drizzle ORM + mysql2                     Python ML engine        │\n│  MySQL database                             (child_process)       │\n│  tables: datasets · models · predictions    train / predict /     │\n│                                             preprocess / spread / │\n│                                             prioritize            │\n└────────────────────────────────────────────────────────────────────┘\n```\n```\n├── package.json                 # workspace root scripts (dev, offline, build, typecheck)\n├── pnpm-workspace.yaml          # workspace definition + catalog + supply-chain settings\n├── tsconfig.base.json           # shared TypeScript base config\n├── requirements.txt             # Python ML dependencies (scikit-learn, pandas, …)\n├── .env.example                 # documented template for environment variables\n├── start.cmd                    # Windows one-click launcher\n│\n├── artifacts/\n│   ├── api-server/              # @workspace/api-server — Express 5 API + Python ML engine\n│   │   ├── build.mjs            # esbuild bundler (ESM, source maps, pino plugin)\n│   │\n│\n│\n```\n```sql\nCREATE DATABASE igniscontrol CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\n```\n```\nDATABASE_URL=mysql://user:password@localhost:3306/igniscontrol\n```\n```bash\n# 1. Install Node.js workspace dependencies (from the repo root)\npnpm install\n\n```\n> On Windows, `start.cmd` performs both install steps for you.\n```bash\npnpm dev\n```\n```bash\n# Terminal 1 — API server (port 3001)\npnpm --filter @workspace/api-server run dev\n\n```\n```bash\npnpm run offline\n```\n```bash\n# Linux / macOS\nPORT=8080 pnpm run offline\n\n```\nDouble-click **`start.cmd`** or run it from a terminal:\n```bat\nstart.cmd\n```\n```bash\ncp .env.example .env    # Linux / macOS\ncopy .env.example .env  # Windows\n```\n```bash\n# Linux / macOS\nPYTHON_PATH=/usr/bin/python3.11 pnpm run offline\n\nset PYTHON_PATH=C:\\Python311\\python.exe && pnpm run offline\n```\n```bash\npnpm --filter @workspace/api-spec run codegen\n```\n```bash\npnpm dev                    # Dev mode, hot reload (API :3001 + web :5173)\npnpm run offline            # Build everything + start on a single port (:3000)\npnpm typecheck              # Type-check all packages\n```\n```bash\n# Frontend only\npnpm --filter @workspace/wildfire-app run dev       # Vite dev server (:5173)\npnpm --filter @workspace/wildfire-app run build     # Production build\n\n```"
+  },
+  "pkg": {
+    "byteSize": 894,
+    "text": "{\n  \"name\": \"workspace\",\n  \"version\": \"0.0.0\",\n  \"license\": \"MIT\",\n  \"scripts\": {\n    \"preinstall\": \"node scripts/preinstall.cjs\",\n    \"dev\": \"concurrently --kill-others-on-fail -n api,web -c cyan,yellow \\\"cross-env PORT=3001 pnpm --filter @workspace/api-server run dev\\\" \\\"cross-env API_PORT=3001 pnpm --filter @workspace/wildfire-app run dev\\\"\",\n    \"offline\": \"node scripts/start-offline.mjs\",\n    \"build\": \"pnpm run typecheck && pnpm -r --if-present run build\",\n    \"typecheck:libs\": \"tsc --build\",\n    \"typecheck\": \"pnpm run typecheck:libs && pnpm -r --filter \\\"./artifacts/**\\\" --filter \\\"./scripts\\\" --if-present run typecheck\"\n  },\n  \"private\": true,\n  \"dependencies\": {\n    \"@replit/connectors-sdk\": \"^0.4.1\",\n    \"playwright\": \"^1.61.1\"\n  },\n  \"devDependencies\": {\n    \"concurrently\": \"^10.0.3\",\n    \"cross-env\": \"catalog:\",\n    \"prettier\": \"^3.9.4\",\n    \"typescript\": \"~5.9.3\"\n  }\n}\n"
+  },
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,202 @@
+{
+  "fundingLinks": [],
+  "owner": {
+    "hasSponsorsListing": false,
+    "contributionsCollection": {
+      "contributionYears": [
+        2026,
+        2025
+      ]
+    }
+  },
+  "releases": {
+    "totalCount": 8,
+    "nodes": [
+      {
+        "tagName": "v0.8.0",
+        "publishedAt": "2026-08-25T22:41:14Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.7.0",
+        "publishedAt": "2026-08-25T21:13:16Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.6.0",
+        "publishedAt": "2026-08-24T10:12:12Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.5.0",
+        "publishedAt": "2026-08-22T23:51:40Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.4.2",
+        "publishedAt": "2026-08-22T16:43:17Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.4.1",
+        "publishedAt": "2026-08-21T01:02:51Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.3.1",
+        "publishedAt": "2026-08-20T16:07:46Z",
+        "isPrerelease": false
+      },
+      {
+        "tagName": "v0.3.0",
+        "publishedAt": "2026-08-20T15:20:52Z",
+        "isPrerelease": false
+      }
+    ]
+  },
+  "issues": {
+    "nodes": [
+      {
+        "createdAt": "2026-08-25T20:57:46Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T20:57:29Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T20:57:13Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-24T09:50:08Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:53:38Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:53:25Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:53:07Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:52:53Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:52:35Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-23T02:52:20Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      }
+    ]
+  },
+  "pullRequests": {
+    "nodes": [
+      {
+        "createdAt": "2026-09-01T16:42:35Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-09-01T16:42:31Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-08-29T16:33:06Z",
+        "author": {
+          "login": "dependabot"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T22:20:32Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T11:15:48Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T11:01:37Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T10:52:38Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T10:45:17Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T10:39:44Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      },
+      {
+        "createdAt": "2026-08-25T10:39:30Z",
+        "author": {
+          "login": "montezuma-p",
+          "createdAt": "2025-06-08T22:31:44Z"
+        }
+      }
+    ]
+  }
+}

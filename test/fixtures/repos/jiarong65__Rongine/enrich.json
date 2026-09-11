@@ -1,0 +1,320 @@
+{
+  "id": "R_kgDOQS3Xlg",
+  "nameWithOwner": "jiarong65/Rongine",
+  "description": null,
+  "homepageUrl": null,
+  "createdAt": "2025-11-10T13:42:40Z",
+  "pushedAt": "2026-09-06T14:30:18Z",
+  "diskUsage": 8468,
+  "stargazerCount": 15,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "C++"
+  },
+  "languages": {
+    "totalSize": 501312,
+    "edges": [
+      {
+        "size": 425511,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 54368,
+        "node": {
+          "name": "GLSL"
+        }
+      },
+      {
+        "size": 12155,
+        "node": {
+          "name": "CMake"
+        }
+      },
+      {
+        "size": 7647,
+        "node": {
+          "name": "Lua"
+        }
+      },
+      {
+        "size": 1087,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 544,
+        "node": {
+          "name": "Batchfile"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "jiarong65",
+    "__typename": "User",
+    "createdAt": "2023-04-30T14:15:12Z",
+    "repositories": {
+      "totalCount": 13
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 121,
+        "nodes": [
+          {
+            "committedDate": "2026-09-06T14:30:09Z",
+            "messageHeadline": "add pcss shadow",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T07:33:19Z",
+            "messageHeadline": "Add rendering pipeline handoff and roadmap docs",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-05T07:33:12Z",
+            "messageHeadline": "Auto-fetch OCCT prebuilt and drop MSVC build config",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:31:10Z",
+            "messageHeadline": "Switch UI theme",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:19:36Z",
+            "messageHeadline": "Fix 'alt' focus switching",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-04T13:08:58Z",
+            "messageHeadline": "P0: enable C++20 module build and migrate Math to Rongine.Math",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T15:32:08Z",
+            "messageHeadline": "Fix the event system under a multithreaded architecture",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-06-03T15:12:24Z",
+            "messageHeadline": "Use submit to submit gl command in OnUpdate",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-05-28T14:46:44Z",
+            "messageHeadline": "added Render Thread",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-04-13T16:11:12Z",
+            "messageHeadline": "refactor(renderer): 引入 UBO、管线状态、渲染图与材质层",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-07T15:30:59Z",
+            "messageHeadline": "feat(cad): 重构 NURBS 建模核心以支持尖点(Sharp)与任意位置插值",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-07T11:21:55Z",
+            "messageHeadline": "feat(cad): 实现NURBS曲线建模全流程：从核心算法到交互编辑",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-01T15:03:50Z",
+            "messageHeadline": "Fix: 修复 RGB 光追管线材质 SSBO 对齐错误及数据错乱问题",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-02-01T14:41:55Z",
+            "messageHeadline": "Feat & Opt: 重构物理材质系统",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-28T15:38:11Z",
+            "messageHeadline": "Feat & Opt: 实现 BVH 加速结构、优化光追管线并增强高精度模型渲染稳定性",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-28T10:14:57Z",
+            "messageHeadline": "添加光谱材质拖拽",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-28T06:55:23Z",
+            "messageHeadline": "Feat: 集成可见光光谱路径追踪管线与材质拖拽系统",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-27T14:57:20Z",
+            "messageHeadline": "Feat: 完整实现可见光光谱路径追踪管线与编辑器集成",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-27T10:47:33Z",
+            "messageHeadline": "备份",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-01-27T03:56:07Z",
+            "messageHeadline": "feat(raytracing): 实现时间累积 (Temporal Accumulation) 与抗锯齿",
+            "author": {
+              "user": {
+                "login": "jiarong65"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": ".gitmodules",
+        "type": "blob"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "blob"
+      },
+      {
+        "name": "Directory.Build.props",
+        "type": "blob"
+      },
+      {
+        "name": "Rongine-Editor",
+        "type": "tree"
+      },
+      {
+        "name": "Rongine",
+        "type": "tree"
+      },
+      {
+        "name": "Sandbox",
+        "type": "tree"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "premake5.lua",
+        "type": "blob"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": null,
+  "pkg": null,
+  "agents": null,
+  "claude": null
+}

@@ -1,0 +1,133 @@
+{
+  "nameWithOwner": "maasho/voltage-africa-ai-ap",
+  "description": "voltage-africa-ai-op",
+  "homepageUrl": null,
+  "createdAt": "2026-09-10T11:58:44Z",
+  "pushedAt": "2026-09-10T17:24:46Z",
+  "diskUsage": 245,
+  "stargazerCount": 0,
+  "forkCount": 0,
+  "isFork": false,
+  "isArchived": false,
+  "isTemplate": false,
+  "isMirror": false,
+  "hasIssuesEnabled": true,
+  "licenseInfo": null,
+  "primaryLanguage": {
+    "name": "Python"
+  },
+  "languages": {
+    "totalSize": 10354,
+    "edges": [
+      {
+        "size": 10354,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ]
+  },
+  "repositoryTopics": {
+    "nodes": []
+  },
+  "releases": {
+    "totalCount": 0
+  },
+  "tags": {
+    "totalCount": 0
+  },
+  "watchers": {
+    "totalCount": 0
+  },
+  "owner": {
+    "login": "maasho",
+    "__typename": "User",
+    "createdAt": "2020-01-15T11:53:20Z",
+    "repositories": {
+      "totalCount": 4
+    }
+  },
+  "defaultBranchRef": {
+    "name": "main",
+    "target": {
+      "history": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "committedDate": "2026-09-10T17:26:27Z",
+            "messageHeadline": "Install selected skills and run first Voltage Africa pilot",
+            "author": {
+              "user": {
+                "login": "maasho"
+              }
+            }
+          },
+          {
+            "committedDate": "2026-09-10T12:16:24Z",
+            "messageHeadline": "Build Voltage Africa agent team with localized skills and learning wo…",
+            "author": {
+              "user": {
+                "login": "maasho"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "root": {
+    "entries": [
+      {
+        "name": ".agents",
+        "type": "tree"
+      },
+      {
+        "name": ".gitattributes",
+        "type": "blob"
+      },
+      {
+        "name": ".github",
+        "type": "tree"
+      },
+      {
+        "name": ".gitignore",
+        "type": "blob"
+      },
+      {
+        "name": "AGENTS.md",
+        "type": "blob"
+      },
+      {
+        "name": "README.md",
+        "type": "blob"
+      },
+      {
+        "name": "docs",
+        "type": "tree"
+      },
+      {
+        "name": "marketing-team",
+        "type": "tree"
+      },
+      {
+        "name": "memory",
+        "type": "tree"
+      },
+      {
+        "name": "scripts",
+        "type": "tree"
+      }
+    ]
+  },
+  "wf": null,
+  "readme": {
+    "name": "README.md",
+    "byteSize": 2108,
+    "text": "# Voltage Africa AI Operations\n\nAgenten-Team für [Voltage Africa](https://www.voltage-africa.com/): lokale Dienstleistungsvermittlung, Technikerprofile, Scouts, Vertrauen und mehrsprachige Sichtbarkeit.\n\n23 Rollen mit 31 Skills (25 eigene und sechs externe): 15 übertragene Fachrollen, fünf zusätzliche Agency-Agents-Rollen und drei speziell geschriebene Rollen für Vermittlung, Lokalisierung und Vertrauensprüfung. Alle folgen dem [Senior-Standard](docs/SENIOR-STANDARD.md) mit dem angestrebten Urteilsniveau von 20 Jahren Berufserfahrung; dies ist keine reale Biografie.\n\n## Einstieg\n\n1. [Website-Kontext](docs/WEBSITE-CONTEXT.md) und [Team](marketing-team/TEAM.md) lesen.\n2. Issue über die Agenten-Auftragsvorlage anlegen und die passende Rolle aus [Skills](docs/SKILLS.md) wählen.\n3. Auftrag im Checkout dieses Repositorys mit dem ausführenden Agenten-Werkzeug starten.\n4. Ergebnis prüfen und neue Erkenntnisse im [Projektwissen](memory/INDEX.md) dokumentieren.\n\nErster Auftrag: [lokaler Vermittlungs-Pilot](docs/PILOT.md). Weitere geprüfte Kandidaten: [GitHub-Recherche](docs/REPOSITORY-RESEARCH.md).\n\n## Status und Prüfung\n\nRollen, Skills und Lernprozess sind eingerichtet; automatische Ausführung, Website-Deployment und Kontozugriffe sind nicht eingerichtet. Struktur prüfen: python scripts/validate_skills.py. Die 23 fachlichen Prüffälle sind vorbereitet, nicht ausgeführt.\n\n## Herkunft\n\nGrundstruktur aus maasho/bess-market-ai-ops, fachlich für Voltage Africa überarbeitet. 20 Rollen basieren auf [Agency Agents](https://github.com/msitarzewski/agency-agents), MIT-Lizenz unter marketing-team/agents/LICENSE. Details in [Herkunft](docs/PROVENANCE.md).\n\n## Externe Skills installiert\n\nAktueller Installationsstand: [Pakete und Zuordnung](docs/INSTALLED-SKILLS.md). Der frühere Recherchebericht beschreibt den Auswahlstand vor der Installation.\n\n## Erster Arbeitslauf\n\nDer [Voltage-Pilot vom 2026-09-10](marketing-team/reports/pilot/2026-09-10-summary.md) enthält die ersten SEO-, Vertrauens- und Anfrageweg-Befunde. Websiteänderungen und Backendtests wurden nicht ausgeführt.\n"
+  },
+  "pkg": null,
+  "agents": {
+    "byteSize": 2902
+  },
+  "claude": null
+}

@@ -1,0 +1,50 @@
+{
+  "source": "recorded",
+  "recordedAt": "2026-09-11T15:22:23Z",
+  "nwo": "montezuma-p/harken",
+  "set": "seedGems",
+  "label": "G",
+  "stratum": "search",
+  "sample": "S6_mcp",
+  "researchRecordedAt": "2026-09-11T14:17:04Z",
+  "researchReadme": {
+    "name": "README.md",
+    "originalBytes": 10900,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "expect": {
+    "lane": [
+      "promising",
+      "proven",
+      "rising"
+    ],
+    "band": "gem",
+    "minS": 7,
+    "maxS": null,
+    "gates": [],
+    "note": "gained 13 stars in the four weeks before recording, so §6.7 rule 5 may make it rising"
+  },
+  "readme": {
+    "name": "README.md",
+    "originalBytes": 10900,
+    "keptBytes": 8192,
+    "excerpt": true
+  },
+  "labelledSnapshot": "enrich.research.json",
+  "deep": {
+    "recordedAt": "2026-09-11T15:22:23Z",
+    "deep": true,
+    "files": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/commits.yml",
+      ".github/workflows/release.yml",
+      "Cargo.toml"
+    ],
+    "treeEntries": 85,
+    "treeTruncated": false,
+    "treeCapped": false,
+    "activityEvents": 99,
+    "stars": true
+  }
+}
